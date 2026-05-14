@@ -6,3625 +6,4897 @@
       "id": "antiair5b",
       "name": "AAA Batallions",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": []
     },
     {
       "id": "air_burst_charges",
       "name": "Air Burst Charges",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": []
     },
     {
       "id": "interwar_antiair_a",
       "name": "Anti-Air Ammuntion Production",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": []
     },
     {
       "id": "antiair2a",
       "name": "Anti-Air Camouflage",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": []
     },
     {
       "id": "interwar_antitank_a",
       "name": "Anti-Tank Ammunition Production",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": []
     },
     {
       "id": "antitank2a",
       "name": "Anti-Tank Camouflage",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": []
     },
     {
       "id": "antiair1",
       "name": "Antiair1",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": [
+        "antiair2"
+      ]
     },
     {
       "id": "antiair2",
       "name": "Antiair2",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": [
+        "antiair3"
+      ]
     },
     {
       "id": "antiair3",
       "name": "Antiair3",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": [
+        "antiair4"
+      ]
     },
     {
       "id": "antiair4",
       "name": "Antiair4",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": [
+        "antiair5"
+      ]
     },
     {
       "id": "antiair5",
       "name": "Antiair5",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": [
+        "antiair5a"
+      ]
     },
     {
       "id": "antitank1",
       "name": "Antitank1",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": [
+        "antitank2"
+      ]
     },
     {
       "id": "antitank2",
       "name": "Antitank2",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": [
+        "antitank3"
+      ]
     },
     {
       "id": "antitank3",
       "name": "Antitank3",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": [
+        "antitank4"
+      ]
     },
     {
       "id": "antitank4",
       "name": "Antitank4",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": [
+        "antitank5"
+      ]
     },
     {
       "id": "antitank5",
       "name": "Antitank5",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": [
+        "antitank5a"
+      ]
     },
     {
       "id": "artillery4a",
       "name": "Artillery Supply Vehicles",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": []
     },
     {
       "id": "artillery1",
       "name": "Artillery1",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": [
+        "artillery2"
+      ]
     },
     {
       "id": "artillery2",
       "name": "Artillery2",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": [
+        "artillery3"
+      ]
     },
     {
       "id": "artillery3",
       "name": "Artillery3",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": [
+        "artillery4"
+      ]
     },
     {
       "id": "artillery4",
       "name": "Artillery4",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": [
+        "artillery5"
+      ]
     },
     {
       "id": "artillery5",
       "name": "Artillery5",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": []
     },
     {
       "id": "SWE_bofors_antitank_gun",
       "name": "Bofors Antitank Gun",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": []
     },
     {
       "id": "gw_artillery",
       "name": "Gw Artillery",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": [
+        "interwar_artillery"
+      ]
     },
     {
       "id": "antitank5a",
       "name": "HEAT-Ammunition",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": []
     },
     {
       "id": "artillery1b",
       "name": "High Explosive Artillery Shells",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": []
     },
     {
       "id": "he_high_velo_charges",
       "name": "High Explosive High Velocity Charges",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": []
     },
     {
       "id": "increased_material_eff",
       "name": "Increased Material Efficiency",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": []
     },
     {
       "id": "increased_payload",
       "name": "Increased Payload",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": []
     },
     {
       "id": "interwar_antiair",
       "name": "Interwar Antiair",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": [
+        "antiair1"
+      ]
     },
     {
       "id": "interwar_antitank",
       "name": "Interwar Antitank",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": [
+        "antitank1"
+      ]
     },
     {
       "id": "interwar_artillery",
       "name": "Interwar Artillery",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": [
+        "artillery1"
+      ]
     },
     {
       "id": "artillery1a",
       "name": "Modular Artillery Production",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": []
     },
     {
       "id": "antiair5a",
       "name": "Radar Guidance",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": []
     },
     {
       "id": "interwar_antiair_b",
       "name": "Radio Supported Anti-Air Defense",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": []
     },
     {
       "id": "rocket_artillery",
       "name": "Rocket Artillery",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": [
+        "rocket_artillery2"
+      ]
     },
     {
       "id": "rocket_artillery2",
       "name": "Rocket Artillery2",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": [
+        "rocket_artillery3"
+      ]
     },
     {
       "id": "rocket_artillery3",
       "name": "Rocket Artillery3",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": [
+        "rocket_artillery4"
+      ]
     },
     {
       "id": "rocket_artillery4",
       "name": "Rocket Artillery4",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": []
     },
     {
       "id": "interwar_antitank_b",
       "name": "Shaped Charge Ammunition",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": []
     },
     {
       "id": "sp_advance_sabot_shells",
       "name": "Sp Advance Sabot Shells",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": []
     },
     {
       "id": "sp_artillery_purpose_built_gun_motor_carriages_tech",
       "name": "Sp Artillery Purpose Built Gun Motor Carriages",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": []
     },
     {
       "id": "sp_artillery_rocket_assisted_projectiles_tech",
       "name": "Sp Artillery Rocket Assisted Projectiles",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": []
     },
     {
       "id": "sp_land_large_caliber_kinetic_energy_sabot_gd_tech",
       "name": "Sp Land Large Caliber Kinetic Energy Sabot Gd",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": []
     },
     {
       "id": "sp_land_large_caliber_kinetic_energy_sabot_no_gd_tech",
       "name": "Sp Land Large Caliber Kinetic Energy Sabot No Gd",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": []
     },
     {
       "id": "sp_shock_hardening_techniques",
       "name": "Sp Shock Hardening Techniques",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": [
+        "sp_variable_time_fuze_shells"
+      ]
     },
     {
       "id": "sp_variable_time_fuze_shells",
       "name": "Sp Variable Time Fuze Shells",
       "category": "artillery",
-      "source": "technologies/artillery.txt"
+      "source": "technologies/artillery.txt",
+      "requires": []
     },
     {
       "id": "aa_cannon_1",
       "name": "Aa Cannon 1",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": [
+        "aa_cannon_2"
+      ]
     },
     {
       "id": "aa_cannon_2",
       "name": "Aa Cannon 2",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": []
     },
     {
       "id": "aa_cannon_3",
       "name": "Aa Cannon 3",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": []
     },
     {
       "id": "aa_hmg",
       "name": "Aa Hmg",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": []
     },
     {
       "id": "aa_lmg",
       "name": "Aa Lmg",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": [
+        "aa_hmg"
+      ]
     },
     {
       "id": "advanced_large_airframe",
       "name": "Advanced Large Airframe",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": [
+        "modern_large_airframe"
+      ]
     },
     {
       "id": "advanced_medium_airframe",
       "name": "Advanced Medium Airframe",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": [
+        "modern_medium_airframe"
+      ]
     },
     {
       "id": "advanced_small_airframe",
       "name": "Advanced Small Airframe",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": [
+        "modern_small_airframe"
+      ]
     },
     {
       "id": "aerial_hangars",
       "name": "Aerial Hangars",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": []
     },
     {
       "id": "transport_C",
       "name": "Aerial Refueiling",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": []
     },
     {
       "id": "air_torpedoe_1",
       "name": "Air Torpedoe 1",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": [
+        "air_torpedoe_2"
+      ]
     },
     {
       "id": "air_torpedoe_2",
       "name": "Air Torpedoe 2",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": [
+        "air_torpedoe_3"
+      ]
     },
     {
       "id": "air_torpedoe_3",
       "name": "Air Torpedoe 3",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": []
     },
     {
       "id": "aircraft_construction",
       "name": "Aircraft Construction",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": []
     },
     {
       "id": "armor_piercing_bombs",
       "name": "Armor Piercing Bombs",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": []
     },
     {
       "id": "basic_large_airframe",
       "name": "Basic Large Airframe",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": [
+        "improved_large_airframe"
+      ]
     },
     {
       "id": "basic_medium_airframe",
       "name": "Basic Medium Airframe",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": [
+        "improved_medium_airframe"
+      ]
     },
     {
       "id": "basic_small_airframe",
       "name": "Basic Small Airframe",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": [
+        "improved_small_airframe"
+      ]
     },
     {
       "id": "bba_early_transport_plane",
       "name": "Bba Early Transport Plane",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": [
+        "bba_improved_transport_plane"
+      ]
     },
     {
       "id": "bba_improved_transport_plane",
       "name": "Bba Improved Transport Plane",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": [
+        "bba_strategic_airlifter"
+      ]
     },
     {
       "id": "bba_strategic_airlifter",
       "name": "Bba Strategic Airlifter",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": []
     },
     {
       "id": "bunker_busters",
       "name": "Bunker Busters",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": []
     },
     {
       "id": "early_bombs",
       "name": "Early Bombs",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": [
+        "armor_piercing_bombs"
+      ]
     },
     {
       "id": "engines_1",
       "name": "Engines 1",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": [
+        "engines_2"
+      ]
     },
     {
       "id": "engines_2",
       "name": "Engines 2",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": [
+        "engines_3"
+      ]
     },
     {
       "id": "engines_3",
       "name": "Engines 3",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": [
+        "engines_4"
+      ]
     },
     {
       "id": "engines_4",
       "name": "Engines 4",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": [
+        "sp_centrifugal_jet_tech"
+      ]
     },
     {
       "id": "transport_A",
       "name": "Extended Fuel Capacities",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": []
     },
     {
       "id": "transport_B",
       "name": "Get Rid Of Unnecesities",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": []
     },
     {
       "id": "heavy_bombs",
       "name": "Heavy Bombs",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": [
+        "bunker_busters"
+      ]
     },
     {
       "id": "improved_large_airframe",
       "name": "Improved Large Airframe",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": [
+        "advanced_large_airframe"
+      ]
     },
     {
       "id": "improved_medium_airframe",
       "name": "Improved Medium Airframe",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": [
+        "advanced_medium_airframe"
+      ]
     },
     {
       "id": "improved_small_airframe",
       "name": "Improved Small Airframe",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": [
+        "advanced_small_airframe"
+      ]
     },
     {
       "id": "iw_large_airframe",
       "name": "Iw Large Airframe",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": [
+        "basic_large_airframe"
+      ]
     },
     {
       "id": "iw_medium_airframe",
       "name": "Iw Medium Airframe",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": [
+        "basic_medium_airframe"
+      ]
     },
     {
       "id": "iw_small_airframe",
       "name": "Iw Small Airframe",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": [
+        "basic_small_airframe"
+      ]
     },
     {
       "id": "miniature_fighters",
       "name": "Miniature Fighters",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": [
+        "aerial_hangars"
+      ]
     },
     {
       "id": "modern_large_airframe",
       "name": "Modern Large Airframe",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": []
     },
     {
       "id": "modern_medium_airframe",
       "name": "Modern Medium Airframe",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": []
     },
     {
       "id": "modern_small_airframe",
       "name": "Modern Small Airframe",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": []
     },
     {
       "id": "photo_reconnaisance",
       "name": "Photo Reconnaisance",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": []
     },
     {
       "id": "range_improvements",
       "name": "Range Improvements",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": []
     },
     {
       "id": "reinforced_wings_mothership",
       "name": "Reinforced Wings Mothership",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": [
+        "miniature_fighters"
+      ]
     },
     {
       "id": "sp_centrifugal_jet_tech",
       "name": "Sp Centrifugal Jet",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": []
     },
     {
       "id": "suicide_charge",
       "name": "Suicide Charge",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": []
     },
     {
       "id": "supersonic_small_airframe",
       "name": "Supersonic Small Airframe",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": []
     },
     {
       "id": "survivability_studies",
       "name": "Survivability Studies",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": []
     },
     {
       "id": "fire_bombing",
       "name": "White Phosphor Bombs",
       "category": "bba_air_techs",
-      "source": "technologies/bba_air_techs.txt"
+      "source": "technologies/bba_air_techs.txt",
+      "requires": []
     },
     {
       "id": "camelry",
       "name": "Camelry",
       "category": "camelry_subunits",
-      "source": "technologies/camelry_subunits.txt"
+      "source": "technologies/camelry_subunits.txt",
+      "requires": []
     },
     {
       "id": "advanced_computing_machine",
       "name": "Advanced Computing Machine",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": [
+        "advanced_encryption"
+      ]
     },
     {
       "id": "advanced_decryption",
       "name": "Advanced Decryption",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": []
     },
     {
       "id": "advanced_encryption",
       "name": "Advanced Encryption",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": []
     },
     {
       "id": "advanced_fire_control_system",
       "name": "Advanced Fire Control System",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": []
     },
     {
       "id": "advanced_radio",
       "name": "Advanced Radio",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": [
+        "offensive_propaganda_3"
+      ]
     },
     {
       "id": "advanced_rocket_engines",
       "name": "Advanced Rocket Engines",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": []
     },
     {
       "id": "atomic_research",
       "name": "Atomic",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": [
+        "reactor_design"
+      ]
     },
     {
       "id": "basic_decryption",
       "name": "Basic Decryption",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": []
     },
     {
       "id": "basic_encryption",
       "name": "Basic Encryption",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": []
     },
     {
       "id": "basic_fire_control_system",
       "name": "Basic Fire Control System",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": []
     },
     {
       "id": "basic_fortification_tech",
       "name": "Basic Fortification",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": [
+        "coastal_fort_tech_1"
+      ]
     },
     {
       "id": "cavity_magnatron",
       "name": "Cavity Magnatron",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": [
+        "centimetric_radar"
+      ]
     },
     {
       "id": "centimetric_radar",
       "name": "Centimetric Radar",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": [
+        "phased_array"
+      ]
     },
     {
       "id": "coastal_fort_tech_1",
       "name": "Coastal Fort Tech 1",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": [
+        "coastal_fort_tech_2"
+      ]
     },
     {
       "id": "coastal_fort_tech_2",
       "name": "Coastal Fort Tech 2",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": []
     },
     {
       "id": "computing_machine",
       "name": "Computing Machine",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": [
+        "improved_computing_machine"
+      ]
     },
     {
       "id": "dragons_teeth",
       "name": "Dragons Teeth",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": []
     },
     {
       "id": "electronic_mechanical_engineering",
       "name": "Electronic Mechanical Engineering",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": [
+        "radio"
+      ]
     },
     {
       "id": "offensive_propaganda_2",
       "name": "Establish Foreign Radio Stations",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": []
     },
     {
       "id": "experimental_rockets",
       "name": "Experimental Rockets",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": [
+        "sp_rockets_improved_guidance"
+      ]
     },
     {
       "id": "improved_computing_machine",
       "name": "Improved Computing Machine",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": [
+        "advanced_computing_machine"
+      ]
     },
     {
       "id": "improved_decryption",
       "name": "Improved Decryption",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": []
     },
     {
       "id": "improved_encryption",
       "name": "Improved Encryption",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": []
     },
     {
       "id": "improved_fire_control_system",
       "name": "Improved Fire Control System",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": []
     },
     {
       "id": "improved_radio",
       "name": "Improved Radio",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": [
+        "advanced_radio"
+      ]
     },
     {
       "id": "improved_rocket_engines",
       "name": "Improved Rocket Engines",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": []
     },
     {
       "id": "jet_engines",
       "name": "Jet Engines",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": []
     },
     {
       "id": "land_fort_mines",
       "name": "Land Fort Mines",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": []
     },
     {
       "id": "land_fort_tech_1",
       "name": "Land Fort Tech 1",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": [
+        "land_fort_tech_2"
+      ]
     },
     {
       "id": "land_fort_tech_2",
       "name": "Land Fort Tech 2",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": [
+        "reinforced_steel_concrete"
+      ]
     },
     {
       "id": "land_fort_trenches",
       "name": "Land Fort Trenches",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": []
     },
     {
       "id": "lar_decryption_bonus_tech",
       "name": "Lar Decryption Bonus",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": []
     },
     {
       "id": "mechanical_computing",
       "name": "Mechanical Computing",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": [
+        "computing_machine"
+      ]
     },
     {
       "id": "mine_fields",
       "name": "Mine Fields",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": []
     },
     {
       "id": "monopulse_radar",
       "name": "Monopulse Radar",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": []
     },
     {
       "id": "nuclear_reactor",
       "name": "Nuclear Reactor",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": []
     },
     {
       "id": "nuclear_reactor_heavy_water",
       "name": "Nuclear Reactor Heavy Water",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": []
     },
     {
       "id": "nukes",
       "name": "Nukes",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": []
     },
     {
       "id": "offensive_propaganda",
       "name": "Patriotic Propaganda",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": []
     },
     {
       "id": "defensive_propaganda",
       "name": "People's Receiver",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": [
+        "defensive_propaganda_2"
+      ]
     },
     {
       "id": "phased_array",
       "name": "Phased Array",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": [
+        "monopulse_radar"
+      ]
     },
     {
       "id": "defensive_propaganda_2",
       "name": "Propaganda Movies",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": [
+        "defensive_propaganda_3"
+      ]
     },
     {
       "id": "defensive_propaganda_3",
       "name": "Propaganda Television",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": []
     },
     {
       "id": "radio",
       "name": "Radio",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": [
+        "improved_radio"
+      ]
     },
     {
       "id": "radio_detection",
       "name": "Radio Detection",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": [
+        "cavity_magnatron"
+      ]
     },
     {
       "id": "reactor_design",
       "name": "Reactor Design",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": []
     },
     {
       "id": "reinforced_steel_concrete",
       "name": "Reinforced Steel Concret Forts",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": []
     },
     {
       "id": "offensive_propaganda_3",
       "name": "Resistance Radio",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": []
     },
     {
       "id": "rocket_engines",
       "name": "Rocket Engines",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": []
     },
     {
       "id": "sp_rockets_dual_chamber_rocket_engine_1",
       "name": "Sp Rockets Dual Chamber Rocket Engine 1",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": [
+        "sp_rockets_dual_chamber_rocket_engine_2"
+      ]
     },
     {
       "id": "sp_rockets_dual_chamber_rocket_engine_2",
       "name": "Sp Rockets Dual Chamber Rocket Engine 2",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": []
     },
     {
       "id": "sp_rockets_improved_guidance",
       "name": "Sp Rockets Improved Guidance",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": []
     },
     {
       "id": "sp_rockets_improved_rocket_bomber",
       "name": "Sp Rockets Improved Rocket Bomber",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": []
     },
     {
       "id": "sp_rockets_rocket_bomber",
       "name": "Sp Rockets Rocket Bomber",
       "category": "electronic_mechanical_engineering",
-      "source": "technologies/electronic_mechanical_engineering.txt"
+      "source": "technologies/electronic_mechanical_engineering.txt",
+      "requires": [
+        "sp_rockets_improved_rocket_bomber"
+      ]
     },
     {
       "id": "air_to_air_missiles",
       "name": "Air To Air Missiles",
       "category": "fuwg",
-      "source": "technologies/fuwg.txt"
+      "source": "technologies/fuwg.txt",
+      "requires": []
     },
     {
       "id": "GER_anti_ship_missle",
       "name": "Anti Ship Missle",
       "category": "fuwg",
-      "source": "technologies/fuwg.txt"
+      "source": "technologies/fuwg.txt",
+      "requires": []
     },
     {
       "id": "skinny_cavalry",
       "name": "Concentrated Cavalry Formations",
       "category": "fuwg",
-      "source": "technologies/fuwg.txt"
+      "source": "technologies/fuwg.txt",
+      "requires": []
     },
     {
       "id": "concentrated_forces_tech",
       "name": "Concentrated Forces",
       "category": "fuwg",
-      "source": "technologies/fuwg.txt"
+      "source": "technologies/fuwg.txt",
+      "requires": []
     },
     {
       "id": "extended_traverse_angles",
       "name": "Extended Traverse Angles",
       "category": "fuwg",
-      "source": "technologies/fuwg.txt"
+      "source": "technologies/fuwg.txt",
+      "requires": []
     },
     {
       "id": "irregular_infantry_tech",
       "name": "Irregular Infantry",
       "category": "fuwg",
-      "source": "technologies/fuwg.txt"
+      "source": "technologies/fuwg.txt",
+      "requires": []
     },
     {
       "id": "Katyusha_tech",
       "name": "Katyusha",
       "category": "fuwg",
-      "source": "technologies/fuwg.txt"
+      "source": "technologies/fuwg.txt",
+      "requires": []
     },
     {
       "id": "Marine_specialization_tech",
       "name": "Marine Specialization",
       "category": "fuwg",
-      "source": "technologies/fuwg.txt"
+      "source": "technologies/fuwg.txt",
+      "requires": []
     },
     {
       "id": "GER_mech_bonus",
       "name": "Panzergrenadier",
       "category": "fuwg",
-      "source": "technologies/fuwg.txt"
+      "source": "technologies/fuwg.txt",
+      "requires": []
     },
     {
       "id": "radar_range_finding",
       "name": "Radar Range Finding",
       "category": "fuwg",
-      "source": "technologies/fuwg.txt"
+      "source": "technologies/fuwg.txt",
+      "requires": []
     },
     {
       "id": "underground_factories",
       "name": "Underground Factories",
       "category": "fuwg",
-      "source": "technologies/fuwg.txt"
+      "source": "technologies/fuwg.txt",
+      "requires": []
     },
     {
       "id": "skinny_cavalry_2",
       "name": "Unicorn Divisions",
       "category": "fuwg",
-      "source": "technologies/fuwg.txt"
+      "source": "technologies/fuwg.txt",
+      "requires": []
     },
     {
       "id": "human_waves_tech",
       "name": "§YInfantry§!§W: Combat width§! §G-0.2§!",
       "category": "fuwg",
-      "source": "technologies/fuwg.txt"
+      "source": "technologies/fuwg.txt",
+      "requires": []
     },
     {
       "id": "human_waves_tech2",
       "name": "§YInfantry§!§W: Combat width§! §G-0.2§!",
       "category": "fuwg",
-      "source": "technologies/fuwg.txt"
+      "source": "technologies/fuwg.txt",
+      "requires": []
     },
     {
       "id": "human_waves_tech3",
       "name": "§YInfantry§!§W: Combat width§! §G-0.3§!",
       "category": "fuwg",
-      "source": "technologies/fuwg.txt"
+      "source": "technologies/fuwg.txt",
+      "requires": []
     },
     {
       "id": "advanced_equipment_conversion",
       "name": "Advanced Equipment Conversion",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": []
     },
     {
       "id": "advanced_machine_tools",
       "name": "Advanced Machine Tools",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "assembly_line_production"
+      ]
     },
     {
       "id": "advanced_oil_processing",
       "name": "Advanced Oil Processing",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "modern_oil_processing"
+      ]
     },
     {
       "id": "advanced_resource_recycling",
       "name": "Advanced Resource Recycling",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": []
     },
     {
       "id": "advanced_rubber_processing",
       "name": "Advanced Rubber Processing",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "modern_rubber_processing"
+      ]
     },
     {
       "id": "assembly_line_production",
       "name": "Assembly Line Production",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "advanced_resource_recycling"
+      ]
     },
     {
       "id": "basic_machine_tools",
       "name": "Basic Machine Tools",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "improved_machine_tools"
+      ]
     },
     {
       "id": "concentrated_industry",
       "name": "Concentrated Industry",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "concentrated_industry2"
+      ]
     },
     {
       "id": "concentrated_industry2",
       "name": "Concentrated Industry2",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "concentrated_industry3"
+      ]
     },
     {
       "id": "concentrated_industry3",
       "name": "Concentrated Industry3",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "concentrated_industry4"
+      ]
     },
     {
       "id": "concentrated_industry4",
       "name": "Concentrated Industry4",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "concentrated_industry5"
+      ]
     },
     {
       "id": "concentrated_industry5",
       "name": "Concentrated Industry5",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": []
     },
     {
       "id": "logi_builder_path",
       "name": "Construction Acceleration",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "infra_builder_A"
+      ]
     },
     {
       "id": "construction1",
       "name": "Construction1",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "construction2"
+      ]
     },
     {
       "id": "construction2",
       "name": "Construction2",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "construction3"
+      ]
     },
     {
       "id": "construction3",
       "name": "Construction3",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "construction4"
+      ]
     },
     {
       "id": "construction4",
       "name": "Construction4",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "construction5"
+      ]
     },
     {
       "id": "construction5",
       "name": "Construction5",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "excavation5"
+      ]
     },
     {
       "id": "dispersed_industry",
       "name": "Dispersed Industry",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "dispersed_industry2"
+      ]
     },
     {
       "id": "dispersed_industry2",
       "name": "Dispersed Industry2",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "dispersed_industry3"
+      ]
     },
     {
       "id": "dispersed_industry3",
       "name": "Dispersed Industry3",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "dispersed_industry4"
+      ]
     },
     {
       "id": "dispersed_industry4",
       "name": "Dispersed Industry4",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "dispersed_industry5"
+      ]
     },
     {
       "id": "dispersed_industry5",
       "name": "Dispersed Industry5",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": []
     },
     {
       "id": "dockyard_right_A",
       "name": "Efficient Fleet Logistics I",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "dockyard_right_B"
+      ]
     },
     {
       "id": "dockyard_right_B",
       "name": "Efficient Fleet Logistics II",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "dockyard_right_C"
+      ]
     },
     {
       "id": "dockyard_right_C",
       "name": "Efficient Fleet Logistics III",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "dockyard_right_D"
+      ]
     },
     {
       "id": "dockyard_right_D",
       "name": "Efficient Fleet Logistics IV",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "dockyard_right_E"
+      ]
     },
     {
       "id": "dockyard_right_E",
       "name": "Efficient Fleet Logistics V",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": []
     },
     {
       "id": "excavation1",
       "name": "Excavation1",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": []
     },
     {
       "id": "excavation2",
       "name": "Excavation2",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": []
     },
     {
       "id": "excavation3",
       "name": "Excavation3",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": []
     },
     {
       "id": "excavation4",
       "name": "Excavation4",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": []
     },
     {
       "id": "excavation5",
       "name": "Excavation5",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": []
     },
     {
       "id": "infra_builder_A",
       "name": "Expanded Civil Works I",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "infra_builder_B"
+      ]
     },
     {
       "id": "infra_builder_B",
       "name": "Expanded Civil Works II",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "infra_builder_C"
+      ]
     },
     {
       "id": "infra_builder_C",
       "name": "Expanded Civil Works III",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "infra_builder_D"
+      ]
     },
     {
       "id": "infra_builder_D",
       "name": "Expanded Civil Works IV",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "infra_builder_E"
+      ]
     },
     {
       "id": "infra_builder_E",
       "name": "Expanded Civil Works V",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": []
     },
     {
       "id": "flexible_line",
       "name": "Flexible Line",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": []
     },
     {
       "id": "bunker_builder_A",
       "name": "Fortification Program I",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "bunker_builder_B"
+      ]
     },
     {
       "id": "bunker_builder_B",
       "name": "Fortification Program II",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "bunker_builder_C"
+      ]
     },
     {
       "id": "bunker_builder_C",
       "name": "Fortification Program III",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "bunker_builder_D"
+      ]
     },
     {
       "id": "bunker_builder_D",
       "name": "Fortification Program IV",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "bunker_builder_E"
+      ]
     },
     {
       "id": "bunker_builder_E",
       "name": "Fortification Program V",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": []
     },
     {
       "id": "fuel_refining",
       "name": "Fuel Refining",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "fuel_refining2"
+      ]
     },
     {
       "id": "fuel_refining2",
       "name": "Fuel Refining2",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "fuel_refining3"
+      ]
     },
     {
       "id": "fuel_refining3",
       "name": "Fuel Refining3",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "fuel_refining4"
+      ]
     },
     {
       "id": "fuel_refining4",
       "name": "Fuel Refining4",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "fuel_refining5"
+      ]
     },
     {
       "id": "fuel_refining5",
       "name": "Fuel Refining5",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": []
     },
     {
       "id": "fuel_silos",
       "name": "Fuel Silos",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "synth_oil_experiments"
+      ]
     },
     {
       "id": "improved_equipment_conversion",
       "name": "Improved Equipment Conversion",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": []
     },
     {
       "id": "improved_machine_tools",
       "name": "Improved Machine Tools",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "advanced_machine_tools"
+      ]
     },
     {
       "id": "improved_metal_manufacturing",
       "name": "Improved Metal Manufacturing",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": []
     },
     {
       "id": "improved_oil_processing",
       "name": "Improved Oil Processing",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "advanced_oil_processing"
+      ]
     },
     {
       "id": "improved_resource_recycling",
       "name": "Improved Resource Recycling",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": []
     },
     {
       "id": "improved_rubber_processing",
       "name": "Improved Rubber Processing",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "advanced_rubber_processing"
+      ]
     },
     {
       "id": "metal_manufacturing",
       "name": "Metal Manufacturing",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": []
     },
     {
       "id": "modern_oil_processing",
       "name": "Modern Oil Processing",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": []
     },
     {
       "id": "modern_rubber_processing",
       "name": "Modern Rubber Processing",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": []
     },
     {
       "id": "dockyard_left_A",
       "name": "Naval Production Quota I",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "dockyard_left_B"
+      ]
     },
     {
       "id": "dockyard_left_B",
       "name": "Naval Production Quota II",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "dockyard_left_C"
+      ]
     },
     {
       "id": "dockyard_left_C",
       "name": "Naval Production Quota III",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "dockyard_left_D"
+      ]
     },
     {
       "id": "dockyard_left_D",
       "name": "Naval Production Quota IV",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "dockyard_left_E"
+      ]
     },
     {
       "id": "dockyard_left_E",
       "name": "Naval Production Quota V",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": []
     },
     {
       "id": "oil_processing",
       "name": "Oil Processing",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "improved_oil_processing"
+      ]
     },
     {
       "id": "resource_recycling",
       "name": "Resource Recycling",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": []
     },
     {
       "id": "rubber_processing",
       "name": "Rubber Processing",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "improved_rubber_processing"
+      ]
     },
     {
       "id": "streamlined_line",
       "name": "Streamlined Line",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": []
     },
     {
       "id": "dockyard_path",
       "name": "Streamlined Shipways",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "dockyard_left_A"
+      ]
     },
     {
       "id": "synth_oil_experiments",
       "name": "Synth Oil Experiments",
       "category": "industry",
-      "source": "technologies/industry.txt"
+      "source": "technologies/industry.txt",
+      "requires": [
+        "oil_processing"
+      ]
     },
     {
       "id": "camo1942",
       "name": "Advanced Camouflage Pattern",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "jngdst_clothes_1941",
       "name": "Advanced Desert & Jungle Clothing",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "jngdst_clothes_1944"
+      ]
     },
     {
       "id": "advanced_infantry_weapons",
       "name": "Advanced Infantry Weapons",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "advanced_infantry_weapons2"
+      ]
     },
     {
       "id": "advanced_infantry_weapons2",
       "name": "Advanced Infantry Weapons2",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "advanced_special_forces",
       "name": "Advanced Special Forces",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "extreme_environment_training",
+        "improved_special_forces"
+      ]
     },
     {
       "id": "winter_clothes_1941",
       "name": "Advanced Winter Clothing",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "winter_clothes_1944"
+      ]
     },
     {
       "id": "amphibious_mechanized_infantry",
       "name": "Amphibious Mechanized Infantry",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "amphibious_mechanized_infantry_2"
+      ]
     },
     {
       "id": "amphibious_mechanized_infantry_2",
       "name": "Amphibious Mechanized Infantry 2",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "armored_car_at_upgrade",
       "name": "Armored Car At Upgrade",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "armored_car1",
       "name": "Armored Car1",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "armored_car2"
+      ]
     },
     {
       "id": "armored_car2",
       "name": "Armored Car2",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "armored_car3"
+      ]
     },
     {
       "id": "armored_car3",
       "name": "Armored Car3",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "motorised_D",
       "name": "Assault Motorization",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "camo",
       "name": "Basic Uniforms",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "camo1942"
+      ]
     },
     {
       "id": "jungle_clothes_A",
       "name": "Better Boots",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "bicycle_infantry",
       "name": "Bicycle Infantry",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "blackshirt_assault_battalion_tech",
       "name": "Blackshirt Assault Battalion",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "BEL_chasseurs_ardennais",
       "name": "Chasseurs Ardennais",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "BEL_chasseurs_ardennais_ncns",
       "name": "Chasseurs Ardennais Ncns",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "MUN_CZE_establish_air_defense_zones",
       "name": "CZE Establish Air Defense Zones",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "support_weapons_B",
       "name": "Defensive Maneuver",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "support_weapons_A",
       "name": "Defensive Tactics",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "jngdst_clothes_gw",
       "name": "Desert & Jungle Clothing",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "jngdst_clothes_1939"
+      ]
     },
     {
       "id": "mechanised_infantry_C",
       "name": "E.R.A. Armour Plate",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "elephantry",
       "name": "Elephantry",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "elite_forces",
       "name": "Elite Forces",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "extreme_environment_training",
       "name": "Extreme Environment Training",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "elite_forces"
+      ]
     },
     {
       "id": "infantry_aa_2",
       "name": "Fliegerfaust B",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "rangers_tech_A",
       "name": "Forest Warfare Doctrine",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "tech_para_fort",
       "name": "Glider infiltration",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "tech_mountaineer_mountain",
       "name": "Hairpin bend ambushes",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "tech_mountaineer_snow"
+      ]
     },
     {
       "id": "GER_heavy_armored_car",
       "name": "Heavy Armored Car",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "motorised_B",
       "name": "High-Speed Motorization",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "motorised_C"
+      ]
     },
     {
       "id": "impact_grenades",
       "name": "Impact Grenades",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "mechanised_infantry_B",
       "name": "Improved Armour Technology",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "jungle_clothes_B",
       "name": "Improved Backpacks",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "jngdst_clothes_1939",
       "name": "Improved Desert & Jungle Clothing",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "jngdst_clothes_1941"
+      ]
     },
     {
       "id": "motorised_A",
       "name": "Improved Drivetrain",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "improved_infantry_weapons",
       "name": "Improved Infantry Weapons",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "improved_infantry_weapons_2"
+      ]
     },
     {
       "id": "improved_infantry_weapons_2",
       "name": "Improved Infantry Weapons 2",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "advanced_infantry_weapons"
+      ]
     },
     {
       "id": "improved_special_forces",
       "name": "Improved Special Forces",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "survival_training",
+        "advanced_special_forces"
+      ]
     },
     {
       "id": "winter_clothes_1939",
       "name": "Improved Winter Clothing",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "winter_clothes_1941"
+      ]
     },
     {
       "id": "infantry_aa",
       "name": "Infantry Aa",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "infantry_aa_2"
+      ]
     },
     {
       "id": "infantry_at",
       "name": "Infantry At",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "infantry_at2"
+      ]
     },
     {
       "id": "infantry_at2",
       "name": "Infantry At2",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "infantry_aa"
+      ]
     },
     {
       "id": "infantry_weapons",
       "name": "Infantry Weapons",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "infantry_weapons1"
+      ]
     },
     {
       "id": "infantry_weapons1",
       "name": "Infantry Weapons1",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "infantry_weapons2"
+      ]
     },
     {
       "id": "infantry_weapons2",
       "name": "Infantry Weapons2",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "improved_infantry_weapons"
+      ]
     },
     {
       "id": "rangers_tech_C",
       "name": "Jungle Combat Training",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "tech_marine_jungle",
       "name": "Jungle equipment",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "tech_marine_fort"
+      ]
     },
     {
       "id": "TOA_jungle_pioneers_support_tech",
       "name": "Jungle Pioneers Support",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "mechanised_infantry_F",
       "name": "Learning From Years Of War",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "JAP_lighter_tanks",
       "name": "Lighter Tanks",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "long_range_patrol_support_tech",
       "name": "Long Range Patrol Support",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "lotta_svard_tech",
       "name": "Lotta Svard",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "SWE_lynx_armored_car",
       "name": "Lynx Armored Car",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "marines",
       "name": "Marines",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "marines2"
+      ]
     },
     {
       "id": "marines2",
       "name": "Marines2",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "marines3"
+      ]
     },
     {
       "id": "marines3",
       "name": "Marines3",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "mechanised_infantry",
       "name": "Mechanised Infantry",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "mechanised_infantry2"
+      ]
     },
     {
       "id": "mechanised_infantry2",
       "name": "Mechanised Infantry2",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "mechanised_infantry3"
+      ]
     },
     {
       "id": "mechanised_infantry3",
       "name": "Mechanised Infantry3",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "mechanised_infantry_E"
+      ]
     },
     {
       "id": "MUN_merge_the_financial_and_state_guard_tech",
       "name": "Merge The Financial And State Guard",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "militia_tech",
       "name": "Militia",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "motorised_C",
       "name": "Mobile Fire Support",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "motorised_D"
+      ]
     },
     {
       "id": "jngdst_clothes_1944",
       "name": "Modern Desert & Jungle Clothing",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "winter_clothes_1944",
       "name": "Modern Winter Clothing",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "molotov_cocktails_tech",
       "name": "Molotov Cocktails",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "motorised_infantry",
       "name": "Motorised Infantry",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "mechanised_infantry"
+      ]
     },
     {
       "id": "motorized_rocket_unit",
       "name": "Motorized Rocket Unit",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "mountain_warfare_militias_tech",
       "name": "Mountain Warfare Militias",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "tech_marine_fort",
       "name": "Naval infiltration",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "mechanised_infantry_E",
       "name": "Newer More Efficient Engines",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "night_vision",
       "name": "Night Vision",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "night_vision2"
+      ]
     },
     {
       "id": "night_vision2",
       "name": "Night Vision2",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "jungle_clothes_C",
       "name": "Overall Gear Upgrades",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "paratroopers",
       "name": "Paratroopers",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "paratroopers2"
+      ]
     },
     {
       "id": "paratroopers2",
       "name": "Paratroopers2",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "paratroopers3"
+      ]
     },
     {
       "id": "paratroopers3",
       "name": "Paratroopers3",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "penal_infantry",
       "name": "Penal Infantry",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "tech_marine_marsh",
       "name": "Ponton bridges",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "mechanised_infantry_D",
       "name": "Quality Over Quantity",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "tech_para_forest",
       "name": "Ranger training",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "tech_para_urban"
+      ]
     },
     {
       "id": "rangers_tech",
       "name": "Rangers",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "rangers_tech2"
+      ]
     },
     {
       "id": "rangers_tech2",
       "name": "Rangers Tech2",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "rangers_tech3"
+      ]
     },
     {
       "id": "rangers_tech3",
       "name": "Rangers Tech3",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "tech_mountaineer_hill",
       "name": "Reverse slope defense",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "rangers_tech_B",
       "name": "River Crossing Tactics",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "rangers_tech_C"
+      ]
     },
     {
       "id": "sami_pathfinders_tech",
       "name": "Sami Pathfinders",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "SWE_sami_support_tech",
       "name": "Sami Support",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "JAP_silver_wheels",
       "name": "Silver Wheels",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "mechanised_infantry_A",
       "name": "Simplified Mechanized Production",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "sturmtruppe_battalion_tech",
       "name": "Sturmtruppe Battalion",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "support_weapons",
       "name": "Support Weapons",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "support_weapons2"
+      ]
     },
     {
       "id": "support_weapons2",
       "name": "Support Weapons2",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "support_weapons3"
+      ]
     },
     {
       "id": "support_weapons3",
       "name": "Support Weapons3",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "support_weapons4"
+      ]
     },
     {
       "id": "support_weapons4",
       "name": "Support Weapons4",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "survival_training",
       "name": "Survival Training",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "elite_forces"
+      ]
     },
     {
       "id": "tech_mountaineers",
       "name": "Tech Mountaineers",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "tech_mountaineers2"
+      ]
     },
     {
       "id": "tech_mountaineers2",
       "name": "Tech Mountaineers2",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "tech_mountaineers3"
+      ]
     },
     {
       "id": "tech_mountaineers3",
       "name": "Tech Mountaineers3",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "tech_special_forces",
       "name": "Tech Special Forces",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "advanced_special_forces"
+      ]
     },
     {
       "id": "tech_trucks",
       "name": "Tech Trucks",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "motorised_infantry"
+      ]
     },
     {
       "id": "ToA_river_boats_tech",
       "name": "Toa River Boats",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "support_weapons_C",
       "name": "Tripods",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "uranium_tipped_bullets",
       "name": "Uranium Tipped Bullets",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "tech_para_urban",
       "name": "Urban combat",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "winter_clothes_gw",
       "name": "Winter Clothing",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": [
+        "winter_clothes_1939"
+      ]
     },
     {
       "id": "tech_mountaineer_snow",
       "name": "Winter equipment",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "winter_logistics_support_tech",
       "name": "Winter Logistics Support",
       "category": "infantry",
-      "source": "technologies/infantry.txt"
+      "source": "technologies/infantry.txt",
+      "requires": []
     },
     {
       "id": "FUWG_submarine_aa_3",
       "name": "Advanced Deck Anti-Air",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "advanced_depth_charges",
       "name": "Advanced Depth Charges",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": [
+        "modern_depth_charges"
+      ]
     },
     {
       "id": "FUWG_sturdier_frames_2",
       "name": "Advanced Pressure Hulls",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "advanced_ship_hull_carrier",
       "name": "Advanced Ship Hull Carrier",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "advanced_ship_hull_cruiser",
       "name": "Advanced Ship Hull Cruiser",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "advanced_ship_hull_heavy",
       "name": "Advanced Ship Hull Heavy",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "advanced_ship_hull_light",
       "name": "Advanced Ship Hull Light",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "advanced_ship_hull_submarine",
       "name": "Advanced Ship Hull Submarine",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": [
+        "FUWG_sturdier_frames_2"
+      ]
     },
     {
       "id": "advanced_sonar",
       "name": "Advanced Sonar",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": [
+        "modern_sonar"
+      ]
     },
     {
       "id": "basic_cruiser_armor_scheme",
       "name": "Basic Cruiser Armor Scheme",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": [
+        "basic_heavy_armor_scheme"
+      ]
     },
     {
       "id": "basic_depth_charges",
       "name": "Basic Depth Charges",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": [
+        "improved_depth_charges"
+      ]
     },
     {
       "id": "basic_heavy_armor_scheme",
       "name": "Basic Heavy Armor Scheme",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": [
+        "improved_heavy_armor_scheme"
+      ]
     },
     {
       "id": "basic_ship_hull_carrier",
       "name": "Basic Ship Hull Carrier",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": [
+        "improved_ship_hull_carrier"
+      ]
     },
     {
       "id": "basic_ship_hull_cruiser",
       "name": "Basic Ship Hull Cruiser",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": [
+        "improved_ship_hull_cruiser"
+      ]
     },
     {
       "id": "basic_ship_hull_heavy",
       "name": "Basic Ship Hull Heavy",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": [
+        "improved_ship_hull_heavy"
+      ]
     },
     {
       "id": "basic_ship_hull_light",
       "name": "Basic Ship Hull Light",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": [
+        "improved_ship_hull_light"
+      ]
     },
     {
       "id": "basic_ship_hull_submarine",
       "name": "Basic Ship Hull Submarine",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": [
+        "submarine_B"
+      ]
     },
     {
       "id": "basic_submarine_snorkel",
       "name": "Basic Submarine Snorkel",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": [
+        "improved_submarine_snorkel"
+      ]
     },
     {
       "id": "coastal_defense_ships",
       "name": "Coastal Defense Ships",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "cruiser_submarines",
       "name": "Cruiser Submarines",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "FUWG_submarine_aa",
       "name": "Deck Anti-Air",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": [
+        "FUWG_submarine_aa_2"
+      ]
     },
     {
       "id": "early_ship_hull_carrier",
       "name": "Early Ship Hull Carrier",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": [
+        "basic_ship_hull_carrier"
+      ]
     },
     {
       "id": "early_ship_hull_cruiser",
       "name": "Early Ship Hull Cruiser",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": [
+        "basic_ship_hull_cruiser"
+      ]
     },
     {
       "id": "early_ship_hull_heavy",
       "name": "Early Ship Hull Heavy",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": [
+        "basic_ship_hull_heavy"
+      ]
     },
     {
       "id": "early_ship_hull_light",
       "name": "Early Ship Hull Light",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": [
+        "basic_ship_hull_light"
+      ]
     },
     {
       "id": "early_ship_hull_submarine",
       "name": "Early Ship Hull Submarine",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": [
+        "basic_ship_hull_submarine"
+      ]
     },
     {
       "id": "tech_foxer_acoustic_decoy",
       "name": "Foxer Acoustic Decoy",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "submarine_D",
       "name": "High Intense Crew Training",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "FUWG_submarine_aa_2",
       "name": "Improved Deck Anti-Air",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "improved_depth_charges",
       "name": "Improved Depth Charges",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": [
+        "advanced_depth_charges"
+      ]
     },
     {
       "id": "submarine_B",
       "name": "Improved Fuel Tanks",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "improved_heavy_armor_scheme",
       "name": "Improved Heavy Armor Scheme",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": [
+        "tech_foxer_acoustic_decoy"
+      ]
     },
     {
       "id": "improved_ship_hull_carrier",
       "name": "Improved Ship Hull Carrier",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": [
+        "advanced_ship_hull_carrier"
+      ]
     },
     {
       "id": "improved_ship_hull_cruiser",
       "name": "Improved Ship Hull Cruiser",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": [
+        "advanced_ship_hull_cruiser"
+      ]
     },
     {
       "id": "improved_ship_hull_heavy",
       "name": "Improved Ship Hull Heavy",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": [
+        "advanced_ship_hull_heavy"
+      ]
     },
     {
       "id": "improved_ship_hull_light",
       "name": "Improved Ship Hull Light",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": [
+        "advanced_ship_hull_light"
+      ]
     },
     {
       "id": "improved_ship_hull_submarine",
       "name": "Improved Ship Hull Submarine",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": [
+        "submarine_C"
+      ]
     },
     {
       "id": "improved_sonar",
       "name": "Improved Sonar",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": [
+        "advanced_sonar"
+      ]
     },
     {
       "id": "improved_submarine_snorkel",
       "name": "Improved Submarine Snorkel",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "submarine_A",
       "name": "Increase Stealth Training ",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "submarine_C",
       "name": "Increased Hunting Tacticts",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "midget_submarines",
       "name": "Midget Submarines",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "modern_depth_charges",
       "name": "Modern Depth Charges",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "sp_modern_designs",
       "name": "Modern Designs",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "sp_modern_shipyards",
       "name": "Modern Shipyards",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": [
+        "sp_modern_designs"
+      ]
     },
     {
       "id": "modern_sonar",
       "name": "Modern Sonar",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "panzerschiffe",
       "name": "Panzerschiffe",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "pre_dreadnoughts",
       "name": "Pre Dreadnoughts",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "ship_hull_super_heavy",
       "name": "Ship Hull Super Heavy",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "smoke_generator",
       "name": "Smoke Generator",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "sonar",
       "name": "Sonar",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": [
+        "improved_sonar"
+      ]
     },
     {
       "id": "sp_aip_engine_advanced_tech",
       "name": "Sp Aip Engine Advanced",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "sp_aip_engine_improved_tech",
       "name": "Sp Aip Engine Improved",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": [
+        "sp_aip_engine_advanced_tech"
+      ]
     },
     {
       "id": "sp_ice_composite_runawayas",
       "name": "Sp Ice Composite Runawayas",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "sp_naval_proximity_fuze_tech",
       "name": "Sp Naval Proximity Fuze",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "sp_naval_repair_ships_pick_a",
       "name": "Sp Naval Repair Ships Pick A",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "sp_naval_repair_ships_pick_b",
       "name": "Sp Naval Repair Ships Pick B",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "sp_naval_repair_ships_pick_c",
       "name": "Sp Naval Repair Ships Pick C",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "sp_naval_support_ships_pick_a",
       "name": "Sp Naval Support Ships Pick A",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "sp_naval_support_ships_pick_b",
       "name": "Sp Naval Support Ships Pick B",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "sp_naval_support_ships_pick_c",
       "name": "Sp Naval Support Ships Pick C",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "sp_naval_underway_replenishment_pick_a",
       "name": "Sp Naval Underway Replenishment Pick A",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "sp_naval_underway_replenishment_pick_b",
       "name": "Sp Naval Underway Replenishment Pick B",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "sp_refined_pykrete",
       "name": "Sp Refined Pykrete",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": [
+        "sp_ice_composite_runawayas"
+      ]
     },
     {
       "id": "FUWG_sturdier_frames",
       "name": "Sturdier Frames",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "torpedo_cruiser_mtg",
       "name": "Torpedo Cruiser Mtg",
       "category": "MTG_naval",
-      "source": "technologies/MTG_naval.txt"
+      "source": "technologies/MTG_naval.txt",
+      "requires": []
     },
     {
       "id": "advanced_dp_light_battery",
       "name": "Advanced Dp Light Battery",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": []
     },
     {
       "id": "advanced_heavy_battery",
       "name": "Advanced Heavy Battery",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": []
     },
     {
       "id": "advanced_light_battery",
       "name": "Advanced Light Battery",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": []
     },
     {
       "id": "advanced_naval_mines",
       "name": "Advanced Naval Mines",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": [
+        "airdrop_mines"
+      ]
     },
     {
       "id": "destroyer_killers_2",
       "name": "Advanced Naval Rangekeeping",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": []
     },
     {
       "id": "advanced_ship_torpedo_launcher",
       "name": "Advanced Ship Torpedo Launcher",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": [
+        "homing_torpedo"
+      ]
     },
     {
       "id": "airdrop_mines",
       "name": "Airdrop Mines",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": []
     },
     {
       "id": "airdrop_mines_bba",
       "name": "Airdrop Mines Bba",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": []
     },
     {
       "id": "airsweep_mines",
       "name": "Airsweep Mines",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": []
     },
     {
       "id": "airsweep_mines_bba",
       "name": "Airsweep Mines Bba",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": []
     },
     {
       "id": "basic_battery",
       "name": "Basic Battery",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": [
+        "basic_light_battery"
+      ]
     },
     {
       "id": "basic_dp_light_battery",
       "name": "Basic Dp Light Battery",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": [
+        "improved_dp_light_battery"
+      ]
     },
     {
       "id": "basic_heavy_battery",
       "name": "Basic Heavy Battery",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": [
+        "basic_heavy_shell"
+      ]
     },
     {
       "id": "basic_heavy_shell",
       "name": "Basic Heavy Shell",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": [
+        "improved_heavy_battery"
+      ]
     },
     {
       "id": "basic_light_battery",
       "name": "Basic Light Battery",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": [
+        "basic_light_shell"
+      ]
     },
     {
       "id": "basic_light_shell",
       "name": "Basic Light Shell",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": [
+        "improved_light_battery"
+      ]
     },
     {
       "id": "basic_naval_mines",
       "name": "Basic Naval Mines",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": [
+        "improved_naval_mines"
+      ]
     },
     {
       "id": "basic_torpedo",
       "name": "Basic Torpedo",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": [
+        "improved_ship_torpedo_launcher"
+      ]
     },
     {
       "id": "damage_control_1",
       "name": "Damage Control 1",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": [
+        "damage_control_2"
+      ]
     },
     {
       "id": "damage_control_2",
       "name": "Damage Control 2",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": [
+        "damage_control_3"
+      ]
     },
     {
       "id": "damage_control_3",
       "name": "Damage Control 3",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": [
+        "sp_improved_repair_ship"
+      ]
     },
     {
       "id": "degaussing",
       "name": "Degaussing",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": []
     },
     {
       "id": "fire_control_methods_1",
       "name": "Fire Control Methods 1",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": [
+        "fire_control_methods_2"
+      ]
     },
     {
       "id": "fire_control_methods_2",
       "name": "Fire Control Methods 2",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": [
+        "fire_control_methods_3"
+      ]
     },
     {
       "id": "fire_control_methods_3",
       "name": "Fire Control Methods 3",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": []
     },
     {
       "id": "naval_endurance_1",
       "name": "High Sea Endurance I",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": []
     },
     {
       "id": "naval_endurance_2",
       "name": "High Sea Endurance II",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": []
     },
     {
       "id": "homing_torpedo",
       "name": "Homing Torpedo",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": [
+        "modern_ship_torpedo_launcher"
+      ]
     },
     {
       "id": "improved_dp_light_battery",
       "name": "Improved Dp Light Battery",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": [
+        "advanced_dp_light_battery"
+      ]
     },
     {
       "id": "improved_heavy_battery",
       "name": "Improved Heavy Battery",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": [
+        "improved_heavy_shell"
+      ]
     },
     {
       "id": "improved_heavy_shell",
       "name": "Improved Heavy Shell",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": [
+        "advanced_heavy_battery"
+      ]
     },
     {
       "id": "improved_light_battery",
       "name": "Improved Light Battery",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": [
+        "improved_light_shell"
+      ]
     },
     {
       "id": "improved_light_shell",
       "name": "Improved Light Shell",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": [
+        "advanced_light_battery"
+      ]
     },
     {
       "id": "improved_naval_mines",
       "name": "Improved Naval Mines",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": [
+        "advanced_naval_mines"
+      ]
     },
     {
       "id": "destroyer_killers_1",
       "name": "Improved Naval Rangekeeping",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": []
     },
     {
       "id": "improved_ship_torpedo_launcher",
       "name": "Improved Ship Torpedo Launcher",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": [
+        "magnetic_detonator"
+      ]
     },
     {
       "id": "improved_submarine_mine_laying",
       "name": "Improved Submarine Mine Laying",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": []
     },
     {
       "id": "magnetic_detonator",
       "name": "Magnetic Detonator",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": [
+        "advanced_ship_torpedo_launcher"
+      ]
     },
     {
       "id": "modern_ship_torpedo_launcher",
       "name": "Modern Ship Torpedo Launcher",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": []
     },
     {
       "id": "mtg_landing_craft",
       "name": "Mtg Landing Craft",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": [
+        "mtg_tank_landing_craft"
+      ]
     },
     {
       "id": "mtg_tank_landing_craft",
       "name": "Mtg Tank Landing Craft",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": []
     },
     {
       "id": "mtg_transport",
       "name": "Mtg Transport",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": [
+        "mtg_landing_craft"
+      ]
     },
     {
       "id": "sp_improved_repair_ship",
       "name": "Sp Improved Repair Ship",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": []
     },
     {
       "id": "sp_improved_support_ship",
       "name": "Sp Improved Support Ship",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": []
     },
     {
       "id": "sp_multi_product_supply_ships",
       "name": "Sp Multi Product Supply Ships",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": [
+        "sp_standard_tenshioned_replenishment_alongside_method"
+      ]
     },
     {
       "id": "sp_standard_tenshioned_replenishment_alongside_method",
       "name": "Sp Standard Tenshioned Replenishment Alongside Method",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": []
     },
     {
       "id": "submarine_mine_laying",
       "name": "Submarine Mine Laying",
       "category": "MTG_naval_Support",
-      "source": "technologies/MTG_naval_Support.txt"
+      "source": "technologies/MTG_naval_Support.txt",
+      "requires": [
+        "improved_submarine_mine_laying"
+      ]
     },
     {
       "id": "advanced_heavy_tank_chassis",
       "name": "Advanced Heavy Tank Chassis",
       "category": "NSB_armor",
-      "source": "technologies/NSB_armor.txt"
+      "source": "technologies/NSB_armor.txt",
+      "requires": [
+        "main_battle_tank_chassis"
+      ]
     },
     {
       "id": "advanced_light_tank_chassis",
       "name": "Advanced Light Tank Chassis",
       "category": "NSB_armor",
-      "source": "technologies/NSB_armor.txt"
+      "source": "technologies/NSB_armor.txt",
+      "requires": []
     },
     {
       "id": "advanced_medium_tank_chassis",
       "name": "Advanced Medium Tank Chassis",
       "category": "NSB_armor",
-      "source": "technologies/NSB_armor.txt"
+      "source": "technologies/NSB_armor.txt",
+      "requires": [
+        "main_battle_tank_chassis"
+      ]
     },
     {
       "id": "amphibious_drive",
       "name": "Amphibious Drive",
       "category": "NSB_armor",
-      "source": "technologies/NSB_armor.txt"
+      "source": "technologies/NSB_armor.txt",
+      "requires": []
     },
     {
       "id": "amphibious_tank_chassis",
       "name": "Amphibious Tank Chassis",
       "category": "NSB_armor",
-      "source": "technologies/NSB_armor.txt"
+      "source": "technologies/NSB_armor.txt",
+      "requires": [
+        "amphibious_drive"
+      ]
     },
     {
       "id": "armor_tech_1",
       "name": "Armor Tech 1",
       "category": "NSB_armor",
-      "source": "technologies/NSB_armor.txt"
+      "source": "technologies/NSB_armor.txt",
+      "requires": [
+        "armor_tech_2"
+      ]
     },
     {
       "id": "armor_tech_2",
       "name": "Armor Tech 2",
       "category": "NSB_armor",
-      "source": "technologies/NSB_armor.txt"
+      "source": "technologies/NSB_armor.txt",
+      "requires": [
+        "armor_tech_3"
+      ]
     },
     {
       "id": "armor_tech_3",
       "name": "Armor Tech 3",
       "category": "NSB_armor",
-      "source": "technologies/NSB_armor.txt"
+      "source": "technologies/NSB_armor.txt",
+      "requires": [
+        "armor_tech_4"
+      ]
     },
     {
       "id": "armor_tech_4",
       "name": "Armor Tech 4",
       "category": "NSB_armor",
-      "source": "technologies/NSB_armor.txt"
+      "source": "technologies/NSB_armor.txt",
+      "requires": [
+        "siliceous_cored_armor"
+      ]
     },
     {
       "id": "basic_heavy_tank_chassis",
       "name": "Basic Heavy Tank Chassis",
       "category": "NSB_armor",
-      "source": "technologies/NSB_armor.txt"
+      "source": "technologies/NSB_armor.txt",
+      "requires": [
+        "improved_heavy_tank_chassis"
+      ]
     },
     {
       "id": "basic_light_tank_chassis",
       "name": "Basic Light Tank Chassis",
       "category": "NSB_armor",
-      "source": "technologies/NSB_armor.txt"
+      "source": "technologies/NSB_armor.txt",
+      "requires": [
+        "improved_light_tank_chassis"
+      ]
     },
     {
       "id": "basic_medium_tank_chassis",
       "name": "Basic Medium Tank Chassis",
       "category": "NSB_armor",
-      "source": "technologies/NSB_armor.txt"
+      "source": "technologies/NSB_armor.txt",
+      "requires": [
+        "improved_medium_tank_chassis"
+      ]
     },
     {
       "id": "engine_tech_1",
       "name": "Engine Tech 1",
       "category": "NSB_armor",
-      "source": "technologies/NSB_armor.txt"
+      "source": "technologies/NSB_armor.txt",
+      "requires": [
+        "engine_tech_2"
+      ]
     },
     {
       "id": "engine_tech_2",
       "name": "Engine Tech 2",
       "category": "NSB_armor",
-      "source": "technologies/NSB_armor.txt"
+      "source": "technologies/NSB_armor.txt",
+      "requires": [
+        "engine_tech_3"
+      ]
     },
     {
       "id": "engine_tech_3",
       "name": "Engine Tech 3",
       "category": "NSB_armor",
-      "source": "technologies/NSB_armor.txt"
+      "source": "technologies/NSB_armor.txt",
+      "requires": [
+        "engine_tech_4"
+      ]
     },
     {
       "id": "engine_tech_4",
       "name": "Engine Tech 4",
       "category": "NSB_armor",
-      "source": "technologies/NSB_armor.txt"
+      "source": "technologies/NSB_armor.txt",
+      "requires": []
     },
     {
       "id": "gwtank_chassis",
       "name": "Gwtank Chassis",
       "category": "NSB_armor",
-      "source": "technologies/NSB_armor.txt"
+      "source": "technologies/NSB_armor.txt",
+      "requires": [
+        "basic_light_tank_chassis"
+      ]
     },
     {
       "id": "improved_heavy_tank_chassis",
       "name": "Improved Heavy Tank Chassis",
       "category": "NSB_armor",
-      "source": "technologies/NSB_armor.txt"
+      "source": "technologies/NSB_armor.txt",
+      "requires": [
+        "advanced_heavy_tank_chassis"
+      ]
     },
     {
       "id": "improved_light_tank_chassis",
       "name": "Improved Light Tank Chassis",
       "category": "NSB_armor",
-      "source": "technologies/NSB_armor.txt"
+      "source": "technologies/NSB_armor.txt",
+      "requires": [
+        "advanced_light_tank_chassis"
+      ]
     },
     {
       "id": "improved_medium_tank_chassis",
       "name": "Improved Medium Tank Chassis",
       "category": "NSB_armor",
-      "source": "technologies/NSB_armor.txt"
+      "source": "technologies/NSB_armor.txt",
+      "requires": [
+        "advanced_medium_tank_chassis"
+      ]
     },
     {
       "id": "main_battle_tank_chassis",
       "name": "Main Battle Tank Chassis",
       "category": "NSB_armor",
-      "source": "technologies/NSB_armor.txt"
+      "source": "technologies/NSB_armor.txt",
+      "requires": [
+        "modern_cannon"
+      ]
     },
     {
       "id": "modern_cannon",
       "name": "Modern Cannon",
       "category": "NSB_armor",
-      "source": "technologies/NSB_armor.txt"
+      "source": "technologies/NSB_armor.txt",
+      "requires": []
     },
     {
       "id": "nahverteidigungswaffe",
       "name": "Nahverteidigungswaffe",
       "category": "NSB_armor",
-      "source": "technologies/NSB_armor.txt"
+      "source": "technologies/NSB_armor.txt",
+      "requires": []
     },
     {
       "id": "NOR_rikstanken_tech",
       "name": "Rikstanken",
       "category": "NSB_armor",
-      "source": "technologies/NSB_armor.txt"
+      "source": "technologies/NSB_armor.txt",
+      "requires": []
     },
     {
       "id": "siliceous_cored_armor",
       "name": "Silceous Cored Armor",
       "category": "NSB_armor",
-      "source": "technologies/NSB_armor.txt"
+      "source": "technologies/NSB_armor.txt",
+      "requires": []
     },
     {
       "id": "sp_armored_advanced_flamethrower_tech",
       "name": "Sp Armored Advanced Flamethrower",
       "category": "NSB_armor",
-      "source": "technologies/NSB_armor.txt"
+      "source": "technologies/NSB_armor.txt",
+      "requires": []
     },
     {
       "id": "sp_armored_lc_high_impact_obliterator_cannon_tech",
       "name": "Sp Armored Lc High Impact Obliterator Cannon",
       "category": "NSB_armor",
-      "source": "technologies/NSB_armor.txt"
+      "source": "technologies/NSB_armor.txt",
+      "requires": []
     },
     {
       "id": "sp_armored_lc_naval_engine_conversion_tech",
       "name": "Sp Armored Lc Naval Engine Conversion",
       "category": "NSB_armor",
-      "source": "technologies/NSB_armor.txt"
+      "source": "technologies/NSB_armor.txt",
+      "requires": [
+        "sp_armored_lc_weapon_fire_control_tech"
+      ]
     },
     {
       "id": "sp_armored_lc_specialized_field_manuals_tech",
       "name": "Sp Armored Lc Specialized Field Manuals",
       "category": "NSB_armor",
-      "source": "technologies/NSB_armor.txt"
+      "source": "technologies/NSB_armor.txt",
+      "requires": [
+        "sp_armored_lc_weapon_fire_control_tech"
+      ]
     },
     {
       "id": "sp_armored_lc_transmission_improvements_tech",
       "name": "Sp Armored Lc Transmission Improvements",
       "category": "NSB_armor",
-      "source": "technologies/NSB_armor.txt"
+      "source": "technologies/NSB_armor.txt",
+      "requires": [
+        "sp_armored_lc_weapon_fire_control_tech"
+      ]
     },
     {
       "id": "sp_armored_lc_weapon_fire_control_tech",
       "name": "Sp Armored Lc Weapon Fire Control",
       "category": "NSB_armor",
-      "source": "technologies/NSB_armor.txt"
+      "source": "technologies/NSB_armor.txt",
+      "requires": []
     },
     {
       "id": "super_heavy_tank_chassis",
       "name": "Super Heavy Tank Chassis",
       "category": "NSB_armor",
-      "source": "technologies/NSB_armor.txt"
+      "source": "technologies/NSB_armor.txt",
+      "requires": [
+        "sp_armored_lc_high_impact_obliterator_cannon_tech"
+      ]
     },
     {
       "id": "elite_rangers_doctrine",
       "name": "Elite Rangers Doctrine",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": [
+        "rangers_backbone_doctrine"
+      ]
     },
     {
       "id": "marines_commandoes",
       "name": "Marines Commandoes",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": [
+        "marines_commandos_demolition",
+        "marines_expeditionary"
+      ]
     },
     {
       "id": "marines_commandoes_mechanised",
       "name": "Marines Commandoes Mechanised",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": []
     },
     {
       "id": "marines_commandos_demolition",
       "name": "Marines Commandos Demolition",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": [
+        "marines_commandoes_mechanised"
+      ]
     },
     {
       "id": "marines_expeditionary",
       "name": "Marines Expeditionary",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": [
+        "marines_expeditionary_blowtorch",
+        "marines_commandoes"
+      ]
     },
     {
       "id": "marines_expeditionary_blowtorch",
       "name": "Marines Expeditionary Blowtorch",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": [
+        "marines_expeditionary_support"
+      ]
     },
     {
       "id": "marines_expeditionary_support",
       "name": "Marines Expeditionary Support",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": []
     },
     {
       "id": "marines_jungle_troops",
       "name": "Marines Jungle Troops",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": [
+        "marines_recon",
+        "marines_shore_parties"
+      ]
     },
     {
       "id": "marines_recon",
       "name": "Marines Recon",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": [
+        "marines_commandoes"
+      ]
     },
     {
       "id": "marines_shore_parties",
       "name": "Marines Shore Parties",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": [
+        "marines_recon",
+        "marines_jungle_troops"
+      ]
     },
     {
       "id": "mountaineers_combat_1",
       "name": "Mountaineers Combat 1",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": [
+        "mountaineers_combat_3",
+        "mountaineers_combat_2"
+      ]
     },
     {
       "id": "mountaineers_combat_2",
       "name": "Mountaineers Combat 2",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": [
+        "mountaineers_combat_3",
+        "mountaineers_combat_1"
+      ]
     },
     {
       "id": "mountaineers_combat_3",
       "name": "Mountaineers Combat 3",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": [
+        "mountaineers_keystone_1"
+      ]
     },
     {
       "id": "mountaineers_keystone_1",
       "name": "Mountaineers Keystone 1",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": [
+        "mountaineers_keystone_2"
+      ]
     },
     {
       "id": "mountaineers_keystone_2",
       "name": "Mountaineers Keystone 2",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": [
+        "mountaineers_keystone_1"
+      ]
     },
     {
       "id": "paras_airborne_light_armor",
       "name": "Paras Airborne Light Armor",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": [
+        "paras_combat_1"
+      ]
     },
     {
       "id": "paras_bonus_1",
       "name": "Paras Bonus 1",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": [
+        "paras_keystone_1"
+      ]
     },
     {
       "id": "paras_bonus_2",
       "name": "Paras Bonus 2",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": [
+        "paras_keystone_2"
+      ]
     },
     {
       "id": "paras_combat_1",
       "name": "Paras Combat 1",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": [
+        "paras_bonus_1",
+        "paras_combat_2"
+      ]
     },
     {
       "id": "paras_combat_2",
       "name": "Paras Combat 2",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": [
+        "paras_bonus_2",
+        "paras_combat_1"
+      ]
     },
     {
       "id": "paras_combat_drop",
       "name": "Paras Combat Drop",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": [
+        "paras_airborne_light_armor",
+        "paras_dispersed_drop"
+      ]
     },
     {
       "id": "paras_dispersed_drop",
       "name": "Paras Dispersed Drop",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": [
+        "paras_airborne_light_armor",
+        "paras_combat_drop"
+      ]
     },
     {
       "id": "paras_keystone_1",
       "name": "Paras Keystone 1",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": []
     },
     {
       "id": "paras_keystone_2",
       "name": "Paras Keystone 2",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": []
     },
     {
       "id": "rangers",
       "name": "Rangers",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": [
+        "special_forces_recon",
+        "ski_troops"
+      ]
     },
     {
       "id": "rangers_backbone_doctrine",
       "name": "Rangers Backbone Doctrine",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": [
+        "elite_rangers_doctrine"
+      ]
     },
     {
       "id": "rangers_fire_support_integration",
       "name": "Rangers Fire Support Integration",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": [
+        "rangers_urban_combat",
+        "rangers_recon_terrain_training"
+      ]
     },
     {
       "id": "rangers_guerilla_doctrine",
       "name": "Rangers Guerilla Doctrine",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": [
+        "rangers_recon_terrain_training"
+      ]
     },
     {
       "id": "rangers_jaegers_training",
       "name": "Rangers Jaegers Training",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": [
+        "rangers_guerilla_doctrine",
+        "rangers_jungle_training"
+      ]
     },
     {
       "id": "rangers_jungle_training",
       "name": "Rangers Jungle Training",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": [
+        "rangers_guerilla_doctrine",
+        "rangers_jaegers_training"
+      ]
     },
     {
       "id": "rangers_recon_terrain_training",
       "name": "Rangers Recon Terrain Training",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": [
+        "rangers_urban_combat",
+        "rangers_fire_support_integration"
+      ]
     },
     {
       "id": "rangers_urban_combat",
       "name": "Rangers Urban Combat",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": [
+        "elite_rangers_doctrine"
+      ]
     },
     {
       "id": "ski_troops",
       "name": "Ski Troops",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": [
+        "special_forces_recon",
+        "rangers"
+      ]
     },
     {
       "id": "special_forces_marines",
       "name": "Special Forces Marines",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": [
+        "marines_jungle_troops"
+      ]
     },
     {
       "id": "special_forces_mountaineers",
       "name": "Special Forces Mountaineers",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": [
+        "ski_troops"
+      ]
     },
     {
       "id": "special_forces_paratroopers",
       "name": "Special Forces Paratroopers",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": [
+        "paras_dispersed_drop"
+      ]
     },
     {
       "id": "special_forces_rangers",
       "name": "Special Forces Rangers",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": [
+        "rangers_jaegers_training"
+      ]
     },
     {
       "id": "special_forces_recon",
       "name": "Special Forces Recon",
       "category": "special_forces_doctrine",
-      "source": "technologies/special_forces_doctrine.txt"
+      "source": "technologies/special_forces_doctrine.txt",
+      "requires": [
+        "mountaineers_combat_1"
+      ]
     },
     {
       "id": "anti_tank_rifles",
       "name": "Advanced Snipers",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "semi_auto_rifles"
+      ]
     },
     {
       "id": "armored_train",
       "name": "Armored Train",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "railway_gun"
+      ]
     },
     {
       "id": "basic_train",
       "name": "Basic Train",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "wartime_train"
+      ]
     },
     {
       "id": "tech_logistics_company_B",
       "name": "Expand The Supply Chains",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": []
     },
     {
       "id": "tech_logistics_company_C",
       "name": "Extra Fuel Cans",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_logistics_company_D"
+      ]
     },
     {
       "id": "railway_gun_3",
       "name": "Gustav",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": []
     },
     {
       "id": "tech_heavy_mg_brigade",
       "name": "Heavy Machine Gun Brigade",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_heavy_mg_brigade2"
+      ]
     },
     {
       "id": "tech_heavy_mg_brigade2",
       "name": "Heavy Machine Gun Brigade II",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_heavy_mg_brigade3"
+      ]
     },
     {
       "id": "tech_heavy_mg_brigade3",
       "name": "Heavy Machine Gun Brigade III",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_heavy_mg_brigade4"
+      ]
     },
     {
       "id": "tech_heavy_mg_brigade4",
       "name": "Heavy Machine Gun Brigade IV",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": []
     },
     {
       "id": "tech_heavy_mortar_brigade",
       "name": "Heavy Mortar Brigade I",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_heavy_mortar_brigade2"
+      ]
     },
     {
       "id": "tech_heavy_mortar_brigade2",
       "name": "Heavy Mortar Brigades II",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_heavy_mortar_brigade3"
+      ]
     },
     {
       "id": "tech_heavy_mortar_brigade3",
       "name": "Heavy Mortar Brigades III",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_heavy_mortar_brigade4"
+      ]
     },
     {
       "id": "tech_heavy_mortar_brigade4",
       "name": "Heavy Mortar Brigades IV",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": []
     },
     {
       "id": "tech_heavy_mortar_brigade_D",
       "name": "High Explosive Charges",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_heavy_mortar_brigade_E"
+      ]
     },
     {
       "id": "tech_heavy_mortar_brigade_E",
       "name": "High Quality Barrel ",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": []
     },
     {
       "id": "tech_heavy_mortar_brigade_C",
       "name": "Increased Production",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": []
     },
     {
       "id": "tech_logistics_company_D",
       "name": "Increased Supply Efforts",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": []
     },
     {
       "id": "tech_mountain_artillery",
       "name": "Mountain Artillery Brigade I",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_mountain_artillery2"
+      ]
     },
     {
       "id": "tech_mountain_artillery2",
       "name": "Mountain Artillery Brigade II",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_mountain_artillery3"
+      ]
     },
     {
       "id": "tech_mountain_artillery3",
       "name": "Mountain Artillery Brigade III",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_mountain_artillery4"
+      ]
     },
     {
       "id": "tech_mountain_artillery4",
       "name": "Mountain Artillery Brigade IV",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": []
     },
     {
       "id": "tech_logistics_company_A",
       "name": "Mules and Donkeys",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_logistics_company_B"
+      ]
     },
     {
       "id": "railway_gun",
       "name": "Railway Gun",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "railway_gun_2"
+      ]
     },
     {
       "id": "railway_gun_2",
       "name": "Railway Gun 2",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "railway_gun_3"
+      ]
     },
     {
       "id": "tech_rearguard_company",
       "name": "Rearguard Company I",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_rearguard_company2"
+      ]
     },
     {
       "id": "tech_rearguard_company2",
       "name": "Rearguard Company II",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_rearguard_company3"
+      ]
     },
     {
       "id": "tech_rearguard_company3",
       "name": "Rearguard Company III",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_rearguard_company4"
+      ]
     },
     {
       "id": "tech_rearguard_company4",
       "name": "Rearguard Company IV",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": []
     },
     {
       "id": "semi_auto_rifles",
       "name": "Semi Auto Rifles",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "specialized_ammunition"
+      ]
     },
     {
       "id": "tech_signal_recon_company",
       "name": "Signal-Recon Company I",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_signal_recon_company2"
+      ]
     },
     {
       "id": "tech_signal_recon_company2",
       "name": "Signal-Recon Company II",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_signal_recon_company3"
+      ]
     },
     {
       "id": "tech_signal_recon_company3",
       "name": "Signal-Recon Company III",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_signal_recon_company4"
+      ]
     },
     {
       "id": "tech_signal_recon_company4",
       "name": "Signal-Recon Company IV",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": []
     },
     {
       "id": "tech_heavy_mortar_brigade_A",
       "name": "Smoke Charges",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": []
     },
     {
       "id": "sniper_training",
       "name": "Sniper Training",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "anti_tank_rifles"
+      ]
     },
     {
       "id": "sp_armored_engineer_tech",
       "name": "Sp Armored Engineer",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": []
     },
     {
       "id": "sp_armored_maintenance_tech",
       "name": "Sp Armored Maintenance",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": []
     },
     {
       "id": "sp_armored_motorized_military_police_tech",
       "name": "Sp Armored Motorized Military Police",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": []
     },
     {
       "id": "sp_armored_signal_tech",
       "name": "Sp Armored Signal",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": []
     },
     {
       "id": "sp_helicopter_artillery_observers_tech",
       "name": "Sp Helicopter Artillery Observers",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": []
     },
     {
       "id": "sp_helicopter_med_evac_tech",
       "name": "Sp Helicopter Med Evac",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": []
     },
     {
       "id": "sp_helicopter_transport_pods_tech",
       "name": "Sp Helicopter Transport Pods",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": []
     },
     {
       "id": "tech_heavy_mortar_brigade_B",
       "name": "Spare Parts",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_heavy_mortar_brigade_C"
+      ]
     },
     {
       "id": "specialized_ammunition",
       "name": "Specialized Ammunition",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": []
     },
     {
       "id": "tech_engineers",
       "name": "Tech Engineers",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_engineers2"
+      ]
     },
     {
       "id": "tech_engineers2",
       "name": "Tech Engineers2",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_engineers3"
+      ]
     },
     {
       "id": "tech_engineers3",
       "name": "Tech Engineers3",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_engineers4"
+      ]
     },
     {
       "id": "tech_engineers4",
       "name": "Tech Engineers4",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": []
     },
     {
       "id": "tech_field_hospital",
       "name": "Tech Field Hospital",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_field_hospital2"
+      ]
     },
     {
       "id": "tech_field_hospital2",
       "name": "Tech Field Hospital2",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_field_hospital3"
+      ]
     },
     {
       "id": "tech_field_hospital3",
       "name": "Tech Field Hospital3",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_field_hospital4"
+      ]
     },
     {
       "id": "tech_field_hospital4",
       "name": "Tech Field Hospital4",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": []
     },
     {
       "id": "tech_logistics_company",
       "name": "Tech Logistics Company",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_logistics_company2"
+      ]
     },
     {
       "id": "tech_logistics_company2",
       "name": "Tech Logistics Company2",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_logistics_company3"
+      ]
     },
     {
       "id": "tech_logistics_company3",
       "name": "Tech Logistics Company3",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_logistics_company4"
+      ]
     },
     {
       "id": "tech_logistics_company4",
       "name": "Tech Logistics Company4",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": []
     },
     {
       "id": "tech_maintenance_company",
       "name": "Tech Maintenance Company",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_maintenance_company2"
+      ]
     },
     {
       "id": "tech_maintenance_company2",
       "name": "Tech Maintenance Company2",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_maintenance_company3"
+      ]
     },
     {
       "id": "tech_maintenance_company3",
       "name": "Tech Maintenance Company3",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_maintenance_company4"
+      ]
     },
     {
       "id": "tech_maintenance_company4",
       "name": "Tech Maintenance Company4",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": []
     },
     {
       "id": "tech_military_police",
       "name": "Tech Military Police",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_military_police2"
+      ]
     },
     {
       "id": "tech_military_police2",
       "name": "Tech Military Police2",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_military_police3"
+      ]
     },
     {
       "id": "tech_military_police3",
       "name": "Tech Military Police3",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_military_police4"
+      ]
     },
     {
       "id": "tech_military_police4",
       "name": "Tech Military Police4",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": []
     },
     {
       "id": "tech_recon",
       "name": "Tech Recon",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": []
     },
     {
       "id": "tech_recon_focus_bonus",
       "name": "Tech Recon Focus Bonus",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": []
     },
     {
       "id": "tech_recon2",
       "name": "Tech Recon2",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_recon3"
+      ]
     },
     {
       "id": "tech_recon3",
       "name": "Tech Recon3",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_recon4"
+      ]
     },
     {
       "id": "tech_recon4",
       "name": "Tech Recon4",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": []
     },
     {
       "id": "tech_signal_company",
       "name": "Tech Signal Company",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "sp_armored_signal_tech"
+      ]
     },
     {
       "id": "tech_signal_company2",
       "name": "Tech Signal Company2",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_signal_company3"
+      ]
     },
     {
       "id": "tech_signal_company3",
       "name": "Tech Signal Company3",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_signal_company4"
+      ]
     },
     {
       "id": "tech_signal_company4",
       "name": "Tech Signal Company4",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": []
     },
     {
       "id": "tech_support",
       "name": "Tech Support",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": [
+        "tech_engineers"
+      ]
     },
     {
       "id": "wartime_train",
       "name": "Wartime Train",
       "category": "support",
-      "source": "technologies/support.txt"
+      "source": "technologies/support.txt",
+      "requires": []
     }
   ]
 }

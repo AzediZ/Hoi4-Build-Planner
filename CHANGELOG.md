@@ -17,3 +17,8 @@
   - Selecting a FUWG country loads that country's starting researched technologies.
   - Research autocomplete hides techs already researched at game start.
   - Manually entered already-known techs are highlighted.
+
+### Changed
+- Research tabs now start empty instead of pre-filling Slot 1 and Slot 2.
+- FUWG research autocomplete now hides techs that are already researched at game start or locked behind unmet prerequisite techs.
+- Manually typed research choices with missing prerequisites are highlighted.

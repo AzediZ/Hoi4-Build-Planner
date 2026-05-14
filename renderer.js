@@ -80,6 +80,8 @@ function setCurrentCountryStartingTechs(tag) {
   const ids = researchState.startingTechsByCountry?.[tag] || [];
   researchState.currentStartingTechIds = new Set(ids);
   updateResearchStartingTechStatus(tag);
+  populateResearchOptions();
+  document.querySelectorAll('input.research-tech-input').forEach(updateResearchInputMatch);
 }
 
 function updateResearchStartingTechStatus(tag = "") {
@@ -89,7 +91,7 @@ function updateResearchStartingTechStatus(tag = "") {
   const count = researchState.currentStartingTechIds?.size || 0;
   if (researchState.loadedMod === "FUWG") {
     status.textContent = count
-      ? `Loaded ${researchState.techs.length} FUWG research options. ${tag} starts with ${count} researched tech(s).`
+      ? `Loaded ${researchState.techs.length} FUWG research options. ${tag} starts with ${count} researched tech(s). Autocomplete hides already-known or prerequisite-locked techs.`
       : `Loaded ${researchState.techs.length} FUWG research options. No starting tech list loaded for ${tag || "this country"}.`;
   }
 }
@@ -136,19 +138,49 @@ async function loadResearchDataForMod(modName) {
   }
 }
 
-function populateResearchOptions() {
+
+function getSelectedResearchTechIdsBeforeInput(targetInput = null) {
+  const known = new Set(researchState.currentStartingTechIds || []);
+  const inputs = Array.from(document.querySelectorAll('input.research-tech-input'));
+
+  for (const input of inputs) {
+    if (targetInput && input === targetInput) break;
+
+    const value = String(input.value || "").trim().toLowerCase();
+    const matched = researchState.techByName.get(value);
+    const id = input.dataset.techId || matched?.id || "";
+    if (id) known.add(id);
+  }
+
+  return known;
+}
+
+function areResearchPrereqsMet(tech, knownIds) {
+  const reqs = tech?.requires || [];
+  if (!reqs.length) return true;
+  return reqs.every((id) => knownIds.has(id));
+}
+
+function getAvailableResearchTechsForInput(targetInput = null) {
+  const knownIds = getSelectedResearchTechIdsBeforeInput(targetInput);
+
+  return researchState.techs.filter((tech) => {
+    if (knownIds.has(tech.id)) return false;
+    return areResearchPrereqsMet(tech, knownIds);
+  });
+}
+
+function populateResearchOptions(targetInput = null) {
   const list = document.getElementById("researchOptionsList");
   if (!list) return;
 
   list.innerHTML = "";
 
-  researchState.techs
-    .filter((tech) => !isResearchAlreadyKnown(tech.id))
-    .forEach((tech) => {
-      const option = document.createElement("option");
-      option.value = tech.name;
-      list.appendChild(option);
-    });
+  getAvailableResearchTechsForInput(targetInput).forEach((tech) => {
+    const option = document.createElement("option");
+    option.value = tech.name;
+    list.appendChild(option);
+  });
 
   document.querySelectorAll('input.research-tech-input').forEach(updateResearchInputMatch);
 }
@@ -161,16 +193,28 @@ function updateResearchInputMatch(input) {
   const value = String(input.value || "").trim().toLowerCase();
   if (!value || !researchState.techs.length) {
     input.dataset.techId = input.dataset.techId || "";
+    input.title = "";
     return;
   }
 
   const tech = researchState.techByName.get(value);
   if (tech) {
     input.dataset.techId = tech.id;
-    input.title = isResearchAlreadyKnown(tech.id)
-      ? `Already researched at game start${tech.category ? ` | Category: ${tech.category}` : ""}`
-      : (tech.category ? `Category: ${tech.category}` : "");
-    input.classList.add(isResearchAlreadyKnown(tech.id) ? "focus-unknown" : "focus-known");
+
+    const knownBefore = getSelectedResearchTechIdsBeforeInput(input);
+    const missing = (tech.requires || []).filter((id) => !knownBefore.has(id));
+    const missingNames = missing.map((id) => researchState.techById.get(id)?.name || id);
+
+    if (isResearchAlreadyKnown(tech.id)) {
+      input.title = `Already researched at game start${tech.category ? ` | Category: ${tech.category}` : ""}`;
+      input.classList.add("focus-unknown");
+    } else if (missing.length) {
+      input.title = `Missing prerequisite(s): ${missingNames.join(", ")}`;
+      input.classList.add("focus-unknown");
+    } else {
+      input.title = tech.category ? `Category: ${tech.category}` : "";
+      input.classList.add("focus-known");
+    }
   } else {
     input.dataset.techId = "";
     input.title = "No exact match in loaded research data.";
@@ -1495,8 +1539,7 @@ document.getElementById("newPlanBtn").addEventListener("click", () => {
 addRow("constructionTable", { what: "Civilian Factories", where: "High infrastructure core states", when: "1936 opener", notes: "Build economy before switching to military factories." });
 addRow("productionTable", { line: "Infantry Equipment", factories: "5-10", when: "Day 1", notes: "Keep rifles stocked before expanding artillery/tanks/air." });
 addRow("ppTable", { item: "Silent Workhorse / Economy Law", pp: "150", timing: "First 150 PP", notes: "Depends on country and build." });
-addResearchRow(1, { tech: "Basic Machine Tools", when: "Day 1", notes: "Standard industry opener." });
-addResearchRow(2, { tech: "Construction I", when: "Day 1", notes: "Early industry/construction scaling." });
+
 addRow("templateTable", { name: "Infantry 9/1", role: "Line infantry", battalions: "9 infantry, 1 artillery", support: "Engineers, support artillery", combatWidth: "21", timing: "After XP", notes: "General-purpose placeholder." });
 
 setDefaultCreatedDate();
@@ -1595,9 +1638,9 @@ function bindResearchAutocompleteInputs() {
     input.dataset.techId = textarea.dataset.techId || "";
     input.value = textarea.value || "";
 
-    input.addEventListener("focus", populateResearchOptions);
-    input.addEventListener("click", populateResearchOptions);
-    input.addEventListener("input", () => updateResearchInputMatch(input));
+    input.addEventListener("focus", () => populateResearchOptions(input));
+    input.addEventListener("click", () => populateResearchOptions(input));
+    input.addEventListener("input", () => { updateResearchInputMatch(input); populateResearchOptions(input); });
 
     textarea.replaceWith(input);
     updateResearchInputMatch(input);
