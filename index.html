@@ -66,6 +66,32 @@
           </div>
           <button onclick="addRow('focusTable')" class="primary">Add Focus</button>
         </div>
+
+        <section class="smart-focus-card">
+          <div>
+            <h3>Smart Focus Data</h3>
+            <p>Select FUWG and a country to enable searchable focus names in the Focus column.</p>
+          </div>
+          <div class="smart-focus-controls">
+            <label>
+              Focus Data
+              <select id="focusDataModSelect">
+                <option value="">Manual only</option>
+                <option value="fuwg">FUWG</option>
+              </select>
+            </label>
+            <label>
+              Country / Tree
+              <select id="focusDataCountrySelect" disabled>
+                <option value="">Select FUWG first</option>
+              </select>
+            </label>
+            <button id="loadFocusDataBtn" type="button">Load Focus Data</button>
+          </div>
+          <p id="focusDataStatus" class="focus-data-status">Manual focus entry is active.</p>
+          <datalist id="focusOptionsList"></datalist>
+        </section>
+
         <table id="focusTable" class="planner-table focus-table">
           <thead>
             <tr>

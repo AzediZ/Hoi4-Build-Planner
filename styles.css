@@ -524,3 +524,67 @@ select option:disabled {
   color: var(--muted);
   font-size: 13px;
 }
+
+
+.smart-focus-card {
+  border: 1px solid var(--border-soft);
+  border-radius: 18px;
+  padding: 14px;
+  margin: 0 0 18px;
+  background: rgba(255,255,255,0.025);
+  display: grid;
+  gap: 12px;
+}
+
+.smart-focus-card h3 {
+  margin: 0 0 4px;
+  color: var(--accent-bright);
+}
+
+.smart-focus-card p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.smart-focus-controls {
+  display: grid;
+  grid-template-columns: minmax(180px, 240px) minmax(220px, 1fr) auto;
+  gap: 12px;
+  align-items: end;
+}
+
+.focus-data-status {
+  font-size: 13px;
+}
+
+.planner-table input.focus-search-input {
+  width: 100%;
+  min-height: 42px;
+  color: var(--text);
+  background: linear-gradient(180deg, var(--field-focus), var(--field));
+  border: 1px solid var(--border);
+  border-radius: 11px;
+  padding: 10px 11px;
+  outline: none;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 14px;
+}
+
+.planner-table input.focus-search-input:focus {
+  border-color: var(--accent-bright);
+  box-shadow: 0 0 0 3px rgba(198, 161, 91, 0.16);
+}
+
+.focus-known {
+  border-color: rgba(78, 201, 176, 0.8) !important;
+}
+
+.focus-unknown {
+  border-color: rgba(255, 184, 77, 0.8) !important;
+}
+
+@media (max-width: 900px) {
+  .smart-focus-controls {
+    grid-template-columns: 1fr;
+  }
+}

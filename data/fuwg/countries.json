@@ -1,0 +1,376 @@
+{
+  "mod": "FUWG",
+  "countries": [
+    {
+      "tag": "AFG",
+      "name": "Afghanistan",
+      "treeId": "afghanistan_tree",
+      "sourceFile": "afghanistan.txt",
+      "focusCount": 203
+    },
+    {
+      "tag": "ARG",
+      "name": "Argentina",
+      "treeId": "argentine_focus_tree",
+      "sourceFile": "argentina.txt",
+      "focusCount": 154
+    },
+    {
+      "tag": "AST",
+      "name": "Australia",
+      "treeId": "australian_focus",
+      "sourceFile": "australia.txt",
+      "focusCount": 110
+    },
+    {
+      "tag": "AUS",
+      "name": "Austria",
+      "treeId": "austria_focus_tree",
+      "sourceFile": "austria.txt",
+      "focusCount": 220
+    },
+    {
+      "tag": "BEL",
+      "name": "Belgium",
+      "treeId": "belgium_focus",
+      "sourceFile": "belgium.txt",
+      "focusCount": 173
+    },
+    {
+      "tag": "BHU",
+      "name": "Bhutan",
+      "treeId": "bhutan_tree",
+      "sourceFile": "bhutan.txt",
+      "focusCount": 1
+    },
+    {
+      "tag": "BRA",
+      "name": "Brazil",
+      "treeId": "brazil_tree",
+      "sourceFile": "brazil.txt",
+      "focusCount": 173
+    },
+    {
+      "tag": "BUL",
+      "name": "Bulgaria",
+      "treeId": "bulgarian_focus",
+      "sourceFile": "bulgaria.txt",
+      "focusCount": 152
+    },
+    {
+      "tag": "CAN",
+      "name": "Canada",
+      "treeId": "canadian_focus",
+      "sourceFile": "canada.txt",
+      "focusCount": 98
+    },
+    {
+      "tag": "CHL",
+      "name": "Chile",
+      "treeId": "chilean_focus_tree",
+      "sourceFile": "chile.txt",
+      "focusCount": 209
+    },
+    {
+      "tag": "COG",
+      "name": "Congo",
+      "treeId": "congo_focus",
+      "sourceFile": "congo.txt",
+      "focusCount": 156
+    },
+    {
+      "tag": "CZE",
+      "name": "Czechoslovakia",
+      "treeId": "czech_focus",
+      "sourceFile": "czechoslovakia.txt",
+      "focusCount": 88
+    },
+    {
+      "tag": "DEN",
+      "name": "Denmark",
+      "treeId": "danish_focus",
+      "sourceFile": "denmark.txt",
+      "focusCount": 174
+    },
+    {
+      "tag": "EGY",
+      "name": "Egypt",
+      "treeId": "egypt_tree",
+      "sourceFile": "egypt.txt",
+      "focusCount": 66
+    },
+    {
+      "tag": "NUL",
+      "name": "Empty Tree",
+      "treeId": "empty_tree",
+      "sourceFile": "empty_tree.txt",
+      "focusCount": 0
+    },
+    {
+      "tag": "EST",
+      "name": "Estonia",
+      "treeId": "estonia_tree",
+      "sourceFile": "estonia.txt",
+      "focusCount": 61
+    },
+    {
+      "tag": "FIN",
+      "name": "Finland",
+      "treeId": "finnish_focus",
+      "sourceFile": "finland.txt",
+      "focusCount": 167
+    },
+    {
+      "tag": "FRA",
+      "name": "France",
+      "treeId": "french_focus",
+      "sourceFile": "france.txt",
+      "focusCount": 220
+    },
+    {
+      "tag": "GER",
+      "name": "Germany",
+      "treeId": "german_focus",
+      "sourceFile": "germany.txt",
+      "focusCount": 530
+    },
+    {
+      "tag": "GRE",
+      "name": "Greece",
+      "treeId": "greek_focus",
+      "sourceFile": "greece.txt",
+      "focusCount": 130
+    },
+    {
+      "tag": "HUN",
+      "name": "Hungary Wuw",
+      "treeId": "wuw_hungarian_focus",
+      "sourceFile": "hungary_wuw.txt",
+      "focusCount": 258
+    },
+    {
+      "tag": "RAJ",
+      "name": "India Goe",
+      "treeId": "indian_focus_goe",
+      "sourceFile": "india_goe.txt",
+      "focusCount": 413
+    },
+    {
+      "tag": "IRE",
+      "name": "Ireland",
+      "treeId": "ire_focus",
+      "sourceFile": "ireland.txt",
+      "focusCount": 95
+    },
+    {
+      "tag": "ITA",
+      "name": "Italy",
+      "treeId": "italian_focus",
+      "sourceFile": "italy.txt",
+      "focusCount": 344
+    },
+    {
+      "tag": "RDS",
+      "name": "Italy",
+      "treeId": "italian_focus",
+      "sourceFile": "italy.txt",
+      "focusCount": 344
+    },
+    {
+      "tag": "RSI",
+      "name": "Italy",
+      "treeId": "italian_focus",
+      "sourceFile": "italy.txt",
+      "focusCount": 344
+    },
+    {
+      "tag": "JAP",
+      "name": "Japan",
+      "treeId": "japan_wtt_focus",
+      "sourceFile": "japan.txt",
+      "focusCount": 453
+    },
+    {
+      "tag": "KOR",
+      "name": "Korea",
+      "treeId": "korea_tree",
+      "sourceFile": "korea.txt",
+      "focusCount": 61
+    },
+    {
+      "tag": "LAT",
+      "name": "Latvia",
+      "treeId": "latvia_tree",
+      "sourceFile": "latvia.txt",
+      "focusCount": 58
+    },
+    {
+      "tag": "LBA",
+      "name": "Libya",
+      "treeId": "lybia_tree",
+      "sourceFile": "Libya.txt",
+      "focusCount": 62
+    },
+    {
+      "tag": "LIT",
+      "name": "Lithuania",
+      "treeId": "lithuania_tree",
+      "sourceFile": "lithuania.txt",
+      "focusCount": 88
+    },
+    {
+      "tag": "MAL",
+      "name": "Malaya",
+      "treeId": "Malayan_tree",
+      "sourceFile": "Malaya.txt",
+      "focusCount": 89
+    },
+    {
+      "tag": "MAN",
+      "name": "Manchukuo Tsr",
+      "treeId": "manchukuo_focus_tsr",
+      "sourceFile": "manchukuo_TSR.txt",
+      "focusCount": 92
+    },
+    {
+      "tag": "MEX",
+      "name": "Mexico",
+      "treeId": "mexico_focus_tree",
+      "sourceFile": "mexico.txt",
+      "focusCount": 115
+    },
+    {
+      "tag": "HOL",
+      "name": "Netherlands",
+      "treeId": "netherlands_focus",
+      "sourceFile": "netherlands.txt",
+      "focusCount": 92
+    },
+    {
+      "tag": "NZL",
+      "name": "New Zealand",
+      "treeId": "new_zealander_focus",
+      "sourceFile": "new_zealand.txt",
+      "focusCount": 72
+    },
+    {
+      "tag": "CHI",
+      "name": "People's Republic of China",
+      "treeId": "china_nationalist_sea_focus",
+      "sourceFile": "china_nationalist_sea.txt",
+      "focusCount": 310
+    },
+    {
+      "tag": "PER",
+      "name": "Persia",
+      "treeId": "persian_focus_tree",
+      "sourceFile": "persia.txt",
+      "focusCount": 271
+    },
+    {
+      "tag": "PHI",
+      "name": "Philippines",
+      "treeId": "philippines_focus",
+      "sourceFile": "philippines.txt",
+      "focusCount": 169
+    },
+    {
+      "tag": "POL",
+      "name": "Poland",
+      "treeId": "polish_focus",
+      "sourceFile": "poland.txt",
+      "focusCount": 268
+    },
+    {
+      "tag": "POR",
+      "name": "Portugal",
+      "treeId": "portuguese_focus",
+      "sourceFile": "portugal.txt",
+      "focusCount": 132
+    },
+    {
+      "tag": "ROM",
+      "name": "Romania",
+      "treeId": "romanian_focus",
+      "sourceFile": "romania.txt",
+      "focusCount": 109
+    },
+    {
+      "tag": "SAU",
+      "name": "Saudiarabia",
+      "treeId": "saudi_arabia_focus_tree",
+      "sourceFile": "saudiarabia.txt",
+      "focusCount": 65
+    },
+    {
+      "tag": "SAF",
+      "name": "South Africa",
+      "treeId": "south_african_focus",
+      "sourceFile": "south_africa.txt",
+      "focusCount": 75
+    },
+    {
+      "tag": "SOV",
+      "name": "Soviet Union",
+      "treeId": "soviet_focus",
+      "sourceFile": "soviet.txt",
+      "focusCount": 212
+    },
+    {
+      "tag": "SPR",
+      "name": "Spain",
+      "treeId": "spanish_focus",
+      "sourceFile": "spain.txt",
+      "focusCount": 285
+    },
+    {
+      "tag": "SWE",
+      "name": "Sweden",
+      "treeId": "sweden_focus",
+      "sourceFile": "sweden.txt",
+      "focusCount": 141
+    },
+    {
+      "tag": "SWI",
+      "name": "Switzerland",
+      "treeId": "swiss_focus",
+      "sourceFile": "switzerland.txt",
+      "focusCount": 161
+    },
+    {
+      "tag": "TUR",
+      "name": "Turkey",
+      "treeId": "turkish_focus",
+      "sourceFile": "turkey.txt",
+      "focusCount": 118
+    },
+    {
+      "tag": "ENG",
+      "name": "United Kingdom",
+      "treeId": "british_focus",
+      "sourceFile": "uk.txt",
+      "focusCount": 145
+    },
+    {
+      "tag": "USA",
+      "name": "United States",
+      "treeId": "usa_focus",
+      "sourceFile": "usa.txt",
+      "focusCount": 208
+    },
+    {
+      "tag": "EFR",
+      "name": "Vichy France",
+      "treeId": "vichy_french_focus",
+      "sourceFile": "vichy_france.txt",
+      "focusCount": 143
+    },
+    {
+      "tag": "YUG",
+      "name": "Yugoslavia",
+      "treeId": "yugoslavian_focus",
+      "sourceFile": "yugoslavia.txt",
+      "focusCount": 117
+    }
+  ]
+}

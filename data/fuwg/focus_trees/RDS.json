@@ -1,0 +1,5058 @@
+{
+  "mod": "FUWG",
+  "tag": "RDS",
+  "country": "Italy",
+  "treeId": "italian_focus",
+  "sourceFile": "italy.txt",
+  "focusCount": 344,
+  "focuses": [
+    {
+      "id": "ITA_resource_development",
+      "name": "Resource Development",
+      "description": "",
+      "x": 5,
+      "y": 6,
+      "cost": 2,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_steel_investment",
+      "name": "Steel Investment",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "ITA_resource_development"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_rubber_investment",
+      "name": "Rubber Investment",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "ITA_resource_development"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_resources_for_the_empire",
+      "name": "Resources For The Empire",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "ITA_rubber_investment",
+        "ITA_steel_investment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_ethiopian_war_logistics_bba",
+      "name": "Ethiopian War Logistics Bba",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 2,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_italian_highways_bba",
+      "name": "Italian Highways Bba",
+      "description": "",
+      "x": 6,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_ministry_of_italian_africa",
+      "name": "Ministry Of Italian Africa",
+      "description": "",
+      "x": -7,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "ITA_italian_highways_bba",
+        "ITA_ethiopian_war_logistics_bba"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_improve_supplies",
+      "name": "Improve Supplies For Africa",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_ethiopian_war_logistics_bba",
+        "ITA_italian_highways_bba"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_fortress_africa",
+      "name": "Fortress Africa",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_ethiopian_war_logistics_bba",
+        "ITA_italian_highways_bba"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_develop_ethiopia",
+      "name": "Develop Ethiopia",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_ministry_of_italian_africa"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_develop_libya",
+      "name": "Develop Libya",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_ministry_of_italian_africa"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_develop_eritrea",
+      "name": "Develop Eritrea",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_ministry_of_italian_africa"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_develop_somaliland",
+      "name": "Develop Somaliland",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_ministry_of_italian_africa"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_forward_base_gabes",
+      "name": "Forward Base Gabes",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "ITA_develop_libya"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_Afrika_Korps",
+      "name": "Afrika Korps Reinforcements",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "ITA_develop_libya"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_forward_base_matourh",
+      "name": "Forward Base Matourh",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "ITA_develop_libya"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_regional_development",
+      "name": "Regional Development",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_develop_eritrea",
+        "ITA_develop_libya",
+        "ITA_develop_somaliland",
+        "ITA_develop_ethiopia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_prospect_for_oil",
+      "name": "Prospect For Oil",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_regional_development"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_polizia_dell_africa_italiana",
+      "name": "Polizia Dell Africa Italiana",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_regional_development"
+      ],
+      "mutuallyExclusive": [
+        "ITA_strengthen_ascari_corps"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_comandante_diavolo",
+      "name": "Comandante Diavolo",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_polizia_dell_africa_italiana",
+        "ITA_strengthen_ascari_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_steel_industry_in_terni",
+      "name": "Steel Industry In Terni",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_eco"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_power_plants_in_terni",
+      "name": "Power Plants In Terni",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_eco"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_industria_della_gomma_sintetica",
+      "name": "Industria Della Gomma Sintetica",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_steel_industry_in_terni",
+        "ITA_power_plants_in_terni"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_strengthen_northern_industry",
+      "name": "Strengthen Northern Industry",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_moder"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_modernize_the_mezzogiorno",
+      "name": "Modernize The Mezzogiorno",
+      "description": "",
+      "x": 3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_moder"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_new_industrialization_program",
+      "name": "New Industrialization Program",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_strengthen_northern_industry",
+        "ITA_modernize_the_mezzogiorno"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_railway_innovations",
+      "name": "Railway Innovations",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_italian_highways_bba"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_expand_foggia_farm_fields",
+      "name": "Expand Foggia Farm Fields",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_railway_innovations"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_investments_in_edison",
+      "name": "Investments In Edison",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_railway_innovations"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_fiocchi_munizioni",
+      "name": "Fiocchi Munizioni",
+      "description": "",
+      "x": 7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_italian_highways_bba"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_brescia_small_arms_industry",
+      "name": "Brescia Small Arms Industry",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_fiocchi_munizioni"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_milan_comms_industry",
+      "name": "Milan Comms Industry",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_fiocchi_munizioni"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_redirect_alfa_romeo_production",
+      "name": "Redirect Alfa Romeo Production",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_brescia_small_arms_industry",
+        "ITA_milan_comms_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_mobilize_the_railway_guns",
+      "name": "Mobilize The Railway Guns",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_increase_artillery_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_keep_specialization",
+      "name": "Keep Specialization",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_stop_the_squandering"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_stop_the_squandering",
+      "name": "Stop The Squandering",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_investments_in_edison",
+        "ITA_redirect_alfa_romeo_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_improve_the_industries",
+      "name": "Improve The Industries",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_keep_specialization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_thermojet_research",
+      "name": "Thermojet Research",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_improve_the_industries"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_army_primacy_bba",
+      "name": "Army Primacy Bba",
+      "description": "",
+      "x": 16,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_preserve_army_traditions",
+      "name": "Preserve Army Traditions",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_army_primacy_bba"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_increase_artillery_production",
+      "name": "Increase Artillery Production",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_fiocchi_munizioni",
+        "ITA_army_primacy_bba"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_vallo_alpino_del_littorio",
+      "name": "Vallo Alpino Del Littorio",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_milan_comms_industry",
+        "ITA_increase_artillery_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_l6_40",
+      "name": "L6-40",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_increase_artillery_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_light_tanks",
+      "name": "Light tank Effort",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_l6_40"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_moschettieri_del_duce",
+      "name": "Moschettieri Del Duce",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_preserve_army_traditions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_a_bandits_war",
+      "name": "A Bandits War",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_army_primacy_bba"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_carica_di_isbuscenskij",
+      "name": "Carica Di Isbuscenskij",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_a_bandits_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_army_leaders",
+      "name": "Army Leaders",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_preserve_army_traditions",
+        "ITA_a_bandits_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_superesercito",
+      "name": "Superesercito",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_preserve_army_traditions",
+        "ITA_a_bandits_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_italian_tankettes",
+      "name": "Italian Tankettes",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_preserve_army_traditions",
+        "ITA_a_bandits_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_bersaglieri",
+      "name": "Bersaglieri",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_army_leaders",
+        "ITA_superesercito"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_divisioni_alpine",
+      "name": "Divisioni Alpine",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_bersaglieri"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_fanti_dell_aria",
+      "name": "Fanti Dell Aria",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_bersaglieri"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_self_propelled_guns",
+      "name": "Self Propelled Guns",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_superesercito",
+        "ITA_italian_tankettes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_end_fiat_ansaldo_duopoly",
+      "name": "End Fiat Ansaldo Duopoly",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_self_propelled_guns"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_modernize_ansaldo_facilities",
+      "name": "Modernize Ansaldo Facilities",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_self_propelled_guns"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_ferrea_mole_ferreo_cuore",
+      "name": "Ferrea Mole Ferreo Cuore",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_end_fiat_ansaldo_duopoly",
+        "ITA_modernize_ansaldo_facilities"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_air_innovations_bba",
+      "name": "Air Innovations Bba",
+      "description": "",
+      "x": 7,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_develop_our_own_transport_planes",
+      "name": "Develop Transport Planes",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "ITA_air_innovations_bba"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_citta_dell_aria",
+      "name": "Citta Dell Aria",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_air_innovations_bba"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_expand_rome_flying_school",
+      "name": "Expand Rome Flying School",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_air_innovations_bba"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_reggianes_exports",
+      "name": "Reggianes Exports",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_air_innovations_bba"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_diving_bombers",
+      "name": "Diving Bombers",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_air_innovations_bba"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_superaereo",
+      "name": "Superaereo",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_air_innovations_bba"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_officers_of_the_service_role",
+      "name": "Officers Of The Service Role",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_superaereo",
+        "ITA_expand_rome_flying_school"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_standardization",
+      "name": "Standardization",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_superaereo"
+      ],
+      "mutuallyExclusive": [
+        "ITA_specialization"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_specialization",
+      "name": "Specialization",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_superaereo"
+      ],
+      "mutuallyExclusive": [
+        "ITA_standardization"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_long_range_aircraft",
+      "name": "Long Range Aircraft",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_standardization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_bomber_designs",
+      "name": "Bomber Designs",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_standardization",
+        "ITA_specialization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_fighter_designs",
+      "name": "Fighter Designs",
+      "description": "",
+      "x": 4,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_standardization",
+        "ITA_specialization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_multirole_aircraft",
+      "name": "Multirole Aircraft",
+      "description": "",
+      "x": 6,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_specialization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_supremacy_in_the_skies",
+      "name": "Supremacy In The Skies",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_multirole_aircraft",
+        "ITA_long_range_aircraft",
+        "ITA_fighter_designs",
+        "ITA_bomber_designs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_naval_power_projection",
+      "name": "Naval Power Projection",
+      "description": "",
+      "x": 11,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_intensify_torpedo_manufacturing",
+      "name": "Intensify Torpedo Manufacturing",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_naval_power_projection"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_expand_naval_facilities",
+      "name": "Expand Naval Facilities",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_naval_power_projection"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_oto_naval_guns",
+      "name": "Oto Naval Guns",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_naval_power_projection"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_improve_overseas_naval_bases",
+      "name": "Improve Overseas Naval Bases",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_expand_naval_facilities"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_milizia_marittima_di_artiglieria",
+      "name": "Milizia Marittima Di Artiglieria",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_expand_naval_facilities"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_supermarina",
+      "name": "Supermarina",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_expand_naval_facilities"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_decima_flottiglia_mas",
+      "name": "Decima Flottiglia Mas",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 2,
+      "prerequisites": [
+        "ITA_supermarina"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_bring_back_old_glories",
+      "name": "Bring Back Old Glories",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_supermarina"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_project_impero_nova",
+      "name": "Project Impero Nova",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_supermarina"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_expand_the_repair_yards",
+      "name": "Expand the Repair Yards",
+      "description": "Funny Refit Focus",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_naval_power_projection"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_stockpile_fuel",
+      "name": "Stockpile Fuel",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_expand_naval_facilities"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_forza_navale_especiale",
+      "name": "Forza Navale Especiale",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_expand_naval_facilities"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_naval_air_coordination",
+      "name": "Naval Air Coordination",
+      "description": "",
+      "x": 5,
+      "y": 2,
+      "cost": 3,
+      "prerequisites": [
+        "ITA_air_innovations_bba",
+        "ITA_naval_power_projection"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_incrociatori_leggeri",
+      "name": "Incrociatori Leggeri",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_supermarina"
+      ],
+      "mutuallyExclusive": [
+        "ITA_incrociatori_pesanti"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_incrociatori_pesanti",
+      "name": "Incrociatori Pesanti",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_supermarina"
+      ],
+      "mutuallyExclusive": [
+        "ITA_incrociatori_leggeri"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_expand_naval_intelligence",
+      "name": "Expand Naval Intelligence",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_supermarina"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_cooperation_programs",
+      "name": "Cooperation Programs",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_supermarina"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_cruiser_submarines",
+      "name": "Cruiser Submarines",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_incrociatori_leggeri"
+      ],
+      "mutuallyExclusive": [
+        "ITA_midget_submarines"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_midget_submarines",
+      "name": "Midget Submarines",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_incrociatori_leggeri"
+      ],
+      "mutuallyExclusive": [
+        "ITA_cruiser_submarines"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_cacciatorpediniere_di_scorta",
+      "name": "Cacciatorpediniere Di Scorta",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_incrociatori_leggeri"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_ispettorato_dei_mezzi_antisommergibili",
+      "name": "Ispettorato Dei Mezzi Antisommergibili",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_incrociatori_leggeri",
+        "ITA_incrociatori_pesanti"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_navi_da_battaglia",
+      "name": "Navi Da Battaglia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_incrociatori_pesanti"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_proper_carriers",
+      "name": "Proper Carriers",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_incrociatori_pesanti"
+      ],
+      "mutuallyExclusive": [
+        "ITA_refit_civilian_ships"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_refit_civilian_ships",
+      "name": "Refit Civilian Ships",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_incrociatori_pesanti"
+      ],
+      "mutuallyExclusive": [
+        "ITA_proper_carriers"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_flotta_d_evasione",
+      "name": "Flotta D Evasione",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_ispettorato_dei_mezzi_antisommergibili",
+        "ITA_cacciatorpediniere_di_scorta",
+        "ITA_navi_da_battaglia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_solid_progress",
+      "name": "Solid Progress",
+      "description": "",
+      "x": 9,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "ITA_the_abyssinian_fiasco",
+        "ITA_struggle_in_ethiopia"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_servizio_informazione_militare",
+      "name": "Servizio Informazione Militare",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_solid_progress"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_triumph_in_africa_bba",
+      "name": "Triumph In Africa Bba",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_servizio_informazione_militare"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_culto_del_duce",
+      "name": "Culto Del Duce",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "ITA_triumph_in_africa_bba"
+      ],
+      "mutuallyExclusive": [
+        "ITA_convene_the_grand_council",
+        "ITA_defy_the_duce"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_the_man_of_providence",
+      "name": "The Man Of Providence",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_culto_del_duce"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_boost_the_grand_council_of_fascism",
+      "name": "Boost The Grand Council Of Fascism",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_the_man_of_providence"
+      ],
+      "mutuallyExclusive": [
+        "ITA_to_live_as_a_lion"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_to_live_as_a_lion",
+      "name": "To Live As A Lion",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_the_man_of_providence"
+      ],
+      "mutuallyExclusive": [
+        "ITA_boost_the_grand_council_of_fascism"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_la_battaglia_del_grano",
+      "name": "La Battaglia Del Grano",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_la_battaglia_per_le_nascite"
+      ],
+      "mutuallyExclusive": [
+        "ITA_la_battaglia_per_la_terra"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_la_battaglia_per_la_terra",
+      "name": "La Battaglia Per La Terra",
+      "description": "",
+      "x": 3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_la_battaglia_per_le_nascite"
+      ],
+      "mutuallyExclusive": [
+        "ITA_la_battaglia_del_grano"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_la_battaglia_per_le_nascite",
+      "name": "La Battaglia Per Le Nascite",
+      "description": "",
+      "x": 1,
+      "y": -1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_culto_del_duce"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_devotion",
+      "name": "Devotion",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 1,
+      "prerequisites": [
+        "ITA_to_live_as_a_lion",
+        "ITA_boost_the_grand_council_of_fascism",
+        "ITA_la_battaglia_del_grano",
+        "ITA_la_battaglia_per_la_terra"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_believe_obey_fight",
+      "name": "Believe Obey Fight",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_culto_del_duce"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_security_militias",
+      "name": "Security Militias",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_culto_del_duce"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_towards_a_greater_italy",
+      "name": "Towards A Greater Italy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "ITA_devotion"
+      ],
+      "mutuallyExclusive": [
+        "ITA_mare_nostrum_bba"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_move_toward_autarky",
+      "name": "Move Towards Autarky",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_towards_a_greater_italy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_the_italian_legions",
+      "name": "The Italian Legions",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_by_blood_alone"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_all_roads_lead_to_rome",
+      "name": "All Roads Lead To Rome",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_the_italian_legions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_the_king_of_the_skies",
+      "name": "The King Of The Skies",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_all_roads_lead_to_rome"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_modern_musculus",
+      "name": "Modern Musculus",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_all_roads_lead_to_rome"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_caligulas_pride",
+      "name": "Caligulas Pride",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_all_roads_lead_to_rome"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_heroes_of_the_nation",
+      "name": "Heroes Of The Nation",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_towards_a_greater_italy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_capo_supremo",
+      "name": "Capo Supremo",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_towards_a_greater_italy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_bend_the_bars",
+      "name": "Bend The Bars",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_towards_a_greater_italy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_subdue_the_sentinels",
+      "name": "Subdue The Sentinels",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_bend_the_bars"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_a_colonial_empire",
+      "name": "A Colonial Empire",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_towards_a_greater_italy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_by_blood_alone",
+      "name": "By Blood Alone",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_towards_a_greater_italy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_masters_of_the_aegean",
+      "name": "Masters Of The Aegean",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_bend_the_bars"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_foreign_affairs",
+      "name": "Foreign Affairs",
+      "description": "",
+      "x": 9,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_triumph_in_africa_bba"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_potential_allies_in_the_balkans",
+      "name": "Potential Allies In The Balkans",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_foreign_affairs"
+      ],
+      "mutuallyExclusive": [
+        "ITA_balkan_ambition"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_masters_of_the_mediterranean",
+      "name": "Masters Of The Mediterranean",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_potential_allies_in_the_balkans"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_albanian_occupation",
+      "name": "Albanian Occupation",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_potential_allies_in_the_balkans"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_pact_of_steel",
+      "name": "Pact Of Steel",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_potential_allies_in_the_balkans"
+      ],
+      "mutuallyExclusive": [
+        "ITA_guarantee_austrian_independence",
+        "ITA_italy_first"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_german_military_cooperation",
+      "name": "German Military Cooperation",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_pact_of_steel"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_treaty_with_germany",
+      "name": "Treaty With Germany",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_pact_of_steel"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_befriend_japan",
+      "name": "Befriend Japan",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_pact_of_steel"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_italian_irredentism",
+      "name": "Italian Irredentism",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_pact_of_steel"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_war_with_greece",
+      "name": "War With Greece",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_italian_irredentism"
+      ],
+      "mutuallyExclusive": [
+        "ITA_befriend_greece"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_corpo_di_truppe_volontarie",
+      "name": "Corpo Di Truppe Volontarie",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_foreign_affairs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_spanish_italian_alliance",
+      "name": "Spanish Italian Alliance",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_corpo_di_truppe_volontarie"
+      ],
+      "mutuallyExclusive": [
+        "ITA_demand_balearic_islands_bba"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_befriend_portugal",
+      "name": "Befriend Portugal",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_spanish_italian_alliance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_eco",
+      "name": "Economia di Guerra",
+      "description": "We unleash the full might of our economy, mobilizing every resource and industry to forge a war machine unparalleled in history. Our nation rises as a mighty industrial powerhouse, ready to conquer any foe that dares stand in our path.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_italian_highways_bba"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_buro",
+      "name": "Politica dei Consorzi",
+      "description": "Let us forge a grand alliance of industries, intertwining our strengths and expertise to propel our nation to new heights. We cultivate collaboration, nurture innovation, and build a foundation of industrial might that carries us to victory.",
+      "x": 3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_expand_foggia_farm_fields",
+        "ITA_power_plants_in_terni"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_expand_national_universities",
+      "name": "Expand National Universities",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_buro"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_nat",
+      "name": "Nat",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_power_plants_in_terni",
+        "ITA_steel_industry_in_terni"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_moder",
+      "name": "Nazionalismo Scientifico-Tecnico",
+      "description": "We embrace the synergy between science and nationalism propelling our nation forward with revolutionary discoveries and cutting-edge technologies.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_nat"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_stab",
+      "name": "Sindacato Unico Fascista",
+      "description": "United we stand, unyielding and resolute in our labor's pursuit of greatness. We establish a formidable trade union, a collective force that inspires discipline, empowers productivity, and ensures the unwavering loyalty of our workforce.",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_investments_in_edison"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_extraction_industry",
+      "name": "Extraction Industry",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_nat",
+        "ITA_buro"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_corp",
+      "name": "Istituto Nazionale di Finanza Corporativa",
+      "description": "With the establishment of the \"Istituto Nazionale di Finanza Corporativa,\" we take control of our financial destiny. Through strategic oversight and investment, we empower our corporations, strengthen our economy, and secure the foundation of our national prosperity.",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_expand_national_universities",
+        "ITA_stab"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_mono",
+      "name": "Clima dell'Azione",
+      "description": "Fueled by patriotic zeal, we unite our nation, stirring the hearts of Italians to achieve greatness.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_eco"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_research_2",
+      "name": "Società Finanziaria Siderurgica",
+      "description": "Let us strengthen the mighty steel industry of Italy through the creation of a state-owned financial corporation.",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_italian_highways_bba"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_highway",
+      "name": "Rete Autostradale Italiana",
+      "description": "We forge a vast network of highways and roadways across Italy, binding our nation together. These arteries of progress empower our people, fuel our economy, and unite our land.",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_steel_industry_in_terni"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_road_rome",
+      "name": "Asse Roma-Berlino",
+      "description": "Together, we cement the unbreakable bond between Italy and Germany. Bound by a shared vision of greatness, we march side by side, exchanging military wisdom, forging economic might, and standing as an indomitable force that shapes the destiny of nations.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_strengthen_northern_industry",
+        "ITA_modernize_the_mezzogiorno"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_a_time_for_war",
+      "name": "A Time For War",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_fort_sardegna",
+      "name": "Fort Sardegna",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_new_industrialization_program",
+        "ITA_increase_production",
+        "ITA_keep_specialization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_fort_sicily",
+      "name": "Fort Sicily",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_new_industrialization_program",
+        "ITA_increase_production",
+        "ITA_keep_specialization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_fortification_effort_4",
+      "name": "Defend the Gothic Line",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_fort_sardegna",
+        "ITA_fort_sicily"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_fortification_effort_5",
+      "name": "Fortification against French Agressors",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_new_industrialization_program"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_fortification_effort_8",
+      "name": "Fortification Effort 8",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_fortification_effort_5"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_increase_production",
+      "name": "Increase Production",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_expand_national_universities",
+        "ITA_redirect_alfa_romeo_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_litoranea_balbo",
+      "name": "Litoranea Balbo",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_regional_development"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_via_della_vittoria",
+      "name": "Via Della Vittoria",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_litoranea_balbo"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_libyan_railway",
+      "name": "Libyan Railway",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_litoranea_balbo",
+        "ITA_prospect_for_oil"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_libyan_refineries",
+      "name": "Libyan Refineries",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_prospect_for_oil"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_strengthen_ascari_corps",
+      "name": "Strengthen Ascari Corps",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_regional_development"
+      ],
+      "mutuallyExclusive": [
+        "ITA_polizia_dell_africa_italiana"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_the_abyssinian_fiasco",
+      "name": "The Abyssinian Fiasco",
+      "description": "",
+      "x": 29,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "ITA_solid_progress",
+        "ITA_struggle_in_ethiopia"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_struggle_in_ethiopia",
+      "name": "Struggle In Ethiopia",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "ITA_the_abyssinian_fiasco",
+        "ITA_solid_progress"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_undermine_the_duce",
+      "name": "Undermine The Duce",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_struggle_in_ethiopia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_conspiracies_in_the_shadows",
+      "name": "Conspiracies In The Shadows",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_undermine_the_duce"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_convene_the_grand_council",
+      "name": "Convene The Grand Council",
+      "description": "",
+      "x": 20,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_triumph_in_africa_bba",
+        "ITA_conspiracies_in_the_shadows"
+      ],
+      "mutuallyExclusive": [
+        "ITA_culto_del_duce",
+        "ITA_defy_the_duce"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_devaluate_the_lire",
+      "name": "Devaluate The Lire",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_triumph_in_africa_bba"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_anglo_italian_agreements",
+      "name": "Anglo Italian Agreements",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_triumph_in_africa_bba"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_topple_amhara_rulers",
+      "name": "Topple Amhara Rulers",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_triumph_in_africa_bba"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_the_new_emperor_of_ethiopia",
+      "name": "The New Emperor Of Ethiopia",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_triumph_in_africa_bba"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_legge_bottai",
+      "name": "Legge Bottai",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_the_man_of_providence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_strengthen_the_regime",
+      "name": "Strengthen The Regime",
+      "description": "",
+      "x": 0,
+      "y": 5,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_la_battaglia_per_le_nascite"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_ministero_della_cultura_popolare",
+      "name": "Ministero Della Cultura Popolare",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_culto_del_duce",
+        "ITA_convene_the_grand_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_banda_carita",
+      "name": "Banda Carita",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_believe_obey_fight"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_banda_koch",
+      "name": "Banda Koch",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_banda_carita"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_battaglioni_d_assalto",
+      "name": "Battaglioni D Assalto",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_security_militias"
+      ],
+      "mutuallyExclusive": [
+        "ITA_strengthen_the_blackshirts"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_strengthen_the_blackshirts",
+      "name": "Strengthen The Blackshirts",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_security_militias"
+      ],
+      "mutuallyExclusive": [
+        "ITA_battaglioni_d_assalto"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_milizia_coloniale",
+      "name": "Milizia Coloniale",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_battaglioni_d_assalto",
+        "ITA_strengthen_the_blackshirts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_depose_mussolini",
+      "name": "Depose Mussolini",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_convene_the_grand_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_italo_balbo_focus",
+      "name": "Italo Balbo Focus",
+      "description": "",
+      "x": -10,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_depose_mussolini"
+      ],
+      "mutuallyExclusive": [
+        "ITA_dino_grandi_focus",
+        "ITA_monarchia_d_italia"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_dino_grandi_focus",
+      "name": "Dino Grandi Focus",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_depose_mussolini"
+      ],
+      "mutuallyExclusive": [
+        "ITA_italo_balbo_focus",
+        "ITA_monarchia_d_italia"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_consolidate_power",
+      "name": "Consolidate Power",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_italo_balbo_focus",
+        "ITA_dino_grandi_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_purge_the_party",
+      "name": "Purge The Party",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_consolidate_power",
+        "ITA_stop_the_squandering"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_the_fate_of_mussolini",
+      "name": "The Fate Of Mussolini",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_purge_the_party"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_divino_duce",
+      "name": "Divino Duce",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_the_fate_of_mussolini"
+      ],
+      "mutuallyExclusive": [
+        "ITA_a_greater_purpose"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_blackshirt_loyalty",
+      "name": "Blackshirt Loyalty",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_divino_duce"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_a_greater_purpose",
+      "name": "A Greater Purpose",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_the_fate_of_mussolini"
+      ],
+      "mutuallyExclusive": [
+        "ITA_divino_duce"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_spreading_the_eagles_wings",
+      "name": "Spreading The Eagles Wings",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_a_greater_purpose"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_italian_hegemony",
+      "name": "Italian Hegemony",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_spreading_the_eagles_wings"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_reorganize_regio_esercito",
+      "name": "Reorganize Regio Esercito",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_italo_balbo_focus",
+        "ITA_stop_the_squandering"
+      ],
+      "mutuallyExclusive": [
+        "ITA_reinforce_regia_aeronautica"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_reinforce_regia_aeronautica",
+      "name": "Reinforce Regia Aeronautica",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_italo_balbo_focus",
+        "ITA_stop_the_squandering"
+      ],
+      "mutuallyExclusive": [
+        "ITA_reorganize_regio_esercito"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_compagnie_auto_avio_sahariane",
+      "name": "Compagnie Auto Avio Sahariane",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_reorganize_regio_esercito",
+        "ITA_reinforce_regia_aeronautica"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_combined_land_and_air_warfare",
+      "name": "Combined Land And Air Warfare",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_compagnie_auto_avio_sahariane"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_the_fourth_shore",
+      "name": "The Fourth Shore",
+      "description": "",
+      "x": 3,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_italo_balbo_focus",
+        "ITA_stop_the_squandering"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_oil_in_tripoli",
+      "name": "Oil In Tripoli",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_the_fourth_shore"
+      ],
+      "mutuallyExclusive": [
+        "ITA_steel_in_tripoli"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_steel_in_tripoli",
+      "name": "Steel In Tripoli",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_the_fourth_shore"
+      ],
+      "mutuallyExclusive": [
+        "ITA_oil_in_tripoli"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_novus_ordo",
+      "name": "Novus Ordo",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_steel_in_tripoli",
+        "ITA_oil_in_tripoli"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_seek_british_military_cooperation",
+      "name": "Seek British Military Cooperation",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_dino_grandi_focus",
+        "ITA_monarchia_d_italia"
+      ],
+      "mutuallyExclusive": [
+        "ITA_invite_france_to_military_partnership"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_anglo_italian_pact",
+      "name": "Anglo Italian Pact",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_seek_british_military_cooperation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_invite_france_to_military_partnership",
+      "name": "Invite France To Military Partnership",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_dino_grandi_focus",
+        "ITA_monarchia_d_italia"
+      ],
+      "mutuallyExclusive": [
+        "ITA_seek_british_military_cooperation"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_franco_italian_pact",
+      "name": "Franco Italian Pact",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_invite_france_to_military_partnership"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_proclaim_the_italian_empire",
+      "name": "Proclaim The Italian Empire",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_anglo_italian_pact",
+        "ITA_franco_italian_pact"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_reorganize_the_party",
+      "name": "Reorganize The Party",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_dino_grandi_focus",
+        "ITA_consolidate_power"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_meritocracy",
+      "name": "Meritocracy",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_reorganize_the_party",
+        "ITA_purge_the_party"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_economic_reforms",
+      "name": "Economic Reforms",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_reorganize_the_party"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_expanded_corporatism",
+      "name": "Expanded Corporatism",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_meritocracy",
+        "ITA_improve_the_industries"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_monarchia_d_italia",
+      "name": "Monarchia D Italia",
+      "description": "",
+      "x": 9,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_depose_mussolini"
+      ],
+      "mutuallyExclusive": [
+        "ITA_dino_grandi_focus",
+        "ITA_italo_balbo_focus"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_new_corporations",
+      "name": "New Corporations",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_extraction_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_prepare_for_the_coming_wars",
+      "name": "Prepare For The Coming Wars",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_extraction_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_new_forms_of_weaponry",
+      "name": "New Forms Of Weaponry",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_prepare_for_the_coming_wars"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_revoke_the_acerbo_law",
+      "name": "Revoke The Acerbo Law",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_monarchia_d_italia"
+      ],
+      "mutuallyExclusive": [
+        "ITA_power_to_the_king"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_christian_democracy",
+      "name": "Christian Democracy",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_revoke_the_acerbo_law"
+      ],
+      "mutuallyExclusive": [
+        "ITA_democratic_king"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_democratic_king",
+      "name": "Democratic King",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_revoke_the_acerbo_law"
+      ],
+      "mutuallyExclusive": [
+        "ITA_christian_democracy"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_cooperate_with_moderates",
+      "name": "Cooperate With Moderates",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_christian_democracy",
+        "ITA_democratic_king"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_expand_intelligence_services",
+      "name": "Expand Intelligence Services",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_democratic_king",
+        "ITA_christian_democracy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_crush_opposition",
+      "name": "Crush Opposition",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_cooperate_with_moderates",
+        "ITA_expand_intelligence_services"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_power_to_the_king",
+      "name": "Power To The King",
+      "description": "",
+      "x": 5,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_monarchia_d_italia"
+      ],
+      "mutuallyExclusive": [
+        "ITA_revoke_the_acerbo_law"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_disband_the_blackshirts",
+      "name": "Disband The Blackshirts",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_power_to_the_king",
+        "ITA_revoke_the_acerbo_law"
+      ],
+      "mutuallyExclusive": [
+        "ITA_utilize_the_blackshirts"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_utilize_the_blackshirts",
+      "name": "Utilize The Blackshirts",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_power_to_the_king"
+      ],
+      "mutuallyExclusive": [
+        "ITA_disband_the_blackshirts"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_expand_the_royal_guard",
+      "name": "Expand The Royal Guard",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_disband_the_blackshirts",
+        "ITA_utilize_the_blackshirts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_gloria_al_regno_d_italia",
+      "name": "Gloria Al Regno D Italia",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_expand_the_royal_guard",
+        "ITA_democratic_king"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_paramilitary_training",
+      "name": "Paramilitary Training",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_expand_the_royal_guard",
+        "ITA_utilize_the_blackshirts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_seek_papal_support",
+      "name": "Seek Papal Support",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_power_to_the_king"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_agents_of_the_church",
+      "name": "Agents Of The Church",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_seek_papal_support"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_strengthen_the_papacy",
+      "name": "Strengthen The Papacy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_agents_of_the_church"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_setting_course",
+      "name": "Setting Course",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_gloria_al_regno_d_italia",
+        "ITA_crush_opposition",
+        "ITA_strengthen_the_papacy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_mare_nostrum_bba",
+      "name": "Mare Nostrum Bba",
+      "description": "",
+      "x": 31,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_setting_course",
+        "ITA_strengthen_the_regime",
+        "ITA_blackshirt_loyalty"
+      ],
+      "mutuallyExclusive": [
+        "ITA_towards_a_greater_italy"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_auxiliaries",
+      "name": "Auxiliaries",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_mare_nostrum_bba"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_new_roman_citizens",
+      "name": "New Roman Citizens",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_mare_nostrum_bba"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_iberian_protection",
+      "name": "Iberian Protection",
+      "description": "",
+      "x": 4,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_mare_nostrum_bba",
+        "ITA_deus_vult"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_south_american_alliances",
+      "name": "South American Alliances",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_iberian_protection"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_the_papacy_reborn",
+      "name": "The Papacy Reborn",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_strengthen_the_papacy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_deus_vult",
+      "name": "Deus Vult",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_the_papacy_reborn"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_il_vento_aureo",
+      "name": "Il Vento Aureo",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_deus_vult"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_catholic_action",
+      "name": "Catholic Action",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_the_papacy_reborn"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_the_holy_lands",
+      "name": "The Holy Lands",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_deus_vult"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_the_catholic_dominion",
+      "name": "The Catholic Dominion",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_a_time_for_war",
+        "ITA_the_holy_lands"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_balkan_ambition",
+      "name": "Balkan Ambition",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_foreign_affairs"
+      ],
+      "mutuallyExclusive": [
+        "ITA_potential_allies_in_the_balkans"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_albanian_oil",
+      "name": "Albanian Oil",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_albanian_occupation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_support_albanian_irredentism",
+      "name": "Support Albanian Irredentism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_albanian_occupation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_albanian_fascist_militia",
+      "name": "Albanian Fascist Militia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_support_albanian_irredentism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_guarantee_austrian_independence",
+      "name": "Guarantee Austrian Independence",
+      "description": "",
+      "x": -10,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_potential_allies_in_the_balkans",
+        "ITA_balkan_ambition"
+      ],
+      "mutuallyExclusive": [
+        "ITA_pact_of_steel",
+        "ITA_italy_first"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_negotiate_italian_claims",
+      "name": "Negotiate Italian Claims",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_guarantee_austrian_independence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_ratify_the_stresa_front",
+      "name": "Ratify The Stresa Front",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_negotiate_italian_claims"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_joint_military_programs",
+      "name": "Joint Military Programs",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_ratify_the_stresa_front"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_italys_destiny",
+      "name": "Italys Destiny",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_ratify_the_stresa_front"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_the_eastern_threat",
+      "name": "The Eastern Threat",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_italys_destiny"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_sea_wolves_bba",
+      "name": "Sea Wolves Bba",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_german_military_cooperation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_secret_weapons",
+      "name": "Secret Weapons",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_german_military_cooperation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_request_control_of_french_territories",
+      "name": "Request Control Of French Territories",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_pact_of_steel",
+        "ITA_italian_irredentism"
+      ],
+      "mutuallyExclusive": [
+        "ITA_war_with_france"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_italy_first",
+      "name": "Italy First",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_potential_allies_in_the_balkans",
+        "ITA_balkan_ambition"
+      ],
+      "mutuallyExclusive": [
+        "ITA_guarantee_austrian_independence",
+        "ITA_pact_of_steel"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_war_with_france",
+      "name": "War With France",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_italian_irredentism"
+      ],
+      "mutuallyExclusive": [
+        "ITA_request_control_of_french_territories"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_demand_ticino",
+      "name": "Demand Ticino",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_war_with_france",
+        "ITA_request_control_of_french_territories"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_war_with_the_uk",
+      "name": "War With The Uk",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_italy_first",
+        "ITA_italian_irredentism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_befriend_greece",
+      "name": "Befriend Greece",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_italy_first"
+      ],
+      "mutuallyExclusive": [
+        "ITA_war_with_greece"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_claims_on_turkey_bba",
+      "name": "Claims On Turkey Bba",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_war_with_greece",
+        "ITA_befriend_greece"
+      ],
+      "mutuallyExclusive": [
+        "ITA_befriend_turkey"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_befriend_turkey",
+      "name": "Befriend Turkey",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_war_with_greece",
+        "ITA_befriend_greece"
+      ],
+      "mutuallyExclusive": [
+        "ITA_claims_on_turkey_bba"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_demand_balearic_islands_bba",
+      "name": "Demand Balearic Islands Bba",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_corpo_di_truppe_volontarie"
+      ],
+      "mutuallyExclusive": [
+        "ITA_spanish_italian_alliance"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_the_italian_liberation_war",
+      "name": "The Italian Liberation War",
+      "description": "",
+      "x": -6,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_fronte_militare_clandestino",
+      "name": "Fronte Militare Clandestino",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_the_italian_liberation_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_corpo_volontari_della_liberta",
+      "name": "Corpo Volontari Della Liberta",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_fronte_militare_clandestino"
+      ],
+      "mutuallyExclusive": [
+        "ITA_the_carabinieri"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_the_carabinieri",
+      "name": "The Carabinieri",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_fronte_militare_clandestino"
+      ],
+      "mutuallyExclusive": [
+        "ITA_corpo_volontari_della_liberta"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_gappisti",
+      "name": "Gappisti",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_corpo_volontari_della_liberta"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_partisan_republics",
+      "name": "Partisan Republics",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_corpo_volontari_della_liberta",
+        "ITA_the_carabinieri"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_the_kings_finest",
+      "name": "The Kings Finest",
+      "description": "",
+      "x": 4,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_the_carabinieri"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_grande_rivolta_rurale",
+      "name": "Grande Rivolta Rurale",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_partisan_republics",
+        "ITA_gappisti",
+        "ITA_the_kings_finest"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_liberation_or_death",
+      "name": "Liberation Or Death",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_grande_rivolta_rurale"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_independence_rds",
+      "name": "Independence Rds",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_liberation_or_death"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_the_italian_social_republic",
+      "name": "The Italian Social Republic",
+      "description": "",
+      "x": -6,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_guardia_nazionale_repubblicana",
+      "name": "Guardia Nazionale Repubblicana",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_the_italian_social_republic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_integrate_polizia_dell_africa_italiana",
+      "name": "Integrate Polizia Dell Africa Italiana",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_guardia_nazionale_repubblicana"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_anti_partisan_measures",
+      "name": "Anti Partisan Measures",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_integrate_polizia_dell_africa_italiana"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_all_within_the_state",
+      "name": "All Within The State",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_guardia_nazionale_repubblicana"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_battaglioni_m",
+      "name": "Battaglioni M",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_guardia_nazionale_repubblicana"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_reinforce_the_gustav_line",
+      "name": "Reinforce The Gustav Line",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_battaglioni_m"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_the_social_republic_prevails",
+      "name": "The Social Republic Prevails",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_anti_partisan_measures",
+        "ITA_all_within_the_state",
+        "ITA_reinforce_the_gustav_line"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_independence_rsi",
+      "name": "Independence Rsi",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_the_social_republic_prevails"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_unite_the_opposition",
+      "name": "Unite The Opposition",
+      "description": "",
+      "x": -19,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_the_abyssinian_fiasco"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_liberate_gramsci",
+      "name": "Liberate Gramsci",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_unite_the_opposition",
+        "ITA_triumph_in_africa_bba"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_organize_strikes_in_the_north",
+      "name": "Organize Strikes In The North",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_unite_the_opposition"
+      ],
+      "mutuallyExclusive": [
+        "ITA_the_southern_farmlands"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_the_southern_farmlands",
+      "name": "The Southern Farmlands",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_unite_the_opposition"
+      ],
+      "mutuallyExclusive": [
+        "ITA_organize_strikes_in_the_north"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_defy_the_duce",
+      "name": "Defy The Duce",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_organize_strikes_in_the_north",
+        "ITA_the_southern_farmlands",
+        "ITA_triumph_in_africa_bba"
+      ],
+      "mutuallyExclusive": [
+        "ITA_culto_del_duce",
+        "ITA_convene_the_grand_council"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_appeal_to_the_bourgeoisie",
+      "name": "Appeal To The Bourgeoisie",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_defy_the_duce"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_seize_old_equipment",
+      "name": "Seize Old Equipment",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_defy_the_duce"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_the_italian_republic",
+      "name": "The Italian Republic",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_defy_the_duce"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_the_popular_front",
+      "name": "The Popular Front",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_the_italian_republic"
+      ],
+      "mutuallyExclusive": [
+        "ITA_italian_socialism"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_the_garibaldi_legion",
+      "name": "The Garibaldi Legion",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_the_popular_front"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_gruppi_di_difesa_della_donna",
+      "name": "Gruppi Di Difesa Della Donna",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_the_garibaldi_legion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_a_new_era_for_the_red_shirts",
+      "name": "A New Era For The Red Shirts",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_the_garibaldi_legion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_pugno_alzato",
+      "name": "Pugno Alzato",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_gruppi_di_difesa_della_donna",
+        "ITA_a_new_era_for_the_red_shirts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_a_leader_steps_forward",
+      "name": "A Leader Steps Forward",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_the_popular_front"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_the_path_to_progress",
+      "name": "The Path To Progress",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_a_leader_steps_forward"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_industrial_socialization",
+      "name": "Industrial Socialization",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_the_popular_front"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_institute_the_five_year_plan",
+      "name": "Institute The Five Year Plan",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_industrial_socialization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_new_ricostruzione_industriale",
+      "name": "New Ricostruzione Industriale",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_institute_the_five_year_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_political_commissars",
+      "name": "Political Commissars",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_industrial_socialization"
+      ],
+      "mutuallyExclusive": [
+        "ITA_appease_the_military",
+        "ITA_empower_the_carabinieri"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_common_ground",
+      "name": "Common Ground",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_the_popular_front",
+        "ITA_italian_socialism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_appease_the_military",
+      "name": "Appease The Military",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_common_ground"
+      ],
+      "mutuallyExclusive": [
+        "ITA_political_commissars",
+        "ITA_empower_the_carabinieri"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_crush_the_mafia",
+      "name": "Crush The Mafia",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_the_popular_front",
+        "ITA_italian_socialism"
+      ],
+      "mutuallyExclusive": [
+        "ITA_cooperate_with_the_mafia"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_empower_the_carabinieri",
+      "name": "Empower The Carabinieri",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_crush_the_mafia"
+      ],
+      "mutuallyExclusive": [
+        "ITA_political_commissars",
+        "ITA_appease_the_military"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_army_modernization",
+      "name": "Army Modernization",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_appease_the_military",
+        "ITA_political_commissars",
+        "ITA_empower_the_carabinieri"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_union_in_the_party",
+      "name": "Union In The Party",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_the_path_to_progress"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_follow_the_soviet_union",
+      "name": "Follow The Soviet Union",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_union_in_the_party"
+      ],
+      "mutuallyExclusive": [
+        "ITA_defend_the_land"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_military_cooperation",
+      "name": "Military Cooperation",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_follow_the_soviet_union"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_defense_against_capitalism",
+      "name": "Defense Against Capitalism",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_military_cooperation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_combined_research_effort",
+      "name": "Combined Research Effort",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_military_cooperation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_special_brigades",
+      "name": "Special Brigades",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_follow_the_soviet_union",
+        "ITA_defend_the_land"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_defend_the_land",
+      "name": "Defend The Land",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_union_in_the_party"
+      ],
+      "mutuallyExclusive": [
+        "ITA_follow_the_soviet_union"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_united_anarchist_confederations",
+      "name": "United Anarchist Confederations",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_defend_the_land"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_the_fight_against_stalinism",
+      "name": "The Fight Against Stalinism",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_defend_the_land"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_raise_the_peoples",
+      "name": "Raise The Peoples",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_defend_the_land"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_il_sol_dell_avvenire",
+      "name": "Il Sol Dell Avvenire",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_combined_research_effort",
+        "ITA_raise_the_peoples"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_italian_socialism",
+      "name": "Italian Socialism",
+      "description": "",
+      "x": 11,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_the_italian_republic"
+      ],
+      "mutuallyExclusive": [
+        "ITA_the_popular_front"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_cooperate_with_the_mafia",
+      "name": "Cooperate With The Mafia",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_italian_socialism"
+      ],
+      "mutuallyExclusive": [
+        "ITA_crush_the_mafia"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_mafia_abroad",
+      "name": "Mafia Abroad",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_cooperate_with_the_mafia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_empower_the_unions",
+      "name": "Empower The Unions",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_italian_socialism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_production_lines",
+      "name": "Production Lines",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_empower_the_unions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_the_republics_leadership",
+      "name": "The Republics Leadership",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_italian_socialism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_bring_back_exiled_intellectuals",
+      "name": "Bring Back Exiled Intellectuals",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_the_republics_leadership"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_social_stability",
+      "name": "Social Stability",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_bring_back_exiled_intellectuals"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_aid_for_the_spanish_republic",
+      "name": "Aid For The Spanish Republic",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_italian_socialism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_italia_libera",
+      "name": "Italia Libera",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_social_stability"
+      ],
+      "mutuallyExclusive": [
+        "ITA_reestablish_old_alliances"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_european_democracies",
+      "name": "European Democracies",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_italia_libera"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_peace_preservation",
+      "name": "Peace Preservation",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_european_democracies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_scientific_cooperation",
+      "name": "Scientific Cooperation",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_italia_libera",
+        "ITA_reestablish_old_alliances"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_secure_the_borders",
+      "name": "Secure The Borders",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_scientific_cooperation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_bring_down_fascist_strongholds",
+      "name": "Bring Down Fascist Strongholds",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_scientific_cooperation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_reestablish_old_alliances",
+      "name": "Reestablish Old Alliances",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_social_stability"
+      ],
+      "mutuallyExclusive": [
+        "ITA_italia_libera"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_military_agreements",
+      "name": "Military Agreements",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_reestablish_old_alliances"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_the_enemies_of_capitalism",
+      "name": "The Enemies Of Capitalism",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_military_agreements"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_the_ethiopian_question",
+      "name": "The Ethiopian Question",
+      "description": "",
+      "x": 13,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_defy_the_duce"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_abolish_the_colonies",
+      "name": "Abolish The Colonies",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_the_ethiopian_question"
+      ],
+      "mutuallyExclusive": [
+        "ITA_new_colonial_policies"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_cooperatives_for_intensive_exploitation",
+      "name": "Cooperatives For Intensive Exploitation",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_abolish_the_colonies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_condemn_colonialism",
+      "name": "Condemn Colonialism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_cooperatives_for_intensive_exploitation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_new_colonial_policies",
+      "name": "New Colonial Policies",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_the_ethiopian_question"
+      ],
+      "mutuallyExclusive": [
+        "ITA_abolish_the_colonies"
+      ],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_negotiations_with_albania",
+      "name": "Negotiations With Albania",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_abolish_the_colonies",
+        "ITA_new_colonial_policies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_enlist_the_bashkimi_kombetar",
+      "name": "Enlist The Bashkimi Kombetar",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_negotiations_with_albania"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_the_italian_confederation",
+      "name": "The Italian Confederation",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_new_colonial_policies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_planned_economy",
+      "name": "Planned Economy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ITA_the_italian_confederation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_the_fight_overseas",
+      "name": "The Fight Overseas",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_cooperatives_for_intensive_exploitation",
+        "ITA_the_italian_confederation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_irregulars",
+      "name": "Irregulars",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_the_fight_overseas"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_liberate_the_workers_of_africa",
+      "name": "Liberate The Workers Of Africa",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_the_fight_overseas"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    },
+    {
+      "id": "ITA_ascari",
+      "name": "Ascari",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ITA_the_fight_overseas"
+      ],
+      "mutuallyExclusive": [],
+      "source": "italy.txt",
+      "shared": false
+    }
+  ]
+}

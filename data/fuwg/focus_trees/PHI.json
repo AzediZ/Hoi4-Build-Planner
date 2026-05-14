@@ -1,0 +1,2476 @@
+{
+  "mod": "FUWG",
+  "tag": "PHI",
+  "country": "Philippines",
+  "treeId": "philippines_focus",
+  "sourceFile": "philippines.txt",
+  "focusCount": 169,
+  "focuses": [
+    {
+      "id": "PHI_commonwealth_of_the_philippines",
+      "name": "Commonwealth Of The Philippines",
+      "description": "",
+      "x": 21,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_align_with_the_usa",
+      "name": "Align With The Usa",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_commonwealth_of_the_philippines"
+      ],
+      "mutuallyExclusive": [
+        "PHI_align_with_japan"
+      ],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_align_with_japan",
+      "name": "Align With Japan",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_commonwealth_of_the_philippines"
+      ],
+      "mutuallyExclusive": [
+        "PHI_align_with_the_usa"
+      ],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_peg_the_peso_to_the_dollar",
+      "name": "Peg The Peso To The Dollar",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_align_with_the_usa",
+        "PHI_align_with_japan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_leverage_the_peso",
+      "name": "Leverage The Peso",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_align_with_japan",
+        "PHI_align_with_the_usa"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_quezon_city",
+      "name": "Quezon City",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_peg_the_peso_to_the_dollar"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_unicameral_legislature",
+      "name": "Unicameral Legislature",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_peg_the_peso_to_the_dollar",
+        "PHI_leverage_the_peso"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_national_fiscal_policy",
+      "name": "National Fiscal Policy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_peg_the_peso_to_the_dollar"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_agricultural_migrants_to_hawaii",
+      "name": "Agricultural Migrants To Hawaii",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_peg_the_peso_to_the_dollar"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_encourage_foreign_investment",
+      "name": "Encourage Foreign Investment",
+      "description": "",
+      "x": 10,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_leverage_the_peso"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_encourage_japanese_investment",
+      "name": "Encourage Japanese Investment",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_leverage_the_peso"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_develop_japanese_trade_connections",
+      "name": "Develop Japanese Trade Connections",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_encourage_japanese_investment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_quezon_city_campus",
+      "name": "Quezon City Campus",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_quezon_city"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_reduce_unneccessary_expenditure",
+      "name": "Reduce Unneccessary Expenditure",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_national_fiscal_policy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_subsidies",
+      "name": "Subsidies",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_national_fiscal_policy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_basic_welfare",
+      "name": "Basic Welfare",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_national_fiscal_policy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_encourage_asian_trade",
+      "name": "Encourage Asian Trade",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_encourage_foreign_investment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_pro_hacendados",
+      "name": "Pro Hacendados",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_quezon_city_campus",
+        "PHI_reduce_unneccessary_expenditure",
+        "PHI_subsidies",
+        "PHI_basic_welfare",
+        "PHI_encourage_asian_trade",
+        "PHI_filipino_repatriation_act"
+      ],
+      "mutuallyExclusive": [
+        "PHI_anti_hacendados"
+      ],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_anti_hacendados",
+      "name": "Anti Hacendados",
+      "description": "",
+      "x": -3,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_quezon_city_campus",
+        "PHI_reduce_unneccessary_expenditure",
+        "PHI_subsidies",
+        "PHI_basic_welfare",
+        "PHI_encourage_asian_trade",
+        "PHI_filipino_repatriation_act"
+      ],
+      "mutuallyExclusive": [
+        "PHI_pro_hacendados"
+      ],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_sugar_barons",
+      "name": "Sugar Barons",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_pro_hacendados",
+        "PHI_anti_hacendados"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_luzon_transport",
+      "name": "Luzon Transport",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_pro_hacendados",
+        "PHI_anti_hacendados"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_expand_gold_mining",
+      "name": "Expand Gold Mining",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_pro_hacendados",
+        "PHI_anti_hacendados"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_mindanao_transport",
+      "name": "Mindanao Transport",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_pro_hacendados",
+        "PHI_anti_hacendados"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_land_reform",
+      "name": "Land Reform",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_pro_hacendados",
+        "PHI_anti_hacendados"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_japanese_advisors",
+      "name": "Japanese Advisors",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_anti_hacendados"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_san_miguel",
+      "name": "San Miguel",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_sugar_barons"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_textile_mills",
+      "name": "Textile Mills",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_luzon_transport"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_encourage_gold_exports",
+      "name": "Encourage Gold Exports",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_expand_gold_mining"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_mineral_prospecting",
+      "name": "Mineral Prospecting",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_mindanao_transport"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_bill_of_rights",
+      "name": "Bill Of Rights",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_land_reform"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_nationality_act",
+      "name": "Nationality Act",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_san_miguel",
+        "PHI_textile_mills",
+        "PHI_encourage_gold_exports",
+        "PHI_mineral_prospecting",
+        "PHI_bill_of_rights"
+      ],
+      "mutuallyExclusive": [
+        "PHI_open_borders"
+      ],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_open_borders",
+      "name": "Open Borders",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_san_miguel",
+        "PHI_textile_mills",
+        "PHI_encourage_gold_exports",
+        "PHI_mineral_prospecting",
+        "PHI_bill_of_rights"
+      ],
+      "mutuallyExclusive": [
+        "PHI_nationality_act"
+      ],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_philippine_american_educational_foundation",
+      "name": "Philippine American Educational Foundation",
+      "description": "",
+      "x": -4,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_nationality_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_government_filipinization",
+      "name": "Government Filipinization",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_nationality_act",
+        "PHI_open_borders"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_bicameral_legislature",
+      "name": "Bicameral Legislature",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_nationality_act",
+        "PHI_open_borders"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_uncouple_the_peso_and_dollar",
+      "name": "Uncouple The Peso And Dollar",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_nationality_act",
+        "PHI_open_borders"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_increase_sugar_exports",
+      "name": "Increase Sugar Exports",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_nationality_act",
+        "PHI_open_borders"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_break_chinese_monopoly",
+      "name": "Break Chinese Monopoly",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_nationality_act",
+        "PHI_open_borders"
+      ],
+      "mutuallyExclusive": [
+        "PHI_encourage_chinese_immigration"
+      ],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_encourage_chinese_immigration",
+      "name": "Encourage Chinese Immigration",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_nationality_act",
+        "PHI_open_borders"
+      ],
+      "mutuallyExclusive": [
+        "PHI_break_chinese_monopoly"
+      ],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_japanese_observers",
+      "name": "Japanese Observers",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_open_borders"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_treaty_of_manila",
+      "name": "Treaty Of Manila",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_government_filipinization",
+        "PHI_bicameral_legislature",
+        "PHI_uncouple_the_peso_and_dollar",
+        "PHI_increase_sugar_exports",
+        "PHI_break_chinese_monopoly",
+        "PHI_encourage_chinese_immigration"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_universal_sufferage",
+      "name": "Universal Sufferage",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_treaty_of_manila"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_modernization",
+      "name": "Modernization",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_treaty_of_manila"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_bill_of_rights_for_veterans",
+      "name": "Bill Of Rights For Veterans",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_universal_sufferage"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_revision_of_taxation_laws",
+      "name": "Revision Of Taxation Laws",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_universal_sufferage"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_rehabilitation_finance_corporation",
+      "name": "Rehabilitation Finance Corporation",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_modernization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_department_of_foreign_affairs",
+      "name": "Department Of Foreign Affairs",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_modernization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_economic_nationalism",
+      "name": "Economic Nationalism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_revision_of_taxation_laws",
+        "PHI_bill_of_rights_for_veterans",
+        "PHI_rehabilitation_finance_corporation",
+        "PHI_department_of_foreign_affairs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_bell_trade_act",
+      "name": "Bell Trade Act",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_revision_of_taxation_laws",
+        "PHI_bill_of_rights_for_veterans",
+        "PHI_rehabilitation_finance_corporation",
+        "PHI_department_of_foreign_affairs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_pearl_of_the_orient_seas",
+      "name": "Pearl Of The Orient Seas",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_economic_nationalism",
+        "PHI_bell_trade_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_united_states_army_forces_in_the_far_east",
+      "name": "United States Army Forces In The Far East",
+      "description": "",
+      "x": 12,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_appoint_macarthur",
+      "name": "Appoint Macarthur",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_united_states_army_forces_in_the_far_east"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_bring_in_eisenhower",
+      "name": "Bring In Eisenhower",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_appoint_macarthur"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_subordinate_philippine_department",
+      "name": "Subordinate Philippine Department",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_bring_in_eisenhower"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_usaffe_headquarters",
+      "name": "Usaffe Headquarters",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_subordinate_philippine_department"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_utang_na_loob",
+      "name": "Utang Na Loob",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_usaffe_headquarters"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_police_chief_eisenhower",
+      "name": "Police Chief Eisenhower",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_bring_in_eisenhower",
+        "PHI_utang_na_loob"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_military_requisitions",
+      "name": "Military Requisitions",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "PHI_appoint_macarthur"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_small_arms_and_artillery_requisition",
+      "name": "Small Arms And Artillery Requisition",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "PHI_military_requisitions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_trucks_and_transport_requisition",
+      "name": "Trucks And Transport Requisition",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "PHI_small_arms_and_artillery_requisition"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_far_east_air_force",
+      "name": "Far East Air Force",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "PHI_military_requisitions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_aircraft_requisition",
+      "name": "Aircraft Requisition",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "PHI_far_east_air_force"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_mariveles_naval_base",
+      "name": "Mariveles Naval Base",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_military_requisitions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_expand_us_bases",
+      "name": "Expand Us Bases",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_trucks_and_transport_requisition",
+        "PHI_aircraft_requisition",
+        "PHI_mariveles_naval_base"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_united_states_asiatic_fleet",
+      "name": "United States Asiatic Fleet",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_expand_us_bases"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_gunboat_diplomacy",
+      "name": "Gunboat Diplomacy",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_united_states_asiatic_fleet"
+      ],
+      "mutuallyExclusive": [
+        "PHI_war_plan_rainbow_five"
+      ],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_war_plan_rainbow_five",
+      "name": "War Plan Rainbow Five",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_united_states_asiatic_fleet"
+      ],
+      "mutuallyExclusive": [
+        "PHI_gunboat_diplomacy"
+      ],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_american_capital_injection",
+      "name": "American Capital Injection",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_peg_the_peso_to_the_dollar"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_filipino_repatriation_act",
+      "name": "Filipino Repatriation Act",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_american_capital_injection"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_investment_fund",
+      "name": "Investment Fund",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_pro_hacendados"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_luce_celler_act",
+      "name": "Luce Celler Act",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_nationality_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_declare_military_emergency",
+      "name": "Declare Military Emergency",
+      "description": "",
+      "x": 3,
+      "y": 9,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_weapons_of_war",
+      "name": "Weapons Of War",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_declare_military_emergency"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_preemptive_strikes",
+      "name": "Preemptive Strikes",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_weapons_of_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_sunset_empires",
+      "name": "Sunset Empires",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_preemptive_strikes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_land_of_the_setting_sun",
+      "name": "Land Of The Setting Sun",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_sunset_empires"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_sea_of_cobalt",
+      "name": "Sea Of Cobalt",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_sunset_empires"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_the_sun_has_set",
+      "name": "The Sun Has Set",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_sunset_empires"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_traitors_back_home",
+      "name": "Traitors Back Home",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_land_of_the_setting_sun"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_end_colonialism",
+      "name": "End Colonialism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_the_sun_has_set"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_cobalt_supremacy",
+      "name": "Cobalt Supremacy",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_land_of_the_setting_sun",
+        "PHI_the_sun_has_set",
+        "PHI_sea_of_cobalt"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_subject_surrender",
+      "name": "Subject Surrender",
+      "description": "",
+      "x": 11,
+      "y": 11,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_i_shall_return",
+      "name": "I Shall Return",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_subject_surrender"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_soldiers_in_hiding",
+      "name": "Soldiers In Hiding",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_subject_surrender"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_hukbalahap",
+      "name": "Hukbalahap",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_subject_surrender"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_local_resistance",
+      "name": "Local Resistance",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_subject_surrender"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_submarine_supplies",
+      "name": "Submarine Supplies",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_i_shall_return"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_the_hunters",
+      "name": "The Hunters",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_soldiers_in_hiding"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_the_cry",
+      "name": "The Cry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_hukbalahap"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_juramentado",
+      "name": "Juramentado",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_local_resistance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_exile_support",
+      "name": "Exile Support",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_submarine_supplies",
+        "PHI_the_hunters"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_grassroot_guerillas",
+      "name": "Grassroot Guerillas",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_the_cry",
+        "PHI_juramentado",
+        "PHI_the_hunters"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_reconquista",
+      "name": "Reconquista",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_exile_support",
+        "PHI_grassroot_guerillas"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_rebuild_sakdalistas",
+      "name": "Rebuild Sakdalistas",
+      "description": "",
+      "x": 9,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_leverage_the_peso"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_slippery_slope",
+      "name": "Slippery Slope",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_rebuild_sakdalistas"
+      ],
+      "mutuallyExclusive": [
+        "PHI_the_red_sun_over_manila",
+        "PHI_election_overturned"
+      ],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_assassination_of_quezon",
+      "name": "Assassination Of Quezon",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_slippery_slope"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_aguinaldos_coup",
+      "name": "Aguinaldos Coup",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_makapili",
+        "PHI_form_the_executive_commision"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_makapili",
+      "name": "Makapili",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_assassination_of_quezon"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_form_the_executive_commision",
+      "name": "Form The Executive Commision",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_assassination_of_quezon"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_secure_japanese_guarantees",
+      "name": "Secure Japanese Guarantees",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_aguinaldos_coup"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_war_of_independence",
+      "name": "War Of Independence",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_secure_japanese_guarantees",
+        "PHI_hispanic_overtures"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_election_overturned",
+      "name": "Election Overturned",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_rebuild_sakdalistas"
+      ],
+      "mutuallyExclusive": [
+        "PHI_the_red_sun_over_manila",
+        "PHI_slippery_slope"
+      ],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_hispanidad_filipina",
+      "name": "Hispanidad Filipina",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_election_overturned"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_spanish_refugees",
+      "name": "Spanish Refugees",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_hispanidad_filipina"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_reconciliation_with_spain",
+      "name": "Reconciliation With Spain",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_spanish_refugees"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_hispanic_overtures",
+      "name": "Hispanic Overtures",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_reconciliation_with_spain",
+        "PHI_royal_exiles"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_revolutionary_regrets",
+      "name": "Revolutionary Regrets",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_hispanidad_filipina"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_royal_exiles",
+      "name": "Royal Exiles",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_revolutionary_regrets"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_reino_de_filipinas",
+      "name": "Reino De Filipinas",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_royal_exiles",
+        "PHI_war_of_independence"
+      ],
+      "mutuallyExclusive": [
+        "PHI_second_philippine_republic"
+      ],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_second_philippine_republic",
+      "name": "Second Philippine Republic",
+      "description": "",
+      "x": -1,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_war_of_independence"
+      ],
+      "mutuallyExclusive": [
+        "PHI_reino_de_filipinas"
+      ],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_war_for_the_oceans",
+      "name": "War For The Oceans",
+      "description": "",
+      "x": -5,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_treaty_of_manila"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_assume_the_naval_burden",
+      "name": "Assume The Naval Burden",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_war_for_the_oceans"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_develop_naval_infrastructure",
+      "name": "Develop Naval Infrastructure",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_war_for_the_oceans"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_reunite_madagascar",
+      "name": "Reunite Madagascar",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_assume_the_naval_burden",
+        "PHI_develop_naval_infrastructure"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_take_pacific_islands",
+      "name": "Take Pacific Islands",
+      "description": "",
+      "x": 1,
+      "y": 0,
+      "cost": 1,
+      "prerequisites": [
+        "PHI_war_for_the_oceans"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_malayo_polynesia",
+      "name": "Malayo Polynesia",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "PHI_develop_naval_infrastructure"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_war_for_oceania",
+      "name": "War For Oceania",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_assume_the_naval_burden",
+        "PHI_develop_naval_infrastructure"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_conquest_of_japan",
+      "name": "Conquest Of Japan",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_develop_naval_infrastructure"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_filipino_polynesian_reunification",
+      "name": "Filipino Polynesian Reunification",
+      "description": "",
+      "x": -1,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_take_pacific_islands"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_petition_the_supreme_court",
+      "name": "Petition The Supreme Court",
+      "description": "",
+      "x": 46,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_legalize_the_communist_party",
+      "name": "Legalize The Communist Party",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_petition_the_supreme_court"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_return_of_the_exiles",
+      "name": "Return Of The Exiles",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_legalize_the_communist_party"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_support_for_chinese_communists",
+      "name": "Support For Chinese Communists",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_legalize_the_communist_party"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_the_red_sun_over_manila",
+      "name": "The Red Sun Over Manila",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_legalize_the_communist_party"
+      ],
+      "mutuallyExclusive": [
+        "PHI_slippery_slope",
+        "PHI_election_overturned"
+      ],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_partido_komunista_ng_pilipinas_coup",
+      "name": "Partido Komunista Ng Pilipinas Coup",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_the_red_sun_over_manila"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_national_confederation",
+      "name": "National Confederation",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_partido_komunista_ng_pilipinas_coup"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_anti_intervention_strategies",
+      "name": "Anti Intervention Strategies",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_partido_komunista_ng_pilipinas_coup"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_rally_the_fisherfolk",
+      "name": "Rally The Fisherfolk",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_partido_komunista_ng_pilipinas_coup"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_smugglers",
+      "name": "Smugglers",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_rally_the_fisherfolk"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_struggle_conference",
+      "name": "Struggle Conference",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_smugglers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_sanction_piracy",
+      "name": "Sanction Piracy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_smugglers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_infiltrate_chinese_ports",
+      "name": "Infiltrate Chinese Ports",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_smugglers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_maritime_communism",
+      "name": "Maritime Communism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_struggle_conference",
+        "PHI_sanction_piracy",
+        "PHI_infiltrate_chinese_ports"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_pan_pacific_trade_union_secretariat",
+      "name": "Pan Pacific Trade Union Secretariat",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_maritime_communism"
+      ],
+      "mutuallyExclusive": [
+        "PHI_comitern"
+      ],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_comitern",
+      "name": "Comitern",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_maritime_communism"
+      ],
+      "mutuallyExclusive": [
+        "PHI_pan_pacific_trade_union_secretariat"
+      ],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_national_defense_act",
+      "name": "National Defense Act",
+      "description": "",
+      "x": 43,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_war_plan_orange",
+      "name": "War Plan Orange",
+      "description": "",
+      "x": -7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_national_defense_act"
+      ],
+      "mutuallyExclusive": [
+        "PHI_beach_defense_strategy"
+      ],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_beach_defense_strategy",
+      "name": "Beach Defense Strategy",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_national_defense_act"
+      ],
+      "mutuallyExclusive": [
+        "PHI_war_plan_orange"
+      ],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_fortify_corregidor",
+      "name": "Fortify Corregidor",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_war_plan_orange",
+        "PHI_beach_defense_strategy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_coastal_artillery",
+      "name": "Coastal Artillery",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_fortify_corregidor"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_bastion_bataan",
+      "name": "Bastion Bataan",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_coastal_artillery"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_the_concrete_battleship",
+      "name": "The Concrete Battleship",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_bastion_bataan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_philippine_scouts",
+      "name": "Philippine Scouts",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_national_defense_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_militarize_the_constabulary",
+      "name": "Militarize The Constabulary",
+      "description": "",
+      "x": 4,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_national_defense_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_philippine_army_orchestra",
+      "name": "Philippine Army Orchestra",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_philippine_scouts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_philippine_military_academy",
+      "name": "Philippine Military Academy",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_philippine_scouts",
+        "PHI_militarize_the_constabulary"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_philippine_division",
+      "name": "Philippine Division",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_militarize_the_constabulary"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_10_year_training_plan",
+      "name": "10 Year Training Plan",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_philippine_army_orchestra",
+        "PHI_philippine_military_academy",
+        "PHI_philippine_division"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_battalion_combat_teams",
+      "name": "Battalion Combat Teams",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_10_year_training_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_mandatory_conscription",
+      "name": "Mandatory Conscription",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_10_year_training_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_self_reliance_defense",
+      "name": "Self Reliance Defense",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_10_year_training_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_army_of_the_philippines",
+      "name": "Army Of The Philippines",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_battalion_combat_teams",
+        "PHI_mandatory_conscription",
+        "PHI_self_reliance_defense"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_army_air_corps",
+      "name": "Army Air Corps",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_national_defense_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_pilot_training_programme",
+      "name": "Pilot Training Programme",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_army_air_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_off_shore_patrol",
+      "name": "Off Shore Patrol",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_pilot_training_programme"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_expand_airbases",
+      "name": "Expand Airbases",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_army_air_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_develop_domestic_aircraft_industry",
+      "name": "Develop Domestic Aircraft Industry",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_expand_airbases"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_philippine_air_force",
+      "name": "Philippine Air Force",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_off_shore_patrol",
+        "PHI_develop_domestic_aircraft_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_thats_not_an_island",
+      "name": "Thats Not An Island",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_philippine_air_force"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_offshore_patrol",
+      "name": "Offshore Patrol",
+      "description": "",
+      "x": 30,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_marine_corps",
+      "name": "Marine Corps",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_offshore_patrol"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_cavite_naval_base",
+      "name": "Cavite Naval Base",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_offshore_patrol"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_pt_boat_development",
+      "name": "Pt Boat Development",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_offshore_patrol"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_mosquito_fleet",
+      "name": "Mosquito Fleet",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_pt_boat_development"
+      ],
+      "mutuallyExclusive": [
+        "PHI_devil_boats"
+      ],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_devil_boats",
+      "name": "Devil Boats",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_pt_boat_development"
+      ],
+      "mutuallyExclusive": [
+        "PHI_mosquito_fleet"
+      ],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_fast_attack_craft",
+      "name": "Fast Attack Craft",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_mosquito_fleet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_coastal_defense_ships",
+      "name": "Coastal Defense Ships",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_devil_boats"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_philippine_naval_patrol",
+      "name": "Philippine Naval Patrol",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_fast_attack_craft",
+        "PHI_coastal_defense_ships"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    },
+    {
+      "id": "PHI_thalassocracy",
+      "name": "Thalassocracy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PHI_philippine_naval_patrol"
+      ],
+      "mutuallyExclusive": [],
+      "source": "philippines.txt",
+      "shared": false
+    }
+  ]
+}

@@ -1,0 +1,1263 @@
+{
+  "mod": "FUWG",
+  "tag": "MAL",
+  "country": "Malaya",
+  "treeId": "Malayan_tree",
+  "sourceFile": "Malaya.txt",
+  "focusCount": 89,
+  "focuses": [
+    {
+      "id": "MAL_federal_council_reforms",
+      "name": "Federal Council Reforms",
+      "description": "",
+      "x": 15,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_rubber_export_initiative",
+      "name": "Rubber Export Initiative",
+      "description": "",
+      "x": -6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_federal_council_reforms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_steel_mining_expansion",
+      "name": "Steel Mining Expansion",
+      "description": "",
+      "x": -9,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_federal_council_reforms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_develop_penang_port",
+      "name": "Develop Penang Port",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_rubber_export_initiative"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_railway_network",
+      "name": "Railway Network",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_steel_mining_expansion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_industrial_diversification",
+      "name": "Industrial Diversification",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_develop_penang_port",
+        "MAL_railway_network"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_singapore_dockyards",
+      "name": "Singapore Dockyards",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_develop_penang_port",
+        "MAL_straits_settlements_garrison"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_oil_prospecsteelg",
+      "name": "Oil Prospecsteelg",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_railway_network"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_wartime_production_surge",
+      "name": "Wartime Production Surge",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_industrial_diversification"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_colonial_volunteer_corps",
+      "name": "Colonial Volunteer Corps",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_federal_council_reforms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_malay_regiment_expansion",
+      "name": "Malay Regiment Expansion",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_colonial_volunteer_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_jungle_warfare_doctrine",
+      "name": "Jungle Warfare Doctrine",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_malay_regiment_expansion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_straits_settlements_garrison",
+      "name": "Straits Settlements Garrison",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_colonial_volunteer_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_royal_malay_navy",
+      "name": "Royal Malay Navy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_singapore_dockyards",
+        "MAL_straits_settlements_garrison"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_air_defence_network",
+      "name": "Air Defence Network",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_jungle_warfare_doctrine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_malayan_artillery_corps",
+      "name": "Malayan Artillery Corps",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_malay_regiment_expansion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_total_defence_plan",
+      "name": "Total Defence Plan",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_air_defence_network",
+        "MAL_malayan_artillery_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_loyalty_to_the_crown",
+      "name": "Loyalty To The Crown",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_federal_council_reforms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_petition_for_dominion_status",
+      "name": "Petition For Dominion Status",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_loyalty_to_the_crown"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_british_malaya_council",
+      "name": "British Malaya Council",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_loyalty_to_the_crown"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_support_british_war_effort",
+      "name": "Support British War Effort",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_british_malaya_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_inter_ethnic_harmony",
+      "name": "Inter Ethnic Harmony",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_petition_for_dominion_status",
+        "MAL_british_malaya_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_malayan_union_proposal",
+      "name": "Malayan Union Proposal",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_inter_ethnic_harmony"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_university_of_malaya",
+      "name": "University Of Malaya",
+      "description": "",
+      "x": 7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_federal_council_reforms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_tropical_medicine_research",
+      "name": "Tropical Medicine Research",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_university_of_malaya"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_telecommunications",
+      "name": "Telecommunications",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_university_of_malaya"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_rubber_synthesis_research",
+      "name": "Rubber Synthesis Research",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_tropical_medicine_research"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_colonial_engineering_corps",
+      "name": "Colonial Engineering Corps",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_telecommunications"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_applied_military_research",
+      "name": "Applied Military Research",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_rubber_synthesis_research",
+        "MAL_colonial_engineering_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_imperial_ambitions",
+      "name": "Imperial Ambitions",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_support_british_war_effort"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_colonial_naval_expansion",
+      "name": "Colonial Naval Expansion",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_imperial_ambitions",
+        "MAL_royal_malay_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_pacific_interests",
+      "name": "Pacific Interests",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_imperial_ambitions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_claim_pacific_territories",
+      "name": "Claim Pacific Territories",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_colonial_naval_expansion",
+        "MAL_pacific_interests"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_wartime_government_in_exile",
+      "name": "Wartime Government In Exile",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_claim_pacific_territories"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_secure_malayan_peninsula",
+      "name": "Secure Malayan Peninsula",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_claim_pacific_territories"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_pitcairn_expeditionary_force",
+      "name": "Pitcairn Expeditionary Force",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_wartime_government_in_exile"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_pitcairn_island_administration",
+      "name": "Pitcairn Island Administration",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_pitcairn_expeditionary_force"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_pitcairn_naval_fortress",
+      "name": "Pitcairn Naval Fortress",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_pitcairn_island_administration"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_pitcairn_supply_depot",
+      "name": "Pitcairn Supply Depot",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_pitcairn_island_administration"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_pitcairn_crown_colony",
+      "name": "Pitcairn Crown Colony",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_pitcairn_naval_fortress",
+        "MAL_pitcairn_supply_depot"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_public_health_campaign",
+      "name": "Public Health Campaign",
+      "description": "",
+      "x": 11,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_federal_council_reforms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_education_reform",
+      "name": "Education Reform",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_public_health_campaign"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_immigration_policy",
+      "name": "Immigration Policy",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_public_health_campaign"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_census_and_administration",
+      "name": "Census And Administration",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_education_reform",
+        "MAL_immigration_policy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_food_security_programme",
+      "name": "Food Security Programme",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_census_and_administration"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_wartime_rationing",
+      "name": "Wartime Rationing",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_food_security_programme"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_malayan_command",
+      "name": "Malayan Command",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_total_defence_plan",
+        "MAL_malayan_union_proposal"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_integrate_commonwealth_forces",
+      "name": "Integrate Commonwealth Forces",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_malayan_command"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_coordinated_defence_of_sea_lanes",
+      "name": "Coordinated Defence Of Sea Lanes",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_malayan_command"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_resilience",
+      "name": "Resilience",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_coordinated_defence_of_sea_lanes",
+        "MAL_integrate_commonwealth_forces"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_strategic_resource_survey",
+      "name": "Strategic Resource Survey",
+      "description": "",
+      "x": 4,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_expand_rubber_estates",
+      "name": "Expand Rubber Estates",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_strategic_resource_survey"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_wartime_rubber_quota",
+      "name": "Wartime Rubber Quota",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_expand_rubber_estates"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_synthetic_rubber_plant",
+      "name": "Synthetic Rubber Plant",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_wartime_rubber_quota"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_ipoh_steel_fields",
+      "name": "Ipoh Steel Fields",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_strategic_resource_survey"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_pahang_mining_concessions",
+      "name": "Pahang Mining Concessions",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_ipoh_steel_fields"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_smelting_works_expansion",
+      "name": "Smelting Works Expansion",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_pahang_mining_concessions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_borneo_oil_access",
+      "name": "Borneo Oil Access",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_strategic_resource_survey"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_kelantan_oil_survey",
+      "name": "Kelantan Oil Survey",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_borneo_oil_access"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_oil_refinery_network",
+      "name": "Oil Refinery Network",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_kelantan_oil_survey"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_tungsten_deposits",
+      "name": "Tungsten Deposits",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_strategic_resource_survey"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_tungsten_export_to_uk",
+      "name": "Tungsten Export To Uk",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_tungsten_deposits"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_entrepot_trade_hub",
+      "name": "Entrepot Trade Hub",
+      "description": "",
+      "x": 7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_strategic_resource_survey"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_free_port_singapore",
+      "name": "Free Port Singapore",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_entrepot_trade_hub"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_wartime_export_contracts",
+      "name": "Wartime Export Contracts",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_entrepot_trade_hub"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_colonial_lend_lease",
+      "name": "Colonial Lend Lease",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_free_port_singapore",
+        "MAL_wartime_export_contracts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_jungle_arms_production",
+      "name": "Jungle Arms Production",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_smelting_works_expansion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_vehicle_assembly_plant",
+      "name": "Vehicle Assembly Plant",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_jungle_arms_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_naval_armament_production",
+      "name": "Naval Armament Production",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_jungle_arms_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_empire_of_resources",
+      "name": "Empire Of Resources",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_synthetic_rubber_plant",
+        "MAL_oil_refinery_network",
+        "MAL_tungsten_export_to_uk",
+        "MAL_colonial_lend_lease"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_army_effort_fuwg",
+      "name": "Army Effort Fuwg",
+      "description": "",
+      "x": -2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_equipment_effort_fuwg",
+      "name": "Equipment Effort Fuwg",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_army_effort_fuwg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_motorization_effort_fuwg",
+      "name": "Motorization Effort Fuwg",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_army_effort_fuwg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_doctrine_effort_fuwg",
+      "name": "Doctrine Effort Fuwg",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_army_effort_fuwg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_equipment_effort_2_fuwg",
+      "name": "Equipment Effort 2 Fuwg",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_equipment_effort_fuwg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_mechanization_effort_fuwg",
+      "name": "Mechanization Effort Fuwg",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_motorization_effort_fuwg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_doctrine_effort_2_fuwg",
+      "name": "Doctrine Effort 2 Fuwg",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_doctrine_effort_fuwg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_equipment_effort_3_fuwg",
+      "name": "Equipment Effort 3 Fuwg",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_equipment_effort_2_fuwg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_armor_effort_fuwg",
+      "name": "Armor Effort Fuwg",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_mechanization_effort_fuwg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_special_forces_fuwg",
+      "name": "Special Forces Fuwg",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_equipment_effort_3_fuwg",
+        "MAL_doctrine_effort_2_fuwg",
+        "MAL_armor_effort_fuwg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_aviation_effort_fuwg",
+      "name": "Aviation Effort Fuwg",
+      "description": "",
+      "x": 3,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_fighter_focus_fuwg",
+      "name": "Fighter Focus Fuwg",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_aviation_effort_fuwg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_bomber_focus_fuwg",
+      "name": "Bomber Focus Fuwg",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_aviation_effort_fuwg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_aviation_effort_2_fuwg",
+      "name": "Aviation Effort 2 Fuwg",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_bomber_focus_fuwg",
+        "MAL_fighter_focus_fuwg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_CAS_effort_fuwg",
+      "name": "Cas Effort Fuwg",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_aviation_effort_2_fuwg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_rocket_effort_fuwg",
+      "name": "Rocket Effort Fuwg",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_aviation_effort_2_fuwg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "MAL_NAV_effort_fuwg",
+      "name": "Nav Effort Fuwg",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAL_aviation_effort_2_fuwg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Malaya.txt",
+      "shared": false
+    },
+    {
+      "id": "AFR_leader",
+      "name": "African Regional Commander",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "shared_reference",
+      "shared": true
+    },
+    {
+      "id": "COM_together_for_britain",
+      "name": "Together for Britain",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "shared_reference",
+      "shared": true
+    }
+  ]
+}

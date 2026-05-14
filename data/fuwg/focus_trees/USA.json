@@ -1,0 +1,2952 @@
+{
+  "mod": "FUWG",
+  "tag": "USA",
+  "country": "United States",
+  "treeId": "usa_focus",
+  "sourceFile": "usa.txt",
+  "focusCount": 208,
+  "focuses": [
+    {
+      "id": "USA_continue_the_new_deal",
+      "name": "Continue The New Deal",
+      "description": "",
+      "x": 10,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "USA_reestablish_the_gold_standard"
+      ],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_suspend_the_presecution",
+      "name": "Suspend The Presecution",
+      "description": "",
+      "x": -7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_continue_the_new_deal"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_desegregate_the_armed_forces",
+      "name": "Desegregate The Armed Forces",
+      "description": "",
+      "x": -6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_suspend_the_presecution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_full_desegregation",
+      "name": "Full Desegregation",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "USA_desegregate_the_armed_forces"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_democratic_socialism",
+      "name": "Democratic Socialism",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "USA_desegregate_the_armed_forces"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_liberty_for_the_philippines",
+      "name": "Liberty For The Philippines",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "USA_democratic_socialism",
+        "USA_full_desegregation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_pacific_decolonisation",
+      "name": "Pacific Decolonisation",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 10,
+      "prerequisites": [
+        "USA_liberty_for_the_philippines"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_union_representation_act",
+      "name": "Union Representation Act",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "USA_suspend_the_presecution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_old_age_pension_act",
+      "name": "Old Age Pension Act",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "USA_union_representation_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_accumulated_wealth_tax_act",
+      "name": "Accumulated Wealth Tax Act",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "USA_union_representation_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_guarantee_the_american_dream",
+      "name": "Guarantee The American Dream",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "USA_old_age_pension_act",
+        "USA_accumulated_wealth_tax_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_worker_management_act",
+      "name": "Worker Management Act",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "USA_guarantee_the_american_dream"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_militia_organization_act",
+      "name": "Militia Organization Act",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "USA_guarantee_the_american_dream"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_communal_property_act",
+      "name": "Communal Property Act",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "USA_worker_management_act",
+        "USA_militia_organization_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_reintegration",
+      "name": "Reintegration",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 10,
+      "prerequisites": [
+        "USA_communal_property_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_reach_out_to_the_ware_group",
+      "name": "Reach Out To The Ware Group",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_suspend_the_presecution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_lend_lease_act",
+      "name": "Lend Lease Act",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "USA_us_ussr_economic_cooperation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_flying_tiger_group",
+      "name": "Flying Tiger Group",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "USA_us_ussr_economic_cooperation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_us_ussr_economic_cooperation",
+      "name": "Us Ussr Economic Cooperation",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_reach_out_to_the_ware_group"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_lend_lease_act_1",
+      "name": "Lend Lease Act 1",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_lend_lease_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_lend_lease_act_2",
+      "name": "Lend Lease Act 2",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_lend_lease_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_lend_lease_act_3",
+      "name": "Lend Lease Act 3",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_lend_lease_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_lend_lease_act_4",
+      "name": "Lend Lease Act 4",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_lend_lease_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_wpa",
+      "name": "Wpa",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_continue_the_new_deal"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_agricultural_adjustment_act",
+      "name": "Agricultural Adjustment Act",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_wpa"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_fair_labour_standards_act",
+      "name": "Fair Labour Standards Act",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "USA_agricultural_adjustment_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_federal_housing_act",
+      "name": "Federal Housing Act",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "USA_fair_labour_standards_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_office_of_scientific_research_and_development",
+      "name": "Office Of Scientific Research And Development",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_wpa"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_rubber_reserve_company",
+      "name": "Rubber Reserve Company",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "USA_office_of_scientific_research_and_development"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_limited_intervention",
+      "name": "Limited Intervention",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "USA_continue_the_new_deal",
+        "USA_reestablish_the_gold_standard"
+      ],
+      "mutuallyExclusive": [
+        "USA_neutrality_act"
+      ],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_war_propaganda",
+      "name": "War Propaganda",
+      "description": "",
+      "x": 21,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "USA_womens_armed_service_integration_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_focus_on_europe",
+      "name": "Focus On Europe",
+      "description": "",
+      "x": -1,
+      "y": 3,
+      "cost": 10,
+      "prerequisites": [
+        "USA_war_propaganda"
+      ],
+      "mutuallyExclusive": [
+        "USA_focus_on_asia"
+      ],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_office_of_strategic_services",
+      "name": "Office Of Strategic Services",
+      "description": "",
+      "x": 25,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "USA_department_of_defense"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_focus_on_asia",
+      "name": "Focus On Asia",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 10,
+      "prerequisites": [
+        "USA_war_propaganda"
+      ],
+      "mutuallyExclusive": [
+        "USA_focus_on_europe"
+      ],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_magic",
+      "name": "Magic",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_war_propaganda"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_black_chamber",
+      "name": "Black Chamber",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 10,
+      "prerequisites": [
+        "USA_magic",
+        "USA_office_of_strategic_services"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_scientist_haven",
+      "name": "Scientist Haven",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "USA_arsenal_of_democracy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_manhattan_project",
+      "name": "Manhattan Project",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_scientist_haven"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_neutrality_act",
+      "name": "Neutrality Act",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_continue_the_new_deal"
+      ],
+      "mutuallyExclusive": [
+        "USA_limited_intervention"
+      ],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_smoot_hawley_tariff_act",
+      "name": "Smoot Hawley Tariff Act",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "USA_neutrality_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_arsenal_of_democracy",
+      "name": "Arsenal Of Democracy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_neutrality_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_the_giant_wakes",
+      "name": "The Giant Wakes",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "USA_arsenal_of_democracy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_wartime_industry",
+      "name": "Wartime Industry",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "USA_the_giant_wakes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_military_production",
+      "name": "Intensify Military Production",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_wartime_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_military_construction",
+      "name": "Military Construction",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_arsenal_of_democracy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_USACE_projects",
+      "name": "Usace Projects",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "USA_military_construction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_construction_efforts",
+      "name": "Nationwide Construction Efforts",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_USACE_projects"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_cash_and_carry",
+      "name": "Cash and Carry",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_the_giant_wakes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_federal_land_appropriation",
+      "name": "Federal Land Appropriation Act",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_federal_housing_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_scientific_diet",
+      "name": "Scientific Diet",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_cash_and_carry",
+        "USA_federal_land_appropriation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_victory_gardening",
+      "name": "Victory Gardening",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_scientific_diet"
+      ],
+      "mutuallyExclusive": [
+        "USA_rosie_the_riveter"
+      ],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_rosie_the_riveter",
+      "name": "Rosie the Riveter",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_scientific_diet"
+      ],
+      "mutuallyExclusive": [
+        "USA_victory_gardening"
+      ],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_reestablish_the_gold_standard",
+      "name": "Reestablish The Gold Standard",
+      "description": "",
+      "x": 18,
+      "y": 0,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "USA_continue_the_new_deal"
+      ],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_adjusted_compensation_act",
+      "name": "Adjusted Compensation Act",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "USA_reestablish_the_gold_standard"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_labour_management_relations_act",
+      "name": "Labour Management Relations Act",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "USA_adjusted_compensation_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_protectionist_tariffs",
+      "name": "Protectionist Tariffs",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "USA_labour_management_relations_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_income_tax_reform",
+      "name": "Income Tax Reform",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 10,
+      "prerequisites": [
+        "USA_protectionist_tariffs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_institute_of_american_sciences",
+      "name": "Institute Of American Sciences",
+      "description": "",
+      "x": 0,
+      "y": 6,
+      "cost": 10,
+      "prerequisites": [
+        "USA_income_tax_reform"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_america_first",
+      "name": "America First",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "USA_reestablish_the_gold_standard"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_extend_the_chinese_exclusion_acts",
+      "name": "Extend The Chinese Exclusion Acts",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "USA_america_first"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_empower_the_huac",
+      "name": "Empower The Huac",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 10,
+      "prerequisites": [
+        "USA_extend_the_chinese_exclusion_acts",
+        "USA_labour_management_relations_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_voter_registration_act",
+      "name": "Voter Registration Act",
+      "description": "",
+      "x": 0,
+      "y": 5,
+      "cost": 10,
+      "prerequisites": [
+        "USA_empower_the_huac"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_ally_with_the_silver_shirts",
+      "name": "Ally With The Silver Shirts",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "USA_america_first"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_national_prosperity_program",
+      "name": "National Prosperity Program",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "USA_ally_with_the_silver_shirts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_privatize_the_TVA",
+      "name": "Privatize The Tva",
+      "description": "",
+      "x": -3,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "USA_national_prosperity_program"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_de_regulate_the_banking_sector",
+      "name": "De Regulate The Banking Sector",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "USA_national_prosperity_program"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_national_employment_strategy",
+      "name": "National Employment Strategy",
+      "description": "",
+      "x": -2,
+      "y": 3,
+      "cost": 10,
+      "prerequisites": [
+        "USA_privatize_the_TVA",
+        "USA_de_regulate_the_banking_sector"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_invite_foreign_support",
+      "name": "Invite Foreign Support",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "USA_ally_with_the_silver_shirts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_send_lindbergh_to_germany",
+      "name": "Send Lindbergh To Germany",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "USA_invite_foreign_support"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_work_with_the_bund",
+      "name": "Work With The Bund",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "USA_send_lindbergh_to_germany"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_recruit_the_free_corps",
+      "name": "Recruit The Free Corps",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "USA_send_lindbergh_to_germany"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_honor_the_confederacy",
+      "name": "Honor The Confederacy",
+      "description": "",
+      "x": -4,
+      "y": 3,
+      "cost": 10,
+      "prerequisites": [
+        "USA_work_with_the_bund",
+        "USA_national_employment_strategy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_war_powers_act",
+      "name": "War Powers Act",
+      "description": "",
+      "x": 11,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "USA_america_first"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_seize_cuba",
+      "name": "Seize Cuba",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "USA_war_powers_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_manifest_destiny",
+      "name": "Manifest Destiny",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "USA_war_powers_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_eliminate_the_southern_threat",
+      "name": "Eliminate The Southern Threat",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "USA_seize_cuba"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_the_canadian_corridor",
+      "name": "The Canadian Corridor",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "USA_manifest_destiny"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_north_american_dominion",
+      "name": "North American Dominion",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 10,
+      "prerequisites": [
+        "USA_the_canadian_corridor",
+        "USA_eliminate_the_southern_threat"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_strategic_interests",
+      "name": "Strategic Interests",
+      "description": "",
+      "x": -1,
+      "y": 4,
+      "cost": 10,
+      "prerequisites": [
+        "USA_north_american_dominion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_protect_south_america",
+      "name": "Protect South America",
+      "description": "",
+      "x": -1,
+      "y": 5,
+      "cost": 10,
+      "prerequisites": [
+        "USA_strategic_interests"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_pacific_pacification",
+      "name": "Pacific Pacification",
+      "description": "",
+      "x": 1,
+      "y": 4,
+      "cost": 10,
+      "prerequisites": [
+        "USA_north_american_dominion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_secure_asia",
+      "name": "Secure Asia",
+      "description": "",
+      "x": 1,
+      "y": 5,
+      "cost": 10,
+      "prerequisites": [
+        "USA_pacific_pacification"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_global_hegemony",
+      "name": "Global Hegemony",
+      "description": "",
+      "x": 0,
+      "y": 6,
+      "cost": 10,
+      "prerequisites": [
+        "USA_secure_asia",
+        "USA_protect_south_america"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_war_plans_division",
+      "name": "War Plans Division",
+      "description": "",
+      "x": 21,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_intervention_in_the_americas",
+      "name": "Intervention In The Americas",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_war_plans_division"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_war_plan_green",
+      "name": "War Plan Green",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "USA_intervention_in_the_americas"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_war_plan_crimson",
+      "name": "War Plan Crimson",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "USA_intervention_in_the_americas"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_war_plan_gray",
+      "name": "War Plan Gray",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_intervention_in_the_americas"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_superior_firepower",
+      "name": "Superior Firepower",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_war_plan_gray"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_intervention_in_europe",
+      "name": "Intervention In Europe",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_war_plans_division"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_war_plan_gold",
+      "name": "War Plan Gold",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "USA_intervention_in_europe"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_war_plan_silver",
+      "name": "War Plan Silver",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_intervention_in_europe"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_Operation_torch",
+      "name": "Operation Torch",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_war_plan_silver"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_Operation_husky",
+      "name": "Operation Husky",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_war_plan_silver"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_war_plan_black",
+      "name": "War Plan Black",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_intervention_in_europe"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_destroyers_for_bases",
+      "name": "Destroyers For Bases",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_war_plan_black"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_war_plan_white",
+      "name": "War Plan White",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "USA_intervention_in_europe"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_anti_bolshevist_aid",
+      "name": "Anti Bolshevist Aid",
+      "description": "",
+      "x": 2,
+      "y": 3,
+      "cost": 10,
+      "prerequisites": [
+        "USA_war_plan_white"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_war_plan_red",
+      "name": "War Plan Red",
+      "description": "",
+      "x": 4,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "USA_intervention_in_europe"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_war_plan_ruby",
+      "name": "War Plan Ruby",
+      "description": "",
+      "x": 4,
+      "y": 3,
+      "cost": 10,
+      "prerequisites": [
+        "USA_war_plan_red"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_war_plan_scarlet_garnet",
+      "name": "War Plan Scarlet Garnet",
+      "description": "",
+      "x": 6,
+      "y": 3,
+      "cost": 10,
+      "prerequisites": [
+        "USA_war_plan_red"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_Operation_overlord",
+      "name": "Operation Overlord",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_destroyers_for_bases"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_intervention_in_asia",
+      "name": "Intervention In Asia",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_war_plans_division"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_war_plan_orange",
+      "name": "War Plan Orange",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_intervention_in_asia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_Victory_over_japan",
+      "name": "Victory Over Japan",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_intervention_in_asia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_war_plan_yellow",
+      "name": "War Plan Yellow",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "USA_intervention_in_asia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_defense_of_the_pacific",
+      "name": "Defense Of The Pacific",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_intervention_in_asia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_defense_of_the_philipines",
+      "name": "Defense Of The Philipines",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_defense_of_the_pacific"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_war_department",
+      "name": "War Department",
+      "description": "",
+      "x": 15,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_selective_training_act",
+      "name": "Selective Training Act",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_war_department"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_first_special_service_force",
+      "name": "First Special Service Force",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_selective_training_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_louisiana_maneuvers",
+      "name": "Louisiana Maneuvers",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_selective_training_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_airborne_divisions",
+      "name": "Airborne Divisions",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "USA_louisiana_maneuvers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_army_of_the_united_states",
+      "name": "Army Of The United States",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "USA_louisiana_maneuvers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_Marine_corps",
+      "name": "Marine Corps",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_army_of_the_united_states"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_womens_armed_service_integration_act",
+      "name": "Womens Armed Service Integration Act",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "USA_army_of_the_united_states"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_support_rock_island",
+      "name": "Support Rock Island",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_selective_training_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_tank_experiments",
+      "name": "Tank Experiments",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "USA_support_rock_island"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_tank_destroyer_doctrine",
+      "name": "Tank Destroyer Doctrine",
+      "description": "",
+      "x": 2,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "USA_tank_experiments"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_main_battle_tanks",
+      "name": "Main Battle Tanks",
+      "description": "",
+      "x": 4,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "USA_tank_experiments"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_main_battle_tanks_2",
+      "name": "Standardize Sherman Production",
+      "description": "",
+      "x": 4,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "USA_main_battle_tanks"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_main_battle_tanks_3",
+      "name": "Counter the Big Cats",
+      "description": "",
+      "x": 4,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "USA_main_battle_tanks_2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_armored_infantry",
+      "name": "Armored Infantry",
+      "description": "",
+      "x": 2,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "USA_main_battle_tanks",
+        "USA_tank_destroyer_doctrine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_build_the_pentagon",
+      "name": "Build The Pentagon",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_war_department"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_department_of_defense",
+      "name": "Department Of Defense",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "USA_build_the_pentagon"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_air_war_plans_division",
+      "name": "Air War Plans Division",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_war_department"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_air_support",
+      "name": "Air Support",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_air_war_plans_division"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_strategic_bombing",
+      "name": "Strategic Bombing",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_air_war_plans_division"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_TAC",
+      "name": "Tac",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_air_support"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_CAS",
+      "name": "Cas",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_air_support"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_combined_bomber_offensive",
+      "name": "Combined Bomber Offensive",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_strategic_bombing"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_escort_fighters",
+      "name": "Escort Fighters",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "USA_air_support",
+        "USA_strategic_bombing"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_us_army_airforce",
+      "name": "Us Army Airforce",
+      "description": "",
+      "x": -1,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "USA_TAC"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_us_air_force",
+      "name": "Us Air Force",
+      "description": "",
+      "x": 1,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "USA_combined_bomber_offensive"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_wartime_strategic_bombing",
+      "name": "Wartime Strategic Bombing",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_TAC",
+        "USA_combined_bomber_offensive"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_two_ocean_navy_act",
+      "name": "Two Ocean Navy Act",
+      "description": "",
+      "x": 9,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_war_department"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_maritime_commission",
+      "name": "Maritime Commission",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_two_ocean_navy_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_liberty_ships",
+      "name": "Liberty Ships",
+      "description": "",
+      "x": -3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "USA_maritime_commission"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_bureau_of_ships",
+      "name": "Bureau Of Ships",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_two_ocean_navy_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_battleship_primacy",
+      "name": "Battleship Primacy",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_bureau_of_ships"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_advanced_mahanian_doctrine",
+      "name": "Advanced Mahanian Doctrine",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_battleship_primacy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_advanced_basing",
+      "name": "Advanced Basing",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "USA_advanced_mahanian_doctrine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_carrier_primacy",
+      "name": "Carrier Primacy",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_bureau_of_ships"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_bureau_of_aeronautics",
+      "name": "Bureau Of Aeronautics",
+      "description": "",
+      "x": 0,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "USA_bureau_of_ships"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_naval_radar",
+      "name": "Naval Radar",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_bureau_of_aeronautics"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_escort_effort",
+      "name": "Escort Effort",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_bureau_of_ships"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_convoy_tactics",
+      "name": "Convoy Tactics",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_escort_effort"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_fleet_submarines",
+      "name": "Fleet Submarines",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_bureau_of_ships"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_unrestricted_submarine_warfare",
+      "name": "Unrestricted Submarine Warfare",
+      "description": "",
+      "x": 3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "USA_fleet_submarines"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_fund_the_navy",
+      "name": "Fund The Navy",
+      "description": "",
+      "x": 7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_two_ocean_navy_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_expand_the_USMC",
+      "name": "Expand The Usmc",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_fund_the_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_amphibious_operations",
+      "name": "Amphibious Operations",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_expand_the_USMC"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_expand_the_repair_yards",
+      "name": "Expand the Repair Yards",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_two_ocean_navy_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_south_america",
+      "name": "Develop South America",
+      "description": "",
+      "x": 30,
+      "y": 8,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_spanish_influence",
+      "name": "Spanish Influence",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_south_america"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Peru",
+      "name": "Develop Peru",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_south_america"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Peru_further",
+      "name": "Develop Peru Further",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Peru"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Mexico",
+      "name": "Develop Mexico",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_south_america"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Mexico_Res",
+      "name": "Develop Mexico Res",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Mexico"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Mexico_Stability",
+      "name": "Develop Mexico Stability",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Mexico_Res"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Mexico_Buildingslots",
+      "name": "Develop Mexico Buildingslots",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Mexico_Stability"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Mexico_Military1",
+      "name": "Develop Mexico Military1",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Mexico"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Mexico_Military2",
+      "name": "Develop Mexico Military2",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Mexico_Military1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Mexico_Military3",
+      "name": "Develop Mexico Military3",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Mexico_Military2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Mexico_Navy2",
+      "name": "Develop Mexico Navy2",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Mexico_Military1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Mexico_Navy3",
+      "name": "Develop Mexico Navy3",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Mexico_Navy2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Mexico_buy_Guatemala",
+      "name": "Develop Mexico Buy Guatemala",
+      "description": "",
+      "x": 28,
+      "y": 10,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Mexico"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_Monroe_doctrine_fuwg",
+      "name": "Monroe Doctrine Fuwg",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Brazil_Buy_Uruguay",
+        "USA_develop_Mexico_buy_Guatemala",
+        "USA_develop_Chile_Buy_507",
+        "USA_develop_Phil_dev_final",
+        "USA_develop_Peru_further"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_late_game_buff",
+      "name": "Late Game Buff",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_Monroe_doctrine_fuwg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_reinforce_monroe_doctrine",
+      "name": "Reinforce Monroe Doctrine",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_late_game_buff"
+      ],
+      "mutuallyExclusive": [
+        "USA_international_capitalism"
+      ],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_international_capitalism",
+      "name": "International Capitalism",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "USA_late_game_buff"
+      ],
+      "mutuallyExclusive": [
+        "USA_reinforce_monroe_doctrine"
+      ],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Chile",
+      "name": "Develop Chile",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_south_america"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Chilean_Navy1",
+      "name": "Develop Chilean Navy1",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Chile"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Chilean_Navy2",
+      "name": "Develop Chilean Navy2",
+      "description": "",
+      "x": -3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Chilean_Navy1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Chilean_Navy2.1",
+      "name": "Develop Chilean Navy2.1",
+      "description": "",
+      "x": -3,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Chilean_Navy2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Chilean_Navy4",
+      "name": "Develop Chilean Navy4",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Chilean_Navy1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Chilean_Navy4.1",
+      "name": "Develop Chilean Navy4.1",
+      "description": "",
+      "x": -1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Chilean_Navy4"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Chile_Buy_507",
+      "name": "Develop Chile Buy 507",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Chile"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Chilean_Military1",
+      "name": "Develop Chilean Military1",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Chile"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Chilean_Military2",
+      "name": "Develop Chilean Military2",
+      "description": "",
+      "x": 3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Chilean_Military1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Chilean_Military3",
+      "name": "Develop Chilean Military3",
+      "description": "",
+      "x": 3,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Chilean_Military2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Chilean_Civ1",
+      "name": "Develop Chilean Civ1",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Chile"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Chilean_Civ2",
+      "name": "Develop Chilean Civ2",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Chilean_Civ1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Chilean_Civ3",
+      "name": "Develop Chilean Civ3",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Chilean_Civ1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Brazil",
+      "name": "Develop Brazil",
+      "description": "",
+      "x": null,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_south_america"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Brazil_Buildingslots",
+      "name": "Develop Brazil Buildingslots",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Brazil"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Brazil_WarBonds",
+      "name": "Develop Brazil Warbonds",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Brazil_Buildingslots"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Brazil_Democratic_Influence",
+      "name": "Develop Brazil Democratic Influence",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Brazil_WarBonds"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Brazil_Civilian1",
+      "name": "Develop Brazil Civilian1",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Brazil"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Brazil_Civilian2",
+      "name": "Develop Brazil Civilian2",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Brazil_Civilian1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Brazil_Civilian3",
+      "name": "Develop Brazil Civilian3",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Brazil_Civilian1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Brazil_Resources",
+      "name": "Develop Brazil Resources",
+      "description": "",
+      "x": -2,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Brazil_Civilian3",
+        "USA_develop_Brazil_Democratic_Influence",
+        "USA_develop_Brazil_Military3"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Brazil_Buy_Uruguay",
+      "name": "Develop Brazil Buy Uruguay",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Brazil"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Brazil_Military1",
+      "name": "Develop Brazil Military1",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Brazil"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Brazil_Military2",
+      "name": "Develop Brazil Military2",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Brazil_Military1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Brazil_Military3",
+      "name": "Develop Brazil Military3",
+      "description": "",
+      "x": 2,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Brazil_Military2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Phil",
+      "name": "Develop Phil",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_south_america"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Phil_mil_1",
+      "name": "Develop Phil Mil 1",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Phil"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Phil_mil_2",
+      "name": "Develop Phil Mil 2",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Phil_mil_1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Phil_mil_3",
+      "name": "Develop Phil Mil 3",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Phil_mil_2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Phil_civ_1",
+      "name": "Develop Phil Civ 1",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Phil"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Phil_civ_2",
+      "name": "Develop Phil Civ 2",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Phil"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Phil_civ_3",
+      "name": "Develop Phil Civ 3",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Phil_civ_2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Phil_dock_1",
+      "name": "Develop Phil Dock 1",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Phil"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Phil_dock_2",
+      "name": "Develop Phil Dock 2",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Phil_dock_1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Phil_dock_3",
+      "name": "Develop Phil Dock 3",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Phil_dock_2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_develop_Phil_dev_final",
+      "name": "Develop Phil Dev Final",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_develop_Phil"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    },
+    {
+      "id": "USA_east-west-connection",
+      "name": "East West Connection",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "USA_military_construction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "usa.txt",
+      "shared": false
+    }
+  ]
+}

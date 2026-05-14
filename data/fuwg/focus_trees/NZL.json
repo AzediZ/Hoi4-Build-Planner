@@ -1,0 +1,1019 @@
+{
+  "mod": "FUWG",
+  "tag": "NZL",
+  "country": "New Zealand",
+  "treeId": "new_zealander_focus",
+  "sourceFile": "new_zealand.txt",
+  "focusCount": 72,
+  "focuses": [
+    {
+      "id": "NZL_transfer_the_new_zealand_division",
+      "name": "Transfer The New Zealand Division",
+      "description": "",
+      "x": 35,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_form_the_rnzn",
+      "name": "Form The Rnzn",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_transfer_the_new_zealand_division"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_expand_devonport_naval_base",
+      "name": "Expand Devonport Naval Base",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_form_the_rnzn"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_coastal_defense",
+      "name": "Coastal Defense",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_form_the_rnzn"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_destroyer_effort",
+      "name": "Destroyer Effort",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_expand_devonport_naval_base"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_submarine_effort",
+      "name": "Submarine Effort",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_expand_devonport_naval_base"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_light_cruiser_effort",
+      "name": "Light Cruiser Effort",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_expand_devonport_naval_base"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_capital_ship_effort",
+      "name": "Capital Ship Effort",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_expand_devonport_naval_base"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_naval_modernisation",
+      "name": "Naval Modernisation",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_form_the_rnzn"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_expand_the_repair_yards",
+      "name": "Expand The Repair Yards",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_form_the_rnzn"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_expand_the_nzpaf",
+      "name": "Expand The Nzpaf",
+      "description": "",
+      "x": 25,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_form_the_rnzaf",
+      "name": "Form The Rnzaf",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_expand_the_nzpaf"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_fighter_focus",
+      "name": "Fighter Focus",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_form_the_rnzaf"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_naval_bomber",
+      "name": "Naval Bombers",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_form_the_rnzaf"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_defend_our_islands",
+      "name": "Defend Our Islands",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_form_the_rnzaf"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_naval_detection",
+      "name": "Naval Detection",
+      "description": "",
+      "x": 5,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_form_the_rnzaf",
+        "NZL_form_the_rnzn"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_cross_the_pacific",
+      "name": "Cross the Pacific",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_form_the_rnzaf"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_joint_air_training_scheme",
+      "name": "Joint Air Training Scheme",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_cross_the_pacific",
+        "NZL_naval_detection",
+        "NZL_defend_our_islands",
+        "NZL_naval_bomber"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_national_roads_board",
+      "name": "National Roads Board",
+      "description": "",
+      "x": 9,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_new_zealand_steel",
+      "name": "New Zealand Steel",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_national_roads_board"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_taranaki_oil",
+      "name": "Taranaki Oil",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_national_roads_board"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_wairarapa_sheep_farms",
+      "name": "Wairarapa Sheep Farms",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_national_roads_board"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_bureau_of_industry",
+      "name": "Bureau Of Industry",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_new_zealand_steel",
+        "NZL_taranaki_oil"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_department_of_scientific_and_industrial_research",
+      "name": "Department Of Scientific And Industrial Research",
+      "description": "",
+      "x": -1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_bureau_of_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_industrial_conscription",
+      "name": "Industrial Conscription",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_wairarapa_sheep_farms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_think_big",
+      "name": "Think Big",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_bureau_of_industry",
+        "NZL_wairarapa_sheep_farms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_expand_the_steel_mills",
+      "name": "Expand the Steel Mills",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_new_zealand_steel"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_project_seal",
+      "name": "Project Seal",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_research_collaboration",
+        "NZL_expand_the_university_of_auckland"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_national_defense_institute",
+      "name": "National Defense Institute",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_industrial_conscription",
+        "NZL_think_big"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_expand_the_university_of_auckland",
+      "name": "Expand The University Of Auckland",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_think_big",
+        "NZL_department_of_scientific_and_industrial_research"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_army_reforms",
+      "name": "Army Reforms",
+      "description": "",
+      "x": 17,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_charlton_automatic_rifle",
+      "name": "Charlton Automatic Rifle",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_army_reforms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_bob_semple_tank",
+      "name": "Bob Semple Tank",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_army_reforms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_domestic_arms_industry",
+      "name": "Domestic Arms Industry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_charlton_automatic_rifle"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_domestic_air_industry",
+      "name": "Domestic Air Industry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_joint_air_training_scheme"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_domestic_tank_industry",
+      "name": "Domestic Tank Industry",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_bob_semple_tank"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_schofield_tank",
+      "name": "Schofield Tank",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_bob_semple_tank"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_long_range_patrol",
+      "name": "Long Range Patrol",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_domestic_arms_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_bobbin_bob",
+      "name": "Bobbin Bob",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_domestic_arms_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_artillery_focus",
+      "name": "Artillery Focus",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_army_reforms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_research_collaboration",
+      "name": "Research Collaboration",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_technology_sharing_with_britain",
+        "NZL_department_of_scientific_and_industrial_research"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_buoy_bob",
+      "name": "Buoy Bob",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_schofield_tank"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_big_bob_tank",
+      "name": "Big Bob Tank",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_schofield_tank"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_heroes_of_gallipoli",
+      "name": "Heroes of Gallipoli",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_long_range_patrol",
+        "NZL_big_bob_tank",
+        "NZL_buoy_bob",
+        "NZL_bobbin_bob"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_fuel_local_tank_production",
+      "name": "Fuel Local Tank Production",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_domestic_tank_industry",
+        "NZL_industrial_conscription"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_the_first_labor_government",
+      "name": "The First Labor Government",
+      "description": "",
+      "x": 4,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_ratana_alliance",
+      "name": "Ratana Alliance",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_the_first_labor_government"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_maori_affairs_act",
+      "name": "Maori Affairs Act",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_ratana_alliance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_social_security_act",
+      "name": "Social Security Act",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_ratana_alliance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_the_manpower_act",
+      "name": "The Manpower Act",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_social_security_act",
+        "NZL_maori_affairs_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_amend_the_maori_affairs_act",
+      "name": "Amend The Maori Affairs Act",
+      "description": "",
+      "x": -1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_the_manpower_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_waitangi_tribunal",
+      "name": "Waitangi Tribunal",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_the_manpower_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_maori_conscription",
+      "name": "Maori Conscription",
+      "description": "",
+      "x": -1,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_amend_the_maori_affairs_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_maori_volunteers",
+      "name": "Maori Volunteers",
+      "description": "",
+      "x": 1,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_waitangi_tribunal"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_form_polynesia",
+      "name": "Form Polynesia",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_maori_volunteers",
+        "NZL_maori_conscription"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_strengthen_the_commonwealth",
+      "name": "Strengthen The Commonwealth",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_the_first_labor_government"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_2nzef",
+      "name": "2nzef",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_strengthen_the_commonwealth"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_arrest_pacifist_leaders",
+      "name": "Arrest Pacifist Leaders",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_strengthen_the_commonwealth"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_technology_sharing_with_britain",
+      "name": "Technology Sharing With Britain",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_arrest_pacifist_leaders"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_a_familiar_place",
+      "name": "A Familiar Place",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_heroes_of_gallipoli"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_war_in_the_pacific_focus",
+      "name": "War in the Pacific",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_take_palau",
+      "name": "Take Palau",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_war_in_the_pacific_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_take_saipan",
+      "name": "Take Saipan",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_war_in_the_pacific_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_take_marcus_island",
+      "name": "Take Marcus Island",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_war_in_the_pacific_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_take_iwo_jima",
+      "name": "Take Iwo-Jima",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_war_in_the_pacific_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_take_taiwan",
+      "name": "Take Taiwan",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_war_in_the_pacific_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_take_okinawa",
+      "name": "Take Okinawa",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_war_in_the_pacific_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_slap_the_jap",
+      "name": "Slap the Jap",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "NZL_take_iwo_jima",
+        "NZL_take_marcus_island",
+        "NZL_take_saipan",
+        "NZL_take_palau",
+        "NZL_take_okinawa",
+        "NZL_take_taiwan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_independent_new_zealand",
+      "name": "Independent New Zealand",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "NZL_statute_of_westminster",
+      "name": "Statute Of Westminster",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "new_zealand.txt",
+      "shared": false
+    },
+    {
+      "id": "COM_together_for_britain",
+      "name": "Together for Britain",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "shared_reference",
+      "shared": true
+    },
+    {
+      "id": "AFR_leader",
+      "name": "African Regional Commander",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "shared_reference",
+      "shared": true
+    }
+  ]
+}

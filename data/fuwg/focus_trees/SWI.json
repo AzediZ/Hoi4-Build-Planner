@@ -1,0 +1,2301 @@
+{
+  "mod": "FUWG",
+  "tag": "SWI",
+  "country": "Switzerland",
+  "treeId": "swiss_focus",
+  "sourceFile": "switzerland.txt",
+  "focusCount": 161,
+  "focuses": [
+    {
+      "id": "SWI_swiss_guiding_principles",
+      "name": "Swiss Guiding Principles",
+      "description": "",
+      "x": 12,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_increase_defense_budget",
+      "name": "Increase Defense Budget",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_swiss_guiding_principles"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_national_defense_fund",
+      "name": "National Defense Fund",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_swiss_guiding_principles"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_reaffirm_spiritual_defense",
+      "name": "Reaffirm Spiritual Defense",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_increase_defense_budget",
+        "SWI_national_defense_fund"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_fortify_border_with_germany",
+      "name": "Fortify Border With Germany",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_reaffirm_spiritual_defense"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_fortify_border_with_italy",
+      "name": "Fortify Border With Italy",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_reaffirm_spiritual_defense"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_fortify_border_with_france",
+      "name": "Fortify Border With France",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_reaffirm_spiritual_defense"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_armed_neutrality",
+      "name": "Armed Neutrality",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_fortify_border_with_germany",
+        "SWI_fortify_border_with_italy",
+        "SWI_fortify_border_with_france"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_federal_police",
+      "name": "Federal Police",
+      "description": "",
+      "x": 7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_armed_neutrality"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_spab_counter_intelligence_agency",
+      "name": "Spab Counter Intelligence Agency",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_industrial_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_crack_down_on_dissent",
+      "name": "Crack Down On Dissent",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_spab_counter_intelligence_agency"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_military_police",
+      "name": "Military Police",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_crack_down_on_dissent"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_expand_federal_police_intelligence",
+      "name": "Expand Federal Police Intelligence",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_crack_down_on_dissent"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_martial_law",
+      "name": "Martial Law",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_military_police",
+        "SWI_expand_federal_police_intelligence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_promote_guisan",
+      "name": "Promote Guisan",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_armed_neutrality"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_national_redoubt",
+      "name": "National Redoubt",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_promote_guisan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_expedite_mobilization",
+      "name": "Expedite Mobilization",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_national_redoubt"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_fortify_the_jura",
+      "name": "Fortify The Jura",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_expedite_mobilization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_rig_infrastructure_to_blow",
+      "name": "Rig Infrastructure To Blow",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_expedite_mobilization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_emergency_industry",
+      "name": "Emergency Industry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_rig_infrastructure_to_blow"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_defend_the_skies",
+      "name": "Defend The Skies",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_emergency_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_attack_from_the_mountains",
+      "name": "Attack From The Mountains",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_fortify_the_jura"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_frontier_defense_plan",
+      "name": "Frontier Defense Plan",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_armed_neutrality"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_fight_until_death",
+      "name": "Fight Until Death",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_frontier_defense_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_total_defense",
+      "name": "Total Defense",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_fight_until_death"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_the_army_position",
+      "name": "The Army Position",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_total_defense"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_prolonged_service",
+      "name": "Prolonged Service",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_the_army_position"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_enhanced_training",
+      "name": "Enhanced Training",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_prolonged_service"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_integrate_refugees_into_the_army",
+      "name": "Integrate Refugees Into The Army",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_the_army_position"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_expanded_military_support",
+      "name": "Expanded Military Support",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_integrate_refugees_into_the_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_all_adults_training",
+      "name": "All Adults Training",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_promote_guisan",
+        "SWI_frontier_defense_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_veteran_sharpshooter_divisions",
+      "name": "Veteran Sharpshooter Divisions",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_all_adults_training"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_anti_tank_divisions",
+      "name": "Anti Tank Divisions",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_veteran_sharpshooter_divisions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_reduce_military_training_age",
+      "name": "Reduce Military Training Age",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_all_adults_training"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_citizen_supply_mandate",
+      "name": "Citizen Supply Mandate",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_veteran_sharpshooter_divisions",
+        "SWI_reduce_military_training_age"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_prepare_infrastructure_and_industry",
+      "name": "Prepare Infrastructure And Industry",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_reduce_military_training_age"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_fortify_ticino",
+      "name": "Fortify Ticino",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_citizen_supply_mandate"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_fortify_sargans_gotthard_and_st_maurice",
+      "name": "Fortify Sargans Gotthard And St Maurice",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_citizen_supply_mandate"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_expand_special_forces",
+      "name": "Expand Special Forces",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_fortify_sargans_gotthard_and_st_maurice",
+        "SWI_fortify_ticino"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_purchase_german_planes",
+      "name": "Purchase German Planes",
+      "description": "",
+      "x": 7,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_seek_trade_agreement_with_germany"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_ban_the_communist_party",
+      "name": "Ban The Communist Party",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_purchase_german_planes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_withdraw_from_the_league_of_nations",
+      "name": "Withdraw From The League Of Nations",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_ban_the_communist_party"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_limited_censorship_of_the_press",
+      "name": "Limited Censorship Of The Press",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_withdraw_from_the_league_of_nations"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_tighten_press_censorship",
+      "name": "Tighten Press Censorship",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_limited_censorship_of_the_press"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_axis_gold",
+      "name": "Axis Gold",
+      "description": "",
+      "x": 7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_fortify_border_with_france"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_seek_trade_agreement_with_germany",
+      "name": "Seek Trade Agreement With Germany",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_axis_gold"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_ban_foreign_nazi_propaganda",
+      "name": "Ban Foreign Nazi Propaganda",
+      "description": "",
+      "x": -9,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_fortify_border_with_germany",
+        "SWI_fortify_border_with_italy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_buero_ha",
+      "name": "Buero Ha",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_ban_foreign_nazi_propaganda"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_pro_helvetia",
+      "name": "Pro Helvetia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_buero_ha"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_spirit_of_saint_bernard",
+      "name": "Spirit Of Saint Bernard",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_pro_helvetia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_adopt_romansh",
+      "name": "Adopt Romansh",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_pro_helvetia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_patriotic_shooting_clubs",
+      "name": "Patriotic Shooting Clubs",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_pro_helvetia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_aktion_nationaler_widerstand",
+      "name": "Aktion Nationaler Widerstand",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_patriotic_shooting_clubs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_heer_und_haus",
+      "name": "Heer Und Haus",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_aktion_nationaler_widerstand"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_ortswehren",
+      "name": "Ortswehren",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_heer_und_haus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_luftschutz",
+      "name": "Luftschutz",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_heer_und_haus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_train_swiss_women",
+      "name": "Train Swiss Women",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_adopt_romansh",
+        "SWI_patriotic_shooting_clubs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_spirit_of_resistance",
+      "name": "Spirit Of Resistance",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_luftschutz",
+        "SWI_ortswehren"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_allied_gold",
+      "name": "Allied Gold",
+      "description": "",
+      "x": -13,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_ban_foreign_nazi_propaganda"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_purchase_american_planes",
+      "name": "Purchase American Planes",
+      "description": "",
+      "x": -9,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_ban_foreign_nazi_propaganda"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_ban_national_movement_for_switzerland",
+      "name": "Ban National Movement For Switzerland",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_pro_helvetia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_fortify_austrian_border",
+      "name": "Fortify Austrian Border",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_ban_national_movement_for_switzerland"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_seek_allied_trade",
+      "name": "Seek Allied Trade",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_ban_national_movement_for_switzerland"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_case_north",
+      "name": "Case North",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_fortify_austrian_border"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_freeze_german_assets",
+      "name": "Freeze German Assets",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_case_north"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_fund_resistance_groups",
+      "name": "Fund Resistance Groups",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_case_north"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_closer_democratic_ties",
+      "name": "Closer Democratic Ties",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_allied_gold",
+        "SWI_purchase_american_planes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_connect_to_the_maginot_line",
+      "name": "Connect To The Maginot Line",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_closer_democratic_ties"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_american_industrial_investments",
+      "name": "American Industrial Investments",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_closer_democratic_ties"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_take_a_stance",
+      "name": "Take A Stance",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_american_industrial_investments",
+        "SWI_connect_to_the_maginot_line"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_join_france",
+      "name": "Join France",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_take_a_stance",
+        "SWI_connect_to_the_maginot_line"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_the_second_helvetic_republic",
+      "name": "The Second Helvetic Republic",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_join_france"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_alpine_aspirations",
+      "name": "Alpine Aspirations",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_the_second_helvetic_republic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_join_the_allies",
+      "name": "Join The Allies",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_take_a_stance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_support_allied_espionage",
+      "name": "Support Allied Espionage",
+      "description": "",
+      "x": -7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_ban_foreign_nazi_propaganda"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_expand_spy_networks",
+      "name": "Expand Spy Networks",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_support_allied_espionage"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_share_spy_networks",
+      "name": "Share Spy Networks",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_expand_spy_networks"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_secret_pact_with_the_allies",
+      "name": "Secret Pact With The Allies",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_share_spy_networks",
+        "SWI_seek_allied_trade"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_oasis_of_democracy",
+      "name": "Oasis Of Democracy",
+      "description": "",
+      "x": 2,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_secret_pact_with_the_allies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_volunteer_force",
+      "name": "Volunteer Force",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_oasis_of_democracy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_export_saboteurs",
+      "name": "Export Saboteurs",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_oasis_of_democracy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_lay_the_groundwork",
+      "name": "Lay The Groundwork",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_join_the_allies",
+        "SWI_join_france",
+        "SWI_secret_pact_with_the_allies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_arsenal_of_the_alps",
+      "name": "Arsenal Of The Alps",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_lay_the_groundwork"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_thunder_in_the_valleys",
+      "name": "Thunder In The Valleys",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_arsenal_of_the_alps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_fighting_for_the_hills",
+      "name": "Fighting For The Hills",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_arsenal_of_the_alps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_fly_over_the_mountains",
+      "name": "Fly Over The Mountains",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_arsenal_of_the_alps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_weapons_of_democracy",
+      "name": "Weapons Of Democracy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_thunder_in_the_valleys",
+        "SWI_fly_over_the_mountains",
+        "SWI_fighting_for_the_hills"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_jump_into_action",
+      "name": "Jump Into Action",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_export_saboteurs",
+        "SWI_volunteer_force",
+        "SWI_weapons_of_democracy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_exiled_government",
+      "name": "Exiled Government",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_weapons_of_democracy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_the_alpine_confederation",
+      "name": "The Alpine Confederation",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_weapons_of_democracy",
+        "SWI_alpine_aspirations"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_pre_empt_anschluss",
+      "name": "Pre Empt Anschluss",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_the_alpine_confederation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_demand_italian_alps",
+      "name": "Demand Italian Alps",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_pre_empt_anschluss"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_demand_french_alps",
+      "name": "Demand French Alps",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_pre_empt_anschluss"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_alpine_redoubt",
+      "name": "Alpine Redoubt",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_pre_empt_anschluss"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_the_alpine_protectorate",
+      "name": "The Alpine Protectorate",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_alpine_redoubt",
+        "SWI_demand_french_alps",
+        "SWI_demand_italian_alps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_bring_democracy_to_germany",
+      "name": "Bring Democracy To Germany",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_the_alpine_protectorate"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_liberate_italy",
+      "name": "Liberate Italy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_the_alpine_protectorate"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_take_over_france",
+      "name": "Take Over France",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_the_alpine_protectorate"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_the_new_eidgenossenschaft",
+      "name": "The New Eidgenossenschaft",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_take_over_france"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_expand_the_confederation",
+      "name": "Expand The Confederation",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_the_new_eidgenossenschaft"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_empower_the_council",
+      "name": "Empower The Council",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_expand_the_confederation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_president_for_life",
+      "name": "President For Life",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_empower_the_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_guisans_coup",
+      "name": "Guisans Coup",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_the_alpine_protectorate",
+        "SWI_president_for_life"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_return_to_the_old_switzerland",
+      "name": "Return To The Old Switzerland",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_guisans_coup"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_a_swiss_navy",
+      "name": "A Swiss Navy",
+      "description": "",
+      "x": 25,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_buy_foreign_surplus_ships",
+      "name": "Buy Foreign Surplus Ships",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_a_swiss_navy"
+      ],
+      "mutuallyExclusive": [
+        "SWI_swiss_ship_designs"
+      ],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_swiss_ship_designs",
+      "name": "Swiss Ship Designs",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_a_swiss_navy"
+      ],
+      "mutuallyExclusive": [
+        "SWI_buy_foreign_surplus_ships"
+      ],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_submarine_raiders",
+      "name": "Submarine Raiders",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_swiss_ship_designs"
+      ],
+      "mutuallyExclusive": [
+        "SWI_floating_fortresses"
+      ],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_floating_fortresses",
+      "name": "Floating Fortresses",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_swiss_ship_designs"
+      ],
+      "mutuallyExclusive": [
+        "SWI_submarine_raiders"
+      ],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_naval_industry",
+      "name": "Naval Industry",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_buy_foreign_surplus_ships",
+        "SWI_swiss_ship_designs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_build_naval_bases",
+      "name": "Build Naval Bases",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_naval_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_train_navy_staff",
+      "name": "Train Navy Staff",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_naval_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_switzerland_on_the_offense",
+      "name": "Switzerland On The Offense",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_build_naval_bases"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_neutral_entente",
+      "name": "Neutral Entente",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_train_navy_staff"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_modernize_airforce",
+      "name": "Modernize Airforce",
+      "description": "",
+      "x": 7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_purchase_german_planes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_swiss_airplane_designs",
+      "name": "Swiss Airplane Designs",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_modernize_airforce"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_license_axis_plane_designs",
+      "name": "License Axis Plane Designs",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_modernize_airforce"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_airspace_surveillance",
+      "name": "Airspace Surveillance",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_modernize_airforce"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_the_national_front",
+      "name": "The National Front",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_ban_the_communist_party"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_panoramaheim_branch",
+      "name": "Panoramaheim Branch",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_the_national_front"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_infiltrate_federal_police",
+      "name": "Infiltrate Federal Police",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_panoramaheim_branch"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "Anatomy_Research",
+      "name": "Anatomy Research",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_infiltrate_federal_police"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_closer_ties_with_germany",
+      "name": "Closer Ties With Germany",
+      "description": "",
+      "x": 9,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_complete_siegfried_line"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_the_petition_of_the_200",
+      "name": "The Petition Of The 200",
+      "description": "",
+      "x": 5,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_purchase_german_planes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_gotthard_union",
+      "name": "Gotthard Union",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_the_petition_of_the_200"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_ask_for_vorarlberg",
+      "name": "Ask For Vorarlberg",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_gotthard_union"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_protect_liechtenstein",
+      "name": "Protect Liechtenstein",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_ask_for_vorarlberg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_case_west",
+      "name": "Case West",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_the_petition_of_the_200"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_german_industrial_investments",
+      "name": "German Industrial Investments",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_case_west"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_complete_siegfried_line",
+      "name": "Complete Siegfried Line",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_german_industrial_investments",
+        "SWI_military_exercises_with_germany"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_military_exercises_with_germany",
+      "name": "Military Exercises With Germany",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_case_west"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_abandon_neutrality",
+      "name": "Abandon Neutrality",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_closer_ties_with_germany"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_promote_tobler",
+      "name": "Promote Tobler",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_abandon_neutrality"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_promote_henne",
+      "name": "Promote Henne",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_abandon_neutrality"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_propagandize_swiss_military_tradition",
+      "name": "Propagandize Swiss Military Tradition",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_promote_tobler"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_ban_democratic_party",
+      "name": "Ban Democratic Party",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_promote_tobler"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_centralize_switzerland",
+      "name": "Centralize Switzerland",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_propagandize_swiss_military_tradition",
+        "SWI_ban_democratic_party"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_become_german_puppet",
+      "name": "Become German Puppet",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_promote_henne"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_professionalize_militias",
+      "name": "Professionalize Militias",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_expanded_military_support"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_press_for_vorarlberg",
+      "name": "Press For Vorarlberg",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_gotthard_union"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_request_austrian_occupation",
+      "name": "Request Austrian Occupation",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_ask_for_vorarlberg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_request_italian_alps_occupation",
+      "name": "Request Italian Alps Occupation",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_ask_for_vorarlberg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_request_french_alps_occupation",
+      "name": "Request French Alps Occupation",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_ask_for_vorarlberg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_the_alpine_supremacy",
+      "name": "The Alpine Supremacy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_centralize_switzerland"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_expand_weapons_industry",
+      "name": "Expand Weapons Industry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_martial_law"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_swiss_armored_divisions",
+      "name": "Swiss Armored Divisions",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_expand_weapons_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_plains_warfare",
+      "name": "Plains Warfare",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_swiss_armored_divisions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_multipurpose_tanks",
+      "name": "Multipurpose Tanks",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_plains_warfare"
+      ],
+      "mutuallyExclusive": [
+        "SWI_rolling_fortresses"
+      ],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_rolling_fortresses",
+      "name": "Rolling Fortresses",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_plains_warfare"
+      ],
+      "mutuallyExclusive": [
+        "SWI_multipurpose_tanks"
+      ],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_extended_supply_lines",
+      "name": "Extended Supply Lines",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_multipurpose_tanks",
+        "SWI_rolling_fortresses"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_air_production",
+      "name": "Air Production",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_license_axis_plane_designs",
+        "SWI_airspace_surveillance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_alpine_specialization",
+      "name": "Alpine Specialization",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_air_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_tank_development",
+      "name": "Tank Development",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_swiss_armored_divisions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_mechanized_support",
+      "name": "Mechanized Support",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_tank_development"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_artillery",
+      "name": "Artillery",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_tank_development"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_industrial_production",
+      "name": "Industrial Production",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_federal_police"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_swiss_heavy_planes",
+      "name": "Swiss Heavy Planes",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_license_axis_plane_designs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_air_research",
+      "name": "Air Research",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_airspace_surveillance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_german_military_collaboration",
+      "name": "German Military Collaboration",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_air_research"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_mountaneer_paratroopers",
+      "name": "Mountaneer Paratroopers",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_alpine_specialization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    },
+    {
+      "id": "SWI_Logistical_Connection",
+      "name": "Logistical Connection",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWI_prepare_infrastructure_and_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "switzerland.txt",
+      "shared": false
+    }
+  ]
+}

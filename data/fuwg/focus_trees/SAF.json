@@ -1,0 +1,1077 @@
+{
+  "mod": "FUWG",
+  "tag": "SAF",
+  "country": "South Africa",
+  "treeId": "south_african_focus",
+  "sourceFile": "south_africa.txt",
+  "focusCount": 75,
+  "focuses": [
+    {
+      "id": "SAF_war_measures_act",
+      "name": "War Measures Act",
+      "description": "",
+      "x": 1,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_emergency_workers",
+      "name": "Emergency Workers",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_war_measures_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_celebrate_the_great_trek",
+      "name": "Celebrate The Great Trek",
+      "description": "",
+      "x": -3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_emergency_workers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_a_king_for_our_people",
+      "name": "A King For Our People",
+      "description": "",
+      "x": -3,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_celebrate_the_great_trek"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_cape_garrison_artillery",
+      "name": "Cape Garrison Artillery",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_emergency_workers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_reconstitute_the_cape_corps",
+      "name": "Reconstitute The Cape Corps",
+      "description": "",
+      "x": -1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_cape_garrison_artillery"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_boer_pride",
+      "name": "Boer Pride",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_reconstitute_the_cape_corps",
+        "SAF_commemorate_the_battle_of_blood_river"
+      ],
+      "mutuallyExclusive": [
+        "SAF_expand_the_cape_corps"
+      ],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_expand_the_cape_corps",
+      "name": "Expand The Cape Corps",
+      "description": "",
+      "x": -2,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_reconstitute_the_cape_corps",
+        "SAF_a_king_for_our_people"
+      ],
+      "mutuallyExclusive": [
+        "SAF_boer_pride"
+      ],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_non_discriminatory_recruitment",
+      "name": "Non discriminatory Recruitment",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_expand_the_cape_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_celebrate_boer_pride_month",
+      "name": "Celebrate Boer Pride Month",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_boer_pride",
+        "SAF_suppress_the_stormjaers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_embrace_apartheid",
+      "name": "Embrace Apartheid",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_celebrate_boer_pride_month",
+        "SAF_secure_interests_in_africa"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_mutapa",
+      "name": "Recreate the Zimbabwean Empire",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_non_discriminatory_recruitment",
+        "SAF_secure_interests_in_africa"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_outlaw_strikes",
+      "name": "Outlaw Strikes",
+      "description": "",
+      "x": 4,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_work_for_all_poor"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_support_the_policy_of_appeasement",
+      "name": "Support The Policy Of Appeasement",
+      "description": "",
+      "x": 5,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_csir",
+      "name": "Csir",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_war_measures_act",
+        "SAF_support_the_policy_of_appeasement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_voortrekker_monument",
+      "name": "Voortrekker Monument",
+      "description": "",
+      "x": -3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_csir"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_commemorate_the_battle_of_blood_river",
+      "name": "Commemorate The Battle Of Blood River",
+      "description": "",
+      "x": -3,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_voortrekker_monument"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_police_windhoek",
+      "name": "Police Windhoek",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_support_the_policy_of_appeasement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_joint_air_training_scheme",
+      "name": "Joint Air Training Scheme",
+      "description": "",
+      "x": -3,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_commemorate_the_battle_of_blood_river"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_desert_equipment",
+      "name": "Desert Equipment",
+      "description": "",
+      "x": -5,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_boer_pride",
+        "SAF_expand_the_cape_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_suppress_the_stormjaers",
+      "name": "Suppress The Stormjaers",
+      "description": "",
+      "x": -2,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_commemorate_the_battle_of_blood_river",
+        "SAF_police_windhoek"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_secure_interests_in_africa",
+      "name": "Secure Interests In Africa",
+      "description": "",
+      "x": -5,
+      "y": 6,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_celebrate_boer_pride_month",
+        "SAF_non_discriminatory_recruitment",
+        "SAF_desert_equipment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_native_laws_amendment_act",
+      "name": "Native Laws Amendment Act",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_police_windhoek"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_work_for_all_poor",
+      "name": "Work For All Poor",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_native_laws_amendment_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_south_african_railways",
+      "name": "South African Railways",
+      "description": "",
+      "x": 9,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_expand_the_mining_industry",
+      "name": "Expand The Mining Industry",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_south_african_railways"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_heavy_engineering",
+      "name": "Heavy Engineering",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_south_african_railways"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_infrastructure_effort",
+      "name": "Infrastructure Effort",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_heavy_engineering",
+        "SAF_expand_the_mining_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_armament_effort",
+      "name": "Armament Effort",
+      "description": "",
+      "x": -1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_infrastructure_effort"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_south_african_steel",
+      "name": "South African Steel",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_infrastructure_effort"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_pretoria_arms",
+      "name": "Pretoria Arms",
+      "description": "",
+      "x": -1,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_armament_effort",
+        "SAF_south_african_steel"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_expand_the_rand_mines",
+      "name": "Expand The Rand Mines",
+      "description": "",
+      "x": 1,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_south_african_steel"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_equal_opportunity_employment",
+      "name": "Equal Opportunity Employment",
+      "description": "",
+      "x": 0,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_pretoria_arms",
+        "SAF_expand_the_rand_mines"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_fund_the_university_of_south_africa",
+      "name": "Fund The University Of South Africa",
+      "description": "",
+      "x": 0,
+      "y": 6,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_equal_opportunity_employment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_establish_the_atomics_energy_board",
+      "name": "Establish The Atomics Energy Board",
+      "description": "",
+      "x": 0,
+      "y": 7,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_fund_the_university_of_south_africa"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_the_cape_defense_institute",
+      "name": "The Cape Defense Institute",
+      "description": "",
+      "x": -1,
+      "y": 7,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_fund_the_university_of_south_africa"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_defense_collaboration_initiative",
+      "name": "Defense Collaboration Initiative",
+      "description": "",
+      "x": 1,
+      "y": 7,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_fund_the_university_of_south_africa"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_special_service_battalion",
+      "name": "Special Service Battalion",
+      "description": "",
+      "x": 14,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_improve_the_three_oh_three",
+      "name": "Improve The Three Oh Three",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_special_service_battalion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_q_services_corps",
+      "name": "Q Services Corps",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_special_service_battalion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF__south_african_military_college",
+      "name": "South African Military College",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_improve_the_three_oh_three",
+        "SAF_q_services_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_expand_the_south_african_artillery",
+      "name": "Expand The South African Artillery",
+      "description": "",
+      "x": -2,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_improve_the_three_oh_three",
+        "SAF__south_african_military_college"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_sa_engineer_corps",
+      "name": "Sa Engineer Corps",
+      "description": "",
+      "x": 2,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_q_services_corps",
+        "SAF__south_african_military_college"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_equipment_effort",
+      "name": "Equipment Effort",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_expand_the_south_african_artillery",
+        "SAF_sa_engineer_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_form_the_allied_armor_core",
+      "name": "Form the Allied Armor Core",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_equipment_effort",
+        "SAF_sa_engineer_corps",
+        "SAF_expand_the_south_african_artillery"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_tank_generals",
+      "name": "Tank Warfare",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_form_the_allied_armor_core"
+      ],
+      "mutuallyExclusive": [
+        "SAF_mech_generals"
+      ],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_mech_generals",
+      "name": "Combined Arms Warfare",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_form_the_allied_armor_core"
+      ],
+      "mutuallyExclusive": [
+        "SAF_tank_generals"
+      ],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_commit_to_the_five_year_plan",
+      "name": "Commit To The Five Year Plan",
+      "description": "",
+      "x": 19,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_improve_the_hawker_hartbees",
+      "name": "Improve The Hawker Hartbees",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_commit_to_the_five_year_plan"
+      ],
+      "mutuallyExclusive": [
+        "SAF_replace_the_blenheim"
+      ],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_replace_the_blenheim",
+      "name": "Replace The Blenheim",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_commit_to_the_five_year_plan"
+      ],
+      "mutuallyExclusive": [
+        "SAF_improve_the_hawker_hartbees"
+      ],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_perfect_the_cab_rank_technique",
+      "name": "Perfect The Cab Rank Technique",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_improve_the_hawker_hartbees",
+        "SAF_replace_the_blenheim"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_desert_air_force",
+      "name": "Desert Air Force",
+      "description": "",
+      "x": -1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_perfect_the_cab_rank_technique"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_secure_the_cape_sea_route",
+      "name": "Secure The Cape Sea Route",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_perfect_the_cab_rank_technique",
+        "SAF_replace_the_blenheim"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_retain_experienced_pilots",
+      "name": "Retain Experienced Pilots",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_desert_air_force",
+        "SAF_secure_the_cape_sea_route"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_seaward_defence_force",
+      "name": "Seaward Defence Force",
+      "description": "",
+      "x": 23,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_protect_the_trade",
+      "name": "Protect The Trade",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_seaward_defence_force"
+      ],
+      "mutuallyExclusive": [
+        "SAF_disrupt_the_trade"
+      ],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_disrupt_the_trade",
+      "name": "Disrupt The Trade",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_seaward_defence_force"
+      ],
+      "mutuallyExclusive": [
+        "SAF_protect_the_trade"
+      ],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_expand_the_simons_town_base",
+      "name": "Expand The Simons Town Base",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_protect_the_trade",
+        "SAF_disrupt_the_trade"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_anti_submarine_tactics",
+      "name": "Anti Submarine Tactics",
+      "description": "",
+      "x": -1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_expand_the_simons_town_base"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_submarine_warfare",
+      "name": "Submarine Warfare",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_expand_the_simons_town_base"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_prepare_overseas_offensive",
+      "name": "Prepare Overseas Offensive",
+      "description": "",
+      "x": -1,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_anti_submarine_tactics"
+      ],
+      "mutuallyExclusive": [
+        "SAF_strengthen_the_cape_garrison_artillery"
+      ],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_strengthen_the_cape_garrison_artillery",
+      "name": "Strengthen The Cape Garrison Artillery",
+      "description": "",
+      "x": 1,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_submarine_warfare"
+      ],
+      "mutuallyExclusive": [
+        "SAF_prepare_overseas_offensive"
+      ],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_war_in_africa",
+      "name": "War in Africa",
+      "description": "",
+      "x": 30,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_progress_in_africa_1",
+      "name": "Progress In Africa 1",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_war_in_africa"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_progress_in_africa_2",
+      "name": "Progress In Africa 2",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_progress_in_africa_1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_progress_in_africa_3",
+      "name": "Progress In Africa 3",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_progress_in_africa_2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_progress_in_africa_4",
+      "name": "Progress In Africa 4",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_progress_in_africa_3"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_liberation_of_africa",
+      "name": "Liberation of Africa",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_progress_in_africa_4"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_liberation_of_holland",
+      "name": "Liberation of Holland",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAF_liberation_of_africa"
+      ],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_support_the_german_coup",
+      "name": "Support The German Coup",
+      "description": "",
+      "x": 1,
+      "y": 4,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_anti_colonialist_crusade",
+      "name": "Anti Colonialist Crusade",
+      "description": "",
+      "x": 2,
+      "y": 3,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_abandon_westminster",
+      "name": "Abandon Westminster",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "SAF_south_africa_first",
+      "name": "South Africa First",
+      "description": "",
+      "x": 2,
+      "y": 3,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "south_africa.txt",
+      "shared": false
+    },
+    {
+      "id": "COM_together_for_britain",
+      "name": "Together for Britain",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "shared_reference",
+      "shared": true
+    },
+    {
+      "id": "AFR_leader",
+      "name": "African Regional Commander",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "shared_reference",
+      "shared": true
+    }
+  ]
+}

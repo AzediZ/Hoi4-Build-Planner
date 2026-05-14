@@ -1,0 +1,4536 @@
+{
+  "mod": "FUWG",
+  "tag": "CHI",
+  "country": "People's Republic of China",
+  "treeId": "china_nationalist_sea_focus",
+  "sourceFile": "china_nationalist_sea.txt",
+  "focusCount": 310,
+  "focuses": [
+    {
+      "id": "CHI_end_military_primacy",
+      "name": "End Military Primacy",
+      "description": "",
+      "x": 10,
+      "y": 0,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "CHI_dang_guo",
+        "CHI_strengthening_our_resolve"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_accelerate_the_tutelage",
+      "name": "Accelerate The Tutelage",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_end_military_primacy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_revive_the_chinese_action_committee",
+      "name": "Revive The Chinese Action Committee",
+      "description": "",
+      "x": -6,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_accelerate_the_tutelage"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_revive_the_new_culture_movement",
+      "name": "Revive The New Culture Movement",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_accelerate_the_tutelage"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_invite_carsun_chang",
+      "name": "Invite Carsun Chang",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_accelerate_the_tutelage"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_give_protection_of_civil_rights",
+      "name": "Give Protection Of Civil Rights",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_accelerate_the_tutelage"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_ally_the_young_china_party",
+      "name": "Ally The Young China Party",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_accelerate_the_tutelage"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_rural_reconstruction_movement_sea",
+      "name": "Rural Reconstruction Movement Sea",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_accelerate_the_tutelage"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_sino_american_joint_commission_on_rural_reconstruction",
+      "name": "Sino American Joint Commission On Rural Reconstruction",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_rural_reconstruction_movement_sea"
+      ],
+      "mutuallyExclusive": [
+        "CHI_a_matter_of_will"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_a_matter_of_will",
+      "name": "A Matter Of Will",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_rural_reconstruction_movement_sea"
+      ],
+      "mutuallyExclusive": [
+        "CHI_sino_american_joint_commission_on_rural_reconstruction"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_glorify_deng_yanda",
+      "name": "Glorify Deng Yanda",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_revive_the_chinese_action_committee"
+      ],
+      "mutuallyExclusive": [
+        "CHI_apply_yandas_work"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_apply_yandas_work",
+      "name": "Apply Yandas Work",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_revive_the_chinese_action_committee"
+      ],
+      "mutuallyExclusive": [
+        "CHI_glorify_deng_yanda"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_socialize_major_industries",
+      "name": "Socialize Major Industries",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_invite_carsun_chang"
+      ],
+      "mutuallyExclusive": [
+        "CHI_a_burgeoning_welfare_state"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_a_burgeoning_welfare_state",
+      "name": "A Burgeoning Welfare State",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_invite_carsun_chang"
+      ],
+      "mutuallyExclusive": [
+        "CHI_socialize_major_industries"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_truly_free_speech",
+      "name": "Truly Free Speech",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_give_protection_of_civil_rights"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_a_control_yuan_with_teeth",
+      "name": "A Control Yuan With Teeth",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_give_protection_of_civil_rights"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_unify_as_the_china_democratic_league",
+      "name": "Unify As The China Democratic League",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_accelerate_the_tutelage"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_continue_the_ding_xian_experiment",
+      "name": "Continue The Ding Xian Experiment",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_unify_as_the_china_democratic_league"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_minsheng_focus",
+      "name": "Minsheng Focus",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_continue_the_ding_xian_experiment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_minzu_focus",
+      "name": "Minzu Focus",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_continue_the_ding_xian_experiment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_minquan_focus",
+      "name": "Minquan Focus",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_continue_the_ding_xian_experiment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_demand_regional_adherence",
+      "name": "Demand Regional Adherence",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_minzu_focus",
+        "CHI_minquan_focus",
+        "CHI_minsheng_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_zhonghua_minzu_focus",
+      "name": "Zhonghua Minzu Focus",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_demand_regional_adherence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_leverage_contacts",
+      "name": "Leverage Contacts",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_unify_as_the_china_democratic_league"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_reach_out_for_help",
+      "name": "Reach Out For Help",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_leverage_contacts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_utilize_the_albazinian_contact",
+      "name": "Utilize The Albazinian Contact",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_leverage_contacts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_deal_with_the_shadow_elements",
+      "name": "Deal With The Shadow Elements",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_unify_as_the_china_democratic_league"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_toward_a_socialist_economy",
+      "name": "Toward A Socialist Economy",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_deal_with_the_shadow_elements"
+      ],
+      "mutuallyExclusive": [
+        "CHI_enact_georgist_tax_reforms"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_enact_georgist_tax_reforms",
+      "name": "Enact Georgist Tax Reforms",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_deal_with_the_shadow_elements"
+      ],
+      "mutuallyExclusive": [
+        "CHI_toward_a_socialist_economy"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_shifting_the_balance",
+      "name": "Shifting The Balance",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_toward_a_socialist_economy",
+        "CHI_enact_georgist_tax_reforms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_the_german_mission",
+      "name": "The German Mission",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_leverage_contacts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_reach_out_to_expats",
+      "name": "Reach Out To Expats",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_leverage_contacts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_invoke_the_nine_powers",
+      "name": "Invoke The Nine Powers",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_leverage_contacts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_aeronautical_expertise",
+      "name": "Aeronautical Expertise",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_reach_out_to_expats"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_expand_the_faction",
+      "name": "Expand The Faction",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_shifting_the_balance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_make_a_stand_against_the_colonialists",
+      "name": "Make A Stand Against The Colonialists",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_shifting_the_balance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_spreading_the_light_of_freedom",
+      "name": "Spreading The Light Of Freedom",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_expand_the_faction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_correct_a_historical_wrong",
+      "name": "Correct A Historical Wrong",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_make_a_stand_against_the_colonialists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_championing_the_cause_of_liberty",
+      "name": "Championing The Cause Of Liberty",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_spreading_the_light_of_freedom",
+        "CHI_correct_a_historical_wrong"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_dang_guo",
+      "name": "Dang Guo",
+      "description": "",
+      "x": 30,
+      "y": 0,
+      "cost": 2,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "CHI_end_military_primacy",
+        "CHI_strengthening_our_resolve"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_prepare_for_a_change_in_leadership",
+      "name": "Prepare For A Change In Leadership",
+      "description": "",
+      "x": -11,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_dang_guo"
+      ],
+      "mutuallyExclusive": [
+        "CHI_denounce_feudalism"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_avoid_another_crisis",
+      "name": "Avoid Another Crisis",
+      "description": "",
+      "x": -6,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_prepare_for_a_change_in_leadership",
+        "CHI_end_military_primacy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_lay_the_foundation_for_a_united_china",
+      "name": "Lay The Foundation For A United China",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_prepare_for_a_change_in_leadership"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_preempt_the_inevitable",
+      "name": "Preempt The Inevitable",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_avoid_another_crisis"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_utilize_german_contacts",
+      "name": "Utilize German Contacts",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_avoid_another_crisis"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_look_for_allies",
+      "name": "Look For Allies",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_lay_the_foundation_for_a_united_china"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_infiltrate_the_examination_yuan",
+      "name": "Infiltrate The Examination Yuan",
+      "description": "",
+      "x": -8,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_look_for_allies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_take_control_of_the_executive_yuan",
+      "name": "Take Control Of The Executive Yuan",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_look_for_allies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_our_people_in_the_legislative",
+      "name": "Our People In The Legislative",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_look_for_allies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_clear_out_sycophants",
+      "name": "Clear Out Sycophants",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_take_control_of_the_executive_yuan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_impair_the_control_yuan",
+      "name": "Impair The Control Yuan",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_take_control_of_the_executive_yuan",
+        "CHI_our_people_in_the_legislative"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_appoint_sympathetic_judges",
+      "name": "Appoint Sympathetic Judges",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_take_control_of_the_executive_yuan",
+        "CHI_our_people_in_the_legislative"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_close_whampoa",
+      "name": "Close Whampoa",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_our_people_in_the_legislative"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_censure_the_opposition",
+      "name": "Censure The Opposition",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_impair_the_control_yuan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_the_freedom_to_abject",
+      "name": "The Freedom To Abject",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_impair_the_control_yuan",
+        "CHI_appoint_sympathetic_judges"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_expropriate_industrialists",
+      "name": "Expropriate Industrialists",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_appoint_sympathetic_judges"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_politicise_the_process",
+      "name": "Politicise The Process",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_infiltrate_the_examination_yuan"
+      ],
+      "mutuallyExclusive": [
+        "CHI_a_functioning_bureaucracy_first"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_a_functioning_bureaucracy_first",
+      "name": "A Functioning Bureaucracy First",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_infiltrate_the_examination_yuan"
+      ],
+      "mutuallyExclusive": [
+        "CHI_politicise_the_process"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_extend_jurisdiction_to_the_provinces",
+      "name": "Extend Jurisdiction To The Provinces",
+      "description": "",
+      "x": 3,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_infiltrate_the_examination_yuan",
+        "CHI_impair_the_control_yuan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_affirm_civilian_primacy",
+      "name": "Affirm Civilian Primacy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_close_whampoa"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_proclaim_a_new_chapter",
+      "name": "Proclaim A New Chapter",
+      "description": "",
+      "x": 9,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_politicise_the_process",
+        "CHI_a_functioning_bureaucracy_first",
+        "CHI_the_freedom_to_abject",
+        "CHI_affirm_civilian_primacy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_victory_over_the_invaders",
+      "name": "Victory Over The Invaders",
+      "description": "",
+      "x": 8,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_tour_the_west",
+        "CHI_tour_the_north",
+        "CHI_tour_the_south",
+        "CHI_proclaim_a_new_chapter"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_petition_territorial_restoration",
+      "name": "Petition Territorial Restoration",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_victory_over_the_invaders"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_crush_the_communists",
+      "name": "Crush The Communists",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_victory_over_the_invaders"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_request_handover_of_coastal_cities",
+      "name": "Request Handover Of Coastal Cities",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_victory_over_the_invaders"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_negotiate_the_nine_powers_treaty",
+      "name": "Negotiate The Nine Powers Treaty",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_proclaim_a_new_chapter"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_start_looking_outwards",
+      "name": "Start Looking Outwards",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_proclaim_a_new_chapter"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_liberate_the_peoples_of_asia",
+      "name": "Liberate The Peoples Of Asia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_start_looking_outwards"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_punish_the_signatories",
+      "name": "Punish The Signatories",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_liberate_the_peoples_of_asia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_bring_the_revolution_further",
+      "name": "Bring The Revolution Further",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_liberate_the_peoples_of_asia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_end_the_humiliation",
+      "name": "End The Humiliation",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_punish_the_signatories",
+        "CHI_bring_the_revolution_further"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_denounce_feudalism",
+      "name": "Denounce Feudalism",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_dang_guo"
+      ],
+      "mutuallyExclusive": [
+        "CHI_prepare_for_a_change_in_leadership"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_one_nation_undivided",
+      "name": "One Nation Undivided",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_denounce_feudalism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_decree_the_end_to_corruption",
+      "name": "Decree The End To Corruption",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_denounce_feudalism",
+        "CHI_prepare_for_a_change_in_leadership"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_reinforce_connections_with_shanghai_elites",
+      "name": "Reinforce Connections With Shanghai Elites",
+      "description": "",
+      "x": -11,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_denounce_feudalism",
+        "CHI_prepare_for_a_change_in_leadership"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_introduce_the_baojia_system",
+      "name": "Introduce The Baojia System",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_one_nation_undivided"
+      ],
+      "mutuallyExclusive": [
+        "CHI_expand_the_tongzi_jun"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_expand_the_tongzi_jun",
+      "name": "Expand The Tongzi Jun",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_one_nation_undivided"
+      ],
+      "mutuallyExclusive": [
+        "CHI_introduce_the_baojia_system"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_demonstrate_our_resolve",
+      "name": "Demonstrate Our Resolve",
+      "description": "",
+      "x": 8,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_one_nation_undivided"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_arrest_the_seven_gentlemen",
+      "name": "Arrest The Seven Gentlemen",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_decree_the_end_to_corruption"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_reshuffle_the_green_gang",
+      "name": "Reshuffle The Green Gang",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_reinforce_connections_with_shanghai_elites"
+      ],
+      "mutuallyExclusive": [
+        "CHI_legitimise_du"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_legitimise_du",
+      "name": "Legitimise Du",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_reinforce_connections_with_shanghai_elites"
+      ],
+      "mutuallyExclusive": [
+        "CHI_reshuffle_the_green_gang"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_inspect_the_troops",
+      "name": "Inspect The Troops",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_introduce_the_baojia_system",
+        "CHI_expand_the_tongzi_jun"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_secure_the_soviet_border",
+      "name": "Secure The Soviet Border",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_demonstrate_our_resolve"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_send_the_first_lady_abroad",
+      "name": "Send The First Lady Abroad",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_demonstrate_our_resolve"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_take_advantage_of_dus_contacts",
+      "name": "Take Advantage Of Dus Contacts",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_legitimise_du"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_draw_support_from_the_big_families",
+      "name": "Draw Support From The Big Families",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_arrest_the_seven_gentlemen"
+      ],
+      "mutuallyExclusive": [
+        "CHI_prosecute_cronyism"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_prosecute_cronyism",
+      "name": "Prosecute Cronyism",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_arrest_the_seven_gentlemen"
+      ],
+      "mutuallyExclusive": [
+        "CHI_draw_support_from_the_big_families"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_crack_down_on_illicit_goods",
+      "name": "Crack Down On Illicit Goods",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_decree_the_end_to_corruption"
+      ],
+      "mutuallyExclusive": [
+        "CHI_turn_a_blind_eye"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_turn_a_blind_eye",
+      "name": "Turn A Blind Eye",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_decree_the_end_to_corruption"
+      ],
+      "mutuallyExclusive": [
+        "CHI_crack_down_on_illicit_goods"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_weaponise_the_hongmen",
+      "name": "Weaponise The Hongmen",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_reshuffle_the_green_gang"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_facilitate_operation_zet",
+      "name": "Facilitate Operation Zet",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_secure_the_soviet_border"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_from_many_to_one",
+      "name": "From Many To One",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_inspect_the_troops"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_request_soviet_advisors",
+      "name": "Request Soviet Advisors",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_secure_the_soviet_border"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_the_northwest_highway",
+      "name": "The Northwest Highway",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_secure_the_soviet_border"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_collaborate_with_allied_forces",
+      "name": "Collaborate With Allied Forces",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_send_the_first_lady_abroad"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_scout_for_air_experts",
+      "name": "Scout For Air Experts",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_send_the_first_lady_abroad"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_sell_lend_lease",
+      "name": "Sell Lend Lease",
+      "description": "",
+      "x": 3,
+      "y": 0,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_secure_the_soviet_border",
+        "CHI_send_the_first_lady_abroad"
+      ],
+      "mutuallyExclusive": [
+        "CHI_allocate_lend_lease"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_international_instructors",
+      "name": "International Instructors",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_scout_for_air_experts"
+      ],
+      "mutuallyExclusive": [
+        "CHI_international_squadron"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_allocate_lend_lease",
+      "name": "Allocate Lend Lease",
+      "description": "",
+      "x": 5,
+      "y": 0,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_secure_the_soviet_border",
+        "CHI_send_the_first_lady_abroad"
+      ],
+      "mutuallyExclusive": [
+        "CHI_sell_lend_lease"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_burma_campaign",
+      "name": "Burma Campaign",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_collaborate_with_allied_forces"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_indo_chinese_campaign",
+      "name": "Indo Chinese Campaign",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_collaborate_with_allied_forces"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_international_squadron",
+      "name": "International Squadron",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_scout_for_air_experts"
+      ],
+      "mutuallyExclusive": [
+        "CHI_international_instructors"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_form_the_chinese_womens_national_war_relief_society",
+      "name": "Form The Chinese Womens National War Relief Society",
+      "description": "",
+      "x": -6,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_inspect_the_troops",
+        "CHI_our_people_in_the_legislative"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_towards_a_professional_army",
+      "name": "Towards A Professional Army",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_from_many_to_one"
+      ],
+      "mutuallyExclusive": [
+        "CHI_towards_a_popular_army"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_towards_a_popular_army",
+      "name": "Towards A Popular Army",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_from_many_to_one"
+      ],
+      "mutuallyExclusive": [
+        "CHI_towards_a_professional_army"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_the_hanoi_route",
+      "name": "The Hanoi Route",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_send_the_first_lady_abroad"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_form_saco",
+      "name": "Form Saco",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_burma_campaign",
+        "CHI_indo_chinese_campaign"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_the_burma_road",
+      "name": "The Burma Road",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_send_the_first_lady_abroad"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_the_hump_sea",
+      "name": "The Hump Sea",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_send_the_first_lady_abroad"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_women_in_the_war_effort",
+      "name": "Women In The War Effort",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_form_the_chinese_womens_national_war_relief_society"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_the_sky_cannot_have_two_suns",
+      "name": "The Sky Cannot Have Two Suns",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_towards_a_professional_army",
+        "CHI_towards_a_popular_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_preemptive_strike",
+      "name": "Preemptive Strike",
+      "description": "",
+      "x": -7,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_politicise_the_process",
+        "CHI_a_functioning_bureaucracy_first",
+        "CHI_the_freedom_to_abject",
+        "CHI_affirm_civilian_primacy",
+        "CHI_the_sky_cannot_have_two_suns"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_tour_the_north",
+      "name": "Tour The North",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_the_sky_cannot_have_two_suns"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_tour_the_west",
+      "name": "Tour The West",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_the_sky_cannot_have_two_suns"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_tour_the_south",
+      "name": "Tour The South",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_the_sky_cannot_have_two_suns"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_a_generalissimo_for_all_of_china",
+      "name": "A Generalissimo For All Of China",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_tour_the_north",
+        "CHI_tour_the_west",
+        "CHI_tour_the_south"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_empower_the_mtac",
+      "name": "Empower The Mtac",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_petition_territorial_restoration",
+        "CHI_crush_the_communists",
+        "CHI_request_handover_of_coastal_cities"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_unify_the_admissions_process",
+      "name": "Unify The Admissions Process",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_petition_territorial_restoration",
+        "CHI_crush_the_communists",
+        "CHI_request_handover_of_coastal_cities"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_retreat_to_taiwan",
+      "name": "Retreat To Taiwan",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_crush_the_communists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_joining_the_international_community",
+      "name": "Joining The International Community",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_a_generalissimo_for_all_of_china"
+      ],
+      "mutuallyExclusive": [
+        "CHI_subjugate_korea"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_a_world_freed_from_communism",
+      "name": "A World Freed From Communism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_joining_the_international_community"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_subjugate_korea",
+      "name": "Subjugate Korea",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_a_generalissimo_for_all_of_china"
+      ],
+      "mutuallyExclusive": [
+        "CHI_joining_the_international_community"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_reclaim_the_north",
+      "name": "Reclaim The North",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_subjugate_korea"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_strengthening_our_resolve",
+      "name": "Strengthening Our Resolve",
+      "description": "",
+      "x": 39,
+      "y": 0,
+      "cost": 2,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "CHI_end_military_primacy",
+        "CHI_dang_guo"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_china_reborn",
+      "name": "China Reborn",
+      "description": "",
+      "x": -14,
+      "y": 2,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_denounce_feudalism",
+        "CHI_co_opt_the_koh_hsin_movement",
+        "CHI_mend_the_rift_with_hu",
+        "CHI_revive_the_western_hills_group"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_co_opt_the_koh_hsin_movement",
+      "name": "Co Opt The Koh Hsin Movement",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_strengthening_our_resolve"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_mend_the_rift_with_hu",
+      "name": "Mend The Rift With Hu",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_strengthening_our_resolve"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_revive_the_western_hills_group",
+      "name": "Revive The Western Hills Group",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_strengthening_our_resolve"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_reform_the_blue_shirts",
+      "name": "Reform The Blue Shirts",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_china_reborn",
+        "CHI_outlaw_opposition_parties"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_empower_the_bureau_of_investigation_and_statistics",
+      "name": "Empower The Bureau Of Investigation And Statistics",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_china_reborn"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_revise_the_national_curriculum",
+      "name": "Revise The National Curriculum",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_china_reborn"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_target_upper_society",
+      "name": "Target Upper Society",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_china_reborn"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_outlaw_opposition_parties",
+      "name": "Outlaw Opposition Parties",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_mend_the_rift_with_hu",
+        "CHI_revive_the_western_hills_group",
+        "CHI_co_opt_the_koh_hsin_movement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_seek_out_western_fascist_cooperation",
+      "name": "Seek Out Western Fascist Cooperation",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_outlaw_opposition_parties"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_a_chapter_in_every_village",
+      "name": "A Chapter In Every Village",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_reform_the_blue_shirts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_secure_the_northern_front",
+      "name": "Secure The Northern Front",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_outlaw_opposition_parties"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_a_party_unified",
+      "name": "A Party Unified",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_outlaw_opposition_parties"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_a_popular_movement",
+      "name": "A Popular Movement",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_reform_the_blue_shirts"
+      ],
+      "mutuallyExclusive": [
+        "CHI_integrate_the_hongmen"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_integrate_the_hongmen",
+      "name": "Integrate The Hongmen",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_reform_the_blue_shirts"
+      ],
+      "mutuallyExclusive": [
+        "CHI_ban_immoral_entertainment",
+        "CHI_a_popular_movement"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_ban_immoral_entertainment",
+      "name": "Ban Immoral Entertainment",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_target_upper_society"
+      ],
+      "mutuallyExclusive": [
+        "CHI_integrate_the_hongmen"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_develop_counterinsurgency_tactics",
+      "name": "Develop Counterinsurgency Tactics",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_empower_the_bureau_of_investigation_and_statistics"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_a_brotherhood_for_china",
+      "name": "A Brotherhood For China",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_empower_the_bureau_of_investigation_and_statistics"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_nationalize",
+      "name": "Nationalize",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_a_chapter_in_every_village"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_militarize",
+      "name": "Militarize",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_a_chapter_in_every_village"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_productive",
+      "name": "Productive",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_a_chapter_in_every_village"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_enforce__virtues",
+      "name": "Enforce Virtues",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_ban_immoral_entertainment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_whampoa_ideological_primacy",
+      "name": "Whampoa Ideological Primacy",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_integrate_the_hongmen",
+        "CHI_a_popular_movement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_postpone_the_tutelage",
+      "name": "Postpone The Tutelage",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_a_party_unified"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_expel_the_occupiers",
+      "name": "Expel The Occupiers",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_a_party_unified"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_put_an_end_to_PRC",
+      "name": "Put An End To Prc",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_a_party_unified"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_second_father_of_the_nation",
+      "name": "Second Father Of The Nation",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_outlaw_opposition_parties"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_weaponise_the_faithful",
+      "name": "Weaponise The Faithful",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_whampoa_ideological_primacy"
+      ],
+      "mutuallyExclusive": [
+        "CHI_political_advisors_in_every_division"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_political_advisors_in_every_division",
+      "name": "Political Advisors In Every Division",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_whampoa_ideological_primacy"
+      ],
+      "mutuallyExclusive": [
+        "CHI_weaponise_the_faithful"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_an_alternative_rooted_in_tradition",
+      "name": "An Alternative Rooted In Tradition",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_militarize",
+        "CHI_nationalize",
+        "CHI_productive"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_reject_the_nine_powers",
+      "name": "Reject The Nine Powers",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_postpone_the_tutelage",
+        "CHI_expel_the_occupiers",
+        "CHI_put_an_end_to_PRC"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_setting_a_new_standard",
+      "name": "Setting A New Standard",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_weaponise_the_faithful",
+        "CHI_political_advisors_in_every_division"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_eternal_revolution",
+      "name": "Eternal Revolution",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_reject_the_nine_powers",
+        "CHI_an_alternative_rooted_in_tradition"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_reclaim_what_was_lost",
+      "name": "Reclaim What Was Lost",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_eternal_revolution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_bring_the_wayward_back_into_the_fold",
+      "name": "Bring The Wayward Back Into The Fold",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_eternal_revolution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_retake_coastal_cities",
+      "name": "Retake Coastal Cities",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_eternal_revolution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_a_new_middle_kingdom",
+      "name": "A New Middle Kingdom",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_bring_the_wayward_back_into_the_fold",
+        "CHI_reclaim_what_was_lost",
+        "CHI_retake_coastal_cities"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_the_southern_mandate",
+      "name": "The Southern Mandate",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_a_new_middle_kingdom"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_the_northern_mandate",
+      "name": "The Northern Mandate",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_a_new_middle_kingdom"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_the_greater_game",
+      "name": "The Greater Game",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_a_new_middle_kingdom"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_cradle_of_civilization",
+      "name": "Cradle Of Civilization",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_the_greater_game",
+        "CHI_the_northern_mandate",
+        "CHI_the_southern_mandate"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_promote_the_national_currency",
+      "name": "Promote The National Currency",
+      "description": "",
+      "x": 12,
+      "y": 0,
+      "cost": 2,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_military_affairs_commission_sea",
+      "name": "Military Affairs Commission Sea",
+      "description": "",
+      "x": 20,
+      "y": 0,
+      "cost": 2,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_set_up_an_nco_school",
+      "name": "Set Up An Nco School",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_military_affairs_commission_sea"
+      ],
+      "mutuallyExclusive": [
+        "CHI_formalize_field_promotions"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_formalize_field_promotions",
+      "name": "Formalize Field Promotions",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_military_affairs_commission_sea"
+      ],
+      "mutuallyExclusive": [
+        "CHI_set_up_an_nco_school"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_crackdown_on_corruption_in_recruitment",
+      "name": "Crackdown On Corruption In Recruitment",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_set_up_an_nco_school",
+        "CHI_formalize_field_promotions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_reorganise_the_train",
+      "name": "Reorganise The Train",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_crackdown_on_corruption_in_recruitment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_rely_on_locals",
+      "name": "Rely On Locals",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_crackdown_on_corruption_in_recruitment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_focus_on_meritocratic_principles",
+      "name": "Focus On Meritocratic Principles",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_reorganise_the_train",
+        "CHI_rely_on_locals"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_form_the_combined_logistics_command",
+      "name": "Form The Combined Logistics Command",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_focus_on_meritocratic_principles"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_protracted_warfare",
+      "name": "Protracted Warfare",
+      "description": "",
+      "x": -5,
+      "y": 4,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_military_affairs_commission_sea"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_decisive_battles",
+      "name": "Decisive Battles",
+      "description": "",
+      "x": 5,
+      "y": 4,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_military_affairs_commission_sea"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_invest_in_mountain_guns",
+      "name": "Invest In Mountain Guns",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_decisive_battles"
+      ],
+      "mutuallyExclusive": [
+        "CHI_repurpose_fort_artillery"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_repurpose_fort_artillery",
+      "name": "Repurpose Fort Artillery",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_decisive_battles"
+      ],
+      "mutuallyExclusive": [
+        "CHI_invest_in_mountain_guns"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_fund_the_marine_corp",
+      "name": "Fund The Marine Corp",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_decisive_battles"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_the_4_defence_areas",
+      "name": "The 4 Defence Areas",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_protracted_warfare"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_defence_in_depth",
+      "name": "Defence In Depth",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_protracted_warfare"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_prepare_the_war_zones",
+      "name": "Prepare The War Zones",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_decisive_battles"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_guerrilla_warfare",
+      "name": "Guerrilla Warfare",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_defence_in_depth"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_rapidity_is_the_essence_of_war",
+      "name": "Rapidity Is The Essence Of War",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_prepare_the_war_zones"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_organise_the_200th_division",
+      "name": "Organise The 200th Division",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_decisive_battles"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_motorise_our_infantry",
+      "name": "Motorise Our Infantry",
+      "description": "",
+      "x": 3,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_decisive_battles"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_bog_them_down_in_the_centre",
+      "name": "Bog Them Down In The Centre",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_defence_in_depth"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_appear_where_you_are_not_expected",
+      "name": "Appear Where You Are Not Expected",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_prepare_the_war_zones"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_relocate_factories_from_the_coast",
+      "name": "Relocate Factories From The Coast",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_defence_in_depth"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_state_aa",
+      "name": "State Aa",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_the_4_defence_areas"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_coastal_forts",
+      "name": "Coastal Forts",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_the_4_defence_areas"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_salvage_enemy_equipment",
+      "name": "Salvage Enemy Equipment",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_relocate_factories_from_the_coast"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_commemorate_the_labour_corps",
+      "name": "Commemorate The Labour Corps",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_bog_them_down_in_the_centre"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_utilise_the_terrain",
+      "name": "Utilise The Terrain",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_bog_them_down_in_the_centre"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_train_for_asymmetry",
+      "name": "Train For Asymmetry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_guerrilla_warfare"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_know_thy_enemy",
+      "name": "Know Thy Enemy",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_appear_where_you_are_not_expected",
+        "CHI_rapidity_is_the_essence_of_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_know_thy_self",
+      "name": "Know Thy Self",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_organise_the_200th_division",
+        "CHI_motorise_our_infantry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_armoured_car_tactics",
+      "name": "Armoured Car Tactics",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_motorise_our_infantry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_serve_the_country_with_utmost_loyalty",
+      "name": "Serve The Country With Utmost Loyalty",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_train_for_asymmetry",
+        "CHI_commemorate_the_labour_corps",
+        "CHI_utilise_the_terrain"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_the_well_timed_swoop_of_a_falcon",
+      "name": "The Well Timed Swoop Of A Falcon",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_know_thy_self",
+        "CHI_know_thy_enemy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_rocaf",
+      "name": "Rocaf",
+      "description": "",
+      "x": 18,
+      "y": 0,
+      "cost": 2,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_bring_the_war_home",
+      "name": "Bring The War Home",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_rocaf"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_projecting_power",
+      "name": "Projecting Power",
+      "description": "",
+      "x": -4,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_rocaf"
+      ],
+      "mutuallyExclusive": [
+        "CHI_controlling_our_skies"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_strike_at_what_is_weak",
+      "name": "Strike At What Is Weak",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_projecting_power"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_a_wind_that_rises_in_the_daytime_lasts_long",
+      "name": "A Wind That Rises In The Daytime Lasts Long",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_strike_at_what_is_weak"
+      ],
+      "mutuallyExclusive": [
+        "CHI_but_a_night_breeze_soon_falls"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_but_a_night_breeze_soon_falls",
+      "name": "But A Night Breeze Soon Falls",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_strike_at_what_is_weak"
+      ],
+      "mutuallyExclusive": [
+        "CHI_a_wind_that_rises_in_the_daytime_lasts_long"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_escort_efficiency",
+      "name": "Escort Efficiency",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_but_a_night_breeze_soon_falls",
+        "CHI_a_wind_that_rises_in_the_daytime_lasts_long"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_controlling_our_skies",
+      "name": "Controlling Our Skies",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_rocaf"
+      ],
+      "mutuallyExclusive": [
+        "CHI_projecting_power"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_interception_detection",
+      "name": "Interception Detection",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_controlling_our_skies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_focus_on_positional_advantage",
+      "name": "Focus On Positional Advantage",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_interception_detection"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_effectivize_ground_crew_usage",
+      "name": "Effectivize Ground Crew Usage",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_interception_detection"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_coordinate_with_the_army",
+      "name": "Coordinate With The Army",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_focus_on_positional_advantage",
+        "CHI_effectivize_ground_crew_usage"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_officialize_the_rocaf",
+      "name": "Officialize The Rocaf",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_coordinate_with_the_army",
+        "CHI_escort_efficiency"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_hongxiang_force",
+      "name": "Hongxiang Force",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_officialize_the_rocaf"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_an_appropriate_design",
+      "name": "An Appropriate Design",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_projecting_power",
+        "CHI_controlling_our_skies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_reorganise_the_central_armys_academy_aviation_corps",
+      "name": "Reorganise The Central Armys Academy Aviation Corps",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_rocaf"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_formalise_training_regime",
+      "name": "Formalise Training Regime",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_reorganise_the_central_armys_academy_aviation_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_conserve_our_pilots",
+      "name": "Conserve Our Pilots",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_formalise_training_regime",
+        "CHI_controlling_our_skies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_camco_primacy",
+      "name": "Camco Primacy",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_reorganise_the_central_armys_academy_aviation_corps"
+      ],
+      "mutuallyExclusive": [
+        "CHI_SINAW_primacy"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_SINAW_primacy",
+      "name": "Sinaw Primacy",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_reorganise_the_central_armys_academy_aviation_corps"
+      ],
+      "mutuallyExclusive": [
+        "CHI_camco_primacy"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_initiate_the_sky_projects",
+      "name": "Initiate The Sky Projects",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_officialize_the_rocaf"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_focus_on_the_Tianlong_project",
+      "name": "Focus On The Tianlong Project",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_officialize_the_rocaf"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_VTOL_experiments",
+      "name": "Vtol Experiments",
+      "description": "",
+      "x": 0,
+      "y": 5,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_camco_primacy",
+        "CHI_SINAW_primacy",
+        "CHI_coordinate_with_the_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_republic_of_china_navy",
+      "name": "Republic Of China Navy",
+      "description": "",
+      "x": 16,
+      "y": 0,
+      "cost": 2,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_develop_northern_naval_logistics",
+      "name": "Develop Northern Naval Logistics",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_republic_of_china_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_develop_southern_naval_logistics",
+      "name": "Develop Southern Naval Logistics",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_republic_of_china_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_foreign_acquisition",
+      "name": "Foreign Acquisition",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_republic_of_china_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_concerted_push",
+      "name": "Concerted Push",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_develop_northern_naval_logistics",
+        "CHI_develop_southern_naval_logistics"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_local_alloy_commission",
+      "name": "Local Alloy Commission",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_develop_northern_naval_logistics",
+        "CHI_develop_southern_naval_logistics"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_deny_the_enemy",
+      "name": "Deny The Enemy",
+      "description": "",
+      "x": -3,
+      "y": 4,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_republic_of_china_navy"
+      ],
+      "mutuallyExclusive": [
+        "CHI_dominate_the_enemy"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_dominate_the_enemy",
+      "name": "Dominate The Enemy",
+      "description": "",
+      "x": 3,
+      "y": 4,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_republic_of_china_navy"
+      ],
+      "mutuallyExclusive": [
+        "CHI_deny_the_enemy"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_navy_spooks",
+      "name": "Navy Spooks",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_dominate_the_enemy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_promote_admiral",
+      "name": "Promote Admiral",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_deny_the_enemy",
+        "CHI_dominate_the_enemy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_heavy_ship_research",
+      "name": "Heavy Ship Research",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_dominate_the_enemy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_strike_from_below",
+      "name": "Strike From Below",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_deny_the_enemy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_fund_the_naval_air_establishment",
+      "name": "Fund The Naval Air Establishment",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_deny_the_enemy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_early_detections",
+      "name": "Early Detections",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_fund_the_naval_air_establishment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_defend_our_coasts",
+      "name": "Defend Our Coasts",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_fund_the_naval_air_establishment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_long_range",
+      "name": "Long Range",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_strike_from_below"
+      ],
+      "mutuallyExclusive": [
+        "CHI_coastal_defence"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_battleship_focus",
+      "name": "Battleship Focus",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_heavy_ship_research"
+      ],
+      "mutuallyExclusive": [
+        "CHI_heavy_cruiser_focus"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_coastal_defence",
+      "name": "Coastal Defence",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_strike_from_below"
+      ],
+      "mutuallyExclusive": [
+        "CHI_long_range"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_heavy_cruiser_focus",
+      "name": "Heavy Cruiser Focus",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_heavy_ship_research"
+      ],
+      "mutuallyExclusive": [
+        "CHI_battleship_focus"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_mobile_bases",
+      "name": "Mobile Bases",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_heavy_ship_research"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_naval_separate_defense_plan",
+      "name": "Naval Separate Defense Plan",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_mobile_bases"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_the_seas_of_tomorrow",
+      "name": "The Seas Of Tomorrow",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_battleship_focus",
+        "CHI_heavy_cruiser_focus",
+        "CHI_mobile_bases",
+        "CHI_coastal_defence",
+        "CHI_long_range"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_long_range_screens",
+      "name": "Long Range Screens",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_battleship_focus",
+        "CHI_heavy_cruiser_focus",
+        "CHI_mobile_bases",
+        "CHI_coastal_defence",
+        "CHI_long_range"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_institute_a_national_registry_of_property",
+      "name": "Institute A National Registry Of Property",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_promote_the_national_currency"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_the_three_year_plan",
+      "name": "The Three Year Plan",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_promote_the_national_currency"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_extend_compulsory_education",
+      "name": "Extend Compulsory Education",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_promote_the_national_currency"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_initiate_the_gung_ho_movement",
+      "name": "Initiate The Gung Ho Movement",
+      "description": "",
+      "x": 8,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_promote_the_national_currency"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_expand_the_bureaucracy",
+      "name": "Expand The Bureaucracy",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_extend_compulsory_education"
+      ],
+      "mutuallyExclusive": [
+        "CHI_send_the_urban_students_to_the_countryside"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_send_the_urban_students_to_the_countryside",
+      "name": "Send The Urban Students To The Countryside",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_extend_compulsory_education"
+      ],
+      "mutuallyExclusive": [
+        "CHI_expand_the_bureaucracy"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_find_foreign_financiers",
+      "name": "Find Foreign Financiers",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_the_three_year_plan"
+      ],
+      "mutuallyExclusive": [
+        "CHI_fund_the_plan_domestically"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_fund_the_plan_domestically",
+      "name": "Fund The Plan Domestically",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_the_three_year_plan"
+      ],
+      "mutuallyExclusive": [
+        "CHI_find_foreign_financiers"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_finance_cooperatives",
+      "name": "Finance Cooperatives",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_initiate_the_gung_ho_movement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_introduce_income_tax",
+      "name": "Introduce Income Tax",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_institute_a_national_registry_of_property"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_redistribute_land",
+      "name": "Redistribute Land",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_institute_a_national_registry_of_property"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_expand_academica_sinica",
+      "name": "Expand Academica Sinica",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_expand_the_bureaucracy",
+        "CHI_send_the_urban_students_to_the_countryside"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_expand_the_chinese_academy_of_sciences",
+      "name": "Expand The Chinese Academy Of Sciences",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_expand_academica_sinica"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_expand_the_cooperatives",
+      "name": "Expand The Cooperatives",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_finance_cooperatives"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_administer_cooperatives",
+      "name": "Administer Cooperatives",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_finance_cooperatives"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_monopolise_resource_extraction",
+      "name": "Monopolise Resource Extraction",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_find_foreign_financiers",
+        "CHI_fund_the_plan_domestically"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_invite_foreign_experts",
+      "name": "Invite Foreign Experts",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_find_foreign_financiers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_print_money_for_the_army",
+      "name": "Print Money For The Army",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_redistribute_land",
+        "CHI_introduce_income_tax"
+      ],
+      "mutuallyExclusive": [
+        "CHI_maintain_adequate_currency_reserves"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_maintain_adequate_currency_reserves",
+      "name": "Maintain Adequate Currency Reserves",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_introduce_income_tax",
+        "CHI_redistribute_land"
+      ],
+      "mutuallyExclusive": [
+        "CHI_print_money_for_the_army"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_develop_the_chemical_industry",
+      "name": "Develop The Chemical Industry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_monopolise_resource_extraction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_grow_the_coal_industry",
+      "name": "Grow The Coal Industry",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_monopolise_resource_extraction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_tungsten_and_antimony_extraction",
+      "name": "Tungsten And Antimony Extraction",
+      "description": "",
+      "x": 4,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_monopolise_resource_extraction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_central_steel_and_machine_works",
+      "name": "Central Steel And Machine Works",
+      "description": "",
+      "x": -4,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_monopolise_resource_extraction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_empower_those_that_have_lost",
+      "name": "Empower Those That Have Lost",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_expand_the_cooperatives",
+        "CHI_administer_cooperatives"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_found_a_modern_fertiliser_plant",
+      "name": "Found A Modern Fertiliser Plant",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_develop_the_chemical_industry"
+      ],
+      "mutuallyExclusive": [
+        "CHI_import_fertilisers"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_import_fertilisers",
+      "name": "Import Fertilisers",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_develop_the_chemical_industry"
+      ],
+      "mutuallyExclusive": [
+        "CHI_found_a_modern_fertiliser_plant"
+      ],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_construct_the_banqiao_dam",
+      "name": "Construct The Banqiao Dam",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_found_a_modern_fertiliser_plant",
+        "CHI_import_fertilisers",
+        "CHI_central_steel_and_machine_works",
+        "CHI_tungsten_and_antimony_extraction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_expand_national_sun_yat_sen_university",
+      "name": "Expand National Sun Yat Sen University",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CHI_construct_the_banqiao_dam"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_industrial_effort_fuwg",
+      "name": "Industrial Effort Fuwg",
+      "description": "",
+      "x": 5,
+      "y": 0,
+      "cost": 2,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_construction_effort_fuwg",
+      "name": "Construction Effort Fuwg",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_industrial_effort_fuwg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_production_effort_fuwg",
+      "name": "Production Effort Fuwg",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_industrial_effort_fuwg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_construction_effort_2_fuwg",
+      "name": "Construction Effort 2 Fuwg",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_construction_effort_fuwg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_production_effort_2_fuwg",
+      "name": "Production Effort 2 Fuwg",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_production_effort_fuwg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_infrastructure_effort_fuwg",
+      "name": "Infrastructure Effort Fuwg",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_construction_effort_2_fuwg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_production_effort_3_fuwg",
+      "name": "Production Effort 3 Fuwg",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_production_effort_2_fuwg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_infrastructure_effort_2_fuwg",
+      "name": "Infrastructure Effort 2 Fuwg",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_infrastructure_effort_fuwg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_construction_effort_3_fuwg",
+      "name": "Construction Effort 3 Fuwg",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_infrastructure_effort_fuwg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_exploitation_effort_fuwg",
+      "name": "Exploitation Effort Fuwg",
+      "description": "",
+      "x": 5,
+      "y": 6,
+      "cost": 2,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_building_effort_fuwg",
+      "name": "Building Effort Fuwg",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_exploitation_effort_fuwg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_preparing_effort_fuwg",
+      "name": "Preparing Effort Fuwg",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_exploitation_effort_fuwg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_building_effort_2_fuwg",
+      "name": "Building Effort 2 Fuwg",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_building_effort_fuwg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_preparing_effort_2_fuwg",
+      "name": "Preparing Effort 2 Fuwg",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_preparing_effort_fuwg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_preparing_effort_3_fuwg",
+      "name": "Preparing Effort 3 Fuwg",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_preparing_effort_2_fuwg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_building_effort_3_fuwg",
+      "name": "Building Effort 3 Fuwg",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHI_preparing_effort_3_fuwg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "wave_one_fuwg_chix",
+      "name": "Wave One Fuwg Chix",
+      "description": "",
+      "x": 20,
+      "y": 0,
+      "cost": 4,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "wave_two_fuwg_chix",
+      "name": "Wave Two Fuwg Chix",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 4,
+      "prerequisites": [
+        "wave_one_fuwg_chix"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "wave_three_fuwg_chix",
+      "name": "Wave Three Fuwg Chix",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 4,
+      "prerequisites": [
+        "wave_two_fuwg_chix"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_wave_4",
+      "name": "Wave 4",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 4,
+      "prerequisites": [
+        "wave_three_fuwg_chix"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_wave_5",
+      "name": "Wave 5",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 4,
+      "prerequisites": [
+        "CHI_wave_4"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_wave_6",
+      "name": "Wave 6",
+      "description": "",
+      "x": 0,
+      "y": 5,
+      "cost": 4,
+      "prerequisites": [
+        "CHI_wave_5"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_wave_7",
+      "name": "Wave 7",
+      "description": "",
+      "x": 0,
+      "y": 6,
+      "cost": 4,
+      "prerequisites": [
+        "CHI_wave_6"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_wave_8",
+      "name": "Wave 8",
+      "description": "",
+      "x": 0,
+      "y": 7,
+      "cost": 4,
+      "prerequisites": [
+        "CHI_wave_7"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_wave_9",
+      "name": "Wave 9",
+      "description": "",
+      "x": 0,
+      "y": 8,
+      "cost": 4,
+      "prerequisites": [
+        "CHI_wave_8"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_wave_10",
+      "name": "Wave 10",
+      "description": "",
+      "x": 0,
+      "y": 9,
+      "cost": 4,
+      "prerequisites": [
+        "CHI_wave_9"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_wave_11",
+      "name": "Wave 11",
+      "description": "",
+      "x": 0,
+      "y": 10,
+      "cost": 4,
+      "prerequisites": [
+        "CHI_wave_10"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_wave_12",
+      "name": "Wave 12",
+      "description": "",
+      "x": 0,
+      "y": 11,
+      "cost": 4,
+      "prerequisites": [
+        "CHI_wave_11"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_wave_13",
+      "name": "Wave 13",
+      "description": "",
+      "x": 0,
+      "y": 12,
+      "cost": 4,
+      "prerequisites": [
+        "CHI_wave_12"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_wave_14",
+      "name": "Wave 14",
+      "description": "",
+      "x": 0,
+      "y": 13,
+      "cost": 4,
+      "prerequisites": [
+        "CHI_wave_13"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_wave_15",
+      "name": "Wave 15",
+      "description": "",
+      "x": 0,
+      "y": 14,
+      "cost": 4,
+      "prerequisites": [
+        "CHI_wave_14"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_wave_16",
+      "name": "Wave 16",
+      "description": "",
+      "x": 0,
+      "y": 15,
+      "cost": 4,
+      "prerequisites": [
+        "CHI_wave_15"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_wave_17",
+      "name": "Wave 17",
+      "description": "",
+      "x": 0,
+      "y": 16,
+      "cost": 4,
+      "prerequisites": [
+        "CHI_wave_16"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_wave_18",
+      "name": "Wave 18",
+      "description": "",
+      "x": 0,
+      "y": 17,
+      "cost": 4,
+      "prerequisites": [
+        "CHI_wave_17"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_wave_19",
+      "name": "Wave 19",
+      "description": "",
+      "x": 0,
+      "y": 18,
+      "cost": 4,
+      "prerequisites": [
+        "CHI_wave_18"
+      ],
+      "mutuallyExclusive": [],
+      "source": "china_nationalist_sea.txt",
+      "shared": false
+    },
+    {
+      "id": "industrial_effort_fuwg",
+      "name": "Industrial Effort",
+      "description": "Focus all our political efforts on building up the civilian industry in a great leap forward.",
+      "x": 13,
+      "y": 0,
+      "cost": 1,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "generic_shared.txt",
+      "shared": true
+    }
+  ]
+}

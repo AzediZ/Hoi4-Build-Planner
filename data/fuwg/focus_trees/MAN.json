@@ -1,0 +1,1337 @@
+{
+  "mod": "FUWG",
+  "tag": "MAN",
+  "country": "Manchukuo Tsr",
+  "treeId": "manchukuo_focus_tsr",
+  "sourceFile": "manchukuo_TSR.txt",
+  "focusCount": 92,
+  "focuses": [
+    {
+      "id": "MAN_tsr_pacify_the_countryside",
+      "name": "Tsr Pacify The Countryside",
+      "description": "",
+      "x": 9,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_army_modernization",
+      "name": "Tsr Army Modernization",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_pacify_the_countryside"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_mukden_military_academy",
+      "name": "Tsr Mukden Military Academy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_army_modernization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_invite_japanese_settlers",
+      "name": "Tsr Invite Japanese Settlers",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_pacify_the_countryside"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_collective_farms",
+      "name": "Tsr Collective Farms",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_invite_japanese_settlers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_law_university",
+      "name": "Tsr Law University",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_collective_farms",
+        "MAN_tsr_mukden_military_academy",
+        "MAN_tsr_expand_the_textile_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_research_and_education_department",
+      "name": "Tsr Research And Education Department",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_law_university"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_trade_delegation",
+      "name": "Tsr Trade Delegation",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_pacify_the_countryside"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_expand_the_textile_industry",
+      "name": "Tsr Expand The Textile Industry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_trade_delegation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_revitalize_manchukuos_infrastructure",
+      "name": "Revitalize Manchukuo's infrastructure",
+      "description": "Inject funds into the modernization of Manchukuo's infrastructure, enhancing its economic and military potential.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_expand_the_textile_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_resource_exploitation_initiative",
+      "name": "Resource Exploitation Initiative",
+      "description": "Initiate programs to exploit Manchukuo's vast natural resources, fueling industrial growth and military expansion.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_revitalize_manchukuos_infrastructure"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_economic_diversification_plan",
+      "name": "Economic Diversification Plan",
+      "description": "Develop a plan to diversify Manchukuo's economy, reducing vulnerability and promoting stability.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_revitalize_manchukuos_infrastructure"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_obedience",
+      "name": "Tsr Obedience",
+      "description": "",
+      "x": -3,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_army_modernization"
+      ],
+      "mutuallyExclusive": [
+        "MAN_tsr_assertiveness"
+      ],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_hoankyoku",
+      "name": "Tsr Hoankyoku",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_obedience"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_expand_the_navy",
+      "name": "Tsr Expand The Navy",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_obedience"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_first_five_year_plan",
+      "name": "Tsr First Five Year Plan",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_obedience"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_trading_illicit_goods",
+      "name": "Tsr Trading Illicit Goods",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_first_five_year_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_invite_japanese_investors",
+      "name": "Tsr Invite Japanese Investors",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_first_five_year_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_expand_the_railways",
+      "name": "Tsr Expand The Railways",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_invite_japanese_investors"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_expand_showa_steel_works",
+      "name": "Tsr Expand Showa Steel Works",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_invite_japanese_investors"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_develop_aluminum_sources",
+      "name": "Tsr Develop Aluminum Sources",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_expand_showa_steel_works"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_strengthen_ties_with_nissan",
+      "name": "Tsr Strengthen Ties With Nissan",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_invite_japanese_investors"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_mangyo",
+      "name": "Tsr Mangyo",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_strengthen_ties_with_nissan",
+        "MAN_tsr_expand_showa_steel_works",
+        "MAN_tsr_expand_the_railways"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_social_research_unit",
+      "name": "Tsr Social Research Unit",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_expand_the_railways"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_second_five_year_plan",
+      "name": "Tsr Second Five Year Plan",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_mangyo"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_national_defense_state",
+      "name": "Tsr National Defense State",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_second_five_year_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_mukden_arsenal",
+      "name": "Tsr Mukden Arsenal",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_first_five_year_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_mamc",
+      "name": "Tsr Mamc",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_mukden_arsenal"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_alliance_with_the_kwantung_army",
+      "name": "Tsr Alliance With The Kwantung Army",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_first_five_year_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_request_dalian",
+      "name": "Tsr Request Dalian",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_alliance_with_the_kwantung_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_further_mobilization",
+      "name": "Tsr Further Mobilization",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_alliance_with_the_kwantung_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_strengthen_the_manchukuo_imperial_army",
+      "name": "Tsr Strengthen The Manchukuo Imperial Army",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_alliance_with_the_kwantung_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_expand_xingan_army",
+      "name": "Tsr Expand Xingan Army",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_strengthen_the_manchukuo_imperial_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_the_question_of_leadership",
+      "name": "Tsr The Question Of Leadership",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_strengthen_the_manchukuo_imperial_army",
+        "MAN_tsr_further_mobilization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_chinese_leadership",
+      "name": "Tsr Chinese Leadership",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_the_question_of_leadership"
+      ],
+      "mutuallyExclusive": [
+        "MAN_tsr_empire_of_manchukuo"
+      ],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_vassalize_mengukuo",
+      "name": "Tsr Vassalize Mengukuo",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_chinese_leadership"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_national_cooperation_government",
+      "name": "Tsr National Cooperation Government",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_chinese_leadership"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_the_two_emperors",
+      "name": "Tsr The Two Emperors",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_vassalize_mengukuo",
+        "MAN_tsr_national_cooperation_government"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_empire_of_manchukuo",
+      "name": "Tsr Empire Of Manchukuo",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_the_question_of_leadership"
+      ],
+      "mutuallyExclusive": [
+        "MAN_tsr_chinese_leadership"
+      ],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_embrace_state_shintoism",
+      "name": "Tsr Embrace State Shintoism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_empire_of_manchukuo"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_work_with_the_kempeitai",
+      "name": "Tsr Work With The Kempeitai",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_embrace_state_shintoism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_promote_manchu_identity",
+      "name": "Tsr Promote Manchu Identity",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_embrace_state_shintoism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_claim_outer_manchuria",
+      "name": "Tsr Claim Outer Manchuria",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_promote_manchu_identity",
+        "MAN_tsr_work_with_the_kempeitai"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_assertiveness",
+      "name": "Tsr Assertiveness",
+      "description": "",
+      "x": 3,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_trade_delegation"
+      ],
+      "mutuallyExclusive": [
+        "MAN_tsr_obedience"
+      ],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_request_control_of_the_railways",
+      "name": "Tsr Request Control Of The Railways",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_assertiveness"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_staff_the_court_with_manchus",
+      "name": "Tsr Staff The Court With Manchus",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_request_control_of_the_railways"
+      ],
+      "mutuallyExclusive": [
+        "MAN_tsr_five_equal_peoples"
+      ],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_expand_the_imperial_guards",
+      "name": "Tsr Expand The Imperial Guards",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_staff_the_court_with_manchus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_local_arms_procurement",
+      "name": "Tsr Local Arms Procurement",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_expand_the_imperial_guards"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_bolster_nationalism",
+      "name": "Tsr Bolster Nationalism",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_staff_the_court_with_manchus",
+        "MAN_tsr_five_equal_peoples"
+      ],
+      "mutuallyExclusive": [
+        "MAN_tsr_question_the_emperors_authority"
+      ],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_five_equal_peoples",
+      "name": "Tsr Five Equal Peoples",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_request_control_of_the_railways"
+      ],
+      "mutuallyExclusive": [
+        "MAN_tsr_staff_the_court_with_manchus"
+      ],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_white_russian_advisers",
+      "name": "Tsr White Russian Advisers",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_five_equal_peoples"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_empower_the_legislative_council",
+      "name": "Tsr Empower The Legislative Council",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_five_equal_peoples"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_five_people_armies",
+      "name": "Tsr Five People Armies",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_white_russian_advisers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_question_the_emperors_authority",
+      "name": "Tsr Question The Emperors Authority",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_five_equal_peoples"
+      ],
+      "mutuallyExclusive": [
+        "MAN_tsr_bolster_nationalism"
+      ],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_bandit_recruitment",
+      "name": "Tsr Bandit Recruitment",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_question_the_emperors_authority"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_ally_bandit_leaders",
+      "name": "Tsr Ally Bandit Leaders",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_bandit_recruitment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_persuade_the_IMPRP",
+      "name": "Tsr Persuade The Imprp",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_bandit_recruitment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_a_new_dawn_over_manchuria",
+      "name": "Tsr A New Dawn Over Manchuria",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_bandit_recruitment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_depose_puyi",
+      "name": "Tsr Depose Puyi",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_a_new_dawn_over_manchuria"
+      ],
+      "mutuallyExclusive": [
+        "MAN_tsr_imperial_divinity",
+        "MAN_tsr_a_new_constitution"
+      ],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_the_new_beiyang_government",
+      "name": "Tsr The New Beiyang Government",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_depose_puyi"
+      ],
+      "mutuallyExclusive": [
+        "MAN_tsr_zhao_shangzhis_coup"
+      ],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_beiyang_university",
+      "name": "Tsr Beiyang University",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_the_new_beiyang_government"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_reform_the_army",
+      "name": "Tsr Reform The Army",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_the_new_beiyang_government"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_the_southern_expedition",
+      "name": "Tsr The Southern Expedition",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_the_new_beiyang_government"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_proclaim_the_republic_of_china",
+      "name": "Tsr Proclaim The Republic Of China",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_the_southern_expedition"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_finish_off_the_japanese_threat",
+      "name": "Tsr Finish Off The Japanese Threat",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_proclaim_the_republic_of_china"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_an_industrial_power",
+      "name": "Tsr An Industrial Power",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_proclaim_the_republic_of_china"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_zhao_shangzhis_coup",
+      "name": "Tsr Zhao Shangzhis Coup",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_depose_puyi"
+      ],
+      "mutuallyExclusive": [
+        "MAN_tsr_the_new_beiyang_government"
+      ],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_ally_the_soviet_republic",
+      "name": "Tsr Ally The Soviet Republic",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_zhao_shangzhis_coup"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_research_cooperation",
+      "name": "Tsr Research Cooperation",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_ally_the_soviet_republic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_the_long_march_south",
+      "name": "Tsr The Long March South",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_ally_the_soviet_republic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_proclaim_the_peoples_republic",
+      "name": "Tsr Proclaim The Peoples Republic",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_the_long_march_south"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_soviet_aid",
+      "name": "Tsr Soviet Aid",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_ally_the_soviet_republic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_request_our_lost_territories",
+      "name": "Tsr Request Our Lost Territories",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_ally_the_soviet_republic",
+        "MAN_tsr_the_long_march_south"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_purge_the_general_affairs_council",
+      "name": "Tsr Purge The General Affairs Council",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_bolster_nationalism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_reform_the_civil_service",
+      "name": "Tsr Reform The Civil Service",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_purge_the_general_affairs_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_independence_war",
+      "name": "Tsr Independence War",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_purge_the_general_affairs_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_imperial_divinity",
+      "name": "Tsr Imperial Divinity",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_independence_war"
+      ],
+      "mutuallyExclusive": [
+        "MAN_tsr_a_new_constitution",
+        "MAN_tsr_depose_puyi"
+      ],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_reclaim_our_lost_possessions",
+      "name": "Tsr Reclaim Our Lost Possessions",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_imperial_divinity"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_a_new_constitution",
+      "name": "Tsr A New Constitution",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_independence_war"
+      ],
+      "mutuallyExclusive": [
+        "MAN_tsr_imperial_divinity",
+        "MAN_tsr_depose_puyi"
+      ],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_division_of_power",
+      "name": "Tsr Division Of Power",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_a_new_constitution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_reestablish_the_qing_army",
+      "name": "Tsr Reestablish The Qing Army",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_imperial_divinity",
+        "MAN_tsr_a_new_constitution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_raise_the_yong_ying",
+      "name": "Tsr Raise The Yong Ying",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_reestablish_the_qing_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_reclaim_the_empire",
+      "name": "Tsr Reclaim The Empire",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_reestablish_the_qing_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_imperial_university",
+      "name": "Tsr Imperial University",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_reclaim_the_empire"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_assert_our_authority",
+      "name": "Tsr Assert Our Authority",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_reclaim_the_empire"
+      ],
+      "mutuallyExclusive": [
+        "MAN_tsr_offer_vassalization"
+      ],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_offer_vassalization",
+      "name": "Tsr Offer Vassalization",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_reclaim_the_empire"
+      ],
+      "mutuallyExclusive": [
+        "MAN_tsr_assert_our_authority"
+      ],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_manchuwu_chan_forgives_senpai",
+      "name": "Happy relationship",
+      "description": "After their adventure in China, Manchuwu-chan and Hirohito-senpai are happy together.",
+      "x": 6,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_move_capitals",
+      "name": "Tsr Move Capitals",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_offer_vassalization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_reestablish_the_gansu_braves",
+      "name": "Tsr Reestablish The Gansu Braves",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_assert_our_authority",
+        "MAN_tsr_offer_vassalization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_a_new_self_strengthening_movement",
+      "name": "Tsr A New Self Strengthening Movement",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_assert_our_authority",
+        "MAN_tsr_offer_vassalization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "MAN_tsr_claim_the_mandate_of_heaven",
+      "name": "Tsr Claim The Mandate Of Heaven",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MAN_tsr_move_capitals"
+      ],
+      "mutuallyExclusive": [],
+      "source": "manchukuo_TSR.txt",
+      "shared": false
+    },
+    {
+      "id": "CHI_sea_invite_foreign_investors",
+      "name": "Sea Invite Foreign Investors",
+      "description": "",
+      "x": 40,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "china_shared_TSR.txt",
+      "shared": true
+    }
+  ]
+}

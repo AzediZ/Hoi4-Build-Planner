@@ -1,0 +1,876 @@
+{
+  "mod": "FUWG",
+  "tag": "KOR",
+  "country": "Korea",
+  "treeId": "korea_tree",
+  "sourceFile": "korea.txt",
+  "focusCount": 61,
+  "focuses": [
+    {
+      "id": "KOR_political_path",
+      "name": "Political Path",
+      "description": "",
+      "x": 8,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_industrial_modernisation",
+      "name": "Industrial Modernisation",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_political_path"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_national_propaganda",
+      "name": "National Propaganda",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_industrial_modernisation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_go_with_jap",
+      "name": "Trust in Japanese Rule",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_national_propaganda"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_japanese_military_tr",
+      "name": "Japanese Military Tr",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_go_with_jap"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_japanese_navy_traditions",
+      "name": "Japanese Navy Traditions",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_japanese_military_tr"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_japanese_policies",
+      "name": "Japanese Policies",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_go_with_jap"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_fix_politics",
+      "name": "Fix Politics",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_japanese_policies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_research_teams",
+      "name": "Research Teams",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_fix_politics"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_japanese_airforce",
+      "name": "Japanese Airforce",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_japanese_navy_traditions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_construction_methods",
+      "name": "Construction Methods",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_research_teams",
+        "KOR_japanese_airforce"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_new_tools",
+      "name": "New Tools",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_research_teams",
+        "KOR_japanese_airforce"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_research_one",
+      "name": "Research One",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_research_teams",
+        "KOR_japanese_airforce"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_our_emperor",
+      "name": "Our Emperor",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_construction_methods",
+        "KOR_new_tools",
+        "KOR_research_one"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_propaganda",
+      "name": "Propaganda",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_our_emperor"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_the_bright_sun",
+      "name": "The Bright Sun",
+      "description": "",
+      "x": 15,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_expansion_start",
+      "name": "Expansion Start",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_the_bright_sun"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_prepare_population",
+      "name": "Prepare Population",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_expansion_start"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_shandong",
+      "name": "Shandong",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_prepare_population"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_fully_integrate",
+      "name": "Fully Integrate",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_shandong"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_strengthen_the_kriegsmarine",
+      "name": "Strengthen The Kriegsmarine",
+      "description": "",
+      "x": 23,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_plan_z",
+      "name": "Plan Z",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_strengthen_the_kriegsmarine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_expand_kriegsmarinewerft",
+      "name": "Expand Kriegsmarinewerft",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_plan_z"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_construct_aircraft_carriers",
+      "name": "Construct Aircraft Carriers",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_expand_kriegsmarinewerft"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_grosskampfschiff_construction",
+      "name": "Grosskampfschiff Construction",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_expand_kriegsmarinewerft"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_high_seas_fleet",
+      "name": "High Seas Fleet",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 6,
+      "prerequisites": [
+        "KOR_expand_kriegsmarinewerft"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_re_establish_the_seekriegsleitung",
+      "name": "Re Establish The Seekriegsleitung",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_strengthen_the_kriegsmarine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_marinestosstrupp",
+      "name": "Marinestosstrupp",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_re_establish_the_seekriegsleitung"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_atlantic_naval_dominance",
+      "name": "Atlantic Naval Dominance",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_marinestosstrupp"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_trade_interdiction",
+      "name": "Trade Interdiction",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_strengthen_the_kriegsmarine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_cruiser_warfare",
+      "name": "Cruiser Warfare",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_trade_interdiction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_panzerschiff_raiders",
+      "name": "Panzerschiff Raiders",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_cruiser_warfare"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_unrestricted_convoy_raiding",
+      "name": "Unrestricted Convoy Raiding",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_panzerschiff_raiders"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_expand_the_repair_yards",
+      "name": "Expand The Repair Yards",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_unrestricted_convoy_raiding"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_seeherrschaft",
+      "name": "Seeherrschaft",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_high_seas_fleet",
+        "KOR_unrestricted_convoy_raiding"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_army_maneuvers",
+      "name": "Army Maneuvers",
+      "description": "",
+      "x": 32,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_form_peasant_militias",
+      "name": "Form Peasant Militias",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_army_maneuvers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_romanian_volunteer_brigades",
+      "name": "Romanian Volunteer Brigades",
+      "description": "",
+      "x": -3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_form_peasant_militias"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_army_war_college",
+      "name": "Army War College",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_army_maneuvers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_the_zb_53",
+      "name": "The Zb 53",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_army_war_college"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_vanatori_de_munte",
+      "name": "Vanatori De Munte",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_the_zb_53"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_artillery_modernization",
+      "name": "Artillery Modernization",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_the_zb_53"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_modern_at_guns",
+      "name": "Modern At Guns",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_artillery_modernization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_mountain_artillery",
+      "name": "Mountain Artillery",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_artillery_modernization",
+        "KOR_vanatori_de_munte"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_royal_guards_divisions",
+      "name": "Royal Guards Divisions",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_army_maneuvers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_reserve_divisions",
+      "name": "Reserve Divisions",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_royal_guards_divisions",
+        "KOR_vlad_the_impaler"
+      ],
+      "mutuallyExclusive": [
+        "KOR_the_armored_division"
+      ],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_the_armored_division",
+      "name": "The Armored Division",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_royal_guards_divisions",
+        "KOR_vlad_the_impaler"
+      ],
+      "mutuallyExclusive": [
+        "KOR_reserve_divisions"
+      ],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_acquire_modern_tanks",
+      "name": "Acquire Modern Tanks",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_the_armored_division",
+        "KOR_reserve_divisions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_the_maresal",
+      "name": "The Maresal",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_acquire_modern_tanks"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_vlad_the_impaler",
+      "name": "Vlad The Impaler",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_army_maneuvers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_expand_the_air_force",
+      "name": "Expand The Air Force",
+      "description": "",
+      "x": 23,
+      "y": 6,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_acquire_licenses",
+      "name": "Acquire Licenses",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_expand_the_air_force"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_air_defense",
+      "name": "Air Defense",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_acquire_licenses"
+      ],
+      "mutuallyExclusive": [
+        "KOR_ground_support"
+      ],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_ground_support",
+      "name": "Ground Support",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_acquire_licenses"
+      ],
+      "mutuallyExclusive": [
+        "KOR_air_defense"
+      ],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_medium_bombers",
+      "name": "Medium Bombers",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_ground_support"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_local_development",
+      "name": "Local Development",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_expand_the_air_force"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_air_superiority",
+      "name": "Air Superiority",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_local_development"
+      ],
+      "mutuallyExclusive": [
+        "KOR_strategic_bomber_force"
+      ],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_cas",
+      "name": "Cas",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_air_superiority"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_iar_80",
+      "name": "Iar 80",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_air_superiority"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_strategic_bomber_force",
+      "name": "Strategic Bomber Force",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_local_development"
+      ],
+      "mutuallyExclusive": [
+        "KOR_air_superiority"
+      ],
+      "source": "korea.txt",
+      "shared": false
+    },
+    {
+      "id": "KOR_heavy_bombers",
+      "name": "Heavy Bombers",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "KOR_strategic_bomber_force"
+      ],
+      "mutuallyExclusive": [],
+      "source": "korea.txt",
+      "shared": false
+    }
+  ]
+}

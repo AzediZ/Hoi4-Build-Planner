@@ -1,0 +1,1432 @@
+{
+  "mod": "FUWG",
+  "tag": "CAN",
+  "country": "Canada",
+  "treeId": "canadian_focus",
+  "sourceFile": "canada.txt",
+  "focusCount": 98,
+  "focuses": [
+    {
+      "id": "CAN_rowell_sirois_commission",
+      "name": "Rowell Sirois Commission",
+      "description": "",
+      "x": 0,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_crown_corporations",
+      "name": "Crown Corporations",
+      "description": "",
+      "x": 3,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_national_housing_act",
+      "name": "National Housing Act",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_rowell_sirois_commission",
+        "CAN_crown_corporations"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_dollar_a_year_men",
+      "name": "Dollar A Year Men",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_national_housing_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_canada_pacific_railway",
+      "name": "Canada Pacific Railway",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_rowell_sirois_commission"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_maritime_colonial_railway",
+      "name": "Maritime Colonial Railway",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_canada_pacific_railway"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_retool_angus_shops",
+      "name": "Retool Angus Shops",
+      "description": "",
+      "x": 2,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_canada_pacific_railway",
+        "CAN_bits_and_pieces_program"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_imperial_oil",
+      "name": "Imperial Oil",
+      "description": "",
+      "x": 2,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_retool_angus_shops"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_defence_of_canada_regulations",
+      "name": "Defence Of Canada Regulations",
+      "description": "",
+      "x": 8,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_war_bonds",
+      "name": "War Bonds",
+      "description": "",
+      "x": -2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_department_of_munitions_and_supply",
+      "name": "Department Of Munitions And Supply",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_crown_corporations",
+        "CAN_defence_of_canada_regulations",
+        "CAN_war_bonds"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_national_resources_mobilization_act",
+      "name": "National Resources Mobilization Act",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_defence_of_canada_regulations"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_wartime_prices_and_trade_board",
+      "name": "Wartime Prices And Trade Board",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_defence_of_canada_regulations"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_bits_and_pieces_program",
+      "name": "Bits And Pieces Program",
+      "description": "",
+      "x": -4,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_department_of_munitions_and_supply"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_fund_the_national_research_council",
+      "name": "Fund The National Research Council",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_department_of_munitions_and_supply",
+        "CAN_national_resources_mobilization_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_mine_the_shield",
+      "name": "Mine The Shield",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_national_resources_mobilization_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_canada_wheat_board",
+      "name": "Canada Wheat Board",
+      "description": "",
+      "x": 3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_wartime_prices_and_trade_board"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_victory_aircraft_limited",
+      "name": "Victory Aircraft Limited",
+      "description": "",
+      "x": -2,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_department_of_munitions_and_supply"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_alberta_coal_towns",
+      "name": "Alberta Coal Towns",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_mine_the_shield",
+        "CAN_canada_wheat_board"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_commit_to_the_war",
+      "name": "Commit To The War",
+      "description": "",
+      "x": 3,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_canada_wheat_board"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_john_inglis_and_company",
+      "name": "John Inglis And Company",
+      "description": "",
+      "x": -4,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_bits_and_pieces_program"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_polymer_corporation",
+      "name": "Polymer Corporation",
+      "description": "",
+      "x": -1,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_victory_aircraft_limited",
+        "CAN_fund_the_national_research_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_national_steel_car",
+      "name": "National Steel Car",
+      "description": "",
+      "x": 1,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_alberta_coal_towns"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_send_in_the_zombies",
+      "name": "Send In The Zombies",
+      "description": "",
+      "x": 3,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_commit_to_the_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_if_day",
+      "name": "If Day",
+      "description": "",
+      "x": -2,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_john_inglis_and_company",
+        "CAN_victory_aircraft_limited"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_defense_research_grants",
+      "name": "Defense Research Grants",
+      "description": "",
+      "x": -4,
+      "y": 6,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_john_inglis_and_company",
+        "CAN_if_day"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_uranium_mining",
+      "name": "Uranium Mining",
+      "description": "",
+      "x": 0,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_polymer_corporation",
+        "CAN_national_steel_car"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_long_branch_arsenal",
+      "name": "Long Branch Arsenal",
+      "description": "",
+      "x": 2,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_send_in_the_zombies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_independent_command",
+      "name": "Independent Command",
+      "description": "",
+      "x": 4,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_send_in_the_zombies",
+        "CAN_red_deer_training_camp"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_forced_quebec_conscription",
+      "name": "Forced Quebec Conscription",
+      "description": "",
+      "x": 2,
+      "y": 6,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_long_branch_arsenal",
+        "CAN_independent_command"
+      ],
+      "mutuallyExclusive": [
+        "CAN_compromise_with_quebec"
+      ],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_compromise_with_quebec",
+      "name": "Compromise With Quebec",
+      "description": "",
+      "x": 4,
+      "y": 6,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_long_branch_arsenal",
+        "CAN_independent_command"
+      ],
+      "mutuallyExclusive": [
+        "CAN_forced_quebec_conscription"
+      ],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_war_fueled_economy",
+      "name": "War Fueled Economy",
+      "description": "",
+      "x": 1,
+      "y": 7,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_national_steel_car",
+        "CAN_if_day"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_army_modernization",
+      "name": "Army Modernization",
+      "description": "",
+      "x": 15,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_canadian_infantry_corps",
+      "name": "Canadian Infantry Corps",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_army_modernization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_cmp_truck",
+      "name": "Cmp Truck",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_army_modernization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_the_walkie_talkie",
+      "name": "The Walkie Talkie",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_canadian_infantry_corps",
+        "CAN_cmp_truck"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_royal_regiment_of_canadian_artillery",
+      "name": "Royal Regiment Of Canadian Artillery",
+      "description": "",
+      "x": -1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_canadian_infantry_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_a_motorized_army",
+      "name": "A Motorized Army",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_cmp_truck"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_red_deer_training_camp",
+      "name": "Red Deer Training Camp",
+      "description": "",
+      "x": -1,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_royal_regiment_of_canadian_artillery",
+        "CAN_a_motorized_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_1st_canadian_parachute_battalion",
+      "name": "1st Canadian Parachute Battalion",
+      "description": "",
+      "x": 2,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_the_plan",
+        "CAN_a_motorized_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_the_black_devils",
+      "name": "The Black Devils",
+      "description": "",
+      "x": -1,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_red_deer_training_camp"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_the_rocky_mountain_rangers",
+      "name": "The Rocky Mountain Rangers",
+      "description": "",
+      "x": 1,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_red_deer_training_camp"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_the_valentine_tank",
+      "name": "The Valentine Tank",
+      "description": "",
+      "x": 0,
+      "y": 6,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_red_deer_training_camp"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_strengthen_the_commonwealth_ties",
+      "name": "Strengthen The Commonwealth Ties",
+      "description": "",
+      "x": 21,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "CAN_patriation"
+      ],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_shadow_factories",
+      "name": "Shadow Factories",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_strengthen_the_commonwealth_ties"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_montreal_laboratory_collaboration",
+      "name": "Montreal Laboratory Collaboration",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_strengthen_the_commonwealth_ties"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_the_plan",
+      "name": "The Plan",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_shadow_factories"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_camp_x",
+      "name": "Camp X",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_montreal_laboratory_collaboration",
+        "CAN_permanent_joint_defense_board"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_supply_the_empire",
+      "name": "Supply The Empire",
+      "description": "",
+      "x": -1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_the_plan",
+        "CAN_camp_x"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_aluminium_company_of_canada",
+      "name": "Aluminium Company Of Canada",
+      "description": "",
+      "x": -2,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_supply_the_empire"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_turner_valley_oilfield",
+      "name": "Turner Valley Oilfield",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_supply_the_empire"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_patriation",
+      "name": "Patriation",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "CAN_strengthen_the_commonwealth_ties"
+      ],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_permanent_joint_defense_board",
+      "name": "Permanent Joint Defense Board",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CAN_patriation"
+      ],
+      "mutuallyExclusive": [
+        "CAN_burn_the_royal_portraits",
+        "CAN_swastika_clubs"
+      ],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_north_american_alliance",
+      "name": "North American Alliance",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CAN_permanent_joint_defense_board"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_habakkuk_carrier",
+      "name": "Habakkuk Carrier",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "CAN_north_american_alliance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_refuge_for_scientists",
+      "name": "Refuge For Scientists",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "CAN_north_american_alliance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_dominion_rifle_association",
+      "name": "Dominion Rifle Association",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_permanent_joint_defense_board",
+        "CAN_shadow_factories",
+        "CAN_swastika_clubs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_canadian_citizenship_act",
+      "name": "Canadian Citizenship Act",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_north_american_alliance",
+        "CAN_supply_the_empire"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_newfoundland_act",
+      "name": "Newfoundland Act",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_canadian_citizenship_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_swastika_clubs",
+      "name": "Swastika Clubs",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CAN_patriation"
+      ],
+      "mutuallyExclusive": [
+        "CAN_burn_the_royal_portraits",
+        "CAN_permanent_joint_defense_board"
+      ],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_support_the_blue_shirts",
+      "name": "Support The Blue Shirts",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CAN_swastika_clubs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_join_germany",
+      "name": "Join Germany",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "CAN_support_the_blue_shirts"
+      ],
+      "mutuallyExclusive": [
+        "CAN_support_a_synarchist_baja"
+      ],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_support_a_synarchist_baja",
+      "name": "Support A Synarchist Baja",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "CAN_support_the_blue_shirts"
+      ],
+      "mutuallyExclusive": [
+        "CAN_join_germany"
+      ],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_pinion_the_eagle",
+      "name": "Pinion The Eagle",
+      "description": "",
+      "x": -1,
+      "y": 3,
+      "cost": 10,
+      "prerequisites": [
+        "CAN_join_germany"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_skewer_the_eagle",
+      "name": "Skewer The Eagle",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 10,
+      "prerequisites": [
+        "CAN_support_a_synarchist_baja"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_defence_scheme_no_1",
+      "name": "Defence Scheme No 1",
+      "description": "",
+      "x": 3,
+      "y": 4,
+      "cost": 10,
+      "prerequisites": [
+        "CAN_skewer_the_eagle",
+        "CAN_pinion_the_eagle",
+        "CAN_reject_authoritarianism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_demand_labrador_and_newfoundland",
+      "name": "Demand Labrador And Newfoundland",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 10,
+      "prerequisites": [
+        "CAN_skewer_the_eagle",
+        "CAN_pinion_the_eagle",
+        "CAN_reject_authoritarianism"
+      ],
+      "mutuallyExclusive": [
+        "CAN_offer_concessions_for_labrador_and_newfoundland"
+      ],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_offer_concessions_for_labrador_and_newfoundland",
+      "name": "Offer Concessions For Labrador And Newfoundland",
+      "description": "",
+      "x": -2,
+      "y": 4,
+      "cost": 10,
+      "prerequisites": [
+        "CAN_skewer_the_eagle",
+        "CAN_pinion_the_eagle",
+        "CAN_reject_authoritarianism"
+      ],
+      "mutuallyExclusive": [
+        "CAN_demand_labrador_and_newfoundland"
+      ],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_burn_the_royal_portraits",
+      "name": "Burn The Royal Portraits",
+      "description": "",
+      "x": 11,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CAN_patriation"
+      ],
+      "mutuallyExclusive": [
+        "CAN_swastika_clubs",
+        "CAN_permanent_joint_defense_board"
+      ],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_communist_labor_total_war_committee",
+      "name": "Communist Labor Total War Committee",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CAN_burn_the_royal_portraits"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_mend_relations_with_the_trotskyites",
+      "name": "Mend Relations With The Trotskyites",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "CAN_communist_labor_total_war_committee"
+      ],
+      "mutuallyExclusive": [
+        "CAN_supply_the_red_army",
+        "CAN_defence_scheme_no_2"
+      ],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_reject_authoritarianism",
+      "name": "Reject Authoritarianism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CAN_mend_relations_with_the_trotskyites"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_liberate_the_workers_of_the_world",
+      "name": "Liberate The Workers Of The World",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CAN_reject_authoritarianism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_reactivate_farmers_unity_league",
+      "name": "Reactivate Farmers Unity League",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "CAN_mend_relations_with_the_trotskyites"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_defence_scheme_no_2",
+      "name": "Defence Scheme No 2",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "CAN_communist_labor_total_war_committee"
+      ],
+      "mutuallyExclusive": [
+        "CAN_supply_the_red_army",
+        "CAN_mend_relations_with_the_trotskyites"
+      ],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_supply_the_red_army",
+      "name": "Supply The Red Army",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "CAN_communist_labor_total_war_committee"
+      ],
+      "mutuallyExclusive": [
+        "CAN_defence_scheme_no_2",
+        "CAN_mend_relations_with_the_trotskyites"
+      ],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_canada_united",
+      "name": "Canada United",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 10,
+      "prerequisites": [
+        "CAN_defence_scheme_no_2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_join_comintern",
+      "name": "Join Comintern",
+      "description": "",
+      "x": 2,
+      "y": 3,
+      "cost": 10,
+      "prerequisites": [
+        "CAN_supply_the_red_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_support_the_world_revolution",
+      "name": "Support The World Revolution",
+      "description": "",
+      "x": 1,
+      "y": 4,
+      "cost": 10,
+      "prerequisites": [
+        "CAN_canada_united",
+        "CAN_join_comintern"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_rcaf_station_borden",
+      "name": "Rcaf Station Borden",
+      "description": "",
+      "x": 24,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_we_have_the_hurricane",
+      "name": "We Have The Hurricane",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_rcaf_station_borden"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_torpedo_bombers",
+      "name": "Torpedo Bombers",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_we_have_the_hurricane"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_the_pacific_coast_air_defence_radar_system",
+      "name": "The Pacific Coast Air Defence Radar System",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_rcaf_station_borden"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_commonwealth_air_training_plan",
+      "name": "Commonwealth Air Training Plan",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_the_pacific_coast_air_defence_radar_system",
+        "CAN_we_have_the_hurricane"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_fund_fairchilds_development",
+      "name": "Fund Fairchilds Development",
+      "description": "",
+      "x": -1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_commonwealth_air_training_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_cookie_carriers",
+      "name": "Cookie Carriers",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_commonwealth_air_training_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_the_sabre_project",
+      "name": "The Sabre Project",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_cookie_carriers",
+        "CAN_fund_fairchilds_development"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_halifax_shipyards",
+      "name": "Halifax Shipyards",
+      "description": "",
+      "x": 28,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_destroyer_effort",
+      "name": "Destroyer Effort",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_halifax_shipyards"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_light_cruiser_effort",
+      "name": "Light Cruiser Effort",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_destroyer_effort"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_heavy_cruiser_effort",
+      "name": "Heavy Cruiser Effort",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_destroyer_effort"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_escort_fleet",
+      "name": "Escort Fleet",
+      "description": "",
+      "x": -1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_light_cruiser_effort"
+      ],
+      "mutuallyExclusive": [
+        "CAN_fleet_in_being"
+      ],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_fleet_in_being",
+      "name": "Fleet In Being",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_light_cruiser_effort"
+      ],
+      "mutuallyExclusive": [
+        "CAN_escort_fleet"
+      ],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_degauss_ship_hulls",
+      "name": "Degauss Ship Hulls",
+      "description": "",
+      "x": -1,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_escort_fleet",
+        "CAN_fleet_in_being"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_trade_fleet",
+      "name": "Trade Fleet",
+      "description": "",
+      "x": 1,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_escort_fleet",
+        "CAN_fleet_in_being"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "CAN_united_shipyards",
+      "name": "United Shipyards",
+      "description": "",
+      "x": 0,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "CAN_trade_fleet",
+        "CAN_degauss_ship_hulls"
+      ],
+      "mutuallyExclusive": [],
+      "source": "canada.txt",
+      "shared": false
+    },
+    {
+      "id": "COM_together_for_britain",
+      "name": "Together for Britain",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "shared_reference",
+      "shared": true
+    },
+    {
+      "id": "AFR_leader",
+      "name": "African Regional Commander",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "shared_reference",
+      "shared": true
+    }
+  ]
+}

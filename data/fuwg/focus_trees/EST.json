@@ -1,0 +1,915 @@
+{
+  "mod": "FUWG",
+  "tag": "EST",
+  "country": "Estonia",
+  "treeId": "estonia_tree",
+  "sourceFile": "estonia.txt",
+  "focusCount": 61,
+  "focuses": [
+    {
+      "id": "EST_era_of_silence",
+      "name": "The Era of Silence",
+      "description": "With the violent ultra-nationalist Vaps movement sweeping from Saaremaa to Võrumaa, the State Elder must usher in a new era for Estonia; an era with no elections, no dissent, and no resistance. The nation must enter an era of silence.",
+      "x": 34,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "BALTIC_restore_workers_republic",
+        "EST_rally_the_nation"
+      ],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_ismaaliit",
+      "name": "Isamaaliit",
+      "description": "With even Päts’ own party banned from all political offices in the country, the dictatorship needs a new party to organize itself around. The Patriotic League will protect the nation from all threats; both inside and outside of Estonia’s borders.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_era_of_silence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_establish_the_rahvuskogu",
+      "name": "Establish the Rahvuskogu",
+      "description": "With the old Constitution of Estonia proving incapable of protecting its people from fascism and tyranny, it has been decided that a new constitution must be drafted to secure the nation and, in time, restore the democratic traditions that the Estonian people fought and died for in 1918.",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_era_of_silence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_chamber_of_deputies",
+      "name": "Secure the Chamber of Deputies",
+      "description": "With the National Council now firmly under the control of Isamaaliit, all that remains is to gain control of the Chamber of Deputies. With all chambers of the civilian government under absolute majority of the party, the dictatorship will gain uncontested control of the nation and its industries.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_establish_the_rahvuskogu",
+        "EST_ismaaliit"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_exploit_the_banks",
+      "name": "Exploit the Banks",
+      "description": "Konstantin Päts has long been an influential figure in the Estonian banking sector. While some would make the treasonous assertion that Päts has had a hand in corrupting the banks and exploiting the working people of Estonia, Päts’ connections in the private sector places our dictatorship in the perfect position for some exploitation of our own.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_chamber_of_deputies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_modernize_capital",
+      "name": "Modernize Tallinn",
+      "description": "The great city of Tallinn has for too long been held by the wretched claws of German and Russian suppressors and has yet been able to reach its full potential as the envy of the Baltic. Our great city has never and will never be scorched or desecrated by foreign armies, and must be modernized to compete with the other cities of Europe.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_chamber_of_deputies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_break_the_silence",
+      "name": "Break the Silence",
+      "description": "Konstantin Päts established this dictatorship under the guise of protecting Estonia from fascism and communism. Now that these ideologies have been pushed into irrelevance, there is little reason for the dictatorship to continue and free elections must be reopened.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_modernize_capital",
+        "EST_exploit_the_banks"
+      ],
+      "mutuallyExclusive": [
+        "EST_squash_the_opposition"
+      ],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_squash_the_opposition",
+      "name": "Squash the Opposition",
+      "description": "With our control of the civilian government complete, we must remove all black seeds of treachery from our cabinet and local governments. Those who oppose our leadership must soon learn that to oppose Isamaaliit is to oppose Estonia.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_modernize_capital",
+        "EST_exploit_the_banks"
+      ],
+      "mutuallyExclusive": [
+        "EST_break_the_silence"
+      ],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_formalize_baltic_entente",
+      "name": "Formalize the Baltic Entente",
+      "description": "The Baltic Entente is an agreement between ourselves and our Baltic brothers to protect one another in times of war, but the sincerity to which this agreement is held up is questionable at best. With the Germans and Soviets breathing down our collective necks, and the British far from our shores, cooperation has never been more vital to maintaining our fragile independence.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_break_the_silence",
+        "EST_squash_the_opposition"
+      ],
+      "mutuallyExclusive": [
+        "EST_beyond_the_baltic"
+      ],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_look_north",
+      "name": "Look North",
+      "description": "We are aware that the Baltic States alone may not be enough to resist the scourge of the Nazis and Soviets on our border, but with our aggressors’ Scandinavian ambitions, perhaps we may be able to persuade our northern allies to join the Baltic Entente.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_formalize_baltic_entente"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_beyond_the_baltic",
+      "name": "Beyond the Baltic",
+      "description": "Though some would insist that the Baltic Entente is enough to protect our small nation from invasion, we all truly know this to be a fallacy. The Allies aided us in 1918 in our struggle for self-determination, and perhaps it would not be so foolhardy to expect them to come to our aid yet again!",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_break_the_silence",
+        "EST_squash_the_opposition"
+      ],
+      "mutuallyExclusive": [
+        "EST_formalize_baltic_entente"
+      ],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_join_the_allies",
+      "name": "Join the Allies",
+      "description": "The Allies have proven themselves to be a friend to [ROOT.GetAdjective] independence, and all that remains now is to formalize that friendship with [ROOT.GetNameDef]’s official entry into the Allied faction.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_beyond_the_baltic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_national_council",
+      "name": "Secure the National Council",
+      "description": "The National Council is the branch of our government which represents the local municipalities, cities, and corporate chambers. If we are to properly represent the interests of these people, we must ensure that their representatives are loyal Isamaaliit party members and military staff only; for only they are capable of defending the sovereignty of the Estonian people.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_ismaaliit",
+        "EST_establish_the_rahvuskogu"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_support_independent_militaries",
+      "name": "Support Independent Militaries",
+      "description": "All throughout the nation, independent military factions are raring to charge into battle to protect Estonia from foreign imperialism again, but what these militaries have in spirit they lack in resources. We must provide all soldiers, official or no, with the resources needed to defend our good nation.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_national_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_new_economic_policy",
+      "name": "Revisit the Economic Policy",
+      "description": "Our economy is almost entirely dependent on trade with the USSR. The Russians are outright enemies of Estonian self-determination and for as long as we depend on them for anything, we are not truly free. We must detach ourselves from our oppressors for a more truly independent economy.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_support_independent_militaries",
+        "EST_exploit_the_banks",
+        "EST_modernize_capital"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_corporate_chambers",
+      "name": "Corporate Chambers",
+      "description": "Leftists have long opposed the idea of corporatism, but now that the Riigikogu has been rid of their incessant voices, we may finally establish the Corporate Chambers. Workers will be divided not by ideology but by vocation, with private employers representing their interests to the dictatorship. What could go wrong?",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_new_economic_policy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_fight_the_vaps",
+      "name": "Fight the Vaps",
+      "description": "The right-wing Vapsid movement seek to disrupt the stability of Estonia. Though the movement began as a group of veterans and national heroes, but it has quickly devolved into an ultranationalist movement which [EST.GetLeader] would compare with the Nazis. These rogue elements within our nation must be expunged if we are to create a stable future for Estonia.",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_era_of_silence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_republican_defence_league",
+      "name": "Republican Defence League",
+      "description": "With the Vaps dwindling in significance, many paramilitary groups now are lost and without a cause to fight for. By attempting to unite these paramilitaries into one official Estonian group, we shall tap on a new resource of brave men willing to fight and die for Estonian independence.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_fight_the_vaps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_womens_defence_league",
+      "name": "Women's Defence League",
+      "description": "The Naiskodukaitse is a sub-organization of the Republican Defence League for patriotic women willing to do their part to defend their home and their families. It is vital that the Women’s Defence League is properly equipped and invested in to provide our home with a garrison and our troops with medical staff.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_republican_defence_league"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_cave_to_enemy_pressure",
+      "name": "Cave to Enemy Pressure",
+      "description": "It has become clear that there is no future wherein both our nation and our people survive. Although we have done much to protect our kin, it has become clear that there is no way [Root.GetNonIdeologyName] can maintain her independence without great loss to her people.",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_republican_defence_league"
+      ],
+      "mutuallyExclusive": [
+        "EST_fortify_the_border",
+        "EST_fortify_tallinn"
+      ],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_rally_the_nation",
+      "name": "Rally the Nation",
+      "description": "The Vaps Movement is a movement of veterans from the Estonian war of independence and we have been falsely stifled under the regime of Konstantin Päts. If we are to create an Estonia that works for Estonians, we must make ourselves known to the world. We must march across the nation and let everyone know, we are here. We are the men who fought for Estonia’s existence and we deserve to be heard.",
+      "x": 45,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "BALTIC_restore_workers_republic",
+        "EST_era_of_silence"
+      ],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_march_on_talinn",
+      "name": "The March on Tallinn",
+      "description": "With so many veteran’s societies and paramilitary groups in Estonia already on our side, we remain confident that Konstantin Päts will be unable to resist us when we descend upon Tallinn. We will march to the Riigikogu and, in no uncertain terms, declare a Vapsid government united under Artur Sirk.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_rally_the_nation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_glory_of_war",
+      "name": "The Glory of War",
+      "description": "We are a government of veterans, but many Vapsid members are simply too old or worn down by their injuries to return to active service. Perhaps these old war dogs may find a new purpose in training a new generation of Estonian soldiers in the ways of war.",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_march_on_talinn"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_mobilize_the_vets",
+      "name": "Mobilize the Veterans",
+      "description": "Many Estonian veterans were denied the right to sign up for active service for their association with the Vaps movement. Now that we have taken government, we may grant these men the right to serve.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_glory_of_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_vapsid_youth",
+      "name": "The Vapsid Youth",
+      "description": "The majority of the Vaps are far past their prime, but the young are entirely enthralled by the historic struggle for independence that characterized Estonia a few decades ago. By establishing a Vapsid Youth, we will give these enthusiastic young men a place where they may hope to recapture the glory of their fathers and grandfathers.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_glory_of_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_veterans_government",
+      "name": "The Veteran's Government",
+      "description": "The previous cabinet of ministers were weak-willed and bent to the wills of Konstantin Päts. We need a new cabinet of ministers, those who are sympathetic to the Vapsid cause.",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_march_on_talinn"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_anti_communist_militia",
+      "name": "Anti-Communist Militia",
+      "description": "The nation is filled with men willing to fight the Bolshevik threat to our east but were rejected by the old government for being too radical. To the Vaps, no amount of anti-communist thought is too radical, and these men deserve a place in our army as much as any others.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_veterans_government"
+      ],
+      "mutuallyExclusive": [
+        "EST_reach_out_to_germany"
+      ],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_reach_out_to_germany",
+      "name": "Reach Out to Germany",
+      "description": "If we could fight the Soviets with spirit and vigor alone, the USSR would be dismantled tomorrow, but sadly Estonia simply lacks the manpower to defend itself against such an overwhelming threat. Perhaps by aligning with the Germans, we may stand to survive into the next decade.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_veterans_government"
+      ],
+      "mutuallyExclusive": [
+        "EST_anti_communist_militia"
+      ],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_baltic_shield",
+      "name": "Baltic Shield",
+      "description": "The Soviets wish to crush Estonia under the boot of imperialism, but we cannot allow that to happen. Bunkers must be constructed all along the border, we may not be able to defeat the Soviets, but we may at least stand long enough for someone else to.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_anti_communist_militia",
+        "EST_reach_out_to_germany"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_join_the_axis",
+      "name": "Join the Axis",
+      "description": "Now that the Germans have been assured of our intentions, we remain certain that Estonian entrance into the Axis should be entirely reasonable.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_reach_out_to_germany"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_the_brotherhood",
+      "name": "The Brotherhood",
+      "description": "Estonia does not exist in a vacuum, and to our South lies two very vulnerable nations who would likely fare better at survival if they were integrated into the Estonian state. The Baltic States are brothers, and as brothers, we must stand together.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_anti_communist_militia",
+        "EST_join_the_axis",
+        "EST_baltic_shield"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_empower_finnish_militants",
+      "name": "Empower Finnish Militants",
+      "description": "The Vaps Movement would not have been possible without the assistance of Finnish veterans to the north. Finnish volunteers aided Estonia to gain her independence, and now these veterans, like us, seek to overthrow their weak-willed government and establish one which works for the Fins.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_march_on_talinn"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_national_pride_in_finland",
+      "name": "National Pride Marches in Finland",
+      "description": "The Finnish veterans lack the organization that we had, so perhaps our mere passive support of them is not enough to bring about the change we saw in Estonia. By organizing marches in Finland, we may one day see our two nations united under the heroes of the last war.",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "EST_empower_finnish_militants"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_finno_estonian_supremacy_league",
+      "name": "Finno-Estonian Supremacy League",
+      "description": "Now that the old Finnish government is a thing of the past, we may utilize the close interwoven connections we have made in the new Finnish government to create the foundation for a lasting friendship based on self-governance and anti-Bolshevik sentiment.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_national_pride_in_finland"
+      ],
+      "mutuallyExclusive": [
+        "EST_unite_our_nations"
+      ],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_unite_our_nations",
+      "name": "Unite Our Nations",
+      "description": "With Finland now in the hands of its veterans, and our influence tightly woven into the very fabric of the new Finnish government, all we need do is pull a few strings and we shall be able to unite our people into a single nation.",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_national_pride_in_finland"
+      ],
+      "mutuallyExclusive": [
+        "EST_finno_estonian_supremacy_league"
+      ],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_sieze_swedish_assets",
+      "name": "Seize Swedish Assets",
+      "description": "The Swedes sit on their assets doing nothing with it but supplying whichever power appears most intimidating to them. This squandering of Scandinavian resources can go on no longer, they must be brought into Estonian custody.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_finno_estonian_supremacy_league"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_secure_the_straits",
+      "name": "Secure the Straits",
+      "description": "Denmark blocks our passage to the Atlantic and must be removed if Estonian ships are to tour the North Sea.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_sieze_swedish_assets"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_occupy_norway",
+      "name": "Occupy Norway",
+      "description": "With Sweden and Finland in our pockets, all we need do is subjugate the Norwegians and the entirety of mainland Scandinavia will fall under Estonian control.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_sieze_swedish_assets"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_form_scandinavia",
+      "name": "Estonia is Scandinavia",
+      "description": "Many in the North view Estonia’s claim to the Scandinavian identity as little more than a joke, but with the entirety of the subcontinent now under our control, who is there left to laugh? With Sweden, Norway, and Denmark firmly under the boot of Estonia, nobody is here to stop us from claiming Scandinavia!",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_secure_the_straits",
+        "EST_occupy_norway"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_proclaim_finno_ugra",
+      "name": "Proclaim Finno-Ugria",
+      "description": "With Finland now under our control, we stand in a unique position to consolidate the Finnic identity within our state. There are countless Finno-Ugric peoples across Northern Europe and by uniting this identity, we stand to bring countless new soldiers to fight for the Vapsid cause.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_unite_our_nations"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_unite_the_sami",
+      "name": "Unite the Sámi",
+      "description": "The Sámi are a disparate and widely oppressed people existing across Finland, Sweden, Norway, and Russia. For too long, the Sámi people have been denied the right to speak their Finnic language and they lack the manpower needed to fight against their oppressors. We must consolidate the Sámi within our state to protect them from Nordic imperialism.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_proclaim_finno_ugra"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_unite_karelia",
+      "name": "Unite Karelia",
+      "description": "Karelia is full of Finnic people; from the Karelians themselves to the Eastern Sámi people. With Finland under our control, we may yet be capable of expanding our state into Karelia and uniting the Finnic people therein.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_proclaim_finno_ugra"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_unite_the_finnic_identity",
+      "name": "Unite the Finnic Identity",
+      "description": "With all major Fins in the Scandinavian subcontinent under our control, we are able to unite the Finnic identity and declare a new state that Estonians, Finns, Sámi, Nenets, and all other Finno-Ugric people may call home.",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "EST_unite_karelia",
+        "EST_unite_the_sami"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_threat_on_our_border",
+      "name": "The Threat on Our Border",
+      "description": "War is on the horizon. We don’t know what for, and we don’t know who we’ll be fighting, but we know the hawk of war has its talons primed for [Root.Capital.GetName] and we must decide where our allegiances lie in the oncoming struggle. Plans must be drawn, with a focus on either the Nazis in the South or the Soviets to the East.",
+      "x": -5,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "EST_march_on_talinn",
+        "EST_fight_the_vaps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_fortify_tallinn",
+      "name": "Fortify Tallinn",
+      "description": "Though many would like to believe that we can hold the entirety of the Estonian border, realistically we know that some ground must be sacrificed if we are to survive. Forts around the capital will allow us to protect the core of our infrastructure, no matter the cost.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_threat_on_our_border"
+      ],
+      "mutuallyExclusive": [
+        "EST_fortify_the_border",
+        "EST_cave_to_enemy_pressure"
+      ],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_hold_saaremaa",
+      "name": "Hold Saaremaa",
+      "description": "We must be prepared for a long and arduous resistance. Though the Estonian archipelago lacks the industry of the mainland, preparing the isles for a last stand will give us a base of operations with which we may support resistance fighters and, in time, retake our home.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_fortify_tallinn"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_fortify_the_border",
+      "name": "Fortify the Border",
+      "description": "We will meet our enemies at the border and have faith that our brothers in Latvia and Lithuania will not fall. However ambitious this plan may be, we must not let a single foot of ground be subject to Soviet or German occupation ever again.",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_threat_on_our_border"
+      ],
+      "mutuallyExclusive": [
+        "EST_fortify_tallinn",
+        "EST_cave_to_enemy_pressure"
+      ],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_fight_against_communism",
+      "name": "No Surrender",
+      "description": "We have already witnessed what life under enemy occupation is like and many of our men died fighting so that we would never have to see that again. With patriotism rife in our ranks, our armies will not fall quietly.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_fortify_the_border",
+        "EST_fortify_tallinn"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_long_push_east",
+      "name": "The Long Push",
+      "description": "We hadn’t expected our campaign would go so well, yet here we are; rifles in hand and pushing into our enemy’s core territory. Their lands are vast and ours small, and it will be an arduous journey we must prepare for.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_fight_against_communism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_prepare_for_the_inevitable",
+      "name": "Prepare for the Inevitable",
+      "description": "We cannot hold out forever; it is crucial that we ready our government to go into exile and support [Root.GetAdjective] resistance efforts from afar.",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "EST_corporate_chambers",
+        "EST_unite_our_nations",
+        "EST_finno_estonian_supremacy_league"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_forest_brothers",
+      "name": "The Forest Brothers",
+      "description": "We hear stories of anti-communist militants all across the Baltic States hiding in the trees in the winter and conducting raid after raid on the occupying armies. We must establish communications with these freedom fighters and do what we can to support their efforts on Baltic soil.",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_prepare_for_the_inevitable"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_prepare_underground_resistance",
+      "name": "Prepare an Industrial Resistance",
+      "description": "Major factories all across [Root.GetNonIdeologyName] are shutting down and being captured by the enemy so it is vital that we seek industrial investments and equipment from abroad so that we may continue to produce weapons for our resistance; even if we must fight in secret.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_prepare_for_the_inevitable"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_prepare_covert_resistance",
+      "name": "Prepare a Covert Resistance",
+      "description": "The resistance is more than just man and rifle; it is sabotaging supply lines, making contact with the resistance, and rendering our enemies scattered and confused while our bullets meet their targets. We must invest in [Root.GetAdjective] intelligence if we are to retake the homeland.",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_prepare_for_the_inevitable"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_baltic_economic_union",
+      "name": "The Baltic Economic Union",
+      "description": "Now that liberal democracy has been returned to our nation and we are making close diplomatic ties to our neighbors, it makes sense to enter an economic union with our fellow Baltic States. Though our economies are small, together they may grow strong!",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_formalize_baltic_entente",
+        "EST_break_the_silence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_baltic_defence_army",
+      "name": "Baltic Defense Army",
+      "description": "Our armed forces work together but are essentially separate entities. With ties between our nations growing stronger, we may be able to establish a United Baltic Armed Forces, a distinct entity which simultaneously is controlled by none of the Baltic States but is an ally to all of them.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_baltic_economic_union"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_pan_baltic_bank",
+      "name": "The Pan-Baltic Bank",
+      "description": "With the economic union now in place, there is a possibility for us to establish a pan-Baltic bank and a common currency.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_baltic_economic_union"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_propose_baltic_union",
+      "name": "Propose a Baltic Union",
+      "description": "With all of these different entities now interlocking between our nations, it seems that the establishment of an official Baltic Union is inevitable. The union will grant all member nations votes and veto rights within the union, and bring our nations ever closer together.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_pan_baltic_bank",
+        "EST_baltic_defence_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_baltic_stronger_together",
+      "name": "United but Separate",
+      "description": "There has long been a sense of brotherhood and camaraderie between the Baltic States, but we’ve always been separated by borders and politics. We are bound together diplomatically by our willingness to preserve our independence, and so we must commit to fighting for our friends and expand the united Baltic armed forces!",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_propose_baltic_union"
+      ],
+      "mutuallyExclusive": [
+        "EST_baltic_unification"
+      ],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "EST_baltic_unification",
+      "name": "Baltic Unification",
+      "description": "There has long been a sense of brotherhood and camaraderie between the Baltic States, but we’ve always been separated by borders and politics. Though our independent identities are strong, our willingness to fight to preserve our existence binds us together. Perhaps it is time that the Baltic Union evolved into a nation in itself.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EST_propose_baltic_union"
+      ],
+      "mutuallyExclusive": [
+        "EST_baltic_stronger_together"
+      ],
+      "source": "estonia.txt",
+      "shared": false
+    },
+    {
+      "id": "BALTIC_rejoin_the_railways",
+      "name": "Rejoin the Railways",
+      "description": "The Russians and the Germans who occupied us have seen us as nothing more than a rural backwater, but no more. [ROOT.GetNonIdeologyName] shall be industrialized to its maximum potential starting with an upgrade of our railways and infrastructure.",
+      "x": 10,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "baltic_shared.txt",
+      "shared": true
+    },
+    {
+      "id": "BALTIC_restore_workers_republic",
+      "name": "Restore the Worker’s Republic",
+      "description": "During our struggle for independence, the Soviets aided the creation of a [Root.GetAdjective] Worker’s Republic. Although the republic failed, its leaders remain alive in both [Root.GetNameDef] and [SOV.GetNameDef], hence hope for the worker’s republic remains!",
+      "x": 25,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "LIT_secure_a_loyal_cabinet",
+        "LAT_suspend_the_constitution",
+        "EST_era_of_silence",
+        "EST_rally_the_nation"
+      ],
+      "source": "baltic_shared.txt",
+      "shared": true
+    }
+  ]
+}

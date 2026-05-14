@@ -1,0 +1,1344 @@
+{
+  "mod": "FUWG",
+  "tag": "LIT",
+  "country": "Lithuania",
+  "treeId": "lithuania_tree",
+  "sourceFile": "lithuania.txt",
+  "focusCount": 88,
+  "focuses": [
+    {
+      "id": "LIT_secure_a_loyal_cabinet",
+      "name": "Reconvene the Seimas",
+      "description": "With the coup secured and Antanas Smetona’s control of the government absolute, it is time that we reconvene the Seimas to more efficiently govern the nation, with loyal ministers at the Dictator’s side.",
+      "x": 34,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "BALTIC_restore_workers_republic"
+      ],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_rastikis_military_reforms",
+      "name": "Rastiki's Military Reforms",
+      "description": "The military is ill-prepared to face a threat of the magnitude and severity that another German invasion would bring and it is vital that the military arm of the government bring competent leadership to the patriotic men of Lithuania’s army.",
+      "x": 18,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_secure_a_loyal_cabinet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_patriotic_education",
+      "name": "Patriotic Education",
+      "description": "The education sector in Lithuania has seen better days, but we cannot allow ideas to run rampant amongst our youth. Young people must be properly educated as patriotic Lithuanian Catholics in fine institutions like the Rytas.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_rastikis_military_reforms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_soviet_mutual_assistance",
+      "name": "[SOV.GetAdjective] Mutual Assistance",
+      "description": "Poland is the prime target of both the Soviets and the Germans, and everyone knows it. We’ve heard whispers that there are plans to partition Poland between the two powers, and perhaps we may be able to persuade the Soviets to seek Lithuanian support in their efforts in exchange for the return of Vilnius to its rightful owners.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_patriotic_education"
+      ],
+      "mutuallyExclusive": [
+        "LIT_peace_with_poland"
+      ],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_victory_in_trust",
+      "name": "Victory in Trust",
+      "description": "There is nobody we can trust in our government; not Kazys Grinius, not Augustinas Voldemaras, not even Rastiki. Powerful men are cowardly and treacherous, but a rifle and a good man to fire it? That we can trust and that will bring us victory.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_soviet_mutual_assistance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_integrate_the_opposition",
+      "name": "Integrate the Opposition",
+      "description": "Although Antanas Smetona viewed the former government as a cabinet of inept politicians and Soviet sympathisers, it is hard to deny that there were a number of men of competence in their ranks and it would be foolish not to utilize them in the new Seimas.",
+      "x": 16,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_secure_a_loyal_cabinet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_patriotic_socialism",
+      "name": "Patriotic Socialism",
+      "description": "The democratic government was largely composed of Social Democrats and centrists, and the ideals of socialism pollute the minds of the Lithuanian workers. While Kazys Grinius was clearly a socialist, there is no denying his patriotic spirit and perhaps by enacting some of his ideas, the Lithuanian worker may become both more productive and more supportive of the Dictatorship.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_integrate_the_opposition"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_peace_with_poland",
+      "name": "Peace with Poland",
+      "description": "Officially, the war between Poland and Lithuania has been raging for decades, but neither side has engaged in combat for most of the duration of the war. Although Vilnius remains in their hands, we must turn this stalemate into a formal peace to focus on our true enemies to the East and West.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_patriotic_socialism"
+      ],
+      "mutuallyExclusive": [
+        "LIT_soviet_mutual_assistance"
+      ],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_strength_in_unity",
+      "name": "Strength in Unity",
+      "description": "We stand strong when we are together and no two nations have had a bond like Poland and Lithuania. Though we shall never allow ourselves to become trapped in a Commonwealth again, perhaps our two nations may be able to cooperate as friends, protecting their fragile independence.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_peace_with_poland"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_restore_public_elections",
+      "name": "Restore Public Elections",
+      "description": "The dictatorial rule over Lithuania has been useful for a time, but with the state now stabilized, the people deserve to be heard. We have bickered amongst ourselves what it means to be Lithuanian, but perhaps we should ask the people.",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_reminder_of_true_enemy",
+        "LIT_peasants_reform",
+        "LIT_strength_in_unity",
+        "LIT_victory_in_trust"
+      ],
+      "mutuallyExclusive": [
+        "LIT_indivisible_power_of_the_state",
+        "LIT_merge_the_military_and_civilian_governments"
+      ],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_indivisible_power_of_the_state",
+      "name": "The Indivisible Power of the State",
+      "description": "I am the state, the state is me. With the laws and rules of the dictatorship firmly established, all that remains is to ensure that the power of the dictator is absolute. Though some wish for a return to democracy, we know this to be a dangerous and foolhardy idea while the bear and the eagle’s collective breath is hot on Lithuania’s neck.",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_reminder_of_true_enemy",
+        "LIT_victory_in_trust",
+        "LIT_strength_in_unity"
+      ],
+      "mutuallyExclusive": [
+        "LIT_restore_public_elections",
+        "LIT_merge_the_military_and_civilian_governments"
+      ],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_purge_popular_resistance",
+      "name": "Purge Popular Resistance",
+      "description": "There are rogue elements among our populace who would oppose Smetona and his dictatorship. These people are enemies to Lithuanian independence and must be eradicated to ensure the continued stability and survival of our nation.",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_rastikis_military_reforms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_anti_communist_militia",
+      "name": "Anti-Communist Militia",
+      "description": "It is our ambition to rid our nation of leftist elements, and thankfully there are already volunteers all across the country who share our ambition. All we need do is support these anti-leftist organizations and they will do all the work of protecting against the Soviets for us!",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_purge_popular_resistance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_arrest_nazis_in_memel",
+      "name": "Arrest the Nazis in Memel",
+      "description": "Memel is rife with Nazis and fascist sympathisers and it is creating a precedent for a German invasion. If we wish to hold the Memel region, then we must make Nazi party membership a crime punishable by imprisonment and make adequate preparations for a potential Nazi invasion.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_purge_popular_resistance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_reminder_of_true_enemy",
+      "name": "A Reminder of the True Enemy",
+      "description": "During the war of 1918, we faced brutal oppression by the Red Army and the Freikorps and with war looming on the horizon, the bitter sting of those memories are burning the minds of Lithuanian ministers. We cannot delay, we must decide which of these powers is our greatest threat and make adequate preparations for war!",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_anti_communist_militia",
+        "LIT_arrest_nazis_in_memel"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_prepare_resistance",
+      "name": "[Root.Get_Ready_Resistance_Focus_Loc]",
+      "description": "[Root.Get_Ready_Resistance_Focus_desc_Loc]",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_indivisible_power_of_the_state",
+        "LIT_restore_public_elections"
+      ],
+      "mutuallyExclusive": [
+        "LIT_appease_nazis",
+        "LIT_appease_soviets"
+      ],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_underground_production_centers",
+      "name": "[Root.Get_Underground_Resistance_Focus_Loc]",
+      "description": "[Root.Get_Underground_Resistance_Focus_desc_Loc]",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_prepare_resistance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_infiltrate_homeland",
+      "name": "[Root.Get_Covert_Resistance_Focus_Loc]",
+      "description": "[Root.Get_Covert_Resistance_Focus_desc_Loc]",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_prepare_resistance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_appease_soviets",
+      "name": "Appease the Russians",
+      "description": "Though we have tried every effort to prepare for war, we must admit defeat if we are to preserve Lithuanian lives.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_indivisible_power_of_the_state",
+        "LIT_restore_public_elections"
+      ],
+      "mutuallyExclusive": [
+        "LIT_appease_nazis",
+        "LIT_prepare_resistance"
+      ],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_appease_nazis",
+      "name": "Appease the Germans",
+      "description": "Though we have tried every effort to prepare for war, we must admit defeat if we are to preserve Lithuanian lives.",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_indivisible_power_of_the_state",
+        "LIT_restore_public_elections"
+      ],
+      "mutuallyExclusive": [
+        "LIT_appease_soviets",
+        "LIT_prepare_resistance"
+      ],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_offer_military_basing",
+      "name": "Offer Basing Rights",
+      "description": "The last thing we want is another war. Lithuania offers strategic interest to both the Germans the Soviets and so perhaps by offering access and basing rights inside our nation as well as the ability to construct and use bunkers, we may avoid invasion.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_appease_soviets",
+        "LIT_appease_nazis"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_occupation",
+      "name": "Occupation",
+      "description": "It is too late for us. The country is rife with enemy soldiers who could choose to turn on us at any time. Perhaps it is time that our leaders and government resign and we allow our enemies to do with us what they will.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_offer_military_basing"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_free_voldemares",
+      "name": "Free Voldemaras",
+      "description": "Perhaps Smetona was too hasty in his arrest of his former Prime Minister. Voldemaras is clearly a friend to Lithuanian independence and we would be foolish not to utilize his skills and devoted public following within our government.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_secure_a_loyal_cabinet"
+      ],
+      "mutuallyExclusive": [
+        "LIT_exile_voldemares"
+      ],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_lithuanian_activist_front",
+      "name": "Lithuanian Activist Front",
+      "description": "There are activists and paramilitary groups all across Lithuania, though they are disparate and segregated by ideology, but what they all share is the spirit to fight for Lithuania and preserve her independence. By establishing the Lithuanian Activist Front, we shall make Lithuania not such an easy target to be plundered by imperialist powers.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_free_voldemares",
+        "LIT_exile_voldemares"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_organize_the_iron_wolf",
+      "name": "Organize the Iron Wolf",
+      "description": "The Iron Wolf remains scattered and disorganized and, like Voldemaras himself, is undecided on whether they support the government or wish to overthrow it. By providing the Iron Wolf with a definitive vision and goal, we will make men out of these lost boys.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_free_voldemares"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_new_kind_of_iron_wolf",
+      "name": "A New Kind of Iron Wolf",
+      "description": "Now that the Iron Wolf threat has been dealt with, we may reclaim our national symbol and show it proudly throughout our armed forces.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_lithuanian_activist_front"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_lithuanian_youth",
+      "name": "The Iron Wolf Youth",
+      "description": "The military needs men, but in these times of ideology, we need to plant patriotic ideas into the heads of our boys so that when they grow old enough, all they need is a rifle and they will gladly die for a single inch of Lithuanian soil.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_organize_the_iron_wolf",
+        "LIT_lithuanian_activist_front"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_rapid_fortifications_in_the_east",
+      "name": "Rapid Fortifications in the East",
+      "description": "It’s clear that the most urgent threat to our continued independence is the communists and we must do all that we can to defend our nation from the threat that they pose.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_lithuanian_youth"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_defence_from_above",
+      "name": "Defence From Above",
+      "description": "Our fortifications are utterly useless if the enemy continues to bombard them from the skies. We must prepare a defence and return fire into the air for every bomb and bullet dropped from above.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_rapid_fortifications_in_the_east"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_unify_the_military",
+      "name": "Unify the Military",
+      "description": "Some of the Lithuanian military have become entirely enchanted with Voldemaras and his Iron Wolf paramilitary group. So much so that all it would take is an invitation and almost the entirety of the Lithuanian military would come under Iron Wolf influence. With this, we would finally stand to oust Smetona from government and reclaim Lithuania!",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_organize_the_iron_wolf"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_seek_ties_with_germany",
+      "name": "Seek Ties with Germany",
+      "description": "Although officially an enemy to the Lithuanian state, Germany shares our enemy; Poland. By reaching out to the Germans, perhaps we will be able to reclaim our lost Lithuanian brothers currently occupied by the Poles.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_unify_the_military"
+      ],
+      "mutuallyExclusive": [
+        "LIT_fortify_memel"
+      ],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_fortify_memel",
+      "name": "Fortify Memel",
+      "description": "The Germans cannot be trusted to defend Lithuanian sovereignty any more than a fox can be trusted to defend a coup! [GER.GetLeader] is an enemy of the Lithuanian state and it is no secret that Memel makes us a target for German aggression!",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_unify_the_military"
+      ],
+      "mutuallyExclusive": [
+        "LIT_seek_ties_with_germany"
+      ],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_proclaim_greater_lithuania",
+      "name": "Proclaim Greater Lithuania",
+      "description": "Lithuania was once one of the greatest powers of Europe, but since we were cut down and neutered by the Poles all those centuries ago, we have been incapable of restoring our former glory, but no more. Lithuania will become Europe’s greatest power once again!",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_seek_ties_with_germany",
+        "LIT_fortify_memel"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_claim_livonia",
+      "name": "Claim Livonia",
+      "description": "Up north are two young states who have not known independence in centuries. They would surely be better guided by Lithuanian hands…",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_fortify_memel",
+        "LIT_seek_ties_with_germany"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_claim_lithuania_minor",
+      "name": "Lay Claim to Lower Lithuania",
+      "description": "The region the Germans falsely name “Königsberg” is actually an ancestral home of Lithuanians. Lithuania Minor has since the Baltic Crusades existed under the occupation of the Germans and it must be reclaimed.",
+      "x": -2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_fortify_memel"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_demand_vilnius",
+      "name": "Demand Vilnius",
+      "description": "For too long, the traditional Lithuanian capital has been held by our enemies in Poland and our government has been too weak-willed to do anything about it, but no longer. Vilnius will be Lithuanian again!",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_seek_ties_with_germany",
+        "LIT_fortify_memel"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_support_polish_fascists",
+      "name": "Support Polish Fascists",
+      "description": "Poland shares common enemies with us, and we cannot forget the years of kinship that characterized Polish-Lithuanian history, and we must support fascism within the Polish state.",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_demand_vilnius"
+      ],
+      "mutuallyExclusive": [
+        "LIT_invade_poland",
+        "LIT_request_polish_occupation"
+      ],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_invade_poland",
+      "name": "Invade Poland",
+      "description": "For centuries, Lithuania was shackled in a so-called “Commonwealth” in which Poland held the majority of power. The Polish have been thirsty to return to this state of affairs, and perhaps it is time we gave them the Commonwealth they desire.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_demand_vilnius"
+      ],
+      "mutuallyExclusive": [
+        "LIT_support_polish_fascists",
+        "LIT_request_polish_occupation"
+      ],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_request_polish_occupation",
+      "name": "Request Polish Occupation",
+      "description": "For the past few decades, the idea of a Polish state that does not include Lithuania was described as unthinkable and Lithuanian sovereignty was something of a joke to contemporary Polish politicians, so perhaps they would be perfectly satisfied with a Lithuanian occupation of their pitiful nation.",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_demand_vilnius"
+      ],
+      "mutuallyExclusive": [
+        "LIT_support_polish_fascists",
+        "LIT_invade_poland"
+      ],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_restore_order",
+      "name": "Restore Order",
+      "description": "Long ago, Lithuania was the greater partner in the so-called “Commonwealth”, and Poland was nothing but a thin sliver of a state on our border. It is time that we restored the world to the way it should be.",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_support_polish_fascists",
+        "LIT_invade_poland",
+        "LIT_request_polish_occupation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_restore_greater_lithuania",
+      "name": "Restore Greater Lithuania",
+      "description": "With countless collaborators in the East now eager to take office in our name, all that remains is to fill local governments with loyalists and proclaim a new era of Lithuanian dominance over Ruthenia!",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_proclaim_greater_lithuania",
+        "LIT_restore_order"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_exile_voldemares",
+      "name": "Exile Voldemaras",
+      "description": "With Augustinas Voldemaras safely behind bars, one would think the threat of the bark of the Iron Wolf would have no bite, but his organization is still agitating for his release and are an active threat in the nation. If Voldemaras is freed but banished from ever entering Lithuania again, the Iron Wolf movement will inevitably lose traction and we will be freed from the threat they pose.",
+      "x": 3,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_secure_a_loyal_cabinet"
+      ],
+      "mutuallyExclusive": [
+        "LIT_free_voldemares"
+      ],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_root_out_the_iron_wolf",
+      "name": "Root Out the Iron Wolf",
+      "description": "Although exiling Voldemaras has halted future Iron Wolf efforts to overthrow the government, the organization still exists and these men must be pushed far off to the political fringes to ensure a stable future for Lithuania’s military.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_exile_voldemares"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_prepare_forest_brothers",
+      "name": "[Root.Get_Forest_Focus_Loc]",
+      "description": "[Root.Get_Forest_Focus_desc_Loc]",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_root_out_the_iron_wolf",
+        "LIT_lithuanian_youth"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_lithuanian_preservationism",
+      "name": "Lithuanian Preservationism",
+      "description": "The Republic of Lithuania is young and still finding her place in the world. Many would see her submit to Communism, Fascism, or Liberalism, but we must avoid the impulse to cave to these foreign influences. A truly independent Lithuania must find her way alone.",
+      "x": -5,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_secure_a_loyal_cabinet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_the_nation_and_its_power",
+      "name": "The Nation and its Power",
+      "description": "The bickering of the Seimas is nothing but an obstruction to the power of the [GetLithuanianLeaderTitle]. If we are to build a nation capable of defending itself, we must grant absolute power to the [GetLithuanianLeaderTitle].",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_a_martial_prime_minister",
+        "LIT_a_priestly_prime_minister",
+        "LIT_a_king_for_our_people"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_state_media",
+      "name": "State Media",
+      "description": "Too often the publishings of newspapers are filled to the brim with fascist and communist propaganda. The general populace must be encouraged instead to read state-approved publications; the only reliable source for the truth.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_the_nation_and_its_power"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_exploit_the_international_bank",
+      "name": "Exploit the International Bank",
+      "description": "As a member of the International Bank, Antanas Smetona is in a prime position to exploit the banking sector for the benefit of the state. In these times of impending war, what choice do we have?",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_state_media"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_presidential_reform",
+      "name": "[GetLithuanianPowerIdeaAdj] Reform",
+      "description": "Party politics plagued the Lithuanian state for so long, restricting the powers of the [GetLithuanianLeaderTitle]. The new Lithuanian [GetLithuanianLeaderTitle] must be above the squabbling of political parties and instead belong only to Lithuania herself.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_the_nation_and_its_power"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_a_corporatist_economy",
+      "name": "A Corporatist Economy",
+      "description": "The West expects swift economic liberalism within the Lithuanian state. Antanas Smetona, however, much prefers the control and centralization brought by a corporatist model.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_presidential_reform",
+        "LIT_state_media"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_a_martial_prime_minister",
+      "name": "A Martial Prime Minister",
+      "description": "The office of Prime Minister is usually held by an elected political official but in these times of war and with the increased powers of the President, we must elect a strong leader to be the right-hand of [ROOT.GetLeader]!",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_lithuanian_preservationism",
+        "LIT_exile_voldemares"
+      ],
+      "mutuallyExclusive": [
+        "LIT_a_priestly_prime_minister",
+        "LIT_a_king_for_our_people"
+      ],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_the_nationalist_council",
+      "name": "The Nationalist Council",
+      "description": "Already our President is officially not part of any political parties, but still the Seimas squabble amongst themselves like impotent children. They must be encouraged to collaborate with [ROOT.GetRulingParty] else they should expect a swift resignation.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_a_martial_prime_minister",
+        "LIT_a_priestly_prime_minister"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_expand_military_budget",
+      "name": "Expand the Military Budget",
+      "description": "A common complaint among members of the military is their relatively low wages compared with those working within the civilian government. With Raštikis occupying the office of Prime Minister, the time is ripe to grant the army the budget it needs.",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_a_martial_prime_minister",
+        "LIT_the_nationalist_council",
+        "LIT_presidential_reform"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_martial_law",
+      "name": "Martial Law",
+      "description": "Freedom is a luxury afforded to nations enjoying peace, but with enemies all around us, Lithuania may not enjoy such a luxury.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_a_corporatist_economy",
+        "LIT_expand_military_budget"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_merge_the_military_and_civilian_governments",
+      "name": "Merge the Military and Civilian Governments",
+      "description": "Shared power between the military and the President was useful for a time, but Smetona is quickly outliving his usefulness. Only transfer of emergency powers to the military can ensure Lithuania’s continued safety.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_expand_military_budget"
+      ],
+      "mutuallyExclusive": [
+        "LIT_restore_public_elections",
+        "LIT_indivisible_power_of_the_state"
+      ],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_a_priestly_prime_minister",
+      "name": "A Priestly Prime Minister",
+      "description": "Former council member and now a priest, Vladas Mironas is an ideal candidate to represent the National Party as its Prime Minister. His position in the Catholic church and dedication to peasantry and agriculture makes him a popular candidate amongst the Lithuanian lower classes.",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_lithuanian_preservationism",
+        "LIT_exile_voldemares"
+      ],
+      "mutuallyExclusive": [
+        "LIT_a_martial_prime_minister",
+        "LIT_a_king_for_our_people"
+      ],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_peasants_reform",
+      "name": "Peasant Reform",
+      "description": "The peasantry are among Lithuania’s poorest people, despite making the majority of our economic wealth. With Vladas Mironas as Prime Minister and chief of agriculture, we may afford our peasant class much greater living conditions.",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_a_priestly_prime_minister",
+        "LIT_the_nationalist_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_enforce_military_rule",
+      "name": "Enforce Martial Rule",
+      "description": "Lithuania is not alone in her struggle for independence. Latvia and Estonia too are surrounded by all the same enemies as ours, but their governments lack the backbone to do what is necessary to defend their people. We must enforce the rule of the military across all of the Baltics.",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_merge_the_military_and_civilian_governments",
+        "LIT_martial_law"
+      ],
+      "mutuallyExclusive": [
+        "LIT_beyond_the_baltic",
+        "LIT_formalize_baltic_entente"
+      ],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_beyond_the_baltic",
+      "name": "[Root.Get_Beyond_Baltic_Focus_Loc]",
+      "description": "[Root.Get_Beyond_Baltic_Focus_desc_Loc]",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_merge_the_military_and_civilian_governments",
+        "LIT_restore_public_elections",
+        "LIT_indivisible_power_of_the_state"
+      ],
+      "mutuallyExclusive": [
+        "LIT_formalize_baltic_entente",
+        "LIT_enforce_military_rule"
+      ],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_join_the_allies",
+      "name": "Join the Allies",
+      "description": "[Root.Get_Join_Allies_Focus_desc_Loc]",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_beyond_the_baltic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_formalize_baltic_entente",
+      "name": "[Root.Get_Baltic_Entente_Focus_Loc]",
+      "description": "[Root.Get_Baltic_Entente_Focus_desc_Loc]",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_merge_the_military_and_civilian_governments",
+        "LIT_restore_public_elections",
+        "LIT_indivisible_power_of_the_state"
+      ],
+      "mutuallyExclusive": [
+        "LIT_beyond_the_baltic",
+        "LIT_enforce_military_rule"
+      ],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_look_north",
+      "name": "[Root.Get_Look_North_Focus_Loc]",
+      "description": "[Root.Get_Look_North_Focus_desc_Loc]",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_formalize_baltic_entente"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_baltic_economic_union",
+      "name": "The Baltic Economic Union",
+      "description": "Now that liberal democracy has been returned to our nation and we are making close diplomatic ties to our neighbors, it makes sense to enter an economic union with our fellow Baltic States. Though our economies are small, together they may grow strong!",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_formalize_baltic_entente",
+        "LIT_restore_public_elections"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_baltic_defence_army",
+      "name": "Baltic Defense Army",
+      "description": "Our armed forces work together but are essentially separate entities. With ties between our nations growing stronger, we may be able to establish a United Baltic Armed Forces, a distinct entity which simultaneously is controlled by none of the Baltic States but is an ally to all of them.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_baltic_economic_union"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_pan_baltic_bank",
+      "name": "The Pan-Baltic Bank",
+      "description": "With the economic union now in place, there is a possibility for us to establish a pan-Baltic bank and a common currency.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_baltic_economic_union"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_propose_baltic_union",
+      "name": "Propose a Baltic Union",
+      "description": "With all of these different entities now interlocking between our nations, it seems that the establishment of an official Baltic Union is inevitable. The union will grant all member nations votes and veto rights within the union, and bring our nations ever closer together.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_pan_baltic_bank",
+        "LIT_baltic_defence_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_baltic_stronger_together",
+      "name": "United but Separate",
+      "description": "There has long been a sense of brotherhood and camaraderie between the Baltic States, but we’ve always been separated by borders and politics. We are bound together diplomatically by our willingness to preserve our independence, and so we must commit to fighting for our friends and expand the united Baltic armed forces!",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_propose_baltic_union"
+      ],
+      "mutuallyExclusive": [
+        "LIT_baltic_unification"
+      ],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_baltic_unification",
+      "name": "Baltic Unification",
+      "description": "There has long been a sense of brotherhood and camaraderie between the Baltic States, but we’ve always been separated by borders and politics. Though our independent identities are strong, our willingness to fight to preserve our existence binds us together. Perhaps it is time that the Baltic Union evolved into a nation in itself.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_propose_baltic_union"
+      ],
+      "mutuallyExclusive": [
+        "LIT_baltic_stronger_together"
+      ],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_a_king_for_our_people",
+      "name": "A King for Our People",
+      "description": "Antanas Smetona cannot rule Lithuania alone, and while many expect the President to assign a Prime Minister, there is another option. Karl Gero von Urach is the legitimate son of Mindaugas II and with the shroud of German rule no longer hangs over the head of Lithuania, there is nothing stopping us from crowning our King.",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_exile_voldemares",
+        "LIT_lithuanian_preservationism"
+      ],
+      "mutuallyExclusive": [
+        "LIT_a_martial_prime_minister",
+        "LIT_a_priestly_prime_minister"
+      ],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_institute_royal_guards",
+      "name": "Establish Royal Guards",
+      "description": "With a monarch now seated on the throne, it is vital that we find only the most elite among the ranks of the Lithuanian army to be charged with the personal protection of our beloved monarch.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_a_king_for_our_people"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_a_new_noble_class",
+      "name": "A New Noble Class",
+      "description": "Our nation has been ruled by politicians and oligarchs for too long. For the King to serve Lithuania, he must have a court of loyal nobility to preside over.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_a_king_for_our_people"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_abolish_the_presidency",
+      "name": "Abolish the Presidency",
+      "description": "Thus far, Smetona has retained rulership of the nation but with the growing popularity of Mindaugas III, it seems prudent that the office of Presidency be abolished and replaced with the absolute rule of the King. Smetona will resign to the role of Prime Minister, serving the young Mindaugas III as his adviser.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_a_new_noble_class",
+        "LIT_institute_royal_guards"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_support_monarchism_in_POL",
+      "name": "Support Monarchism in Poland",
+      "description": "Just like Lithuania, Poland was meant to elect herself a new King. Unlike Lithuania however, the Poles failed to find a suitable King for their throne, but we can provide the Polish people with the strong ruler they were promised; someone who would defend Poland from German imperialism.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_abolish_the_presidency"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_arm_monarchist_militants",
+      "name": "Arm Monarchist Militants",
+      "description": "We know there are those across our borders who wish to see [Root.GetLeader] bring order and prosperity to their nation as [Root.GetLeader.GetSheHe] has for us! We must be willing to arm these monarchist militants so that they may fight to bring their rightful monarch to their throne.",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_support_monarchism_in_POL"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_king_of_poland",
+      "name": "The Kingdom of Poland",
+      "description": "The time is ripe; the Polish populace has been stirred up against [POL.GetLeader] and monarchist supporters stand ready to issue their demands to the government. With Lithuanian support, they will see [Root.GetLeader] as their ruler appointed by God.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_support_monarchism_in_POL"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_POL_union",
+      "name": "Restore the Commonwealth",
+      "description": "With [Root.GetLeader] as King of both Poland and Lithuania, all that remains is to once again merge the Seimas with the Sejm and the Polish-Lithuanian Commonwealth will be born anew.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_king_of_poland"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_expand_lithuanian_shipyards",
+      "name": "Expand Lithuanian Shipyards",
+      "description": "With Poland under our control, we have been gifted with the opportunity to vastly expand our naval capacity and compete for dominance in the Baltic Sea.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_POL_union"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_lithuanian_rail",
+      "name": "Polish-Lithuanian Railways",
+      "description": "Travel between the union must be a trivial matter if Poland and Lithuania are to be truly united. By joining our railways, we shall greatly improve our supply chains and industrial capacity.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_POL_union"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_merge_the_arms_industries",
+      "name": "Merge the Arms Industries",
+      "description": "Polish and Lithuanian weapons manufacturers have been producing arms separately for decades now, but now that our nations are one, we have the opportunity to specialise our industries and create collaboration between Polish and Lithuanian factories.",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_lithuanian_rail"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_merge_civilian_industries",
+      "name": "Merge the Civilian Industries",
+      "description": "With our nations now united, it makes little sense for Lithuania to build only for Lithuania and Poland only for Poland. Our industries must become one for the betterment of the nation.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_merge_the_arms_industries"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_push_for_ruthenia",
+      "name": "Push Through Ruthenia",
+      "description": "The railway networks of Ukraine and Belarus have been woefully neglected, but these territories are as much a part of the Commonwealth as any other. We must invest in the Eastern rails if we are to push right through the Soviets and reclaim that which is ours.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_lithuanian_rail"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_warsaw_to_crimea_railway",
+      "name": "Warsaw to Crimea Railway",
+      "description": "In our ambition to rule from sea-to-sea it is vital that each territory we take become a fully integrated part of our nation. Our natural borders stretch from North-to-South, East-to-West, and this ambition to link Crimea with our rail will solidify our grasp on the region.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_push_for_ruthenia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_claim_livonia_monarchy",
+      "name": "Claim Livonia",
+      "description": "Among the Baltic nations there is an unbreakable sense of brotherhood and camaraderie, and now that we have a King on our throne, we stand to claim that sense of brotherhood as our divine right.",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_abolish_the_presidency"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_claim_prussia",
+      "name": "Seize East Prussia",
+      "description": "Eastern Prussia is home to countless Lithuanian and Polish minorities, and it is time that these men were united with their comrades in [Root.GetNameDef].",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_claim_livonia_monarchy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_claim_greater_lithuania",
+      "name": "Claim Greater Lithuania",
+      "description": "The Lithuania we know today is a mere shadow of the Grand Duchy of Lithuania that came before her. The Commonwealth describes more than just a union of Poland and Lithuania, it is a union of Poles, Lithuanians, Ukrainians, and Belorussians.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_claim_livonia_monarchy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "LIT_greater_commonwealth",
+      "name": "The Greater Commonwealth",
+      "description": "The ambitions for the Commonwealth go far beyond the mere historical borders of the long-gone Kingdom. The Commonwealth in the hearts of Poles is a great imperial power, a multicultural empire which shines from sea-to-sea!",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "LIT_claim_greater_lithuania",
+        "LIT_claim_prussia",
+        "LIT_POL_union"
+      ],
+      "mutuallyExclusive": [],
+      "source": "lithuania.txt",
+      "shared": false
+    },
+    {
+      "id": "BALTIC_rejoin_the_railways",
+      "name": "Rejoin the Railways",
+      "description": "The Russians and the Germans who occupied us have seen us as nothing more than a rural backwater, but no more. [ROOT.GetNonIdeologyName] shall be industrialized to its maximum potential starting with an upgrade of our railways and infrastructure.",
+      "x": 10,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "baltic_shared.txt",
+      "shared": true
+    },
+    {
+      "id": "BALTIC_restore_workers_republic",
+      "name": "Restore the Worker’s Republic",
+      "description": "During our struggle for independence, the Soviets aided the creation of a [Root.GetAdjective] Worker’s Republic. Although the republic failed, its leaders remain alive in both [Root.GetNameDef] and [SOV.GetNameDef], hence hope for the worker’s republic remains!",
+      "x": 25,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "LIT_secure_a_loyal_cabinet",
+        "LAT_suspend_the_constitution",
+        "EST_era_of_silence",
+        "EST_rally_the_nation"
+      ],
+      "source": "baltic_shared.txt",
+      "shared": true
+    }
+  ]
+}

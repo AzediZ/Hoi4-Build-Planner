@@ -1,0 +1,2240 @@
+{
+  "mod": "FUWG",
+  "tag": "BUL",
+  "country": "Bulgaria",
+  "treeId": "bulgarian_focus",
+  "sourceFile": "bulgaria.txt",
+  "focusCount": 152,
+  "focuses": [
+    {
+      "id": "BUL_acquire_modern_tools",
+      "name": "Acquire Modern Tools",
+      "description": "",
+      "x": 12,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_improve_the_road_system",
+      "name": "Improve The Road System",
+      "description": "",
+      "x": -11,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_acquire_modern_tools"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_attract_foreign_capitals",
+      "name": "Attract Foreign Capitals",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_improve_the_road_system"
+      ],
+      "mutuallyExclusive": [
+        "BUL_invigorate_national_industry"
+      ],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_invigorate_national_industry",
+      "name": "Invigorate National Industry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_improve_the_road_system"
+      ],
+      "mutuallyExclusive": [
+        "BUL_attract_foreign_capitals"
+      ],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_expand_sofia_university",
+      "name": "Expand Sofia University",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_invigorate_national_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_expand_the_tobacco_industry",
+      "name": "Expand The Tobacco Industry",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_attract_foreign_capitals",
+        "BUL_expand_sofia_university"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_nationalization",
+      "name": "Nationalization",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_expand_the_tobacco_industry"
+      ],
+      "mutuallyExclusive": [
+        "BUL_utmost_optimization"
+      ],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_increase_industry_investments",
+      "name": "Increase Industry Investments",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_invigorate_national_industry",
+        "BUL_expand_sofia_university"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_utmost_optimization",
+      "name": "Utmost Optimization",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_increase_industry_investments"
+      ],
+      "mutuallyExclusive": [
+        "BUL_nationalization"
+      ],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_national_railway_lines",
+      "name": "National Railway Lines",
+      "description": "",
+      "x": 3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_improve_the_road_system"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_all_that_glitters",
+      "name": "All That Glitters",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_national_railway_lines"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_light_metal_exploitation",
+      "name": "Light Metal Exploitation",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_national_railway_lines"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_steel_plant_in_pernik",
+      "name": "Steel Plant In Pernik",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_national_railway_lines"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_mineral_extraction_in_the_rhodopes",
+      "name": "Mineral Extraction In The Rhodopes",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_steel_plant_in_pernik"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_uranium_prospecting",
+      "name": "Uranium Prospecting",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_mineral_extraction_in_the_rhodopes",
+        "BUL_utmost_optimization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_georgi_benkovski_aircraft_repair_facilities",
+      "name": "Georgi Benkovski Aircraft Repair Facilities",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_acquire_modern_tools"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_pilot_training_program",
+      "name": "Pilot Training Program",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_georgi_benkovski_aircraft_repair_facilities"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_negotiate_bulgarian_rearmament",
+      "name": "Negotiate Bulgarian Rearmament",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_acquire_modern_tools"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_mechanize_army",
+      "name": "Mechanize Army",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_acquire_modern_tools"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_advanced_mechanized_warfare",
+      "name": "Advanced Mechanized Warfare",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_mechanize_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_reorganize_the_military_industry",
+      "name": "Reorganize The Military Industry",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_negotiate_bulgarian_rearmament"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_darzhavna_aeroplanna_rabotilnitsa",
+      "name": "Darzhavna Aeroplanna Rabotilnitsa",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_pilot_training_program",
+        "BUL_reorganize_the_military_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_darzhavna_samoletna_fabrika",
+      "name": "Darzhavna Samoletna Fabrika",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_darzhavna_aeroplanna_rabotilnitsa"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_foreign_aircraft_designers",
+      "name": "Foreign Aircraft Designers",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_reorganize_the_military_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_kaproni_bulgarski",
+      "name": "Kaproni Bulgarski",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_reorganize_the_military_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_darzhavna_voenna_fabrika",
+      "name": "Darzhavna Voenna Fabrika",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_reorganize_the_military_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_found_dvf_sopot",
+      "name": "Found Dvf Sopot",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_darzhavna_voenna_fabrika"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_contract_foreign_companies",
+      "name": "Contract Foreign Companies",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_reorganize_the_military_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_rebuild_the_army",
+      "name": "Rebuild The Army",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_reorganize_the_military_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_vasil_levsky_national_military_university",
+      "name": "Vasil Levsky National Military University",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_rebuild_the_army",
+        "BUL_darzhavna_voenna_fabrika"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_prussia_of_the_balkans",
+      "name": "Prussia Of The Balkans",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_vasil_levsky_national_military_university",
+        "BUL_found_dvf_sopot"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_national_military_academy",
+      "name": "National Military Academy",
+      "description": "",
+      "x": 7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_negotiate_bulgarian_rearmament"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_war_logistics",
+      "name": "War Logistics",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_national_military_academy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_defensive_lines",
+      "name": "Defensive Lines",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_war_logistics"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_a_black_sea_fleet",
+      "name": "A Black Sea Fleet",
+      "description": "",
+      "x": 12,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_negotiate_bulgarian_rearmament"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_improve_coastal_defenses",
+      "name": "Improve Coastal Defenses",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_a_black_sea_fleet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_reinforce_naval_bases",
+      "name": "Reinforce Naval Bases",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_improve_coastal_defenses"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_supremacy_on_the_bosporus",
+      "name": "Supremacy On The Bosporus",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_defensive_lines",
+        "BUL_reinforce_naval_bases"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_dominance_in_the_black_sea",
+      "name": "Dominance In The Black Sea",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_prussia_of_the_balkans",
+        "BUL_supremacy_on_the_bosporus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_dominance_in_the_aegean_sea",
+      "name": "Dominance In The Aegean Sea",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_dominance_in_the_black_sea"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_dominance_in_the_adriatic_sea",
+      "name": "Dominance In The Adriatic Sea",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_dominance_in_the_black_sea"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_bulgaria_on_the_three_seas",
+      "name": "Bulgaria On The Three Seas",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_dominance_in_the_adriatic_sea",
+        "BUL_dominance_in_the_aegean_sea"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_national_submarine_production",
+      "name": "National Submarine Production",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_a_black_sea_fleet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_bulgarian_shipping_chamber",
+      "name": "Bulgarian Shipping Chamber",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_a_black_sea_fleet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_strike_from_the_seas",
+      "name": "Strike From The Seas",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_bulgarian_shipping_chamber"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_expand_varna_naval_base",
+      "name": "Expand Varna Naval Base",
+      "description": "",
+      "x": 15,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_acquire_modern_tools"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_develop_burgas_shipyards",
+      "name": "Develop Burgas Shipyards",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_expand_varna_naval_base"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_an_aegean_sea_fleet",
+      "name": "An Aegean Sea Fleet",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_a_black_sea_fleet",
+        "BUL_develop_burgas_shipyards"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_a_powerful_bulgarian_navy",
+      "name": "A Powerful Bulgarian Navy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_an_aegean_sea_fleet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_modern_tactics",
+      "name": "Modern Tactics",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_strike_from_the_seas",
+        "BUL_a_powerful_bulgarian_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_oppose_the_royal_dictatorship",
+      "name": "Oppose The Royal Dictatorship",
+      "description": "",
+      "x": 21,
+      "y": 0,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "BUL_power_to_the_tsar"
+      ],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_appoint_communist_ministers",
+      "name": "Appoint Communist Ministers",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_oppose_the_royal_dictatorship"
+      ],
+      "mutuallyExclusive": [
+        "BUL_democratic_principles"
+      ],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_the_spanish_struggle",
+      "name": "The Spanish Struggle",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_appoint_communist_ministers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_overthrow_the_tsar",
+      "name": "Overthrow The Tsar",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_appoint_communist_ministers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_abolish_the_tarnovo_constitution",
+      "name": "Abolish The Tarnovo Constitution",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_overthrow_the_tsar"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_unify_the_bourgeois_movement",
+      "name": "Unify The Bourgeois Movement",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_appoint_communist_ministers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_united_front_against_fascism",
+      "name": "United Front Against Fascism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_unify_the_bourgeois_movement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_the_fatherland_front",
+      "name": "The Fatherland Front",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_united_front_against_fascism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_full_voting_rights_for_women",
+      "name": "Full Voting Rights For Women",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_the_fatherland_front",
+        "BUL_form_a_popular_bloc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_the_peoples_republic_of_bulgaria",
+      "name": "The Peoples Republic Of Bulgaria",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_overthrow_the_tsar"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_soviet_bulgarian_treaty_of_mutual_assistance",
+      "name": "Soviet Bulgarian Treaty Of Mutual Assistance",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_the_peoples_republic_of_bulgaria"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_follow_the_stalinist_doctrine",
+      "name": "Follow The Stalinist Doctrine",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_soviet_bulgarian_treaty_of_mutual_assistance"
+      ],
+      "mutuallyExclusive": [
+        "BUL_balkan_federation_of_socialist_republics"
+      ],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_joint_research_effort",
+      "name": "Joint Research Effort",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_follow_the_stalinist_doctrine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_soviet_military_exercises",
+      "name": "Soviet Military Exercises",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_joint_research_effort"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_soviet_bulgarian_war_industry",
+      "name": "Soviet Bulgarian War Industry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_soviet_military_exercises"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_carry_the_revolution_abroad",
+      "name": "Carry The Revolution Abroad",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_follow_the_stalinist_doctrine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_liberation_of_the_proletariat",
+      "name": "Liberation Of The Proletariat",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_carry_the_revolution_abroad"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_the_anti_capitalist_fight",
+      "name": "The Anti Capitalist Fight",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_liberation_of_the_proletariat"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_united_we_shall_prevail",
+      "name": "United We Shall Prevail",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_liberation_of_the_proletariat",
+        "BUL_balkan_trade_union_secretariat"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_the_unification_of_the_balkans",
+      "name": "The Unification Of The Balkans",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_united_we_shall_prevail"
+      ],
+      "mutuallyExclusive": [
+        "BUL_free_balkan_states"
+      ],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_the_peoples_militia_directorate",
+      "name": "The Peoples Militia Directorate",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_the_peoples_republic_of_bulgaria"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_purge_the_elites",
+      "name": "Purge The Elites",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_the_peoples_republic_of_bulgaria"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_collectivization_of_the_countryside",
+      "name": "Collectivization Of The Countryside",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_purge_the_elites"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_heavy_industry",
+      "name": "Heavy Industry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_collectivization_of_the_countryside"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_train_the_youth_wings",
+      "name": "Train The Youth Wings",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_the_peoples_republic_of_bulgaria"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_treaty_of_perpetual_friendship",
+      "name": "Treaty Of Perpetual Friendship",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_the_peoples_republic_of_bulgaria"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_balkan_federation_of_socialist_republics",
+      "name": "Balkan Federation Of Socialist Republics",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_treaty_of_perpetual_friendship"
+      ],
+      "mutuallyExclusive": [
+        "BUL_follow_the_stalinist_doctrine"
+      ],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_bury_the_grudges_of_the_past",
+      "name": "Bury The Grudges Of The Past",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_balkan_federation_of_socialist_republics",
+        "BUL_a_balkan_confederation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_balkan_trade_union_secretariat",
+      "name": "Balkan Trade Union Secretariat",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_bury_the_grudges_of_the_past"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_defy_moscow",
+      "name": "Defy Moscow",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_balkan_trade_union_secretariat"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_balkan_research_cooperation",
+      "name": "Balkan Research Cooperation",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_bury_the_grudges_of_the_past"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_recover_italian_territories",
+      "name": "Recover Italian Territories",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_bury_the_grudges_of_the_past"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_democratic_principles",
+      "name": "Democratic Principles",
+      "description": "",
+      "x": 3,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_oppose_the_royal_dictatorship"
+      ],
+      "mutuallyExclusive": [
+        "BUL_appoint_communist_ministers"
+      ],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_legalize_the_agrarian_party",
+      "name": "Legalize The Agrarian Party",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_democratic_principles"
+      ],
+      "mutuallyExclusive": [
+        "BUL_seek_cooperation_with_the_tsar"
+      ],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_form_a_popular_bloc",
+      "name": "Form A Popular Bloc",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_legalize_the_agrarian_party"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_abolish_the_monarchy",
+      "name": "Abolish The Monarchy",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_legalize_the_agrarian_party"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_seek_cooperation_with_the_tsar",
+      "name": "Seek Cooperation With The Tsar",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_democratic_principles"
+      ],
+      "mutuallyExclusive": [
+        "BUL_legalize_the_agrarian_party"
+      ],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_legislative_elections",
+      "name": "Legislative Elections",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_abolish_the_monarchy",
+        "BUL_seek_cooperation_with_the_tsar"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_petorka",
+      "name": "Petorka",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_seek_cooperation_with_the_tsar"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_land_reorganization",
+      "name": "Land Reorganization",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_legislative_elections"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_agrarian_cooperative_movement",
+      "name": "Agrarian Cooperative Movement",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_land_reorganization"
+      ],
+      "mutuallyExclusive": [
+        "BUL_modernize_the_industry"
+      ],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_modernize_the_industry",
+      "name": "Modernize The Industry",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_land_reorganization"
+      ],
+      "mutuallyExclusive": [
+        "BUL_agrarian_cooperative_movement"
+      ],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_the_salonika_agreement",
+      "name": "The Salonika Agreement",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_legislative_elections"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_a_balkan_confederation",
+      "name": "A Balkan Confederation",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_the_salonika_agreement"
+      ],
+      "mutuallyExclusive": [
+        "BUL_join_the_allies",
+        "BUL_the_fate_of_the_balkans"
+      ],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_approach_the_united_kingdom",
+      "name": "Approach The United Kingdom",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_legislative_elections",
+        "BUL_liberalization_of_trade_policies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_join_the_allies",
+      "name": "Join The Allies",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_approach_the_united_kingdom"
+      ],
+      "mutuallyExclusive": [
+        "BUL_a_balkan_confederation",
+        "BUL_the_fate_of_the_balkans",
+        "BUL_join_the_tripartite_pact"
+      ],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_consolidate_the_third_bulgarian_state",
+      "name": "Consolidate The Third Bulgarian State",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_join_the_allies",
+        "BUL_a_balkan_confederation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_free_balkan_states",
+      "name": "Free Balkan States",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_consolidate_the_third_bulgarian_state"
+      ],
+      "mutuallyExclusive": [
+        "BUL_the_unification_of_the_balkans"
+      ],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_fight_tyranny",
+      "name": "Fight Tyranny",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_consolidate_the_third_bulgarian_state"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_assert_our_claims",
+      "name": "Assert Our Claims",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_join_the_allies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_appeal_to_european_capitalists",
+      "name": "Appeal To European Capitalists",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_join_the_allies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_obliterate_the_bolshevik_threat",
+      "name": "Obliterate The Bolshevik Threat",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_appeal_to_european_capitalists",
+        "BUL_consolidate_the_third_bulgarian_state"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_research_sharing",
+      "name": "Research Sharing",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_join_the_allies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_power_to_the_tsar",
+      "name": "Power To The Tsar",
+      "description": "",
+      "x": 32,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "BUL_oppose_the_royal_dictatorship"
+      ],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_condemn_macedonian_organizations",
+      "name": "Condemn Macedonian Organizations",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_power_to_the_tsar",
+        "BUL_oppose_the_royal_dictatorship"
+      ],
+      "mutuallyExclusive": [
+        "BUL_support_macedonian_organizations"
+      ],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_support_macedonian_organizations",
+      "name": "Support Macedonian Organizations",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_power_to_the_tsar",
+        "BUL_oppose_the_royal_dictatorship"
+      ],
+      "mutuallyExclusive": [
+        "BUL_condemn_macedonian_organizations"
+      ],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_dissolve_the_military_union",
+      "name": "Dissolve The Military Union",
+      "description": "",
+      "x": 4,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_power_to_the_tsar",
+        "BUL_oppose_the_royal_dictatorship"
+      ],
+      "mutuallyExclusive": [
+        "BUL_cooperate_with_the_zveno"
+      ],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_cooperate_with_the_zveno",
+      "name": "Cooperate With The Zveno",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_power_to_the_tsar",
+        "BUL_oppose_the_royal_dictatorship"
+      ],
+      "mutuallyExclusive": [
+        "BUL_dissolve_the_military_union"
+      ],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_the_tsars_regime",
+      "name": "The Tsars Regime",
+      "description": "",
+      "x": -3,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_power_to_the_tsar"
+      ],
+      "mutuallyExclusive": [
+        "BUL_appoint_right_wing_ministers"
+      ],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_restrained_paramilitary_organizations",
+      "name": "Restrained Paramilitary Organizations",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_the_tsars_regime",
+        "BUL_democratic_principles"
+      ],
+      "mutuallyExclusive": [
+        "BUL_ban_far_right_organizations"
+      ],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_ban_far_right_organizations",
+      "name": "Ban Far Right Organizations",
+      "description": "",
+      "x": -2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_the_tsars_regime",
+        "BUL_democratic_principles"
+      ],
+      "mutuallyExclusive": [
+        "BUL_restrained_paramilitary_organizations"
+      ],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_restore_the_tarnovo_constitution",
+      "name": "Restore The Tarnovo Constitution",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_the_tsars_regime"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_freedom_of_press",
+      "name": "Freedom Of Press",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_restore_the_tarnovo_constitution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_promote_bulgarian_nationalism",
+      "name": "Promote Bulgarian Nationalism",
+      "description": "",
+      "x": -3,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_appoint_right_wing_ministers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_crush_the_communists",
+      "name": "Crush The Communists",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_appoint_right_wing_ministers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_illusions_of_a_non_partisan_system",
+      "name": "Illusions Of A Non Partisan System",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_the_tsars_regime",
+        "BUL_promote_bulgarian_nationalism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_limited_womens_suffrage",
+      "name": "Limited Womens Suffrage",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_promote_bulgarian_nationalism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_found_the_brannik",
+      "name": "Found The Brannik",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_promote_bulgarian_nationalism"
+      ],
+      "mutuallyExclusive": [
+        "BUL_depose_the_tsar"
+      ],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_bulgarian_irredentism",
+      "name": "Bulgarian Irredentism",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_promote_bulgarian_nationalism",
+        "BUL_the_path_towards_a_greater_bulgaria"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_strengthen_the_royal_dictatorship",
+      "name": "Strengthen The Royal Dictatorship",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_illusions_of_a_non_partisan_system"
+      ],
+      "mutuallyExclusive": [
+        "BUL_plot_against_boris"
+      ],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_war_industry",
+      "name": "War Industry",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_military_dictatorship"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_liberalization_of_trade_policies",
+      "name": "Liberalization Of Trade Policies",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_illusions_of_a_non_partisan_system",
+        "BUL_petorka"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_plot_against_boris",
+      "name": "Plot Against Boris",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_liberalization_of_trade_policies"
+      ],
+      "mutuallyExclusive": [
+        "BUL_strengthen_the_royal_dictatorship"
+      ],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_the_return_of_ferdinand_i",
+      "name": "The Return Of Ferdinand I",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_plot_against_boris"
+      ],
+      "mutuallyExclusive": [
+        "BUL_form_a_regency_council"
+      ],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_amend_old_grudges",
+      "name": "Amend Old Grudges",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_the_return_of_ferdinand_i"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_form_a_regency_council",
+      "name": "Form A Regency Council",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_plot_against_boris"
+      ],
+      "mutuallyExclusive": [
+        "BUL_the_return_of_ferdinand_i"
+      ],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_the_fate_of_the_balkans",
+      "name": "The Fate Of The Balkans",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_form_a_regency_council",
+        "BUL_the_return_of_ferdinand_i",
+        "BUL_military_dictatorship"
+      ],
+      "mutuallyExclusive": [
+        "BUL_join_the_tripartite_pact",
+        "BUL_join_the_allies",
+        "BUL_a_balkan_confederation"
+      ],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_nationalist_propaganda",
+      "name": "Nationalist Propaganda",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_the_fate_of_the_balkans"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_toppling_giants",
+      "name": "Toppling Giants",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_the_fate_of_the_balkans"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_bulgarian_academy_of_sciences",
+      "name": "Bulgarian Academy Of Sciences",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_the_fate_of_the_balkans"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_guardians_of_the_balkans",
+      "name": "Guardians Of The Balkans",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_nationalist_propaganda"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_consolidate_dominance_of_the_seas",
+      "name": "Consolidate Dominance Of The Seas",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BUL_guardians_of_the_balkans",
+        "BUL_join_the_allies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_appoint_right_wing_ministers",
+      "name": "Appoint Right Wing Ministers",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_power_to_the_tsar"
+      ],
+      "mutuallyExclusive": [
+        "BUL_the_tsars_regime"
+      ],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_the_path_towards_a_greater_bulgaria",
+      "name": "The Path Towards A Greater Bulgaria",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_appoint_right_wing_ministers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_depose_the_tsar",
+      "name": "Depose The Tsar",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_the_path_towards_a_greater_bulgaria",
+        "BUL_bulgarian_irredentism"
+      ],
+      "mutuallyExclusive": [
+        "BUL_found_the_brannik"
+      ],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_military_dictatorship",
+      "name": "Military Dictatorship",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_found_the_brannik",
+        "BUL_depose_the_tsar"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_support_the_spanish_coup",
+      "name": "Support The Spanish Coup",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "BUL_appoint_right_wing_ministers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_allow_far_right_organizations",
+      "name": "Allow Far Right Organizations",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_appoint_right_wing_ministers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_integrate_the_ratniks",
+      "name": "Integrate The Ratniks",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_allow_far_right_organizations"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_economic_protectionism",
+      "name": "Economic Protectionism",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_appoint_right_wing_ministers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_industrial_autarky",
+      "name": "Industrial Autarky",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_economic_protectionism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_corporatism",
+      "name": "Corporatism",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_industrial_autarky",
+        "BUL_cooperation_with_italy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_approach_germany",
+      "name": "Approach Germany",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_bulgarian_irredentism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_cooperation_with_italy",
+      "name": "Cooperation With Italy",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_approach_germany"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_join_the_tripartite_pact",
+      "name": "Join The Tripartite Pact",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_approach_germany"
+      ],
+      "mutuallyExclusive": [
+        "BUL_the_fate_of_the_balkans",
+        "BUL_join_the_allies"
+      ],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_peaceful_development",
+      "name": "Peaceful Development",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "BUL_join_the_tripartite_pact"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_military_secrets_sharing",
+      "name": "Military Secrets Sharing",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_join_the_tripartite_pact"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_bulgarian_administration_of_the_balkans",
+      "name": "Bulgarian Administration Of The Balkans",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "BUL_peaceful_development"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_restore_the_bulgarian_patriarchate",
+      "name": "Restore The Bulgarian Patriarchate",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_bulgarian_administration_of_the_balkans"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_total_war",
+      "name": "Total War",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_join_the_tripartite_pact"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_the_third_bulgarian_empire",
+      "name": "The Third Bulgarian Empire",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_total_war",
+        "BUL_bulgarian_administration_of_the_balkans"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    },
+    {
+      "id": "BUL_bosnia",
+      "name": "Bosnia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BUL_total_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "bulgaria.txt",
+      "shared": false
+    }
+  ]
+}

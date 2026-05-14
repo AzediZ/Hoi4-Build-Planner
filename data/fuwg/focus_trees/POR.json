@@ -1,0 +1,1923 @@
+{
+  "mod": "FUWG",
+  "tag": "POR",
+  "country": "Portugal",
+  "treeId": "portuguese_focus",
+  "sourceFile": "portugal.txt",
+  "focusCount": 132,
+  "focuses": [
+    {
+      "id": "POR_colonial_assimilation_policy",
+      "name": "Colonial Assimilation Policy",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_colonial_army",
+      "name": "Colonial Army",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_colonial_assimilation_policy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_luso_tropicalism",
+      "name": "Luso Tropicalism",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "POR_colonial_assimilation_policy"
+      ],
+      "mutuallyExclusive": [
+        "POR_limited_self_rule"
+      ],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_limited_self_rule",
+      "name": "Limited Self Rule",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_colonial_army"
+      ],
+      "mutuallyExclusive": [
+        "POR_luso_tropicalism"
+      ],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_infrastructure_in_angola",
+      "name": "Infrastructure In Angola",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 10,
+      "prerequisites": [
+        "POR_colonial_assimilation_policy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_develop_north_angola",
+      "name": "Develop North Angola",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_infrastructure_in_angola",
+        "POR_roads_bridges_and_dams"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_develop_south_angola",
+      "name": "Develop South Angola",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_develop_north_angola"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_portuguese_oil",
+      "name": "Portuguese Oil",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_develop_south_angola"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_develop_mozambique",
+      "name": "Develop Mozambique",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_develop_south_angola"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_Colonial_Compensations",
+      "name": "Colonial Compensations",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_extraction_industries"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_continue_the_public_works",
+      "name": "Continue The Public Works",
+      "description": "",
+      "x": 9,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_instituto_superior_tecnico",
+      "name": "Instituto Superior Tecnico",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_continue_the_public_works"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_ogme",
+      "name": "Ogme",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_instituto_superior_tecnico"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_ogma",
+      "name": "Ogma",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_instituto_superior_tecnico"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_roads_bridges_and_dams",
+      "name": "Roads Bridges And Dams",
+      "description": "",
+      "x": 5,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_extraction_industries",
+      "name": "Extraction Industries",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_roads_bridges_and_dams"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_syntetic_industries",
+      "name": "Synthetic Industrialization",
+      "description": "By expanding our chemical processing capabilities in Angola, we can ensure a steady supply of fuel for our motorized divisions.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_extraction_industries"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_improved_syntetics",
+      "name": "Improved Syntetics",
+      "description": "By expanding our chemical processing capabilities in Angola, we can ensure a steady supply of fuel for our motorized divisions.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_syntetic_industries"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_maximise_the_syntetics",
+      "name": "Synthetic Maximisation",
+      "description": "By expanding our chemical processing capabilities in Angola, we can ensure a steady supply of fuel for our motorized divisions.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_improved_syntetics"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_hydroelectricity",
+      "name": "Hydroelectricity",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_extraction_industries"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_military_vehicles",
+      "name": "Military Vehicles",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_ogme"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_portuguese_artillery",
+      "name": "Portuguese Artillery",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_ogme"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_advanced_artillery",
+      "name": "Advanced Artillery",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "POR_portuguese_artillery",
+        "POR_military_research_facilities"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_military_research_facilities",
+      "name": "Military Research Facilities",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_military_vehicles",
+        "POR_portuguese_artillery",
+        "POR_light_aircraft_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_armor_focus",
+      "name": "Armor Focus",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_military_research_facilities"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_mechanized_focus",
+      "name": "Mechanized Focus",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_armor_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_light_aircraft_focus",
+      "name": "Light Aircraft Focus",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_ogma"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_advanced_light_aircraft",
+      "name": "Advanced Light Aircraft",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "POR_light_aircraft_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_jet_research",
+      "name": "Jet Research",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_advanced_light_aircraft"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_industrial_modernization",
+      "name": "Industrial Modernization",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_instituto_superior_tecnico"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_a_new_industry",
+      "name": "A New Industry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_industrial_modernization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_food_industries",
+      "name": "Food Industries",
+      "description": "",
+      "x": 5,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "POR_continue_the_public_works"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_textile_industry",
+      "name": "Textile Industry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_food_industries"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_second_navy_reequipment",
+      "name": "Second Navy Reequipment",
+      "description": "",
+      "x": 9,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_a_powerful_merchant_marine",
+      "name": "A Powerful Merchant Marine",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_second_navy_reequipment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_merchant_marine_protection",
+      "name": "Merchant Marine Protection",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_a_powerful_merchant_marine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_submarine_effort",
+      "name": "Submarine Effort",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_second_navy_reequipment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_fuzileiros",
+      "name": "Fuzileiros",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "POR_submarine_effort",
+        "POR_merchant_marine_protection"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_naval_research_institute",
+      "name": "Naval Research Institute",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_fuzileiros"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_air_naval_research",
+      "name": "Air Naval Research",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_naval_research_institute"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_arsenal_do_alfeite",
+      "name": "Arsenal Do Alfeite",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_second_navy_reequipment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_national_cruiser_production",
+      "name": "National Cruiser Production",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_arsenal_do_alfeite"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_battleship_effort",
+      "name": "Battleship Effort",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_national_cruiser_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_carrier_effort",
+      "name": "Carrier Effort",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_national_cruiser_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_atlantic_defense_strategy",
+      "name": "Atlantic Defense Strategy",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "POR_national_cruiser_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_endless_sea",
+      "name": "Endless Sea",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_naval_research_institute",
+        "POR_battleship_effort"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_army_reorganization",
+      "name": "Army Reorganization",
+      "description": "",
+      "x": 7,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_metropolitan_army",
+      "name": "Metropolitan Army",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_army_reorganization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_standardization",
+      "name": "Standardization",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_metropolitan_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_defend_the_borders",
+      "name": "Defend The Borders",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_standardization"
+      ],
+      "mutuallyExclusive": [
+        "POR_rebuild_the_lines_of_torres_vedras"
+      ],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_rebuild_the_lines_of_torres_vedras",
+      "name": "Rebuild The Lines Of Torres Vedras",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_standardization"
+      ],
+      "mutuallyExclusive": [
+        "POR_defend_the_borders"
+      ],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_tropas_paraquedistas",
+      "name": "Tropas Paraquedistas",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_standardization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_regimento_de_comandos",
+      "name": "Regimento De Comandos",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_tropas_paraquedistas"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_corpo_do_estado_maior",
+      "name": "Corpo Do Estado Maior",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_army_reorganization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_staff_wargames",
+      "name": "Staff Wargames",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_corpo_do_estado_maior"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_field_maneuvers",
+      "name": "Field Maneuvers",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_staff_wargames"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_popular_front",
+      "name": "Popular Front",
+      "description": "",
+      "x": 9,
+      "y": 0,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "POR_estado_novo"
+      ],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_nation_in_arms",
+      "name": "Nation In Arms",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_popular_front"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_unify_leftist_youth_wings",
+      "name": "Unify Leftist Youth Wings",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_nation_in_arms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_nationalize_industry",
+      "name": "Nationalize Industry",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_nation_in_arms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_reorganization_of_the_communist_party",
+      "name": "Reorganization Of The Communist Party",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_nationalize_industry",
+        "POR_unify_leftist_youth_wings"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_join_the_comintern",
+      "name": "Join The Comintern",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 10,
+      "prerequisites": [
+        "POR_reorganization_of_the_communist_party"
+      ],
+      "mutuallyExclusive": [
+        "POR_the_popular_front_bloc"
+      ],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_research_collaboration",
+      "name": "Research Collaboration",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_join_the_comintern"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_cooperate_with_french_militants",
+      "name": "Cooperate With French Militants",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_join_the_comintern",
+        "POR_the_popular_front_bloc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_anti_fascism",
+      "name": "Anti Fascism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_cooperate_with_french_militants"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_support_the_spanish_republic",
+      "name": "Support The Spanish Republic",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_popular_front"
+      ],
+      "mutuallyExclusive": [
+        "POR_strict_neutrality_in_the_spanish_civil_war",
+        "POR_support_the_spanish_nationalists",
+        "POR_a_royal_wedding"
+      ],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_workers_of_iberia_unite",
+      "name": "Workers Of Iberia Unite",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_support_the_spanish_republic"
+      ],
+      "mutuallyExclusive": [
+        "POR_visit_the_front"
+      ],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_the_iberian_socialist_union",
+      "name": "The Iberian Socialist Union",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_workers_of_iberia_unite"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_the_popular_front_bloc",
+      "name": "The Popular Front Bloc",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_the_iberian_socialist_union"
+      ],
+      "mutuallyExclusive": [
+        "POR_join_the_comintern"
+      ],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_latin_american_communism",
+      "name": "Latin American Communism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_the_popular_front_bloc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_our_comrades_overseas",
+      "name": "Our Comrades Overseas",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_latin_american_communism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_visit_the_front",
+      "name": "Visit The Front",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_support_the_spanish_republic"
+      ],
+      "mutuallyExclusive": [
+        "POR_workers_of_iberia_unite"
+      ],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_they_need_our_help",
+      "name": "They Need Our Help",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "POR_visit_the_front"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_intervention_in_spain",
+      "name": "Intervention In Spain",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_they_need_our_help",
+        "POR_allow_free_elections"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_securing_the_free_world",
+      "name": "Securing The Free World",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_allow_free_elections"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_protect_chinese_civilians",
+      "name": "Protect Chinese Civilians",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_they_need_our_help",
+        "POR_allow_free_elections",
+        "POR_the_popular_front_bloc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_strict_neutrality_in_the_spanish_civil_war",
+      "name": "Strict Neutrality In The Spanish Civil War",
+      "description": "",
+      "x": 5,
+      "y": 0,
+      "cost": 10,
+      "prerequisites": [
+        "POR_popular_front",
+        "POR_estado_novo"
+      ],
+      "mutuallyExclusive": [
+        "POR_support_the_spanish_republic",
+        "POR_support_the_spanish_nationalists",
+        "POR_a_royal_wedding"
+      ],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_british_investment_in_mines",
+      "name": "British Investment In Mines",
+      "description": "",
+      "x": 3,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "POR_appease_monarchists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_british_guns",
+      "name": "British Guns",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_strict_neutrality_in_the_spanish_civil_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_british_industrial_investments",
+      "name": "British Industrial Investments",
+      "description": "",
+      "x": 5,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "POR_appease_monarchists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_allow_free_elections",
+      "name": "Allow Free Elections",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_british_industrial_investments"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_join_the_allies",
+      "name": "Join The Allies",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "POR_allow_free_elections"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_research_sharing",
+      "name": "Research Sharing",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_join_the_allies",
+        "POR_honor_anglo_portuguese_alliance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_oppose_germany",
+      "name": "Oppose Germany",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_join_the_allies",
+        "POR_honor_anglo_portuguese_alliance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_iberian_summit",
+      "name": "Iberian Summit",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_allow_free_elections",
+        "POR_send_assistance"
+      ],
+      "mutuallyExclusive": [
+        "POR_nationalist_intervention"
+      ],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_estado_novo",
+      "name": "Estado Novo",
+      "description": "",
+      "x": 34,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "POR_popular_front"
+      ],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_support_the_spanish_nationalists",
+      "name": "Support The Spanish Nationalists",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_estado_novo"
+      ],
+      "mutuallyExclusive": [
+        "POR_strict_neutrality_in_the_spanish_civil_war",
+        "POR_support_the_spanish_republic",
+        "POR_a_royal_wedding"
+      ],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_portuguese_legion",
+      "name": "Portuguese Legion",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_support_the_spanish_nationalists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_observation_mission",
+      "name": "Observation Mission",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_portuguese_legion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_send_assistance",
+      "name": "Send Assistance",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_observation_mission"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_nationalist_intervention",
+      "name": "Nationalist Intervention",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_send_assistance"
+      ],
+      "mutuallyExclusive": [
+        "POR_iberian_summit"
+      ],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_strengthen_the_regime",
+      "name": "Strengthen The Regime",
+      "description": "",
+      "x": 4,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "POR_portuguese_legion"
+      ],
+      "mutuallyExclusive": [
+        "POR_national_syndicalism"
+      ],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_the_capital_of_espionage",
+      "name": "The Capital Of Espionage",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_strengthen_the_regime"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_appease_monarchists",
+      "name": "Appease Monarchists",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_strengthen_the_regime"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_concordat_with_the_holy_see",
+      "name": "Concordat With The Holy See",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_appease_monarchists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_honor_anglo_portuguese_alliance",
+      "name": "Honor Anglo Portuguese Alliance",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_concordat_with_the_holy_see"
+      ],
+      "mutuallyExclusive": [
+        "POR_proudly_alone"
+      ],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_national_gold_reserves",
+      "name": "National Gold Reserves",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_appease_monarchists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_proudly_alone",
+      "name": "Proudly Alone",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_national_gold_reserves",
+        "POR_concordat_with_the_holy_see"
+      ],
+      "mutuallyExclusive": [
+        "POR_honor_anglo_portuguese_alliance"
+      ],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_the_eastern_menace",
+      "name": "The Eastern Menace",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_proudly_alone"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_national_syndicalism",
+      "name": "National Syndicalism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_portuguese_legion"
+      ],
+      "mutuallyExclusive": [
+        "POR_strengthen_the_regime"
+      ],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_ditadura_militar",
+      "name": "Ditadura Militar",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_national_syndicalism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_camisas_azuis",
+      "name": "Camisas Azuis",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_ditadura_militar"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_join_the_axis",
+      "name": "Cooperate with the Axis",
+      "description": "We must align ourselves with the Germans and support them in the conflicts to come. Germany might be the major power in central Europe, but Portugal will become the most powerful overseas empire!",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_camisas_azuis"
+      ],
+      "mutuallyExclusive": [
+        "POR_the_fifth_empire"
+      ],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_research_agreements",
+      "name": "Research Agreements",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_join_the_axis"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_german_portuguese_mining",
+      "name": "German Portuguese Mining",
+      "description": "Our allies have good companies to help us mine our natural resources, lets cooperate with them.",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_research_agreements"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_sow_anti_soviet_sentiment",
+      "name": "Sow Anti Soviet Sentiment",
+      "description": "We must sow anti communist sentiment throughout our country, the communists are a blight upon us and cannot exist!",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_research_agreements"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_death_to_the_revolution",
+      "name": "Death to the Revolution",
+      "description": "The revolution is a threat to our way of life, they must be extinquished!",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_sow_anti_soviet_sentiment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_the_fifth_empire",
+      "name": "The Fifth Empire",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_camisas_azuis"
+      ],
+      "mutuallyExclusive": [
+        "POR_join_the_axis"
+      ],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_expand_the_chinese_territories",
+      "name": "Expand The Chinese Territories",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_join_the_axis",
+        "POR_the_fifth_empire"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_refuse_the_naval_blockade",
+      "name": "Refuse The Naval Blockade",
+      "description": "",
+      "x": 1,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "POR_the_fifth_empire"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_war_on_the_colonizers",
+      "name": "War on the Colonizers",
+      "description": "The Major powers of the world have stolen our land, pride and money! We must take revenge on them!",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_research_agreements"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_imperial_economical_reforms",
+      "name": "Imperial Economical Reforms",
+      "description": "Our nation, before declaring the fifth empire, was ridden by debt. We must rebuild our industries to a glory seen across the world!",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_german_portuguese_mining"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_enforce_the_treaty_of_tordesillas",
+      "name": "Enforce the Treaty of Tordesillas",
+      "description": "By divine mandate we own half of the world! We must reclaim our half, as is rightfully ours!",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "POR_war_on_the_colonizers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_mapa_cor_de_rosa",
+      "name": "Mapa Cor De Rosa",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_refuse_the_naval_blockade"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_recover_the_east_indies",
+      "name": "Recover The East Indies",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_mapa_cor_de_rosa"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_recover_brazil",
+      "name": "Recover Brazil",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "POR_mapa_cor_de_rosa"
+      ],
+      "mutuallyExclusive": [
+        "POR_the_kingdom_reunited"
+      ],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_a_royal_wedding",
+      "name": "A Royal Wedding",
+      "description": "",
+      "x": 13,
+      "y": 0,
+      "cost": 10,
+      "prerequisites": [
+        "POR_estado_novo"
+      ],
+      "mutuallyExclusive": [
+        "POR_support_the_spanish_nationalists",
+        "POR_strict_neutrality_in_the_spanish_civil_war",
+        "POR_support_the_spanish_republic"
+      ],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_the_return_of_duarte",
+      "name": "The Return Of Duarte",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "POR_a_royal_wedding"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_support_a_spanish_monarchy_in_the_war",
+      "name": "Support A Spanish Monarchy In The War",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_the_return_of_duarte"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_assist_the_requetes",
+      "name": "Assist The Requetes",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_support_a_spanish_monarchy_in_the_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_join_the_carlist_fight",
+      "name": "Join The Carlist Fight",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_assist_the_requetes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_the_royal_iberian_alliance",
+      "name": "The Royal Iberian Alliance",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_join_the_carlist_fight"
+      ],
+      "mutuallyExclusive": [
+        "POR_remember_olivenca"
+      ],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_promote_the_monarchist_cause_in_portugal",
+      "name": "Promote The Monarchist Cause In Portugal",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_the_return_of_duarte"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_monarchist_uprising_in_brazil",
+      "name": "Monarchist Uprising In Brazil",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_the_return_of_duarte"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_the_empire_of_brazil",
+      "name": "The Empire Of Brazil",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_monarchist_uprising_in_brazil"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_restoration_of_the_monarchy",
+      "name": "Restoration Of The Monarchy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_promote_the_monarchist_cause_in_portugal"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_the_kingdom_reunited",
+      "name": "The Kingdom Reunited",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "POR_restoration_of_the_monarchy",
+        "POR_the_empire_of_brazil"
+      ],
+      "mutuallyExclusive": [
+        "POR_recover_brazil"
+      ],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_remember_olivenca",
+      "name": "Remember Olivenca",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "POR_restoration_of_the_monarchy"
+      ],
+      "mutuallyExclusive": [
+        "POR_the_royal_iberian_alliance"
+      ],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_deal_with_fascism",
+      "name": "Deal With Fascism",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_remember_olivenca",
+        "POR_the_royal_iberian_alliance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_latin_america",
+      "name": "Latin America",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_the_kingdom_reunited",
+        "POR_recover_brazil"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "POR_the_communist_threat",
+      "name": "The Communist Threat",
+      "description": "",
+      "x": -8,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "POR_latin_america",
+        "POR_proudly_alone"
+      ],
+      "mutuallyExclusive": [],
+      "source": "portugal.txt",
+      "shared": false
+    },
+    {
+      "id": "SAM_the_yoke_of_monroe",
+      "name": "The Yoke Of Monroe",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "shared_reference",
+      "shared": true
+    }
+  ]
+}

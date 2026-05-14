@@ -1,0 +1,2966 @@
+{
+  "mod": "FUWG",
+  "tag": "SOV",
+  "country": "Soviet Union",
+  "treeId": "soviet_focus",
+  "sourceFile": "soviet.txt",
+  "focusCount": 212,
+  "focuses": [
+    {
+      "id": "SOV_infrastructure_effort_nsb",
+      "name": "Infrastructure Effort",
+      "description": "$SOV_infrastructure_effort_desc$",
+      "x": 1,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_heavy_industry",
+      "name": "Heavy Industry",
+      "description": "While our industrialization projects continue to gain speed, the time has come to shift towards a bigger emphasis on heavy industry in preparation for producing more war material.",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_finish_the_five_year_plan",
+      "name": "[GetFinishTheFiveYearPlanName]",
+      "description": "[GetFinishTheFiveYearPlanDesc]",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_infrastructure_effort_nsb",
+        "SOV_heavy_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_improve_railway_network",
+      "name": "Improve Railway Network",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_finish_the_five_year_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_third_five_year_plan",
+      "name": "[GetThirdFiveYearPlanName]",
+      "description": "[GetThirdFiveYearPlanDesc]",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_finish_the_five_year_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_reorganize_the_pc_of_heavy_industry",
+      "name": "[GetReorganizeThePcOfHeavyIndustryName]",
+      "description": "Our previous shift towards heavy industry has caused some inefficiencies in the administration to become apparent. We must ensure that the right people are put in the right places to make operations run smoothly again.",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_third_five_year_plan"
+      ],
+      "mutuallyExclusive": [
+        "SOV_shift_to_armaments_production"
+      ],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_industrial_modernization",
+      "name": "Industrial Modernization",
+      "description": "Western countries are rapidly implementing new production methods and introducing new technologies. We can not be content with merely keeping pace with them - we must overtake them!",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_reorganize_the_pc_of_heavy_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_increase_state_reserves",
+      "name": "Increase State Reserves",
+      "description": "Our growing industry hungers for more and more resources. We can not always ensure that the growth in resource production keeps pace, and must build up reserves where we can.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_third_five_year_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_shift_to_armaments_production",
+      "name": "Shift To Armaments Production",
+      "description": "War is brewing. We do not know who will strike first, but sooner or later we will find ourselves under attack. We must prepare for it now, to be ready when the time comes.",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_third_five_year_plan"
+      ],
+      "mutuallyExclusive": [
+        "SOV_reorganize_the_pc_of_heavy_industry"
+      ],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_optimize_production_lines",
+      "name": "Optimize Production Lines",
+      "description": "Other countries have successfully implemented \"Fordism\" in their factories to maximize production. We must learn from their example.",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_shift_to_armaments_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_steel_casting_industry",
+      "name": "Steel Casting Industry",
+      "description": "Our metalurgic industries have been at the forefront of our industrial growth, but they can be pushed even further with the adoption of new production methods.",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_reorganize_the_pc_of_heavy_industry",
+        "SOV_shift_to_armaments_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_synthetic_rubber",
+      "name": "Synthetic Rubber",
+      "description": "The day will come when we can no longer rely on the import of foreign rubber. When that day comes, we must be prepared to meet our rubber needs with domestic production.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_steel_casting_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_oil_production",
+      "name": "Oil Production",
+      "description": "The next logical step in our industral development as well as in our military modernization is to increase motorization. This will require huge stocks of lubricants and fuel. Thankfully, we posess ample reserves of oil that can be used for this if we develop the necessary industries.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_steel_casting_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_restoration_and_development",
+      "name": "Restoration and Development",
+      "description": "Now that the war has ended, we can return to developing our industries in peace and improve the life of our people.",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_industrial_modernization",
+        "SOV_optimize_production_lines"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_fourth_five_year_plan",
+      "name": "[GetFourthFiveYearPlanName]",
+      "description": "It will still take some time before the disruptions of the war have been fully made good, but by setting the right goals, we can already gain some productivity gains.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_restoration_and_development"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_found_the_comecon",
+      "name": "Found the COMECON",
+      "description": "The war has shown that we need to improve our cooperation and the economic development of our friends and partners. To that end, we will form an organization to coordinate trade and economic development between our nations.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_fourth_five_year_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_the_common_economic_space_initiative",
+      "name": "The Common Economic Space Initiative",
+      "description": "Growing our economy is easier if we had access to new markets for our goods and to gain the resources our economy needs with fewer barriers to trade. We should form an organisation to promote this.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_fourth_five_year_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_no_time_for_peace",
+      "name": "No Time For Peace",
+      "description": "No matter how much we might wish for it, there is little hope for a lasting peace. New weapons and technologies will make war even more devastating than before, and, sadly, we must invest our hard-earned resources to ensure that we can keep pace with our enemies.",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_fourth_five_year_plan",
+        "SOV_national_academies_of_sciences"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_national_specialists",
+      "name": "Industrial Specialists",
+      "description": "Our economic development must primarily be driven by people familiar with the state it is in. Foreigners would take a long time to gain that knowledge, and, perhaps even worse - would take it with them when they leave.",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_finish_the_five_year_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_foreign_experts",
+      "name": "Foreign Experts",
+      "description": "There are many foreign experts who could teach us a lot about how to improve our economy. Thankfully, many of them are capitalists and can therefore be bought.",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_finish_the_five_year_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_eastern_development",
+      "name": "Eastern Development",
+      "description": "The areas of the Far East beyond the Ural mountains offer vast, untapped resources and wide areas for industrial development. We must ensure that they are prepared to power bigger projects.",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_national_specialists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_develop_the_urals",
+      "name": "Develop the Urals",
+      "description": "The biggest threat against our nation will probably come from a nation in Europe. By developing the areas beyond the Ural mountains, we will create a reserve of industrial capacity that even the longest-ranged bomber will find difficult to reach.",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_national_specialists",
+        "SOV_foreign_experts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_the_ussr_academy_of_sciences",
+      "name": "[GetTheUssrAcademyOfSciencesName]",
+      "description": "To remain competitive in the the fields of applied sciences, we must also be on the forefront of the theoretical sciences. We already have a well-established academy of sciences, but with some additional funding, it would provide us with a truly world-class research infrastructure.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_eastern_development"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_national_academies_of_sciences",
+      "name": "National Academies of Sciences",
+      "description": "Modelling after our own Academy of Sciences, our partner nations should also be encouraged to establish similar institutes in order to boost their own research capabilities.",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_eastern_development"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_transformation_of_nature",
+      "name": "Transformation of Nature",
+      "description": "With our scientific community pushing the borders of what was previously thought possible, even the largest, most invasive projects are becoming feasible.",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_national_academies_of_sciences"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_transformation_of_nature_alt",
+      "name": "$SOV_transformation_of_nature$",
+      "description": "$SOV_transformation_of_nature_desc$",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_national_academies_of_sciences"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_Rubber_scientifics",
+      "name": "Rubber Scientifics",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_transformation_of_nature"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_transpolar_flights",
+      "name": "Transpolar Flights",
+      "description": "",
+      "x": 10,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_expand_the_aircraft_industry",
+      "name": "Expand the Aircraft Industry",
+      "description": "In the wars to come, our air force will have to secure the skies against enemies equipped with the most modern equipment. We must ensure that they not only have comparable planes, but also that they have enough of them.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_transpolar_flights"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_modernize_aircraft_facilities",
+      "name": "Modernize Aircraft Facilities",
+      "description": "The best plane in the world will soon become useless if it has to take off from bumpy runways and be maintained in leaky sheds. To ensure the best possible performance, we must also have the best possible infrastructure.",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_expand_the_aircraft_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_merge_aircraft_plants",
+      "name": "Merge Aircraft Plants",
+      "description": "While competition between designers creates a natural incentive to constantly improve, it also saps resources on duplicate efforts that we can ill-afford. We should merge our design bureaus to eliminate this waste.",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_modernize_aircraft_facilities"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_found_the_jet_institute",
+      "name": "Found the Jet Institute",
+      "description": "The current piston engines can only be pushed so far. Future planes will have to rely on new methods of propulsion. We should found an institute to do research into jet engines to ensure that we will not be overtaken by foreign developments.",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_national_academies_of_sciences",
+        "SOV_merge_aircraft_plants"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_increase_aircraft_production",
+      "name": "Increase Aircraft Production",
+      "description": "There has been an overemphasis on safety lately, which has started to negatively affect the production numbers of new airplanes. We could save a significant amount of resources by eliminating the most excessive safety systems, while still maintaining a very safe and capable air force.",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_transpolar_flights"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_foster_flying_clubs",
+      "name": "Foster Flying Clubs",
+      "description": "New pilots are expensive to train if they have never seen a plane before they start training. But many young people are fascinated by flying, and with some support, could grow into very capable pilots that could pick up the finer points of air combat very quickly if they already know the basics of piloting an aircraft.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_transpolar_flights"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_women_in_aviation",
+      "name": "Women in Aviation",
+      "description": "In the past, backwards elements in society have declared flying to be a man's field. However, women around the world have ignored this and have shown that they are every bit as good as their male colleagues. We should encourage our women to try their hand at flying, to select the most capable pilots among them.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_foster_flying_clubs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_raskovas_aviation_group",
+      "name": "[GetRaskovasAviationGroupName]",
+      "description": "[GetRaskovasAviationGroupDesc]",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_women_in_aviation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_intensify_pilot_training_program",
+      "name": "Intensify Pilot Training Program",
+      "description": "To be competitve, our Air Force must be able to fly and fight in all circumstances. The best way to achieve this is to train our pilots to the very highest standard. What we might lack in numbers or technical sophistication we will make up with sheer skill.",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_transpolar_flights"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_expand_aviation_institutes",
+      "name": "Expand Aviation Institutes",
+      "description": "The biggest bottleneck to increasing the size of our air force is our capacity for pilot training. By expanding our pilot schools, we will lay the foundation for a bigger and more competent air force.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_expand_the_aircraft_industry",
+        "SOV_foster_flying_clubs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_ground_support",
+      "name": "Ground Support",
+      "description": "The primary mission of our air force must be the support of our ground forces. This fundamental fact must inform every decision made.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_increase_aircraft_production",
+        "SOV_intensify_pilot_training_program"
+      ],
+      "mutuallyExclusive": [
+        "SOV_long_range_aircraft"
+      ],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_long_range_aircraft",
+      "name": "Long Range Aircraft",
+      "description": "Technology has advanced to the point where our bombers can reach every point in the enemy's homeland and can destroy their capacity for making war in short order. The army exists primarily to hold the line until this is accomplished.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_increase_aircraft_production",
+        "SOV_intensify_pilot_training_program"
+      ],
+      "mutuallyExclusive": [
+        "SOV_ground_support"
+      ],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_the_modern_war_in_the_skies",
+      "name": "The Modern War In the Skies",
+      "description": "Aerial Warfare has come a long way since the days of biplanes duelling over the trenches. Today, it is industrial in nature, with a high operational tempo to maintain pressure on the enemy around the clock. We must acknowledge this fact and plan accordingly.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_ground_support",
+        "SOV_long_range_aircraft"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_expand_the_red_fleet",
+      "name": "Expand the [GetSovietArmyAdjectiveBasedOnIdeology] Fleet",
+      "description": "[GetExpandTheRedFleetDesc]",
+      "x": 6,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_torpedo_bombers",
+      "name": "Torpedo Bombers",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_expand_the_red_fleet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_reinforce_western_naval_bases",
+      "name": "Reinforce Western Naval Bases",
+      "description": "The Baltic Fleet is very exposed in its bases. We should invest some resources into protecting its anchorages and improve its repair capacities.",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_expand_the_red_fleet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_reinforce_northern_naval_bases",
+      "name": "Reinforce Northern Naval Bases",
+      "description": "Despite being located north of the Arctic circle, Murmansk is ironically our only port that remains ice-free the entire year and has access to the open oceans. We should develop it further to allow better access to the rest of the world.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_expand_the_red_fleet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_reinforce_southern_naval_bases",
+      "name": "Reinforce Southern Naval Bases",
+      "description": "The Black Sea might look like a secondary theater. But if we lose control over it, we will open up our entire southern territories up to enemy invasion, as happened in the Crimean War. We must not let this happen again, and should strengthen the naval bases in the region.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_expand_the_red_fleet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_reinforce_eastern_naval_bases",
+      "name": "Reinforce Eastern Naval Bases",
+      "description": "Even after the humiliation of 1905, the Japanese have not stopped making noises about encroaching on our territories. We must be ready for war against them, and that means strengthening our naval bases in the region.",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_expand_the_red_fleet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_expand_shipbuilding_plants",
+      "name": "Expand Shipbuilding Plants",
+      "description": "Our geography forces us to have widely spread out shipyards to support our various fleets. Any attempt at increasing our shipbuilding capacity therefore has to be spread out as well.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_expand_the_red_fleet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_merge_naval_plants",
+      "name": "Merge Naval Plants",
+      "description": "Naval construction and ship design is a time-consuming process, in which excessive competition is simply inefficient. We should merge our design bureaus to eliminate this waste of effort.",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_pc_of_the_ussr_navy",
+        "SOV_expand_shipbuilding_plants"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_pc_of_the_ussr_navy",
+      "name": "[GetPcOfTheUssrNavyName]",
+      "description": "With our Navy becoming more modern and more capable, it is time to recognize it as a combat arm that is equal to the Army in importance. The first step is to allow the Navy to form an administration separate from the Army.",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_expand_the_red_fleet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_surface_warfare",
+      "name": "Surface Warfare",
+      "description": "Capital ships require a significant investment of time and resources, and often end up being obsolete before they are even finished building. Smaller vessels can be built much faster and consequently can keep pace with technological developments much easier. We should focus on developing our light forces as the primary arm of naval warfare.",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_pc_of_the_ussr_navy"
+      ],
+      "mutuallyExclusive": [
+        "SOV_submarine_warfare"
+      ],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_submarine_warfare",
+      "name": "Submarine Warfare",
+      "description": "Submarines offer significant advantages in naval combat. A well-designed modern submarine is practically undetectable before it fires its torpedoes, potentially crippling a capital ship many times its size and cost. We should focus on devloping these vessels as the main offensive power of our navy.",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_pc_of_the_ussr_navy"
+      ],
+      "mutuallyExclusive": [
+        "SOV_surface_warfare"
+      ],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_offensive_maritime_strategy",
+      "name": "Offensive Maritime Strategy",
+      "description": "We can not afford to sit back and wait for the enemy to come to us. We must take the initiative and attack the enemy wherever we can.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_surface_warfare"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_an_oceangoing_navy",
+      "name": "An Oceangoing Navy",
+      "description": "$SOV_ocean_going_navy_desc$",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_surface_warfare",
+        "SOV_submarine_warfare"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_mine_warfare",
+      "name": "Mine Warfare",
+      "description": "It is uneconomic to try and defend our entire coastline with ships. By laying minefields in strategic locations we can deter or at least damage any enemy fleet trying to close to our coasts.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_surface_warfare",
+        "SOV_submarine_warfare"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_long_range_raiders",
+      "name": "Long Range Raiders",
+      "description": "With the distance from our naval bases to the main shipping lanes, our current submarines will find difficult to reach the rich hunting grounds. We should develop longer-ranged submarines to ensure we can attack our enemies where it hurts the most.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_submarine_warfare"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_advanced_maneuvers",
+      "name": "Advanced Maneuvers",
+      "description": "Having large and modern ships is pointless if their crews have no idea of how to use them. We must institute regular, large-scale naval exercises to train our crews and officers in modern naval warfare.",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_expand_shipbuilding_plants",
+        "SOV_an_oceangoing_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_expand_the_morskaya_aviatsiya",
+      "name": "Expand the Morskaya Aviatsiya",
+      "description": "Airplanes have already changed the nature of land warfare dramatically. In the future, they will pose significant dangers to even the most modern surface ships. We should ensure that we will always have a modern naval aviation arm to support our other vessels.",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_expand_shipbuilding_plants"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_expand_the_repair_yards",
+      "name": "Expand The Repair Yeards",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_expand_the_red_fleet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_naval_infantry",
+      "name": "Naval Infantry",
+      "description": "[GetNavalInfantryDesc]",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_expand_shipbuilding_plants"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_found_the_pcdi",
+      "name": "[GetFoundThePcdiName]",
+      "description": "[GetFoundThePcdiDesc]",
+      "x": 15,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_soviet_Tanks",
+      "name": "Tankograd",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_found_the_pcdi"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_superior_war_machines",
+      "name": "Superior War Machines",
+      "description": "Tanks and armored vehicles have developed significantly over the past decade. With a large armaments industry to produce and supply them, we can create superior vehicles and employ them in mass against the enemy.",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_soviet_Tanks"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_the_means_to_wage_war",
+      "name": "The Means to Wage War",
+      "description": "While the planes, guns and tanks in the army often attract the highest attention and look best on parades, the common soldier cares a lot more about the quality of his rifle and the comfortability of his boots. We have to acknowledge that these things are at least as important to waging war as any fighter plane or heavy howitzer.",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_soviet_Tanks",
+        "SOV_military_engineering_university"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_soviet_artillery",
+      "name": "[ROOT.GetAdjective] Artillery",
+      "description": "Today's wars are won through the scientific application of firepower in the right spots. We will focus our efforts on developing not just better guns, but also how to employ them in as effective a manner as possible.",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_soviet_Tanks"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_Katyusha",
+      "name": "Katyusha",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_soviet_artillery"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_pc_of_mortar_armament",
+      "name": "[GetPcOfMortarArmamentName]",
+      "description": "The humble mortar is quickly becoming the main form of indirect fire support for our units. We must therefore endeavour to produce as many mortars of all sizes as possible, and form a government agency whose only purpose is to do just that.",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_the_means_to_wage_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_development_of_tankograd",
+      "name": "Development of Tankograd",
+      "description": "Our country stretches over vast distances, which make it impractical to ship sub-components from factory to factory. We should instead integrate our tank factories vertically - steel goes in on one end, finished tanks come out the other end.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_soviet_Tanks"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_merge_tank_and_materiel_plants",
+      "name": "Merge Tank and Materiel Plants",
+      "description": "Tanks and artillery is probably the best suited for mass-production, making use of economy of scale. We should therefore force a consolidation of tank and material producers to capitalize on this.",
+      "x": -2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_development_of_tankograd",
+        "SOV_soviet_artillery",
+        "SOV_the_means_to_wage_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_unleash_the_bear",
+      "name": "Unleash The Bear",
+      "description": "The time is now, the germans are relentless. We must unleash the full might and anger of the Russian Bear!",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_merge_tank_and_materiel_plants"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_strengthen_the_mobilization_plan",
+      "name": "Strengthen the Mobilization Plan",
+      "description": "Our biggest military advantage has always been the vastness of our country and the amount of people living in it. But when it comes to getting soldiers to the front, these two things can work against each other. We have to continuously improve and update our mobilization plans to ensure that in the event of war, we can concentrate our forces quickly.",
+      "x": 10,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_Operation_Unthinkable",
+      "name": "Operation Unthinkable",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 0,
+      "prerequisites": [
+        "SOV_strengthen_the_mobilization_plan",
+        "SOV_the_path_of_marxism_leninism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_military_engineering_university",
+      "name": "Military Engineering University",
+      "description": "While many are proclaiming the end of trench warfare following the development of the tank and airplane, it is clear that military engineering still has a place on the modern battlefield. We should form an institute to study modern methods of constructing modern field fortifications.",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_found_the_pcdi",
+        "SOV_strengthen_the_mobilization_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_leningrad_polytechnical_institute",
+      "name": "[195.GetName] Polytechnical Institute",
+      "description": "As our foremost engineering school, the [195.GetName] Polytechnical Institute has long provided our country with engineers and industrial designers. We should expand it further to ensure that we will always have the best people available to fill any new positions in our growing industries.",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_military_engineering_university"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_soviet_atomic_bomb_project",
+      "name": "[ROOT.GetAdjective] Atomic Bomb Project",
+      "description": "We know that scientists in other countries are hard at work to develop methods to turn the most fundamental forces in the universe into a new form of weapon. While we are behind, we can use their work to advance our own, and ensure the parity of destruction remains.",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_leningrad_polytechnical_institute"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_move_industry_to_the_urals",
+      "name": "Move Industry To the Urals",
+      "description": "War has come to us, and the homeland is under threat. While our forces will fight to the last bullet without giving a foot of ground, we can not ensure that this will be enough, given the forces arrayed against us. We must evacuate factories to safety before they are overrun.",
+      "x": -3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_military_engineering_university"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_the_road_of_life",
+      "name": "The Road of Life",
+      "description": "With several of our cities threatened and under siege, we must focus on getting the fighting forces in those places the support they need to hold out, whatever the cost may be.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_leningrad_polytechnical_institute",
+        "SOV_move_industry_to_the_urals"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_improve_the_stalin_line",
+      "name": "[GetImproveTheStalinLineName]",
+      "description": "Our western border is far too long to fortify in its entirety. But we can build a set of fortifications that funnels any enemy attack into predictable areas, where we can easily counter-attack them with massed forces.",
+      "x": 6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_military_engineering_university"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_impregnable_forts",
+      "name": "Impregnable Forts",
+      "description": "[ROOT.GetAdjective] engineering is now able to create truely fearsome fortifications, easily capable of standing up to even the heaviest bombardment and nearly impossible to take in an assault. With extensive stocks of ammunition and supplies, these forts would hold out against enemy attack for years, if necessary.",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_Kursk_defence_parimiter",
+        "SOV_the_kiev_protocol"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_the_defense_of_moscow",
+      "name": "The Defense of Moscow",
+      "description": "The enemy is standing on the gates of Moscow. This is the place to make our stand and throw them into retreat and into defeat, like we did with Napoleon!",
+      "x": 0,
+      "y": 2,
+      "cost": 2,
+      "prerequisites": [
+        "SOV_impregnable_forts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_fortress_leningrad",
+      "name": "Fortress Leningrad",
+      "description": "We need to make Leningrad an impregnable fortress !",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "SOV_impregnable_forts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_fortress_stalingrad",
+      "name": "Fortress Stalingrad",
+      "description": "We need to make Stalingrad an impregnable fortress !",
+      "x": 2,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "SOV_impregnable_forts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_Vyzhzhennaya_zemlya",
+      "name": "Vyzhzhennaya Zemlya",
+      "description": "",
+      "x": 5,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_far_east_fortification",
+        "SOV_improve_the_stalin_line"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_scorched_earth",
+      "name": "Scorched Earth",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_Vyzhzhennaya_zemlya"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_the_kiev_protocol",
+      "name": "The Kiev Protocol",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_military_engineering_university"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_Kursk_defence_parimiter",
+      "name": "Kursk Defence Parimiter",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_military_engineering_university"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_protect_the_white_sea_baltic_canal",
+      "name": "Protect the White Sea - Baltic Canal",
+      "description": "The canal between the Baltic Sea and the White Sea is a marvel of modern engineering and can not be allowed to fall into enemy hands.",
+      "x": 5,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_improve_the_stalin_line",
+        "SOV_far_east_fortification"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_far_east_fortification",
+      "name": "Far East Fortification",
+      "description": "Ever since the war with Japan in 1905, we have kept a weary eye on the region. It is no secret that elements of the Japanese military look at our far-eastern holdings with unashamed greed. We must prepare for a confrontation in that region, and have to take steps to slow down any enemy attack to gain time to deploy forces from western Russia into the region.",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_military_engineering_university"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_restore_cossack_units",
+      "name": "Restore Cossack Units",
+      "description": "In the hour of need, the motherland does not ask details about who wants to serve to defend it. Anyone willing to bear arms against the invader is welcome, and will be employed to the best of their abilities.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_strengthen_the_mobilization_plan"
+      ],
+      "mutuallyExclusive": [
+        "SOV_cohesion_first"
+      ],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_cohesion_first",
+      "name": "Cohesion First",
+      "description": "The last thing we need in this situation is to reduce our standards. Anyone who wants to serve in the military is welcome - but they will serve in existing units, and trained to proper military standards.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_strengthen_the_mobilization_plan"
+      ],
+      "mutuallyExclusive": [
+        "SOV_restore_cossack_units"
+      ],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_rehabilitated_military",
+      "name": "Rehabilitated Military",
+      "description": "[GetRehabilitatedMilitaryName]",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_strengthen_the_mobilization_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_military_reorganization",
+      "name": "Military Reorganization",
+      "description": "Our attempts to build a large mechanized army were noble, but more than we could afford. To win this war, we will have to focus on the arms that have carried Russian armies to victory for centuries: the Infantry and the Artillery. This will necessarily require us to disrupt the existing formations to a degree.",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_rehabilitated_military"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_desperate_measures",
+      "name": "Desperate Measures",
+      "description": "In this desperate situation, we must take measures we had previously thought impossible. Anything that can be done to stem the invasion must be done.",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_strengthen_the_mobilization_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_an_adaptable_army",
+      "name": "An Adaptable Army",
+      "description": "This war is stretching across several climate zones and many varied terrains. We must be able to fight in every terrain and no matter the weather if we want to win this war.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_rehabilitated_military",
+        "SOV_desperate_measures"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_lessons_of_war",
+      "name": "Lessons of War",
+      "description": "Whatever plans we had before the war have largely not survived contact with the enemy. We must be open to the lessons this war is teaching us, and not stick to outdated dogma. Only then can we stop our retreat and start to go back on the offensive.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_rehabilitated_military",
+        "SOV_desperate_measures"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_raise_the_siberian_army",
+      "name": "Raise The Siberian Army",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_lessons_of_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_penal_battalions",
+      "name": "Penal Battalions",
+      "description": "During the retreats, many otherwise capable soldiers have shamed themselves by retreating before the position was lost, or by otherwise acting against the good conduct of our army. But in this situation, simply imprisoning or executing them would deprive us of very capable fighters. We should form special units in which these people can redeem themselves through combat.",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_desperate_measures"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_organization_of_the_partisans",
+      "name": "Organization of the Partisans",
+      "description": "After being overrun, many soldiers left behind enemy lines choose to continue the fight instead of humiliating captivity. Together with the peasants and workers of the occupied territories, they have continued the fight against the invader. We must send them support so they can tie down even more enemy units.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_lessons_of_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_the_maquis2",
+      "name": "The Maquis",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_organization_of_the_partisans"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_reach_out_to_trade_unions2",
+      "name": "Work with the Trade Unions",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_the_maquis2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_cooperation_with_the_communists2",
+      "name": "Mobilise the Communist Partisans",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_the_maquis2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_the_civil_and_military_organization2",
+      "name": "Make our Soldiers and Civilians Indistinguishable",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_cooperation_with_the_communists2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_national_council_of_the_resistance2",
+      "name": "Death to the German Invaders",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_the_civil_and_military_organization2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_smersh",
+      "name": "SMERSH",
+      "description": "We must make it clear to every single citizen that spies and enemy agents are present everywhere, and that any idle talk can give the enemy a crucial piece of information that gives them an advantage.",
+      "x": 4,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_desperate_measures"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_barrier_troops",
+      "name": "Barrier Troops",
+      "description": "Battle is often chaotic, and it is understandable that sometimes soldiers lose contact with higher headquarters. We should institute units well behind the front who collect these stragglers and point them back towards the fighting - and arrest any who betray their comrades by trying to avoid their duty.",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_desperate_measures"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_experts_in_camouflage",
+      "name": "Experts in Camouflage",
+      "description": "To achieve and maintain the element of surprise, we must make absolutely sure that the enemy does not spot our troop positions or movements until it is too late. Every soldier must be trained in the art of camouflage.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_rehabilitated_military"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_human_waves",
+      "name": "Human Waves",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_experts_in_camouflage"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_human_waves2",
+      "name": "Human Waves2",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_human_waves"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_human_waves3",
+      "name": "Human Waves3",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_human_waves2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_keep_commissars_organization",
+      "name": "Keep Commissars Organization",
+      "description": "Even in our new organisation, there is a need for people to ensure that the army remains absolutely loyal to the government. If the soldiers lose their trust in the government, we will lose this war and we will lose it quickly.",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_rehabilitated_military",
+        "SOV_lessons_of_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_adjoined_battle_priests",
+      "name": "Adjoined Battle Priests",
+      "description": "With its power and influence recently increasing in the country, the time may have come to allow the Church to become involved in military matters. Taking on the role of Battle Priests within our military units, the clergy will make sure that the troops know that God is on our side, which will potentially increase morale and make the common soldier fight more fervently for their country.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_military_reorganization",
+        "SOV_lessons_of_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_swap_to_political_advisors",
+      "name": "Military Political Advisors",
+      "description": "Our war is not merely a contest between nations about resources. it is a contest of political systems. While we shouldn't let political considerations dictate military decisions, we still have to ensure that these political considerations are accounted for when the decision is reached.",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_military_reorganization",
+        "SOV_lessons_of_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_the_glory_of_the_red_army",
+      "name": "The Glory of the [GetSovietArmyAdjectiveBasedOnIdeology] Army",
+      "description": "We have successfully held out against the enemy onslaught. Now is the time to go on the offensive, and carry the war back to where it came!",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_keep_commissars_organization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_the_glory_of_the_red_army_alt",
+      "name": "$SOV_the_glory_of_the_red_army$",
+      "description": "$SOV_the_glory_of_the_red_army_desc$",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_keep_commissars_organization",
+        "SOV_swap_to_political_advisors",
+        "SOV_adjoined_battle_priests"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_the_path_of_marxism_leninism",
+      "name": "The Path of Marxism Leninism",
+      "description": "The infallible teachings of Marx, Engels and Lenin have lifted our nation from deepest backwardness to technological and industrial equality. It would be the deepest folly to change direction now. The invincible banner of the worker's liberation marches ever onwards!",
+      "x": 12,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_the_centre",
+      "name": "The Centre",
+      "description": "Comrade Stalin has been the greatest fighter for our nation. We should leave the future of the revolution in his more than capable hands.",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_the_path_of_marxism_leninism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_socialism_in_one_country",
+      "name": "Socialism in One Country",
+      "description": "While world revolution remains our ultimate goal - and is indeed scientifically proven to be inevitable - we must first secure Socialism in our country, lest the worker's liberation in other parts of the globe be delayed because we were defeated.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_the_centre"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_the_stalin_constitution",
+      "name": "The Stalin Constitution",
+      "description": "The constitution of 1924 was a good attempt at organizing a state following the Civil War, but it has served its purpose. A new constitution is needed. Primarily, we much acknowledge the tireless work of Comrade Stalin in keeping the Union strong and safe and whose genius and wisdom has been instrumental in leading the cause of communism forward.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_the_centre"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_the_zinovyevite_terrorist_center",
+      "name": "The Zinovyevite Terrorist Center",
+      "description": "The assassination of Comrade Kirov in 1934 shows that there are members of the party who are clearly plotting against Comrade Stalin and the Union as a whole. We have obtained confessions from several co-conspirators, implicating several more people. This Zinovyevite plot - no doubt organised by Trotsky or western agents, possibly working together - must be cut out, like a cancer, before it spreads.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_the_centre"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_secure_the_administration",
+      "name": "Secure the Administration",
+      "description": "With the shock of the confessions of the terrorist Zinovyev and his allies, we must ask questions about the loyalties of other members of the party. It is imperative that we know where each member of the Politbureau stands.",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_the_zinovyevite_terrorist_center"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_the_collectivization_process",
+      "name": "The Collectivization Process",
+      "description": "While a lot of work remains to be done, and though it has been badly misshandled in some regions, the process of collectivizing the farms in the Soviet Union is almost complete, and will soon yield increased production from the agricultural sector.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_the_centre",
+        "SOV_secure_the_administration"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_the_anti_soviet_trotskyist_center",
+      "name": "The Anti-Soviet Trotskyist Center",
+      "description": "Our investigation into the Zinovyevite plot has revealed that there is a large network of anti-soviet terrorists in our administration. Some members are not even fully aware of who they are helping! This conspiracy must be rooted out, and drastic measures may have to be taken to achieve this.",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_the_zinovyevite_terrorist_center"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_the_workers_dictatorship",
+      "name": "The Workers' Dictatorship",
+      "description": "All power in our Union must ultimately rest with the workers. We can not afford to splinter into factionalism, and must therefore ensure that the will of the workers is always expressed in the decisions of the Politbureau.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_the_anti_soviet_trotskyist_center"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_organization_centralization_discipline",
+      "name": "Centralization and Discipline",
+      "description": "In this time of uncertainty, the people look to the Politbureau for stability and guidance. We must ensure that this organ of decision making is not only supportive of, but united behind, the decisions of Comrade Stalin.",
+      "x": -2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_the_anti_soviet_trotskyist_center",
+        "SOV_the_collectivization_process"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_the_military_conspiracy",
+      "name": "The Military Conspiracy",
+      "description": "The Trotskist plot in our country has reached the military. We now have evidence that leading Generals and even Marshalls have conspired with foreign intelligence services to overthrow the government! We can not allow officers whose loyalties are even mildly suspect to remain in positions where they can weaken our military even further.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_the_anti_soviet_trotskyist_center"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_the_bloc_of_rights_and_trotskyites",
+      "name": "The Bloc of Rights and Trotskyites",
+      "description": "At last, we have reached the very heart of the conspiracy in our midst. Nikolai Bukharin was in fact a member of the Trotskist-Zinovievite bloc, and was most likely the leader of the people inside the government who attempted to execute a counter-revolution. We now have irrefutable proof of this, and in one last trial, we can expose these facts to the light.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_the_military_conspiracy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_behead_the_snake",
+      "name": "Behead the Snake",
+      "description": "It has become absolutely clear that the Union will not be safe until the threat of a Trotskist coup is fully banished. While it would be good to put Trotsky on trial to expose his anti-soviet activities, we do not have that luxury. Our only option is to assassinate him, to deprive the plot against the government of its leader and prime instigator.",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_the_military_conspiracy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_stalins_cult_of_personality",
+      "name": "Stalin's Cult of Personality",
+      "description": "Following the exposure of the shocking plot against the Union, it is obvious that it was only Comrade Stalin's clear-sighted leadership that prevented a descent into civil war or worse. Every single Soviet citizen, and indeed every member of the global working class, owes Comrade Stalin eternal gratitude for his tireless work in defending the revolution.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_the_bloc_of_rights_and_trotskyites"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_inheritor_of_the_mantle_of_lenin",
+      "name": "Inheritor of the Mantle of Lenin",
+      "description": "Comrade Stalin has always been Lenin's closest companion and most trusted disciple. As the most faithful follower of Lenin's teachings, it is only natural that he should inherit the heavy duty of guiding the nation towards Communism as well as preparing for the inevitable global worker's revolution.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_stalins_cult_of_personality"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_brilliant_genius",
+      "name": "Brilliant Genius",
+      "description": "Unquestionably the most brilliant man alive, Comrade Stalin will guide our nation to new heights of scientific development and will drive the progress of all humanity forwards in leaps and bounds.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_inheritor_of_the_mantle_of_lenin"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_the_faithful_servant_of_lenin",
+      "name": "The Faithful Servant of Lenin",
+      "description": "Lenin left us with the biggest task in world history: To build a society in which all people are truly equal, a society without oppression or suffering or material want. There can be no better man to execute that vision than Comrade Stalin, who was with Lenin every step of the way and who now stands ready to deliver the promise that was made in the revolution.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_stalins_cult_of_personality"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_ban_excessive_hero_worship",
+      "name": "Ban Excessive Hero Worship",
+      "description": "There has been a trend of publishing fanciful and wildly exaggerated accounts of Comrade Stalin's private life and his childhood. However well-intentioned, these accounts are counter-revolutionary and seek to establish a cult of heroism in the minds of the Soviet people, and seeks to replace a vigorous study of the theories of Comrade Stalin with mere blind idolatry.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_the_faithful_servant_of_lenin"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_leader_of_the_party_and_the_people",
+      "name": "Leader of the Party and the People",
+      "description": "Comrade Stalin has performed his heavy tasks with dilligence and skill, and enjoys the unreserved and undivided support of both the party and the people. Any hint of vanity or self-adulation is foreign to him; he is perhaps the most humble person alive.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_inheritor_of_the_mantle_of_lenin",
+        "SOV_the_faithful_servant_of_lenin"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_great_commander",
+      "name": "Great Commander",
+      "description": "The accomplishments of Comrade Stalin in military theory and leadership are too many to list. While the traitor Trotsky may have founded the Red Army, it was Comrade Stalin who turned it into an effective force to defend the accomplishments of the working class.",
+      "x": -1,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_inheritor_of_the_mantle_of_lenin"
+      ],
+      "mutuallyExclusive": [
+        "SOV_architect_of_communism"
+      ],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_architect_of_communism",
+      "name": "Architect of Communism",
+      "description": "Comrade Stalin's unwavering commitment to the ideals of the revolution have enabled him to see the challenges of building Socialism in One Country. With the work towards building Socialism well underway, he can turn towards the next big step: how to move from Socialism to full Communism.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_the_faithful_servant_of_lenin"
+      ],
+      "mutuallyExclusive": [
+        "SOV_great_commander"
+      ],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_father_of_nations",
+      "name": "Father of Nations",
+      "description": "Our Union is a great family of many different people, and every family needs a head. Comrade Stalin is that head, who ensures that its many children are educated in Socialist thought and who guides our efforts towards a bright future. Where he must be stern, he is stern, but he is always guided by a sense of justice and fairness.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_great_commander",
+        "SOV_the_construction_of_communism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_freedom_of_debate_unity_of_action",
+      "name": "Freedom of Debate - Unity of Action",
+      "description": "The complexities of governing a country and steering it on the right path are many, and so alternatives must be able to be discussed openly. Once a decision is reached, however, it is the duty of every member of the politbureau and indeed the entire party to support that decision without reservation.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_stalins_cult_of_personality"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_the_construction_of_communism",
+      "name": "The Construction of Communism",
+      "description": "The Construction of Communism will come with its own challenges and obstacles. With the Politbureau standing united behind Comrade Stalin, we can take the first steps to build Communism.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_freedom_of_debate_unity_of_action"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_addressing_internal_affairs",
+      "name": "Addressing Internal Affairs",
+      "description": "While the revolution still has many enemies around the world, and many millions of workers still long to be liberated, we must not forget to turn our eyes towards the many issues awaiting us at home.",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_the_path_of_marxism_leninism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_nkvd_primacy",
+      "name": "NKVD Primacy",
+      "description": "Until we can be sure that all enemies of the state are accounted for, we must continue to rely on the NKVD to protect the revolution.",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_addressing_internal_affairs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_the_new_soviet_woman",
+      "name": "The New Soviet Woman",
+      "description": "The political revolution brought freedom to millions of people in our Union, first among them the millions of women who are no longer confined to just being wifes and mothers, but who can now also stand as fully equal in the workplace as well.",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_addressing_internal_affairs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_expand_the_agitprop",
+      "name": "Expand the Agitprop",
+      "description": "To reach the millions of workers throughout our Union, we must speak their language. We must make our arguments simple and easily understandable, so that they remain in the memory of the common citizen. We should further expand our efforts in this area.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_addressing_internal_affairs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_positive_heroism",
+      "name": "Positive Heroism",
+      "description": "While all accomplishments by members of the working class are shared by all members of the working class, we can still point to individuals as examples that others should emulate.",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_expand_the_agitprop"
+      ],
+      "mutuallyExclusive": [
+        "SOV_collectivist_propaganda"
+      ],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_tank_production_plant",
+      "name": "Tank Production Plant",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_positive_heroism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_tanks_forwards",
+      "name": "Tanks Forwards",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_tank_production_plant",
+        "SOV_tank_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_back_to_berlin",
+      "name": "Back To Berlin",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_tanks_forwards"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_revive_the_stakhanovite_movement",
+      "name": "Revive the Stakhanovite Movement",
+      "description": "Cruel exploitation drives the worker in capitalist countries to push themselves harder and produce more for those who own the factories. In our country, workers like Alexey Stakhanov drive themselves further because they know that every extra brick laid, every extra ton of coal mined, every extra rivet put in place helps build a world in which the workers are free from exploitation forever.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_positive_heroism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_war_heroes",
+      "name": "War Heroes",
+      "description": "Russians have always been able and willing to perform deeds of extreme bravery in the cause of defeating any invader of the motherland. While we are united in our struggle against the enemy, we should not pretend that there aren't some soldiers in our military who have gone far beyond the call of duty.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_revive_the_stakhanovite_movement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_order_270",
+      "name": "Order 270",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_positive_heroism",
+        "SOV_collectivist_propaganda"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_no_step_back",
+      "name": "No Step Back",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_order_270"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_tank_focus",
+      "name": "Tank Specialisation",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_war_heroes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_collectivist_propaganda",
+      "name": "Collectivist Propaganda",
+      "description": "The many challenges facing us never face any citizen alone. All our struggles are shared struggles, consequently, all our achievements are shared achievements.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_expand_the_agitprop"
+      ],
+      "mutuallyExclusive": [
+        "SOV_positive_heroism"
+      ],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_socialist_emulation",
+      "name": "Socialist Emulation",
+      "description": "Under the capitalist system, workers must compete with one another in order to win their daily bread, while the factory owners profit from any improvements the workers make that leads to increased productivity. This is wasteful and inhumane. A socialist system will allow those who are not yet the best the support they need to develop their abilities by learning from those who excell.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_collectivist_propaganda"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_forces_in_arms",
+      "name": "Forces In Arms",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_collectivist_propaganda"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_socialist_realism",
+      "name": "Socialist Realism",
+      "description": "The road towards a bright Socialist future is long and often windy. Some people might even lose hope in that this goal can ever be achieved. We must show them exactly what they are working towards, by promoting an art style that shows what life in a socialist country would actually be like.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_socialist_emulation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_inf_focus",
+      "name": "Infantry Specialisation",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_socialist_realism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_the_komsomol",
+      "name": "The Komsomol",
+      "description": "We are not building Socialism for the adults of today, we are building it for the children and the generations not yet born. They must be taught how to improve and build on the achievements we will make, so that they can complete the work that we have started. We should form a special youth organisation that not only educates them but that also teaches them how to be good, communist members of society.",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_expand_the_agitprop"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_promise_to_liberate_warsaw",
+      "name": "Promise to Liberate Warsaw",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_the_komsomol"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_patriarch_of_all_russia",
+      "name": "Patriarch of All Russia",
+      "description": "While there is little reason for backwards superstition in an enlightened, Communist society, we must also acknowledge that many people have found strength and comfort in their faith during difficult times. Building a new kind of society is not short on difficulties, and so perhaps we should allow these religious institutions to continue to function, so long as they remain loyal to the state.",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_tank_focus",
+        "SOV_inf_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_udarnyye_armii",
+      "name": "Udarnyye Armii",
+      "description": "",
+      "x": -1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_forces_in_arms",
+        "SOV_inf_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_liberate_the_motherland",
+      "name": "Liberate The Motherland",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_udarnyye_armii"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_sphere_of_influence",
+      "name": "Sphere Of Influence",
+      "description": "",
+      "x": 17,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_the_path_of_marxism_leninism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_the_comintern",
+      "name": "The Comintern",
+      "description": "The struggle for the worker's liberation is not limited to any country; it is a global struggle. We must extend aid to comrades in any of the nations of the world, and fight the forces of reaction and counter-revolution wherever they may be found.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_sphere_of_influence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_development_aid_for_eastern_allies",
+      "name": "Development Aid For Eastern Allies",
+      "description": "For centuries, western Imperialism and Colonialism have brutally exploited the countries in Asia. A modest investment from us would enable our allies in Asia to resist further capitalist encroachment that much more effectively.",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_the_comintern"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_support_the_spanish_communists",
+      "name": "Support the Spanish Communists",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "SOV_the_comintern"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_lessons_of_spanish_civil_war",
+      "name": "Lessons Of Spanish Civil War",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_support_the_spanish_communists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_policy_of_collective_security",
+      "name": "Policy of Collective Security",
+      "description": "While they are capitalist and often reactionary, the democratic governments across Europe know that the fascists consider them weak and degenerate. If war comes, they would be the first to fall before the full fury of fascism is turned against the home of the revolution. Those politicians far-sighted enough to recognize this should know that they will find a sympathetic ear in Moscow.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_the_comintern"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_anti_fascist_policies",
+      "name": "Anti-Fascist Policies",
+      "description": "There can be no peaceful co-existence with the fascists. We should reach out to any allies we can find and prepare for the inevitable confrontation.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_policy_of_collective_security"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_eradicate_western_fascism",
+      "name": "Eradicate Western Fascism",
+      "description": "We can not wait until the fascist regimes in western Europe deign to attack us at the moment of their choosing. The best way to deal with fascists is to hit first, and to hit hard.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_anti_fascist_policies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_the_fight_for_the_pacific",
+      "name": "The Fight For the Pacific",
+      "description": "No matter our strength on land, we will have to cross water to get to grips with our enemies in the Pacific region. We must therefore develop our coastal infrastructure and ship-building industry before we can wage effective war in that area of the world.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_merge_naval_plants"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_baltic_security",
+      "name": "Baltic Security",
+      "description": "The fate of the countries around the Baltic Sea is closely linked with ours. We can not allow a hostile government at our borders.",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_the_comintern"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_claims_in_baltic",
+      "name": "Claims in Baltic",
+      "description": "The Baltic States were once an indivisible part of Russia. Their people need the protection of a large state that can defend them from exploitation. If the Baltic States don't agree to these terms, we might have to resort to force to ensure our protection.",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_the_comintern"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_prepare_secure_leningrad",
+      "name": "Prepare Secure Leningrad",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_claims_in_baltic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_secure_leningrad",
+      "name": "Secure [195.GetName]",
+      "description": "Our current border with Finland is far too close to [195.GetName] for comfort. A surprise attack from Finland could reach the city in a few hours. The location also makes it very easy to blockade our Baltic Fleet. This is an unacceptable state of affairs, and we must make this clear to the Finnish government.",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SOV_prepare_secure_leningrad"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_take_lithuania",
+      "name": "Take Lithuania",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_claims_in_baltic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_develop_baltics",
+      "name": "Develop Baltics",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_claims_in_baltic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_develop_karjala",
+      "name": "Develop Karjala",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_develop_baltics"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_claim_on_bessarabia",
+      "name": "Claim on Bessarabia",
+      "description": "In 1918, the Romanians shamelessly capitalized on our internal troubles and annexed Bessarabia. It is time to remind them that they hold land that legally belongs to us, and if they are unwilling to restore the correct borders, we will force them out through military means.",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_claims_in_baltic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_develop_bessarabia",
+      "name": "Develop Bessarabia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_claim_on_bessarabia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_lessons_from_Khalkhin_Gol",
+      "name": "Lessons From Khalkhin Gol",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_development_aid_for_eastern_allies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_mongolia_our_strongest_ally",
+      "name": "Mongolia, Our Strongest Ally",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_lessons_from_Khalkhin_Gol"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_the_left_opposition",
+      "name": "The Left Opposition",
+      "description": "It is clear that the Soviet Union has deviated from its promised path. Now there is even talk of building Socialism in one country, abandoning the workers of the world to their fate instead standing in solidarity with them. If Comrade Stalin won't act, others certainly will.",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_the_supreme_soviet",
+      "name": "The Supreme Soviet",
+      "description": "Having a single person represent an entire country is inherently undemocratic and therefore counter-revolutionary. Instead, we will do away with such cultish behavior, and declare that our union will forever be represented by the collective will of the people, assembled in the Supreme Soviet.",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_reconvene_the_zemsky_sobor",
+      "name": "Reconvene the Zemsky Sobor",
+      "description": "In ages past, the Russian people would assemble in a form of parliament, called the Zemsky Sobor, to discuss matters and decide issues. Until we have decided on what path to take our country on, we should let the people decide what concerns them all.",
+      "x": 4,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_align_the_zinovyevites",
+      "name": "Align the Zinovyevites",
+      "description": "$SOV_grigory_zinovyev$ once sided with Stalin against Trotsky. Immediately afterwards, Stalin betrayed him and removed him from any position of power. He won't have forgotten that slight, and if we give $SOV_grigory_zinovyev$ the opportunity for revenge, he will take it.",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_the_fourth_international",
+      "name": "The Fourth International",
+      "description": "The Stalinist puppets in the so-called Third International have proven themselves to be utterly incapable of carrying the revolution forward. Their vision of Communism has little to do with the theories written down by Marx and Lenin, and instead perverts the dream of a democratically controlled worker's state into a dystopian nightmare. What we need is a new International that will defend the revolution!",
+      "x": -4,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_the_gobi_gambit",
+      "name": "The Gobi Gambit",
+      "description": "While the conflict between Japan and China is heating up, there is an opportunity for us to seize the area around the Gobi desert, to give us a say in the future of China and a seat at the table.",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_claims_on_poland",
+      "name": "Claims on Poland",
+      "description": "Poland holds territories that have been Russian for centuries, splitting Ukraine and Belarus between our nations. This is an unacceptable state of affairs. They may have bested us in 1921, but we should remind them that times have changed.",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_covert_support_for_spanish_poum",
+      "name": "Covert Support for Spanish POUM",
+      "description": "In Spain, the counter-revolution is in full swing. Fascists and reactionary forces are supporting the Spanish Nationalists. While the Spanish Republicans have plenty of zeal, this is unfortunately not a substitute for guns and ammo, nor is it a substitute for having a well-developed political consciousness. We can provide all three.",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_coup_detat",
+      "name": "Coup d'etat",
+      "description": "The hour has come to take charge of the country. If all goes well, we will strike fast and take out the biggest obstacles in a bloodless coup. If things don't go well, we will have to fight for our country.",
+      "x": 0,
+      "y": 3,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_liberation_of_the_european_proletariat",
+      "name": "Liberation of the European Proletariat",
+      "description": "The spineless bourgeois governments in western Europe have shown utterly unwilling to stand up to fascism. In the great struggle between fascism and communism that is to come, they won't play a role. The workers in those countries, however, are willing to fight with us against the scourge of fascism. We just have to give them governments that are willing to fight.",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_the_southern_thrust",
+      "name": "The Southern Thrust",
+      "description": "Our southern border is a wide open flank from which enemies can exploit any weakness. We can not tolerate this, nor can we wait for peaceful change in the region.",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_integrate_smirnovs_bloc",
+      "name": "Integrate Smirnov's Bloc",
+      "description": "We have a handful of old Trotskyist, who have been arrested recently and put in prison for their opposition to Stalinist oppression. With a few well-chosen words to the right ears, we could see them released and sent into exile, where they can organize while being safe from Political Paranoia. They won't forget who helped them escape.",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_rebuild_the_far_eastern_fleet",
+      "name": "Rebuild the Far Eastern Fleet",
+      "description": "If we are to secure our Far Eastern interests, much less go on the offensive, we must drastically expand our shipbuilding and repair capacity in this region.",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_memories_of_1905",
+      "name": "Memories of 1905",
+      "description": "The war of 1905 is still a black mark in our people's collective memory. We must exploit this, and exhort the workers in a monumental effort to create a new fleet with which we may dominate the Pacific - and fan the flames of their hatred so that they will call for its use to exact our vengeance against our old enemies.",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_eastern_expansion",
+      "name": "Eastern Expansion",
+      "description": "Russia's Future lies in the East. After we have tamed Siberia, it is only fitting that we should endeavor to gain even more land and resources here.",
+      "x": 5,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_the_right_opposition",
+      "name": "The Right Opposition",
+      "description": "Stalin's paranoid leadership is destroying the country. His shift to massed collectivizing and harsh industrialization even more so. Something must be done, and soon. The ones who can lead this country to glory, heal the wounds caused by mismanagement, and restore the economy, are the members of the Right opposition, led by Bukharin.",
+      "x": 15,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_reverse_the_collectivization_process",
+      "name": "Reverse the Collectivization Process",
+      "description": "The collectivizations have been an unmitigated catastrophe, creating poverty and famines in areas that were once the breadbasket of the nation. They must urgently be reversed.",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_beaten_but_not_defeated",
+      "name": "Beaten, but not Defeated",
+      "description": "It is clear that the Communists have led our once-proud country down a treacherous path. Sooner or later, the countries at our borders will sense the weakness inherent in the regime, and pounce. If we are to save our beloved motherland, we must remove the Communists from power!",
+      "x": 61,
+      "y": 0,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_gain_support_from_party_members",
+      "name": "Gain Support from Party Members",
+      "description": "Some of Stalin's puppets are so mainly because they are afraid. We should convince them that our plan will succeed, and that they can be heroes without really having to do much heavy lifting. There are ways...",
+      "x": 7,
+      "y": 1,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_funds_for_the_cause",
+      "name": "Funds for the Cause",
+      "description": "Having $SOV_lev_trotsky$ and others based abroad can certainly work to our advantage. We should organize socialist fundraising events around the world, and secretly try to convince governments to support us with arms at the same time.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_approach_semyonov",
+      "name": "Approach Semyonov",
+      "description": "$SOV_grigory_semyonov$ has taken up a position as advisor in [MAN.GetName]. With the cause growing stronger by the hour, we should convince him to return. His first task would be to organize a grand cavalry host for the new Russian Empire.",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_autonomous_soviet_republics",
+      "name": "Autonomous Soviet Republics",
+      "description": "In the years following the revolution, Stalinists have worked hard to remove regional identities and to suppress workers' self-determination in some regions of the union. The counter-revolutionary character of these actions is self-evident. If the workers in some Soviet republics wish for a greater degree of autonomy, we should grant it without hesitation.",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_two_red_flags",
+      "name": "Two Red Flags",
+      "description": "While the revolution has not quite succeeded in China, this is not unexpected. The country does not yet have the kind of industrialized society necessary for a proper socialist revolution. Still, the communist party represents the best chance for the Chinese people to achieve a communist future.",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_support_the_kuomintang",
+      "name": "Support the Kuomintang",
+      "description": "The Chinese communists are militarily weak and have no industrial base from which to build a bigger army. It is clear that the Kuomintang are the best suited to control China and create the kind of bourgeois society necessary as a precondition for a successful communist revolution.",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_the_permanent_revolution",
+      "name": "The Permanent Revolution",
+      "description": "Marxist theory teaches that the revolution is inevitable if the circumstances are right. However, the circumstances are clearly not right, or not right everywhere. We must not grow complacent and wait for a world revolution that may be centuries away. Workers and peasants around the world are suffering right now, today, and their liberation can not wait.",
+      "x": 0,
+      "y": 4,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_the_onslaught_on_colonialism",
+      "name": "The Onslaught on Colonialism",
+      "description": "Imperialism and colonial exploitation are vital parts of late-stage capitalism. Holding millions of people in servitude does, however, provide us with a gigantic revolutionary potential that we can easily exploit. The oppressed masses in the colonial empires yearn to breath free - and we will break their chains.",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_carry_revolution_east",
+      "name": "Carry the Revolution East",
+      "description": "The brutal exploitation of the African colonies has left those societies unable to develop to the level where the revolution can easily succeed. This is not the case with the more developed societies in Asia, where a large revolutionary potential exists and waits to be unleashed.",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_the_end_of_the_imperialist_era",
+      "name": "The End of the Imperialist Era",
+      "description": "Perhaps the most naked expression of imperialism lies in the so-called Monroe-Doctrine, with which one single country declares two entire continents their exclusive territory. This will not stand. The revolution will find a foothold in the Americas, and the workers of the western Hemisphere will at long last breathe free.",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_a_global_class_struggle",
+      "name": "A Global Class Struggle",
+      "description": "The fight to liberate the working class must be definition be a global struggle. As long as there is even one country supporting the capitalist system, the revolution isn't safe. Once the workers around the world realize that the revolution is once again on the march, they will flock to our banner and support us in our endeavours.",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_romanov_reconstruction",
+      "name": "Romanov Reconstruction",
+      "description": "At last our nation once more has a Tsar to lead it. Two decades after the persecution of the last rightful rulers of our country, it is now time to embrace our governing dynasty once more, and to do away with minor impediments to the execution of our Tsar's will.",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    },
+    {
+      "id": "SOV_slow_down_the_invaders",
+      "name": "Slow Down The Invaders",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SOV_strengthen_the_mobilization_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "soviet.txt",
+      "shared": false
+    }
+  ]
+}

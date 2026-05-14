@@ -1,0 +1,2590 @@
+{
+  "mod": "FUWG",
+  "tag": "DEN",
+  "country": "Denmark",
+  "treeId": "danish_focus",
+  "sourceFile": "denmark.txt",
+  "focusCount": 174,
+  "focuses": [
+    {
+      "id": "DEN_kanslergadeforliget",
+      "name": "Kanslergadeforliget",
+      "description": "",
+      "x": 5,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_devalue_the_krone",
+      "name": "Devalue The Krone",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_kanslergadeforliget",
+        "DEN_fortify_our_borders"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_trade_with_britain",
+      "name": "Trade With Britain",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_devalue_the_krone"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_trade_with_germany",
+      "name": "Trade With Germany",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_devalue_the_krone"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_agricultural_subsidies",
+      "name": "Agricultural Subsidies",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_kanslergadeforliget"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_industrial_investments",
+      "name": "Industrial Investments",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_kanslergadeforliget"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_support_schleswigian_farmers",
+      "name": "Support Schleswigian Farmers",
+      "description": "",
+      "x": -3,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_agricultural_subsidies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_public_works",
+      "name": "Public Works",
+      "description": "",
+      "x": -1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_agricultural_subsidies",
+        "DEN_industrial_investments"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_fortify_our_borders",
+      "name": "Fortify Our Borders",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_build_a_modern_dannevirke",
+      "name": "Build A Modern Dannevirke",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_fortify_our_borders"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_refortify_tunestillingen",
+      "name": "Refortify Tunestillingen",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_fortify_our_borders"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_secure_our_supply_lines",
+      "name": "Secure Our Supply Lines",
+      "description": "",
+      "x": 3,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_refortify_tunestillingen"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_fortify_the_islands",
+      "name": "Fortify The Islands",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_build_a_modern_dannevirke",
+        "DEN_refortify_tunestillingen"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_connect_the_islands",
+      "name": "Connect The Islands",
+      "description": "",
+      "x": 1,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_public_works",
+        "DEN_fortify_the_islands"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_expand_institut_for_teoretisk_fysik",
+      "name": "Expand Institut For Teoretisk Fysik",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_connect_the_islands"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_expand_the_industries",
+      "name": "Expand The Industries",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_expand_institut_for_teoretisk_fysik"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_aalborg_portland_cement_plant",
+      "name": "Aalborg Portland Cement Plant",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_expand_institut_for_teoretisk_fysik"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_support_the_faroes_industries",
+      "name": "Support The Faroes Industries",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_expand_the_industries",
+        "DEN_aalborg_portland_cement_plant"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_support_bornholms_industries",
+      "name": "Support Bornholms Industries",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_expand_the_industries",
+        "DEN_aalborg_portland_cement_plant"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_develop_greenland",
+      "name": "Develop Greenland",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_connect_the_islands"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_expand_the_ivittuut_mine",
+      "name": "Expand The Ivittuut Mine",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_develop_greenland"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_prospecting_new_sites",
+      "name": "Prospecting New Sites",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_develop_greenland"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_protect_greenland",
+      "name": "Protect Greenland",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_prospecting_new_sites",
+        "DEN_expand_the_ivittuut_mine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_reorient_production_lines",
+      "name": "Reorient Production Lines",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_connect_the_islands"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_danske_stalvalsevaerket",
+      "name": "Danske Stalvalsevaerket",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_reorient_production_lines"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_strengthen_military_industries",
+      "name": "Strengthen Military Industries",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_reorient_production_lines"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_protect_the_faroe_islands",
+      "name": "Protect The Faroe Islands",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_danske_stalvalsevaerket",
+        "DEN_strengthen_military_industries"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_protect_bornholm",
+      "name": "Protect Bornholm",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_danske_stalvalsevaerket",
+        "DEN_strengthen_military_industries"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_collaboration_government",
+      "name": "Collaboration Government",
+      "description": "",
+      "x": 18,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_seek_independence",
+      "name": "Seek Independence",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_collaboration_government"
+      ],
+      "mutuallyExclusive": [
+        "DEN_align_with_overlord"
+      ],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_sanction_sabotages",
+      "name": "Sanction Sabotages",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_seek_independence",
+        "DEN_align_with_overlord"
+      ],
+      "mutuallyExclusive": [
+        "DEN_pledge_allegiance"
+      ],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_form_the_danish_freedom_council",
+      "name": "Form The Danish Freedom Council",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_sanction_sabotages"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_arm_the_resistance",
+      "name": "Arm The Resistance",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_form_the_danish_freedom_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_escalate_the_sabotages",
+      "name": "Escalate The Sabotages",
+      "description": "",
+      "x": -1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_arm_the_resistance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_expand_the_resistance",
+      "name": "Expand The Resistance",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_arm_the_resistance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_declare_independence",
+      "name": "Declare Independence",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_escalate_the_sabotages",
+        "DEN_expand_the_resistance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_secure_danish_freedom",
+      "name": "Secure Danish Freedom",
+      "description": "",
+      "x": 0,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_declare_independence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_create_danforce",
+      "name": "Create Danforce",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_seek_independence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_rigid_training",
+      "name": "Rigid Training",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_create_danforce"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_buy_foreign_aircraft",
+      "name": "Buy Foreign Aircraft",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_rigid_training"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_strengthen_the_danish_brigades",
+      "name": "Strengthen The Danish Brigades",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_create_danforce"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_support_battalions",
+      "name": "Support Battalions",
+      "description": "",
+      "x": -1,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_strengthen_the_danish_brigades"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_expand_the_brigades",
+      "name": "Expand The Brigades",
+      "description": "",
+      "x": 1,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_strengthen_the_danish_brigades"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_establish_danske_flotille",
+      "name": "Establish Danske Flotille",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_create_danforce"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_buy_foreign_ships",
+      "name": "Buy Foreign Ships",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_establish_danske_flotille"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_align_with_foreign_powers",
+      "name": "Align With Foreign Powers",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_seek_independence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_intel_sharing",
+      "name": "Intel Sharing",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_align_with_foreign_powers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_ask_for_weapons",
+      "name": "Ask For Weapons",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_align_with_foreign_powers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_buy_allied_weapons",
+      "name": "Buy Allied Weapons",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_intel_sharing",
+        "DEN_ask_for_weapons"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_align_with_overlord",
+      "name": "Align With Overlord",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_collaboration_government"
+      ],
+      "mutuallyExclusive": [
+        "DEN_seek_independence"
+      ],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_seek_industrial_investments",
+      "name": "Seek Industrial Investments",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_align_with_overlord"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_pledge_allegiance",
+      "name": "Pledge Allegiance",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_seek_industrial_investments"
+      ],
+      "mutuallyExclusive": [
+        "DEN_sanction_sabotages"
+      ],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_seek_military_investments",
+      "name": "Seek Military Investments",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_pledge_allegiance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_petition_for_independence",
+      "name": "Petition For Independence",
+      "description": "",
+      "x": -1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_seek_military_investments",
+        "DEN_increase_cooperation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_seize_the_production",
+      "name": "Seize The Production",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_seek_industrial_investments"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_adjust_industrial_prioritize",
+      "name": "Adjust Industrial Prioritize",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_seek_industrial_investments"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_increase_cooperation",
+      "name": "Increase Cooperation",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_seize_the_production",
+        "DEN_adjust_industrial_prioritize"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_acquire_military_equipment",
+      "name": "Acquire Military Equipment",
+      "description": "",
+      "x": 3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_adjust_industrial_prioritize",
+        "DEN_contribute_to_the_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_contribute_to_the_war",
+      "name": "Contribute To The War",
+      "description": "",
+      "x": 7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_align_with_overlord"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_secure_the_norwegian_coast",
+      "name": "Secure The Norwegian Coast",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_contribute_to_the_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_reclaim_atlantic_islands",
+      "name": "Reclaim Atlantic Islands",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_secure_the_norwegian_coast"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_claim_sweden",
+      "name": "Claim Sweden",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_contribute_to_the_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_safeguard_the_eastern_front",
+      "name": "Safeguard The Eastern Front",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_claim_sweden"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_declare_neutrality",
+      "name": "Declare Neutrality",
+      "description": "",
+      "x": 17,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_political_unity",
+      "name": "Political Unity",
+      "description": "",
+      "x": -10,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_declare_neutrality"
+      ],
+      "mutuallyExclusive": [
+        "DEN_unify_the_right"
+      ],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_policy_of_disarmament",
+      "name": "Policy Of Disarmament",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_political_unity"
+      ],
+      "mutuallyExclusive": [
+        "DEN_start_the_rearmament"
+      ],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_import_machinery_and_material",
+      "name": "Import Machinery And Material",
+      "description": "",
+      "x": -3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_policy_of_disarmament"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_modernize_agricultural_machinery",
+      "name": "Modernize Agricultural Machinery",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_import_machinery_and_material"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_agricultural_reinvestments",
+      "name": "Agricultural Reinvestments",
+      "description": "",
+      "x": -3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_modernize_agricultural_machinery"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_industrial_reinvestments",
+      "name": "Industrial Reinvestments",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_modernize_agricultural_machinery"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_increase_produce_production",
+      "name": "Increase Produce Production",
+      "description": "",
+      "x": -3,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_agricultural_reinvestments"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_modernize_industrial_machinery",
+      "name": "Modernize Industrial Machinery",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_import_machinery_and_material"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_increase_industrial_production",
+      "name": "Increase Industrial Production",
+      "description": "",
+      "x": 3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_modernize_industrial_machinery"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_research_and_development",
+      "name": "Research And Development",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_modernize_industrial_machinery"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_north_sea_oil_drilling",
+      "name": "North Sea Oil Drilling",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_research_and_development",
+        "DEN_industrial_reinvestments"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_increase_maritime_trade",
+      "name": "Increase Maritime Trade",
+      "description": "",
+      "x": 3,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_increase_industrial_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_full_employment",
+      "name": "Full Employment",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_increase_produce_production",
+        "DEN_increase_maritime_trade",
+        "DEN_north_sea_oil_drilling"
+      ],
+      "mutuallyExclusive": [
+        "DEN_limited_social_mobilization",
+        "DEN_five_year_plan",
+        "DEN_full_social_mobilization"
+      ],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_social_stability",
+      "name": "Social Stability",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_policy_of_disarmament",
+        "DEN_start_the_rearmament"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_build_motorveje",
+      "name": "Build Motorveje",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_social_stability"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_heavy_market_regulations",
+      "name": "Heavy Market Regulations",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_build_motorveje"
+      ],
+      "mutuallyExclusive": [
+        "DEN_limited_market_regulations",
+        "DEN_no_market_regulations"
+      ],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_limited_market_regulations",
+      "name": "Limited Market Regulations",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_build_motorveje"
+      ],
+      "mutuallyExclusive": [
+        "DEN_heavy_market_regulations",
+        "DEN_no_market_regulations"
+      ],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_no_market_regulations",
+      "name": "No Market Regulations",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_build_motorveje"
+      ],
+      "mutuallyExclusive": [
+        "DEN_heavy_market_regulations",
+        "DEN_limited_market_regulations"
+      ],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_welcome_foreign_scientists",
+      "name": "Welcome Foreign Scientists",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_heavy_market_regulations",
+        "DEN_limited_market_regulations",
+        "DEN_no_market_regulations"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_side_with_unions",
+      "name": "Side With Unions",
+      "description": "",
+      "x": -1,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_welcome_foreign_scientists"
+      ],
+      "mutuallyExclusive": [
+        "DEN_side_with_industry"
+      ],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_side_with_industry",
+      "name": "Side With Industry",
+      "description": "",
+      "x": 1,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_welcome_foreign_scientists"
+      ],
+      "mutuallyExclusive": [
+        "DEN_side_with_unions"
+      ],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_five_year_plan",
+      "name": "Five Year Plan",
+      "description": "",
+      "x": -2,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_heavy_market_regulations",
+        "DEN_side_with_unions",
+        "DEN_side_with_industry"
+      ],
+      "mutuallyExclusive": [
+        "DEN_limited_social_mobilization",
+        "DEN_full_employment",
+        "DEN_full_social_mobilization"
+      ],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_limited_social_mobilization",
+      "name": "Limited Social Mobilization",
+      "description": "",
+      "x": 2,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_side_with_unions",
+        "DEN_side_with_industry"
+      ],
+      "mutuallyExclusive": [
+        "DEN_full_employment",
+        "DEN_five_year_plan",
+        "DEN_full_social_mobilization"
+      ],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_start_the_rearmament",
+      "name": "Start The Rearmament",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_political_unity"
+      ],
+      "mutuallyExclusive": [
+        "DEN_policy_of_disarmament"
+      ],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_national_unity",
+      "name": "National Unity",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_start_the_rearmament"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_industrial_preparations",
+      "name": "Industrial Preparations",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_national_unity"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_military_preparations",
+      "name": "Military Preparations",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_industrial_preparations"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_civilian_preparations",
+      "name": "Civilian Preparations",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_industrial_preparations"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_full_social_mobilization",
+      "name": "Full Social Mobilization",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_civilian_preparations",
+        "DEN_military_preparations"
+      ],
+      "mutuallyExclusive": [
+        "DEN_full_employment",
+        "DEN_five_year_plan",
+        "DEN_limited_social_mobilization"
+      ],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_seek_protection",
+      "name": "Seek Protection",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_national_unity",
+        "DEN_king_assumes_power"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_sign_non_aggression_deal",
+      "name": "Sign Non Aggression Deal",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_seek_protection"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_sign_a_trade_deal",
+      "name": "Sign A Trade Deal",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_sign_non_aggression_deal"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_science_pact",
+      "name": "Science Pact",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_sign_non_aggression_deal"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_territory_for_protection",
+      "name": "Territory For Protection",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_sign_a_trade_deal",
+        "DEN_science_pact"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_strength_in_numbers",
+      "name": "Strength In Numbers",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_seek_protection"
+      ],
+      "mutuallyExclusive": [
+        "DEN_scandinavian_security"
+      ],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_military_cooperation_program",
+      "name": "Military Cooperation Program",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_strength_in_numbers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_joint_military_drills",
+      "name": "Joint Military Drills",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_strength_in_numbers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_nordic_security",
+      "name": "Nordic Security",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_military_cooperation_program",
+        "DEN_joint_military_drills"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_unify_the_right",
+      "name": "Unify The Right",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_declare_neutrality"
+      ],
+      "mutuallyExclusive": [
+        "DEN_political_unity"
+      ],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_conservatives_support",
+      "name": "Conservatives Support",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_unify_the_right"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_conspire_with_the_officer_corps",
+      "name": "Conspire With The Officer Corps",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_unify_the_right"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_encourage_paramilitary",
+      "name": "Encourage Paramilitary",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_conservatives_support",
+        "DEN_conspire_with_the_officer_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_overthrow_the_government",
+      "name": "Overthrow The Government",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_conservatives_support",
+        "DEN_conspire_with_the_officer_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_strengthen_the_officer_corp",
+      "name": "Strengthen The Officer Corp",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_conservatives_support",
+        "DEN_conspire_with_the_officer_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_king_assumes_power",
+      "name": "King Assumes Power",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_overthrow_the_government"
+      ],
+      "mutuallyExclusive": [
+        "DEN_march_on_the_capital"
+      ],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_konge_og_faedreland",
+      "name": "Konge Og Faedreland",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_king_assumes_power"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_align_industries",
+      "name": "Align Industries",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_king_assumes_power"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_the_royal_guard",
+      "name": "The Royal Guard",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_konge_og_faedreland"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_economic_mobilization_strategy",
+      "name": "Economic Mobilization Strategy",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_konge_og_faedreland",
+        "DEN_align_industries"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_expand_kobenhavns_university",
+      "name": "Expand Kobenhavns University",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_align_industries"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_scandinavian_security",
+      "name": "Scandinavian Security",
+      "description": "",
+      "x": -5,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_king_assumes_power"
+      ],
+      "mutuallyExclusive": [
+        "DEN_strength_in_numbers"
+      ],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_rally_the_nation",
+      "name": "Rally The Nation",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_seize_power",
+        "DEN_ask_for_support"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_sway_the_nordics",
+      "name": "Sway The Nordics",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_scandinavian_security",
+        "DEN_rally_the_nation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_offer_protection",
+      "name": "Offer Protection",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_sway_the_nordics"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_secure_swedish_steel",
+      "name": "Secure Swedish Steel",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_scandinavian_security"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_swedish_steel_production",
+      "name": "Swedish Steel Production",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_secure_swedish_steel"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_finish_off_finland",
+      "name": "Finish Off Finland",
+      "description": "",
+      "x": 2,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_secure_swedish_steel"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_reclaim_norway",
+      "name": "Reclaim Norway",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_rally_the_nation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_train_mountain_infantry",
+      "name": "Train Mountain Infantry",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_rally_the_nation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_pan_scandinavianism",
+      "name": "Pan Scandinavianism",
+      "description": "",
+      "x": -2,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_prioritize_navy",
+        "DEN_prioritize_army",
+        "DEN_military_might"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_march_on_the_capital",
+      "name": "March On The Capital",
+      "description": "",
+      "x": 6,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_overthrow_the_government"
+      ],
+      "mutuallyExclusive": [
+        "DEN_king_assumes_power"
+      ],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_seize_power",
+      "name": "Seize Power",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_overthrow_the_government"
+      ],
+      "mutuallyExclusive": [
+        "DEN_ask_for_support"
+      ],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_denmark_first",
+      "name": "Denmark First",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_seize_power",
+        "DEN_ask_for_support"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_ask_for_support",
+      "name": "Ask For Support",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_overthrow_the_government"
+      ],
+      "mutuallyExclusive": [
+        "DEN_seize_power"
+      ],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_dano_german_military_cooperation",
+      "name": "Dano German Military Cooperation",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_seize_power",
+        "DEN_ask_for_support"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_institute_corporatism",
+      "name": "Institute Corporatism",
+      "description": "",
+      "x": -1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_rally_the_nation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_experimental_technology",
+      "name": "Experimental Technology",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_rally_the_nation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_assault_troops",
+      "name": "Assault Troops",
+      "description": "",
+      "x": 3,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_rally_the_nation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_prioritize_navy",
+      "name": "Prioritize Navy",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_experimental_technology",
+        "DEN_assault_troops",
+        "DEN_institute_corporatism",
+        "DEN_train_mountain_infantry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_prioritize_army",
+      "name": "Prioritize Army",
+      "description": "",
+      "x": 3,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_experimental_technology",
+        "DEN_assault_troops",
+        "DEN_institute_corporatism",
+        "DEN_train_mountain_infantry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_total_war",
+      "name": "Total War",
+      "description": "",
+      "x": 2,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_prioritize_navy",
+        "DEN_prioritize_army",
+        "DEN_military_might"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_military_might",
+      "name": "Military Might",
+      "description": "",
+      "x": -3,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_experimental_technology",
+        "DEN_assault_troops",
+        "DEN_institute_corporatism",
+        "DEN_train_mountain_infantry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_avenging_1864",
+      "name": "Avenging 1864",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_pan_scandinavianism",
+        "DEN_swedish_steel_production"
+      ],
+      "mutuallyExclusive": [
+        "DEN_dominium_maris_baltici"
+      ],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_dominium_maris_baltici",
+      "name": "Dominium Maris Baltici",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_pan_scandinavianism"
+      ],
+      "mutuallyExclusive": [
+        "DEN_avenging_1864",
+        "DEN_establish_the_danelaw"
+      ],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_establish_the_danelaw",
+      "name": "Establish The Danelaw",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_pan_scandinavianism",
+        "DEN_military_might"
+      ],
+      "mutuallyExclusive": [
+        "DEN_dominium_maris_baltici"
+      ],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_sign_forsvarsforliget",
+      "name": "Sign Forsvarsforliget",
+      "description": "",
+      "x": 13,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_stockpile_oil",
+      "name": "Stockpile Oil",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_sign_forsvarsforliget"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_sikkerhedspolitiet",
+      "name": "Sikkerhedspolitiet",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_sign_forsvarsforliget"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_expand_vaernepligten",
+      "name": "Expand Vaernepligten",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_sign_forsvarsforliget"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_haeren_reorganization",
+      "name": "Haeren Reorganization",
+      "description": "",
+      "x": -6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_expand_vaernepligten"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_expand_haerens_tekniske_korps",
+      "name": "Expand Haerens Tekniske Korps",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_haeren_reorganization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_hjemmevaernet",
+      "name": "Hjemmevaernet",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_haeren_reorganization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_expand_dansk_industri_syndikat",
+      "name": "Expand Dansk Industri Syndikat",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_haeren_reorganization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_new_artillery_tactics",
+      "name": "New Artillery Tactics",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_expand_haerens_tekniske_korps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_convert_automobile_production",
+      "name": "Convert Automobile Production",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_expand_dansk_industri_syndikat",
+        "DEN_expand_haerens_tekniske_korps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_slaedepatruljen_sirius",
+      "name": "Slaedepatruljen Sirius",
+      "description": "",
+      "x": -2,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_new_artillery_tactics",
+        "DEN_convert_automobile_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_generalkommandoen",
+      "name": "Generalkommandoen",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_new_artillery_tactics",
+        "DEN_convert_automobile_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_establish_domestic_tank_manufacturing",
+      "name": "Establish Domestic Tank Manufacturing",
+      "description": "",
+      "x": 2,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_convert_automobile_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_expand_ubadsvabnet",
+      "name": "Expand Ubadsvabnet",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_expand_vaernepligten"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_refit_civilian_ships",
+      "name": "Refit Civilian Ships",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_expand_ubadsvabnet"
+      ],
+      "mutuallyExclusive": [
+        "DEN_modernize_the_navy"
+      ],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_modernize_the_navy",
+      "name": "Modernize The Navy",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_expand_ubadsvabnet"
+      ],
+      "mutuallyExclusive": [
+        "DEN_refit_civilian_ships"
+      ],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_sovaernets_operative_kommando",
+      "name": "Sovaernets Operative Kommando",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_refit_civilian_ships",
+        "DEN_modernize_the_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_restructuring_sovaernet",
+      "name": "Restructuring Sovaernet",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_refit_civilian_ships",
+        "DEN_modernize_the_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_appropriate_odense_staalskibsvaerft",
+      "name": "Appropriate Odense Staalskibsvaerft",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_refit_civilian_ships",
+        "DEN_modernize_the_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_baltic_sea_domination",
+      "name": "Baltic Sea Domination",
+      "description": "",
+      "x": -1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_sovaernets_operative_kommando",
+        "DEN_restructuring_sovaernet",
+        "DEN_appropriate_odense_staalskibsvaerft"
+      ],
+      "mutuallyExclusive": [
+        "DEN_north_sea_ambitions"
+      ],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_north_sea_ambitions",
+      "name": "North Sea Ambitions",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_sovaernets_operative_kommando",
+        "DEN_restructuring_sovaernet",
+        "DEN_appropriate_odense_staalskibsvaerft"
+      ],
+      "mutuallyExclusive": [
+        "DEN_baltic_sea_domination"
+      ],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_naval_power_projection",
+      "name": "Naval Power Projection",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_baltic_sea_domination",
+        "DEN_north_sea_ambitions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_fromandskorpset",
+      "name": "Fromandskorpset",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_baltic_sea_domination",
+        "DEN_generalkommandoen"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_domestic_designs",
+      "name": "Domestic Designs",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_expand_vaernepligten"
+      ],
+      "mutuallyExclusive": [
+        "DEN_foreign_designs"
+      ],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_foreign_designs",
+      "name": "Foreign Designs",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_expand_vaernepligten"
+      ],
+      "mutuallyExclusive": [
+        "DEN_domestic_designs"
+      ],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_unify_flyvevabnet",
+      "name": "Unify Flyvevabnet",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_domestic_designs",
+        "DEN_foreign_designs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_flyveskolen",
+      "name": "Flyveskolen",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_unify_flyvevabnet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_flyvertaktisk_kommando",
+      "name": "Flyvertaktisk Kommando",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_flyveskolen"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_air_force_power_projection",
+      "name": "Air Force Power Projection",
+      "description": "",
+      "x": 2,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_flyveskolen"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_torpedofly",
+      "name": "Torpedofly",
+      "description": "",
+      "x": -2,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_flyvertaktisk_kommando",
+        "DEN_air_force_power_projection",
+        "DEN_north_sea_ambitions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_jagerfly",
+      "name": "Jagerfly",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_flyvertaktisk_kommando",
+        "DEN_air_force_power_projection"
+      ],
+      "mutuallyExclusive": [
+        "DEN_luftstotte",
+        "DEN_bombefly"
+      ],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_luftstotte",
+      "name": "Luftstotte",
+      "description": "",
+      "x": 2,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_flyvertaktisk_kommando",
+        "DEN_air_force_power_projection"
+      ],
+      "mutuallyExclusive": [
+        "DEN_jagerfly",
+        "DEN_bombefly"
+      ],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_bombefly",
+      "name": "Bombefly",
+      "description": "",
+      "x": 4,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_flyvertaktisk_kommando",
+        "DEN_air_force_power_projection"
+      ],
+      "mutuallyExclusive": [
+        "DEN_jagerfly",
+        "DEN_luftstotte"
+      ],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "DEN_advanced_flight",
+      "name": "Advanced Flight",
+      "description": "",
+      "x": 1,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "DEN_jagerfly",
+        "DEN_luftstotte",
+        "DEN_bombefly"
+      ],
+      "mutuallyExclusive": [],
+      "source": "denmark.txt",
+      "shared": false
+    },
+    {
+      "id": "NORDIC_form_joint_alliance",
+      "name": "Nordic Form Joint Alliance",
+      "description": "",
+      "x": 40,
+      "y": 15,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "nordic_shared.txt",
+      "shared": true
+    }
+  ]
+}

@@ -1,0 +1,928 @@
+{
+  "mod": "FUWG",
+  "tag": "SAU",
+  "country": "Saudiarabia",
+  "treeId": "saudi_arabia_focus_tree",
+  "sourceFile": "saudiarabia.txt",
+  "focusCount": 65,
+  "focuses": [
+    {
+      "id": "SAU_kingdom_of_ibn_saud",
+      "name": "Kingdom of Ibn Saud",
+      "description": "",
+      "x": 22,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_tribal_confederation",
+      "name": "The Tribal Confederation",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_kingdom_of_ibn_saud"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_pillars_of_the_kingdom",
+      "name": "Pillars of the Kingdom",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_tribal_confederation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_royal_diwan",
+      "name": "The Royal Diwan",
+      "description": "",
+      "x": -18,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_pillars_of_the_kingdom"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_council_of_senior_princes",
+      "name": "Council of Senior Princes",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_royal_diwan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_wahhabi_ulema",
+      "name": "The Wahhabi Ulema",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_royal_diwan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_custodian_of_the_holy_cities",
+      "name": "Custodian of the Holy Cities",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_wahhabi_ulema"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_hejaz_integration",
+      "name": "Integration of the Hejaz",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_custodian_of_the_holy_cities"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_administrative_reform",
+      "name": "Administrative Reform",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_royal_diwan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_legal_code",
+      "name": "Codification of Law",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_administrative_reform"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_education_system",
+      "name": "National Education System",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_legal_code"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_religious_schools",
+      "name": "Religious Schools Network",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_legal_code"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_modernization_decree",
+      "name": "The Modernization Decree",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_administrative_reform"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_pan_arab_diplomacy",
+      "name": "Pan-Arab Diplomacy",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_modernization_decree"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_war_mobilization",
+      "name": "War Mobilization",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_modernization_decree"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_arab_army",
+      "name": "The Arab Army",
+      "description": "",
+      "x": -8,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_pillars_of_the_kingdom"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_officer_school",
+      "name": "Royal Military Academy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_arab_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_desert_warfare_doctrine",
+      "name": "Desert Warfare Doctrine",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_officer_school"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_artillery_corps",
+      "name": "Artillery Corps",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_arab_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_ikhwan_reformed",
+      "name": "The Reformed Ikhwan",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_desert_warfare_doctrine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_engineer_corps",
+      "name": "Engineer Corps",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_desert_warfare_doctrine",
+        "SAU_artillery_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_signal_corps",
+      "name": "Signal Corps",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_engineer_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_motorized_units",
+      "name": "Motorized Desert Units",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_engineer_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_royal_saudi_air_force",
+      "name": "Royal Saudi Air Force",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_desert_warfare_doctrine",
+        "SAU_artillery_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_air_force_expansion",
+      "name": "Air Force Expansion",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_royal_saudi_air_force"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_british_military_advisors",
+      "name": "British Military Advisors",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_royal_saudi_air_force"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_infantry_equipment_modernization",
+      "name": "Infantry Equipment Modernization",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_ikhwan_reformed"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_border_fortifications",
+      "name": "Border Fortifications",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_ikhwan_reformed"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_manpower_levy_expansion",
+      "name": "Expanded Manpower Levy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_infantry_equipment_modernization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_oil_of_the_desert",
+      "name": "Oil of the Desert",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_pillars_of_the_kingdom"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_aramco_partnership",
+      "name": "The ARAMCO Partnership",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_oil_of_the_desert"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_port_of_jeddah",
+      "name": "Port of Jeddah",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_oil_of_the_desert"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_expand_al_hasa_fields",
+      "name": "Expand the Al-Hasa Fields",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_aramco_partnership"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_riyadh_development",
+      "name": "Riyadh Development Plan",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_aramco_partnership",
+        "SAU_port_of_jeddah"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_oil_refinery_network",
+      "name": "Oil Refinery Network",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_expand_al_hasa_fields"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_agricultural_development",
+      "name": "Agricultural Development",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_riyadh_development"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_trans_arabian_pipeline",
+      "name": "The Trans-Arabian Pipeline",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_oil_refinery_network"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_road_network",
+      "name": "Desert Road Network",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_agricultural_development",
+        "SAU_trans_arabian_pipeline"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_industrialization_drive",
+      "name": "Industrialization Drive",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_trans_arabian_pipeline"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_second_research_slot",
+      "name": "Saudi Research Institute",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_industrialization_drive"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_arms_production",
+      "name": "Arms Production",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_industrialization_drive"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_war_production_surge",
+      "name": "War Production Surge",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_arms_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_chromium_exports",
+      "name": "Mineral Resource Extraction",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_road_network"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_arabian_peninsula_vision",
+      "name": "Vision for the Peninsula",
+      "description": "",
+      "x": 9,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_pillars_of_the_kingdom"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_claim_oman",
+      "name": "Claim over Oman",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_arabian_peninsula_vision"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_claim_aden_yemen",
+      "name": "Claim over Aden and Yemen",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_arabian_peninsula_vision"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_claim_gulf_states",
+      "name": "Claim over the Gulf States",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_arabian_peninsula_vision"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_develop_oman",
+      "name": "Develop Oman",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_claim_oman"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_develop_yemen",
+      "name": "Develop Yemen and Aden",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_claim_aden_yemen"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_greater_arabia",
+      "name": "Greater Arabia",
+      "description": "",
+      "x": -4,
+      "y": 6,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_claim_oman",
+        "SAU_claim_aden_yemen",
+        "SAU_claim_gulf_states",
+        "SAU_second_research_slot",
+        "SAU_postwar_vision"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_populate_new_lands",
+      "name": "Populate the New Lands",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_greater_arabia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_friendship_with_britain",
+      "name": "Friendship with Britain",
+      "description": "",
+      "x": 18,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_pillars_of_the_kingdom"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_us_diplomatic_ties",
+      "name": "American Diplomatic Ties",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_friendship_with_britain"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_american_oil_investment",
+      "name": "American Oil Investment",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_us_diplomatic_ties"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_volunteer_expeditionary_forces",
+      "name": "Volunteer Expeditionary Forces",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_friendship_with_britain"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_desert_volunteer_doctrine",
+      "name": "Desert Volunteer Doctrine",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_volunteer_expeditionary_forces"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_volunteer_manpower_pool",
+      "name": "Volunteer Manpower Pool",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_volunteer_expeditionary_forces"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_lend_lease_agreement",
+      "name": "Lend-Lease Agreement",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_friendship_with_britain"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_north_africa_volunteers",
+      "name": "North Africa Volunteers",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_desert_volunteer_doctrine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_specialist_sniper_recon",
+      "name": "Specialist Sniper and Recon Units",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_desert_volunteer_doctrine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_arabian_expeditionary_corps",
+      "name": "The Arabian Expeditionary Corps",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_desert_volunteer_doctrine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_medical_corps",
+      "name": "Medical Corps",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_volunteer_manpower_pool"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_veteran_reintegration",
+      "name": "Veteran Reintegration Programme",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_arabian_expeditionary_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_arabian_war_contribution",
+      "name": "The Arabian War Contribution",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_arabian_expeditionary_corps",
+        "SAU_north_africa_volunteers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    },
+    {
+      "id": "SAU_postwar_vision",
+      "name": "Vision for the Post-War Kingdom",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SAU_arabian_war_contribution",
+        "SAU_second_research_slot"
+      ],
+      "mutuallyExclusive": [],
+      "source": "saudiarabia.txt",
+      "shared": false
+    }
+  ]
+}

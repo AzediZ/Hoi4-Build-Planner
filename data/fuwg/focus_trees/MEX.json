@@ -1,0 +1,1679 @@
+{
+  "mod": "FUWG",
+  "tag": "MEX",
+  "country": "Mexico",
+  "treeId": "mexico_focus_tree",
+  "sourceFile": "mexico.txt",
+  "focusCount": 115,
+  "focuses": [
+    {
+      "id": "MEX_focus_plan_of_agua_prieta",
+      "name": "Focus Plan Of Agua Prieta",
+      "description": "",
+      "x": 21,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_exile_calles",
+      "name": "Focus Exile Calles",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_plan_of_agua_prieta"
+      ],
+      "mutuallyExclusive": [
+        "MEX_focus_jefe_maximo"
+      ],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_jefe_maximo",
+      "name": "Focus Jefe Maximo",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_plan_of_agua_prieta"
+      ],
+      "mutuallyExclusive": [
+        "MEX_focus_exile_calles"
+      ],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_national_bank",
+      "name": "Focus National Bank",
+      "description": "",
+      "x": 9,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_agricultural_credit_bank",
+      "name": "Focus Agricultural Credit Bank",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_national_bank"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_confederation_of_mexican_workers",
+      "name": "Focus Confederation Of Mexican Workers",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_agricultural_credit_bank"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_rent_freeze",
+      "name": "Focus Rent Freeze",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_confederation_of_mexican_workers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_ejido_worker_militias",
+      "name": "Focus Ejido Worker Militias",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_rent_freeze"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_party_of_the_revolution",
+      "name": "Focus Party Of The Revolution",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_ejido_worker_militias"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_rural_infrastructure",
+      "name": "Focus Rural Infrastructure",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_agricultural_credit_bank"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_peripheral_infrastructure",
+      "name": "Focus Peripheral Infrastructure",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_rural_infrastructure"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_rural_schools",
+      "name": "Focus Rural Schools",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_peripheral_infrastructure"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_liberalize_the_banking_sector",
+      "name": "Focus Liberalize The Banking Sector",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_national_bank"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_strike_breaking",
+      "name": "Focus Strike Breaking",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_liberalize_the_banking_sector"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_urban_development",
+      "name": "Focus Urban Development",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_strike_breaking"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_cientifico_camarilla",
+      "name": "Focus Cientifico Camarilla",
+      "description": "",
+      "x": -1,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_strike_breaking",
+        "MEX_focus_rural_infrastructure"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_end_land_reform",
+      "name": "Focus End Land Reform",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_liberalize_the_banking_sector"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_privatization",
+      "name": "Focus Privatization",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_end_land_reform"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_caudillo_private_armies",
+      "name": "Focus Caudillo Private Armies",
+      "description": "",
+      "x": 0,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_end_land_reform"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_support_general_cedillo",
+      "name": "Focus Support General Cedillo",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_caudillo_private_armies"
+      ],
+      "mutuallyExclusive": [
+        "MEX_focus_arrest_general_cedillo"
+      ],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_oil_field_expansion",
+      "name": "Focus Oil Field Expansion",
+      "description": "",
+      "x": 1,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_rural_schools",
+        "MEX_focus_cientifico_camarilla"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_royal_dutch_shell",
+      "name": "Focus Royal Dutch Shell",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_oil_field_expansion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_oil_revenue_reinvestment",
+      "name": "Focus Oil Revenue Reinvestment",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_royal_dutch_shell"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_capital_reserves",
+      "name": "Focus Capital Reserves",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_oil_revenue_reinvestment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_community_of_nations",
+      "name": "Focus Community Of Nations",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_royal_dutch_shell"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_purchase_belize",
+      "name": "Focus Purchase Belize",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_community_of_nations"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_nationalize_the_oil_fields",
+      "name": "Focus Nationalize The Oil Fields",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "MEX_focus_oil_field_expansion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_northern_steel_plants",
+      "name": "Focus Northern Steel Plants",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_oil_field_expansion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_german_resource_exchange",
+      "name": "Focus German Resource Exchange",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_nationalize_the_oil_fields"
+      ],
+      "mutuallyExclusive": [
+        "MEX_focus_oppose_yanqui_imperialism",
+        "MEX_focus_compensation"
+      ],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_new_world_order",
+      "name": "Focus New World Order",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_german_resource_exchange"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_oppose_yanqui_imperialism",
+      "name": "Focus Oppose Yanqui Imperialism",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_nationalize_the_oil_fields"
+      ],
+      "mutuallyExclusive": [
+        "MEX_focus_german_resource_exchange",
+        "MEX_focus_compensation"
+      ],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_international_proletarianism",
+      "name": "Focus International Proletarianism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_oppose_yanqui_imperialism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_interior_defence_plan",
+      "name": "Focus Interior Defence Plan",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_international_proletarianism",
+        "MEX_focus_new_world_order"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_compensation",
+      "name": "Focus Compensation",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_nationalize_the_oil_fields"
+      ],
+      "mutuallyExclusive": [
+        "MEX_focus_german_resource_exchange",
+        "MEX_focus_oppose_yanqui_imperialism"
+      ],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_liberty_and_justice_for_all",
+      "name": "Focus Liberty And Justice For All",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_compensation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_aztec_eagles",
+      "name": "Focus Aztec Eagles",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "MEX_focus_liberty_and_justice_for_all"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_international_peacekeepers",
+      "name": "Focus International Peacekeepers",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_purchase_belize"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_purge_the_bureaucracy",
+      "name": "Focus Purge The Bureaucracy",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_exile_calles"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_institutional_revolution",
+      "name": "Focus Institutional Revolution",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_purge_the_bureaucracy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_arrest_general_cedillo",
+      "name": "Focus Arrest General Cedillo",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_purge_the_bureaucracy"
+      ],
+      "mutuallyExclusive": [
+        "MEX_focus_support_general_cedillo"
+      ],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_control_the_army",
+      "name": "Focus Control The Army",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_exile_calles",
+        "MEX_focus_jefe_maximo"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_repeal_the_calles_law",
+      "name": "Focus Repeal The Calles Law",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_control_the_army"
+      ],
+      "mutuallyExclusive": [
+        "MEX_focus_enforce_the_calles_law"
+      ],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_abolish_capital_punishment",
+      "name": "Focus Abolish Capital Punishment",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_repeal_the_calles_law"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_enforce_the_calles_law",
+      "name": "Focus Enforce The Calles Law",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_control_the_army"
+      ],
+      "mutuallyExclusive": [
+        "MEX_focus_repeal_the_calles_law"
+      ],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_triumph_over_the_cristeros",
+      "name": "Focus Triumph Over The Cristeros",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_enforce_the_calles_law"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_state_education",
+      "name": "Focus State Education",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_abolish_capital_punishment",
+        "MEX_focus_triumph_over_the_cristeros"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_xefo",
+      "name": "Focus Xefo",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_state_education"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_law_on_industrial_promotion",
+      "name": "Focus Law On Industrial Promotion",
+      "description": "",
+      "x": 0,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_state_education"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_nafinsa",
+      "name": "Focus Nafinsa",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_law_on_industrial_promotion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_engineering_school",
+      "name": "Focus Engineering School",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_northern_steel_plants",
+        "MEX_focus_state_education"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_television_innovators",
+      "name": "Focus Television Innovators",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_engineering_school"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_antidisestablishmentarianism",
+      "name": "Focus Antidisestablishmentarianism",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_control_the_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_rewrite_the_constitution",
+      "name": "Focus Rewrite The Constitution",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_antidisestablishmentarianism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_knights_of_columbus",
+      "name": "Focus Knights Of Columbus",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_rewrite_the_constitution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_catholic_politics",
+      "name": "Focus Catholic Politics",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_knights_of_columbus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_social_catholicism",
+      "name": "Focus Social Catholicism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_catholic_politics"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_legion_of_christ",
+      "name": "Focus Legion Of Christ",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "MEX_focus_rewrite_the_constitution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_crusade_against_atheism",
+      "name": "Focus Crusade Against Atheism",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "MEX_focus_legion_of_christ"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_triumph_of_synarchism",
+      "name": "Focus Triumph Of Synarchism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "MEX_focus_crusade_against_atheism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_church_schools",
+      "name": "Focus Church Schools",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_knights_of_columbus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_synarchist_communes",
+      "name": "Focus Synarchist Communes",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_social_catholicism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_reform_the_cristero_guard",
+      "name": "Focus Reform The Cristero Guard",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_synarchist_communes"
+      ],
+      "mutuallyExclusive": [
+        "MEX_focus_synarchist_youth"
+      ],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_synarchist_youth",
+      "name": "Focus Synarchist Youth",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_synarchist_communes"
+      ],
+      "mutuallyExclusive": [
+        "MEX_focus_reform_the_cristero_guard"
+      ],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_ban_political_militias",
+      "name": "Focus Ban Political Militias",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_plan_of_agua_prieta"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_revolutionary_women",
+      "name": "Focus Revolutionary Women",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_ban_political_militias"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_womens_suffrage",
+      "name": "Focus Womens Suffrage",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_revolutionary_women"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_soldaderas",
+      "name": "Focus Soldaderas",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_revolutionary_women"
+      ],
+      "mutuallyExclusive": [
+        "MEX_focus_professional_army"
+      ],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_depoliticised_army",
+      "name": "Focus Depoliticised Army",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_control_the_army",
+        "MEX_focus_ban_political_militias"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_professional_army",
+      "name": "Focus Professional Army",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_depoliticised_army"
+      ],
+      "mutuallyExclusive": [
+        "MEX_focus_soldaderas"
+      ],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_legacy_of_revolution",
+      "name": "Focus Legacy Of Revolution",
+      "description": "",
+      "x": 9,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "MEX_focus_plan_of_agua_prieta"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_the_gold_shirts",
+      "name": "Focus The Gold Shirts",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "MEX_focus_legacy_of_revolution"
+      ],
+      "mutuallyExclusive": [
+        "MEX_focus_the_red_shirts"
+      ],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_revanchist_revolution",
+      "name": "Focus Revanchist Revolution",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "MEX_focus_the_gold_shirts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_the_red_shirts",
+      "name": "Focus The Red Shirts",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "MEX_focus_legacy_of_revolution"
+      ],
+      "mutuallyExclusive": [
+        "MEX_focus_the_gold_shirts"
+      ],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_communist_revolution",
+      "name": "Focus Communist Revolution",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "MEX_focus_the_red_shirts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_hispanic_culture",
+      "name": "Focus Hispanic Culture",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_the_gold_shirts",
+        "MEX_focus_international_struggle"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_revolutionary_class_war",
+      "name": "Focus Revolutionary Class War",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_the_red_shirts",
+        "MEX_focus_international_struggle"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_international_struggle",
+      "name": "Focus International Struggle",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_the_gold_shirts",
+        "MEX_focus_the_red_shirts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_spanish_civil_war_refugees",
+      "name": "Focus Spanish Civil War Refugees",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_professional_army",
+        "MEX_focus_soldaderas"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_falangist_veterans",
+      "name": "Focus Falangist Veterans",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_spanish_civil_war_refugees"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_support_spains_loyalists",
+      "name": "Focus Support Spains Loyalists",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_spanish_civil_war_refugees"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_hispanic_alliance",
+      "name": "Focus Hispanic Alliance",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "MEX_focus_falangist_veterans"
+      ],
+      "mutuallyExclusive": [
+        "MEX_focus_realpolitik"
+      ],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_propaganda_pact",
+      "name": "Focus Propaganda Pact",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "MEX_focus_hispanic_alliance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_invite_brazil",
+      "name": "Focus Invite Brazil",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_hispanic_alliance",
+        "MEX_focus_bolivarian_alliance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_realpolitik",
+      "name": "Focus Realpolitik",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "MEX_focus_falangist_veterans",
+        "MEX_focus_support_spains_loyalists"
+      ],
+      "mutuallyExclusive": [
+        "MEX_focus_hispanic_alliance",
+        "MEX_focus_bolivarian_alliance"
+      ],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_bolivarian_alliance",
+      "name": "Focus Bolivarian Alliance",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "MEX_focus_support_spains_loyalists"
+      ],
+      "mutuallyExclusive": [
+        "MEX_focus_realpolitik"
+      ],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_smash_the_bureaucrats",
+      "name": "Focus Smash The Bureaucrats",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "MEX_focus_bolivarian_alliance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_liberate_the_antilles",
+      "name": "Focus Liberate The Antilles",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "MEX_focus_bolivarian_alliance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_one_world_government",
+      "name": "Focus One World Government",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "MEX_focus_smash_the_bureaucrats"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_coastal_defence_plan",
+      "name": "Focus Coastal Defence Plan",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_hispanic_alliance",
+        "MEX_focus_bolivarian_alliance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_march_southwards",
+      "name": "Focus March Southwards",
+      "description": "",
+      "x": 8,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_interior_defence_plan",
+        "MEX_focus_coastal_defence_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_unify_centroamerica",
+      "name": "Focus Unify Centroamerica",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_march_southwards"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_liberate_the_caribbean",
+      "name": "Focus Liberate The Caribbean",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "MEX_focus_unify_centroamerica"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_integrate_the_caribbean",
+      "name": "Focus Integrate The Caribbean",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "MEX_focus_liberate_the_caribbean"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_push_past_the_darien_gap",
+      "name": "Focus Push Past The Darien Gap",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "MEX_focus_unify_centroamerica"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_andean_offensive",
+      "name": "Focus Andean Offensive",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "MEX_focus_push_past_the_darien_gap"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_seize_the_panama_canal",
+      "name": "Focus Seize The Panama Canal",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_unify_centroamerica"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_integrate_the_south",
+      "name": "Focus Integrate The South",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "MEX_focus_unify_centroamerica"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_fortify_the_canal",
+      "name": "Focus Fortify The Canal",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_seize_the_panama_canal"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_rescind_the_mexican_cession",
+      "name": "Focus Rescind The Mexican Cession",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "MEX_focus_seize_the_panama_canal"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_redeem_aztlan",
+      "name": "Focus Redeem Aztlan",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 30,
+      "prerequisites": [
+        "MEX_focus_rescind_the_mexican_cession"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_military_budget_review",
+      "name": "Focus Military Budget Review",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_national_bank"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_gulf_coast_naval_yards",
+      "name": "Focus Gulf Coast Naval Yards",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 4,
+      "prerequisites": [
+        "MEX_focus_military_budget_review"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_pacific_coast_naval_yards",
+      "name": "Focus Pacific Coast Naval Yards",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 4,
+      "prerequisites": [
+        "MEX_focus_military_budget_review"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_brown_water_navy",
+      "name": "Focus Brown Water Navy",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_pacific_coast_naval_yards",
+        "MEX_focus_gulf_coast_naval_yards"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_blue_water_navy",
+      "name": "Focus Blue Water Navy",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_brown_water_navy"
+      ],
+      "mutuallyExclusive": [
+        "MEX_focus_raiding_navy"
+      ],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_raiding_navy",
+      "name": "Focus Raiding Navy",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_brown_water_navy"
+      ],
+      "mutuallyExclusive": [
+        "MEX_focus_blue_water_navy"
+      ],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_heroic_military_college",
+      "name": "Focus Heroic Military College",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_military_budget_review"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_weapons_modernisation",
+      "name": "Focus Weapons Modernisation",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_heroic_military_college"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_tank_workshops",
+      "name": "Focus Tank Workshops",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_weapons_modernisation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_aviation_workshops",
+      "name": "Focus Aviation Workshops",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_heroic_military_college"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_military_aviation_specialists",
+      "name": "Focus Military Aviation Specialists",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_aviation_workshops"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_army_expansion_programme",
+      "name": "Focus Army Expansion Programme",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_tank_workshops",
+        "MEX_focus_military_aviation_specialists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_heavy_artillery",
+      "name": "Focus Heavy Artillery",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_army_expansion_programme"
+      ],
+      "mutuallyExclusive": [
+        "MEX_focus_aerial_artillery"
+      ],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "MEX_focus_aerial_artillery",
+      "name": "Focus Aerial Artillery",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "MEX_focus_army_expansion_programme"
+      ],
+      "mutuallyExclusive": [
+        "MEX_focus_heavy_artillery"
+      ],
+      "source": "mexico.txt",
+      "shared": false
+    },
+    {
+      "id": "SAM_the_yoke_of_monroe",
+      "name": "The Yoke Of Monroe",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "shared_reference",
+      "shared": true
+    }
+  ]
+}

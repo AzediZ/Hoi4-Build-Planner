@@ -1,0 +1,899 @@
+{
+  "mod": "FUWG",
+  "tag": "LBA",
+  "country": "Libya",
+  "treeId": "lybia_tree",
+  "sourceFile": "Libya.txt",
+  "focusCount": 62,
+  "focuses": [
+    {
+      "id": "LBA_assert_sovereignty",
+      "name": "Assert Sovereignty",
+      "description": "",
+      "x": 5,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "LBA_lybian_italian_accord"
+      ],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_unity_through_diversity",
+      "name": "Unity through Diversity",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_assert_sovereignty"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_infrastructure_backbone",
+      "name": "Infrastructure Backbone",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_unity_through_diversity"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_urbanisation",
+      "name": "Urbanisation",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_infrastructure_backbone"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_enlighten_the_mass",
+      "name": "Englighten the Mass",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_unity_through_diversity"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_economic_renaissance",
+      "name": "Economic Renaissance",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_enlighten_the_mass"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_forge_warrior_traditions",
+      "name": "Forge Warrior Tradition",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_unity_through_diversity"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_cultural_resurgance",
+      "name": "Cultural Resurgance",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_forge_warrior_traditions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_independence",
+      "name": "Declare independence",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_cultural_resurgance",
+        "LBA_urbanisation",
+        "LBA_economic_renaissance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_establish_lybian_high_command",
+      "name": "Libyian High Command",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_independence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_lybian_defense_force",
+      "name": "Lybian Defense Force",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_establish_lybian_high_command"
+      ],
+      "mutuallyExclusive": [
+        "LBA_lybian_air_force"
+      ],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_lybian_air_force",
+      "name": "Lybian Air Force",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_establish_lybian_high_command"
+      ],
+      "mutuallyExclusive": [
+        "LBA_lybian_defense_force"
+      ],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_regional_leadership",
+      "name": "Regional Leadership",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_lybian_air_force",
+        "LBA_lybian_defense_force"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_lybian_italian_accord",
+      "name": "Italian Accords",
+      "description": "",
+      "x": 15,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "LBA_assert_sovereignty"
+      ],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_integration_agreement",
+      "name": "Integration Agreement",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_lybian_italian_accord"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_infrastructure_projects",
+      "name": "Infrastructure Projects",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_integration_agreement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_industrial_expanded",
+      "name": "Industrial Expansion",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_infrastructure_projects"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_italian_investments",
+      "name": "Italian investment",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_integration_agreement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_italian_trade_agreement",
+      "name": "Italy trade Agreement",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_italian_investments"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_joint_military_training",
+      "name": "Military training",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_integration_agreement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_political_intregration",
+      "name": "Politcal Intregration",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_joint_military_training"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_italian_military_aid",
+      "name": "Italian military aid",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_political_intregration",
+        "LBA_industrial_expanded",
+        "LBA_italian_trade_agreement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_follow_the_italian_navy",
+      "name": "Follow the Italian Navy",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_italian_military_aid"
+      ],
+      "mutuallyExclusive": [
+        "LBA_follow_the_italian_army"
+      ],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_follow_the_italian_army",
+      "name": "Follow the Italian Army",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_italian_military_aid"
+      ],
+      "mutuallyExclusive": [
+        "LBA_follow_the_italian_navy"
+      ],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_follow_the_italian_army_2",
+      "name": "Expand Italian Army Influence",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_follow_the_italian_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_follow_the_italian_navy_2",
+      "name": "Expand Italian Naval Influence",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_follow_the_italian_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_resource_development",
+      "name": "Resource Development",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_assert_sovereignty",
+        "LBA_lybian_italian_accord"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_steel_investment",
+      "name": "Lybian Steel",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_resource_development"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_rubber_investment",
+      "name": "Lybian Rubber",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_resource_development"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_advance_training_programm",
+      "name": "Advancements in Training Programms",
+      "description": "",
+      "x": 0,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_mech",
+      "name": "Mech",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_advance_training_programm"
+      ],
+      "mutuallyExclusive": [
+        "LBA_military_investment"
+      ],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_military_investment",
+      "name": "Military Investment",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_advance_training_programm"
+      ],
+      "mutuallyExclusive": [
+        "LBA_mech"
+      ],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_Traditional_warfare",
+      "name": "Traditional Warfare",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_military_investment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_Elite_Traditionalists",
+      "name": "Elite Traditionalists",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_Traditional_warfare"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_Modern_adaptation",
+      "name": "Modern Adaptation",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_mech"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_German_militairy_advisors",
+      "name": "German Militairy Advisors",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_Modern_adaptation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_Militairy_Identity",
+      "name": "Militairy Identity",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_German_militairy_advisors",
+        "LBA_Elite_Traditionalists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_establish_lybian_navy",
+      "name": "Lybian Naval Force",
+      "description": "",
+      "x": 22,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_follow_germany",
+      "name": "Follow Germany",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_establish_lybian_navy"
+      ],
+      "mutuallyExclusive": [
+        "LBA_follow_italy"
+      ],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_follow_italy",
+      "name": "Follow Italy",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_establish_lybian_navy"
+      ],
+      "mutuallyExclusive": [
+        "LBA_follow_germany"
+      ],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_invest_in_main_fleet",
+      "name": "Invest in Mainfleet",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_follow_italy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_invest_in_subs",
+      "name": "Invest in subs",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_follow_germany"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_dockyard_expensionment",
+      "name": "Dockyard Expandment",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_invest_in_subs",
+        "LBA_invest_in_main_fleet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_exile",
+      "name": "Exiled Lybian force",
+      "description": "",
+      "x": 30,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_italian_volenteers",
+      "name": "Italian volenteers",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_exile"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_exiled_army",
+      "name": "Exiled army",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_italian_volenteers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_naval_route_to_sicilia",
+      "name": "A Naval Route To Sicilia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_italian_trade_agreement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_from_tripoli_to_tobruk",
+      "name": "From Tripoli To Tobruk",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_political_intregration"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_coordinate_with_imperial_forces",
+      "name": "Coordinate With Imperial Forces",
+      "description": "",
+      "x": 40,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_the_air_bridge",
+      "name": "The Air Bridge",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_coordinate_with_imperial_forces"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_defend_our_ports",
+      "name": "Defend Our Ports",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_coordinate_with_imperial_forces"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_fortify_the_west",
+      "name": "Fortify The West",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_coordinate_with_imperial_forces"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_fortify_the_east",
+      "name": "Fortify The East",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_coordinate_with_imperial_forces"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_joint_naval_rearmament",
+      "name": "Joint Naval Rearmament",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_the_air_bridge",
+        "LBA_defend_our_ports"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_support_our_african_brethren",
+      "name": "Support Our African Brethren",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_fortify_the_west",
+        "LBA_fortify_the_east"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_invest_in_imperial_industries",
+      "name": "Invest In Imperial Industries",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_joint_naval_rearmament"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_resources_for_the_empire",
+      "name": "Resources For The Empire",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_joint_naval_rearmament"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_send_them_equipment",
+      "name": "Send Them Equipment!",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_support_our_african_brethren"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_our_sweat_saves_their_blood",
+      "name": "Our Sweat Saves Their Blood",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_support_our_african_brethren"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_create_artificial_irrigation",
+      "name": "Create Artificial Irrigation",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_resources_for_the_empire",
+        "LBA_invest_in_imperial_industries"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_imperial_arms_factories",
+      "name": "Imperial Arms Factories",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_send_them_equipment",
+        "LBA_our_sweat_saves_their_blood"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    },
+    {
+      "id": "LBA_complete_imperial_preparations",
+      "name": "Complete Imperial Preparations",
+      "description": "",
+      "x": 0,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "LBA_imperial_arms_factories",
+        "LBA_create_artificial_irrigation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "Libya.txt",
+      "shared": false
+    }
+  ]
+}

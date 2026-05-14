@@ -50,6 +50,155 @@ function bindAutoGrow(textarea) {
 
 document.querySelectorAll(".auto-grow").forEach(bindAutoGrow);
 
+
+const smartFocusState = {
+  countries: [],
+  activeTree: null,
+  focusByName: new Map(),
+  focusById: new Map()
+};
+
+async function initialiseSmartFocusControls() {
+  const modSelect = document.getElementById("focusDataModSelect");
+  const countrySelect = document.getElementById("focusDataCountrySelect");
+  const loadButton = document.getElementById("loadFocusDataBtn");
+
+  if (!modSelect || !countrySelect || !loadButton) return;
+
+  modSelect.addEventListener("change", async () => {
+    if (modSelect.value === "fuwg") {
+      await loadSmartFocusCountries();
+    } else {
+      countrySelect.innerHTML = '<option value="">Select FUWG first</option>';
+      countrySelect.disabled = true;
+      clearSmartFocusData();
+      setFocusDataStatus("Manual focus entry is active.");
+    }
+  });
+
+  loadButton.addEventListener("click", async () => {
+    if (modSelect.value !== "fuwg") {
+      clearSmartFocusData();
+      setFocusDataStatus("Select FUWG first, or keep using manual focus entry.");
+      return;
+    }
+
+    const tag = countrySelect.value;
+    if (!tag) {
+      setFocusDataStatus("Choose a FUWG country/tree first.");
+      return;
+    }
+
+    await loadSmartFocusTree(tag);
+  });
+}
+
+function setFocusDataStatus(message) {
+  const status = document.getElementById("focusDataStatus");
+  if (status) status.textContent = message;
+}
+
+function clearSmartFocusData() {
+  smartFocusState.activeTree = null;
+  smartFocusState.focusByName = new Map();
+  smartFocusState.focusById = new Map();
+  const list = document.getElementById("focusOptionsList");
+  if (list) list.innerHTML = "";
+  document.querySelectorAll('input[data-field="focus"]').forEach(updateFocusInputMatch);
+}
+
+async function loadSmartFocusCountries() {
+  const countrySelect = document.getElementById("focusDataCountrySelect");
+  countrySelect.disabled = true;
+  countrySelect.innerHTML = '<option value="">Loading FUWG countries...</option>';
+  setFocusDataStatus("Loading FUWG country list...");
+
+  try {
+    const response = await fetch("data/fuwg/countries.json");
+    if (!response.ok) throw new Error(`Could not load countries.json (${response.status})`);
+    const data = await response.json();
+
+    smartFocusState.countries = data.countries || [];
+    countrySelect.innerHTML = '<option value="">Choose country/tree...</option>';
+
+    smartFocusState.countries.forEach((country) => {
+      const option = document.createElement("option");
+      option.value = country.tag;
+      option.textContent = `${country.name} (${country.tag}) — ${country.focusCount} focuses`;
+      countrySelect.appendChild(option);
+    });
+
+    countrySelect.disabled = false;
+    setFocusDataStatus(`Loaded ${smartFocusState.countries.length} FUWG country/tree entries. Choose a country, then click Load Focus Data.`);
+  } catch (error) {
+    countrySelect.innerHTML = '<option value="">Could not load FUWG data</option>';
+    setFocusDataStatus(`Could not load FUWG countries: ${error.message}`);
+  }
+}
+
+async function loadSmartFocusTree(tag) {
+  setFocusDataStatus(`Loading FUWG focus tree for ${tag}...`);
+
+  try {
+    const response = await fetch(`data/fuwg/focus_trees/${encodeURIComponent(tag)}.json`);
+    if (!response.ok) throw new Error(`Could not load ${tag}.json (${response.status})`);
+
+    const tree = await response.json();
+    smartFocusState.activeTree = tree;
+    smartFocusState.focusByName = new Map();
+    smartFocusState.focusById = new Map();
+
+    const list = document.getElementById("focusOptionsList");
+    list.innerHTML = "";
+
+    (tree.focuses || []).forEach((focus) => {
+      smartFocusState.focusById.set(focus.id, focus);
+      smartFocusState.focusByName.set(focus.name.toLowerCase(), focus);
+      smartFocusState.focusByName.set(focus.id.toLowerCase(), focus);
+
+      const option = document.createElement("option");
+      option.value = focus.name;
+      option.label = focus.id;
+      list.appendChild(option);
+    });
+
+    setValue("patchInput", "FUWG");
+    setValue("countryInput", `${tree.country} (${tree.tag})`);
+
+    document.querySelectorAll('input[data-field="focus"]').forEach(updateFocusInputMatch);
+    setFocusDataStatus(`Loaded ${tree.country} (${tree.tag}) — ${tree.focusCount} focuses. Focus rows now support searchable FUWG focus names.`);
+  } catch (error) {
+    setFocusDataStatus(`Could not load FUWG focus tree: ${error.message}`);
+  }
+}
+
+function updateFocusInputMatch(input) {
+  if (!input) return;
+
+  const value = String(input.value || "").trim().toLowerCase();
+  const focus = smartFocusState.focusByName.get(value);
+
+  input.classList.remove("focus-known", "focus-unknown");
+
+  if (!value || !smartFocusState.activeTree) {
+    input.dataset.focusId = input.dataset.focusId || "";
+    return;
+  }
+
+  if (focus) {
+    input.dataset.focusId = focus.id;
+    input.title = `${focus.id}${focus.prerequisites?.length ? ` | Requires: ${focus.prerequisites.join(", ")}` : ""}`;
+    input.classList.add("focus-known");
+  } else {
+    input.dataset.focusId = "";
+    input.title = "No exact match in loaded FUWG focus tree.";
+    input.classList.add("focus-unknown");
+  }
+}
+
+
+initialiseSmartFocusControls();
+
 document.querySelectorAll(".tab").forEach(button => {
   button.addEventListener("click", () => {
     document.querySelectorAll(".tab").forEach(b => b.classList.remove("active"));
@@ -73,6 +222,23 @@ function addRow(tableId, values = {}) {
 
   fields.forEach((field) => {
     const td = document.createElement("td");
+
+    if (tableId === "focusTable" && field === "focus") {
+      const input = document.createElement("input");
+      input.type = "text";
+      input.spellcheck = false;
+      input.className = "focus-search-input";
+      input.setAttribute("list", "focusOptionsList");
+      input.value = values[field] || "";
+      input.dataset.field = field;
+      input.dataset.focusId = values.focusId || "";
+      input.addEventListener("input", () => updateFocusInputMatch(input));
+      td.appendChild(input);
+      tr.appendChild(td);
+      requestAnimationFrame(() => updateFocusInputMatch(input));
+      return;
+    }
+
     const textarea = document.createElement("textarea");
     textarea.rows = 1;
     textarea.spellcheck = false;
@@ -140,7 +306,7 @@ function setResearchData(research) {
 function renumber(tableId) {
   const rows = document.querySelectorAll(`#${tableId} tbody tr`);
   rows.forEach((row, index) => {
-    const orderInput = row.querySelector('textarea[data-field="order"]');
+    const orderInput = row.querySelector('textarea[data-field="order"], input[data-field="order"]');
     if (orderInput) orderInput.value = String(index + 1);
     row.querySelectorAll("textarea").forEach(syncRowHeight);
   });
@@ -150,8 +316,12 @@ function tableToData(tableId) {
   const rows = [...document.querySelectorAll(`#${tableId} tbody tr`)];
   return rows.map(row => {
     const obj = {};
-    row.querySelectorAll("textarea").forEach(input => {
+    row.querySelectorAll("textarea, input").forEach(input => {
+      if (!input.dataset.field) return;
       obj[input.dataset.field] = input.value;
+      if (tableId === "focusTable" && input.dataset.field === "focus") {
+        obj.focusId = input.dataset.focusId || "";
+      }
     });
     return obj;
   });
@@ -308,6 +478,7 @@ function loadPlanIntoUI(plan) {
   setValue("buildInput", plan.meta?.buildName || "");
   setValue("createdDateInput", plan.meta?.createdDate || "");
   setTableData("focusTable", plan.focus || []);
+  document.querySelectorAll('input[data-field="focus"]').forEach(updateFocusInputMatch);
   setTableData("constructionTable", plan.construction || []);
   setTableData("productionTable", plan.production || []);
   setTableData("ppTable", plan.politicalPower || []);
@@ -489,7 +660,7 @@ function packPlan(plan) {
       plan.meta?.buildName || "",
       plan.meta?.createdDate || ""
     ],
-    f: packRows(plan.focus, ["order", "focus", "timing", "notes"]),
+    f: packRows(plan.focus, ["order", "focus", "timing", "notes", "focusId"]),
     c: packRows(plan.construction, ["order", "what", "where", "when", "notes"]),
     p: packRows(plan.production, ["order", "line", "factories", "when", "notes"]),
     pp: packRows(plan.politicalPower, ["order", "item", "pp", "timing", "notes"]),
@@ -523,7 +694,7 @@ function unpackPlan(packed) {
       buildName: packed.m?.[2] || "",
       createdDate: packed.m?.[3] || ""
     },
-    focus: unpackRows(packed.f || [], ["order", "focus", "timing", "notes"]),
+    focus: unpackRows(packed.f || [], ["order", "focus", "timing", "notes", "focusId"]),
     construction: unpackRows(packed.c || [], ["order", "what", "where", "when", "notes"]),
     production: unpackRows(packed.p || [], ["order", "line", "factories", "when", "notes"]),
     politicalPower: unpackRows(packed.pp || [], ["order", "item", "pp", "timing", "notes"]),

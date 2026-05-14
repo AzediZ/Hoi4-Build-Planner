@@ -1,0 +1,1661 @@
+{
+  "mod": "FUWG",
+  "tag": "TUR",
+  "country": "Turkey",
+  "treeId": "turkish_focus",
+  "sourceFile": "turkey.txt",
+  "focusCount": 118,
+  "focuses": [
+    {
+      "id": "TUR_the_montreux_convention",
+      "name": "The Montreux Convention",
+      "description": "",
+      "x": 6,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_halk_ve_devlet",
+      "name": "Halk Ve Devlet",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_the_montreux_convention"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_continue_the_policy_of_etatism",
+      "name": "Continue The Policy Of Etatism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_halk_ve_devlet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_ratify_the_six_arrows",
+      "name": "Ratify The Six Arrows",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 1,
+      "prerequisites": [
+        "TUR_continue_the_policy_of_etatism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_pivot_to_the_past",
+      "name": "Pivot To The Past",
+      "description": "",
+      "x": -8,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_fading_father_of_all_turks"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_fading_father_of_all_turks",
+      "name": "Fading Father Of All Turks",
+      "description": "",
+      "x": 0,
+      "y": -1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_ratify_the_six_arrows"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_restore_the_divan",
+      "name": "Restore The Divan",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_pivot_to_the_past"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_building_our_nation",
+      "name": "Building Our Nation",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_pivot_to_the_past"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_return_of_the_sultan",
+      "name": "Return Of The Sultan",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_restore_the_divan",
+        "TUR_building_our_nation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_exploit_greek_weakness",
+      "name": "Exploit Greek Weakness",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_reclaiming_our_lost_empire"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_invest_in_aegean",
+      "name": "Invest In Aegean",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_exploit_greek_weakness"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_exploit_irans_weakness",
+      "name": "Exploit Irans Weakness",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_reclaiming_our_lost_empire"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_invest_in_azerbaijan",
+      "name": "Invest In Azerbaijan",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_exploit_irans_weakness"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_reclaiming_our_lost_empire",
+      "name": "Reclaiming Our Lost Empire",
+      "description": "",
+      "x": 2,
+      "y": -1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_return_of_the_sultan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_total_war",
+      "name": "Total War",
+      "description": "",
+      "x": -1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_invest_in_aegean",
+        "TUR_invest_in_azerbaijan",
+        "TUR_invest_in_hatay"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_modern_horses",
+      "name": "Modern Horses",
+      "description": "",
+      "x": -1,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_total_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_the_elephants_of_the_empire",
+      "name": "The Elephants Of The Empire",
+      "description": "",
+      "x": -1,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_modern_horses"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_democratic_transition_focus",
+      "name": "Democratic Transition Focus",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_ratify_the_six_arrows"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_expanding_our_armaments",
+      "name": "Expanding Our Armaments",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_democratic_transition_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_permit_regional_elections",
+      "name": "Permit Regional Elections",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_democratic_transition_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_privatize_our_infrastructure",
+      "name": "Privatize Our Infrastructure",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_expanding_our_armaments",
+        "TUR_permit_regional_elections"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_supporting_the_east",
+      "name": "Supporting The East",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_privatize_our_infrastructure"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_desert_camel_corps",
+      "name": "Desert Camel Corps",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_supporting_the_east"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_restoring_our_nations_pride",
+      "name": "Restoring Our Nations Pride",
+      "description": "",
+      "x": -1,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_reinstate_the_darulfununu_sahane"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_host_exiled_scientists",
+      "name": "Host Exiled Scientists",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_restoring_our_nations_pride",
+        "TUR_pack_for_a_long_winter"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_democratic_capstone_focus",
+      "name": "Democratic Capstone Focus",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_host_exiled_scientists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_peace_at_home",
+      "name": "Peace At Home",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_ratify_the_six_arrows"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_revive_turkish_revolutionism",
+      "name": "Revive Turkish Revolutionism",
+      "description": "",
+      "x": 4,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_ratify_the_six_arrows"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_turkish_state_railways",
+      "name": "Ankara-Teheran Highway",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_ratify_the_six_arrows"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_the_second_five_year_plan",
+      "name": "The Second Five Year Plan",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_turkish_state_railways"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_the_guardians_of_kemalism",
+      "name": "The Guardians Of Kemalism",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_turkish_state_railways"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_variant_turkish_tax_focus",
+      "name": "Variant Turkish Tax Focus",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_the_guardians_of_kemalism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_turk_ulusu",
+      "name": "Turk Ulusu",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_the_guardians_of_kemalism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_rehabilitate_the_kadro_movement",
+      "name": "Rehabilitate The Kadro Movement",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_revive_turkish_revolutionism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_a_common_destiny_for_all_of_turkey",
+      "name": "A Common Destiny For All Of Turkey",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_kemalist_socialist_theory"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_hunt_down_fifth_columnist_islamists",
+      "name": "Hunt Down Fifth Columnist Islamists",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_a_common_destiny_for_all_of_turkey"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_abuse_the_office_of_soil_products",
+      "name": "Abuse The Office Of Soil Products",
+      "description": "",
+      "x": 0,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_the_guardians_of_kemalism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_american_motor_factories",
+      "name": "American Motor Factories",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_abuse_the_office_of_soil_products"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_kemalist_socialist_theory",
+      "name": "Kemalist Socialist Theory",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_revive_turkish_revolutionism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_patriotism_over_internationalism",
+      "name": "Patriotism Over Internationalism",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_kemalist_socialist_theory"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_create_the_turkish_workers_militia",
+      "name": "Create The Turkish Workers Militia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_patriotism_over_internationalism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_exploit_france_weakness",
+      "name": "Exploit France Weakness",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_create_the_turkish_workers_militia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_invest_in_hatay",
+      "name": "Invest In Hatay",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_exploit_france_weakness"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_defence_industry",
+      "name": "Defence Industry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_invest_in_hatay"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_nationalise_all_private_industry",
+      "name": "Nationalise All Private Industry",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_create_the_turkish_workers_militia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_georgian_manganese_extraction",
+      "name": "Georgian Manganese Extraction",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_invest_in_hatay"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_salt_the_scars_of_the_great_war",
+      "name": "Salt The Scars Of The Great War",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_hunt_down_fifth_columnist_islamists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_imperial_factories",
+      "name": "Imperial Factories",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_privatize_our_infrastructure"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_reinstate_the_darulfununu_sahane",
+      "name": "Reinstate The Darulfununu Sahane",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_imperial_factories",
+        "TUR_supporting_the_east"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_refining_our_strategies",
+      "name": "Refining Our Strategies",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_the_guardians_of_kemalism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_reconfigure_our_foreign_policy",
+      "name": "Reconfigure Our Foreign Policy",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_democratic_capstone_focus",
+        "TUR_abuse_the_office_of_soil_products",
+        "TUR_salt_the_scars_of_the_great_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_renew_the_turkish_soviet_non_aggression_pact",
+      "name": "Renew The Turkish Soviet Non Aggression Pact",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_reconfigure_our_foreign_policy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_the_batumi_accord",
+      "name": "The Batumi Accord",
+      "description": "",
+      "x": 0,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_reconfigure_our_foreign_policy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_instanbull_to_stalingrad_highway",
+      "name": "Instanbull To Stalingrad Highway",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_provide_refuge_to_the_victims_of_fascism",
+        "TUR_soviet_tank_factories"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_readdress_the_montreux_convention",
+      "name": "Readdress The Montreux Convention",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_instanbull_to_stalingrad_highway"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_connecting_our_capitals",
+      "name": "Connecting Our Capitals",
+      "description": "",
+      "x": 0,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_instanbull_to_stalingrad_highway"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_peninsular_network_of_factories",
+      "name": "Peninsular Network Of Factories",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_turkish_state_railways"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_edirne_research_exchange",
+      "name": "Edirne Research Exchange",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_nationalise_all_private_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_slow_industrialization",
+      "name": "Slow Industrialization",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_edirne_research_exchange"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_second_industrialization",
+      "name": "Second Industrialization",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_slow_industrialization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_third_industrialization_plan",
+      "name": "Third Industrialization Plan",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_second_industrialization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_finalize_the_industrialization",
+      "name": "Finalize The Industrialization",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_third_industrialization_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_hava_okulu",
+      "name": "Hava Okulu",
+      "description": "",
+      "x": 34,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_expand_the_air_bases",
+      "name": "Expand the Air Bases of Sevastopol",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_hava_okulu"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_accelerate_native_fighter_designs",
+      "name": "Accelerate Native Fighter Designs",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_expand_the_air_bases"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_invoke_the_methods_of_mehmed_ii",
+      "name": "Invoke The Methods Of Mehmed Ii",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_accelerate_native_fighter_designs"
+      ],
+      "mutuallyExclusive": [
+        "TUR_patrol_the_seas"
+      ],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_bomber_schematics",
+      "name": "Bomber Schematics",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_invoke_the_methods_of_mehmed_ii"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_patrol_the_seas",
+      "name": "Patrol The Seas",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_accelerate_native_fighter_designs"
+      ],
+      "mutuallyExclusive": [
+        "TUR_invoke_the_methods_of_mehmed_ii"
+      ],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_controlling_the_skies_of_europe",
+      "name": "Controlling The Skies Of Europe",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_patrol_the_seas"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_learning_from_the_great_war",
+      "name": "Learning From The Great War",
+      "description": "",
+      "x": 20,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_modernising_the_army",
+      "name": "Modernising The Army",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_learning_from_the_great_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_improve_the_production",
+      "name": "Improve The Production",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_modernising_the_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_expand_the_golcuk_naval_base",
+      "name": "Expand The Golcuk Naval Base",
+      "description": "",
+      "x": 7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_modernising_the_army",
+        "TUR_expand_the_air_bases"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_relocate_from_yildiz_palace",
+      "name": "Relocate From Yildiz Palace",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_expand_the_golcuk_naval_base"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_the_legacy_of_osmanli_donanmasi",
+      "name": "The Legacy Of Osmanli Donanmasi",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_relocate_from_yildiz_palace"
+      ],
+      "mutuallyExclusive": [
+        "TUR_the_path_of_the_wolf"
+      ],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_expanding_our_navy",
+      "name": "Expanding Our Navy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_the_legacy_of_osmanli_donanmasi"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_the_path_of_the_wolf",
+      "name": "The Path Of The Wolf",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_relocate_from_yildiz_palace"
+      ],
+      "mutuallyExclusive": [
+        "TUR_the_legacy_of_osmanli_donanmasi"
+      ],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_british_dockyards_in_turkey",
+      "name": "British Dockyards In Turkey",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_the_path_of_the_wolf"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_pack_for_a_long_winter",
+      "name": "Pack For A Long Winter",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_reinstate_the_darulfununu_sahane"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_turkish_panzers",
+      "name": "Turkish Panzers",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_abuse_the_office_of_soil_products"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_provide_refuge_to_the_victims_of_fascism",
+      "name": "Provide Refuge To The Victims Of Fascism",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_the_batumi_accord"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_soviet_tank_factories",
+      "name": "Soviet Tank Factories",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_the_batumi_accord"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_offensive_industry",
+      "name": "Offensive Industry",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_soviet_tank_factories"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_dissolve_the_ODPA",
+      "name": "Dissolve The Odpa",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_provide_refuge_to_the_victims_of_fascism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_the_international_of_proletarian_freethinkers",
+      "name": "The International Of Proletarian Freethinkers",
+      "description": "",
+      "x": -2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_instanbull_to_stalingrad_highway"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_joint_caucasian_turkish_officer_school",
+      "name": "Joint Caucasian Turkish Officer School",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_instanbull_to_stalingrad_highway"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_arctic_wolves_training_program",
+      "name": "Arctic Wolves Training Program",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_joint_caucasian_turkish_officer_school"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_seize_religious_property",
+      "name": "Seize Religious Property",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_the_international_of_proletarian_freethinkers",
+        "TUR_joint_caucasian_turkish_officer_school"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_guarding_our_western_frontiers",
+      "name": "Guarding the Mountain Frontiers",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_the_international_of_proletarian_freethinkers",
+        "TUR_joint_caucasian_turkish_officer_school"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_lift_the_turkiye_komunist_partisis_exile",
+      "name": "Lift The Turkiye Komunist Partisis Exile",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_seize_religious_property",
+        "TUR_guarding_our_western_frontiers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_reconciling_kemalism_with_bolshevism",
+      "name": "Reconciling Kemalism With Bolshevism",
+      "description": "",
+      "x": 0,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_seize_religious_property"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_the_turkish_tank_project",
+      "name": "The Turkish Tank Project",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_arctic_wolves_training_program"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_taking_responsibility_for_the_air_war",
+      "name": "Airfields for the Caucasus",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_the_turkish_tank_project"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_officers_of_the_revolution",
+      "name": "Officers Of The Revolution",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_the_international_of_proletarian_freethinkers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_scrapping_our_debts",
+      "name": "Scrapping Our Debts",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_officers_of_the_revolution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_collectivising_our_agriculture",
+      "name": "Collectivising Our Agriculture",
+      "description": "",
+      "x": 0,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_officers_of_the_revolution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_mechanising_our_army",
+      "name": "Mechanising Our Army",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_modernising_the_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_embrace_military_tradition",
+      "name": "Embrace Military Tradition",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_modernising_the_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_the_kirikkale_tank",
+      "name": "The Kirikkale Tank",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_mechanising_our_army",
+        "TUR_improve_the_production",
+        "TUR_embrace_military_tradition"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_superiority_of_arms",
+      "name": "Superiority Of Arms",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_embrace_military_tradition",
+        "TUR_mechanising_our_army",
+        "TUR_improve_the_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_utilising_our_terrain",
+      "name": "Utilising Our Terrain",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_mechanising_our_army",
+        "TUR_improve_the_production",
+        "TUR_embrace_military_tradition"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_construct_the_cakmak_line",
+      "name": "Defend the Caucasus",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_superiority_of_arms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_turkish_air_defense_platforms",
+      "name": "Turkish Air Defense Platforms",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_controlling_the_skies_of_europe",
+        "TUR_bomber_schematics"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_fortified_defensive_bases",
+      "name": "Fortified Defensive Bases",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_construct_the_cakmak_line",
+        "TUR_expanding_our_navy",
+        "TUR_british_dockyards_in_turkey",
+        "TUR_turkish_air_defense_platforms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_turk_silahli_kuvvetleri",
+      "name": "Turk Silahli Kuvvetleri",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "TUR_fortified_defensive_bases"
+      ],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_invite_german_officers_to_izmir",
+      "name": "Invite German Officers To Izmir",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_integrate_german_officers_into_the_army",
+      "name": "Integrate German Officers Into The Army",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_the_italo_turkish_naval_academy",
+      "name": "The Italo Turkish Naval Academy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_taking_over_defense_of_the_gulf",
+      "name": "Taking Over Defense Of The Gulf",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_the_mediterranean_entente",
+      "name": "The Mediterranean Entente",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_misak_i_milli",
+      "name": "Misak I Milli",
+      "description": "",
+      "x": 1,
+      "y": 13,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_reaffirm_the_balkan_pact",
+      "name": "Reaffirm The Balkan Pact",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_fully_integrate_the_is_bank",
+      "name": "Fully Integrate The Is Bank",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_the_sanayiciler",
+      "name": "The Sanayiciler",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_kemalism_and_the_modern_movement",
+      "name": "Kemalism And The Modern Movement",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_reinvigorate_turkish_nationalism",
+      "name": "Reinvigorate Turkish Nationalism",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "TUR_privatize_the_anadolu_agency",
+      "name": "Privatize The Anadolu Agency",
+      "description": "",
+      "x": -4,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "turkey.txt",
+      "shared": false
+    },
+    {
+      "id": "SSB_the_saadabad_pact",
+      "name": "The Saadabad Pact",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "shared_reference",
+      "shared": true
+    }
+  ]
+}

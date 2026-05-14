@@ -1,0 +1,2510 @@
+{
+  "mod": "FUWG",
+  "tag": "BEL",
+  "country": "Belgium",
+  "treeId": "belgium_focus",
+  "sourceFile": "belgium.txt",
+  "focusCount": 173,
+  "focuses": [
+    {
+      "id": "BEL_perpetual_neutrality",
+      "name": "Perpetual Neutrality",
+      "description": "",
+      "x": 18,
+      "y": 0,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_independent_neutral_and_loyal",
+      "name": "Independent Neutral And Loyal",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_perpetual_neutrality"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_defensive_neutrality",
+      "name": "Defensive Neutrality",
+      "description": "",
+      "x": -15,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_independent_neutral_and_loyal"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_national_redoubt_at_antwerp",
+      "name": "National Redoubt At Antwerp",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_defensive_neutrality"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_belgian_gates",
+      "name": "Belgian Gates",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_defensive_neutrality"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_fortify_liege",
+      "name": "Fortify Liege",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_national_redoubt_at_antwerp"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_iron_wall",
+      "name": "Iron Wall",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_belgian_gates"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_eben_emael_fortress",
+      "name": "Eben Emael Fortress",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_fortify_liege"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_our_southern_neighbour",
+      "name": "Our Southern Neighbour",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_iron_wall"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_koningshooikt_wavre_line",
+      "name": "Koningshooikt Wavre Line",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_eben_emael_fortress",
+        "BEL_iron_wall"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_mobilize_the_nation",
+      "name": "Mobilize The Nation",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_our_southern_neighbour",
+        "BEL_koningshooikt_wavre_line"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_flooded_tank_barriers",
+      "name": "Flooded Tank Barriers",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_koningshooikt_wavre_line"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_protect_against_france",
+      "name": "Protect Against France",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_our_southern_neighbour"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_dam_the_consequences",
+      "name": "Dam The Consequences",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "BEL_flooded_tank_barriers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_defensive_reorganization",
+      "name": "Defensive Reorganization",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_mobilize_the_nation",
+        "BEL_koningshooikt_wavre_line"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_defense_bill",
+      "name": "Defense Bill",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_independent_neutral_and_loyal"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_royal_military_academy",
+      "name": "Royal Military Academy",
+      "description": "",
+      "x": -6,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_defense_bill"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_multi_language_courses",
+      "name": "Multi Language Courses",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_royal_military_academy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_department_of_telecommunications",
+      "name": "Department Of Telecommunications",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_royal_military_academy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_department_of_ballistic_metrology",
+      "name": "Department Of Ballistic Metrology",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_royal_military_academy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_resist_and_bite",
+      "name": "Resist And Bite",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_multi_language_courses"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_center_for_advanced_military_studies",
+      "name": "Center For Advanced Military Studies",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_multi_language_courses",
+        "BEL_department_of_telecommunications"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_anti_tank_guns",
+      "name": "Anti Tank Guns",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_department_of_ballistic_metrology"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_junior_officer_training",
+      "name": "Junior Officer Training",
+      "description": "",
+      "x": 4,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_royal_military_academy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_belgian_special_forces",
+      "name": "Belgian Special Forces",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_resist_and_bite"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_senior_officer_training",
+      "name": "Senior Officer Training",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_center_for_advanced_military_studies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_fonderie_royale_de_canons_liege",
+      "name": "Fonderie Royale De Canons Liege",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_department_of_ballistic_metrology"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_interpreters",
+      "name": "Interpreters",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_belgian_special_forces"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_center_of_nuclear_chemistry",
+      "name": "Center Of Nuclear Chemistry",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_center_for_advanced_military_studies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_strategic_doctrine_development",
+      "name": "Strategic Doctrine Development",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_junior_officer_training"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_belgian_tank_development",
+      "name": "Belgian Tank Development",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_strategic_doctrine_development",
+        "BEL_fonderie_royale_de_canons_liege"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_doctrinal_innovations",
+      "name": "Doctrinal Innovations",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_strategic_doctrine_development"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_modernized_army",
+      "name": "Modernized Army",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_defensive_reorganization",
+        "BEL_senior_officer_training",
+        "BEL_doctrinal_innovations"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_increased_length_of_service",
+      "name": "Increased Length Of Service",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_defense_bill"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_fn_herstal",
+      "name": "Fn Herstal",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_defense_bill"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_poudreries_reunies_de_belgique",
+      "name": "Poudreries Reunies De Belgique",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_fn_herstal"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_minerva_imperia",
+      "name": "Minerva Imperia",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_fn_herstal",
+        "BEL_dyle_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_legacy_of_the_great_war",
+      "name": "Legacy Of The Great War",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_minerva_imperia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_repudiate_treaty_with_france",
+      "name": "Repudiate Treaty With France",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_independent_neutral_and_loyal"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_dyle_plan",
+      "name": "Dyle Plan",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_repudiate_treaty_with_france"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_government_resigns",
+      "name": "Government Resigns",
+      "description": "",
+      "x": 21,
+      "y": 0,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_government_of_national_unity",
+      "name": "Government Of National Unity",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 0,
+      "prerequisites": [
+        "BEL_government_resigns"
+      ],
+      "mutuallyExclusive": [
+        "BEL_vandervelde_minority"
+      ],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_investigate_bribery_charges",
+      "name": "Investigate Bribery Charges",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_government_resigns"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_royal_intervention",
+      "name": "Royal Intervention",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_investigate_bribery_charges",
+        "BEL_government_of_national_unity",
+        "BEL_repudiate_treaty_with_france"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_paul_emile_janson",
+      "name": "Paul Emile Janson",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 0,
+      "prerequisites": [
+        "BEL_royal_intervention"
+      ],
+      "mutuallyExclusive": [
+        "BEL_degrelle"
+      ],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_plan_de_man",
+      "name": "Plan De Man",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_paul_emile_janson"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_economic_recovery",
+      "name": "Economic Recovery",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_plan_de_man",
+        "BEL_dyle_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_adriaan_martens_crisis",
+      "name": "Adriaan Martens Crisis",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_economic_recovery"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_benelux_union",
+      "name": "Benelux Union",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_adriaan_martens_crisis"
+      ],
+      "mutuallyExclusive": [
+        "BEL_tripartite_government"
+      ],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_tripartite_government",
+      "name": "Tripartite Government",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_adriaan_martens_crisis"
+      ],
+      "mutuallyExclusive": [
+        "BEL_benelux_union"
+      ],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_the_council_of_europe",
+      "name": "The Council Of Europe",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_benelux_union"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_broken_neutrality",
+      "name": "Broken Neutrality",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_tripartite_government"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_degrelle",
+      "name": "Degrelle",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 0,
+      "prerequisites": [
+        "BEL_royal_intervention"
+      ],
+      "mutuallyExclusive": [
+        "BEL_paul_emile_janson"
+      ],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_support_the_rexists",
+      "name": "Support The Rexists",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_degrelle"
+      ],
+      "mutuallyExclusive": [
+        "BEL_support_the_vnv",
+        "BEL_constitutional_crisis"
+      ],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_dissolve_political_parties",
+      "name": "Dissolve Political Parties",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_support_the_rexists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_the_flemish_question",
+      "name": "The Flemish Question",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_support_the_rexists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_christian_corporatism",
+      "name": "Christian Corporatism",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_the_flemish_question"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_legacy_of_the_soldier_king",
+      "name": "Legacy Of The Soldier King",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_the_flemish_question"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_the_lost_tribe",
+      "name": "The Lost Tribe",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_christian_corporatism",
+        "BEL_legacy_of_the_soldier_king"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_invite_german_tank_organization",
+      "name": "Invite German Tank Organization",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_the_lost_tribe"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_the_walloon_legion",
+      "name": "The Walloon Legion",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_the_lost_tribe"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_the_new_ruhr",
+      "name": "The New Ruhr",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_the_walloon_legion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_abandon_neutrality",
+      "name": "Abandon Neutrality",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_support_the_rexists",
+        "BEL_support_the_vnv"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_the_french_horse_and_the_red_rider",
+      "name": "The French Horse And The Red Rider",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_support_the_rexists",
+        "BEL_support_the_vnv"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_nationalize_the_banks",
+      "name": "Nationalize The Banks",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_abandon_neutrality",
+        "BEL_the_french_horse_and_the_red_rider"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_royal_commander_in_chief",
+      "name": "Royal Commander In Chief",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_abandon_neutrality",
+        "BEL_the_french_horse_and_the_red_rider"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_international_stipend",
+      "name": "International Stipend",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_abandon_neutrality",
+        "BEL_the_french_horse_and_the_red_rider"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_civil_service_purge",
+      "name": "Civil Service Purge",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_nationalize_the_banks",
+        "BEL_royal_commander_in_chief",
+        "BEL_international_stipend"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_traditional_family_values",
+      "name": "Traditional Family Values",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_nationalize_the_banks",
+        "BEL_royal_commander_in_chief",
+        "BEL_international_stipend"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_the_european_crusade",
+      "name": "The European Crusade",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_civil_service_purge",
+        "BEL_traditional_family_values"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_belgian_renaissance",
+      "name": "Belgian Renaissance",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_the_european_crusade"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_support_the_vnv",
+      "name": "Support The Vnv",
+      "description": "",
+      "x": 8,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_degrelle"
+      ],
+      "mutuallyExclusive": [
+        "BEL_support_the_rexists",
+        "BEL_constitutional_crisis"
+      ],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_revitalize_nederlands",
+      "name": "Revitalize Nederlands",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_support_the_vnv"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_flanders_ascendant",
+      "name": "Flanders Ascendant",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_revitalize_nederlands"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_dietsland",
+      "name": "Dietsland",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_flanders_ascendant"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_demand_calais",
+      "name": "Demand Calais",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_dietsland"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_belgian_east_indies",
+      "name": "Belgian East Indies",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_dietsland"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_burgundy_rising",
+      "name": "Burgundy Rising",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_demand_calais"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_join_axis",
+      "name": "Join Axis",
+      "description": "",
+      "x": -6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_burgundy_rising",
+        "BEL_the_lost_tribe"
+      ],
+      "mutuallyExclusive": [
+        "BEL_strength_and_brotherhood"
+      ],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_strength_and_brotherhood",
+      "name": "Strength And Brotherhood",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_burgundy_rising"
+      ],
+      "mutuallyExclusive": [
+        "BEL_join_axis"
+      ],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_demand_further_gallic_concessions",
+      "name": "Demand Further Gallic Concessions",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_burgundy_rising"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_belgica",
+      "name": "Belgica",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_demand_further_gallic_concessions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_constitutional_crisis",
+      "name": "Constitutional Crisis",
+      "description": "",
+      "x": 13,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_degrelle"
+      ],
+      "mutuallyExclusive": [
+        "BEL_support_the_vnv",
+        "BEL_support_the_rexists"
+      ],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_kings_abdication",
+      "name": "Kings Abdication",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_constitutional_crisis"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_snap_election",
+      "name": "Snap Election",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_kings_abdication"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_liberal_victory",
+      "name": "Liberal Victory",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 0,
+      "prerequisites": [
+        "BEL_snap_election"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_socialist_victory",
+      "name": "Socialist Victory",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 0,
+      "prerequisites": [
+        "BEL_snap_election"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_expression_of_belgian_unity",
+      "name": "Expression Of Belgian Unity",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_liberal_victory",
+        "BEL_socialist_victory"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_anti_corruption_taskforce",
+      "name": "Anti Corruption Taskforce",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_liberal_victory",
+        "BEL_socialist_victory"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_diplomatic_rapprochment",
+      "name": "Diplomatic Rapprochment",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_liberal_victory"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_belgian_maginot",
+      "name": "Belgian Maginot",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_expression_of_belgian_unity",
+        "BEL_anti_corruption_taskforce"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_soviet_guarantee",
+      "name": "Soviet Guarantee",
+      "description": "",
+      "x": -18,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_socialist_victory",
+        "BEL_raise_the_red_flag"
+      ],
+      "mutuallyExclusive": [
+        "BEL_support_the_european_project"
+      ],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_expedite_fort_construction",
+      "name": "Expedite Fort Construction",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_belgian_maginot"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_democratization_of_education",
+      "name": "Democratization Of Education",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_belgian_maginot"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_invite_soviet_tank_makers",
+      "name": "Invite Soviet Tank Makers",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_soviet_guarantee"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_join_allies",
+      "name": "Join Allies",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_diplomatic_rapprochment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_unity_makes_strength",
+      "name": "Unity Makes Strength",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_expedite_fort_construction",
+        "BEL_democratization_of_education"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_join_comintern",
+      "name": "Join Comintern",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_soviet_guarantee"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_better_than_maginot",
+      "name": "Better Than Maginot",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_unity_makes_strength"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_vandervelde_minority",
+      "name": "Vandervelde Minority",
+      "description": "",
+      "x": 23,
+      "y": 1,
+      "cost": 0,
+      "prerequisites": [
+        "BEL_government_resigns"
+      ],
+      "mutuallyExclusive": [
+        "BEL_government_of_national_unity"
+      ],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_problem_of_language",
+      "name": "Problem Of Language",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_vandervelde_minority"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_trade_union_support",
+      "name": "Trade Union Support",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_problem_of_language"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_cooperative_cooperation",
+      "name": "Cooperative Cooperation",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_problem_of_language"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_aid_for_spain",
+      "name": "Aid For Spain",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_trade_union_support"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_the_grand_place",
+      "name": "The Grand Place",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_trade_union_support",
+        "BEL_cooperative_cooperation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_la_belgique_et_le_congo",
+      "name": "La Belgique Et Le Congo",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_cooperative_cooperation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_spanish_intervention",
+      "name": "Spanish Intervention",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_aid_for_spain"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_contradictions_in_socialism",
+      "name": "Contradictions In Socialism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_la_belgique_et_le_congo"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_growing_threat_of_fascism",
+      "name": "Growing Threat Of Fascism",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_the_grand_place"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_peacekeeping_missions",
+      "name": "Peacekeeping Missions",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_growing_threat_of_fascism",
+        "BEL_aid_for_spain"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_international_socialist_bureau",
+      "name": "International Socialist Bureau",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_growing_threat_of_fascism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_raise_the_red_flag",
+      "name": "Raise The Red Flag",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_socialist_victory",
+        "BEL_international_socialist_bureau"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_support_the_european_project",
+      "name": "Support The European Project",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_international_socialist_bureau",
+        "BEL_socialist_victory"
+      ],
+      "mutuallyExclusive": [
+        "BEL_soviet_guarantee"
+      ],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_european_community",
+      "name": "European Community",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_support_the_european_project"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_the_king_surrenders",
+      "name": "The King Surrenders",
+      "description": "",
+      "x": 13,
+      "y": 11,
+      "cost": 0,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_unfit_to_reign",
+      "name": "Unfit To Reign",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_the_king_surrenders"
+      ],
+      "mutuallyExclusive": [
+        "BEL_prisoner_king"
+      ],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_prisoner_king",
+      "name": "Prisoner King",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_the_king_surrenders"
+      ],
+      "mutuallyExclusive": [
+        "BEL_unfit_to_reign"
+      ],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_government_in_exile",
+      "name": "Government In Exile",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_unfit_to_reign"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_la_dame_blanche",
+      "name": "La Dame Blanche",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_government_in_exile"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_moi_dabord",
+      "name": "Moi Dabord",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_government_in_exile"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_v_for_victory",
+      "name": "V For Victory",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_moi_dabord"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_democratic_homecoming",
+      "name": "Democratic Homecoming",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_v_for_victory"
+      ],
+      "mutuallyExclusive": [
+        "BEL_leopolds_return",
+        "BEL_charles_count_of_flanders"
+      ],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_charles_count_of_flanders",
+      "name": "Charles Count Of Flanders",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_v_for_victory"
+      ],
+      "mutuallyExclusive": [
+        "BEL_leopolds_return",
+        "BEL_democratic_homecoming"
+      ],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_leopolds_return",
+      "name": "Leopolds Return",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_v_for_victory"
+      ],
+      "mutuallyExclusive": [
+        "BEL_charles_count_of_flanders",
+        "BEL_democratic_homecoming"
+      ],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_secretaries_general",
+      "name": "Secretaries General",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_unfit_to_reign",
+        "BEL_prisoner_king"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_the_secret_army",
+      "name": "The Secret Army",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_secretaries_general"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_the_belgian_legion",
+      "name": "The Belgian Legion",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_secretaries_general"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_develop_home_support",
+      "name": "Develop Home Support",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_the_secret_army",
+        "BEL_the_belgian_legion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_military_service_for_all_in_exile",
+      "name": "Military Service For All In Exile",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_the_secret_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_consolidate_resistance_groups",
+      "name": "Consolidate Resistance Groups",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_develop_home_support"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_free_belgian_forces",
+      "name": "Free Belgian Forces",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_military_service_for_all_in_exile",
+        "BEL_consolidate_resistance_groups",
+        "BEL_expand_the_belgian_legion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_king_law_freedom",
+      "name": "King Law Freedom",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_prisoner_king"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_king_of_the_belgians",
+      "name": "King Of The Belgians",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_king_law_freedom"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_rally_to_the_king",
+      "name": "Rally To The King",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_the_belgian_legion",
+        "BEL_king_of_the_belgians"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_van_overstraeten_on_the_home_front",
+      "name": "Van Overstraeten On The Home Front",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_king_of_the_belgians"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_expand_the_belgian_legion",
+      "name": "Expand The Belgian Legion",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_rally_to_the_king"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_monetary_reconstruction",
+      "name": "Monetary Reconstruction",
+      "description": "",
+      "x": 29,
+      "y": 0,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_rebuild_wallonian_industry",
+      "name": "Rebuild Wallonian Industry",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_monetary_reconstruction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_gold_reserves",
+      "name": "Gold Reserves",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_monetary_reconstruction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_social_partners",
+      "name": "Social Partners",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_rebuild_wallonian_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_revive_coal_mining",
+      "name": "Revive Coal Mining",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_rebuild_wallonian_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_40_hour_workweek",
+      "name": "40 Hour Workweek",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_social_partners"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_cockerill",
+      "name": "Cockerill",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_social_partners",
+        "BEL_revive_coal_mining"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_railway_expansion",
+      "name": "Railway Expansion",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_revive_coal_mining"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_corporate_social_responsibility",
+      "name": "Corporate Social Responsibility",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_40_hour_workweek"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_val_benoit_institutes",
+      "name": "Val Benoit Institutes",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_corporate_social_responsibility"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_stk",
+      "name": "Stk",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_val_benoit_institutes",
+        "BEL_engine_of_the_economy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_embrace_export_economy",
+      "name": "Embrace Export Economy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_railway_expansion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_engine_of_the_economy",
+      "name": "Engine Of The Economy",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_40_hour_workweek",
+        "BEL_cockerill",
+        "BEL_railway_expansion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_belgian_miracle",
+      "name": "Belgian Miracle",
+      "description": "",
+      "x": 0,
+      "y": 8,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_engine_of_the_economy",
+        "CONGO_congo_free_state",
+        "CONGO_overseas_department_of_belgium",
+        "CONGO_dominion_of_congo"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_belgian_air_force",
+      "name": "Belgian Air Force",
+      "description": "",
+      "x": 34,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_develop_belgian_air_industry",
+      "name": "Develop Belgian Air Industry",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_belgian_air_force"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_renard_constructions_aeronautiques",
+      "name": "Renard Constructions Aeronautiques",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_develop_belgian_air_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_stampe_et_vertrongen",
+      "name": "Stampe Et Vertrongen",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_develop_belgian_air_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_relocate_air_production",
+      "name": "Relocate Air Production",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_renard_constructions_aeronautiques",
+        "BEL_stampe_et_vertrongen"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_pressurized_cabin_development",
+      "name": "Pressurized Cabin Development",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_renard_constructions_aeronautiques",
+        "CONGO_aviation_militaire_de_la_force_publique"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_foreign_plane_purchases",
+      "name": "Foreign Plane Purchases",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_belgian_air_force"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_aviation_school",
+      "name": "Aviation School",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_foreign_plane_purchases",
+        "BEL_develop_belgian_air_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_polish_licences",
+      "name": "Polish Licences",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_foreign_plane_purchases"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_early_helicopters",
+      "name": "Early Helicopters",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_aviation_school"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_air_doctrine",
+      "name": "Air Doctrine",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_aviation_school"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_legacy_of_the_belgian_airforce",
+      "name": "Legacy Of The Belgian Airforce",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_aviation_school"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_re_establish_belgian_navy",
+      "name": "Re Establish Belgian Navy",
+      "description": "",
+      "x": 7,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_re_build_the_fleet",
+      "name": "Re Build The Fleet",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_re_establish_belgian_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_allied_donations",
+      "name": "Allied Donations",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_re_establish_belgian_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_port_of_antwerp",
+      "name": "Port Of Antwerp",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_re_build_the_fleet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_corvette_fleet",
+      "name": "Corvette Fleet",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_re_build_the_fleet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_boelwerf",
+      "name": "Boelwerf",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_port_of_antwerp"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_cockerill_shipyards",
+      "name": "Cockerill Shipyards",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_port_of_antwerp"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_antwerp_maritime_academy",
+      "name": "Antwerp Maritime Academy",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_port_of_antwerp"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_naval_doctrine",
+      "name": "Naval Doctrine",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BEL_antwerp_maritime_academy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_convoy_protection_duties",
+      "name": "Convoy Protection Duties",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_corvette_fleet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    },
+    {
+      "id": "BEL_maritime_phoenix",
+      "name": "Maritime Phoenix",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "BEL_boelwerf",
+        "BEL_cockerill_shipyards"
+      ],
+      "mutuallyExclusive": [],
+      "source": "belgium.txt",
+      "shared": false
+    }
+  ]
+}

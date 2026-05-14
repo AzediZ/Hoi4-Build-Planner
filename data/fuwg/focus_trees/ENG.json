@@ -1,0 +1,2004 @@
+{
+  "mod": "FUWG",
+  "tag": "ENG",
+  "country": "United Kingdom",
+  "treeId": "british_focus",
+  "sourceFile": "uk.txt",
+  "focusCount": 145,
+  "focuses": [
+    {
+      "id": "crypto_bomb_focus",
+      "name": "Crypto Bomb Focus",
+      "description": "",
+      "x": 0,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "tizard_mission_focus",
+      "name": "Tizard Mission Focus",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "crypto_bomb_focus",
+        "radar_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "maud_focus",
+      "name": "Maud Focus",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "tizard_mission_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "limited_rearmament_focus",
+      "name": "Limited Rearmament Focus",
+      "description": "",
+      "x": 7,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_motorized_focus",
+      "name": "Motorized Focus",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "limited_rearmament_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_tank_focus",
+      "name": "Tank Focus",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_motorized_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_the_churchill_III",
+      "name": "The Churchill Iii",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_tank_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_the_churchill_vii",
+      "name": "The Churchill Vii",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_the_churchill_III"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_the_churchill_kangaroo",
+      "name": "The Churchill Kangaroo",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_tank_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_go_with_tetrarch_tanks",
+      "name": "Go with the Tetrarch Tanks",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_tank_focus"
+      ],
+      "mutuallyExclusive": [
+        "ENG_go_with_crusader_tanks"
+      ],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_go_with_crusader_tanks",
+      "name": "GO with the Crusader Tanks",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_tank_focus"
+      ],
+      "mutuallyExclusive": [
+        "ENG_go_with_tetrarch_tanks"
+      ],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "air_defense_focus",
+      "name": "Air Defense Focus",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "limited_rearmament_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "radar_focus",
+      "name": "Radar Focus",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "air_defense_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "shadow_scheme_focus",
+      "name": "Shadow Scheme Focus",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "limited_rearmament_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_expand_the_secret_intelligence_service_focus",
+      "name": "Expand The Secret Intelligence Service Focus",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "limited_rearmament_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "uk_industrial_focus",
+      "name": "Uk Industrial Focus",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "shadow_scheme_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "uk_extra_tech_slot",
+      "name": "Uk Extra Tech Slot",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "uk_industrial_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "general_rearmament_focus",
+      "name": "General Rearmament Focus",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "limited_rearmament_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_special_air_service",
+      "name": "Special Air Service",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "general_rearmament_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "royal_ordinance_focus",
+      "name": "Royal Ordinance Focus",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "uk_industrial_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_vickers_experimental_facility_focus",
+      "name": "Vickers Experimental Facility Focus",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "uk_industrial_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_kickstart_the_war_industry",
+      "name": "Kickstart The War Industry",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "royal_ordinance_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "uk_small_arms_focus",
+      "name": "Uk Small Arms Focus",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "royal_ordinance_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "UK_secret_focus",
+      "name": "Secret Focus",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "royal_ordinance_focus",
+        "maud_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "air_rearmament_focus",
+      "name": "Air Rearmament Focus",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "general_rearmament_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_chiefs_of_staff_committee",
+      "name": "Chiefs Of Staff Committee",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "air_rearmament_focus",
+        "naval_rearmament_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "fighter_command_focus",
+      "name": "Fighter Command Focus",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "air_rearmament_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "bomber_command_focus",
+      "name": "Bomber Command Focus",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "air_rearmament_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_lancaster_focus",
+      "name": "They Shall Reap the Whirlwind",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "bomber_command_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_night_bombing",
+      "name": "Prioritise Night Bombing",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "bomber_command_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_bomber_mass_production",
+      "name": "Lancaster Mass Production",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_night_bombing",
+        "ENG_lancaster_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_bomb_development",
+      "name": "Blockbuster",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_bomber_mass_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_total_war_bombing",
+      "name": "Area Bombing Directive",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_bomb_development"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_total_war_bombing_2",
+      "name": "Operation Overlord",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_total_war_bombing"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "coastal_command_focus",
+      "name": "Coastal Command Focus",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "air_rearmament_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "aircraft_production_focus",
+      "name": "Aircraft Production Focus",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "fighter_command_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_torpedo_bombers",
+      "name": "Torpedo Bombers",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "aircraft_production_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "uk_jet_focus",
+      "name": "Uk Jet Focus",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_torpedo_bombers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "naval_rearmament_focus",
+      "name": "Naval Rearmament Focus",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "general_rearmament_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_anti_non_contact_committee",
+      "name": "Anti Non Contact Committee",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "naval_rearmament_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_secure_the_imperial_shipping_routes",
+      "name": "Secure The Imperial Shipping Routes",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "naval_rearmament_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "uk_destroyer_focus",
+      "name": "Uk Destroyer Focus",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "naval_rearmament_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_a_s_warfare",
+      "name": "A S Warfare",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "uk_destroyer_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "uk_convoy_focus",
+      "name": "Uk Convoy Focus",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "uk_destroyer_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_anti_submarine_training_school",
+      "name": "Anti Submarine Training School",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "uk_convoy_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_the_sun_never_sets",
+      "name": "The Sun Never Sets",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "uk_destroyer_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "uk_waves_focus",
+      "name": "Uk Waves Focus",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "naval_rearmament_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "uk_enigma",
+      "name": "Uk Enigma",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "naval_rearmament_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_expand_the_repair_yards",
+      "name": "Expand The Repair Yards",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "naval_rearmament_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "uk_carrier_focus",
+      "name": "Uk Carrier Focus",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_expand_the_repair_yards"
+      ],
+      "mutuallyExclusive": [
+        "uk_battleship_focus"
+      ],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "uk_battleship_focus",
+      "name": "Uk Battleship Focus",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_expand_the_repair_yards"
+      ],
+      "mutuallyExclusive": [
+        "uk_carrier_focus"
+      ],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "uk_empire_focus",
+      "name": "Uk Empire Focus",
+      "description": "",
+      "x": 23,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "uk_service_focus",
+      "name": "Uk Service Focus",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "uk_empire_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_preparing_the_second_front",
+      "name": "Preparing The Second Front",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "uk_service_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_bermuda_invasion_launch_point",
+      "name": "Bermuda Invasion Launch Point",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "uk_service_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_ceylon_forward_operating_base",
+      "name": "Ceylon Forward Operating Base",
+      "description": "",
+      "x": 11,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "uk_service_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_global_defense",
+      "name": "Global Defense",
+      "description": "",
+      "x": 7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "uk_service_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_guide_the_colonies",
+      "name": "Guide The Colonies",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "uk_service_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_british_commonwealth_air_training_plan",
+      "name": "British Commonwealth Air Training Plan",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_guide_the_colonies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_global_order",
+      "name": "Global Order",
+      "description": "",
+      "x": 9,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "uk_service_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_spanish_influence",
+      "name": "Spanish Influence",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_global_order"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "uk_colonial_focus",
+      "name": "Uk Colonial Focus",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "uk_service_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "uk_asia_focus",
+      "name": "Uk Asia Focus",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "uk_colonial_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_embargo_japan",
+      "name": "Embargo Japan",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "uk_asia_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "uk_india_focus",
+      "name": "Uk India Focus",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_guide_the_colonies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "uk_australia_focus",
+      "name": "Uk Australia Focus",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_guide_the_colonies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "uk_egyptian_development",
+      "name": "Egyptian Development",
+      "description": "Our new crown dominion egypt could use a look at by the british developers, lets fund them to build in our colony.",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_guide_the_colonies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "uk_new_zealand_focus",
+      "name": "Uk New Zealand Focus",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "uk_egyptian_development"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "uk_canada_focus",
+      "name": "Uk Canada Focus",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_guide_the_colonies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "uk_south_africa_focus",
+      "name": "Uk South Africa Focus",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_guide_the_colonies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_foundations_for_an_indian_state",
+      "name": "Foundations For An Indian State",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "uk_india_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_imperial_conference",
+      "name": "Imperial Conference",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "uk_new_zealand_focus",
+        "ENG_foundations_for_an_indian_state",
+        "uk_canada_focus",
+        "uk_australia_focus",
+        "uk_south_africa_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_imperial_conscription",
+      "name": "Imperial Conscription",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_imperial_conference"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_steady_as_she_goes",
+      "name": "Steady As She Goes",
+      "description": "",
+      "x": 15,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_maintaining_the_balance_of_power",
+      "name": "Maintaining The Balance Of Power",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_steady_as_she_goes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_home_defence",
+      "name": "Home Defence",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_steady_as_she_goes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_issue_gasmasks",
+      "name": "Issue Gasmasks",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_home_defence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_god_save_the_king",
+      "name": "God Save The King",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_issue_gasmasks"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_home_defence_act",
+      "name": "Home Defence Act",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_god_save_the_king"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_British_Rearmament_plan",
+      "name": "British Rearmament Plan",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_home_defence_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_military_training_act",
+      "name": "Military Training Act",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_issue_gasmasks"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_boycott_made_in_germany",
+      "name": "Boycott Made In Germany",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_military_training_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_embargo_germany",
+      "name": "Embargo Germany",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_boycott_made_in_germany"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_arms_for_the_polish_resistance",
+      "name": "Arms For The Polish Resistance",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_embargo_germany"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_tackle_fascism",
+      "name": "Tackle Fascism",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_embargo_germany"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_prepare_for_the_inevitable",
+      "name": "Prepare For The Inevitable",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_home_defence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_search_and_destroy",
+      "name": "Search and Destroy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_prepare_for_the_inevitable"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_fortify_the_nothern_coasts",
+      "name": "Fortify the Nothern Coast",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_search_and_destroy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_fortify_the_southern_coast",
+      "name": "Fortify the Southern Coast",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_search_and_destroy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_stop_the_bombing",
+      "name": "Secure the southern Lands",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_search_and_destroy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_motion_of_no_confidence",
+      "name": "The British Bulldog",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_maintaining_the_balance_of_power"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_no_further_appeasement",
+      "name": "No Further Appeasement",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_motion_of_no_confidence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "UK_develop_minors",
+      "name": "Develop Minors",
+      "description": "",
+      "x": -2,
+      "y": 8,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "UK_develop_Ireland",
+      "name": "Develop Ireland",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "UK_develop_minors"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "UK_develop_Irish_res",
+      "name": "Develop Irish Res",
+      "description": "",
+      "x": 34,
+      "y": 10,
+      "cost": 3,
+      "prerequisites": [
+        "UK_develop_Ireland"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "UK_develop_Irish_Stability",
+      "name": "Develop Irish Stability",
+      "description": "",
+      "x": 34,
+      "y": 11,
+      "cost": 3,
+      "prerequisites": [
+        "UK_develop_Irish_res"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "UK_development_aid",
+      "name": "Development Aid",
+      "description": "",
+      "x": 34,
+      "y": 12,
+      "cost": 3,
+      "prerequisites": [
+        "UK_develop_Irish_Stability"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "UK_develop_Irish_Military1",
+      "name": "Develop Irish Military1",
+      "description": "",
+      "x": 38,
+      "y": 10,
+      "cost": 3,
+      "prerequisites": [
+        "UK_develop_Ireland"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "UK_develop_Irish_Military2",
+      "name": "Develop Irish Military2",
+      "description": "",
+      "x": 37,
+      "y": 11,
+      "cost": 3,
+      "prerequisites": [
+        "UK_develop_Irish_Military1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "UK_develop_Irish_Military3",
+      "name": "Develop Irish Military3",
+      "description": "",
+      "x": 37,
+      "y": 12,
+      "cost": 3,
+      "prerequisites": [
+        "UK_develop_Irish_Military2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "UK_develop_Irish_Navy2",
+      "name": "Develop Irish Navy2",
+      "description": "",
+      "x": 39,
+      "y": 11,
+      "cost": 3,
+      "prerequisites": [
+        "UK_develop_Irish_Military1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "UK_develop_Irish_Navy3",
+      "name": "Develop Irish Navy3",
+      "description": "",
+      "x": 39,
+      "y": 12,
+      "cost": 3,
+      "prerequisites": [
+        "UK_develop_Irish_Navy2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "UK_develop_Ireland_buy_Iceland",
+      "name": "Develop Ireland Buy Iceland",
+      "description": "",
+      "x": null,
+      "y": 13,
+      "cost": 3,
+      "prerequisites": [
+        "UK_develop_Irish_Navy3",
+        "UK_develop_Irish_Military3",
+        "UK_development_aid"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "UK_develop_Irelands_Souveranity",
+      "name": "Develop Irelands Souveranity",
+      "description": "",
+      "x": 38,
+      "y": 13,
+      "cost": 3,
+      "prerequisites": [
+        "UK_develop_Irish_Navy3",
+        "UK_develop_Irish_Military3",
+        "UK_development_aid"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "UK_develop_Indonesia",
+      "name": "Develop Indonesia",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "UK_develop_minors"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "UK_develop_Indonesia_Buildingslots",
+      "name": "Develop Indonesia Buildingslots",
+      "description": "",
+      "x": 26,
+      "y": 10,
+      "cost": 3,
+      "prerequisites": [
+        "UK_develop_Indonesia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "UK_develop_Indonesia_WarBonds",
+      "name": "Develop Indonesia Warbonds",
+      "description": "",
+      "x": 26,
+      "y": 11,
+      "cost": 3,
+      "prerequisites": [
+        "UK_develop_Indonesia_Buildingslots"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "UK_develop_Indonesia_Democratic_Influence",
+      "name": "Develop Indonesia Democratic Influence",
+      "description": "",
+      "x": 26,
+      "y": 12,
+      "cost": 3,
+      "prerequisites": [
+        "UK_develop_Indonesia_WarBonds"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "UK_develop_Indonesia_Civilian1",
+      "name": "Develop Indonesia Civilian1",
+      "description": "",
+      "x": 24,
+      "y": 10,
+      "cost": 3,
+      "prerequisites": [
+        "UK_develop_Indonesia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "UK_develop_Indonesia_Civilian2",
+      "name": "Develop Indonesia Civilian2",
+      "description": "",
+      "x": 24,
+      "y": 11,
+      "cost": 3,
+      "prerequisites": [
+        "UK_develop_Indonesia_Civilian1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "UK_develop_Indonesia_Civilian3",
+      "name": "Develop Indonesia Civilian3",
+      "description": "",
+      "x": 24,
+      "y": 12,
+      "cost": 3,
+      "prerequisites": [
+        "UK_develop_Indonesia_Civilian2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "UK_develop_Indonesia_Resources",
+      "name": "Develop Indonesia Resources",
+      "description": "",
+      "x": 25,
+      "y": 13,
+      "cost": 3,
+      "prerequisites": [
+        "UK_develop_Indonesia_Civilian3",
+        "UK_develop_Indonesia_Democratic_Influence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "UK_develop_Indonesia_Buy_Borneo",
+      "name": "Develop Indonesia Buy Borneo",
+      "description": "",
+      "x": 25,
+      "y": 14,
+      "cost": 3,
+      "prerequisites": [
+        "UK_develop_Indonesia_Resources"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "UK_develop_Indonesia_Souveranity",
+      "name": "Develop Indonesia Souveranity",
+      "description": "",
+      "x": 28,
+      "y": 14,
+      "cost": 3,
+      "prerequisites": [
+        "UK_develop_Indonesia_Resources",
+        "UK_develop_Indonesia_Military3"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "UK_develop_Indonesia_Military1",
+      "name": "Develop Indonesia Military1",
+      "description": "",
+      "x": 28,
+      "y": 10,
+      "cost": 3,
+      "prerequisites": [
+        "UK_develop_Indonesia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "UK_develop_Indonesia_Military2",
+      "name": "Develop Indonesia Military2",
+      "description": "",
+      "x": 28,
+      "y": 11,
+      "cost": 3,
+      "prerequisites": [
+        "UK_develop_Indonesia_Military1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "UK_develop_Indonesia_Military3",
+      "name": "Develop Indonesia Military3",
+      "description": "",
+      "x": 28,
+      "y": 12,
+      "cost": 3,
+      "prerequisites": [
+        "UK_develop_Indonesia_Military2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_embargo_italy",
+      "name": "Embargo Italy",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "uk_service_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_imperial_overload",
+      "name": "Imperial Overlord",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ENG_imperial_conscription"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "uk_mediterranean_focus",
+      "name": "Uk Mediterranean Focus",
+      "description": "",
+      "x": 29,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "hongkong_focus",
+      "name": "Hongkong Focus",
+      "description": "",
+      "x": 29,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "uk_rock_focus",
+      "name": "Uk Rock Focus",
+      "description": "",
+      "x": 29,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "singapore_focus",
+      "name": "Singapore Focus",
+      "description": "",
+      "x": 29,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "uk_malta_focus",
+      "name": "Uk Malta Focus",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "uk_mediterranean_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "uk_burma_focus",
+      "name": "Uk Burma Focus",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "uk_asia_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_organize_the_blackshirts",
+      "name": "Organize The Blackshirts",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_concessions_to_the_trade_unions",
+      "name": "Concessions To The Trade Unions",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_appeal_to_imperial_loyalists",
+      "name": "Appeal To Imperial Loyalists",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_war_with_japan",
+      "name": "War With Japan",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_imperial_federation",
+      "name": "Imperial Federation",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_the_kings_party",
+      "name": "The Kings Party",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_war_with_germany",
+      "name": "War With Germany",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_war_with_italy",
+      "name": "War With Italy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_revisit_colonial_policy",
+      "name": "Revisit Colonial Policy",
+      "description": "",
+      "x": 34,
+      "y": 0,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_alliance_with_germany",
+      "name": "Alliance With Germany",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "uk_scandinavian_focus",
+      "name": "Uk Scandinavian Focus",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "uk_free_india_focus",
+      "name": "Uk Free India Focus",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "uk_balkan_strategy",
+      "name": "Uk Balkan Strategy",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "uk_china_focus",
+      "name": "Uk China Focus",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_a_change_in_course",
+      "name": "A Change In Course",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_the_three_nation_solution",
+      "name": "The Three Nation Solution",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_indian_autonomy",
+      "name": "Indian Autonomy",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_enforce_the_naval_treaties",
+      "name": "Enforce The Naval Treaties",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "ENG_crush_the_dream",
+      "name": "Crush The Dream",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "uk.txt",
+      "shared": false
+    },
+    {
+      "id": "AFR_leader",
+      "name": "African Regional Commander",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "shared_reference",
+      "shared": true
+    }
+  ]
+}

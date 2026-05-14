@@ -1,0 +1,7767 @@
+{
+  "mod": "FUWG",
+  "tag": "GER",
+  "country": "Germany",
+  "treeId": "german_focus",
+  "sourceFile": "germany.txt",
+  "focusCount": 530,
+  "focuses": [
+    {
+      "id": "GER_prioritize_economic_growth",
+      "name": "Prioritize Economic Growth",
+      "description": "",
+      "x": 45,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "GER_the_four_year_plan"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_currency_reforms",
+      "name": "Currency Reforms",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_the_four_year_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_lower_taxes",
+      "name": "Lower Taxes",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_currency_reforms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_abolish_price_controls",
+      "name": "Abolish Price Controls",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_lower_taxes",
+        "GER_housing_developments"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_increased_trade",
+      "name": "Increased Trade",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_housing_developments",
+      "name": "Housing Developments",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_currency_reforms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_workers_rights",
+      "name": "Workers Rights",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_housing_developments"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_industrial_expansion",
+      "name": "Industrial Expansion",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_housing_developments",
+        "GER_lower_taxes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_invest_in_vereinigte_stahlwerke",
+      "name": "Invest In Vereinigte Stahlwerke",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_currency_reforms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_agricultural_reforms",
+      "name": "Agricultural Reforms",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_industrial_expansion",
+        "GER_abolish_price_controls"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_urbanization",
+      "name": "Urbanization",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_invest_in_vereinigte_stahlwerke"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_wirtschaftswunder",
+      "name": "Wirtschaftswunder",
+      "description": "",
+      "x": 4,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_urbanization",
+        "GER_institute_price_controls"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_mass_production",
+      "name": "Mass Production",
+      "description": "",
+      "x": 4,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_autarky_achieved"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_build_defense_industry",
+      "name": "Build Defense Industry",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "GER_autarky_achieved"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_war_production",
+      "name": "War Production",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_mass_production",
+        "GER_build_defense_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_construct_the_reichsautobahn",
+      "name": "Construct The Reichsautobahn",
+      "description": "",
+      "x": 3,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "GER_prioritize_economic_growth",
+        "GER_the_four_year_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_build_the_rur_dam",
+      "name": "Build The Rur Dam",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "GER_construct_the_reichsautobahn",
+        "GER_currency_reforms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_trade_deal_with_sweden",
+      "name": "Trade Deal With Sweden",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "GER_construct_the_reichsautobahn",
+        "GER_autarky_efforts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_kdf_wagen_factories",
+      "name": "Kdf Wagen Factories",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_construct_the_reichsautobahn"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_expand_the_reichsautobahn_south",
+      "name": "Expand The Reichsautobahn South",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_kdf_wagen_factories"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_expand_the_reichsautobahn_east",
+      "name": "Expand The Reichsautobahn East",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_kdf_wagen_factories"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_align_hungary",
+      "name": "Align Hungary",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_expand_the_reichsautobahn_east"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_align_romania",
+      "name": "Align Romania",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_expand_the_reichsautobahn_east"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_integrate_war_economies",
+      "name": "Integrate War Economies",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_construct_the_reichsautobahn"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_develop_heraeus_facilities",
+      "name": "Develop Heraeus Facilities",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_construct_the_reichsautobahn"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_the_four_year_plan",
+      "name": "The Four Year Plan",
+      "description": "",
+      "x": 5,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "GER_prioritize_economic_growth"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_accelerate_the_rearmament_program",
+      "name": "Accelerate The Rearmament Program",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_the_four_year_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_concentrated_armament_program",
+      "name": "Concentrated Armament Program",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_accelerate_the_rearmament_program"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_establish_production_targets",
+      "name": "Establish Production Targets",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_accelerate_the_rearmament_program"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_autarky_efforts",
+      "name": "Autarky Efforts",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_the_four_year_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_establish_the_reichswerke",
+      "name": "Establish The Reichswerke",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_autarky_efforts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_seize_foreign_industries",
+      "name": "Seize Foreign Industries",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_establish_the_reichswerke"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_coal_liquefaction",
+      "name": "Coal Liquefaction",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_establish_the_reichswerke"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_expand_austrian_oil",
+      "name": "Expand Austrian Oil",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_coal_liquefaction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_expand_czech_oil",
+      "name": "Expand Czech Oil",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "GER_expand_austrian_oil"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_subsidize_hoesch_benzin",
+      "name": "Subsidize Hoesch Benzin",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_coal_liquefaction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_establish_buna_werke",
+      "name": "Establish Buna Werke",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_coal_liquefaction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_institute_price_controls",
+      "name": "Institute Price Controls",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_establish_buna_werke",
+        "GER_subsidize_hoesch_benzin"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_autarky_achieved",
+      "name": "Autarky Achieved",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_urbanization",
+        "GER_institute_price_controls"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_zentrale_planung",
+      "name": "Zentrale Planung",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_autarky_achieved"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_create_rustungsstab",
+      "name": "Create Rustungsstab",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_zentrale_planung"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_armament_rationalization",
+      "name": "Armament Rationalization",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_zentrale_planung"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_develop_modern_maneuver_warfare",
+      "name": "Develop Modern Maneuver Warfare",
+      "description": "",
+      "x": 9,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_firepower",
+      "name": "Firepower",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 3,
+      "prerequisites": [
+        "GER_develop_modern_maneuver_warfare"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_wunderwaffe_3",
+      "name": "Wunderwaffe 3",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_develop_modern_maneuver_warfare"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_fortify_the_vaterland",
+      "name": "Fortify The Vaterland",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_develop_modern_maneuver_warfare"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_the_prussian_legacy",
+      "name": "The Prussian Legacy",
+      "description": "",
+      "x": -2,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "GER_develop_modern_maneuver_warfare"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_specialforces_1",
+      "name": "Specialforces 1",
+      "description": "",
+      "x": -5,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_the_prussian_legacy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_specialforces_2",
+      "name": "Fallschirmjäger",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_specialforces_1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_specialforces_3",
+      "name": "Specialforces 3",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_specialforces_1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_army_innovation_fuwg2special",
+      "name": "Army Innovation Fuwg2special",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_specialforces_3"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_army_innovation_fuwg3special",
+      "name": "Army Innovation Fuwg3special",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_army_innovation_fuwg2special"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_waffen_ss",
+      "name": "Waffen SS",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_specialforces_2",
+        "GER_specialforces_3"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_ss_officer_corps_development",
+      "name": "Eliteführer Ausbildung",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_waffen_ss"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_foreign_volunteer_recruitment_drive",
+      "name": "Foreign Volunteer Enlistment Campaign",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_waffen_ss"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_improve_motorized_troops",
+      "name": "Improve Motorized Troops",
+      "description": "",
+      "x": -3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_the_prussian_legacy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_lessons_of_the_great_war",
+      "name": "Lessons Of The Great War",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_the_prussian_legacy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_artillery_bombardment",
+      "name": "Artillery Bombardment",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_lessons_of_the_great_war",
+        "GER_improve_motorized_troops"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_stormtroopers",
+      "name": "Stormtroopers",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_artillery_bombardment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_all_terrain_military_motorcycle",
+      "name": "All Terrain Military Motorcycle",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_the_prussian_legacy",
+        "GER_adopt_new_panzer_doctrine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_salvage_captured_equipment",
+      "name": "Salvage Captured Equipment",
+      "description": "",
+      "x": 3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_the_prussian_legacy",
+        "GER_adopt_new_panzer_doctrine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_instill_auftragstaktik",
+      "name": "Instill Auftragstaktik",
+      "description": "",
+      "x": 2,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "GER_the_prussian_legacy",
+        "GER_adopt_new_panzer_doctrine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_establish_the_afrikakorps",
+      "name": "Establish The Afrikakorps",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_instill_auftragstaktik"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_establish_the_skijager",
+      "name": "Establish The Skijager",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_instill_auftragstaktik"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_panzergrenadier",
+      "name": "Panzergrenadier",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_instill_auftragstaktik"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_nationalize_ford_factories",
+      "name": "Nationalize Ford Factories",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "GER_panzergrenadier"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_kriegslokomotiven",
+      "name": "Kriegslokomotiven",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "GER_panzergrenadier"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_improve_the_logistics_system",
+      "name": "Improve The Logistics System",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_panzergrenadier"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_Ein_Volk_Ein_Ziel",
+      "name": "Ein Volk Ein Ziel",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_improve_the_logistics_system",
+        "GER_defend_the_vaterland"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_defend_the_vaterland",
+      "name": "Defend The Vaterland",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_panzergrenadier"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_adopt_new_panzer_doctrine",
+      "name": "Adopt New Panzer Doctrine",
+      "description": "",
+      "x": 2,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "GER_develop_modern_maneuver_warfare"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_anti_tank_fuwg",
+      "name": "8.8 cm Pak 43",
+      "description": "",
+      "x": 3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_adopt_new_panzer_doctrine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_the_puma",
+      "name": "The Puma",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_adopt_new_panzer_doctrine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_army_innovation_fuwg2",
+      "name": "Army Innovation Fuwg2",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_adopt_new_panzer_doctrine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_army_innovation_fuwg3",
+      "name": "Army Innovation Fuwg3",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_army_innovation_fuwg2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_advanced_panzer_research",
+      "name": "Advanced Panzer Research",
+      "description": "",
+      "x": 5,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_adopt_new_panzer_doctrine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_panzer_troops_school",
+      "name": "Panzer Troops School",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_advanced_panzer_research"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_army_innovation_4",
+      "name": "Army Innovation 4",
+      "description": "",
+      "x": -2,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "GER_panzer_troops_school"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_army_innovation_5",
+      "name": "Army Innovation 5",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_advanced_panzer_research"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_army_innovation_6",
+      "name": "Army Innovation 6",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "GER_army_innovation_5"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_expand_kummersdorfs_capacity",
+      "name": "Expand Kummersdorfs Capacity",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_advanced_panzer_research"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_advanced_panzer_research_2",
+      "name": "Advanced Panzer Research 2",
+      "description": "",
+      "x": 2,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "GER_expand_kummersdorfs_capacity"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_combined_arms",
+      "name": "Combined Arms",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_advanced_panzer_research",
+        "GER_dive_bombers",
+        "GER_uralbomber_program",
+        "GER_tactical_bombers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_expanding_the_luftwaffe",
+      "name": "Expanding The Luftwaffe",
+      "description": "",
+      "x": 25,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_air_innovation_2",
+      "name": "Air Innovation 2",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_expanding_the_luftwaffe"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_pool_technical_know_how",
+      "name": "Pool Technical Know How",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_expanding_the_luftwaffe"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_heinkel",
+      "name": "Invest into Heinkel",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "GER_pool_technical_know_how",
+        "GER_air_innovation_2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_messerschmitt",
+      "name": "Invest into Messerschmitt",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "GER_pool_technical_know_how",
+        "GER_air_innovation_2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_focke_wulf",
+      "name": "Invest into Focke-Wulf",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "GER_pool_technical_know_how",
+        "GER_air_innovation_2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_junkers",
+      "name": "Invest into Junkers",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "GER_pool_technical_know_how",
+        "GER_air_innovation_2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_arado_flugzeugwerke_focus",
+      "name": "Invest into Arado Flugzeugwerke",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 3,
+      "prerequisites": [
+        "GER_pool_technical_know_how",
+        "GER_air_innovation_2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_dornier_focus",
+      "name": "Invest into Dornier",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 3,
+      "prerequisites": [
+        "GER_pool_technical_know_how",
+        "GER_air_innovation_2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_fieseler_focus",
+      "name": "Invest into Fieseler",
+      "description": "",
+      "x": 4,
+      "y": 2,
+      "cost": 3,
+      "prerequisites": [
+        "GER_pool_technical_know_how",
+        "GER_air_innovation_2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_aeronautical_research_institute",
+      "name": "Aeronautical Research Institute",
+      "description": "",
+      "x": 2,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "GER_tactical_bombers",
+        "GER_dive_bombers",
+        "GER_uralbomber_program"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_dive_bombers",
+      "name": "Dive Bombers",
+      "description": "",
+      "x": 3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_junkers",
+        "GER_heinkel",
+        "GER_focke_wulf",
+        "GER_messerschmitt",
+        "GER_arado_flugzeugwerke_focus",
+        "GER_dornier_focus",
+        "GER_fieseler_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_tactical_bombers",
+      "name": "Tactical Bombers",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_junkers",
+        "GER_heinkel",
+        "GER_focke_wulf",
+        "GER_messerschmitt",
+        "GER_arado_flugzeugwerke_focus",
+        "GER_dornier_focus",
+        "GER_fieseler_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_uralbomber_program",
+      "name": "Uralbomber Program",
+      "description": "",
+      "x": 5,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_junkers",
+        "GER_heinkel",
+        "GER_focke_wulf",
+        "GER_messerschmitt",
+        "GER_arado_flugzeugwerke_focus",
+        "GER_dornier_focus",
+        "GER_fieseler_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_rocketry_innovations",
+      "name": "Rocketry Innovations",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_aeronautical_research_institute"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_norwegain_heavy_water_experiments",
+      "name": "Norwegain Heavy Water Experiments",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_rocketry_innovations"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_the_mannheim_project",
+      "name": "The Mannheim Project",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_rocketry_innovations"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_uranverein",
+      "name": "Uranverein",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_rocketry_innovations"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_form_the_jagdwaffe",
+      "name": "Form The Jagdwaffe",
+      "description": "",
+      "x": 4,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_expanding_the_luftwaffe"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_reorganize_the_luftwaffe",
+      "name": "Reorganize The Luftwaffe",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_form_the_jagdwaffe"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_solve_the_logistical_bottlenecks",
+      "name": "Solve The Logistical Bottlenecks",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_reorganize_the_luftwaffe"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_experimental_rotorcrafts",
+      "name": "Experimental Rotorcrafts",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_form_the_jagdwaffe"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_develop_the_knickebein",
+      "name": "Develop The Knickebein",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_form_the_jagdwaffe"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_defense_of_the_reich",
+      "name": "Defense Of The Reich",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_reorganize_the_luftwaffe",
+        "GER_develop_the_knickebein"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_construct_the_kammhuber_line",
+      "name": "Construct The Kammhuber Line",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_defense_of_the_reich"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_establish_night_fighter_squadrons",
+      "name": "Establish Night Fighter Squadrons",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_defense_of_the_reich"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_torpedobomber",
+      "name": "Torpedobomber",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_develop_the_knickebein"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_establish_carrier_groups",
+      "name": "Establish Carrier Groups",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_torpedobomber",
+        "GER_construct_aircraft_carriers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_aerodynamic_research_institute",
+      "name": "Aerodynamic Research Institute",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_solve_the_logistical_bottlenecks",
+        "GER_construct_the_kammhuber_line",
+        "GER_establish_night_fighter_squadrons",
+        "GER_rocketry_innovations"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_rocketry_focus_2",
+      "name": "Jet Production",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_aerodynamic_research_institute"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_amerikabomber",
+      "name": "Amerikabomber",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_aerodynamic_research_institute"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_strengthen_the_kriegsmarine",
+      "name": "Strengthen The Kriegsmarine",
+      "description": "",
+      "x": 37,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_plan_z",
+      "name": "Plan Z",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_strengthen_the_kriegsmarine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_expand_kriegsmarinewerft",
+      "name": "Expand Kriegsmarinewerft",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_plan_z"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_construct_aircraft_carriers",
+      "name": "Construct Aircraft Carriers",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_expand_kriegsmarinewerft"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_grosskampfschiff_construction",
+      "name": "Grosskampfschiff Construction",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_expand_kriegsmarinewerft"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_high_seas_fleet",
+      "name": "High Seas Fleet",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 6,
+      "prerequisites": [
+        "GER_expand_kriegsmarinewerft"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_re_establish_the_seekriegsleitung",
+      "name": "Re Establish The Seekriegsleitung",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_strengthen_the_kriegsmarine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_marinestosstrupp",
+      "name": "Marinestosstrupp",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_strengthen_the_kriegsmarine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_atlantic_naval_bases",
+      "name": "Atlantic Naval Bases",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_strengthen_the_kriegsmarine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_atlantic_naval_dominance",
+      "name": "Atlantic Naval Dominance",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_marinestosstrupp",
+        "GER_atlantic_naval_bases"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_trade_interdiction",
+      "name": "Trade Interdiction",
+      "description": "",
+      "x": 3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_strengthen_the_kriegsmarine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_cruiser_warfare",
+      "name": "Cruiser Warfare",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_trade_interdiction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_panzerschiff_raiders",
+      "name": "Panzerschiff Raiders",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_trade_interdiction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_wolfpack_tactics",
+      "name": "Wolfpack Tactics",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_trade_interdiction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_u_boat_efforts",
+      "name": "U Boat Efforts",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_wolfpack_tactics"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_modular_construction",
+      "name": "Modular Construction",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_u_boat_efforts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_unrestricted_convoy_raiding",
+      "name": "Unrestricted Convoy Raiding",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_trade_interdiction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_expand_the_repair_yards",
+      "name": "Expand the Repair Yards",
+      "description": "Funny Refit Focus",
+      "x": -1,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "GER_pride_of_the_modern_germany",
+        "GER_unrestricted_convoy_raiding"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_seeherrschaft",
+      "name": "Seeherrschaft",
+      "description": "",
+      "x": 0,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "GER_high_seas_fleet",
+        "GER_unrestricted_convoy_raiding"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_remilitarize_the_rhineland",
+      "name": "Remilitarize The Rhineland",
+      "description": "",
+      "x": 32,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "GER_oppose_hitler_ww",
+        "GER_oppose_hitler"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_heed_von_neuraths_concerns",
+      "name": "Heed Von Neuraths Concerns",
+      "description": "",
+      "x": -10,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_remilitarize_the_rhineland"
+      ],
+      "mutuallyExclusive": [
+        "GER_reorganize_the_wehrmacht"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_war_preparations",
+      "name": "War Preparations",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_heed_von_neuraths_concerns"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_prepare_for_the_next_blockade_ww",
+      "name": "Prepare For The Next Blockade Ww",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_war_preparations"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_reorganize_secret_services",
+      "name": "Reorganize Secret Services",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_war_preparations"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_subversive_infiltrators",
+      "name": "Subversive Infiltrators",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_reorganize_secret_services"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_befriend_czechoslovakia",
+      "name": "Befriend Czechoslovakia",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_war_preparations"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_integrate_czechoslovakia",
+      "name": "Integrate Czechoslovakia",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_befriend_czechoslovakia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_reorganize_the_wehrmacht",
+      "name": "Reorganize The Wehrmacht",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_remilitarize_the_rhineland"
+      ],
+      "mutuallyExclusive": [
+        "GER_heed_von_neuraths_concerns"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_anti_comintern_pact",
+      "name": "Anti Comintern Pact",
+      "description": "",
+      "x": 20,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_remilitarize_the_rhineland"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_prepare_war_with_the_ussr",
+      "name": "Prepare War With The Ussr",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_anti_comintern_pact"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_anti_soviet_pact",
+      "name": "Anti Soviet Pact",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_anti_comintern_pact"
+      ],
+      "mutuallyExclusive": [
+        "GER_molotov_ribbentrop_pact"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_support_finland",
+      "name": "Support Finland",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_anti_soviet_pact"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_war_with_the_ussr",
+      "name": "War With The Ussr",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_anti_comintern_pact"
+      ],
+      "mutuallyExclusive": [
+        "GER_alliance_with_the_ussr"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_totaler_krieg",
+      "name": "Totaler Krieg",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_war_with_the_ussr"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_distribute_panzerfausts",
+      "name": "Distribute Panzerfausts",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "GER_totaler_krieg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_underground_factories",
+      "name": "UnderGround Factories",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_totaler_krieg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_Hitler_youth_focus",
+      "name": "Hitler Youth Focus",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_totaler_krieg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_festung_deutschland",
+      "name": "Festung Deutschland",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_totaler_krieg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_wellenbrecher_doktrin",
+      "name": "Wellenbrecher Doktrin",
+      "description": "Build Forts in key positions along the Russian Front on Narva-Odessa Line.",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_totaler_krieg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_fuhrer_bunker",
+      "name": "Fuhrer Bunker",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 2,
+      "prerequisites": [
+        "GER_festung_deutschland"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_reroute_supplies",
+      "name": "Reroute Supply",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_totaler_krieg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_volkssturm",
+      "name": "Volkssturm",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_Hitler_youth_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_basic_training",
+      "name": "Basic  Training",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "GER_volkssturm"
+      ],
+      "mutuallyExclusive": [
+        "GER_minimize_training"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_minimize_training",
+      "name": "Minimize Training",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "GER_volkssturm"
+      ],
+      "mutuallyExclusive": [
+        "GER_basic_training"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_steiner_focus",
+      "name": "Steiner Focus",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "GER_fuhrer_bunker"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_no_step_back",
+      "name": "Last Stand of Germany",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "GER_fuhrer_bunker"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_the_last_offensive",
+      "name": "Fuhrer`s Last Offensive",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "GER_steiner_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_volksopper",
+      "name": "Volksopper",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 2,
+      "prerequisites": [
+        "GER_basic_training",
+        "GER_minimize_training"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_endsieg_focus",
+      "name": "Endsieg Focus",
+      "description": "",
+      "x": 2,
+      "y": 3,
+      "cost": 2,
+      "prerequisites": [
+        "GER_basic_training",
+        "GER_minimize_training",
+        "GER_underground_factories",
+        "GER_reroute_supplies",
+        "GER_steiner_focus",
+        "GER_no_step_back"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_secure_the_northern_section",
+      "name": "Secure The Northern Section",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_war_with_the_ussr"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_ostwall",
+      "name": "Ostwall",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_war_with_the_ussr"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_secure_the_southern_resources",
+      "name": "Secure The Southern Resources",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_war_with_the_ussr"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_liberate_ukraine",
+      "name": "Liberate Ukraine",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_war_with_the_ussr"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_liberate_the_baltics",
+      "name": "Liberate The Baltics",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_war_with_the_ussr"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_transform_minsk",
+      "name": "Transform Minsk",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_war_with_the_ussr"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_transform_kiev",
+      "name": "Transform Kiev",
+      "description": "",
+      "x": 4,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_war_with_the_ussr"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_molotov_ribbentrop_pact",
+      "name": "Molotov Ribbentrop Pact",
+      "description": "",
+      "x": 7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_reorganize_the_wehrmacht"
+      ],
+      "mutuallyExclusive": [
+        "GER_anti_soviet_pact"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_treaty_with_the_ussr",
+      "name": "Treaty With The Ussr",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_molotov_ribbentrop_pact"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_bulwark_against_bolshevism",
+      "name": "Bulwark Against Bolshevism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_treaty_with_the_ussr"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_rebuild_the_nation",
+      "name": "Rebuild The Nation",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_bulwark_against_bolshevism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_anschluss",
+      "name": "Anschluss",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_reorganize_the_wehrmacht",
+        "GER_heed_von_neuraths_concerns"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_bribe_senior_officers",
+      "name": "Bribe Senior Officers",
+      "description": "",
+      "x": -8,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_reorganize_the_wehrmacht"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_army_indoctrination",
+      "name": "Army Indoctrination",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_bribe_senior_officers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_autonomy_in_the_kriegsschulen",
+      "name": "Autonomy In The Kriegsschulen",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_bribe_senior_officers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_innovative_warfare",
+      "name": "Innovative Warfare",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "GER_army_indoctrination",
+        "GER_autonomy_in_the_kriegsschulen"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_invest_in_military_police",
+      "name": "Invest In Military Police",
+      "description": "",
+      "x": -12,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_remilitarize_the_rhineland"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_establish_gestapo",
+      "name": "Establish Gestapo",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_invest_in_military_police"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_no_tollerance_towards_resistance",
+      "name": "No Tollerance Towards Resistance",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_establish_gestapo"
+      ],
+      "mutuallyExclusive": [
+        "GER_balanced_approch_towards_resistance"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_balanced_approch_towards_resistance",
+      "name": "Balanced Approch Towards Resistance",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_establish_gestapo"
+      ],
+      "mutuallyExclusive": [
+        "GER_no_tollerance_towards_resistance"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_Einsatzgruppen",
+      "name": "Einsatzgruppen",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_balanced_approch_towards_resistance",
+        "GER_no_tollerance_towards_resistance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_Einsatzgruppen2",
+      "name": "Einsatzgruppen2",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_Einsatzgruppen"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_foreign_policy",
+      "name": "Foreign Policy",
+      "description": "",
+      "x": -16,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_remilitarize_the_rhineland"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_legion_condor",
+      "name": "Legion Condor",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 2,
+      "prerequisites": [
+        "GER_foreign_policy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_support_the_blackshirts",
+      "name": "Support The Blackshirts",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_foreign_policy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_back_oswald_mosley",
+      "name": "Back Oswald Mosley",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_support_the_blackshirts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_henry_ford_connections",
+      "name": "Henry Ford Connections",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_foreign_policy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_support_german_americans",
+      "name": "Support German Americans",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_henry_ford_connections"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_the_flight_of_rudolf_hess",
+      "name": "The Flight Of Rudolf Hess",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_henry_ford_connections",
+        "GER_support_the_blackshirts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_uplift_the_rosenberg_office",
+      "name": "Uplift The Rosenberg Office",
+      "description": "",
+      "x": 3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_heed_von_neuraths_concerns",
+        "GER_reorganize_the_wehrmacht"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_czech_compensation",
+      "name": "Czech Compensation",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "GER_anschluss"
+      ],
+      "mutuallyExclusive": [
+        "GER_demand_sudetenland"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_demand_sudetenland",
+      "name": "Demand Sudetenland",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "GER_anschluss"
+      ],
+      "mutuallyExclusive": [
+        "GER_czech_compensation"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_first_vienna_award",
+      "name": "First Vienna Award",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "GER_demand_sudetenland"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_fate_of_czechoslovakia",
+      "name": "Fate Of Czechoslovakia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "GER_first_vienna_award"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_integrate_czech_manufacturers",
+      "name": "Integrate Czech Manufacturers",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_fate_of_czechoslovakia",
+        "GER_czech_compensation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_west_wall",
+      "name": "West Wall",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_fate_of_czechoslovakia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_demonstration_of_military_achievements",
+      "name": "Demonstration Of Military Achievements",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_anschluss"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_an_invincible_army",
+      "name": "An Invincible Army",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_demonstration_of_military_achievements"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_the_supreme_leader",
+      "name": "The Supreme Leader",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_an_invincible_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_the_triumphant_will",
+      "name": "The Triumphant Will",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_anschluss"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_support_a_coup_in_liechtenstein",
+      "name": "Support A Coup In Liechtenstein",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_anschluss"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_reassert_eastern_claims",
+      "name": "Reassert Eastern Claims",
+      "description": "",
+      "x": 2,
+      "y": 3,
+      "cost": 2,
+      "prerequisites": [
+        "GER_anschluss"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_expand_claims_in_baltic",
+      "name": "Expand Claims In Baltic",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_reassert_eastern_claims"
+      ],
+      "mutuallyExclusive": [
+        "GER_influence_the_baltics"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_influence_the_baltics",
+      "name": "Influence The Baltics",
+      "description": "",
+      "x": 3,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "GER_reassert_eastern_claims"
+      ],
+      "mutuallyExclusive": [
+        "GER_expand_claims_in_baltic"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_form_rome_berlin_axis",
+      "name": "Form Rome Berlin Axis",
+      "description": "",
+      "x": 2,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "GER_fate_of_czechoslovakia",
+        "GER_integrate_czechoslovakia"
+      ],
+      "mutuallyExclusive": [
+        "GER_invade_italy"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_invade_italy",
+      "name": "Invade Italy",
+      "description": "",
+      "x": 4,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "GER_around_maginot",
+        "GER_influence_the_benelux"
+      ],
+      "mutuallyExclusive": [
+        "GER_form_rome_berlin_axis"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_alliance_with_spain",
+      "name": "Alliance With Spain",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_form_rome_berlin_axis",
+        "GER_invade_italy"
+      ],
+      "mutuallyExclusive": [
+        "GER_operation_felix"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_operation_felix",
+      "name": "Operation Felix",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "GER_form_rome_berlin_axis",
+        "GER_invade_italy"
+      ],
+      "mutuallyExclusive": [
+        "GER_alliance_with_spain"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_alliance_with_portugal",
+      "name": "Alliance With Portugal",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_alliance_with_spain",
+        "GER_operation_felix"
+      ],
+      "mutuallyExclusive": [
+        "GER_operation_isabella"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_operation_isabella",
+      "name": "Operation Isabella",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_operation_felix",
+        "GER_alliance_with_spain"
+      ],
+      "mutuallyExclusive": [
+        "GER_alliance_with_portugal"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_danzig_for_slovakia",
+      "name": "Danzig For Slovakia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_fate_of_czechoslovakia",
+        "GER_integrate_czechoslovakia"
+      ],
+      "mutuallyExclusive": [
+        "GER_danzig_or_war"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_danzig_or_war",
+      "name": "Danzig Or War",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_czech_compensation",
+        "GER_fate_of_czechoslovakia",
+        "GER_reassert_eastern_claims"
+      ],
+      "mutuallyExclusive": [
+        "GER_danzig_for_slovakia"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_befriend_poland",
+      "name": "Befriend Poland",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_danzig_for_slovakia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_subjugate_romanian_economy",
+      "name": "Subjugate Romanian Economy",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_danzig_for_slovakia",
+        "GER_danzig_or_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_influence_the_benelux",
+      "name": "Influence The Benelux",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_danzig_for_slovakia",
+        "GER_danzig_or_war"
+      ],
+      "mutuallyExclusive": [
+        "GER_around_maginot"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_around_maginot",
+      "name": "Around Maginot",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_danzig_for_slovakia",
+        "GER_danzig_or_war"
+      ],
+      "mutuallyExclusive": [
+        "GER_influence_the_benelux"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_operation_weserubung",
+      "name": "Operation Weserubung",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_danzig_or_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_utilize_the_nordliche_gesellschaft",
+      "name": "Utilize The Nordliche Gesellschaft",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "GER_influence_the_baltics"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_war_with_france",
+      "name": "War With France",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_around_maginot",
+        "GER_operation_weserubung"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_take_africa",
+      "name": "Take Africa",
+      "description": "",
+      "x": 8,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "GER_war_with_france"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_atlantikwall",
+      "name": "Atlantikwall",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_war_with_france"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_challenge_the_monroe_doctrine",
+      "name": "Challenge The Monroe Doctrine",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_war_with_france"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_shatter_usas_hegemony",
+      "name": "Shatter Usas Hegemony",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_challenge_the_monroe_doctrine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_establish_protectorates_in_america",
+      "name": "Establish Protectorates In America",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_shatter_usas_hegemony"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_flack_tower_berlin",
+      "name": "Flak Tower Berlin",
+      "description": "",
+      "x": -6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_war_with_france"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_flack_tower_hamburg",
+      "name": "Flak Tower Hamburg",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_flack_tower_berlin"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_flack_tower_wien",
+      "name": "Flak Tower Vienna",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_flack_tower_berlin"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_flak_36",
+      "name": "Mass Anti Air Effort",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_flack_tower_berlin"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_Greater_Germany",
+      "name": "Form Greater Germany",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": null,
+      "prerequisites": [
+        "GER_war_with_france"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_vichy_france",
+      "name": "Vichy France",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_Greater_Germany"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_Reichsprotektorate",
+      "name": "Reichsprotektorate",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_vichy_france"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_demands_to_sweden",
+      "name": "Demands To Sweden",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_operation_weserubung"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_reintegrate_luxemburg_and_alsace_lorraine",
+      "name": "Reintegrate Luxemburg And Alsace Lorraine",
+      "description": "",
+      "x": 4,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_war_with_france"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_operation_tannenbaum",
+      "name": "Operation Tannenbaum",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_war_with_france"
+      ],
+      "mutuallyExclusive": [
+        "GER_the_swiss_gold"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_the_swiss_gold",
+      "name": "The Swiss Gold",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_war_with_france"
+      ],
+      "mutuallyExclusive": [
+        "GER_operation_tannenbaum"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_operations_1",
+      "name": "Operations 1",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_war_with_france"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_ss_troops",
+      "name": "Establish Waffen-SS",
+      "description": "",
+      "x": 11,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_war_with_france"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_ss_terror_doctrine",
+      "name": "Increased Close Air Support",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_ss_troops"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_ss_search_and_destroy",
+      "name": "Search And Destroy",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_ss_troops"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_ss_field_medics",
+      "name": "Field Medics",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_ss_terror_doctrine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_ss_new_anti_tanks",
+      "name": "Field New Anti-Tank Weapons",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_ss_search_and_destroy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_the_last_tiger_ace",
+      "name": "The Last Tiger Ace",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "GER_ss_field_medics",
+        "GER_ss_new_anti_tanks"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_improved_command",
+      "name": "Improved Command",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_operations_1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_Venezuela1",
+      "name": "Venezuela1",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_operations_1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_Venezuela2",
+      "name": "Venezuela2",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_operations_1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_Venezuela3",
+      "name": "Venezuela3",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_Venezuela2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_weserubung",
+      "name": "Weserubung",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_operations_1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_operations_4",
+      "name": "Operations 4",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_operations_1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_operations_5",
+      "name": "Operations 5",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_operations_4"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_operations_6",
+      "name": "Operations 6",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_operations_5"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_secure_finland",
+      "name": "Secure Finland",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_operation_weserubung",
+        "GER_utilize_the_nordliche_gesellschaft"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_operation_sea_lion",
+      "name": "Operation Sea Lion",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_war_with_france",
+        "GER_invade_italy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_operation_green",
+      "name": "Operation Green",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 4,
+      "prerequisites": [
+        "GER_operation_sea_lion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_crossing_the_atlantic",
+      "name": "Crossing The Atlantic",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_operation_sea_lion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_demand_slovenia",
+      "name": "Demand Slovenia",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "GER_anschluss"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_first_ljubljana_award",
+      "name": "First Ljubljana Award",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "GER_demand_slovenia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_fate_of_yugoslavia",
+      "name": "Fate Of Yugoslavia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "GER_first_ljubljana_award"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_second_ljubljana_award",
+      "name": "Second Ljubljana Award",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "GER_fate_of_yugoslavia"
+      ],
+      "mutuallyExclusive": [
+        "GER_war_with_greece"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_fate_of_greece",
+      "name": "Fate Of Greece",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "GER_second_ljubljana_award"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_war_with_greece",
+      "name": "War With Greece",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_fate_of_yugoslavia"
+      ],
+      "mutuallyExclusive": [
+        "GER_second_ljubljana_award"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_fan_the_prussian_militarism",
+      "name": "Fan The Prussian Militarism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_rebuild_the_nation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_alliance_with_the_ussr",
+      "name": "Alliance With The Ussr",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "GER_war_with_the_ussr"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_puppet_turkey",
+      "name": "Puppet Turkey",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_alliance_with_the_ussr"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_befriend_turkey",
+      "name": "Befriend Turkey",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_war_with_the_ussr"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_influence_the_middle_east",
+      "name": "Influence The Middle East",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_puppet_turkey",
+        "GER_befriend_turkey"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_the_final_blow_to_communism",
+      "name": "The Final Blow To Communism",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_war_with_the_ussr"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_befriend_china",
+      "name": "Befriend China",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_anti_comintern_pact"
+      ],
+      "mutuallyExclusive": [
+        "GER_befriend_japan"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_befriend_japan",
+      "name": "Befriend Japan",
+      "description": "",
+      "x": 7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_anti_comintern_pact"
+      ],
+      "mutuallyExclusive": [
+        "GER_befriend_china"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_reclaim_former_african_colonies",
+      "name": "Reclaim Former African Colonies",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_befriend_japan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_mittelafrika",
+      "name": "Mittelafrika",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_reclaim_former_african_colonies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_re_establish_german_control_over_qingdao",
+      "name": "Re Establish German Control Over Qingdao",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_befriend_china"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_claim_old_colonies_in_the_east",
+      "name": "Claim Old Colonies In The East",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_befriend_china"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_ally_chiang_kai_shek",
+      "name": "Ally Chiang Kai Shek",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_re_establish_german_control_over_qingdao",
+        "GER_claim_old_colonies_in_the_east"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_japanese_naval_cooperation",
+      "name": "Japanese Naval Cooperation",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_befriend_japan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_negotiate_old_colonies_in_the_east",
+      "name": "Negotiate Old Colonies In The East",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_befriend_japan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_sentinels_of_the_pacific",
+      "name": "Sentinels Of The Pacific",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_japanese_naval_cooperation",
+        "GER_negotiate_old_colonies_in_the_east"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_create_asian_reichskommissariat",
+      "name": "Create Asian Reichskommissariat",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_negotiate_old_colonies_in_the_east"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_south_east_asian_natural_wealth",
+      "name": "South East Asian Natural Wealth",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "GER_ally_chiang_kai_shek",
+        "GER_negotiate_old_colonies_in_the_east"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_the_proud_eagle_and_the_resurgent_dragon",
+      "name": "The Proud Eagle And The Resurgent Dragon",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_ally_chiang_kai_shek",
+        "GER_create_asian_reichskommissariat"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_blitzkrieg_across_the_pacific",
+      "name": "Blitzkrieg Across The Pacific",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_sentinels_of_the_pacific",
+        "GER_south_east_asian_natural_wealth"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_fuhrerprinzip",
+      "name": "Fuhrerprinzip",
+      "description": "",
+      "x": -18,
+      "y": 8,
+      "cost": 2,
+      "prerequisites": [
+        "GER_remilitarize_the_rhineland"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_ascension_of_todt",
+      "name": "Ascension Of Todt",
+      "description": "",
+      "x": -7,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "GER_fuhrerprinzip"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_form_organization_todt",
+      "name": "Form Organization Todt",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": null,
+      "prerequisites": [
+        "GER_ascension_of_todt"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_autonomous_organization_todt",
+      "name": "Autonomous Organization Todt",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": null,
+      "prerequisites": [
+        "GER_form_organization_todt"
+      ],
+      "mutuallyExclusive": [
+        "GER_plenipotentiary_of_armaments",
+        "GER_plenipotentiary_of_the_four_year_plan"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_ascension_of_speer",
+      "name": "Ascension Of Speer",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 2,
+      "prerequisites": [
+        "GER_fuhrerprinzip"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_employ_philipp_holzmann",
+      "name": "Employ Philipp Holzmann",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": null,
+      "prerequisites": [
+        "GER_ascension_of_speer"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_plenipotentiary_of_armaments",
+      "name": "Plenipotentiary Of Armaments",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": null,
+      "prerequisites": [
+        "GER_employ_philipp_holzmann"
+      ],
+      "mutuallyExclusive": [
+        "GER_autonomous_organization_todt",
+        "GER_plenipotentiary_of_the_four_year_plan"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_wunderwaffe",
+      "name": "Wunderwaffe",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": null,
+      "prerequisites": [
+        "GER_autonomous_organization_todt",
+        "GER_plenipotentiary_of_armaments"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_ascension_of_goring",
+      "name": "Ascension Of Goring",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 2,
+      "prerequisites": [
+        "GER_fuhrerprinzip"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_prioritize_the_four_year_plan",
+      "name": "Prioritize The Four Year Plan",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": null,
+      "prerequisites": [
+        "GER_ascension_of_goring"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_plenipotentiary_of_the_four_year_plan",
+      "name": "Plenipotentiary Of The Four Year Plan",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": null,
+      "prerequisites": [
+        "GER_prioritize_the_four_year_plan"
+      ],
+      "mutuallyExclusive": [
+        "GER_autonomous_organization_todt",
+        "GER_plenipotentiary_of_armaments"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_integration_of_puppet_economies",
+      "name": "Integration Of Puppet Economies",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": null,
+      "prerequisites": [
+        "GER_plenipotentiary_of_the_four_year_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_ascension_of_himmler",
+      "name": "Ascension Of Himmler",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "GER_fuhrerprinzip"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_expand_gestapo",
+      "name": "Expand Gestapo",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": null,
+      "prerequisites": [
+        "GER_ascension_of_himmler"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_absorb_the_abwehr",
+      "name": "Absorb The Abwehr",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": null,
+      "prerequisites": [
+        "GER_expand_gestapo"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_expand_ss_security_duties",
+      "name": "Expand Ss Security Duties",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": null,
+      "prerequisites": [
+        "GER_ascension_of_himmler"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_strengthen_the_waffen_ss",
+      "name": "Strengthen The Waffen Ss",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": null,
+      "prerequisites": [
+        "GER_expand_ss_security_duties"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_hegemony_of_the_ss",
+      "name": "Hegemony Of The Ss",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": null,
+      "prerequisites": [
+        "GER_absorb_the_abwehr",
+        "GER_strengthen_the_waffen_ss"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_ascension_of_goebbels",
+      "name": "Ascension Of Goebbels",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "GER_fuhrerprinzip"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_ministry_of_public_enlightenment",
+      "name": "Ministry Of Public Enlightenment",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": null,
+      "prerequisites": [
+        "GER_ascension_of_goebbels"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_fund_the_film_department",
+      "name": "Fund The Film Department",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": null,
+      "prerequisites": [
+        "GER_ministry_of_public_enlightenment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_propaganda_master",
+      "name": "Propaganda Master",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": null,
+      "prerequisites": [
+        "GER_fund_the_film_department"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_party_chancellor_hess",
+      "name": "Party Chancellor Hess",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "GER_fuhrerprinzip"
+      ],
+      "mutuallyExclusive": [
+        "GER_party_chancellor_bormann"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_party_chancellor_bormann",
+      "name": "Party Chancellor Bormann",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 2,
+      "prerequisites": [
+        "GER_fuhrerprinzip"
+      ],
+      "mutuallyExclusive": [
+        "GER_party_chancellor_hess"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_optimize_reich_labour_service",
+      "name": "Optimize Reich Labour Service",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": null,
+      "prerequisites": [
+        "GER_party_chancellor_hess",
+        "GER_party_chancellor_bormann"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_rally_the_industrialists",
+      "name": "Rally The Industrialists",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": null,
+      "prerequisites": [
+        "GER_optimize_reich_labour_service",
+        "GER_party_chancellor_hess"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_glorify_party_rallies",
+      "name": "Glorify Party Rallies",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": null,
+      "prerequisites": [
+        "GER_optimize_reich_labour_service",
+        "GER_party_chancellor_bormann"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_total_control_over_domestic_affairs",
+      "name": "Total Control Over Domestic Affairs",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": null,
+      "prerequisites": [
+        "GER_glorify_party_rallies",
+        "GER_rally_the_industrialists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_a_strong_successor",
+      "name": "A Strong Successor",
+      "description": "",
+      "x": -2,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "GER_hegemony_of_the_ss",
+        "GER_wunderwaffe",
+        "GER_integration_of_puppet_economies",
+        "GER_propaganda_master",
+        "GER_total_control_over_domestic_affairs"
+      ],
+      "mutuallyExclusive": [
+        "GER_loyalty_to_the_fuhrer"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_loyalty_to_the_fuhrer",
+      "name": "Loyalty To The Fuhrer",
+      "description": "",
+      "x": 0,
+      "y": 5,
+      "cost": 4,
+      "prerequisites": [
+        "GER_hegemony_of_the_ss",
+        "GER_wunderwaffe",
+        "GER_integration_of_puppet_economies",
+        "GER_propaganda_master",
+        "GER_total_control_over_domestic_affairs"
+      ],
+      "mutuallyExclusive": [
+        "GER_a_strong_successor"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_oppose_hitler_ww",
+      "name": "Oppose Hitler Ww",
+      "description": "",
+      "x": 72,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "GER_remilitarize_the_rhineland"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_rally_the_nation",
+      "name": "Rally The Nation",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_oppose_hitler_ww"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_denazification_campaigns",
+      "name": "Denazification Campaigns",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_rally_the_nation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_rebuild_the_nation_ww",
+      "name": "Rebuild The Nation Ww",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_rally_the_nation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_revitalize_the_nation",
+      "name": "Revitalize The Nation",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_denazification_campaigns",
+        "GER_rebuild_the_nation_ww"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_tend_to_the_future_of_germany",
+      "name": "Tend To The Future Of Germany",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "GER_oppose_hitler_ww"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_start_the_proletarian_revolution",
+      "name": "Start The Proletarian Revolution",
+      "description": "",
+      "x": -11,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_tend_to_the_future_of_germany"
+      ],
+      "mutuallyExclusive": [
+        "GER_monarchist_sentiment"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_formalize_the_intelligence_wing",
+      "name": "Formalize The Intelligence Wing",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_start_the_proletarian_revolution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_form_the_stasi",
+      "name": "Form The Stasi",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_formalize_the_intelligence_wing"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_effective_operations",
+      "name": "Effective Operations",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_formalize_the_intelligence_wing"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_assemble_red_orchestra",
+      "name": "Assemble Red Orchestra",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_form_the_stasi",
+        "GER_effective_operations"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_ressurect_the_red_front_fighters_league",
+      "name": "Ressurect The Red Front Fighters League",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_start_the_proletarian_revolution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_reorganize_nationale_volksarmee",
+      "name": "Reorganize Nationale Volksarmee",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_ressurect_the_red_front_fighters_league"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_political_commissars",
+      "name": "Political Commissars",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_ressurect_the_red_front_fighters_league"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_rapid_army_expansion",
+      "name": "Rapid Army Expansion",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_reorganize_nationale_volksarmee",
+        "GER_political_commissars"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_the_peoples_victory",
+      "name": "The Peoples Victory",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "GER_start_the_proletarian_revolution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_legacy_of_the_spartacus_league",
+      "name": "Legacy Of The Spartacus League",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_the_peoples_victory"
+      ],
+      "mutuallyExclusive": [
+        "GER_proletarian_dictatorship"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_social_ownership",
+      "name": "Social Ownership",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_legacy_of_the_spartacus_league"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_civil_liberties",
+      "name": "Civil Liberties",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_social_ownership"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_embrace_democratic_institutions",
+      "name": "Embrace Democratic Institutions",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_social_ownership"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_protect_the_revolution",
+      "name": "Protect The Revolution",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_civil_liberties",
+        "GER_embrace_democratic_institutions",
+        "GER_spark_the_flame_of_revolution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_establish_volkskommissariats",
+      "name": "Establish Volkskommissariats",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_protect_the_revolution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_industrialize_volkskommissariats",
+      "name": "Industrialize Volkskommissariats",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_establish_volkskommissariats"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_instill_german_discipline",
+      "name": "Instill German Discipline",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_establish_volkskommissariats"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_integrate_subjects_economies",
+      "name": "Integrate Subjects Economies",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_industrialize_volkskommissariats",
+        "GER_instill_german_discipline"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_integrate_volkskommissariats",
+      "name": "Integrate Volkskommissariats",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_integrate_subjects_economies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_liberate_austria",
+      "name": "Liberate Austria",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_social_ownership",
+        "GER_state_controlled_economy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_spark_the_flame_of_revolution",
+      "name": "Spark The Flame Of Revolution",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_liberate_austria"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_support_the_proletarian_uprising",
+      "name": "Support The Proletarian Uprising",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_spark_the_flame_of_revolution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_the_proletarian_legion",
+      "name": "The Proletarian Legion",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_support_the_proletarian_uprising",
+        "GER_protect_the_revolution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_strengthen_the_proletarian_international",
+      "name": "Strengthen The Proletarian International",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_support_the_proletarian_uprising"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_red_europe",
+      "name": "Red Europe",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_the_proletarian_legion",
+        "GER_strengthen_the_proletarian_international"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_proletarian_solidarity",
+      "name": "Proletarian Solidarity",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_red_europe"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_liberate_italy",
+      "name": "Liberate Italy",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_liberate_austria"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_the_end_to_fascist_europe",
+      "name": "The End To Fascist Europe",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_liberate_italy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_root_out_imperialism",
+      "name": "Root Out Imperialism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_the_end_to_fascist_europe",
+        "GER_red_europe"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_hegemony_over_europe",
+      "name": "Hegemony Over Europe",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "GER_root_out_imperialism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_align_south_america",
+      "name": "Align South America",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_root_out_imperialism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_wage_war_on_capitalism",
+      "name": "Wage War On Capitalism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_align_south_america"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_instigate_middle_eastern_revolutions",
+      "name": "Instigate Middle Eastern Revolutions",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_root_out_imperialism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_strike_at_the_rising_sun",
+      "name": "Strike At The Rising Sun",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_instigate_middle_eastern_revolutions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_nationalize_industries",
+      "name": "Nationalize Industries",
+      "description": "",
+      "x": 7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_social_ownership",
+        "GER_state_controlled_economy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_form_agricultural_cooperatives",
+      "name": "Form Agricultural Cooperatives",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_nationalize_industries"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_labor_rights_and_union_stuff",
+      "name": "Labor Rights And Union Stuff",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_nationalize_industries"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_expand_social_welfare",
+      "name": "Expand Social Welfare",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_form_agricultural_cooperatives",
+        "GER_labor_rights_and_union_stuff"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_effectivize_the_volkswerke",
+      "name": "Effectivize The Volkswerke",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_form_agricultural_cooperatives",
+        "GER_labor_rights_and_union_stuff"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_womens_rights_and_equality",
+      "name": "Womens Rights And Equality",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_expand_social_welfare",
+        "GER_effectivize_the_volkswerke"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_proletarian_dictatorship",
+      "name": "Proletarian Dictatorship",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_the_peoples_victory"
+      ],
+      "mutuallyExclusive": [
+        "GER_legacy_of_the_spartacus_league"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_state_controlled_economy",
+      "name": "State Controlled Economy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_proletarian_dictatorship"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_central_planning",
+      "name": "Central Planning",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_state_controlled_economy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_the_german_stakhanovite_movement",
+      "name": "The German Stakhanovite Movement",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_central_planning"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_spheres_of_influence",
+      "name": "Spheres Of Influence",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_state_controlled_economy",
+        "GER_defense_treaty_with_the_soviet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_czechoslovakia",
+      "name": "Czechoslovakia",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_spheres_of_influence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_poland",
+      "name": "Poland",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_spheres_of_influence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_hungary",
+      "name": "Hungary",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_czechoslovakia",
+        "GER_poland"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_the_northern_shield",
+      "name": "The Northern Shield",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_hungary"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_intervene_in_spain",
+      "name": "Intervene In Spain",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_legacy_of_the_spartacus_league",
+        "GER_proletarian_dictatorship"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_assist_our_eastern_comrades",
+      "name": "Assist Our Eastern Comrades",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_legacy_of_the_spartacus_league",
+        "GER_proletarian_dictatorship"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_sign_the_second_treaty_of_berlin",
+      "name": "Sign The Second Treaty Of Berlin",
+      "description": "",
+      "x": 8,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_the_peoples_victory"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_defense_treaty_with_the_soviet",
+      "name": "Defense Treaty With The Soviet",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_sign_the_second_treaty_of_berlin"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_industrial_cooperation",
+      "name": "Industrial Cooperation",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_sign_the_second_treaty_of_berlin"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_tech_sharing",
+      "name": "Tech Sharing",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_industrial_cooperation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_resource_trade",
+      "name": "Resource Trade",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_industrial_cooperation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_factories_for_resources",
+      "name": "Factories For Resources",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_tech_sharing",
+        "GER_resource_trade"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_monarchist_sentiment",
+      "name": "Monarchist Sentiment",
+      "description": "",
+      "x": 11,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_tend_to_the_future_of_germany"
+      ],
+      "mutuallyExclusive": [
+        "GER_start_the_proletarian_revolution"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_the_monarchy_compromise_ww",
+      "name": "The Monarchy Compromise Ww",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_monarchist_sentiment"
+      ],
+      "mutuallyExclusive": [
+        "GER_revive_the_kaiserreich_ww"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_re_establish_free_elections_ww",
+      "name": "Re Establish Free Elections Ww",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_the_monarchy_compromise_ww"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_ban_political_uniforms",
+      "name": "Ban Political Uniforms",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_re_establish_free_elections_ww"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_embrace_liberal_leanings",
+      "name": "Embrace Liberal Leanings",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_ban_political_uniforms"
+      ],
+      "mutuallyExclusive": [
+        "GER_strive_for_conservative_values"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_strive_for_conservative_values",
+      "name": "Strive For Conservative Values",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_ban_political_uniforms"
+      ],
+      "mutuallyExclusive": [
+        "GER_embrace_liberal_leanings"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_strengthen_the_welfare_state",
+      "name": "Strengthen The Welfare State",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_strive_for_conservative_values",
+        "GER_embrace_liberal_leanings"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_democratic_shield",
+      "name": "Democratic Shield",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_strengthen_the_welfare_state"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_reverse_the_brain_drain_ww",
+      "name": "Reverse The Brain Drain Ww",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_re_establish_free_elections_ww"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_shared_rd_programs_ww",
+      "name": "Shared Rd Programs Ww",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_reverse_the_brain_drain_ww"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_pool_technical_know_how_ww",
+      "name": "Pool Technical Know How Ww",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_reverse_the_brain_drain_ww"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_the_mannheim_project_ww",
+      "name": "The Mannheim Project Ww",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_shared_rd_programs_ww",
+        "GER_pool_technical_know_how_ww"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_re_ratify_the_locarno_treaty",
+      "name": "Re Ratify The Locarno Treaty",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_re_establish_free_elections_ww"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_offer_trade_proposal",
+      "name": "Offer Trade Proposal",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_re_ratify_the_locarno_treaty"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_franco_germanic_pact",
+      "name": "Franco Germanic Pact",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_re_ratify_the_locarno_treaty"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_request_the_return_of_french_held_colonies",
+      "name": "Request The Return Of French Held Colonies",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_franco_germanic_pact"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_revive_the_kaiserreich_ww",
+      "name": "Revive The Kaiserreich Ww",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_monarchist_sentiment"
+      ],
+      "mutuallyExclusive": [
+        "GER_the_monarchy_compromise_ww"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_return_of_the_kaiser_ww",
+      "name": "Return Of The Kaiser Ww",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_revive_the_kaiserreich_ww"
+      ],
+      "mutuallyExclusive": [
+        "GER_military_dictatorship"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_military_dictatorship",
+      "name": "Military Dictatorship",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_revive_the_kaiserreich_ww"
+      ],
+      "mutuallyExclusive": [
+        "GER_return_of_the_kaiser_ww"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_invite_scientists_back",
+      "name": "Invite Scientists Back",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_return_of_the_kaiser_ww"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_glorious_mechanical_machinations",
+      "name": "Glorious Mechanical Machinations",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_invite_scientists_back"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_prussian_artillery",
+      "name": "Prussian Artillery",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_invite_scientists_back",
+        "GER_prepare_for_the_next_naval_blockade"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_fan_prussian_militarism",
+      "name": "Fan Prussian Militarism",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_return_of_the_kaiser_ww",
+        "GER_military_dictatorship"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_re_form_the_freikorps",
+      "name": "Re Form The Freikorps",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_fan_prussian_militarism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_re_establish_the_landwehr",
+      "name": "Re Establish The Landwehr",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_fan_prussian_militarism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_glory_to_the_imperial_army",
+      "name": "Glory To The Imperial Army",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_re_form_the_freikorps",
+        "GER_re_establish_the_landwehr"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_prepare_for_the_next_naval_blockade",
+      "name": "Prepare For The Next Naval Blockade",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_military_dictatorship"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_all_for_the_front",
+      "name": "All For The Front",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_prepare_for_the_next_naval_blockade"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_expatriate_the_communists_ww",
+      "name": "Expatriate The Communists Ww",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_return_of_the_kaiser_ww",
+        "GER_military_dictatorship"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_demand_the_return_of_southern_jutland",
+      "name": "Demand The Return Of Southern Jutland",
+      "description": "",
+      "x": 8,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_return_of_the_kaiser_ww",
+        "GER_military_dictatorship"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_realpolitik",
+      "name": "Realpolitik",
+      "description": "",
+      "x": 1,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "GER_the_monarchy_compromise_ww",
+        "GER_revive_the_kaiserreich_ww"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_mitteleuropa",
+      "name": "Mitteleuropa",
+      "description": "",
+      "x": -9,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_realpolitik"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_the_austrian_question",
+      "name": "The Austrian Question",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_mitteleuropa"
+      ],
+      "mutuallyExclusive": [
+        "GER_brothers_in_arms"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_align_czechoslovakia",
+      "name": "Align Czechoslovakia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_the_austrian_question",
+        "GER_brothers_in_arms"
+      ],
+      "mutuallyExclusive": [
+        "GER_carve_up_czechoslovakia"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_sway_the_balkans",
+      "name": "Sway The Balkans",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_align_czechoslovakia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_establish_a_customs_union",
+      "name": "Establish A Customs Union",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_align_czechoslovakia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_integrated_economies",
+      "name": "Integrated Economies",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_establish_a_customs_union",
+        "GER_mitteleuropa_cooperation_sphere"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_european_confederation",
+      "name": "European Confederation",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_integrated_economies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_brothers_in_arms",
+      "name": "Brothers In Arms",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_mitteleuropa"
+      ],
+      "mutuallyExclusive": [
+        "GER_the_austrian_question"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_carve_up_czechoslovakia",
+      "name": "Carve Up Czechoslovakia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_the_austrian_question",
+        "GER_brothers_in_arms"
+      ],
+      "mutuallyExclusive": [
+        "GER_align_czechoslovakia"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_rekindle_imperial_sentiment_ww",
+      "name": "Rekindle Imperial Sentiment Ww",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_brothers_in_arms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_the_first_berlin_award",
+      "name": "The First Berlin Award",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_carve_up_czechoslovakia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_the_second_berlin_award",
+      "name": "The Second Berlin Award",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_the_first_berlin_award"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_mitteleuropa_cooperation_sphere",
+      "name": "Mitteleuropa Cooperation Sphere",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_carve_up_czechoslovakia",
+        "GER_align_czechoslovakia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_trade_agreements",
+      "name": "Trade Agreements",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_mitteleuropa_cooperation_sphere"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_prepare_italian_coup_ww",
+      "name": "Prepare Italian Coup Ww",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_the_second_berlin_award"
+      ],
+      "mutuallyExclusive": [
+        "GER_conquer_italy",
+        "GER_align_italy"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_assassinate_mussolini_ww",
+      "name": "Assassinate Mussolini Ww",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_prepare_italian_coup_ww"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_conquer_italy",
+      "name": "Conquer Italy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_the_second_berlin_award",
+        "GER_trade_agreements"
+      ],
+      "mutuallyExclusive": [
+        "GER_align_italy",
+        "GER_prepare_italian_coup_ww"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_restore_the_holy_roman_empire",
+      "name": "Restore The Holy Roman Empire",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_conquer_italy",
+        "GER_prepare_italian_coup_ww"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_align_italy",
+      "name": "Align Italy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_trade_agreements"
+      ],
+      "mutuallyExclusive": [
+        "GER_conquer_italy",
+        "GER_prepare_italian_coup_ww"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_german_hegemony_in_the_middle_east",
+      "name": "German Hegemony In The Middle East",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_conquer_italy",
+        "GER_european_confederation",
+        "GER_align_italy",
+        "GER_prepare_italian_coup_ww"
+      ],
+      "mutuallyExclusive": [
+        "GER_bring_turkey_into_the_fold"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_bring_turkey_into_the_fold",
+      "name": "Bring Turkey Into The Fold",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_conquer_italy",
+        "GER_european_confederation",
+        "GER_align_italy",
+        "GER_prepare_italian_coup_ww"
+      ],
+      "mutuallyExclusive": [
+        "GER_german_hegemony_in_the_middle_east"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_see_to_the_eastern_front_ww",
+      "name": "See To The Eastern Front Ww",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_realpolitik"
+      ],
+      "mutuallyExclusive": [
+        "GER_restore_the_brest_litovsk_borders"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_safeguard_the_baltic_ww",
+      "name": "Safeguard The Baltic Ww",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_see_to_the_eastern_front_ww"
+      ],
+      "mutuallyExclusive": [
+        "GER_tributes_for_guarantees"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_tributes_for_guarantees",
+      "name": "Tributes For Guarantees",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_see_to_the_eastern_front_ww"
+      ],
+      "mutuallyExclusive": [
+        "GER_safeguard_the_baltic_ww"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_danzig_for_guarantees_ww",
+      "name": "Danzig For Guarantees Ww",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_see_to_the_eastern_front_ww"
+      ],
+      "mutuallyExclusive": [
+        "GER_safeguard_poland"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_safeguard_poland",
+      "name": "Safeguard Poland",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_see_to_the_eastern_front_ww"
+      ],
+      "mutuallyExclusive": [
+        "GER_danzig_for_guarantees_ww"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_build_the_eastern_bulwark",
+      "name": "Build The Eastern Bulwark",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_safeguard_the_baltic_ww",
+        "GER_tributes_for_guarantees",
+        "GER_danzig_for_guarantees_ww",
+        "GER_safeguard_poland"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_liberate_oppressed_people",
+      "name": "Liberate Oppressed People",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_safeguard_the_baltic_ww",
+        "GER_tributes_for_guarantees",
+        "GER_danzig_for_guarantees_ww",
+        "GER_safeguard_poland"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_offer_military_production_support",
+      "name": "Offer Military Production Support",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_safeguard_the_baltic_ww",
+        "GER_tributes_for_guarantees",
+        "GER_danzig_for_guarantees_ww",
+        "GER_safeguard_poland"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_ally_white_russian_forces",
+      "name": "Ally White Russian Forces",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_offer_military_production_support",
+        "GER_liberate_oppressed_people",
+        "GER_build_the_eastern_bulwark"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_hold_joint_military_drills",
+      "name": "Hold Joint Military Drills",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "GER_offer_military_production_support",
+        "GER_liberate_oppressed_people",
+        "GER_build_the_eastern_bulwark"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_extend_mitteleuropas_bounderies",
+      "name": "Extend Mitteleuropas Bounderies",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_establish_a_customs_union",
+        "GER_offer_military_production_support",
+        "GER_liberate_oppressed_people",
+        "GER_build_the_eastern_bulwark"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_reach_out_to_scandinavia",
+      "name": "Reach Out To Scandinavia",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_extend_mitteleuropas_bounderies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_support_the_finns_ww",
+      "name": "Support The Finns Ww",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_safeguard_the_baltic_ww",
+        "GER_tributes_for_guarantees",
+        "GER_memel_ultimatum"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_restore_the_brest_litovsk_borders",
+      "name": "Restore The Brest Litovsk Borders",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_realpolitik"
+      ],
+      "mutuallyExclusive": [
+        "GER_see_to_the_eastern_front_ww"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_memel_ultimatum",
+      "name": "Memel Ultimatum",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_restore_the_brest_litovsk_borders"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_demand_lithuanian_integration",
+      "name": "Demand Lithuanian Integration",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_memel_ultimatum"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_restore_eastern_imperial_possessions",
+      "name": "Restore Eastern Imperial Possessions",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_restore_the_brest_litovsk_borders"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_demand_further_polish_concessions",
+      "name": "Demand Further Polish Concessions",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_restore_eastern_imperial_possessions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_incorporate_the_polish_rump_state",
+      "name": "Incorporate The Polish Rump State",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_demand_further_polish_concessions",
+        "GER_establish_eastern_grand_duchies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_establish_eastern_grand_duchies",
+      "name": "Establish Eastern Grand Duchies",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_demand_further_polish_concessions",
+        "GER_demand_lithuanian_integration"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_subduing_the_baltic_states",
+      "name": "Subduing The Baltic States",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_establish_eastern_grand_duchies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_puppet_finland",
+      "name": "Puppet Finland",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_support_the_finns_ww",
+        "GER_establish_eastern_grand_duchies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_strike_eastward",
+      "name": "Strike Eastward",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_subduing_the_baltic_states",
+        "GER_hold_joint_military_drills"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_end_european_communism",
+      "name": "End European Communism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_strike_eastward"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_reject_the_locarno_treaty",
+      "name": "Reject The Locarno Treaty",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "GER_realpolitik",
+        "GER_demand_the_return_of_southern_jutland"
+      ],
+      "mutuallyExclusive": [
+        "GER_carte_blanche_for_alsace_and_french_colonies_ww"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_backdoor_negotiations",
+      "name": "Backdoor Negotiations",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_reject_the_locarno_treaty"
+      ],
+      "mutuallyExclusive": [
+        "GER_schlieffen_once_more_ww",
+        "GER_bypass_maginot_in_the_south_ww"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_schlieffen_once_more_ww",
+      "name": "Schlieffen Once More Ww",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 4,
+      "prerequisites": [
+        "GER_reject_the_locarno_treaty"
+      ],
+      "mutuallyExclusive": [
+        "GER_backdoor_negotiations",
+        "GER_bypass_maginot_in_the_south_ww"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_bypass_maginot_in_the_south_ww",
+      "name": "Bypass Maginot In The South Ww",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 4,
+      "prerequisites": [
+        "GER_reject_the_locarno_treaty",
+        "GER_carte_blanche_for_alsace_and_french_colonies_ww"
+      ],
+      "mutuallyExclusive": [
+        "GER_backdoor_negotiations",
+        "GER_schlieffen_once_more_ww"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_reinstate_imperial_possessions_ww",
+      "name": "Reinstate Imperial Possessions Ww",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_backdoor_negotiations",
+        "GER_schlieffen_once_more_ww",
+        "GER_bypass_maginot_in_the_south_ww"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_establish_western_grand_duchies",
+      "name": "Establish Western Grand Duchies",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_backdoor_negotiations",
+        "GER_schlieffen_once_more_ww",
+        "GER_bypass_maginot_in_the_south_ww"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_integrate_western_german_speakers",
+      "name": "Integrate Western German Speakers",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_establish_western_grand_duchies",
+        "GER_reinstate_imperial_possessions_ww"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_weltpolitik",
+      "name": "Weltpolitik",
+      "description": "",
+      "x": 17,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_monarchist_sentiment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_accept_british_naval_dominance_ww",
+      "name": "Accept British Naval Dominance Ww",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_weltpolitik"
+      ],
+      "mutuallyExclusive": [
+        "GER_the_second_naval_race"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_carve_up_congo",
+      "name": "Carve Up Congo",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_accept_british_naval_dominance_ww"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_anglo_germanic_defense_pact",
+      "name": "Anglo Germanic Defense Pact",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_carve_up_congo"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_anglo_germanic_cooperation_program",
+      "name": "Anglo Germanic Cooperation Program",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_anglo_germanic_defense_pact"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_carte_blanche_for_alsace_and_french_colonies_ww",
+      "name": "Carte Blanche For Alsace And French Colonies Ww",
+      "description": "",
+      "x": -3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_anglo_germanic_defense_pact"
+      ],
+      "mutuallyExclusive": [
+        "GER_reject_the_locarno_treaty"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_petition_for_the_return_of_old_colonies",
+      "name": "Petition For The Return Of Old Colonies",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_anglo_germanic_defense_pact"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_unify_west_africa",
+      "name": "Unify West Africa",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_petition_for_the_return_of_old_colonies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_expand_pacific_holdings",
+      "name": "Expand Pacific Holdings",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_petition_for_the_return_of_old_colonies"
+      ],
+      "mutuallyExclusive": [
+        "GER_divide_and_conquer",
+        "GER_our_place_in_the_sun_ww"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_closer_sino_germanic_relations",
+      "name": "Closer Sino Germanic Relations",
+      "description": "",
+      "x": 3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_accept_british_naval_dominance_ww",
+        "GER_the_second_naval_race"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_industrial_investments",
+      "name": "Industrial Investments",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_closer_sino_germanic_relations"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_launch_sino_germanic_joint_research_program",
+      "name": "Launch Sino Germanic Joint Research Program",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_industrial_investments"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_send_military_aid",
+      "name": "Send Military Aid",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_closer_sino_germanic_relations"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_send_volunteers",
+      "name": "Send Volunteers",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_send_military_aid"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_request_the_return_of_qingdao",
+      "name": "Request The Return Of Qingdao",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_industrial_investments",
+        "GER_send_military_aid"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_the_sino_germanic_pact",
+      "name": "The Sino Germanic Pact",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_request_the_return_of_qingdao"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_divide_and_conquer",
+      "name": "Divide And Conquer",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_the_sino_germanic_pact"
+      ],
+      "mutuallyExclusive": [
+        "GER_expand_pacific_holdings",
+        "GER_our_place_in_the_sun_ww"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_the_second_naval_race",
+      "name": "The Second Naval Race",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_weltpolitik"
+      ],
+      "mutuallyExclusive": [
+        "GER_accept_british_naval_dominance_ww"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_rebuild_the_high_seas_fleet_ww",
+      "name": "Rebuild The High Seas Fleet Ww",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_the_second_naval_race"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_break_anglo_french_colonial_hegemony_ww",
+      "name": "Break Anglo French Colonial Hegemony Ww",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_rebuild_the_high_seas_fleet_ww"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_asian_allies",
+      "name": "Asian Allies",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_break_anglo_french_colonial_hegemony_ww"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_our_place_in_the_sun_ww",
+      "name": "Our Place In The Sun Ww",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "GER_break_anglo_french_colonial_hegemony_ww"
+      ],
+      "mutuallyExclusive": [
+        "GER_divide_and_conquer",
+        "GER_expand_pacific_holdings"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_expand_african_reach",
+      "name": "Expand African Reach",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_break_anglo_french_colonial_hegemony_ww"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_african_allies",
+      "name": "African Allies",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_expand_african_reach"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_realize_mittelafrika",
+      "name": "Realize Mittelafrika",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_expand_african_reach"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_oppose_hitler",
+      "name": "Oppose Hitler",
+      "description": "",
+      "x": 40,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "GER_remilitarize_the_rhineland"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_secure_the_new_state",
+      "name": "Secure The New State",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_oppose_hitler"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_revive_the_kaiserreich",
+      "name": "Revive The Kaiserreich",
+      "description": "",
+      "x": 1,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "GER_secure_the_new_state"
+      ],
+      "mutuallyExclusive": [
+        "GER_reestablish_free_elections"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_return_of_the_kaiser",
+      "name": "Return Of The Kaiser",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_revive_the_kaiserreich"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_focus_on_the_true_enemy",
+      "name": "Focus On The True Enemy",
+      "description": "",
+      "x": -6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_return_of_the_kaiser_ww"
+      ],
+      "mutuallyExclusive": [
+        "GER_expatriate_the_communists"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_rebuild_the_high_seas_fleet",
+      "name": "Rebuild The High Seas Fleet",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_focus_on_the_true_enemy"
+      ],
+      "mutuallyExclusive": [
+        "GER_accept_british_naval_dominance"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_our_place_in_the_sun",
+      "name": "Our Place In The Sun",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_rebuild_the_high_seas_fleet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_pride_of_the_modern_germany",
+      "name": "Pride Of The Modern Germany",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_grosskampfschiff_construction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_prepare_for_the_next_blockade",
+      "name": "Prepare For The Next Blockade",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_our_place_in_the_sun"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_break_the_anglo_french_colonial_hegemony",
+      "name": "Break The Anglo French Colonial Hegemony",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_prepare_for_the_next_blockade"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_schlieffen_once_more",
+      "name": "Schlieffen Once More",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 4,
+      "prerequisites": [
+        "GER_break_the_anglo_french_colonial_hegemony"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_the_central_powers",
+      "name": "The Central Powers",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_our_place_in_the_sun"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_prepare_italian_coup",
+      "name": "Prepare Italian Coup",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_the_central_powers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_assassinate_mussolini",
+      "name": "Assassinate Mussolini",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_prepare_italian_coup"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_rekindle_imperial_sentiment",
+      "name": "Rekindle Imperial Sentiment",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_the_central_powers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_expatriate_the_communists",
+      "name": "Expatriate The Communists",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_return_of_the_kaiser_ww"
+      ],
+      "mutuallyExclusive": [
+        "GER_focus_on_the_true_enemy"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_accept_british_naval_dominance",
+      "name": "Accept British Naval Dominance",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_expatriate_the_communists"
+      ],
+      "mutuallyExclusive": [
+        "GER_rebuild_the_high_seas_fleet"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_ally_the_shade",
+      "name": "Ally The Shade",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_accept_british_naval_dominance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_carte_blanche_for_alsace_and_french_colonies",
+      "name": "Carte Blanche For Alsace And French Colonies",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_ally_the_shade"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_bypass_maginot_in_the_south",
+      "name": "Bypass Maginot In The South",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 4,
+      "prerequisites": [
+        "GER_carte_blanche_for_alsace_and_french_colonies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_reinstate_imperial_possessions",
+      "name": "Reinstate Imperial Possessions",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_schlieffen_once_more",
+        "GER_bypass_maginot_in_the_south"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_see_to_the_eastern_front",
+      "name": "See To The Eastern Front",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_ostwall"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_danzig_for_guarantees",
+      "name": "Danzig For Guarantees",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_see_to_the_eastern_front"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_safeguard_the_baltic",
+      "name": "Safeguard The Baltic",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_see_to_the_eastern_front"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_support_the_finns",
+      "name": "Support The Finns",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_safeguard_the_baltic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_anti_comintern_pact_unaligned",
+      "name": "Anti Comintern Pact Unaligned",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_support_the_finns",
+        "GER_danzig_for_guarantees"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_anti_soviet_pact_unaligned",
+      "name": "Anti Soviet Pact Unaligned",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_anti_comintern_pact_unaligned"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_tackle_the_communist_threat",
+      "name": "Tackle The Communist Threat",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_anti_soviet_pact_unaligned",
+        "GER_carte_blanche_for_alsace_and_french_colonies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_the_iberian_problem",
+      "name": "The Iberian Problem",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_tackle_the_communist_threat"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_reestablish_free_elections",
+      "name": "Reestablish Free Elections",
+      "description": "",
+      "x": -1,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "GER_secure_the_new_state"
+      ],
+      "mutuallyExclusive": [
+        "GER_revive_the_kaiserreich"
+      ],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_the_monarchy_compromise",
+      "name": "The Monarchy Compromise",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_reestablish_free_elections"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_the_great_red_menace",
+      "name": "The Great Red Menace",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_the_monarchy_compromise"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_central_european_alliance",
+      "name": "Central European Alliance",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_the_great_red_menace"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_danubian_membership",
+      "name": "Danubian Membership",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_central_european_alliance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_danubian_expansion",
+      "name": "Danubian Expansion",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_danubian_membership"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_no_balkan_communism",
+      "name": "No Balkan Communism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_danubian_expansion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_low_countries_membership",
+      "name": "Low Countries Membership",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_central_european_alliance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_no_reds_in_western_europe",
+      "name": "No Reds In Western Europe",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_low_countries_membership"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_scandinavian_membership",
+      "name": "Scandinavian Membership",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_central_european_alliance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_baltic_membership",
+      "name": "Baltic Membership",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_scandinavian_membership"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_polish_membership",
+      "name": "Polish Membership",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_scandinavian_membership"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_finnish_membership",
+      "name": "Finnish Membership",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GER_scandinavian_membership"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_strike_at_the_source",
+      "name": "Strike At The Source",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_baltic_membership",
+        "GER_polish_membership",
+        "GER_finnish_membership"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_reverse_the_brain_drain",
+      "name": "Reverse The Brain Drain",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_the_monarchy_compromise"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    },
+    {
+      "id": "GER_shared_rd_programs",
+      "name": "Shared Rd Programs",
+      "description": "",
+      "x": 7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GER_reverse_the_brain_drain",
+        "GER_central_european_alliance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "germany.txt",
+      "shared": false
+    }
+  ]
+}
