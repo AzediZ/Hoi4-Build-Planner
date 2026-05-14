@@ -91,7 +91,7 @@ function updateResearchStartingTechStatus(tag = "") {
   const count = researchState.currentStartingTechIds?.size || 0;
   if (researchState.loadedMod === "FUWG") {
     status.textContent = count
-      ? `Loaded ${researchState.techs.length} FUWG research options. ${tag} starts with ${count} researched tech(s). Autocomplete uses all selected research slots plus starting techs to unlock available technologies.`
+      ? `Loaded ${researchState.techs.length} FUWG research options. ${tag} starts with ${count} researched tech(s). Autocomplete uses starting techs plus selected research in any slot. Search also reveals locked matches, which are highlighted if prerequisites are missing.`
       : `Loaded ${researchState.techs.length} FUWG research options. No starting tech list loaded for ${tag || "this country"}.`;
   }
 }
@@ -176,7 +176,24 @@ function populateResearchOptions(targetInput = null) {
 
   list.innerHTML = "";
 
-  getAvailableResearchTechsForInput(targetInput).forEach((tech) => {
+  const typed = String(targetInput?.value || "").trim().toLowerCase();
+  const available = getAvailableResearchTechsForInput(targetInput);
+  const availableIds = new Set(available.map((tech) => tech.id));
+
+  let options = available;
+
+  // If the user is actively searching, include matching locked techs too so techs do not look missing.
+  // Once selected, the field warning explains missing prerequisites.
+  if (typed.length >= 2) {
+    const matchingLocked = researchState.techs.filter((tech) => {
+      if (availableIds.has(tech.id)) return false;
+      return String(tech.name || "").toLowerCase().includes(typed) || String(tech.id || "").toLowerCase().includes(typed);
+    });
+
+    options = [...available, ...matchingLocked].sort((a, b) => String(a.name).localeCompare(String(b.name)));
+  }
+
+  options.forEach((tech) => {
     const option = document.createElement("option");
     option.value = tech.name;
     list.appendChild(option);

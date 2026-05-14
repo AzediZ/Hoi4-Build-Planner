@@ -1,0 +1,10 @@
+Research prerequisite direction fix
+
+Technology files parsed: 12
+Tech entries generated: 632
+Path edges parsed: 483
+Edges applied as prerequisites: 483
+Ignored edges to unknown tech IDs: 0
+
+Fix: path = { leads_to_tech = X } now means X requires the current tech.
+Previously this was backwards, which could hide valid technologies from autocomplete.
