@@ -155,7 +155,7 @@ async function loadSmartFocusCountries() {
     smartFocusState.countries.forEach((country) => {
       const option = document.createElement("option");
       option.value = country.tag;
-      option.textContent = `${country.name} (${country.tag}) — ${country.focusCount} focuses`;
+      option.textContent = `${country.name} (${country.tag})`;
       countrySelect.appendChild(option);
     });
 
@@ -168,7 +168,7 @@ async function loadSmartFocusCountries() {
       return;
     }
 
-    setFocusDataStatus(`Loaded ${smartFocusState.countries.length} FUWG country/tree entries. Choose a country/tree to load its focus data automatically.`);
+    setFocusDataStatus(`Loaded ${smartFocusState.countries.length} FUWG country/tree entries. Choose a country/tree from the top Country dropdown.`);
   } catch (error) {
     countrySelect.innerHTML = '<option value="">Could not load FUWG data</option>';
     countrySelect.disabled = true;
@@ -591,12 +591,12 @@ function setValue(id, value) {
   if (el.tagName === "SELECT") {
     const wanted = value || "";
     const hasOption = [...el.options].some((option) => option.value === wanted || option.text === wanted);
-    el.value = hasOption ? wanted : "Manual Entry";
+    el.value = hasOption ? wanted : "";
     return;
   }
 
   el.value = value || "";
-  autoGrow(el);
+  if (typeof autoGrow === "function") autoGrow(el);
 }
 
 
@@ -1373,3 +1373,74 @@ if (document.readyState === "loading") {
   bindLocalSaveUi();
 }
 
+
+
+/* Final FUWG top-country selector controller.
+   This intentionally sits at the end so it wins over older UI code. */
+async function forceCountrySelectorMode() {
+  const modSelect = document.getElementById("patchInput");
+  const manualCountryInput = document.getElementById("countryInput");
+  const countrySelect = document.getElementById("countrySelect");
+
+  if (!modSelect || !manualCountryInput || !countrySelect) return;
+
+  const isFuwg = String(modSelect.value || "").trim() === "FUWG";
+
+  document.body.classList.toggle("fuwg-country-mode", isFuwg);
+
+  if (isFuwg) {
+    manualCountryInput.style.display = "none";
+    manualCountryInput.disabled = true;
+    countrySelect.style.display = "block";
+    countrySelect.hidden = false;
+
+    if (!countrySelect.dataset.loaded) {
+      await loadSmartFocusCountries();
+      countrySelect.dataset.loaded = "1";
+    } else {
+      countrySelect.disabled = false;
+    }
+  } else {
+    manualCountryInput.style.display = "";
+    manualCountryInput.disabled = false;
+    countrySelect.style.display = "none";
+    countrySelect.disabled = true;
+    countrySelect.hidden = true;
+    clearSmartFocusData();
+  }
+}
+
+function bindFinalCountrySelectorMode() {
+  const modSelect = document.getElementById("patchInput");
+  const countrySelect = document.getElementById("countrySelect");
+  const manualCountryInput = document.getElementById("countryInput");
+
+  if (!modSelect || !countrySelect || !manualCountryInput) return;
+
+  modSelect.addEventListener("change", () => {
+    countrySelect.dataset.loaded = "";
+    forceCountrySelectorMode();
+  });
+
+  countrySelect.addEventListener("change", async () => {
+    if (String(modSelect.value || "").trim() !== "FUWG") return;
+    const tag = String(countrySelect.value || "").trim();
+
+    if (!tag) {
+      setValue("countryInput", "");
+      clearSmartFocusData();
+      setFocusDataStatus("Choose a FUWG country/tree to load focus data.");
+      return;
+    }
+
+    await loadSmartFocusTree(tag);
+  });
+
+  forceCountrySelectorMode();
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", bindFinalCountrySelectorMode);
+} else {
+  bindFinalCountrySelectorMode();
+}

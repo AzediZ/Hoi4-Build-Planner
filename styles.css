@@ -696,3 +696,21 @@ body:not(.fuwg-mode) .top-country-select {
 .top-country-select {
   width: 100%;
 }
+
+
+.country-control .country-manual-input,
+.country-control .country-fuwg-select {
+  width: 100%;
+}
+
+body.fuwg-country-mode .country-control .country-manual-input {
+  display: none !important;
+}
+
+body.fuwg-country-mode .country-control .country-fuwg-select {
+  display: block !important;
+}
+
+body:not(.fuwg-country-mode) .country-control .country-fuwg-select {
+  display: none !important;
+}
