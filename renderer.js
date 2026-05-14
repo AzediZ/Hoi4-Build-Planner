@@ -1685,7 +1685,7 @@ function removeDefaultResearchStarterRows() {
   const defaultTechs = new Set(["Basic Machine Tools", "Construction I"]);
   const defaultNotes = new Set(["Standard industry opener.", "Early industry/construction scaling."]);
 
-  document.querySelectorAll('[id^="researchSlot"][id$="Table"] tbody tr').forEach((row) => {
+  document.querySelectorAll('.research-slot-table tbody tr').forEach((row) => {
     const techInput = row.querySelector('[data-field="tech"]');
     const notesInput = row.querySelector('[data-field="notes"]');
     const tech = String(techInput?.value || "").trim();
@@ -1698,7 +1698,7 @@ function removeDefaultResearchStarterRows() {
 
   if (typeof renumberTable === "function") {
     for (let i = 1; i <= 8; i += 1) {
-      const table = document.getElementById(`researchSlot${i}Table`);
+      const table = document.getElementById(`researchSlot${i}`);
       if (table) renumberTable(table);
     }
   }
@@ -1719,7 +1719,7 @@ if (document.readyState === "loading") {
 
 function clearAllResearchRowsHard() {
   for (let i = 1; i <= 8; i += 1) {
-    const table = document.getElementById(`researchSlot${i}Table`);
+    const table = document.getElementById(`researchSlot${i}`);
     const body = table?.querySelector("tbody");
     if (body) body.innerHTML = "";
     if (typeof renumberTable === "function" && table) renumberTable(table);
@@ -1727,7 +1727,7 @@ function clearAllResearchRowsHard() {
 }
 
 function isOnlyStarterResearchRowsPresent() {
-  const rows = Array.from(document.querySelectorAll('[id^="researchSlot"][id$="Table"] tbody tr'));
+  const rows = Array.from(document.querySelectorAll('.research-slot-table tbody tr'));
   if (!rows.length) return false;
 
   const values = rows.map((row) => ({
@@ -1747,7 +1747,7 @@ function isOnlyStarterResearchRowsPresent() {
 }
 
 function removeStarterResearchRowsHard() {
-  document.querySelectorAll('[id^="researchSlot"][id$="Table"] tbody tr').forEach((row) => {
+  document.querySelectorAll('.research-slot-table tbody tr').forEach((row) => {
     const tech = String(row.querySelector('[data-field="tech"]')?.value || "").trim();
     const notes = String(row.querySelector('[data-field="notes"]')?.value || "").trim();
 
@@ -1762,7 +1762,7 @@ function removeStarterResearchRowsHard() {
   });
 
   for (let i = 1; i <= 8; i += 1) {
-    const table = document.getElementById(`researchSlot${i}Table`);
+    const table = document.getElementById(`researchSlot${i}`);
     if (typeof renumberTable === "function" && table) renumberTable(table);
   }
 }
@@ -1804,4 +1804,40 @@ if (document.readyState === "loading") {
   document.addEventListener("DOMContentLoaded", bindHardNewButtonResearchClear);
 } else {
   bindHardNewButtonResearchClear();
+}
+
+
+function removeStarterResearchRowsRealFix() {
+  const starterTechs = new Set(["Basic Machine Tools", "Construction I"]);
+  const starterNotes = new Set(["Standard industry opener.", "Early industry/construction scaling."]);
+
+  document.querySelectorAll(".research-slot-table tbody tr").forEach((row) => {
+    const tech = String(row.querySelector('[data-field="tech"]')?.value || "").trim();
+    const notes = String(row.querySelector('[data-field="notes"]')?.value || "").trim();
+
+    if (starterTechs.has(tech) || starterNotes.has(notes)) {
+      row.remove();
+    }
+  });
+
+  for (let slot = 1; slot <= 8; slot += 1) {
+    const table = document.getElementById(`researchSlot${slot}`);
+    if (table && typeof renumber === "function") renumber(`researchSlot${slot}`);
+  }
+}
+
+function scheduleRemoveStarterResearchRowsRealFix() {
+  removeStarterResearchRowsRealFix();
+  requestAnimationFrame(removeStarterResearchRowsRealFix);
+  setTimeout(removeStarterResearchRowsRealFix, 0);
+  setTimeout(removeStarterResearchRowsRealFix, 50);
+  setTimeout(removeStarterResearchRowsRealFix, 250);
+  setTimeout(removeStarterResearchRowsRealFix, 1000);
+  setTimeout(removeStarterResearchRowsRealFix, 2000);
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", scheduleRemoveStarterResearchRowsRealFix);
+} else {
+  scheduleRemoveStarterResearchRowsRealFix();
 }

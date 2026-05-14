@@ -1,0 +1,6 @@
+Empty research realfix report
+
+Cause fixed: cleanup previously looked for IDs like researchSlot1Table, but actual tables are researchSlot1, researchSlot2, etc.
+
+Patched files:
+- renderer.js
