@@ -1,0 +1,4434 @@
+{
+  "mod": "FUWG",
+  "techCount": 738,
+  "techs": [
+    {
+      "id": "modifier_production_speed_aluminium_factory_factor",
+      "name": " §YAluminium Factory§! construction speed",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "modifier_production_speed_chromium_factory_factor",
+      "name": " §YChromium Factory§! construction speed",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "modifier_production_speed_coal_factory_factor",
+      "name": " §YCoal Mine§! construction speed",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "modifier_production_speed_steel_factory_factor",
+      "name": " §YSteel Factory§! construction speed",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "modifier_production_speed_tungsten_factory_factor",
+      "name": " §YTungsten Factory§! construction speed",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "IRE_38th_irish_regiment",
+      "name": "38th Irish Armor Regiment",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "South_African_Tanks",
+      "name": "6th South African Armoured Division",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "industrial_tribe_power_status",
+      "name": "[?tribe_industry_power]",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "BALTIC_german_tank_licences",
+      "name": "[GetBalticAxisInvesmentsAdj] Tank Licences",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "POL_soviet_industry",
+      "name": "[GetSovietIndustrialInvestmentTitle]",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "persia.1.t",
+      "name": "[PER.GetName] Seizes [PER.GetAdjective] oil fields!!!",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "BALTIC_ford_motors",
+      "name": "[Root.Capital.GetName] Ford Industry",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "FUWG_nav_bomber",
+      "name": "[ROOT.GetAdjectiveCap] Naval Bombers",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "LAT_military_dictatorship",
+      "name": "A Military Dictatorship",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "LBA_naval_route_to_sicilia",
+      "name": "A Naval Route To Sicilia",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "naval_academy_scholarships_spirit",
+      "name": "Academy Scholarships",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_aircraft_carriers",
+      "name": "Acquire Aircraft Carriers",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "Stitch_tank_buff",
+      "name": "Add Tank Spirit",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EGY_extra_civ_effort",
+      "name": "Additional Civilian Industry Effort",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EGY_extra_dockyard_effort",
+      "name": "Additional Shipbuilding Effort",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "FUWG_submarine_aa_3",
+      "name": "Advanced Deck Anti-Air",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "advanced_machine_tools",
+      "name": "Advanced Machine Tools",
+      "category": "industry",
+      "source": "curated-baseline"
+    },
+    {
+      "id": "destroyer_killers_2",
+      "name": "Advanced Naval Rangekeeping",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "anti_tank_rifles",
+      "name": "Advanced Snipers",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SIA_advanced_torpedoes",
+      "name": "Advanced torpedoes",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PER_aerial_electronics",
+      "name": "Aerial Electronics",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "aggressive_reconnaisance_spirit",
+      "name": "Aggressive Reconnaisance",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "air_support_focus_2",
+      "name": "Air Support",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PER_air_support_focus",
+      "name": "Air Support Focus",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "british_fighter_discount_2",
+      "name": "Aircraft production group",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "TUR_taking_responsibility_for_the_air_war",
+      "name": "Airfields for the Caucasus",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "uk_albertan_oil_extraction",
+      "name": "Albertan Oil Extraction",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_vichy_oil",
+      "name": "All Oil For War!!!",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "category_support_artillery",
+      "name": "All Support Artillery",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SAF_allied_armor_core",
+      "name": "Allied Armor Core",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SAF_allied_heavy_armor_core",
+      "name": "Allied Armor Core - Heavy Focus",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SAF_allied_medium_armor_core",
+      "name": "Allied Armor Core - Medium Focus",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PER_allow_further_oil_exploitation",
+      "name": "Allow Further Oil Exploitation",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SAU_american_oil_investment",
+      "name": "American Oil Investment",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PER_anglo_iranian_oil_company",
+      "name": "Anglo-Iranian Oil Company",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SAU_anglo_saudi_friendship",
+      "name": "Anglo-Saudi Friendship",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "Anti_sub_warrior1",
+      "name": "Anti Submarine Warrior I",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "Anti_sub_warrior2",
+      "name": "Anti Submarine Warrior II",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "Anti_sub_warrior3",
+      "name": "Anti Submarine Warrior III",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "Anti_sub_warrior4",
+      "name": "Anti Submarine Warrior IV",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "Anti_sub_warrior5",
+      "name": "Anti Submarine Warrior V",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "anti_tank_bonus",
+      "name": "Anti Tank Technology Bonus",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "interwar_antitank_a",
+      "name": "Anti-Tank Ammunition Production",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "antitank2a",
+      "name": "Anti-Tank Camouflage",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "apply_inf_equip_on_partisans",
+      "name": "Apply infantry equipment",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "apply_navy_xp",
+      "name": "Apply Naval Experience in Action",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "armor_effort_fuwg",
+      "name": "Armor Effort",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "CRO_armor_research_lab",
+      "name": "Armor Research Labs",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFG_armoured_cars",
+      "name": "Armoured Cars",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFG_armoured_offensive",
+      "name": "Armoured Offensive",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "expand_mil_industry1_fuwg",
+      "name": "Army Funding 1",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "expand_mil_industry2_fuwg",
+      "name": "Army Funding 2",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "German_Armor_bonus_1",
+      "name": "Army Innovations",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SAU_artillery_corps",
+      "name": "Artillery Corps",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "artillery1",
+      "name": "Artillery I",
+      "category": "artillery",
+      "source": "curated-baseline"
+    },
+    {
+      "id": "EFR_artillery_organization",
+      "name": "Artillery Manufacturer",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EGY_arty_bonus",
+      "name": "Artillery Research",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "artillery4a",
+      "name": "Artillery Supply Vehicles",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFG_artillery_supremacy",
+      "name": "Artillery Supremacy",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "siam_navy1",
+      "name": "Assumed the Naval Burden",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "sp_naval_ASW_helicopter",
+      "name": "ASW Helicopter",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PER_attract_workers_support",
+      "name": "Attract Workers Support",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AUS_cruisiers_idea",
+      "name": "Australian Cruisers",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "australian_industry",
+      "name": "Australian Industry",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "BALTIC_german_baltic_industry",
+      "name": "Axis-Baltic Industry",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "sp_ballistic_missile_artillery",
+      "name": "Ballistic Missile Artillery",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "basic_light_tank",
+      "name": "Basic Light Tank",
+      "category": "armor",
+      "source": "curated-baseline"
+    },
+    {
+      "id": "basic_machine_tools",
+      "name": "Basic Machine Tools",
+      "category": "industry",
+      "source": "curated-baseline"
+    },
+    {
+      "id": "EGY_navy",
+      "name": "Basic Naval Technology",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_battle_line_ship_organization",
+      "name": "Battle Line Ship Builders",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "railway_gun_equipment_2",
+      "name": "Berta",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "best_of_the_best_naval_academy_spirit",
+      "name": "Best of the Best",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PER_better_radios",
+      "name": "Better Persian Radios",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "high_command_naval_2",
+      "name": "Big Naval High Command £navy_experience to £doctrine_mastery",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PER_bomb_construction",
+      "name": "Bomb Construction",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PHI_bomb_construction",
+      "name": "Bomb Development",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "bomber_command_spirit",
+      "name": "Bomber Command",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "wuw_HUN_bomber_competition",
+      "name": "Bomber Competition",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "bomber_focus_fuwg",
+      "name": "Bomber Focus",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "Bomber_Harris",
+      "name": "Bomber Harris",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "CRO_boost_the_support_of_the_ustasa",
+      "name": "Boost the Ustasa Popular Support",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "ROM_romanian_oil_acquisition",
+      "name": "Borrow Oil Rights",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "ROM_borrow_oil_rights",
+      "name": "Borrow Oil Rights in [FROM.Owner.getFlag] [FROM.getName]",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "FUWG_ITA_brescia_small_arms_industry",
+      "name": "Brescia Small Arms Industry",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "fuwg_brooklyn_yard_trait",
+      "name": "Broken Naval Yard",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PHI_brooklyn_naval_yard_organization",
+      "name": "Brooklyn Naval Yard",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SIA_build_a_battleship",
+      "name": "Build a Battleship",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SIA_build_a_carrier",
+      "name": "Build a Carrier",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SIA_build_a_cruiser",
+      "name": "Build a Cruiser",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SIA_build_a_super_heavy_battleship",
+      "name": "Build a Super Heavy Battleship",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_build_battleships",
+      "name": "Build Battleships",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_build_cruisers",
+      "name": "Build Cruisers",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_build_destroyers",
+      "name": "Build Destroyers",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "IRE_build_equipment_testing_labs",
+      "name": "Build Equipment Testing Labs",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_build_screens",
+      "name": "Build Escort Ships",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_build_submarines",
+      "name": "Build Submarines",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PHI_build_tank_prototype_labs",
+      "name": "Build Tank Prototype Labs",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PHI_build_naval_officers_academy",
+      "name": "Build The Naval Officers Academy",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "KOR_construction",
+      "name": "Building Like In The West",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PHI_buy_allied_ships",
+      "name": "Buy Allied Ships",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "IRE_buy_british_naval_technology",
+      "name": "Buy British Naval Technology",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PHI_buy_screw_gun_technology",
+      "name": "Buy The Screw Gun Blueprint",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "camel_anti_tank_brigade",
+      "name": "Camel Anti-Tank",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "camel_artillery_brigade",
+      "name": "Camel Artillery",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "camel_rocket_artillery_brigade",
+      "name": "Camel-drawn Rocket Artillery",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "CAN_cas_organization",
+      "name": "Canadian Cas Designer",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "capital_ships_effort_fuwg",
+      "name": "Capital Ship Effort",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SPA_carlist_support_2",
+      "name": "Carlist Support",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "MAN_carrier_air_wing",
+      "name": "Carrier Air Wing",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "fuwg_fushimi_hiroyasu_trait",
+      "name": "Carrier Primacy",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "CAS_effort_fuwg",
+      "name": "CAS Effort",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFR_leader_air_cas_2",
+      "name": "CAS Production",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFR_leader_air_cas",
+      "name": "CAS Technology Effort",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "casino_games_decision",
+      "name": "Casino",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_engineering_progarms",
+      "name": "Centre National de la Recherche Scientifique",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFR_events.04.t",
+      "name": "Choosing a tank design for Africa",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "ROM_circus_fueled_economy",
+      "name": "Circus Fueled Economy",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EGY_civilian",
+      "name": "Civilian Support",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "CAS1",
+      "name": "Close Air Support I",
+      "category": "air",
+      "source": "curated-baseline"
+    },
+    {
+      "id": "INFANTRY_TITLE_CLOTHING",
+      "name": "CLOTHING",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFR_collective_def_idea",
+      "name": "Collective African Defences Construction",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "VEN_science_bonus",
+      "name": "Common Technology Bonus",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "BALTIC_arms_industry",
+      "name": "Complete the Armament",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tank_composite_armor",
+      "name": "Composite Armor",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "computing_machine",
+      "name": "Computing Machine",
+      "category": "electronics",
+      "source": "curated-baseline"
+    },
+    {
+      "id": "AFG_concentrated_forces_tech",
+      "name": "Concentrated Forces Technology",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "concentrated_industry1",
+      "name": "Concentrated Industry I",
+      "category": "industry",
+      "source": "curated-baseline"
+    },
+    {
+      "id": "EGY_connect_the_eastern_oil_fields",
+      "name": "Connect The Eastern Oil Fields",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_build_carriers",
+      "name": "Construct Aircraft Carriers",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "logi_builder_path",
+      "name": "Construction Acceleration",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "MAN_construction_battalions",
+      "name": "Construction Battalions",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "construction_effort_fuwg",
+      "name": "Construction Effort",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "construction_effort_2_fuwg",
+      "name": "Construction Effort II",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "construction_effort_3_fuwg",
+      "name": "Construction Effort III",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "construction1",
+      "name": "Construction I",
+      "category": "industry",
+      "source": "curated-baseline"
+    },
+    {
+      "id": "construction2",
+      "name": "Construction II",
+      "category": "industry",
+      "source": "curated-baseline"
+    },
+    {
+      "id": "construction3",
+      "name": "Construction III",
+      "category": "industry",
+      "source": "curated-baseline"
+    },
+    {
+      "id": "EFR_convert_old_artillery",
+      "name": "Convert Obsolete Artillery",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_convert_old_equipment",
+      "name": "Convert Obsolete Equipment",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFR_naval_convoy_idea",
+      "name": "Convoy Security",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PER_cooperate_with_the_company",
+      "name": "Cooperate With The Anglo-Iranian Oil Company",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "IRE_counter_armor",
+      "name": "Counter Armor",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SIA_covert_support",
+      "name": "Covert Support",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "cruiser_effort_fuwg",
+      "name": "Cruiser Effort",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "cruiser_warfare_spirit",
+      "name": "Cruiser Warfare",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "cult_of_the_signal_flag_spirit",
+      "name": "Cult of the Signal Flag",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "CRO_outer_croatian_dockyard_investments",
+      "name": "Dalmatian Shipyard Building",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFG_deadly_assault_vehicles",
+      "name": "Deadly Support Vehicles",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "FUWG_submarine_aa",
+      "name": "Deck Anti-Air",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFR_collective_def_2",
+      "name": "Defence Construction Efforts",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_defend_casablanca",
+      "name": "Defend Casablanca",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "TUR_construct_the_cakmak_line",
+      "name": "Defend the Caucasus",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "support_weapons_B",
+      "name": "Defensive Maneuver",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "support_weapons_A",
+      "name": "Defensive Tactics",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "siam_navy",
+      "name": "Delegated naval warfare",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SAU_desert_fighters",
+      "name": "Desert Fighters",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PHI_destroy_enemy_tanks",
+      "name": "Destroy Enemy Tanks",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "destroyer_effort_fuwg",
+      "name": "Destroyer Effort",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_advanced_tank_guns",
+      "name": "Develop Advanced Tank Guns",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_begin_armored_car",
+      "name": "Develop Armored Cars",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_french_armored_cars",
+      "name": "Develop French Armored Cars",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_flying_fortress",
+      "name": "Develop Heavy Bombers",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "IRE_develop_naval_research_lab",
+      "name": "Develop Naval Research Lab",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_nimble_air_force",
+      "name": "Develop Nimble Fighter Force",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFG_purged_construction_workers4",
+      "name": "Devoted Construction Workers",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "dispersed_industry1",
+      "name": "Dispersed Industry I",
+      "category": "industry",
+      "source": "curated-baseline"
+    },
+    {
+      "id": "FUWG_submarine_MIO",
+      "name": "Doggerbank",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "NZL_domestic_air_industry",
+      "name": "Domestic Air Industry",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "NZL_domestic_tank_industry",
+      "name": "Domestic Tank Industry",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "fuwg_USA_CAS_trait",
+      "name": "Douglas Meteor Company",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFG_drive_the_machines_of_combat",
+      "name": "Drive the Machines of Combat",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PHI_drydock_shipbuilding",
+      "name": "Drydock Shipbuilding",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "mechanised_infantry_C",
+      "name": "E.R.A. Armour Plate",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "early_cruiser",
+      "name": "Early Cruiser Hull",
+      "category": "naval",
+      "source": "curated-baseline"
+    },
+    {
+      "id": "early_destroyer",
+      "name": "Early Destroyer Hull",
+      "category": "naval",
+      "source": "curated-baseline"
+    },
+    {
+      "id": "early_heavy_ship",
+      "name": "Early Heavy Ship Hull",
+      "category": "naval",
+      "source": "curated-baseline"
+    },
+    {
+      "id": "SAU_early_oil_concession",
+      "name": "Early Oil Concession",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "early_submarine",
+      "name": "Early Submarine Hull",
+      "category": "naval",
+      "source": "curated-baseline"
+    },
+    {
+      "id": "SIA_eductate_the_king_in_construction",
+      "name": "Educate the King in Construction",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SIA_eductate_the_king_in_logistics",
+      "name": "Educate the King in Logistics",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SIA_eductate_the_king_in_naval_warfare",
+      "name": "Educate the King in Naval Warfare",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "educated_in_construction",
+      "name": "Educated in Construction",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "educated_in_logistics",
+      "name": "Educated in Logistics",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "educated_in_naval_warfare",
+      "name": "Educated in Naval Warfare",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "dockyard_right_A",
+      "name": "Efficient Fleet Logistics I",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "dockyard_right_B",
+      "name": "Efficient Fleet Logistics II",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "dockyard_right_C",
+      "name": "Efficient Fleet Logistics III",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "dockyard_right_D",
+      "name": "Efficient Fleet Logistics IV",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "dockyard_right_E",
+      "name": "Efficient Fleet Logistics V",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "electronic_mechanical_engineering",
+      "name": "Electronic Mechanical Engineering",
+      "category": "electronics",
+      "source": "curated-baseline"
+    },
+    {
+      "id": "elevated_engineering_corps_spirit",
+      "name": "Elevated Engineering Corps",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFG_elevated_logistics_company",
+      "name": "Elevated Logistics Company",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "elite_fighter_pilots_spirit",
+      "name": "Elite Fighter Pilots",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "wuw_HUN_emergency_fuel_procurement",
+      "name": "Emergency Fuel Procurement",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "BALTIC_end_bourgeouis_dictatorships",
+      "name": "End the Bourgeoisie Dictatorships",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "engineers",
+      "name": "Engineer Company I",
+      "category": "support",
+      "source": "curated-baseline"
+    },
+    {
+      "id": "SAU_engineer_corps",
+      "name": "Engineer Corps",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "engineer_I",
+      "name": "Engineer I",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "engineer_II",
+      "name": "Engineer II",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "engineer_III",
+      "name": "Engineer III",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "engineer_IV",
+      "name": "Engineer IV",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "engineer_V",
+      "name": "Engineer V",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "superior_firepower_academy_spirit",
+      "name": "Engineering Schools",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_naval_support",
+      "name": "Enhance Naval Air Support",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PER_enhanced_trenchdigging_knowledge",
+      "name": "Enhance Trench Digging Technology",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PER_better_equipment_technology",
+      "name": "Enhanced Equipment Technology",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PER_enhanced_communications",
+      "name": "Enhanced Radio Technology",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "equipment_effort_fuwg",
+      "name": "Equipment Effort",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "equipment_effort_2_fuwg",
+      "name": "Equipment Effort II",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "equipment_effort_3_fuwg",
+      "name": "Equipment Effort III",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "BALTIC_equipment_siphon",
+      "name": "Equipment Siphon",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_escort_ship_organization",
+      "name": "Escort Fleet",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFG_establish_a_tank_program",
+      "name": "Establish a Tank Program",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_establish_aircraft_industry",
+      "name": "Establish Aircraft Industry",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "offensive_propaganda_2",
+      "name": "Establish Foreign Radio Stations",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_establish_naval_landing_forces",
+      "name": "Establish Naval Landing Forces",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PER_every_man_a_radio",
+      "name": "Every man a Radio",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "POL_execute_sabotage_of_german_radio_stations_idea",
+      "name": "Execute Sabotage of German Radio Stations",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFG_expand_aerospace_engineering_facilities",
+      "name": "Expand Aerospace Engineering Facilities",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "CRO_expand_brodosplit",
+      "name": "Expand BrodoSplit Mega-Shipyard",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PHI_expand_cash_crop_exports",
+      "name": "Expand Cash Crop Exports",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "CRO_expand_construction_technological_knowledge",
+      "name": "Expand Construction Knowledge",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SIA_the_economy1",
+      "name": "Expand Heavy Industry",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "IRE_irish_industry_expanded",
+      "name": "Expand Irish Industry",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "LBA_follow_the_italian_navy_2",
+      "name": "Expand Italian Naval Influence",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "LIT_expand_lithuanian_shipyards",
+      "name": "Expand Lithuanian Shipyards",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "IRE_expand_local_shipyards",
+      "name": "Expand Local Shipyards",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EGY_air_2",
+      "name": "Expand Military Base Construction",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PHI_expand_shipyards",
+      "name": "Expand Shipyards",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EGY_navy_3",
+      "name": "Expand Suez Shipyards",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFG_expand_the_arms_industry",
+      "name": "Expand the Arms Industry",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_logistics_company_B",
+      "name": "Expand The Supply Chains",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_expand_toulon",
+      "name": "Expand Toulon Naval Base",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "Hongkong_Gamble",
+      "name": "Exporting Industry to Hanana State",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "Singapore_Gamble",
+      "name": "Exporting Industry to Singapore",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "air_support_malus",
+      "name": "Exporting Production to The UK",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "transport_A",
+      "name": "Extended Fuel Capacities",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_logistics_company_C",
+      "name": "Extra Fuel Cans",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "extra_tech_slot_fuwg",
+      "name": "Extra Research Slot",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "extra_tech_slot_2_fuwg",
+      "name": "Extra Research Slot II",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SIA_fanatic_construction",
+      "name": "Fanatic Construction",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_mobile_tank_organization",
+      "name": "Fast Tanks Designer",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "wuw_HUN_fighter_competition",
+      "name": "Fighter Competition",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PER_fighter_customization",
+      "name": "Fighter Customization",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "fighter_focus_fuwg",
+      "name": "Fighter Focus",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "fighter1",
+      "name": "Fighter I",
+      "category": "air",
+      "source": "curated-baseline"
+    },
+    {
+      "id": "fighter2",
+      "name": "Fighter II",
+      "category": "air",
+      "source": "curated-baseline"
+    },
+    {
+      "id": "AFR_leader_air_fighter_2",
+      "name": "Fighter Innovations",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFR_leader_air_fighter",
+      "name": "Fighter Pilots Programs",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "MAN_fighter_purchases",
+      "name": "Fighter Purchases",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EGY_extra_civ_effort_2",
+      "name": "Final Civilian Industry Effort",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EGY_extra_dockyard_effort_2",
+      "name": "Final Shipbuilding Effort",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SMG_fleet_subs",
+      "name": "Fleet Submarines",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "infantry_aa_2",
+      "name": "Fliegerfaust B",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "IRE_focus_on_anti_submarine_warfare",
+      "name": "Focus On Anti-Submarine Warfare",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_focus_on_tanks",
+      "name": "Focus on Tank Development",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFR_cas_idea",
+      "name": "Focused on CAS production",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFR_fighter_idea",
+      "name": "Focused on Fighter Missions",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "LBA_german_subs_idea",
+      "name": "Follow German Submarines",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "IRE_foreign_dockyard_industries",
+      "name": "Foreign Shipyards",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SIA_foreign_support",
+      "name": "Foreign Support",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "rangers_tech_A",
+      "name": "Forest Warfare Doctrine",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_form_armored_corps",
+      "name": "Form Armored Corps",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SAF_form_the_allied_armor_core",
+      "name": "Form the Allied Armor Core",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_foxer_acoustic_decoy",
+      "name": "Foxer Acoustic Decoy",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "MAN_free_hospitals",
+      "name": "Free Hospitals",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_french_nationalist_support",
+      "name": "French Nationalist Support",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SAU_friendship_with_britain",
+      "name": "Friendship with Britain",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SIA_fuel_efficiency",
+      "name": "Fuel Efficiency",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "NZL_fuel_local_tank_production",
+      "name": "Fuel Local Tank Production",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "COM_fuel_the_empire",
+      "name": "Fuel the Empire",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SIA_the_fuel_beneath_our_feet2",
+      "name": "Fuel the Fires of War",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "zogs_shipyard",
+      "name": "Full funding for the Navy",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "expand_war_industry_fuwg",
+      "name": "Funding Question",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "naval_aircraft_manufacturer_special_suicide",
+      "name": "Funny Suicide Plane Designer",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "fuwg_default_cas",
+      "name": "FUWG Cas Designer",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "FUWG_fighter_organization",
+      "name": "FUWG Fighter Designer",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "FUWG_heavy_fighter_organization",
+      "name": "FUWG Heavy Fighter Designer",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFR_leader_land_inf_2",
+      "name": "Gather Infantry Equipment",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_mill_construction",
+      "name": "German Engineering",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "german_porsche_idea_1",
+      "name": "German Heavy Tanks",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_german_production_techniques",
+      "name": "German Production Technology",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "BHU_get_equipment",
+      "name": "Get Equipment",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "MAN_give_falkenhausen_citizenship",
+      "name": "Give Falkenhausen Citizenship",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_para_fort",
+      "name": "Glider infiltration",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "artifical_resources_school_realistic",
+      "name": "Go To School Of Synthetic Metals",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "logistics_school_realistic",
+      "name": "Go To The School of Logistics Building",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "HUN_war_logistics",
+      "name": "Goulash Cannons",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "gw_tank",
+      "name": "Great War Tank",
+      "category": "armor",
+      "source": "curated-baseline"
+    },
+    {
+      "id": "MAN_guidance_and_support",
+      "name": "Guidance And Support",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "railway_gun_equipment_3",
+      "name": "Gustav",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_mountaineer_mountain",
+      "name": "Hairpin bend ambushes",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "mech_rocket_artillery_brigade",
+      "name": "Half-track-drawn Rocket Artillery",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "manchuwuchans_eternal_love",
+      "name": "Happy Manchupanese relationship",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "MAN_manchuwu_chan_forgives_senpai",
+      "name": "Happy relationship",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SIA_have_the_king_visit_construction_workers",
+      "name": "Have the King Visit Construction Workers",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SIA_have_the_king_visit_logistics_companies",
+      "name": "Have the King Visit Logistics Companies",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "antitank5a",
+      "name": "HEAT-Ammunition",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "MAN_heavy_cruiser_project",
+      "name": "Heavy Cruiser Project",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "wuw_HUN_heavy_fighter_effort",
+      "name": "Heavy Fighter Effort",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "heavy_mg_brigade",
+      "name": "Heavy Machine Gun Brigade",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_heavy_mg_brigade2",
+      "name": "Heavy Machine Gun Brigade II",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_heavy_mg_brigade3",
+      "name": "Heavy Machine Gun Brigade III",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_heavy_mg_brigade4",
+      "name": "Heavy Machine Gun Brigade IV",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_heavy_mortar_brigade",
+      "name": "Heavy Mortar Brigade I",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_heavy_mortar_brigade2",
+      "name": "Heavy Mortar Brigades II",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_heavy_mortar_brigade3",
+      "name": "Heavy Mortar Brigades III",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_heavy_mortar_brigade4",
+      "name": "Heavy Mortar Brigades IV",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "FUWG_heavy_tonk_MIO",
+      "name": "Heavy Tank Designer",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "MAN_heavy_weapons",
+      "name": "Heavy Weapons",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "MAN_heavy_weapons_development",
+      "name": "Heavy Weapons Development",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "artillery1b",
+      "name": "High Explosive Artillery Shells",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_heavy_mortar_brigade_D",
+      "name": "High Explosive Charges",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "submarine_D",
+      "name": "High Intense Crew Training",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_heavy_mortar_brigade_E",
+      "name": "High Quality Barrel ",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "naval_endurance_1",
+      "name": "High Sea Endurance I",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "naval_endurance_2",
+      "name": "High Sea Endurance II",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PHI_hire_foreign_tank_companies",
+      "name": "Hire Foreign Tank Companies",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PHI_hire_the_tank_destroyer_board",
+      "name": "Hire the Tank Destroyer Board",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "horse_anti_tank_brigade",
+      "name": "Horse Anti-Tank",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "horse_artillery_brigade",
+      "name": "Horse Artillery",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "horse_rocket_artillery_brigade",
+      "name": "Horse-drawn Rocket Artillery",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "HUN_cas_organization",
+      "name": "Hungarian Cas Designer",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_import_german_pumas",
+      "name": "Import German Puma Armored Cars",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_organize_logistics",
+      "name": "Improve Logistics Organization",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "mechanised_infantry_B",
+      "name": "Improved Armour Technology",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "FUWG_submarine_aa_2",
+      "name": "Improved Deck Anti-Air",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "submarine_B",
+      "name": "Improved Fuel Tanks",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "ETH_improved_irregular_infantry_tech",
+      "name": "Improved Irregular Infantry",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "improved_machine_tools",
+      "name": "Improved Machine Tools",
+      "category": "industry",
+      "source": "curated-baseline"
+    },
+    {
+      "id": "destroyer_killers_1",
+      "name": "Improved Naval Rangekeeping",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "BALTIC_allied_shipments",
+      "name": "Increase Allied Shipments",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "expand_mil_industry_fuwg",
+      "name": "Increase funding for the army",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "expand_naval_industry_fuwg",
+      "name": "Increase funding for the navy",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PER_increase_oil_exploitation",
+      "name": "Increase Oil Exploitation",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EGY_increase_shipping_fees",
+      "name": "Increase Shipping Fees",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "submarine_A",
+      "name": "Increase Stealth Training ",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EGY_coastal_development_1",
+      "name": "Increase Suez Industry",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AC_bomber_increased_production",
+      "name": "Increased Bomber Production",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AC_cas_increased_production",
+      "name": "Increased CAS Production",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AC_fighter_increased_production",
+      "name": "Increased Fighter Production",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "submarine_C",
+      "name": "Increased Hunting Tacticts",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_heavy_mortar_brigade_C",
+      "name": "Increased Production",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_logistics_company_D",
+      "name": "Increased Supply Efforts",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "LBA_independence_support_idea",
+      "name": "Independence Support",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "POL_soviet_industry_alt",
+      "name": "Industrial Expansion",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFG_industry_tribes_destroyed",
+      "name": "Industrial Tribes Destroyed",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFG_industry_tribes_weak",
+      "name": "Industrial Tribes Vulnerable",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "industry_tribes_weak",
+      "name": "Industrial Tribes Weak",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "industry_liasons_spirit",
+      "name": "Industry Liasons",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EGY_inf_idea",
+      "name": "Infantry Corps",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SAU_infantry_equipment_modernization",
+      "name": "Infantry Equipment Modernization",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFG_infantry_fighting_vehicles",
+      "name": "Infantry Fighting Vehicles",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFR_leader_idea_land_inf",
+      "name": "Infantry Focused ",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EGY_inf_path_2",
+      "name": "Infantry Specialisation",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SPA_infantry_tank_organization",
+      "name": "Infantry Tanks Designer",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EGY_inf_path",
+      "name": "Infantry Weapon Research",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_infantry_equipment_organization",
+      "name": "Infantry Weapons Manufacturer",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SIA_inspired_construction_workers",
+      "name": "Inspired Construction Workers",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SIA_inspired_logistics_companies",
+      "name": "Inspired Logistics Companies",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "POL_royal_dictatorship",
+      "name": "Institute a Royal Dictatorship",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "IRE_intensification_of_industry",
+      "name": "Intensification of Industry",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "intergalatic_tank_innovations",
+      "name": "Intergalatic Tank Innovations",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "interwar_artillery",
+      "name": "Interwar Artillery",
+      "category": "artillery",
+      "source": "curated-baseline"
+    },
+    {
+      "id": "inventive_leadership_spirit",
+      "name": "Inventive Leadership",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PER_invest_in_communication_technology",
+      "name": "Invest in Communications",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFR_leader_land_inf",
+      "name": "Invest in Infantry",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFR_leader_land_tank",
+      "name": "Invest in Tanks",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "IRE_invest_into_armour",
+      "name": "Invest into Armor Technology",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PHI_invest_into_better_equipment",
+      "name": "Invest into better Mountainclimbing Equipment",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "CRO_investments_into_infantry",
+      "name": "Invest into Infantry",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "CRO_invest_into_landing_tech",
+      "name": "Invest Into Landing Technology",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "IRE_invest_into_motor_technology",
+      "name": "Invest into Motor Technology",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PHI_invest_into_better_construction_technology",
+      "name": "Invest into new Construction Technology",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "CRO_invest_into_new_machine_tools",
+      "name": "Invest into new Machine Tool Technology",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "MAN_investment_into_shipbuilding",
+      "name": "Investment Into Shipbuilding",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "KOR_production",
+      "name": "Investments In Machine Tools",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "IRE_irish_british_naval_excersizes",
+      "name": "Irish British Naval Excersizes",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFG_irregular_infantry_tech",
+      "name": "Irregular Infantry Tech",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "fuwg_carlo_bergamini_trait",
+      "name": "Italian Capital Ship Prodigy",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "fuwg_arturo_riccardi_trait",
+      "name": "Italian Carrier Expert",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tank_manufacturer_japan",
+      "name": "Japanese Tank Designer",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "POL_join_CZE_industry",
+      "name": "Join Czech Industry",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "MAN_joint_tank_development",
+      "name": "Joint Development",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "LBA_joint_naval_rearmament",
+      "name": "Joint Naval Rearmament",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PER_joint_radar_stations",
+      "name": "Joint Radar Stations",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "rangers_tech_C",
+      "name": "Jungle Combat Training",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_marine_jungle",
+      "name": "Jungle equipment",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AST_kangaroo_point_shipyards",
+      "name": "Kangaroo Point Shipyards",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "fuwg_chuichi_nagumo_trait",
+      "name": "Kawaii Carriers",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "krupp_tanks",
+      "name": "Krupp",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "ger_krupp_tank_manufacturer",
+      "name": "Krupp Industrial Plant",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "mechanised_infantry_F",
+      "name": "Learning From Years Of War",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PHI_hire_experienced_allied_engineers",
+      "name": "Lease Experienced Allied Engineers",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "uk_lease_south_africa_armor_expertise",
+      "name": "Lease Experienced Armor Engineers to South Africa",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_license_german_equipment",
+      "name": "License German Equipment",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "MAN_light_cruiser_project",
+      "name": "Light Cruiser Project",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "wuw_HUN_light_fighter_effort",
+      "name": "Light Fighter Effort",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFR_leader_navy_3",
+      "name": "Light Ship Production",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "intergalatic_tank_innovations_2",
+      "name": "Limits are goals",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "generic_mio_trait_liquid_fuel_rocket_engines",
+      "name": "Liquid-Fuel Rocket Engines",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "MAN_local_bomber_production",
+      "name": "Local Bomber Production",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "MAN_local_fighter_production",
+      "name": "Local Fighter Production",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SAM_logistic_focus",
+      "name": "Logistic Focus",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "logistical_focus_spirit",
+      "name": "Logistical Focus",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "logistic_builder_I",
+      "name": "Logistics Builder I",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "logistic_builder_II",
+      "name": "Logistics Builder II",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "logistic_builder_III",
+      "name": "Logistics Builder III",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "logistic_builder_IV",
+      "name": "Logistics Builder IV",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "logistic_builder_V",
+      "name": "Logistics Builder V",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "LBA_establish_lybian_navy",
+      "name": "Lybian Naval Force",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "machine_tools_bonus",
+      "name": "Machine Tools Bonus",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "fliegerfaust_equipment",
+      "name": "MANPADS",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_equipment_mass_production",
+      "name": "Mass Production of Equipment",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "mechanical_computing",
+      "name": "Mechanical Computing",
+      "category": "electronics",
+      "source": "curated-baseline"
+    },
+    {
+      "id": "mech_anti_tank_brigade",
+      "name": "Mechanized Anti-Tank",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "mech_artillery_brigade",
+      "name": "Mechanized Artillery",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_medium_tank_organization",
+      "name": "Medium Tank Designer",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EGY_construction_idea",
+      "name": "Military Construction Effort",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SIA_military_industry",
+      "name": "Military Industry",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EGY_military_development",
+      "name": "Military Industry Development",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EGY_military_support",
+      "name": "Military Support",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "sp_naval_mk102",
+      "name": "Mk 102 Missile Launcher",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFR_leader_land_mobile_2",
+      "name": "Mobile Equipment Procurement",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "motorised_C",
+      "name": "Mobile Fire Support",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tank_modern_cannon",
+      "name": "Modern Cannon",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "MAN_modern_logistics",
+      "name": "Modern Logistics",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "sp_modern_shipyards",
+      "name": "Modern Shipyards",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "MAN_modern_submarines",
+      "name": "Modern Submarines",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFG_industry_1",
+      "name": "Modernise Factories",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "naval_modernism_spirit",
+      "name": "Modernism",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_modernize_artillery",
+      "name": "Modernize Artillery",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_focus_on_infantry",
+      "name": "Modernize Infantry",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_modernize_infantry_equipment",
+      "name": "Modernize Infantry Equipment",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PER_modernize_equipment",
+      "name": "Modernize Iranian Equipment",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "BALTIC_modernize_industry",
+      "name": "Modernize Our Industry",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_modernize_toulon",
+      "name": "Modernize Toulon Naval Base",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "artillery1a",
+      "name": "Modular Artillery Production",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PER_better_inf",
+      "name": "More Infantry Technology",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "trucks",
+      "name": "Motorized",
+      "category": "infantry",
+      "source": "curated-baseline"
+    },
+    {
+      "id": "mountain_artillery",
+      "name": "Mountain Artillery",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_mountain_artillery",
+      "name": "Mountain Artillery Brigade I",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_mountain_artillery2",
+      "name": "Mountain Artillery Brigade II",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_mountain_artillery3",
+      "name": "Mountain Artillery Brigade III",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_mountain_artillery4",
+      "name": "Mountain Artillery Brigade IV",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "new_capital_casablanca",
+      "name": "Move your capital to Casablanca",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_logistics_company_A",
+      "name": "Mules and Donkeys",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SIA_national_industry",
+      "name": "National Industry",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "LAT_nationalised_industry",
+      "name": "Nationalised Industry",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "MAN_naval_aviation",
+      "name": "Naval Aviation",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "NZL_naval_bomber",
+      "name": "Naval Bombers",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "NZL_naval_detection",
+      "name": "Naval Detection",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "COM_naval_development",
+      "name": "Naval Development",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PER_naval_doctrine_idea",
+      "name": "Naval Doctrine Focus",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "naval_effort_fuwg",
+      "name": "Naval Effort",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFR_leader_navy_final",
+      "name": "Naval Experience",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "COM_status_quo_fuwg",
+      "name": "Naval Focus",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFR_leader_navy",
+      "name": "Naval Forces",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "expand_naval_industry1_fuwg",
+      "name": "Naval Funding 1",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "expand_naval_industry2_fuwg",
+      "name": "Naval Funding 2",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "once_high_command_naval",
+      "name": "Naval High Command",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "high_command_naval",
+      "name": "Naval High Command £navy_experience to £doctrine_mastery",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_marine_fort",
+      "name": "Naval infiltration",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "NZL_naval_modernisation",
+      "name": "Naval Modernisation",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "dockyard_left_A",
+      "name": "Naval Production Quota I",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "dockyard_left_B",
+      "name": "Naval Production Quota II",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "dockyard_left_C",
+      "name": "Naval Production Quota III",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "dockyard_left_D",
+      "name": "Naval Production Quota IV",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "dockyard_left_E",
+      "name": "Naval Production Quota V",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_naval_rearmament",
+      "name": "Naval Rearmament",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "naval_refit_yards_spirit",
+      "name": "Naval Refit Yards",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "naval_reform_spirit",
+      "name": "Naval Reform",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "ARG_naval_support",
+      "name": "Naval Support",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "sp_naval_radar_range_finding_completion",
+      "name": "Naval Targetting: 10%",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "naval_wargames_spirit",
+      "name": "Naval Wargames",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "nepotism_naval_academy_spirit",
+      "name": "Nepotism",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "mechanised_infantry_E",
+      "name": "Newer More Efficient Engines",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "nobody",
+      "name": "Nobody builds Submarines",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "oil_magnate_I",
+      "name": "Oil Magnate I",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "oil_magnate_II",
+      "name": "Oil Magnate II",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "oil_magnate_III",
+      "name": "Oil Magnate III",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "oil_magnate_IV",
+      "name": "Oil Magnate IV",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "oil_magnate_V",
+      "name": "Oil Magnate V",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SAU_oil_of_the_desert",
+      "name": "Oil of the Desert",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SAU_oil_powerhouse",
+      "name": "Oil Powerhouse",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SAU_oil_refinery_network",
+      "name": "Oil Refinery Network",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "fuwg_claire_lee_chennault_trait",
+      "name": "OP American CAS",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "fuwg_spruance_trait",
+      "name": "OP American Naval Anti-Air",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "fuwg_william_halsey_jr_trait",
+      "name": "OP American Naval Aviation",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "fuwg_hugo_sperrle_trait",
+      "name": "OP German CAS Commander",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PHI_optimize_shipbuilding_techniques",
+      "name": "Optimize Shipbuilding Techniques",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "MAN_order_destroyers",
+      "name": "Order Destroyers",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "German_Light_Tanks",
+      "name": "Panzerkampfwagen II",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SPA_italian_shipbuilding_expertise",
+      "name": "Pay back the Italians",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PER_infantry_idea",
+      "name": "Persian Infantry",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PER_tanks_idea",
+      "name": "Persian Tanks",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "MAN_personal_leadership",
+      "name": "Personal Leadership",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PHI_naval_academy",
+      "name": "Phillipines Naval Academy",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "ship_hull_cruiser_pipaschiff",
+      "name": "Pocket Battleship",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "political_appointments_naval_academy_spirit",
+      "name": "Political Appointments",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_marine_marsh",
+      "name": "Ponton bridges",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PHI_port_facility_construction",
+      "name": "Port Facility Construction",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFG_prioritise_construction",
+      "name": "Prioritise Construction",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "CRO_prioritize_our_infantry",
+      "name": "Prioritize Croatian Infantry Technology",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "HUN_give_fuel",
+      "name": "Procuring Fuel",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "VEN_propaganda_censorship",
+      "name": "Propaganda and Censorship",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SIA_acquire_modern_tanks",
+      "name": "Purchase License Equipment",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "MAN_purchase_tanks",
+      "name": "Purchase Tanks",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFG_purge_construction_workers",
+      "name": "Purge Construction Workers",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFG_purged_construction_workers1",
+      "name": "Purged Construction Staff",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "mechanised_infantry_D",
+      "name": "Quality Over Quantity",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFG_quick_assault_vehicles",
+      "name": "Quick Support Vehicles",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "radar",
+      "name": "Radar",
+      "category": "electronics",
+      "source": "curated-baseline"
+    },
+    {
+      "id": "antiair5a",
+      "name": "Radar Guidance",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "sp_naval_radar_range_finding",
+      "name": "Radar Range Finding",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "radio",
+      "name": "Radio",
+      "category": "electronics",
+      "source": "curated-baseline"
+    },
+    {
+      "id": "interwar_antiair_b",
+      "name": "Radio Supported Anti-Air Defense",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PER_integrated_radios",
+      "name": "Radios for every Man",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_raider_ship_organization",
+      "name": "Raiding Fleet",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_para_forest",
+      "name": "Ranger training",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_rearguard_company",
+      "name": "Rearguard Company I",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_rearguard_company2",
+      "name": "Rearguard Company II",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_rearguard_company3",
+      "name": "Rearguard Company III",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_rearguard_company4",
+      "name": "Rearguard Company IV",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "recon",
+      "name": "Recon Company I",
+      "category": "support",
+      "source": "curated-baseline"
+    },
+    {
+      "id": "EFR_roconstruction",
+      "name": "Reconstrucion",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "LIT_secure_a_loyal_cabinet",
+      "name": "Reconvene the Seimas",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_refit_ships",
+      "name": "Refit Existing Ships",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PRU_efficient_economy",
+      "name": "Reformed Industry",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "LBA_regional_leadership",
+      "name": "Regional Leadership",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_reinforce_naval_bases",
+      "name": "Reinforce Naval Bases",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PHI_rely_on_american_naval_coverage",
+      "name": "Rely on American Naval Coverage",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_repurpose_lighthouses",
+      "name": "Repurpose Lighthouses for Radar",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "BALTIC_request_german_support",
+      "name": "Request [GetBalticAxisInvesmentsAdj] Support",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "ROM_german_support_for_bessarabia",
+      "name": "Request German Support for Bessarabia",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFG_request_construction",
+      "name": "Request Increased Construction Capability",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "CRO_anti_tank_investments",
+      "name": "Research new Anti-Tank Guns",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "CRO_make_new_artillery_cannons",
+      "name": "Research new Artillery Guns",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "CRO_research_submarine_technology",
+      "name": "Research Submarine Technology",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "offensive_propaganda_3",
+      "name": "Resistance Radio",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_restart_production",
+      "name": "Restart Naval Production",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_mountaineer_hill",
+      "name": "Reverse slope defense",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "rangers_tech_B",
+      "name": "River Crossing Tactics",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "ROM_factories_1",
+      "name": "Romanian Industry",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "ROM_royal_army_support",
+      "name": "Royal Army Support",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AUS_royal_australian_artillery_idea",
+      "name": "Royal Australian Artillery",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "MAN_rural_reconstruction_movement",
+      "name": "Rural Reconstruction Movement",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "NSB_soviet_soviet_german_trade_agreement_tech_bonus_name_alt",
+      "name": "Russo-German Trade Agreement",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "POL_sabotage_of_german_radio_stations_idea",
+      "name": "Sabotage of German Radio Stations",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "anti_submarine_warfare_school",
+      "name": "School Of Anti Submarine Warfare",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "BALTIC_school_of_aviation_tech_bonus",
+      "name": "School of Aviation",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "engineer_school_realistic",
+      "name": "School Of Engineering",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "oil_tycoon_school_realistic",
+      "name": "School Of Fossil Fuel",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "industrial_school_realistic",
+      "name": "School Of Industry",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "navy_school_realistic",
+      "name": "School of Naval Rearmament",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "wolfpack_school",
+      "name": "School of Wolfpack Leadership",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SIA_secret_industry",
+      "name": "Secret Industry",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "secret_weapons_fuwg",
+      "name": "Secret Weapons",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "BALTIC_secure_military_support",
+      "name": "Secure Military Support",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "POL_internal_romanian_support",
+      "name": "Seek Internal Romanian Support",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "MAN_seek_japanese_support",
+      "name": "Seek Japanese Support",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "BALTIC_seek_support_of_soviets",
+      "name": "Seek the Support of the Soviets",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PER_seize_the_persian_oilfields",
+      "name": "Seize Persian OilFields",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "LBA_send_them_equipment",
+      "name": "Send Them Equipment!",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "interwar_antitank_b",
+      "name": "Shaped Charge Ammunition",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "ship_fanatic_I",
+      "name": "Ship Fanatic I",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "ship_fanatic_II",
+      "name": "Ship Fanatic II",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "ship_fanatic_III",
+      "name": "Ship Fanatic III",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "ship_fanatic_IV",
+      "name": "Ship Fanatic IV",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "ship_fanatic_V",
+      "name": "Ship Fanatic V",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SAU_signal_corps",
+      "name": "Signal Corps",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "signal_recon_company",
+      "name": "Signal-Recon Company",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_signal_recon_company",
+      "name": "Signal-Recon Company I",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_signal_recon_company2",
+      "name": "Signal-Recon Company II",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_signal_recon_company3",
+      "name": "Signal-Recon Company III",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_signal_recon_company4",
+      "name": "Signal-Recon Company IV",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "signals_training_spirit",
+      "name": "Signals Training",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "siliceous_cored_armor",
+      "name": "Silceous Cored Armor",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "mechanised_infantry_A",
+      "name": "Simplified Mechanized Production",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EGY_sinai_defensive_logistics",
+      "name": "Sinai Defensive Logistics",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SIK_artillery",
+      "name": "Sinkiang Artillery",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_heavy_mortar_brigade_A",
+      "name": "Smoke Charges",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "TUR_social_construction",
+      "name": "Social Construction",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "MAN_fighter_payment",
+      "name": "Sold Fighters to Manchu",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "BALTIC_soviet_equipment",
+      "name": "Soviet Equipment",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "POL_soviet_industry_default",
+      "name": "Soviet Industrial Investments",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "support_for_the_soviets",
+      "name": "Soviet leases",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "fuwg_soviet_oil_embargo",
+      "name": "Soviet Oil Embargo",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "NSB_soviet_soviet_german_trade_agreement_tech_bonus_name",
+      "name": "Soviet-German Trade Agreement",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_heavy_mortar_brigade_B",
+      "name": "Spare Parts",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SAU_specialist_sniper_recon",
+      "name": "Specialist Sniper and Recon Units",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "naval_academy_spirit",
+      "name": "Spirit of Naval Academy",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "naval_command_spirit",
+      "name": "Spirit of Naval Command",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "IRE_sponsor_british_ship_building",
+      "name": "Sponsor British-Irish Ship Building",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SIA_spread_out_industry1",
+      "name": "Spread Out Industry",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SIA_spreading_out_industry",
+      "name": "Spreading Out Industry",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "ROM_vlad_the_impaler",
+      "name": "Stake the Tanks",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_armored_car_organization",
+      "name": "Standardized Production",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PHI_standarize_tank_models",
+      "name": "Standarize Tank Models",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "start_worshipping",
+      "name": "Start worshipping Saint Andrew",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PER_status_of_the_anglo_iranian_oil_company",
+      "name": "Status of the Anglo-Iranian Oil Company",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SIA_stealth_torpedoes",
+      "name": "Stealth Torpedoes",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "fuwg_stop_GER_refit_convoys_to_cruisers_toggle",
+      "name": "Stop Toggle Refit Merchant Ships to Merchant Raiders",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFR_leader_air_strat_2",
+      "name": "Strat Bomber Designs",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFR_events.06.t",
+      "name": "Strategic Bomber Funds",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "strategic_bomber1",
+      "name": "Strategic Bomber I",
+      "category": "air",
+      "source": "curated-baseline"
+    },
+    {
+      "id": "dockyard_path",
+      "name": "Streamlined Shipways",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_army_support",
+      "name": "Strengthen Army Support",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "fuwg_andrew_cunningham_trait",
+      "name": "Stronk Naval Aviation",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "fuwg_bowhill_trait",
+      "name": "Stronk Naval Strike",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PER_study_german_equipment",
+      "name": "Study German Equipment",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PER_study_soviet_engineering",
+      "name": "Study Soviet Engineering",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PHI_ship_building",
+      "name": "Sturdier Ships",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "sub_anti_air_1_short",
+      "name": "Submarine Anti-Air I",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "sub_anti_air_2_short",
+      "name": "Submarine Anti-Air II",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "sub_anti_air_3_short",
+      "name": "Submarine Anti-Air III",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFR_submarine_idea",
+      "name": "Submarine Building",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EFR_submarine_organization",
+      "name": "Submarine Designer",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "submarine_effort_fuwg",
+      "name": "Submarine Effort",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "trade_interdiction_navy_spirit",
+      "name": "Submarine Primacy",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFR_leader_navy_2",
+      "name": "Submarine Production",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "CRO_submarine_warfare_projects",
+      "name": "Submarine Warfare Projects",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EGY_sudanese_support",
+      "name": "Sudanese Support",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PER_superior_engines",
+      "name": "Superior Engines",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "POL_support_falangists_in_the_americas",
+      "name": "Support American Falangists",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "POL_anti_germans_abroad",
+      "name": "Support Anti-Germans Abroad",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "LAT_support_baltic_fascists",
+      "name": "Support Baltic Fascists",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "POL_support_colonial_workers_strikes",
+      "name": "Support Colonial Workers Strikes",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "POL_support_global_falangism",
+      "name": "Support Global Falangism",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EST_support_independent_militaries",
+      "name": "Support Independent Militaries",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "POL_support_monarchy_in_CZE",
+      "name": "Support Monarchism in Czechoslovakia",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "POL_support_monarchism_in_LIT",
+      "name": "Support Monarchism in Lithuania",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "LIT_support_monarchism_in_POL",
+      "name": "Support Monarchism in Poland",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SIA_support_of_the_military",
+      "name": "Support of the Military",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SIA_support_of_the_people",
+      "name": "Support of the People",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "LBA_support_our_african_brethren",
+      "name": "Support Our African Brethren",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "LIT_support_polish_fascists",
+      "name": "Support Polish Fascists",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "COM_support_the_king",
+      "name": "Support the King",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PER_support_monarchical_domination",
+      "name": "Support The Shahdom Domination of Iran",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PER_support_the_communist_party_of_iran",
+      "name": "Support the Tudeh Party",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "HUN_building_slots",
+      "name": "Support Urbanization",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "support_weapons",
+      "name": "Support Weapons",
+      "category": "infantry",
+      "source": "curated-baseline"
+    },
+    {
+      "id": "support_weapons2",
+      "name": "Support Weapons II",
+      "category": "infantry",
+      "source": "curated-baseline"
+    },
+    {
+      "id": "BALTIC_supported_fascism",
+      "name": "Supported Baltic Nationalism",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "supporter_of_the_shah",
+      "name": "Supporter of the Shah",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFG_supporting_combat_roles",
+      "name": "Supporting Combat Roles",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "fuwg_op_kure_naval_yard_trait",
+      "name": "Supremacy of the Battlefleet",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFR_surface_navy_idea",
+      "name": "Surface Ship Building",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "POR_syntetic_industries",
+      "name": "Synthetic Industrialization",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "POR_maximise_the_syntetics",
+      "name": "Synthetic Maximisation",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "synthetic_metals_I",
+      "name": "Synthetics I",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "synthetic_metals_II",
+      "name": "Synthetics II",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "synthetic_metals_III",
+      "name": "Synthetics III",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "synthetic_metals_IV",
+      "name": "Synthetics IV",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "synthetic_metals_V",
+      "name": "Synthetics V",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PER_tabriz_construction_work",
+      "name": "Tabriz Construction Work",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tactical_bomber1",
+      "name": "Tactical Bomber I",
+      "category": "air",
+      "source": "curated-baseline"
+    },
+    {
+      "id": "take_oil_rights_back",
+      "name": "Take away Romanian Oil Rights in [FROM.getName]",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EGY_tank_idea",
+      "name": "Tank Corps",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFG_tank_destroyers",
+      "name": "Tank Destroyers",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFR_leader_land_tank_2",
+      "name": "Tank Doctrine Choices",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFR_leader_idea_land_tank",
+      "name": "Tank Focused ",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "MAN_tank_plant",
+      "name": "Tank Plant",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EGY_tank_path",
+      "name": "Tank Research",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "EGY_tank_path_2",
+      "name": "Tank Specialisation",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SAF_tank_generals",
+      "name": "Tank Warfare",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SAM_tank",
+      "name": "Tanks",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "fuwg_douglas_mac_arthour_trait",
+      "name": "Tanks Run on Patriotism",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "COM_technological_advancement",
+      "name": "Technological Advancement",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "MAN_technological_cooperation",
+      "name": "Technological Cooperation",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SAM_tech",
+      "name": "Technological Progress",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "BALTIC_technology_sharing",
+      "name": "Technology Sharing",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SAU_aramco_partnership",
+      "name": "The ARAMCO Partnership",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFG_the_backbone_of_industry",
+      "name": "The Backbone of Industry",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "COM_computers",
+      "name": "The Cavity Magnetron",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SIA_the_fuel_beneath_our_feet",
+      "name": "The Fuel Beneath Our Feet",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "king_educated_in_construction",
+      "name": "The King is educated in construction",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "king_educated_in_logistics",
+      "name": "The King is educated in logistics",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "king_educated_in_naval_warfare",
+      "name": "The King is educated in Naval Warfare",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFG_help_with_construction_idea",
+      "name": "The People Will It Shall Be Built",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFG_industry_2",
+      "name": "The Tools for Success",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "worship_of_st_andrew",
+      "name": "The Worship of Saint Andrew",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "fuwg_GER_refit_convoys_to_cruisers_toggle",
+      "name": "Toggle Refit Merchant Ships to Merchant Raiders",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "traditionalism_naval_academy_spirit",
+      "name": "Traditionalism",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "support_weapons_C",
+      "name": "Tripods",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SAU_ulema_support",
+      "name": "Ulema Support",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "underfunded_naval_academy_spirit",
+      "name": "Underfunded Naval Academy",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "TECH_resource_factory_upgrade",
+      "name": "Unlocks ability to build 3 resource buildings per state",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "CRO_up_armor_trucks",
+      "name": "Up Armor Trucks",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_para_urban",
+      "name": "Urban combat",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SAU_us_saudi_ties",
+      "name": "US-Saudi Strategic Partnership",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "COM_logibuilder",
+      "name": "Viceroy of Logistics",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "COM_tech_rusher",
+      "name": "Viceroy of Technology",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "LIT_vincas_mickevicius_kapsukas",
+      "name": "Vincas Mickevičius-Kapsukas",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "wartime_industry_focus_uk",
+      "name": "War Time Industries",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "intergalatic_tank_innovations_3",
+      "name": "We can take it back",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PER_infantry",
+      "name": "We must have Infantry!",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "PER_tanks",
+      "name": "We must have tanks!",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFR_events.04.desc",
+      "name": "We shall choose the tank we want to defend Africa",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFG_construction_slave",
+      "name": "We'll Build it in a Day",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "AFG_weapons_of_the_royal_guard",
+      "name": "Weapons of the Royal Guard",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "tech_mountaineer_snow",
+      "name": "Winter equipment",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "SIA_deep_water_submarines",
+      "name": "Wolf Packs",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "ROM_worship_st_andrew",
+      "name": "Worship of St. Andrew",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "ZOG_king",
+      "name": "Zog's Shipyard",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "marine_tech10",
+      "name": "§G10%§! Attack and Defence on Amphibious, Rivers, Marshes",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "mountaineer_tech10",
+      "name": "§G10%§! Attack and Defence on Mountains, Hills and Forests",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "marine_tech15",
+      "name": "§G15%§! Attack and Defence on Amphibious, Rivers, Marshes",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "mountaineer_tech15",
+      "name": "§G15%§! Attack and Defenceon Mountains, Hills and Forests",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "marine_tech20",
+      "name": "§G20%§! Attack and Defence on Amphibious, Rivers, Marshes",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "mountaineer_tech20",
+      "name": "§G20%§! Attack and Defence on Mountains, Hills and Forests",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "marine_tech5",
+      "name": "§G5%§! Attack and Defence on Amphibious, Rivers, Marshes",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "mountaineer_tech5",
+      "name": "§G5%§! Attack and Defence on Mountains, Hills and Forests",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "fuwg_monkey_host.1.t",
+      "name": "§RAXIS ARMOR PACK IS ENABLED§!",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "human_waves_tech",
+      "name": "§YInfantry§!§W: Combat width§! §G-0.2§!",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "human_waves_tech3",
+      "name": "§YInfantry§!§W: Combat width§! §G-0.3§!",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "modifier_army_sub_unit_light_sp_artillery_brigade_attack_factor",
+      "name": "§YLight SPG§!: Attack",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "modifier_army_sub_unit_light_sp_artillery_brigade_defence_factor",
+      "name": "§YLight SPG§!: Defense",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "modifier_army_sub_unit_light_sp_artillery_brigade_max_org_factor",
+      "name": "§YLight SPG§!: Organization",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "modifier_army_sub_unit_light_sp_artillery_brigade_speed_factor",
+      "name": "§YLight SPG§!: Speed",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "modifier_army_sub_unit_light_armor_attack_factor",
+      "name": "§YLight Tank§!: Attack",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "modifier_army_sub_unit_light_armor_defence_factor",
+      "name": "§YLight Tank§!: Defense",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "modifier_army_sub_unit_light_armor_max_org_factor",
+      "name": "§YLight Tank§!: Organization",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "modifier_army_sub_unit_light_armor_speed_factor",
+      "name": "§YLight Tank§!: Speed",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "modifier_army_sub_unit_light_tank_destroyer_brigade_attack_factor",
+      "name": "§YLight TD§!: Attack",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "modifier_army_sub_unit_light_tank_destroyer_brigade_defence_factor",
+      "name": "§YLight TD§!: Defense",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "modifier_army_sub_unit_light_tank_destroyer_brigade_max_org_factor",
+      "name": "§YLight TD§!: Organization",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "modifier_army_sub_unit_light_tank_destroyer_brigade_speed_factor",
+      "name": "§YLight TD§!: Speed",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "modifier_army_sub_unit_medium_armor_attack_factor",
+      "name": "§YMedium Tank§!: Attack",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "modifier_army_sub_unit_medium_armor_defence_factor",
+      "name": "§YMedium Tank§!: Defence",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "modifier_army_sub_unit_medium_armor_max_org_factor",
+      "name": "§YMedium Tank§!: Organization",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "modifier_army_sub_unit_medium_armor_speed_factor",
+      "name": "§YMedium Tank§!: Speed",
+      "category": "localisation-derived",
+      "source": "localisation"
+    },
+    {
+      "id": "modifier_production_speed_stronghold_network_factor",
+      "name": "§YStronghold Network§! construction Speed $RIGHT|+=%1$",
+      "category": "localisation-derived",
+      "source": "localisation"
+    }
+  ]
+}

@@ -9,14 +9,14 @@ const tableDefinitions = {
   constructionTable: ["order", "what", "where", "when", "notes"],
   productionTable: ["order", "line", "factories", "when", "notes"],
   ppTable: ["order", "item", "pp", "timing", "notes"],
-  researchSlot1: ["order", "tech", "when", "notes"],
-  researchSlot2: ["order", "tech", "when", "notes"],
-  researchSlot3: ["order", "tech", "when", "notes"],
-  researchSlot4: ["order", "tech", "when", "notes"],
-  researchSlot5: ["order", "tech", "when", "notes"],
-  researchSlot6: ["order", "tech", "when", "notes"],
-  researchSlot7: ["order", "tech", "when", "notes"],
-  researchSlot8: ["order", "tech", "when", "notes"],
+  researchSlot1: ["order", "tech", "when", "notes", "techId"],
+  researchSlot2: ["order", "tech", "when", "notes", "techId"],
+  researchSlot3: ["order", "tech", "when", "notes", "techId"],
+  researchSlot4: ["order", "tech", "when", "notes", "techId"],
+  researchSlot5: ["order", "tech", "when", "notes", "techId"],
+  researchSlot6: ["order", "tech", "when", "notes", "techId"],
+  researchSlot7: ["order", "tech", "when", "notes", "techId"],
+  researchSlot8: ["order", "tech", "when", "notes", "techId"],
   templateTable: ["name", "role", "battalions", "support", "combatWidth", "timing", "notes"]
 };
 
@@ -50,6 +50,87 @@ function bindAutoGrow(textarea) {
 
 document.querySelectorAll(".auto-grow").forEach(bindAutoGrow);
 
+
+const researchState = {
+  techs: [],
+  techByName: new Map(),
+  techById: new Map(),
+  loadedMod: ""
+};
+
+async function loadResearchDataForMod(modName) {
+  const list = document.getElementById("researchOptionsList");
+  const status = document.getElementById("researchDataStatus");
+  if (list) list.innerHTML = "";
+
+  researchState.techs = [];
+  researchState.techByName = new Map();
+  researchState.techById = new Map();
+  researchState.loadedMod = "";
+
+  if (modName !== "FUWG") {
+    if (status) status.textContent = "Research autocomplete is manual unless FUWG is selected.";
+    return;
+  }
+
+  try {
+    const response = await fetch("./data/fuwg/research.json", { cache: "no-store" });
+    if (!response.ok) throw new Error(`Could not load data/fuwg/research.json (${response.status})`);
+    const data = await response.json();
+
+    researchState.techs = data.techs || [];
+    researchState.loadedMod = "FUWG";
+
+    researchState.techs.forEach((tech) => {
+      researchState.techById.set(tech.id, tech);
+      researchState.techByName.set(String(tech.name || "").toLowerCase(), tech);
+    });
+
+    populateResearchOptions();
+
+    if (status) status.textContent = `Loaded ${researchState.techs.length} FUWG research options.`;
+  } catch (error) {
+    if (status) status.textContent = `Could not load FUWG research data: ${error.message}`;
+  }
+}
+
+function populateResearchOptions() {
+  const list = document.getElementById("researchOptionsList");
+  if (!list) return;
+
+  list.innerHTML = "";
+
+  researchState.techs.forEach((tech) => {
+    const option = document.createElement("option");
+    option.value = tech.name;
+    list.appendChild(option);
+  });
+
+  document.querySelectorAll('input.research-tech-input').forEach(updateResearchInputMatch);
+}
+
+function updateResearchInputMatch(input) {
+  if (!input) return;
+
+  input.classList.remove("focus-known", "focus-unknown");
+
+  const value = String(input.value || "").trim().toLowerCase();
+  if (!value || !researchState.techs.length) {
+    input.dataset.techId = input.dataset.techId || "";
+    return;
+  }
+
+  const tech = researchState.techByName.get(value);
+  if (tech) {
+    input.dataset.techId = tech.id;
+    input.title = tech.category ? `Category: ${tech.category}` : "";
+    input.classList.add("focus-known");
+  } else {
+    input.dataset.techId = "";
+    input.title = "No exact match in loaded research data.";
+    input.classList.add("focus-unknown");
+  }
+}
 
 const smartFocusState = {
   countries: [],
@@ -85,6 +166,7 @@ async function initialiseSmartFocusControls() {
 
   async function handleModChange() {
     const selectedMod = String(modSelect.value || "").trim();
+    loadResearchDataForMod(selectedMod);
 
     if (selectedMod === "FUWG") {
       showFuwgCountry();
@@ -565,6 +647,10 @@ function tableToData(tableId) {
     row.querySelectorAll("textarea, input").forEach(input => {
       if (!input.dataset.field) return;
       obj[input.dataset.field] = input.value;
+      if (input.dataset.field === "tech") {
+        const matchedTech = researchState.techByName.get(String(input.value || "").trim().toLowerCase());
+        obj.techId = input.dataset.techId || matchedTech?.id || "";
+      }
       if (tableId === "focusTable" && input.dataset.field === "focus") {
         const matchedFocus = smartFocusState.focusByName.get(String(input.value || "").trim().toLowerCase());
         obj.focusId = input.dataset.focusId || matchedFocus?.id || "";
@@ -906,7 +992,7 @@ function unpackRows(rows, fields) {
 function packPlan(plan) {
   const researchSlots = [];
   for (let slot = 1; slot <= 8; slot++) {
-    researchSlots.push(packRows(plan.research?.[`slot${slot}`] || [], ["order", "tech", "when", "notes"]));
+    researchSlots.push(packRows(plan.research?.[`slot${slot}`] || [], ["order", "tech", "when", "notes", "techId"]));
   }
 
   return {
@@ -941,7 +1027,7 @@ function packPlan(plan) {
 function unpackPlan(packed) {
   const research = {};
   for (let slot = 1; slot <= 8; slot++) {
-    research[`slot${slot}`] = unpackRows(packed.r?.[slot - 1] || [], ["order", "tech", "when", "notes"]);
+    research[`slot${slot}`] = unpackRows(packed.r?.[slot - 1] || [], ["order", "tech", "when", "notes", "techId"]);
   }
 
   return {
@@ -1385,7 +1471,9 @@ async function forceCountrySelectorMode() {
 
   if (!modSelect || !manualCountryInput || !countrySelect) return;
 
-  const isFuwg = String(modSelect.value || "").trim() === "FUWG";
+  const selectedModForResearch = String(modSelect.value || "").trim();
+  loadResearchDataForMod(selectedModForResearch);
+  const isFuwg = selectedModForResearch === "FUWG";
 
   document.body.classList.toggle("fuwg-country-mode", isFuwg);
 
@@ -1444,4 +1532,60 @@ if (document.readyState === "loading") {
   document.addEventListener("DOMContentLoaded", bindFinalCountrySelectorMode);
 } else {
   bindFinalCountrySelectorMode();
+}
+
+
+function bindResearchAutocompleteInputs() {
+  document.querySelectorAll('textarea[data-field="tech"]').forEach((textarea) => {
+    if (textarea.dataset.researchEnhanced === "1") return;
+
+    const input = document.createElement("input");
+    input.type = "text";
+    input.spellcheck = false;
+    input.className = "focus-search-input research-tech-input";
+    input.setAttribute("list", "researchOptionsList");
+    input.dataset.field = "tech";
+    input.dataset.techId = textarea.dataset.techId || "";
+    input.value = textarea.value || "";
+
+    input.addEventListener("focus", populateResearchOptions);
+    input.addEventListener("click", populateResearchOptions);
+    input.addEventListener("input", () => updateResearchInputMatch(input));
+
+    textarea.replaceWith(input);
+    updateResearchInputMatch(input);
+  });
+}
+
+// Re-run after rows are added/rendered.
+const originalAddRowForResearchAutocomplete = typeof addRow === "function" ? addRow : null;
+if (originalAddRowForResearchAutocomplete) {
+  addRow = function(tableId, values = {}) {
+    originalAddRowForResearchAutocomplete(tableId, values);
+    if (String(tableId || "").startsWith("research")) {
+      bindResearchAutocompleteInputs();
+    }
+  };
+}
+
+const originalSetTableDataForResearchAutocomplete = typeof setTableData === "function" ? setTableData : null;
+if (originalSetTableDataForResearchAutocomplete) {
+  setTableData = function(tableId, rows = []) {
+    originalSetTableDataForResearchAutocomplete(tableId, rows);
+    if (String(tableId || "").startsWith("research")) {
+      bindResearchAutocompleteInputs();
+    }
+  };
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", () => {
+    bindResearchAutocompleteInputs();
+    const modValue = document.getElementById("patchInput")?.value || "";
+    loadResearchDataForMod(modValue);
+  });
+} else {
+  bindResearchAutocompleteInputs();
+  const modValue = document.getElementById("patchInput")?.value || "";
+  loadResearchDataForMod(modValue);
 }
