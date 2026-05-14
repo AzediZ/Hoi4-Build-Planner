@@ -471,6 +471,7 @@ function addRow(tableId, values = {}) {
       input.dataset.field = field;
       input.dataset.focusId = values.focusId || "";
       input.addEventListener("focus", () => updateAvailableFocusOptions(input));
+      input.addEventListener("click", () => updateAvailableFocusOptions(input));
       input.addEventListener("input", () => {
         updateFocusInputMatch(input);
         updateAvailableFocusOptions(input);
