@@ -548,7 +548,7 @@ select option:disabled {
 
 .smart-focus-controls {
   display: grid;
-  grid-template-columns: minmax(180px, 240px) minmax(220px, 1fr) auto;
+  grid-template-columns: minmax(220px, 1fr) auto;
   gap: 12px;
   align-items: end;
 }
@@ -668,3 +668,13 @@ select option:disabled {
   border-color: rgba(78, 201, 176, 0.85) !important;
 }
 
+
+
+.focus-locked input.focus-search-input {
+  opacity: 0.8;
+}
+
+.focus-availability-note {
+  color: var(--muted);
+  font-size: 12px;
+}

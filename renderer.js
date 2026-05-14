@@ -59,27 +59,32 @@ const smartFocusState = {
 };
 
 async function initialiseSmartFocusControls() {
-  const modSelect = document.getElementById("focusDataModSelect");
+  const modSelect = document.getElementById("patchInput");
   const countrySelect = document.getElementById("focusDataCountrySelect");
   const loadButton = document.getElementById("loadFocusDataBtn");
 
   if (!modSelect || !countrySelect || !loadButton) return;
 
+  countrySelect.innerHTML = '<option value="">Select FUWG as Mod first</option>';
+  countrySelect.disabled = true;
+
   modSelect.addEventListener("change", async () => {
-    if (modSelect.value === "fuwg") {
+    if (modSelect.value === "FUWG") {
       await loadSmartFocusCountries();
     } else {
-      countrySelect.innerHTML = '<option value="">Select FUWG first</option>';
+      countrySelect.innerHTML = '<option value="">Select FUWG as Mod first</option>';
       countrySelect.disabled = true;
       clearSmartFocusData();
-      setFocusDataStatus("Manual focus entry is active.");
+      setFocusDataStatus(modSelect.value === "Vanilla"
+        ? "Vanilla focus data is not added yet. Manual focus entry is active."
+        : "Manual focus entry is active.");
     }
   });
 
   loadButton.addEventListener("click", async () => {
-    if (modSelect.value !== "fuwg") {
+    if (modSelect.value !== "FUWG") {
       clearSmartFocusData();
-      setFocusDataStatus("Select FUWG first, or keep using manual focus entry.");
+      setFocusDataStatus("Choose FUWG in the top Mod dropdown first, or keep using manual focus entry.");
       return;
     }
 
@@ -91,6 +96,10 @@ async function initialiseSmartFocusControls() {
 
     await loadSmartFocusTree(tag);
   });
+
+  if (modSelect.value === "FUWG") {
+    await loadSmartFocusCountries();
+  }
 }
 
 function setFocusDataStatus(message) {
@@ -105,6 +114,7 @@ function clearSmartFocusData() {
   const list = document.getElementById("focusOptionsList");
   if (list) list.innerHTML = "";
   document.querySelectorAll('input[data-field="focus"]').forEach(updateFocusInputMatch);
+  updateAvailableFocusOptions();
   validateFocusOrder();
   validateFocusOrder();
 }
@@ -156,22 +166,81 @@ async function loadSmartFocusTree(tag) {
     (tree.focuses || []).forEach((focus) => {
       smartFocusState.focusById.set(focus.id, focus);
       smartFocusState.focusByName.set(focus.name.toLowerCase(), focus);
-      smartFocusState.focusByName.set(focus.id.toLowerCase(), focus);
-
-      const option = document.createElement("option");
-      option.value = focus.name;
-      list.appendChild(option);
+      // Keep ID lookup internal only. Do not add IDs to the visible datalist.
+      smartFocusState.focusById.set(focus.id, focus);
     });
+
+    updateAvailableFocusOptions();
 
     setValue("patchInput", "FUWG");
     setValue("countryInput", `${tree.country} (${tree.tag})`);
 
     document.querySelectorAll('input[data-field="focus"]').forEach(updateFocusInputMatch);
     validateFocusOrder();
-    setFocusDataStatus(`Loaded ${tree.country} (${tree.tag}) — ${tree.focusCount} focuses. Focus rows now support searchable FUWG focus names.`);
+    setFocusDataStatus(`Loaded ${tree.country} (${tree.tag}) — ${tree.focusCount} focuses. Focus rows now show only currently available FUWG focus options.`);
   } catch (error) {
     setFocusDataStatus(`Could not load FUWG focus tree: ${error.message}`);
   }
+}
+
+
+function getSelectedFocusIdsBeforeRow(targetInput = null) {
+  const selected = new Set();
+  const rows = [...document.querySelectorAll("#focusTable tbody tr")];
+
+  for (const row of rows) {
+    const input = row.querySelector('input[data-field="focus"]');
+    if (targetInput && input === targetInput) break;
+
+    const id = input?.dataset.focusId || "";
+    if (id) selected.add(id);
+  }
+
+  return selected;
+}
+
+function isFocusAvailable(focus, selectedIds) {
+  if (!focus) return false;
+  if (selectedIds.has(focus.id)) return false;
+
+  const prereqs = focus.prerequisites || [];
+  if (prereqs.some((focusId) => !selectedIds.has(focusId))) return false;
+
+  const exclusive = focus.mutuallyExclusive || [];
+  if (exclusive.some((focusId) => selectedIds.has(focusId))) return false;
+
+  return true;
+}
+
+function updateAvailableFocusOptions(targetInput = null) {
+  const list = document.getElementById("focusOptionsList");
+  if (!list) return;
+
+  list.innerHTML = "";
+
+  if (!smartFocusState.activeTree) return;
+
+  const selectedIds = getSelectedFocusIdsBeforeRow(targetInput);
+  const currentId = targetInput?.dataset.focusId || "";
+
+  const available = (smartFocusState.activeTree.focuses || [])
+    .filter((focus) => isFocusAvailable(focus, selectedIds) || focus.id === currentId)
+    .sort((a, b) => {
+      const ay = Number.isFinite(a.y) ? a.y : 9999;
+      const by = Number.isFinite(b.y) ? b.y : 9999;
+      const ax = Number.isFinite(a.x) ? a.x : 9999;
+      const bx = Number.isFinite(b.x) ? b.x : 9999;
+      return ay - by || ax - bx || a.name.localeCompare(b.name);
+    });
+
+  available.forEach((focus) => {
+    const option = document.createElement("option");
+    option.value = focus.name;
+    // Important: no label or textContent here, otherwise browsers may show the internal ID.
+    list.appendChild(option);
+  });
+
+  setFocusDataStatus(`Loaded ${smartFocusState.activeTree.country} (${smartFocusState.activeTree.tag}). Showing ${available.length} currently available focus option(s) for the selected row.`);
 }
 
 function updateFocusInputMatch(input) {
@@ -373,8 +442,10 @@ function addRow(tableId, values = {}) {
       input.value = values[field] || "";
       input.dataset.field = field;
       input.dataset.focusId = values.focusId || "";
+      input.addEventListener("focus", () => updateAvailableFocusOptions(input));
       input.addEventListener("input", () => {
         updateFocusInputMatch(input);
+        updateAvailableFocusOptions(input);
         validateFocusOrder();
       });
       td.appendChild(input);
@@ -404,14 +475,14 @@ function addRow(tableId, values = {}) {
   deleteButton.addEventListener("click", () => {
     tr.remove();
     renumber(tableId);
-    if (tableId === "focusTable") validateFocusOrder();
+    if (tableId === "focusTable") { updateAvailableFocusOptions(); validateFocusOrder(); }
   });
   actionTd.appendChild(deleteButton);
   tr.appendChild(actionTd);
 
   tbody.appendChild(tr);
   requestAnimationFrame(() => tr.querySelectorAll("textarea").forEach(syncRowHeight));
-  if (tableId === "focusTable") validateFocusOrder();
+  if (tableId === "focusTable") { updateAvailableFocusOptions(); validateFocusOrder(); }
 }
 
 
@@ -466,7 +537,8 @@ function tableToData(tableId) {
       if (!input.dataset.field) return;
       obj[input.dataset.field] = input.value;
       if (tableId === "focusTable" && input.dataset.field === "focus") {
-        obj.focusId = input.dataset.focusId || "";
+        const matchedFocus = smartFocusState.focusByName.get(String(input.value || "").trim().toLowerCase());
+        obj.focusId = input.dataset.focusId || matchedFocus?.id || "";
       }
     });
     return obj;
@@ -486,6 +558,15 @@ function getValue(id) {
 
 function setValue(id, value) {
   const el = document.getElementById(id);
+  if (!el) return;
+
+  if (el.tagName === "SELECT") {
+    const wanted = value || "";
+    const hasOption = [...el.options].some((option) => option.value === wanted || option.text === wanted);
+    el.value = hasOption ? wanted : "Manual Entry";
+    return;
+  }
+
   el.value = value || "";
   autoGrow(el);
 }

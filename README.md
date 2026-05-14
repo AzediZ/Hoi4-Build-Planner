@@ -164,3 +164,19 @@ Checks added:
 
 Focus IDs remain hidden from the user but are still saved behind the scenes for validation and future features.
 Old share codes remain compatible.
+
+
+## FUWG smart focus UX update
+
+Changes:
+
+- The top Mod field is now a dropdown: Manual Entry, FUWG, Vanilla
+- FUWG focus loading is controlled from the top Mod dropdown
+- Internal focus IDs are no longer shown in the datalist dropdown
+- The focus dropdown now only shows focuses available at that row, based on:
+  - focuses selected in previous rows
+  - prerequisites
+  - mutually exclusive choices
+  - duplicate prevention
+
+The internal focusId is still saved behind the scenes for validation and future features.
