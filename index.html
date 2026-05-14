@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>HOI4 Build Planner</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand">
+        <img class="app-icon" src="assets/icon.png" alt="" />
+        <div>
+          <h1>HOI4 Build Planner</h1>
+          <p>Static web app: focuses, construction, production, PP, research, templates, doctrines and share codes.</p>
+        </div>
+      </div>
+      <div class="top-actions">
+        <button id="newPlanBtn" class="ghost">New</button>
+        <button id="saveLocalBtn" class="primary">Save Build</button>
+        <button id="loadLocalBtn">Load Build</button>
+        <button id="copyShareBtn">Copy Share Link</button>
+        <button id="loadShareBtn">Load From Clipboard</button>
+        <button id="exportBtn">Export TXT</button>
+      </div>
+    </header>
+
+    <section class="meta-card">
+      <label>
+        Country
+        <textarea id="countryInput" class="auto-grow singleish" rows="1" placeholder="e.g. Germany, USSR, Mexico, Copeistan"></textarea>
+      </label>
+      <label>
+        Mod
+        <textarea id="patchInput" class="auto-grow singleish" rows="1" placeholder="Vanilla, Road to 56, Kaiserreich, server rules etc."></textarea>
+      </label>
+      <label>
+        Build Name
+        <textarea id="buildInput" class="auto-grow singleish" rows="1" placeholder="e.g. 1936 Historical Industry Rush"></textarea>
+      </label>
+      <label>
+        Created Date
+        <textarea id="createdDateInput" class="auto-grow singleish" rows="1" placeholder="e.g. 10/May/2026"></textarea>
+      </label>
+    </section>
+
+    <nav class="tabs">
+      <button class="tab active" data-tab="focus">Focus Order</button>
+      <button class="tab" data-tab="construction">Construction</button>
+      <button class="tab" data-tab="production">Production</button>
+      <button class="tab" data-tab="pp">Political Power</button>
+      <button class="tab" data-tab="research">Research</button>
+      <button class="tab" data-tab="templates">Templates</button>
+      <button class="tab" data-tab="doctrines">Doctrines</button>
+      <button class="tab" data-tab="specialForces">Special Forces Doctrines</button>
+      <button class="tab" data-tab="notes">General Information/Notes</button>
+    </nav>
+
+    <main>
+      <div id="shareMessage" class="share-message"></div>
+      <section id="focus" class="tab-panel active">
+        <div class="panel-header">
+          <div>
+            <h2>Focus Order</h2>
+            <p>Plan the national focus path and timing.</p>
+          </div>
+          <button onclick="addRow('focusTable')" class="primary">Add Focus</button>
+        </div>
+        <table id="focusTable" class="planner-table focus-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Focus</th>
+              <th>Timing</th>
+              <th>Reason / Notes</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
+
+      <section id="construction" class="tab-panel">
+        <div class="panel-header">
+          <div>
+            <h2>Construction Order</h2>
+            <p>Plan what to build, where to build it and when to switch priorities.</p>
+          </div>
+          <button onclick="addRow('constructionTable')" class="primary">Add Construction</button>
+        </div>
+        <table id="constructionTable" class="planner-table construction-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>What</th>
+              <th>Where</th>
+              <th>When</th>
+              <th>Reason / Notes</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
+
+
+      <section id="production" class="tab-panel">
+        <div class="panel-header">
+          <div>
+            <h2>Production Order</h2>
+            <p>Plan factory allocation, equipment priorities and when to switch lines.</p>
+          </div>
+          <button onclick="addRow('productionTable')" class="primary">Add Production</button>
+        </div>
+        <table id="productionTable" class="planner-table production-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Production Line</th>
+              <th>Factories</th>
+              <th>When</th>
+              <th>Reason / Notes</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
+
+      <section id="pp" class="tab-panel">
+        <div class="panel-header">
+          <div>
+            <h2>Political Power Use Order</h2>
+            <p>Track advisors, laws, decisions and timing.</p>
+          </div>
+          <button onclick="addRow('ppTable')" class="primary">Add PP Use</button>
+        </div>
+        <table id="ppTable" class="planner-table pp-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Advisor / Decision / Law</th>
+              <th>Approx. PP</th>
+              <th>Timing / Trigger</th>
+              <th>Reason / Notes</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
+
+      <section id="research" class="tab-panel">
+        <div class="panel-header">
+          <div>
+            <h2>Research Order</h2>
+            <p>Plan technologies by research slot. Use only the slots your country actually has unlocked.</p>
+          </div>
+        </div>
+
+        <div class="research-slots">
+          <section class="research-slot-card">
+            <div class="slot-header">
+              <h3>Slot 1</h3>
+              <button onclick="addResearchRow(1)" class="primary">Add Tech</button>
+            </div>
+            <table id="researchSlot1" class="planner-table research-slot-table">
+              <thead>
+                <tr><th>#</th><th>Tech</th><th>When</th><th>Notes</th><th></th></tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </section>
+
+          <section class="research-slot-card">
+            <div class="slot-header">
+              <h3>Slot 2</h3>
+              <button onclick="addResearchRow(2)" class="primary">Add Tech</button>
+            </div>
+            <table id="researchSlot2" class="planner-table research-slot-table">
+              <thead>
+                <tr><th>#</th><th>Tech</th><th>When</th><th>Notes</th><th></th></tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </section>
+
+          <section class="research-slot-card">
+            <div class="slot-header">
+              <h3>Slot 3</h3>
+              <button onclick="addResearchRow(3)" class="primary">Add Tech</button>
+            </div>
+            <table id="researchSlot3" class="planner-table research-slot-table">
+              <thead>
+                <tr><th>#</th><th>Tech</th><th>When</th><th>Notes</th><th></th></tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </section>
+
+          <section class="research-slot-card">
+            <div class="slot-header">
+              <h3>Slot 4</h3>
+              <button onclick="addResearchRow(4)" class="primary">Add Tech</button>
+            </div>
+            <table id="researchSlot4" class="planner-table research-slot-table">
+              <thead>
+                <tr><th>#</th><th>Tech</th><th>When</th><th>Notes</th><th></th></tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </section>
+
+          <section class="research-slot-card">
+            <div class="slot-header">
+              <h3>Slot 5</h3>
+              <button onclick="addResearchRow(5)" class="primary">Add Tech</button>
+            </div>
+            <table id="researchSlot5" class="planner-table research-slot-table">
+              <thead>
+                <tr><th>#</th><th>Tech</th><th>When</th><th>Notes</th><th></th></tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </section>
+
+          <section class="research-slot-card">
+            <div class="slot-header">
+              <h3>Slot 6</h3>
+              <button onclick="addResearchRow(6)" class="primary">Add Tech</button>
+            </div>
+            <table id="researchSlot6" class="planner-table research-slot-table">
+              <thead>
+                <tr><th>#</th><th>Tech</th><th>When</th><th>Notes</th><th></th></tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </section>
+
+          <section class="research-slot-card">
+            <div class="slot-header">
+              <h3>Slot 7</h3>
+              <button onclick="addResearchRow(7)" class="primary">Add Tech</button>
+            </div>
+            <table id="researchSlot7" class="planner-table research-slot-table">
+              <thead>
+                <tr><th>#</th><th>Tech</th><th>When</th><th>Notes</th><th></th></tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </section>
+
+          <section class="research-slot-card">
+            <div class="slot-header">
+              <h3>Slot 8</h3>
+              <button onclick="addResearchRow(8)" class="primary">Add Tech</button>
+            </div>
+            <table id="researchSlot8" class="planner-table research-slot-table">
+              <thead>
+                <tr><th>#</th><th>Tech</th><th>When</th><th>Notes</th><th></th></tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </section>
+        </div>
+      </section>
+
+      <section id="templates" class="tab-panel">
+        <div class="panel-header">
+          <div>
+            <h2>Division / Ship / Air Templates</h2>
+            <p>Record combat roles, battalions/modules and support companies.</p>
+          </div>
+          <button onclick="addRow('templateTable')" class="primary">Add Template</button>
+        </div>
+        <table id="templateTable" class="planner-table template-table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Role</th>
+              <th>Battalions / Modules</th>
+              <th>Support / Extras</th>
+              <th>Combat Width</th>
+              <th>When to Build</th>
+              <th>Notes</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
+
+
+      <section id="doctrines" class="tab-panel">
+        <div class="panel-header">
+          <div>
+            <h2>Doctrines</h2>
+            <p>Select a Grand Doctrine for Land, Navy and Air, then pick one option inside each fixed subdoctrine track.</p>
+          </div>
+        </div>
+
+        <div class="doctrine-grid">
+          <section class="doctrine-card">
+            <h3>Land Doctrine</h3>
+            <label>
+              Grand Doctrine
+              <select id="landGrandDoctrine">
+                <option value="">Not set</option>
+                <option>Mobile Warfare</option>
+                <option>Superior Firepower</option>
+                <option>Grand Battleplan</option>
+                <option>Mass Assault</option>
+                <option>Other / Modded</option>
+              </select>
+            </label>
+
+            <div class="doctrine-path-grid">
+              <label>Infantry<select id="landSubDoctrine1"><option value="">Not set</option><option>Mobile Infantry</option><option>Defensive Postures</option><option>Large Unit Tactics</option><option>Assault Infantry</option><option>Mounted Infantry</option><option>Individual Excellence</option><option>Irregulars</option><option>People's Militia</option><option>Great War Infantry</option></select></label>
+              <label>Artillery & Combat Support<select id="landSubDoctrine2"><option value="">Not set</option><option>Field Engineering</option><option>Siege Artillery</option><option>Mobile Recon & Assault</option><option>Air Cavalry</option><option>Anti-Tank Frontline</option><option>Fire Concentration</option><option>Self-Propelled Support</option><option>Flying Batteries</option></select></label>
+              <label>Armor<select id="landSubDoctrine3"><option value="">Not set</option><option>Mobile Defense</option><option>Streamlined Deployment</option><option>Armored Infantry Support</option><option>Armored Spearhead</option><option>Armored Cavalry</option><option>Tank Destroyer Force</option></select></label>
+              <label>Operations<select id="landSubDoctrine4"><option value="">Not set</option><option>Rapid Domination</option><option>Deep Battle</option><option>Grand Assault</option><option>Infiltration Tactics</option><option>Desperate Defense</option><option>Mission-Type Tactics</option><option>Guerrilla Warfare</option><option>Expeditionary Warfare</option></select></label>
+            </div>
+
+            <label>
+              Land Doctrine Notes
+              <textarea id="landDoctrineNotes" class="auto-grow" rows="2" placeholder="e.g. Infantry: Large Unit Tactics; Armor: Armored Spearhead..."></textarea>
+            </label>
+          </section>
+
+          <section class="doctrine-card">
+            <h3>Naval Doctrine</h3>
+            <label>
+              Grand Doctrine
+              <select id="navyGrandDoctrine">
+                <option value="">Not set</option>
+                <option>Fleet in Being</option>
+                <option>Trade Interdiction</option>
+                <option>Base Strike</option>
+                <option>Other / Modded</option>
+              </select>
+            </label>
+
+            <div class="doctrine-path-grid">
+              <label>Submarines<select id="navySubDoctrine1"><option value="">Not set</option><option>Wolfpacks</option><option>Fleet Operations</option><option>Capital Hunters</option><option>Coastal Defense</option><option>Long Range Submarines</option></select></label>
+              <label>Screens<select id="navySubDoctrine2"><option value="">Not set</option><option>Convoy Escort</option><option>Hunter Killer Groups</option><option>Anti-Aircraft Cruisers</option><option>The New School</option><option>Integrated Operations</option><option>Torpedo Primacy</option><option>Screen Support Focus</option><option>Patrol Boats</option></select></label>
+              <label>Carriers<select id="navySubDoctrine3"><option value="">Not set</option><option>Carrier Battlegroups</option><option>Escort Carrier Support</option><option>Floating Airfields</option><option>Light Task Forces</option><option>Massed Carrier Fleet</option><option>Generalized Support</option></select></label>
+              <label>Capital Ships<select id="navySubDoctrine4"><option value="">Not set</option><option>Line of Battle</option><option>Armoured Raiders</option><option>Naval Gunfire Support</option><option>Battlefleet Concentration</option><option>Floating Fortress</option><option>Armoured Battleline</option></select></label>
+            </div>
+
+            <label>
+              Naval Doctrine Notes
+              <textarea id="navyDoctrineNotes" class="auto-grow" rows="2" placeholder="e.g. Submarines: Wolfpacks; Screens: Integrated Operations..."></textarea>
+            </label>
+          </section>
+
+          <section class="doctrine-card">
+            <h3>Air Doctrine</h3>
+            <label>
+              Grand Doctrine
+              <select id="airGrandDoctrine">
+                <option value="">Not set</option>
+                <option>Strategic Destruction</option>
+                <option>Battlefield Support</option>
+                <option>Operational Integrity</option>
+                <option>Other / Modded</option>
+              </select>
+            </label>
+
+            <div class="doctrine-path-grid">
+              <label>Fighters<select id="airSubDoctrine1"><option value="">Not set</option><option>Airspace Dominance</option><option>Knights of the Air</option><option>Homeland Air Defense</option></select></label>
+              <label>Strike<select id="airSubDoctrine2"><option value="">Not set</option><option>Pinpoint Strikes</option><option>Flying Artillery</option><option>Ground Support Integration</option></select></label>
+              <label>Medium<select id="airSubDoctrine3"><option value="">Not set</option><option>Operational Air Support</option><option>Theater Interdiction</option><option>Tactical Battlefield Support</option></select></label>
+              <label>Heavy<select id="airSubDoctrine4"><option value="">Not set</option><option>Deep Air Raids</option><option>Night Strategic Bombing</option><option>Strategic Bombing Focus</option></select></label>
+            </div>
+
+            <label>
+              Air Doctrine Notes
+              <textarea id="airDoctrineNotes" class="auto-grow" rows="2" placeholder="e.g. Fighters: Airspace Dominance; Strike: Pinpoint Strikes..."></textarea>
+            </label>
+          </section>
+        </div>
+      </section>
+
+      <section id="specialForces" class="tab-panel">
+        <div class="panel-header">
+          <div>
+            <h2>Special Forces Doctrines</h2>
+            <p>Simple path notes for special-forces branches. Examples: Left-Right-Left, Left-Right, Full Left.</p>
+          </div>
+        </div>
+
+        <div class="sf-grid">
+          <section class="doctrine-card">
+            <h3>Mountaineers</h3>
+            <label>Path<textarea id="sfMountaineerPath" class="auto-grow" rows="1" placeholder="e.g. Left-Right-Left"></textarea></label>
+            <label>Notes<textarea id="sfMountaineerNotes" class="auto-grow" rows="2" placeholder="Optional mountaineer notes..."></textarea></label>
+          </section>
+
+          <section class="doctrine-card">
+            <h3>Marines</h3>
+            <label>Path<textarea id="sfMarinePath" class="auto-grow" rows="1" placeholder="e.g. Left-Right"></textarea></label>
+            <label>Notes<textarea id="sfMarineNotes" class="auto-grow" rows="2" placeholder="Optional marine notes..."></textarea></label>
+          </section>
+
+          <section class="doctrine-card">
+            <h3>Paratroopers</h3>
+            <label>Path<textarea id="sfParatrooperPath" class="auto-grow" rows="1" placeholder="e.g. Right-Left"></textarea></label>
+            <label>Notes<textarea id="sfParatrooperNotes" class="auto-grow" rows="2" placeholder="Optional paratrooper notes..."></textarea></label>
+          </section>
+
+          <section class="doctrine-card">
+            <h3>Rangers</h3>
+            <label>Path<textarea id="sfRangerPath" class="auto-grow" rows="1" placeholder="e.g. Full Left"></textarea></label>
+            <label>Notes<textarea id="sfRangerNotes" class="auto-grow" rows="2" placeholder="Optional ranger notes..."></textarea></label>
+          </section>
+        </div>
+      </section>
+
+
+      <section id="notes" class="tab-panel">
+        <div class="panel-header">
+          <div>
+            <h2>General Information/Notes</h2>
+            <p>Use this for opening moves, warnings, micro notes or multiplayer reminders.</p>
+          </div>
+        </div>
+        <textarea id="notesInput" class="notes-box auto-grow" rows="16" placeholder="Write general information, strategy notes, reminders or build explanations here..."></textarea>
+      </section>
+    </main>
+  </div>
+<div id="saveBuildModal" class="modal-backdrop hidden">
+        <div class="modal small-modal">
+          <div class="modal-header">
+            <div>
+              <h2>Save Build</h2>
+              <p>Choose a name for this saved build.</p>
+            </div>
+            <button id="closeSaveBuildBtn" type="button">Close</button>
+          </div>
+
+          <label>
+            Save name
+            <textarea id="saveBuildNameInput" class="auto-grow singleish" rows="1" placeholder="Build name"></textarea>
+          </label>
+
+          <div class="modal-actions">
+            <button id="confirmSaveBuildBtn" class="primary" type="button">Save Build</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="savedBuildsModal" class="modal-backdrop hidden">
+        <div class="modal">
+          <div class="modal-header">
+            <div>
+              <h2>Load Saved Build</h2>
+              <p id="savedBuildsFolderText">Saved builds are stored locally on this computer.</p>
+            </div>
+            <button id="closeSavedBuildsBtn" type="button">Close</button>
+          </div>
+          <div id="savedBuildsList" class="saved-builds-list"></div>
+        </div>
+      </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
