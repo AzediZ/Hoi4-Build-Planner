@@ -678,3 +678,16 @@ select option:disabled {
   color: var(--muted);
   font-size: 12px;
 }
+
+
+.top-country-select {
+  margin-top: 0;
+}
+
+body.fuwg-mode #countryInput {
+  display: none;
+}
+
+body:not(.fuwg-mode) .top-country-select {
+  display: none;
+}

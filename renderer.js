@@ -61,24 +61,34 @@ const smartFocusState = {
 async function initialiseSmartFocusControls() {
   const modSelect = document.getElementById("patchInput");
   const countrySelect = document.getElementById("focusDataCountrySelect");
+  const manualCountryInput = document.getElementById("countryInput");
 
-  if (!modSelect || !countrySelect) return;
+  if (!modSelect || !countrySelect || !manualCountryInput) return;
 
   function resetCountrySelect(message = "Select FUWG first") {
     countrySelect.innerHTML = `<option value="">${message}</option>`;
     countrySelect.disabled = true;
   }
 
+  function setFuwgMode(enabled) {
+    document.body.classList.toggle("fuwg-mode", enabled);
+    countrySelect.hidden = !enabled;
+    manualCountryInput.hidden = enabled;
+  }
+
   resetCountrySelect("Select FUWG first");
+  setFuwgMode(modSelect.value === "FUWG");
 
   modSelect.addEventListener("change", async () => {
     const selectedMod = String(modSelect.value || "").trim();
 
     if (selectedMod === "FUWG") {
+      setFuwgMode(true);
       await loadSmartFocusCountries();
       return;
     }
 
+    setFuwgMode(false);
     resetCountrySelect("Select FUWG first");
     clearSmartFocusData();
     setFocusDataStatus(selectedMod === "Vanilla"
@@ -100,8 +110,8 @@ async function initialiseSmartFocusControls() {
     await loadSmartFocusTree(tag);
   });
 
-  // Initialise based on the current top Mod value.
   if (String(modSelect.value || "").trim() === "FUWG") {
+    setFuwgMode(true);
     await loadSmartFocusCountries();
   }
 }
@@ -1346,8 +1356,6 @@ document.getElementById("newPlanBtn").addEventListener("click", () => {
   });
   setDefaultCreatedDate();
 });
-
-addRow("focusTable", { focus: "Political Effort / Industrial Focus", timing: "Day 1", notes: "First focus of the build." });
 addRow("constructionTable", { what: "Civilian Factories", where: "High infrastructure core states", when: "1936 opener", notes: "Build economy before switching to military factories." });
 addRow("productionTable", { line: "Infantry Equipment", factories: "5-10", when: "Day 1", notes: "Keep rifles stocked before expanding artillery/tanks/air." });
 addRow("ppTable", { item: "Silent Workhorse / Economy Law", pp: "150", timing: "First 150 PP", notes: "Depends on country and build." });

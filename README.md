@@ -217,3 +217,14 @@ The FUWG loader now uses explicit relative paths:
 
 Selecting FUWG in the top Mod dropdown should immediately populate and enable the Country / Tree dropdown.
 Selecting a country/tree then loads that focus tree automatically.
+
+
+## Top country selector and empty focus start
+
+Changes:
+
+- Removed the middle Smart Focus Data panel
+- The top Country field becomes the FUWG country/tree dropdown when Mod = FUWG
+- Manual Entry / Vanilla keep the normal free-text Country field
+- New builds no longer start with a default Focus row
+- Users click Add Focus to begin

@@ -27,9 +27,12 @@
 
     <section class="meta-card">
       <label>
-        Country
-        <textarea id="countryInput" class="auto-grow singleish" rows="1" placeholder="e.g. Germany, USSR, Mexico, Copeistan"></textarea>
-      </label>
+          <span>Country</span>
+          <input id="countryInput" placeholder="e.g. Germany, USSR, Mexico, Copeistan">
+          <select id="focusDataCountrySelect" class="top-country-select" hidden disabled>
+            <option value="">Select FUWG first</option>
+          </select>
+        </label>
       <label>
           <span>Mod</span>
           <select id="patchInput">
@@ -70,23 +73,6 @@
           </div>
           <button onclick="addRow('focusTable')" class="primary">Add Focus</button>
         </div>
-
-        <section class="smart-focus-card">
-          <div>
-            <h3>Smart Focus Data</h3>
-            <p>Choose FUWG in the top Mod dropdown, then select a country/tree. Focus data loads automatically.</p>
-          </div>
-          <div class="smart-focus-controls">
-            <label>
-              Country / Tree
-              <select id="focusDataCountrySelect" disabled>
-                <option value="">Select FUWG first</option>
-              </select>
-            </label>
-          </div>
-          <p id="focusDataStatus" class="focus-data-status">Manual focus entry is active.</p>
-          <datalist id="focusOptionsList"></datalist>
-        </section>
 
         <section id="focusValidationPanel" class="focus-validation-panel">
           <div class="focus-validation-header">
