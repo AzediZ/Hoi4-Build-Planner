@@ -31,9 +31,13 @@
         <textarea id="countryInput" class="auto-grow singleish" rows="1" placeholder="e.g. Germany, USSR, Mexico, Copeistan"></textarea>
       </label>
       <label>
-        Mod
-        <textarea id="patchInput" class="auto-grow singleish" rows="1" placeholder="Vanilla, Road to 56, Kaiserreich, server rules etc."></textarea>
-      </label>
+          <span>Mod</span>
+          <select id="patchInput">
+            <option value="Manual Entry">Manual Entry</option>
+            <option value="FUWG">FUWG</option>
+            <option value="Vanilla">Vanilla</option>
+          </select>
+        </label>
       <label>
         Build Name
         <textarea id="buildInput" class="auto-grow singleish" rows="1" placeholder="e.g. 1936 Historical Industry Rush"></textarea>

@@ -65,15 +65,18 @@ async function initialiseSmartFocusControls() {
 
   if (!modSelect || !countrySelect || !loadButton) return;
 
-  countrySelect.innerHTML = '<option value="">Select FUWG as Mod first</option>';
-  countrySelect.disabled = true;
+  function resetCountrySelect(message = "Select FUWG first") {
+    countrySelect.innerHTML = `<option value="">${message}</option>`;
+    countrySelect.disabled = true;
+  }
+
+  resetCountrySelect("Select FUWG first");
 
   modSelect.addEventListener("change", async () => {
     if (modSelect.value === "FUWG") {
       await loadSmartFocusCountries();
     } else {
-      countrySelect.innerHTML = '<option value="">Select FUWG as Mod first</option>';
-      countrySelect.disabled = true;
+      resetCountrySelect("Select FUWG first");
       clearSmartFocusData();
       setFocusDataStatus(modSelect.value === "Vanilla"
         ? "Vanilla focus data is not added yet. Manual focus entry is active."
@@ -701,7 +704,7 @@ function collectPlan() {
 
 function loadPlanIntoUI(plan) {
   setValue("countryInput", plan.meta?.country || "");
-  setValue("patchInput", plan.meta?.patch || "");
+  setValue("patchInput", plan.meta?.patch || "Manual Entry");
   setValue("buildInput", plan.meta?.buildName || "");
   setValue("createdDateInput", plan.meta?.createdDate || "");
   setTableData("focusTable", plan.focus || []);

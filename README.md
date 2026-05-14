@@ -180,3 +180,14 @@ Changes:
   - duplicate prevention
 
 The internal focusId is still saved behind the scenes for validation and future features.
+
+
+## Top Mod dropdown fix
+
+The existing top Mod control was `patchInput`. It has now been changed into a real dropdown:
+
+- Manual Entry
+- FUWG
+- Vanilla
+
+The Smart Focus panel no longer has a separate mod selector; it follows the top Mod dropdown.
