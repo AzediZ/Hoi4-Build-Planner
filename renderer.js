@@ -61,9 +61,8 @@ const smartFocusState = {
 async function initialiseSmartFocusControls() {
   const modSelect = document.getElementById("patchInput");
   const countrySelect = document.getElementById("focusDataCountrySelect");
-  const loadButton = document.getElementById("loadFocusDataBtn");
 
-  if (!modSelect || !countrySelect || !loadButton) return;
+  if (!modSelect || !countrySelect) return;
 
   function resetCountrySelect(message = "Select FUWG first") {
     countrySelect.innerHTML = `<option value="">${message}</option>`;
@@ -84,16 +83,13 @@ async function initialiseSmartFocusControls() {
     }
   });
 
-  loadButton.addEventListener("click", async () => {
-    if (modSelect.value !== "FUWG") {
-      clearSmartFocusData();
-      setFocusDataStatus("Choose FUWG in the top Mod dropdown first, or keep using manual focus entry.");
-      return;
-    }
+  countrySelect.addEventListener("change", async () => {
+    if (modSelect.value !== "FUWG") return;
 
     const tag = countrySelect.value;
     if (!tag) {
-      setFocusDataStatus("Choose a FUWG country/tree first.");
+      clearSmartFocusData();
+      setFocusDataStatus("Choose a FUWG country/tree to load focus data.");
       return;
     }
 
@@ -144,7 +140,7 @@ async function loadSmartFocusCountries() {
     });
 
     countrySelect.disabled = false;
-    setFocusDataStatus(`Loaded ${smartFocusState.countries.length} FUWG country/tree entries. Choose a country, then click Load Focus Data.`);
+    setFocusDataStatus(`Loaded ${smartFocusState.countries.length} FUWG country/tree entries. Choose a country/tree to load its focus data automatically.`);
   } catch (error) {
     countrySelect.innerHTML = '<option value="">Could not load FUWG data</option>';
     setFocusDataStatus(`Could not load FUWG countries: ${error.message}`);
@@ -705,6 +701,7 @@ function collectPlan() {
 function loadPlanIntoUI(plan) {
   setValue("countryInput", plan.meta?.country || "");
   setValue("patchInput", plan.meta?.patch || "Manual Entry");
+  document.getElementById("patchInput")?.dispatchEvent(new Event("change"));
   setValue("buildInput", plan.meta?.buildName || "");
   setValue("createdDateInput", plan.meta?.createdDate || "");
   setTableData("focusTable", plan.focus || []);

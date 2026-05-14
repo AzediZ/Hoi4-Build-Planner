@@ -191,3 +191,16 @@ The existing top Mod control was `patchInput`. It has now been changed into a re
 - Vanilla
 
 The Smart Focus panel no longer has a separate mod selector; it follows the top Mod dropdown.
+
+
+## FUWG focus auto-load
+
+The Smart Focus section no longer has a Load Focus Data button.
+
+Flow is now:
+
+```text
+Top Mod dropdown → FUWG
+Country / Tree dropdown becomes active
+Selecting a country/tree automatically loads that focus tree
+```
