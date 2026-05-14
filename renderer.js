@@ -55,10 +55,51 @@ const researchState = {
   techs: [],
   techByName: new Map(),
   techById: new Map(),
-  loadedMod: ""
+  loadedMod: "",
+  startingTechsByCountry: {},
+  currentStartingTechIds: new Set()
 };
 
+async function loadStartingTechDataForMod(modName) {
+  researchState.startingTechsByCountry = {};
+  researchState.currentStartingTechIds = new Set();
+
+  if (modName !== "FUWG") return;
+
+  try {
+    const response = await fetch("./data/fuwg/starting_techs.json", { cache: "no-store" });
+    if (!response.ok) throw new Error(`Could not load data/fuwg/starting_techs.json (${response.status})`);
+    const data = await response.json();
+    researchState.startingTechsByCountry = data.countries || {};
+  } catch (error) {
+    console.warn("Could not load FUWG starting tech data:", error);
+  }
+}
+
+function setCurrentCountryStartingTechs(tag) {
+  const ids = researchState.startingTechsByCountry?.[tag] || [];
+  researchState.currentStartingTechIds = new Set(ids);
+  updateResearchStartingTechStatus(tag);
+}
+
+function updateResearchStartingTechStatus(tag = "") {
+  const status = document.getElementById("researchDataStatus");
+  if (!status) return;
+
+  const count = researchState.currentStartingTechIds?.size || 0;
+  if (researchState.loadedMod === "FUWG") {
+    status.textContent = count
+      ? `Loaded ${researchState.techs.length} FUWG research options. ${tag} starts with ${count} researched tech(s).`
+      : `Loaded ${researchState.techs.length} FUWG research options. No starting tech list loaded for ${tag || "this country"}.`;
+  }
+}
+
+function isResearchAlreadyKnown(techId) {
+  return !!techId && researchState.currentStartingTechIds?.has(techId);
+}
+
 async function loadResearchDataForMod(modName) {
+  await loadStartingTechDataForMod(modName);
   const list = document.getElementById("researchOptionsList");
   const status = document.getElementById("researchDataStatus");
   if (list) list.innerHTML = "";
@@ -67,6 +108,7 @@ async function loadResearchDataForMod(modName) {
   researchState.techByName = new Map();
   researchState.techById = new Map();
   researchState.loadedMod = "";
+  researchState.currentStartingTechIds = new Set();
 
   if (modName !== "FUWG") {
     if (status) status.textContent = "Research autocomplete is manual unless FUWG is selected.";
@@ -88,7 +130,7 @@ async function loadResearchDataForMod(modName) {
 
     populateResearchOptions();
 
-    if (status) status.textContent = `Loaded ${researchState.techs.length} FUWG research options.`;
+    if (status) status.textContent = `Loaded ${researchState.techs.length} FUWG research options. Select a country to load starting techs.`;
   } catch (error) {
     if (status) status.textContent = `Could not load FUWG research data: ${error.message}`;
   }
@@ -100,11 +142,13 @@ function populateResearchOptions() {
 
   list.innerHTML = "";
 
-  researchState.techs.forEach((tech) => {
-    const option = document.createElement("option");
-    option.value = tech.name;
-    list.appendChild(option);
-  });
+  researchState.techs
+    .filter((tech) => !isResearchAlreadyKnown(tech.id))
+    .forEach((tech) => {
+      const option = document.createElement("option");
+      option.value = tech.name;
+      list.appendChild(option);
+    });
 
   document.querySelectorAll('input.research-tech-input').forEach(updateResearchInputMatch);
 }
@@ -123,8 +167,10 @@ function updateResearchInputMatch(input) {
   const tech = researchState.techByName.get(value);
   if (tech) {
     input.dataset.techId = tech.id;
-    input.title = tech.category ? `Category: ${tech.category}` : "";
-    input.classList.add("focus-known");
+    input.title = isResearchAlreadyKnown(tech.id)
+      ? `Already researched at game start${tech.category ? ` | Category: ${tech.category}` : ""}`
+      : (tech.category ? `Category: ${tech.category}` : "");
+    input.classList.add(isResearchAlreadyKnown(tech.id) ? "focus-unknown" : "focus-known");
   } else {
     input.dataset.techId = "";
     input.title = "No exact match in loaded research data.";
@@ -284,6 +330,7 @@ async function loadSmartFocusTree(tag) {
 
     setValue("patchInput", "FUWG");
     setValue("countryInput", `${tree.country} (${tree.tag})`);
+    setCurrentCountryStartingTechs(tree.tag);
 
     document.querySelectorAll('input[data-field="focus"]').forEach(updateFocusInputMatch);
     validateFocusOrder();

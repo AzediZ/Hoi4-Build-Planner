@@ -714,3 +714,5 @@ body.fuwg-country-mode .country-control .country-fuwg-select {
 body:not(.fuwg-country-mode) .country-control .country-fuwg-select {
   display: none !important;
 }
+
+/* Research techs already known at game start use the existing warning colour. */
