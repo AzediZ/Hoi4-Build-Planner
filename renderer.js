@@ -72,21 +72,25 @@ async function initialiseSmartFocusControls() {
   resetCountrySelect("Select FUWG first");
 
   modSelect.addEventListener("change", async () => {
-    if (modSelect.value === "FUWG") {
+    const selectedMod = String(modSelect.value || "").trim();
+
+    if (selectedMod === "FUWG") {
       await loadSmartFocusCountries();
-    } else {
-      resetCountrySelect("Select FUWG first");
-      clearSmartFocusData();
-      setFocusDataStatus(modSelect.value === "Vanilla"
-        ? "Vanilla focus data is not added yet. Manual focus entry is active."
-        : "Manual focus entry is active.");
+      return;
     }
+
+    resetCountrySelect("Select FUWG first");
+    clearSmartFocusData();
+    setFocusDataStatus(selectedMod === "Vanilla"
+      ? "Vanilla focus data is not added yet. Manual focus entry is active."
+      : "Manual focus entry is active.");
   });
 
   countrySelect.addEventListener("change", async () => {
-    if (modSelect.value !== "FUWG") return;
+    const selectedMod = String(modSelect.value || "").trim();
+    if (selectedMod !== "FUWG") return;
 
-    const tag = countrySelect.value;
+    const tag = String(countrySelect.value || "").trim();
     if (!tag) {
       clearSmartFocusData();
       setFocusDataStatus("Choose a FUWG country/tree to load focus data.");
@@ -96,7 +100,8 @@ async function initialiseSmartFocusControls() {
     await loadSmartFocusTree(tag);
   });
 
-  if (modSelect.value === "FUWG") {
+  // Initialise based on the current top Mod value.
+  if (String(modSelect.value || "").trim() === "FUWG") {
     await loadSmartFocusCountries();
   }
 }
@@ -120,16 +125,19 @@ function clearSmartFocusData() {
 
 async function loadSmartFocusCountries() {
   const countrySelect = document.getElementById("focusDataCountrySelect");
+  if (!countrySelect) return;
+
   countrySelect.disabled = true;
   countrySelect.innerHTML = '<option value="">Loading FUWG countries...</option>';
   setFocusDataStatus("Loading FUWG country list...");
 
   try {
-    const response = await fetch("data/fuwg/countries.json");
-    if (!response.ok) throw new Error(`Could not load countries.json (${response.status})`);
-    const data = await response.json();
+    const response = await fetch("./data/fuwg/countries.json", { cache: "no-store" });
+    if (!response.ok) throw new Error(`Could not load data/fuwg/countries.json (${response.status})`);
 
+    const data = await response.json();
     smartFocusState.countries = data.countries || [];
+
     countrySelect.innerHTML = '<option value="">Choose country/tree...</option>';
 
     smartFocusState.countries.forEach((country) => {
@@ -140,10 +148,19 @@ async function loadSmartFocusCountries() {
     });
 
     countrySelect.disabled = false;
+
+    if (!smartFocusState.countries.length) {
+      countrySelect.innerHTML = '<option value="">No FUWG countries found</option>';
+      countrySelect.disabled = true;
+      setFocusDataStatus("FUWG data loaded, but no countries were found.");
+      return;
+    }
+
     setFocusDataStatus(`Loaded ${smartFocusState.countries.length} FUWG country/tree entries. Choose a country/tree to load its focus data automatically.`);
   } catch (error) {
     countrySelect.innerHTML = '<option value="">Could not load FUWG data</option>';
-    setFocusDataStatus(`Could not load FUWG countries: ${error.message}`);
+    countrySelect.disabled = true;
+    setFocusDataStatus(`Could not load FUWG countries: ${error.message}. Check that data/fuwg/countries.json exists next to index.html.`);
   }
 }
 
@@ -151,7 +168,7 @@ async function loadSmartFocusTree(tag) {
   setFocusDataStatus(`Loading FUWG focus tree for ${tag}...`);
 
   try {
-    const response = await fetch(`data/fuwg/focus_trees/${encodeURIComponent(tag)}.json`);
+    const response = await fetch(`./data/fuwg/focus_trees/${encodeURIComponent(tag)}.json`, { cache: "no-store" });
     if (!response.ok) throw new Error(`Could not load ${tag}.json (${response.status})`);
 
     const tree = await response.json();

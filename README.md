@@ -204,3 +204,16 @@ Top Mod dropdown → FUWG
 Country / Tree dropdown becomes active
 Selecting a country/tree automatically loads that focus tree
 ```
+
+
+## FUWG autoload fix
+
+The FUWG loader now uses explicit relative paths:
+
+```text
+./data/fuwg/countries.json
+./data/fuwg/focus_trees/TAG.json
+```
+
+Selecting FUWG in the top Mod dropdown should immediately populate and enable the Country / Tree dropdown.
+Selecting a country/tree then loads that focus tree automatically.
