@@ -2,6 +2,8 @@
 
 This is a static web version of the HOI4 Build Planner.
 
+Use at https://azediz.github.io/Hoi4-Build-Planner/
+
 ## Features
 
 - No compiling required
