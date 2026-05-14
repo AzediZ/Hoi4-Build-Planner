@@ -588,3 +588,83 @@ select option:disabled {
     grid-template-columns: 1fr;
   }
 }
+
+
+.focus-validation-panel {
+  border: 1px solid var(--border-soft);
+  border-radius: 18px;
+  padding: 14px;
+  margin: 0 0 18px;
+  background: rgba(0,0,0,0.16);
+}
+
+.focus-validation-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.focus-validation-header h3 {
+  margin: 0;
+  color: var(--accent-bright);
+}
+
+.focus-validation-badge {
+  border-radius: 999px;
+  padding: 5px 10px;
+  font-size: 12px;
+  border: 1px solid var(--border-soft);
+  white-space: nowrap;
+}
+
+.focus-validation-badge.ok {
+  color: #8ff0b5;
+  border-color: rgba(143, 240, 181, 0.55);
+  background: rgba(34, 197, 94, 0.1);
+}
+
+.focus-validation-badge.warn {
+  color: #ffd27a;
+  border-color: rgba(255, 210, 122, 0.55);
+  background: rgba(245, 158, 11, 0.1);
+}
+
+.focus-validation-badge.neutral {
+  color: var(--muted);
+  background: rgba(255,255,255,0.03);
+}
+
+.focus-validation-messages {
+  display: grid;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.focus-validation-message {
+  border: 1px solid var(--border-soft);
+  border-radius: 12px;
+  padding: 9px 10px;
+  background: rgba(255,255,255,0.025);
+}
+
+.focus-validation-message.ok {
+  color: #8ff0b5;
+}
+
+.focus-validation-message.warn {
+  color: #ffd27a;
+}
+
+.focus-row-warning input,
+.focus-row-warning textarea {
+  border-color: rgba(245, 158, 11, 0.85) !important;
+  box-shadow: 0 0 0 2px rgba(245, 158, 11, 0.12);
+}
+
+.focus-row-ok input.focus-known {
+  border-color: rgba(78, 201, 176, 0.85) !important;
+}
+

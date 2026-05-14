@@ -140,3 +140,27 @@ Old codes still load.
 New focus rows may additionally store focusId after the old fields.
 The existing old focus fields remain in the same order: order, focus, timing, notes.
 ```
+
+
+## FUWG focus ID display cleanup
+
+Focus IDs are now hidden from the visible user interface:
+
+- The focus dropdown/search shows only the in-game focus name
+- Text export shows only the focus name
+- The internal focusId is still saved behind the scenes for compatibility, validation and future prerequisite warnings
+
+
+## FUWG focus order validation
+
+The Focus Order tab now tracks selected focuses in row order after FUWG focus data is loaded.
+
+Checks added:
+
+- Missing prerequisite focuses
+- Mutually exclusive focuses already selected earlier
+- Duplicate focus selections
+- Focus names that do not exactly match the loaded FUWG tree
+
+Focus IDs remain hidden from the user but are still saved behind the scenes for validation and future features.
+Old share codes remain compatible.

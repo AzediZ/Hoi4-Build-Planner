@@ -105,6 +105,8 @@ function clearSmartFocusData() {
   const list = document.getElementById("focusOptionsList");
   if (list) list.innerHTML = "";
   document.querySelectorAll('input[data-field="focus"]').forEach(updateFocusInputMatch);
+  validateFocusOrder();
+  validateFocusOrder();
 }
 
 async function loadSmartFocusCountries() {
@@ -158,7 +160,6 @@ async function loadSmartFocusTree(tag) {
 
       const option = document.createElement("option");
       option.value = focus.name;
-      option.label = focus.id;
       list.appendChild(option);
     });
 
@@ -166,6 +167,7 @@ async function loadSmartFocusTree(tag) {
     setValue("countryInput", `${tree.country} (${tree.tag})`);
 
     document.querySelectorAll('input[data-field="focus"]').forEach(updateFocusInputMatch);
+    validateFocusOrder();
     setFocusDataStatus(`Loaded ${tree.country} (${tree.tag}) — ${tree.focusCount} focuses. Focus rows now support searchable FUWG focus names.`);
   } catch (error) {
     setFocusDataStatus(`Could not load FUWG focus tree: ${error.message}`);
@@ -187,13 +189,152 @@ function updateFocusInputMatch(input) {
 
   if (focus) {
     input.dataset.focusId = focus.id;
-    input.title = `${focus.id}${focus.prerequisites?.length ? ` | Requires: ${focus.prerequisites.join(", ")}` : ""}`;
+    input.title = focus.prerequisites?.length
+      ? `Requires: ${focus.prerequisites.map(readableFocusName).join(", ")}`
+      : "";
     input.classList.add("focus-known");
   } else {
     input.dataset.focusId = "";
     input.title = "No exact match in loaded FUWG focus tree.";
     input.classList.add("focus-unknown");
   }
+}
+
+function readableFocusName(focusId) {
+  const focus = smartFocusState.focusById.get(focusId);
+  return focus?.name || focusId;
+}
+
+function getFocusRowsForValidation() {
+  return [...document.querySelectorAll("#focusTable tbody tr")].map((row, index) => {
+    const input = row.querySelector('input[data-field="focus"]');
+    const orderInput = row.querySelector('[data-field="order"]');
+    const name = input?.value?.trim() || "";
+    const id = input?.dataset.focusId || "";
+    const focus = id ? smartFocusState.focusById.get(id) : null;
+
+    return {
+      row,
+      index,
+      order: orderInput?.value?.trim() || String(index + 1),
+      name,
+      id,
+      focus
+    };
+  });
+}
+
+function setFocusValidationStatus(kind, label, messages) {
+  const badge = document.getElementById("focusValidationBadge");
+  const box = document.getElementById("focusValidationMessages");
+
+  if (badge) {
+    badge.className = `focus-validation-badge ${kind}`;
+    badge.textContent = label;
+  }
+
+  if (!box) return;
+
+  if (!messages.length) {
+    box.innerHTML = "";
+    return;
+  }
+
+  box.innerHTML = messages.map((message) => {
+    const cls = message.kind || kind;
+    return `<div class="focus-validation-message ${cls}">${message.text}</div>`;
+  }).join("");
+}
+
+function validateFocusOrder() {
+  const rows = getFocusRowsForValidation();
+
+  rows.forEach(({ row }) => {
+    row.classList.remove("focus-row-warning", "focus-row-ok");
+  });
+
+  if (!smartFocusState.activeTree) {
+    setFocusValidationStatus("neutral", "Manual / not checked", [
+      { kind: "neutral", text: "Load FUWG focus data to check prerequisites and mutually exclusive focuses." }
+    ]);
+    return;
+  }
+
+  const selectedById = new Map();
+  const selectedOrder = [];
+  const warnings = [];
+
+  for (const current of rows) {
+    if (!current.name) continue;
+
+    if (!current.id || !current.focus) {
+      current.row.classList.add("focus-row-warning");
+      warnings.push({
+        kind: "warn",
+        text: `Row ${current.order}: "${escapeHtml(current.name)}" does not exactly match a loaded FUWG focus.`
+      });
+      continue;
+    }
+
+    if (selectedById.has(current.id)) {
+      current.row.classList.add("focus-row-warning");
+      const previous = selectedById.get(current.id);
+      warnings.push({
+        kind: "warn",
+        text: `Row ${current.order}: "${escapeHtml(current.focus.name)}" is already selected earlier at row ${previous.order}.`
+      });
+    }
+
+    const missingPrereqs = (current.focus.prerequisites || []).filter((focusId) => !selectedById.has(focusId));
+    if (missingPrereqs.length) {
+      current.row.classList.add("focus-row-warning");
+      warnings.push({
+        kind: "warn",
+        text: `Row ${current.order}: "${escapeHtml(current.focus.name)}" may require earlier focus(es): ${missingPrereqs.map(readableFocusName).map(escapeHtml).join(", ")}.`
+      });
+    }
+
+    const exclusivePicked = (current.focus.mutuallyExclusive || []).filter((focusId) => selectedById.has(focusId));
+    if (exclusivePicked.length) {
+      current.row.classList.add("focus-row-warning");
+      warnings.push({
+        kind: "warn",
+        text: `Row ${current.order}: "${escapeHtml(current.focus.name)}" is mutually exclusive with already selected focus(es): ${exclusivePicked.map(readableFocusName).map(escapeHtml).join(", ")}.`
+      });
+    }
+
+    if (!current.row.classList.contains("focus-row-warning")) {
+      current.row.classList.add("focus-row-ok");
+    }
+
+    selectedById.set(current.id, current);
+    selectedOrder.push(current.id);
+  }
+
+  if (!selectedOrder.length) {
+    setFocusValidationStatus("neutral", "Ready", [
+      { kind: "neutral", text: `Loaded ${smartFocusState.activeTree.country} (${smartFocusState.activeTree.tag}). Add focuses to begin checking the order.` }
+    ]);
+    return;
+  }
+
+  if (!warnings.length) {
+    setFocusValidationStatus("ok", "No issues found", [
+      { kind: "ok", text: `Checked ${selectedOrder.length} selected focus(es). No missing prerequisites or mutually exclusive conflicts found.` }
+    ]);
+    return;
+  }
+
+  setFocusValidationStatus("warn", `${warnings.length} issue${warnings.length === 1 ? "" : "s"} found`, warnings);
+}
+
+function escapeHtml(value) {
+  return String(value || "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
 }
 
 
@@ -232,7 +373,10 @@ function addRow(tableId, values = {}) {
       input.value = values[field] || "";
       input.dataset.field = field;
       input.dataset.focusId = values.focusId || "";
-      input.addEventListener("input", () => updateFocusInputMatch(input));
+      input.addEventListener("input", () => {
+        updateFocusInputMatch(input);
+        validateFocusOrder();
+      });
       td.appendChild(input);
       tr.appendChild(td);
       requestAnimationFrame(() => updateFocusInputMatch(input));
@@ -260,12 +404,14 @@ function addRow(tableId, values = {}) {
   deleteButton.addEventListener("click", () => {
     tr.remove();
     renumber(tableId);
+    if (tableId === "focusTable") validateFocusOrder();
   });
   actionTd.appendChild(deleteButton);
   tr.appendChild(actionTd);
 
   tbody.appendChild(tr);
   requestAnimationFrame(() => tr.querySelectorAll("textarea").forEach(syncRowHeight));
+  if (tableId === "focusTable") validateFocusOrder();
 }
 
 
