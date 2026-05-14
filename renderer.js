@@ -60,45 +60,50 @@ const smartFocusState = {
 
 async function initialiseSmartFocusControls() {
   const modSelect = document.getElementById("patchInput");
-  const countrySelect = document.getElementById("focusDataCountrySelect");
+  const countrySelect = document.getElementById("countrySelect");
   const manualCountryInput = document.getElementById("countryInput");
 
   if (!modSelect || !countrySelect || !manualCountryInput) return;
 
-  function resetCountrySelect(message = "Select FUWG first") {
-    countrySelect.innerHTML = `<option value="">${message}</option>`;
+  function showManualCountry() {
+    manualCountryInput.style.display = "";
+    manualCountryInput.disabled = false;
+    countrySelect.style.display = "none";
     countrySelect.disabled = true;
   }
 
-  function setFuwgMode(enabled) {
-    document.body.classList.toggle("fuwg-mode", enabled);
-    countrySelect.hidden = !enabled;
-    manualCountryInput.hidden = enabled;
+  function showFuwgCountry() {
+    manualCountryInput.style.display = "none";
+    manualCountryInput.disabled = true;
+    countrySelect.style.display = "";
+    countrySelect.disabled = false;
   }
 
-  resetCountrySelect("Select FUWG first");
-  setFuwgMode(modSelect.value === "FUWG");
+  function resetCountrySelect(message = "Select country/tree...") {
+    countrySelect.innerHTML = `<option value="">${message}</option>`;
+  }
 
-  modSelect.addEventListener("change", async () => {
+  async function handleModChange() {
     const selectedMod = String(modSelect.value || "").trim();
 
     if (selectedMod === "FUWG") {
-      setFuwgMode(true);
+      showFuwgCountry();
       await loadSmartFocusCountries();
       return;
     }
 
-    setFuwgMode(false);
+    showManualCountry();
     resetCountrySelect("Select FUWG first");
     clearSmartFocusData();
     setFocusDataStatus(selectedMod === "Vanilla"
       ? "Vanilla focus data is not added yet. Manual focus entry is active."
       : "Manual focus entry is active.");
-  });
+  }
+
+  modSelect.addEventListener("change", handleModChange);
 
   countrySelect.addEventListener("change", async () => {
-    const selectedMod = String(modSelect.value || "").trim();
-    if (selectedMod !== "FUWG") return;
+    if (String(modSelect.value || "").trim() !== "FUWG") return;
 
     const tag = String(countrySelect.value || "").trim();
     if (!tag) {
@@ -110,10 +115,7 @@ async function initialiseSmartFocusControls() {
     await loadSmartFocusTree(tag);
   });
 
-  if (String(modSelect.value || "").trim() === "FUWG") {
-    setFuwgMode(true);
-    await loadSmartFocusCountries();
-  }
+  await handleModChange();
 }
 
 function setFocusDataStatus(message) {
@@ -134,10 +136,10 @@ function clearSmartFocusData() {
 }
 
 async function loadSmartFocusCountries() {
-  const countrySelect = document.getElementById("focusDataCountrySelect");
+  const countrySelect = document.getElementById("countrySelect");
   if (!countrySelect) return;
 
-  countrySelect.disabled = true;
+  countrySelect.disabled = false;
   countrySelect.innerHTML = '<option value="">Loading FUWG countries...</option>';
   setFocusDataStatus("Loading FUWG country list...");
 

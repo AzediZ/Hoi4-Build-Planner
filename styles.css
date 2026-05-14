@@ -691,3 +691,8 @@ body.fuwg-mode #countryInput {
 body:not(.fuwg-mode) .top-country-select {
   display: none;
 }
+
+
+.top-country-select {
+  width: 100%;
+}
