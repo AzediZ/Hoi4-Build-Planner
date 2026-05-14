@@ -28,3 +28,38 @@ The important file is `index.html`.
 This version stores saved builds in the user's browser local storage. Saved builds are not synced between devices unless the user copies a share code.
 
 Share codes use a browser-friendly `h4web://...` format. The app can still load older long `hoi4build://plan/...` codes.
+
+
+## Air doctrine dropdown update
+
+The Air doctrine subdoctrine dropdowns have been expanded.
+
+Air tracks now include:
+
+Fighters:
+- Air-Space Dominance
+- Medium-Range Escorts
+- Knights of the Air
+- Naval Aviation
+- Homeland Air Defense
+
+Strike:
+- Flying Artillery
+- Pinpoint Strikes
+- Precision Naval Bombing
+- Torpedo Swarm Tactics
+- Maritime Patrol
+
+Medium:
+- Long-Range Escort
+- Operational Air Support
+- Tactical Battlefield Support
+- Theater Interdiction
+- Battlefield Interdiction
+
+Heavy:
+- Deep Air Raids
+- Night Strategic Bombing
+- Carpet Bombing
+- Strategic Bombing Focus
+- Logistical Bombing
