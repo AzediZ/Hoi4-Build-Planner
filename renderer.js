@@ -1679,3 +1679,39 @@ if (document.readyState === "loading") {
   const modValue = document.getElementById("patchInput")?.value || "";
   loadResearchDataForMod(modValue);
 }
+
+
+function removeDefaultResearchStarterRows() {
+  const defaultTechs = new Set(["Basic Machine Tools", "Construction I"]);
+  const defaultNotes = new Set(["Standard industry opener.", "Early industry/construction scaling."]);
+
+  document.querySelectorAll('[id^="researchSlot"][id$="Table"] tbody tr').forEach((row) => {
+    const techInput = row.querySelector('[data-field="tech"]');
+    const notesInput = row.querySelector('[data-field="notes"]');
+    const tech = String(techInput?.value || "").trim();
+    const notes = String(notesInput?.value || "").trim();
+
+    if (defaultTechs.has(tech) || defaultNotes.has(notes)) {
+      row.remove();
+    }
+  });
+
+  if (typeof renumberTable === "function") {
+    for (let i = 1; i <= 8; i += 1) {
+      const table = document.getElementById(`researchSlot${i}Table`);
+      if (table) renumberTable(table);
+    }
+  }
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", () => {
+    removeDefaultResearchStarterRows();
+    setTimeout(removeDefaultResearchStarterRows, 0);
+    setTimeout(removeDefaultResearchStarterRows, 100);
+  });
+} else {
+  removeDefaultResearchStarterRows();
+  setTimeout(removeDefaultResearchStarterRows, 0);
+  setTimeout(removeDefaultResearchStarterRows, 100);
+}
