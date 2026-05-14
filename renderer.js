@@ -393,10 +393,10 @@ function planToText(plan) {
       lines.push(`  Carriers: ${doctrine.sub?.[2] || "-"}`);
       lines.push(`  Capital Ships: ${doctrine.sub?.[3] || "-"}`);
     } else if (label === "Air") {
-      lines.push(`  Fighters: ${doctrine.sub?.[0] || "-"}`);
-      lines.push(`  Strike: ${doctrine.sub?.[1] || "-"}`);
-      lines.push(`  Medium: ${doctrine.sub?.[2] || "-"}`);
-      lines.push(`  Heavy: ${doctrine.sub?.[3] || "-"}`);
+      lines.push(`  Fighter: ${doctrine.sub?.[0] || "-"}`);
+      lines.push(`  Strike Aircraft: ${doctrine.sub?.[1] || "-"}`);
+      lines.push(`  Medium Aircraft: ${doctrine.sub?.[2] || "-"}`);
+      lines.push(`  Heavy Aircraft: ${doctrine.sub?.[3] || "-"}`);
     }
 
     if (doctrine.notes) lines.push(`${label} Notes: ${doctrine.notes}`);

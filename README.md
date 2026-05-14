@@ -63,3 +63,41 @@ Heavy:
 - Carpet Bombing
 - Strategic Bombing Focus
 - Logistical Bombing
+
+
+## Air doctrine dropdown correction
+
+Air doctrine dropdowns updated from the supplied list:
+
+Fighter:
+- Homeland Air Defense
+- Medium-Range Escort
+- Fighter-Bombers
+- Airspace Dominance
+- Knights of the Air
+- Naval Aviation
+
+Strike Aircraft:
+- Flying Artillery
+- Pinpoint Strikes
+- Ground-Naval Coordination
+- Sea-To-Shore Air Power
+- Precision Naval Bombing
+- Torpedo Swarm Tactics
+
+Medium Aircraft:
+- Heavy Interceptors
+- Long-Range Escort
+- Operational Air Support
+- Tactical Battlefield Support
+- Theater Interdiction
+- Aerial Recon
+
+Heavy Aircraft:
+- Night Strategic Bombing
+- Carpet Bombing
+- Deep Air Raids
+- Flying Fortresses
+- Coastal Air Patrol
+- Deep Ocean Air Patrol
+- Multi-Role Heavy Aircraft Focus
