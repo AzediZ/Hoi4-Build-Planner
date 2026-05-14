@@ -91,7 +91,7 @@ function updateResearchStartingTechStatus(tag = "") {
   const count = researchState.currentStartingTechIds?.size || 0;
   if (researchState.loadedMod === "FUWG") {
     status.textContent = count
-      ? `Loaded ${researchState.techs.length} FUWG research options. ${tag} starts with ${count} researched tech(s). Autocomplete hides already-known or prerequisite-locked techs.`
+      ? `Loaded ${researchState.techs.length} FUWG research options. ${tag} starts with ${count} researched tech(s). Autocomplete uses all selected research slots plus starting techs to unlock available technologies.`
       : `Loaded ${researchState.techs.length} FUWG research options. No starting tech list loaded for ${tag || "this country"}.`;
   }
 }
@@ -141,16 +141,16 @@ async function loadResearchDataForMod(modName) {
 
 function getSelectedResearchTechIdsBeforeInput(targetInput = null) {
   const known = new Set(researchState.currentStartingTechIds || []);
-  const inputs = Array.from(document.querySelectorAll('input.research-tech-input'));
 
-  for (const input of inputs) {
-    if (targetInput && input === targetInput) break;
+  document.querySelectorAll('input.research-tech-input').forEach((input) => {
+    if (targetInput && input === targetInput) return;
 
     const value = String(input.value || "").trim().toLowerCase();
     const matched = researchState.techByName.get(value);
     const id = input.dataset.techId || matched?.id || "";
+
     if (id) known.add(id);
-  }
+  });
 
   return known;
 }
@@ -1638,9 +1638,18 @@ function bindResearchAutocompleteInputs() {
     input.dataset.techId = textarea.dataset.techId || "";
     input.value = textarea.value || "";
 
-    input.addEventListener("focus", () => populateResearchOptions(input));
-    input.addEventListener("click", () => populateResearchOptions(input));
-    input.addEventListener("input", () => { updateResearchInputMatch(input); populateResearchOptions(input); });
+    input.addEventListener("focus", () => {
+      document.querySelectorAll('input.research-tech-input').forEach(updateResearchInputMatch);
+      populateResearchOptions(input);
+    });
+    input.addEventListener("click", () => {
+      document.querySelectorAll('input.research-tech-input').forEach(updateResearchInputMatch);
+      populateResearchOptions(input);
+    });
+    input.addEventListener("input", () => {
+      document.querySelectorAll('input.research-tech-input').forEach(updateResearchInputMatch);
+      populateResearchOptions(input);
+    });
 
     textarea.replaceWith(input);
     updateResearchInputMatch(input);

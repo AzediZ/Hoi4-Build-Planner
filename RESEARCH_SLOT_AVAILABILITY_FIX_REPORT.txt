@@ -1,0 +1,5 @@
+Research slot availability fix
+
+Changed research autocomplete to calculate available technologies globally across all research slots.
+Each slot can now show any technology whose prerequisites are met by country starting techs or any selected research row in any slot.
+No README changelog update was made.
