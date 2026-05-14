@@ -1,0 +1,2531 @@
+{
+  "mod": "FUWG",
+  "tag": "BRA",
+  "country": "Brazil",
+  "treeId": "brazil_tree",
+  "sourceFile": "brazil.txt",
+  "focusCount": 173,
+  "focuses": [
+    {
+      "id": "BRA_tribunal_de_seguranca_nacional",
+      "name": "Tribunal De Seguranca Nacional",
+      "description": "",
+      "x": 0,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_ensure_continued_military_support",
+      "name": "Ensure Continued Military Support",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_tribunal_de_seguranca_nacional"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_work_with_the_integralists",
+      "name": "Work With The Integralists",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_tribunal_de_seguranca_nacional"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_estado_moderno",
+      "name": "Estado Moderno",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_work_with_the_integralists",
+        "BRA_cohen_plan"
+      ],
+      "mutuallyExclusive": [
+        "BRA_estado_novo"
+      ],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_estado_novo",
+      "name": "Estado Novo",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_ensure_continued_military_support"
+      ],
+      "mutuallyExclusive": [
+        "BRA_estado_moderno"
+      ],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_cohen_plan",
+      "name": "Cohen Plan",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_ensure_continued_military_support",
+        "BRA_work_with_the_integralists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_the_polaca",
+      "name": "The Polaca",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_end_the_state_of_emergency"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_anaue",
+      "name": "Anaue",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_estado_moderno"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_autarky",
+      "name": "Autarky",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_the_polaca"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_corporatism",
+      "name": "Corporatism",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_the_polaca"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_departamendo_de_propaganda",
+      "name": "Departamendo De Propaganda",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_autarky",
+        "BRA_corporatism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_departamento_de_ordem_politica_e_social",
+      "name": "Departamento De Ordem Politica E Social",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_corporatism",
+        "BRA_autarky"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_tech_slot_1",
+      "name": "Tech Slot 1",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_address_labor_disputes",
+        "BRA_support_the_landowners"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_ban_political_parties",
+      "name": "Ban Political Parties",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_the_polaca"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_establish_psad",
+      "name": "Establish Psad",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_the_polaca"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_decree_no_37",
+      "name": "Decree No 37",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_establish_psad",
+        "BRA_ban_political_parties"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_federal_employment_plan",
+      "name": "Federal Employment Plan",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_establish_psad"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_reward_army_loyalty",
+      "name": "Reward Army Loyalty",
+      "description": "",
+      "x": -3,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_end_military_interference"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_depose_vargas",
+      "name": "Depose Vargas",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_reward_army_loyalty"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_secure_our_borders",
+      "name": "Secure Our Borders",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_end_military_interference"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_reject_cosmopolitanism",
+      "name": "Reject Cosmopolitanism",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_anaue"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_departamento_feminino",
+      "name": "Departamento Feminino",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_anaue"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_in_vargas_we_trust",
+      "name": "In Vargas We Trust",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_reject_cosmopolitanism",
+        "BRA_departamento_feminino"
+      ],
+      "mutuallyExclusive": [
+        "BRA_integrity_of_the_fatherland"
+      ],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_integrity_of_the_fatherland",
+      "name": "Integrity Of The Fatherland",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_reject_cosmopolitanism",
+        "BRA_departamento_feminino"
+      ],
+      "mutuallyExclusive": [
+        "BRA_in_vargas_we_trust"
+      ],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_brazil_integral",
+      "name": "Brazil Integral",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_in_vargas_we_trust",
+        "BRA_integrity_of_the_fatherland"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_reinvigorate_the_navy",
+      "name": "Reinvigorate The Navy",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_brazil_integral"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_ethical_internationalism",
+      "name": "Ethical Internationalism",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_brazil_integral"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_coffee_crisis_aftermath",
+      "name": "Coffee Crisis Aftermath",
+      "description": "",
+      "x": 12,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_radio_nacional",
+      "name": "Radio Nacional",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_coffee_crisis_aftermath"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_desenvolvimentismo",
+      "name": "Desenvolvimentismo",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_coffee_crisis_aftermath"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_promote_resource_extraction",
+      "name": "Promote Resource Extraction",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_radio_nacional",
+        "BRA_desenvolvimentismo"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_companhia_siderurgica_nacional",
+      "name": "Companhia Siderurgica Nacional",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_desenvolvimentismo",
+        "BRA_radio_nacional"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_stimulate_the_civilian_economy",
+      "name": "Stimulate The Civilian Economy",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_desenvolvimentismo"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_domestic_arms_industry",
+      "name": "Domestic Arms Industry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_stimulate_the_civilian_economy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_war_production",
+      "name": "War Production",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_domestic_arms_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_reach_out_to_the_great_powers",
+      "name": "Reach Out To The Great Powers",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_promote_resource_extraction",
+        "BRA_companhia_siderurgica_nacional"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_deal_with_the_cangaceiro",
+      "name": "Deal With The Cangaceiro",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_radio_nacional"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_promote_immigration_to_brazil",
+      "name": "Promote Immigration To Brazil",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_desenvolvimentismo"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_invest_in_railways",
+      "name": "Invest In Railways",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_promote_resource_extraction",
+        "BRA_companhia_siderurgica_nacional"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_national_petroleum_council",
+      "name": "National Petroleum Council",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_invest_in_railways"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_batalha_do_borracha",
+      "name": "Batalha Do Borracha",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_companhia_siderurgica_nacional",
+        "BRA_promote_resource_extraction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_invest_in_road_infrastructure",
+      "name": "Invest In Road Infrastructure",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_batalha_do_borracha",
+        "BRA_invest_in_railways"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_invest_in_ports",
+      "name": "Invest In Ports",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_invest_in_railways"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_fabrica_nacional_de_motores",
+      "name": "Fabrica Nacional De Motores",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_invest_in_road_infrastructure"
+      ],
+      "mutuallyExclusive": [
+        "BRA_expand_fordlandia"
+      ],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_expand_fordlandia",
+      "name": "Expand Fordlandia",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_invest_in_road_infrastructure"
+      ],
+      "mutuallyExclusive": [
+        "BRA_fabrica_nacional_de_motores"
+      ],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_bonus_tech_slot",
+      "name": "Bonus Tech Slot",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_invest_in_road_infrastructure"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_banco_do_brasil",
+      "name": "Banco Do Brasil",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_batalha_do_borracha",
+        "BRA_invest_in_railways"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_federal_development",
+      "name": "Federal Development",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_banco_do_brasil"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_centralize_development",
+      "name": "Centralize Development",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_banco_do_brasil"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_financial_stimulation",
+      "name": "Financial Stimulation",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_centralize_development",
+        "BRA_federal_development"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_cooperation_in_the_americas",
+      "name": "Cooperation In The Americas",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_secure_our_borders"
+      ],
+      "mutuallyExclusive": [
+        "BRA_domination_of_the_americas"
+      ],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_defense_spending",
+      "name": "Defense Spending",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_cooperation_in_the_americas"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_reach_out_to_our_neighbors",
+      "name": "Reach Out To Our Neighbors",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_cooperation_in_the_americas"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_south_american_defense_cooperation",
+      "name": "South American Defense Cooperation",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_cooperation_in_the_americas"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_foreign_legion",
+      "name": "Foreign Legion",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_reach_out_to_our_neighbors"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_south_american_research_cooperation",
+      "name": "South American Research Cooperation",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_south_american_defense_cooperation",
+        "BRA_washington_accords"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_washington_accords",
+      "name": "Washington Accords",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_cooperation_in_the_americas"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_disrupt_operation_bolivar",
+      "name": "Disrupt Operation Bolivar",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_defense_spending"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_potenji_river_conference",
+      "name": "Potenji River Conference",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_washington_accords"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_natal_naval_base",
+      "name": "Natal Naval Base",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_washington_accords"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_smoking_cobras",
+      "name": "Smoking Cobras",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_washington_accords"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_no_fascism_in_south_america",
+      "name": "No Fascism In South America",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_cooperation_in_the_americas"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_senta_a_pua",
+      "name": "Senta A Pua",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_natal_naval_base"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_no_communism_in_south_america",
+      "name": "No Communism In South America",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_cooperation_in_the_americas"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_us_brazil_technology_exchange",
+      "name": "Us Brazil Technology Exchange",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_washington_accords"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_domination_of_the_americas",
+      "name": "Domination Of The Americas",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_secure_our_borders",
+        "BRA_ethical_internationalism"
+      ],
+      "mutuallyExclusive": [
+        "BRA_cooperation_in_the_americas"
+      ],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_berlin_accords",
+      "name": "Berlin Accords",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_domination_of_the_americas"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_expand_operation_bolivar",
+      "name": "Expand Operation Bolivar",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_berlin_accords",
+        "BRA_rome_accords"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_german_tanks",
+      "name": "German Tanks",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_expand_operation_bolivar"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_german_subs",
+      "name": "German Subs",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_expand_operation_bolivar"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_german_cooperation",
+      "name": "German Cooperation",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_german_tanks",
+        "BRA_german_subs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_guyana_crisis",
+      "name": "Guyana Crisis",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_domination_of_the_americas"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_defense_of_the_fatherland",
+      "name": "Defense Of The Fatherland",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_domination_of_the_americas"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_uruguay_ultimatum",
+      "name": "Uruguay Ultimatum",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_anaue",
+        "BRA_the_polaca"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_rome_accords",
+      "name": "Rome Accords",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_domination_of_the_americas"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_italian_car_industry",
+      "name": "Italian Car Industry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_rome_accords",
+        "BRA_berlin_accords"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_italian_aircraft",
+      "name": "Italian Aircraft",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_italian_car_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_italian_trucks",
+      "name": "Italian Trucks",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_italian_car_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_italian_cooperation",
+      "name": "Italian Cooperation",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_italian_trucks",
+        "BRA_italian_aircraft"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_attack_bolivia",
+      "name": "Attack Bolivia",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_guyana_crisis"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_paraguay_intervention",
+      "name": "Paraguay Intervention",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_guyana_crisis"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_provoke_argentina",
+      "name": "Provoke Argentina",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_attack_bolivia",
+        "BRA_paraguay_intervention"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_attack_chile",
+      "name": "Attack Chile",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_paraguay_intervention",
+        "BRA_attack_bolivia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_panama_push",
+      "name": "Panama Push",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_provoke_argentina",
+        "BRA_attack_chile"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_form_mercosul",
+      "name": "Form Mercosul",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_domination_of_the_americas"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_end_the_state_of_emergency",
+      "name": "End The State Of Emergency",
+      "description": "",
+      "x": 0,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_repeal_the_national_security_law",
+      "name": "Repeal The National Security Law",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_end_the_state_of_emergency"
+      ],
+      "mutuallyExclusive": [
+        "BRA_romanticize_the_old_empire"
+      ],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_greater_federalism",
+      "name": "Greater Federalism",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_repeal_the_national_security_law"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_continue_centralization",
+      "name": "Continue Centralization",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_repeal_the_national_security_law"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_court_the_military",
+      "name": "Court The Military",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_repeal_the_national_security_law"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_implement_a_national_guard",
+      "name": "Implement A National Guard",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_greater_federalism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_nationalize_the_banks",
+      "name": "Nationalize The Banks",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_greater_federalism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_establish_the_brazilian_investment_bank",
+      "name": "Establish The Brazilian Investment Bank",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_court_the_military"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_church",
+      "name": "Church",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_establish_the_brazilian_investment_bank"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_implement_article_138",
+      "name": "Implement Article 138",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_nationalize_the_banks"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_tech_slot_2",
+      "name": "Tech Slot 2",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_implement_article_138",
+        "BRA_church"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_ban_the_communist_party",
+      "name": "Ban The Communist Party",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_court_the_military"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_posts_for_generals",
+      "name": "Posts For Generals",
+      "description": "",
+      "x": 2,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_court_the_military"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_third_republic",
+      "name": "Third Republic",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_posts_for_generals"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_end_military_interference",
+      "name": "End Military Interference",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_end_the_state_of_emergency"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_free_speech",
+      "name": "Free Speech",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_end_military_interference"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_united_states_of_brazil",
+      "name": "United States Of Brazil",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_free_speech"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_united_states_of_south_america",
+      "name": "United States Of South America",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_us_brazil_technology_exchange",
+        "BRA_south_american_research_cooperation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_address_labor_disputes",
+      "name": "Address Labor Disputes",
+      "description": "",
+      "x": 7,
+      "y": -1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_consolidation_of_labor_laws"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_combat_separatism",
+      "name": "Combat Separatism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_tech_slot_2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_war_bonds",
+      "name": "War Bonds",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_tech_slot_1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_invite_foreign_companies",
+      "name": "Invite Foreign Companies",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_cooperation_in_the_americas"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_the_international_crisis",
+      "name": "The International Crisis",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_address_labor_disputes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_prepare_for_second_intentona",
+      "name": "Prepare For Second Intentona",
+      "description": "",
+      "x": -15,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_infilitrate_the_military",
+      "name": "Infilitrate The Military",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_prepare_for_second_intentona"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_radicalize_the_proletariat",
+      "name": "Radicalize The Proletariat",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_prepare_for_second_intentona"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_free_prestes",
+      "name": "Free Prestes",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_infilitrate_the_military",
+        "BRA_radicalize_the_proletariat"
+      ],
+      "mutuallyExclusive": [
+        "BRA_revive_the_anl"
+      ],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_revive_the_anl",
+      "name": "Revive The Anl",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_radicalize_the_proletariat",
+        "BRA_infilitrate_the_military"
+      ],
+      "mutuallyExclusive": [
+        "BRA_free_prestes"
+      ],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_sway_the_cangaco",
+      "name": "Sway The Cangaco",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_revive_the_anl"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_seek_soviet_support",
+      "name": "Seek Soviet Support",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_free_prestes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_launch_the_revolution",
+      "name": "Launch The Revolution",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_free_prestes",
+        "BRA_revive_the_anl"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_align_with_moscow",
+      "name": "Align With Moscow",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_launch_the_revolution",
+        "BRA_free_prestes"
+      ],
+      "mutuallyExclusive": [
+        "BRA_oust_prestes",
+        "BRA_cangaco_coup"
+      ],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_oust_prestes",
+      "name": "Oust Prestes",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_launch_the_revolution",
+        "BRA_revive_the_anl"
+      ],
+      "mutuallyExclusive": [
+        "BRA_align_with_moscow",
+        "BRA_cangaco_coup"
+      ],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_cangaco_coup",
+      "name": "Cangaco Coup",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_launch_the_revolution",
+        "BRA_sway_the_cangaco"
+      ],
+      "mutuallyExclusive": [
+        "BRA_align_with_moscow",
+        "BRA_oust_prestes"
+      ],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_nationalization_of_industry",
+      "name": "Nationalization Of Industry",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_align_with_moscow",
+        "BRA_oust_prestes",
+        "BRA_cangaco_coup"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_collectivization_of_agriculture",
+      "name": "Collectivization Of Agriculture",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_nationalization_of_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_collectivization_of_transport",
+      "name": "Collectivization Of Transport",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_collectivization_of_agriculture"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_rapid_industrialization",
+      "name": "Rapid Industrialization",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_nationalization_of_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_state_atheism",
+      "name": "State Atheism",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_rapid_industrialization"
+      ],
+      "mutuallyExclusive": [
+        "BRA_allow_the_church_to_operate"
+      ],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_allow_the_church_to_operate",
+      "name": "Allow The Church To Operate",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_rapid_industrialization"
+      ],
+      "mutuallyExclusive": [
+        "BRA_state_atheism"
+      ],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_equality_for_women",
+      "name": "Equality For Women",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_state_atheism",
+        "BRA_allow_the_church_to_operate"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_soviet_economic_aid",
+      "name": "Soviet Economic Aid",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_align_with_moscow"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_international_brigades",
+      "name": "International Brigades",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_align_with_moscow",
+        "BRA_oust_prestes",
+        "BRA_cangaco_coup"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_tech_slot_3",
+      "name": "Tech Slot 3",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_align_with_moscow",
+        "BRA_oust_prestes",
+        "BRA_cangaco_coup"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_purchase_soviet_equipment",
+      "name": "Purchase Soviet Equipment",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_soviet_economic_aid"
+      ],
+      "mutuallyExclusive": [
+        "BRA_license_soviet_designs"
+      ],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_license_soviet_designs",
+      "name": "License Soviet Designs",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_soviet_economic_aid"
+      ],
+      "mutuallyExclusive": [
+        "BRA_purchase_soviet_equipment"
+      ],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_soviet_arms_industry",
+      "name": "Soviet Arms Industry",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_coffee_crisis_aftermath"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_kgbrazil",
+      "name": "Kgbrazil",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_align_with_moscow",
+        "BRA_oust_prestes",
+        "BRA_cangaco_coup"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_spread_the_revolution",
+      "name": "Spread The Revolution",
+      "description": "",
+      "x": 0,
+      "y": 6,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_soviet_arms_industry",
+        "BRA_equality_for_women"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_join_the_comintern",
+      "name": "Join The Comintern",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_spread_the_revolution"
+      ],
+      "mutuallyExclusive": [
+        "BRA_create_faction"
+      ],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_smash_fascism",
+      "name": "Smash Fascism",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_join_the_comintern",
+        "BRA_create_faction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_create_faction",
+      "name": "Create Faction",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_spread_the_revolution"
+      ],
+      "mutuallyExclusive": [
+        "BRA_join_the_comintern"
+      ],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_anti_imperialism",
+      "name": "Anti Imperialism",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_join_the_comintern",
+        "BRA_create_faction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_jaguar_diplomacy",
+      "name": "Jaguar Diplomacy",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_create_faction",
+        "BRA_join_the_comintern"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_sway_the_neighbors",
+      "name": "Sway The Neighbors",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_kgbrazil"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_union_of_latin_american_socialist_republics",
+      "name": "Union Of Latin American Socialist Republics",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_create_faction",
+        "BRA_join_the_comintern"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_smash_democracy",
+      "name": "Smash Democracy",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_join_the_comintern",
+        "BRA_create_faction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_romanticize_the_old_empire",
+      "name": "Romanticize The Old Empire",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_end_the_state_of_emergency"
+      ],
+      "mutuallyExclusive": [
+        "BRA_repeal_the_national_security_law"
+      ],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_vassouras_line",
+      "name": "Vassouras Line",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_romanticize_the_old_empire"
+      ],
+      "mutuallyExclusive": [
+        "BRA_petropolis_line"
+      ],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_petropolis_line",
+      "name": "Petropolis Line",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_romanticize_the_old_empire"
+      ],
+      "mutuallyExclusive": [
+        "BRA_vassouras_line"
+      ],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_restore_the_coffee_barons",
+      "name": "Restore The Coffee Barons",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_vassouras_line",
+        "BRA_petropolis_line"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_constitutional_monarchy",
+      "name": "Constitutional Monarchy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_restore_the_coffee_barons"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_undermine_democracy",
+      "name": "Undermine Democracy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_constitutional_monarchy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_invest_in_the_armed_forces",
+      "name": "Invest In The Armed Forces",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_constitutional_monarchy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_royal_colleges",
+      "name": "Royal Colleges",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_invest_in_the_armed_forces"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_issue_lordships",
+      "name": "Issue Lordships",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_constitutional_monarchy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_promote_agriculture",
+      "name": "Promote Agriculture",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_issue_lordships"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_use_the_national_security_law",
+      "name": "Use The National Security Law",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_undermine_democracy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_united_kingdom_of_brazil_and_portugal",
+      "name": "United Kingdom Of Brazil And Portugal",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_use_the_national_security_law"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_penal_battalions",
+      "name": "Penal Battalions",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_use_the_national_security_law"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_amazonian_settlement",
+      "name": "Amazonian Settlement",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_penal_battalions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_empire_of_brazil",
+      "name": "Empire Of Brazil",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_use_the_national_security_law"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_reclaim_territory_in_south_america",
+      "name": "Reclaim Territory In South America",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_empire_of_brazil"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_spirit_of_acre_war",
+      "name": "Spirit Of Acre War",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_demand_portugese_territory",
+        "BRA_demand_portugese_submission",
+        "BRA_reclaim_territory_in_south_america"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_demand_portugese_territory",
+      "name": "Demand Portugese Territory",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_empire_of_brazil"
+      ],
+      "mutuallyExclusive": [
+        "BRA_demand_portugese_submission"
+      ],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_demand_portugese_submission",
+      "name": "Demand Portugese Submission",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_empire_of_brazil"
+      ],
+      "mutuallyExclusive": [
+        "BRA_demand_portugese_territory"
+      ],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_restoration_of_honor",
+      "name": "Restoration Of Honor",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_demand_portugese_territory",
+        "BRA_demand_portugese_submission",
+        "BRA_reclaim_territory_in_south_america"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_expand_colonial_empire",
+      "name": "Expand Colonial Empire",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_demand_portugese_territory",
+        "BRA_demand_portugese_submission",
+        "BRA_reclaim_territory_in_south_america"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_support_the_landowners",
+      "name": "Support The Landowners",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_federal_employment_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_support_rural_folk",
+      "name": "Support Rural Folk",
+      "description": "",
+      "x": -13,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_reward_army_loyalty",
+        "BRA_reinvigorate_the_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_support_industrialists",
+      "name": "Support Industrialists",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_support_the_landowners",
+        "BRA_support_rural_folk"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_consolidation_of_labor_laws",
+      "name": "Consolidation Of Labor Laws",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_autarky"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_establish_caloi",
+      "name": "Establish Caloi",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_promote_resource_extraction",
+        "BRA_companhia_siderurgica_nacional"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "BRA_unify_south_america",
+      "name": "Unify South America",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "BRA_german_cooperation",
+        "BRA_italian_cooperation",
+        "BRA_panama_push"
+      ],
+      "mutuallyExclusive": [],
+      "source": "brazil.txt",
+      "shared": false
+    },
+    {
+      "id": "SMB_army",
+      "name": "Army",
+      "description": "",
+      "x": 0,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "toa_shared_military_branch.txt",
+      "shared": true
+    },
+    {
+      "id": "SMB_air_force",
+      "name": "Air Force",
+      "description": "",
+      "x": 8,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "toa_shared_military_branch.txt",
+      "shared": true
+    },
+    {
+      "id": "SMB_navy",
+      "name": "Navy",
+      "description": "",
+      "x": 7,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "toa_shared_military_branch.txt",
+      "shared": true
+    },
+    {
+      "id": "SAM_the_yoke_of_monroe",
+      "name": "The Yoke Of Monroe",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "shared_reference",
+      "shared": true
+    }
+  ]
+}

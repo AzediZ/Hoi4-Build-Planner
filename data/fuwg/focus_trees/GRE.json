@@ -1,0 +1,1931 @@
+{
+  "mod": "FUWG",
+  "tag": "GRE",
+  "country": "Greece",
+  "treeId": "greek_focus",
+  "sourceFile": "greece.txt",
+  "focusCount": 130,
+  "focuses": [
+    {
+      "id": "GRE_bring_home_the_exiled_republicans",
+      "name": "Bring Home The Exiled Republicans",
+      "description": "",
+      "x": 5,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "GRE_the_kings_government"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_compromise_with_the_monarchists",
+      "name": "Compromise With The Monarchists",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_bring_home_the_exiled_republicans"
+      ],
+      "mutuallyExclusive": [
+        "GRE_request_communist_support"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_remembering_the_anatolian_catastrophe",
+      "name": "Remembering The Anatolian Catastrophe",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_compromise_with_the_monarchists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_venerate_the_ancient_hellenes",
+      "name": "Venerate The Ancient Hellenes",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_remembering_the_anatolian_catastrophe"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_restoring_our_home",
+      "name": "Restoring Our Home",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_remembering_the_anatolian_catastrophe"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_the_birthplace_of_democracy",
+      "name": "The Birthplace Of Democracy",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_remembering_the_anatolian_catastrophe"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_theban_warriors",
+      "name": "Theban Warriors",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_venerate_the_ancient_hellenes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_athenian_thinkers",
+      "name": "Athenian Thinkers",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_venerate_the_ancient_hellenes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_macedonian_generals",
+      "name": "Macedonian Generals",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_venerate_the_ancient_hellenes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_the_anatolian_refugees",
+      "name": "The Anatolian Refugees",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_theban_warriors",
+        "GRE_athenian_thinkers",
+        "GRE_macedonian_generals"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_resurrecting_the_megali_idea",
+      "name": "Resurrecting The Megali Idea",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_the_anatolian_refugees"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_the_gordian_knot",
+      "name": "The Gordian Knot",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_resurrecting_the_megali_idea"
+      ],
+      "mutuallyExclusive": [
+        "GRE_horror_and_fear"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_horror_and_fear",
+      "name": "Horror And Fear",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_resurrecting_the_megali_idea"
+      ],
+      "mutuallyExclusive": [
+        "GRE_the_gordian_knot"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_nenikikamen",
+      "name": "Nenikikamen",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_horror_and_fear",
+        "GRE_the_gordian_knot"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_the_die_is_cast",
+      "name": "The Die Is Cast",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_nenikikamen"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_reviving_the_double_headed_eagle",
+      "name": "Reviving The Double Headed Eagle",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_horror_and_fear"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_phoideratoi",
+      "name": "Phoideratoi",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_reviving_the_double_headed_eagle"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_byzantine_themata",
+      "name": "Byzantine Themata",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_phoideratoi",
+        "GRE_the_die_is_cast"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_request_communist_support",
+      "name": "Request Communist Support",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_bring_home_the_exiled_republicans"
+      ],
+      "mutuallyExclusive": [
+        "GRE_compromise_with_the_monarchists"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_a_socialist_economy",
+      "name": "A Socialist Economy",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_request_communist_support"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_nationalized_banks",
+      "name": "Nationalized Banks",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_a_socialist_economy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_agricultural_communes",
+      "name": "Agricultural Communes",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_a_socialist_economy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_soviet_subsidised_railways",
+      "name": "Soviet Subsidised Railways",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_a_socialist_economy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_clearing_land_for_industrial_expansion",
+      "name": "Clearing Land For Industrial Expansion",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_agricultural_communes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_depose_the_reactionaries",
+      "name": "Depose The Reactionaries",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_clearing_land_for_industrial_expansion",
+        "GRE_red_militias",
+        "GRE_the_greek_industrial_revolution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_the_greek_industrial_revolution",
+      "name": "The Greek Industrial Revolution",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_nationalized_banks"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_red_militias",
+      "name": "Red Militias",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_soviet_subsidised_railways"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_prepare_for_the_great_anti_fascist_war",
+      "name": "Prepare For The Great Anti Fascist War",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_depose_the_reactionaries"
+      ],
+      "mutuallyExclusive": [
+        "GRE_tow_the_stalinist_line"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_tow_the_stalinist_line",
+      "name": "Tow The Stalinist Line",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_depose_the_reactionaries"
+      ],
+      "mutuallyExclusive": [
+        "GRE_prepare_for_the_great_anti_fascist_war"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_dominate_the_bulgarians",
+      "name": "Dominate The Bulgarians",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_prepare_for_the_great_anti_fascist_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_ally_tito",
+      "name": "Ally Tito",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_prepare_for_the_great_anti_fascist_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_secure_the_aegean",
+      "name": "Secure The Aegean",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_ally_tito"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_attack_the_fascists",
+      "name": "Attack The Fascists",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_dominate_the_bulgarians"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_stage_an_incident_in_the_bosporus",
+      "name": "Stage An Incident In The Bosporus",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_tow_the_stalinist_line"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_revolutionaries_of_the_south",
+      "name": "Revolutionaries Of The South",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_stage_an_incident_in_the_bosporus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_the_kings_government",
+      "name": "The Kings Government",
+      "description": "",
+      "x": 10,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "GRE_bring_home_the_exiled_republicans"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_the_right_to_rule",
+      "name": "The Right To Rule",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_the_kings_government"
+      ],
+      "mutuallyExclusive": [
+        "GRE_metaxism_focus"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_metaxism_focus",
+      "name": "Metaxism Focus",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_the_kings_government"
+      ],
+      "mutuallyExclusive": [
+        "GRE_the_right_to_rule"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_petition_britain_for_aid",
+      "name": "Petition Britain For Aid",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_the_right_to_rule"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_the_hellenic_spirit",
+      "name": "The Hellenic Spirit",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_metaxism_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_the_national_youth_organisation",
+      "name": "The National Youth Organisation",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_the_hellenic_spirit"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_crack_down_on_the_republicans",
+      "name": "Crack Down On The Republicans",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_the_national_youth_organisation",
+        "GRE_petition_britain_for_aid"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_use_the_military",
+      "name": "Use The Military",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_crack_down_on_the_republicans"
+      ],
+      "mutuallyExclusive": [
+        "GRE_recruit_the_fascists"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_restoring_our_home_fuwg",
+      "name": "Ending the Schachtplan",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_use_the_military"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_recruit_the_fascists",
+      "name": "Recruit The Fascists",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_crack_down_on_the_republicans",
+        "GRE_the_national_youth_organisation"
+      ],
+      "mutuallyExclusive": [
+        "GRE_use_the_military"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_realign_ourselves_with_the_central_powers",
+      "name": "Realign Ourselves With The Central Powers",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_use_the_military"
+      ],
+      "mutuallyExclusive": [
+        "GRE_our_traditional_allies_in_the_aegean"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_our_traditional_allies_in_the_aegean",
+      "name": "Our Traditional Allies In The Aegean",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_use_the_military"
+      ],
+      "mutuallyExclusive": [
+        "GRE_realign_ourselves_with_the_central_powers"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_prepare_against_the_mediterranean_threat",
+      "name": "Prepare Against The Mediterranean Threat",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_use_the_military"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_reclaiming_the_wayward_ally",
+      "name": "Reclaiming The Wayward Ally",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_realign_ourselves_with_the_central_powers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_the_greater_enosis",
+      "name": "The Greater Enosis",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_our_traditional_allies_in_the_aegean"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_securing_the_bulgarian_menace",
+      "name": "Securing The Bulgarian Menace",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_our_traditional_allies_in_the_aegean",
+        "GRE_prepare_against_the_mediterranean_threat"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_expansion_of_athens_university",
+      "name": "Expansion Of Athens University",
+      "description": "",
+      "x": 0,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_our_traditional_allies_in_the_aegean"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_protectors_of_the_mediterranean",
+      "name": "Protectors Of The Mediterranean",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_expansion_of_athens_university"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_an_orthodox_state",
+      "name": "An Orthodox State",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_use_the_military",
+        "GRE_recruit_the_fascists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_third_hellenic_civilization",
+      "name": "Third Hellenic Civilization",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_an_orthodox_state"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_defending_our_kingdom",
+      "name": "Defending Our Kingdom",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_third_hellenic_civilization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_reviving_the_spartan_warrior_spirit",
+      "name": "Reviving The Spartan Warrior Spirit",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_defending_our_kingdom"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_following_in_the_footsteps_of_giants",
+      "name": "Following In The Footsteps Of Giants",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_recruit_the_fascists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_the_modern_movement",
+      "name": "The Modern Movement",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_following_in_the_footsteps_of_giants"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_hellenoturkism",
+      "name": "Hellenoturkism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_the_modern_movement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_cement_greco_german_ties",
+      "name": "Cement Greco German Ties",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_the_modern_movement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_subjugating_the_bulgarians",
+      "name": "Subjugating The Bulgarians",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_hellenoturkism",
+        "GRE_cement_greco_german_ties"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_greece_and_turkey_in_the_axis",
+      "name": "Greece And Turkey In The Axis",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_subjugating_the_bulgarians"
+      ],
+      "mutuallyExclusive": [
+        "GRE_last_country_standing"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_last_country_standing",
+      "name": "Last Country Standing",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_subjugating_the_bulgarians"
+      ],
+      "mutuallyExclusive": [
+        "GRE_greece_and_turkey_in_the_axis"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_moulding_the_new_world_order",
+      "name": "Moulding The New World Order",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_greece_and_turkey_in_the_axis",
+        "GRE_last_country_standing"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_reevaluating_the_drachma",
+      "name": "Reevaluating The Drachma",
+      "description": "",
+      "x": 17,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_lignite_liquefaction",
+      "name": "Lignite Liquefaction",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_reevaluating_the_drachma"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_extracting_more_from_our_soil",
+      "name": "Extracting More From Our Soil",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_lignite_liquefaction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_utilize_our_strengths",
+      "name": "Utilize Our Strengths",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_reevaluating_the_drachma"
+      ],
+      "mutuallyExclusive": [
+        "GRE_force_the_farmers_into_factories"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_force_the_farmers_into_factories",
+      "name": "Force The Farmers Into Factories",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_reevaluating_the_drachma"
+      ],
+      "mutuallyExclusive": [
+        "GRE_utilize_our_strengths"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_open_foreign_subsidized_factories",
+      "name": "Open Foreign Subsidized Factories",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_utilize_our_strengths"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_paying_back_our_debts_in_bulk",
+      "name": "Paying Back Our Debts In Bulk",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_force_the_farmers_into_factories"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_connecting_our_prefectures",
+      "name": "Connecting Our Prefectures",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_open_foreign_subsidized_factories"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_fiscal_responsibility",
+      "name": "Fiscal Responsibility",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_paying_back_our_debts_in_bulk"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_sophistry_and_science",
+      "name": "Sophistry And Science",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_connecting_our_prefectures"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_bedrock_of_balkan_financial_stability",
+      "name": "Bedrock Of Balkan Financial Stability",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_fiscal_responsibility"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_exporting_more_luxury_commodoties",
+      "name": "Exporting More Luxury Commodoties",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_open_foreign_subsidized_factories"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_greek_autarky",
+      "name": "Greek Autarky",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_paying_back_our_debts_in_bulk"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_expand_our_tobacco_industry",
+      "name": "Expand Our Tobacco Industry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_exporting_more_luxury_commodoties",
+        "GRE_greek_autarky"
+      ],
+      "mutuallyExclusive": [
+        "GRE_increase_our_mining_operations"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_increase_our_mining_operations",
+      "name": "Increase Our Mining Operations",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_exporting_more_luxury_commodoties",
+        "GRE_greek_autarky"
+      ],
+      "mutuallyExclusive": [
+        "GRE_expand_our_tobacco_industry"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_encourage_tourism",
+      "name": "Encourage Tourism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_expand_our_tobacco_industry",
+        "GRE_increase_our_mining_operations"
+      ],
+      "mutuallyExclusive": [
+        "GRE_mobilise_our_economy"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_mobilise_our_economy",
+      "name": "Mobilise Our Economy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_expand_our_tobacco_industry",
+        "GRE_increase_our_mining_operations"
+      ],
+      "mutuallyExclusive": [
+        "GRE_encourage_tourism"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_rejuvenating_athens",
+      "name": "Rejuvenating Athens",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_encourage_tourism",
+        "GRE_mobilise_our_economy"
+      ],
+      "mutuallyExclusive": [
+        "GRE_making_use_of_our_islands",
+        "GRE_clear_the_slums"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_making_use_of_our_islands",
+      "name": "Making Use Of Our Islands",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_encourage_tourism",
+        "GRE_mobilise_our_economy"
+      ],
+      "mutuallyExclusive": [
+        "GRE_rejuvenating_athens",
+        "GRE_clear_the_slums"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_clear_the_slums",
+      "name": "Clear The Slums",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_encourage_tourism",
+        "GRE_mobilise_our_economy"
+      ],
+      "mutuallyExclusive": [
+        "GRE_rejuvenating_athens",
+        "GRE_making_use_of_our_islands"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_crack_down_on_foreign_monopolies",
+      "name": "Crack Down On Foreign Monopolies",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_bedrock_of_balkan_financial_stability",
+        "GRE_rejuvenating_athens",
+        "GRE_making_use_of_our_islands",
+        "GRE_clear_the_slums"
+      ],
+      "mutuallyExclusive": [
+        "GRE_cooperate_with_foreign_monopolies"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_cooperate_with_foreign_monopolies",
+      "name": "Cooperate With Foreign Monopolies",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_sophistry_and_science",
+        "GRE_rejuvenating_athens",
+        "GRE_making_use_of_our_islands",
+        "GRE_clear_the_slums"
+      ],
+      "mutuallyExclusive": [
+        "GRE_crack_down_on_foreign_monopolies"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_academy_of_athens",
+      "name": "Academy Of Athens",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_cooperate_with_foreign_monopolies",
+        "GRE_crack_down_on_foreign_monopolies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_four_year_plan",
+      "name": "Four Year Plan",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_metaxism_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_open_up_the_country",
+      "name": "Open Up The Country",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_four_year_plan",
+        "GRE_extracting_more_from_our_soil"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_bolster_the_schachtplan",
+      "name": "Bolster The Schachtplan",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_open_up_the_country"
+      ],
+      "mutuallyExclusive": [
+        "GRE_renegotiate_debt_with_france",
+        "GRE_british_docking_rights"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_rapprochement_with_the_italians",
+      "name": "Rapprochement With The Italians",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_bolster_the_schachtplan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_british_docking_rights",
+      "name": "British Docking Rights",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_open_up_the_country"
+      ],
+      "mutuallyExclusive": [
+        "GRE_bolster_the_schachtplan",
+        "GRE_renegotiate_debt_with_france"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_renegotiate_debt_with_france",
+      "name": "Renegotiate Debt With France",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_open_up_the_country"
+      ],
+      "mutuallyExclusive": [
+        "GRE_bolster_the_schachtplan",
+        "GRE_british_docking_rights"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_appeal_to_the_soviet_union",
+      "name": "Appeal To The Soviet Union",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_british_docking_rights",
+        "GRE_renegotiate_debt_with_france"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_hellenic_armed_forces",
+      "name": "Hellenic Armed Forces",
+      "description": "",
+      "x": 35,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_the_hellenic_air_force",
+      "name": "The Hellenic Air Force",
+      "description": "",
+      "x": -7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_hellenic_armed_forces"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_the_hellenic_army",
+      "name": "The Hellenic Army",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_hellenic_armed_forces"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_the_hellenic_navy",
+      "name": "The Hellenic Navy",
+      "description": "",
+      "x": 7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_hellenic_armed_forces"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_a_modern_navy",
+      "name": "A Modern Navy",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_the_hellenic_navy"
+      ],
+      "mutuallyExclusive": [
+        "GRE_abandon_the_greek_turkish_naval_treaty"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_abandon_the_greek_turkish_naval_treaty",
+      "name": "Abandon The Greek Turkish Naval Treaty",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_the_hellenic_navy"
+      ],
+      "mutuallyExclusive": [
+        "GRE_a_modern_navy"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_a_fleet_fit_for_the_aegean",
+      "name": "A Fleet Fit For The Aegean",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_abandon_the_greek_turkish_naval_treaty"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_disrupting_the_great_powers",
+      "name": "Disrupting The Great Powers",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_a_modern_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_the_cannon",
+      "name": "The Cannon",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_a_fleet_fit_for_the_aegean"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_the_torpedo",
+      "name": "The Torpedo",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_disrupting_the_great_powers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_a_long_and_proud_tradition",
+      "name": "A Long And Proud Tradition",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_disrupting_the_great_powers",
+        "GRE_a_fleet_fit_for_the_aegean"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_the_backbone_of_our_army",
+      "name": "The Backbone Of Our Army",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_the_hellenic_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_a_legacy_of_war",
+      "name": "A Legacy Of War",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_the_hellenic_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_embracing_modern_warfare",
+      "name": "Embracing Modern Warfare",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_the_backbone_of_our_army"
+      ],
+      "mutuallyExclusive": [
+        "GRE_new_weapons_old_tricks"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_new_weapons_old_tricks",
+      "name": "New Weapons Old Tricks",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_a_legacy_of_war"
+      ],
+      "mutuallyExclusive": [
+        "GRE_embracing_modern_warfare"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_hellenic_armoured_corp",
+      "name": "Hellenic Armoured Corp",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_embracing_modern_warfare"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_greek_mechanisation",
+      "name": "Greek Mechanisation",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_new_weapons_old_tricks"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_a_land_of_mountains",
+      "name": "A Land Of Mountains",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_hellenic_armoured_corp",
+        "GRE_greek_mechanisation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_destroying_our_foes",
+      "name": "Destroying Our Foes",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_the_hellenic_air_force"
+      ],
+      "mutuallyExclusive": [
+        "GRE_protecting_our_skies"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_protecting_our_skies",
+      "name": "Protecting Our Skies",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_the_hellenic_air_force"
+      ],
+      "mutuallyExclusive": [
+        "GRE_destroying_our_foes"
+      ],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_escorts_for_our_bombers",
+      "name": "Escorts For Our Bombers",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_destroying_our_foes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_defending_our_seas",
+      "name": "Defending Our Seas",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_protecting_our_skies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_fund_the_hellenic_air_force_academy",
+      "name": "Fund The Hellenic Air Force Academy",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_escorts_for_our_bombers",
+        "GRE_defending_our_seas"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_the_double_headed_aquila",
+      "name": "The Double Headed Aquila",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_fund_the_hellenic_air_force_academy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_greek_diggers",
+      "name": "Greek Diggers",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_a_land_of_mountains"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_modern_cataphracts",
+      "name": "Modern Cataphracts",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_a_land_of_mountains"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_thema_nautikon",
+      "name": "Thema Nautikon",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "GRE_a_long_and_proud_tradition"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_Resettlement_of_the_our_people",
+      "name": "Resettlement Of The Our People",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 4,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_Teachings_in_defeat",
+      "name": "Teachings In Defeat",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 4,
+      "prerequisites": [
+        "GRE_Resettlement_of_the_our_people"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_exercise_our_people",
+      "name": "Exercise Our People",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 4,
+      "prerequisites": [
+        "GRE_Teachings_in_defeat"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_embrace_our_ancient_people",
+      "name": "Embrace Our Ancient People",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 4,
+      "prerequisites": [
+        "GRE_Resettlement_of_the_our_people"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_profit_from_diamond_mines",
+      "name": "Profit From Diamond Mines",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 4,
+      "prerequisites": [
+        "GRE_embrace_our_ancient_people"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_form_a_greater_greece",
+      "name": "Form A Greater Greece",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 4,
+      "prerequisites": [
+        "GRE_Gather_the_best",
+        "GRE_profit_from_diamond_mines",
+        "GRE_exercise_our_people"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_Reach_out_to_our_people",
+      "name": "Reach Out To Our People",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 4,
+      "prerequisites": [
+        "GRE_Resettlement_of_the_our_people"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    },
+    {
+      "id": "GRE_Gather_the_best",
+      "name": "Gather The Best",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 4,
+      "prerequisites": [
+        "GRE_Reach_out_to_our_people"
+      ],
+      "mutuallyExclusive": [],
+      "source": "greece.txt",
+      "shared": false
+    }
+  ]
+}

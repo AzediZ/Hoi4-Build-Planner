@@ -1,0 +1,73 @@
+FUWG starting tech parser report
+
+Country history files parsed: 68
+Countries with starting techs: 66
+
+- AFG (AFG - Afghanistan.txt): 19 techs
+- AOI (AOI - Italian East Africa.txt): 49 techs
+- ARG (ARG - Argentina.txt): 61 techs
+- AST (AST - Australia.txt): 69 techs
+- BEL (BEL - Belgium.txt): 57 techs
+- BHU (BHU - Bhutan.txt): 11 techs
+- BRA (BRA - Brazil.txt): 49 techs
+- BUL (BUL - Bulgaria.txt): 37 techs
+- CAN (CAN - Canada.txt): 62 techs
+- CHI (CHI - China.txt): 46 techs
+- CHL (CHL - Chile.txt): 54 techs
+- CRO (CRO - Croatia.txt): 27 techs
+- CSA (CSA - CSA.txt): 65 techs
+- CUB (CUB - Cuba.txt): 17 techs
+- CZE (CZE - Czechoslovakia.txt): 43 techs
+- DDR (DDR - East Germany.txt): 78 techs
+- DEN (DEN - Denmark.txt): 49 techs
+- EFR (EFR - Vichy France.txt): 0 techs
+- ENG (ENG - Britain.txt): 134 techs
+- ETH (ETH - Ethiopia.txt): 16 techs
+- FIN (FIN - Finland.txt): 55 techs
+- FRA (FRA - France.txt): 122 techs
+- GER (GER - Germany.txt): 121 techs
+- GRE (GRE - Greece.txt): 60 techs
+- HOL (HOL - Holland.txt): 77 techs
+- HUN (HUN - Hungary.txt): 53 techs
+- ICE (ICE - Iceland.txt): 35 techs
+- INS (INS - Indonesia.txt): 40 techs
+- IRE (IRE- Ireland.txt): 21 techs
+- ITA (ITA - Italy.txt): 97 techs
+- JAP (JAP - Japan.txt): 111 techs
+- KOR (KOR - Korea.txt): 2 techs
+- LAT (LAT - Latvia.txt): 30 techs
+- LBV (LBV - Lombardy Venetia.txt): 49 techs
+- MAL (MAL - Malaysia.txt): 52 techs
+- MAN (MAN - Manchukou.txt): 16 techs
+- MEX (MEX - Mexico.txt): 43 techs
+- MON (MON - Mongolia.txt): 14 techs
+- NEP (NEP - Nepal.txt): 15 techs
+- NOR (NOR - Norway.txt): 47 techs
+- NUL (NUL - null.txt): 0 techs
+- NZL (NZL - New Zealand.txt): 57 techs
+- PAP (PAP - Papal States.txt): 49 techs
+- PER (PER - Persia.txt): 27 techs
+- PHI (PHI - Philippines.txt): 28 techs
+- POL (POL - Poland.txt): 66 techs
+- POR (POR - Portugal.txt): 43 techs
+- PRU (PRU - Peru.txt): 37 techs
+- QUE (QUE - Quebec.txt): 27 techs
+- RAJ (RAJ - British Raj.txt): 40 techs
+- RAP (RAP - Rapa Nui.txt): 52 techs
+- ROM (ROM - Romania.txt): 58 techs
+- SAF (SAF - South Africa.txt): 44 techs
+- SAU (SAU - Saudi Arabia.txt): 4 techs
+- SIA (SIA - Siam.txt): 40 techs
+- SIK (SIK - Sinkiang.txt): 14 techs
+- SOV (SOV - Soviet union.txt): 100 techs
+- SPM (SPM - Sardinia Piedmont.txt): 49 techs
+- SPR (SPR - Spain.txt): 68 techs
+- SWE (SWE - Sweden.txt): 72 techs
+- SWI (SWI - Switzerland.txt): 29 techs
+- TOS (TOS - Tuscany.txt): 49 techs
+- TTS (TTS - The Two Sicilies.txt): 49 techs
+- TUR (TUR - Turkey.txt): 55 techs
+- URG (URG - Uruguay.txt): 28 techs
+- USA (USA - USA.txt): 112 techs
+- VEN (VEN - Venezuela.txt): 22 techs
+- YUG (YUG - Yugoslavia.txt): 56 techs

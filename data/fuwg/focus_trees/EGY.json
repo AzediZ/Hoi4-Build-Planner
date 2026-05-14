@@ -1,0 +1,960 @@
+{
+  "mod": "FUWG",
+  "tag": "EGY",
+  "country": "Egypt",
+  "treeId": "egypt_tree",
+  "sourceFile": "egypt.txt",
+  "focusCount": 66,
+  "focuses": [
+    {
+      "id": "EGY_1936_treaty",
+      "name": "1936 Treaty",
+      "description": "In 1936, Egypt finds itself at a critical crossroads as the Anglo-Egyptian Treaty, which has long dictated the terms of British influence in the country, comes up for renegotiation. This pivotal moment presents Egypt with a historic opportunity to assert its independence and sovereignty or to reaffirm its ties to the British Commonwealth.",
+      "x": 25,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_commonwealth",
+      "name": "Commit to the Commonwealth",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_1936_treaty"
+      ],
+      "mutuallyExclusive": [
+        "EGY_distance_from_britain"
+      ],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_civil_admin",
+      "name": "Civil Admin",
+      "description": "With a focus on Increasing Civil Administration, Egypt prioritizes the modernization of its bureaucratic systems to better serve its citizens. Through streamlined processes and improved governance structures, the government aims to enhance efficiency and responsiveness. This initiative signifies a commitment to fostering a more effective and accountable administration to meet the evolving needs of the nation.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_commonwealth"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_civilian",
+      "name": "Civilian Support",
+      "description": "Egypt promotes democratic values through education and awareness campaigns, encouraging civic engagement. This focus reflects the nation's dedication to fostering a participatory and inclusive society rooted in democratic principles.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_civil_admin"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_modernize_military_infrastructure",
+      "name": "Modernise Military Infrastructure",
+      "description": "Egypt prioritizes the expansion and modernization of its military infrastructure, investing in upgrades to ports, airbases, and communication networks. This focus aims to enhance the nation's defense capabilities and strategic preparedness.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_commonwealth"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_military_support",
+      "name": "Military Support",
+      "description": "Egypt initiates measures to strengthen military support for democracy, emphasizing civilian control and respect for constitutional processes. Through training programs and institutional reforms, the military is aligned with democratic values, ensuring its role as a protector of the nation's democratic institutions and principles.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_modernize_military_infrastructure"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_democratic_coup",
+      "name": "Democratic Coup",
+      "description": "In a bold move towards democracy, Egypt's military leaders orchestrate a coup against the monarchy, aiming to establish a democratic government. Backed by civilian support, this focus marks a pivotal moment in Egypt's history as it transitions towards democratic governance.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_military_support",
+        "EGY_civilian"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_inequality",
+      "name": "Addressing Inequality",
+      "description": "Egypt launches initiatives to address socioeconomic inequality, implementing policies such as land redistribution and education reforms. By tackling disparities in wealth and opportunity, this focus aims to foster a more equitable society, ensuring prosperity and stability for all citizens.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_democratic_coup"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_sudanese_support",
+      "name": "Sudanese Support",
+      "description": "In response to the Sudanese independence movement, Egypt grants increased autonomy and rights to Sudanese regions. This focus aims to address grievances and promote unity within the nation, acknowledging the importance of regional autonomy while preserving Egypt's territorial integrity.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_inequality"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_regional_stabilty",
+      "name": "Regional Stabilty",
+      "description": "Egypt prioritizes regional stability through diplomatic initiatives and conflict resolution efforts. This focus aims to foster peaceful relations with neighboring countries, mitigate regional tensions, and promote cooperation on shared security challenges, ensuring stability and prosperity in the Middle East.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_democratic_coup"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_crown_colony",
+      "name": "Crown Colony",
+      "description": "Egypt leverages its status as a crown colony to attract foreign investment and stimulate economic growth. By offering incentives and favorable conditions to investors, this focus aims to modernize infrastructure, create job opportunities, and bolster Egypt's prosperity under colonial rule.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_regional_stabilty"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_distance_from_britain",
+      "name": "Distance from Britain",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_1936_treaty"
+      ],
+      "mutuallyExclusive": [
+        "EGY_commonwealth"
+      ],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_nationalise_key_industries",
+      "name": "Nationalise Key Industries",
+      "description": "Egypt embarks on a path to nationalize key industries, reclaiming control over strategic sectors of the economy. Through this focus, the government seeks to reduce foreign influence, stimulate domestic growth, and ensure that Egypt's resources serve the interests of its people",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_distance_from_britain"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_anti_british",
+      "name": "Anti British Propaganda",
+      "description": "Egypt launches a campaign to spread anti-British propaganda, aiming to rally public sentiment against colonial rule. Through media, education, and public discourse, this focus seeks to undermine British influence and galvanize support for Egypt's independence movement.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_distance_from_britain"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_education_reform",
+      "name": "Education Reform",
+      "description": "Egypt initiates comprehensive reforms to modernize its educational system, prioritizing access, quality, and relevance. Through curriculum updates, teacher training, and infrastructure improvements, this focus aims to equip future generations with the skills and knowledge needed to thrive in a rapidly changing world.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_anti_british",
+        "EGY_nationalise_key_industries"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_declare_independence",
+      "name": "Declare Independence",
+      "description": "In a decisive bid for autonomy, Egypt boldly declares independence from its colonial ruler, marking a historic milestone in its quest for sovereignty. This focus signifies Egypt's determination to assert its national identity and shape its own destiny, free from external domination.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_education_reform"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_destory_sudan",
+      "name": "Destory Sudanese Independence Movement",
+      "description": "With firm resolve, Egypt launches a military crackdown to quell the Sudanese independence movement, aiming to maintain control over the region. This focus represents a decisive effort to suppress dissent and preserve territorial integrity, asserting Egypt's authority in the face of internal challenges.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_declare_independence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_investment_political",
+      "name": "Investments in Urban Areas",
+      "description": "With strategic vision, Egypt directs significant investment into its urban areas, revitalizing infrastructure and stimulating economic growth. This focus aims to modernize cities, attract businesses, and improve living standards, laying the foundation for a prosperous and vibrant urban landscape.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_destory_sudan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_promote_arabian_idenity",
+      "name": "Promote Arab Idenity",
+      "description": "Embracing pan-Arabism, Egypt launches initiatives to promote Arab identity and unity within its borders. By celebrating shared culture, language, and history, this focus aims to strengthen bonds with neighboring Arab nations and foster a sense of solidarity across the region.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_declare_independence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_arab_state",
+      "name": "Arab State",
+      "description": "Egypt lays the groundwork for a unified Arab state, envisioning a future of collective strength and solidarity. Through diplomatic outreach and strategic alliances, this focus aims to unite Arab nations under a common banner, realizing the aspirations of pan-Arabism.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_promote_arabian_idenity"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_war_with_axis",
+      "name": "War With the Axis",
+      "description": "With vigilant foresight, Egypt devises comprehensive defense plans to safeguard its borders from Axis aggression. Through military preparedness and strategic alliances with Allied powers, this focus aims to protect Egypt's sovereignty and ensure the security of its people against external threats.",
+      "x": null,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_sudanese_support",
+        "EGY_crown_colony",
+        "EGY_investment_political",
+        "EGY_arab_state"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_libyia",
+      "name": "Libyia",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_war_with_axis"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_ethiopia",
+      "name": "Ethiopia",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_war_with_axis"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_industrial_effort",
+      "name": "Industrial Build-Up",
+      "description": "",
+      "x": 5,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_desert_development_1",
+      "name": "Increase Desert Infrastructure",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_industrial_effort"
+      ],
+      "mutuallyExclusive": [
+        "EGY_coastal_development_1"
+      ],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_desert_development_2",
+      "name": "Rural Factories",
+      "description": "",
+      "x": 3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_desert_development_1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_coastal_development_1",
+      "name": "Increase Suez Industry",
+      "description": "",
+      "x": 7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_industrial_effort"
+      ],
+      "mutuallyExclusive": [
+        "EGY_desert_development_1"
+      ],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_coastal_development_2",
+      "name": "Coastal Industrial Expansion",
+      "description": "",
+      "x": 7,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_coastal_development_1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_military_development",
+      "name": "Military Industry Development",
+      "description": "",
+      "x": 5,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_desert_development_2",
+        "EGY_coastal_development_2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_extra_civ_effort",
+      "name": "Additional Civilian Industry Effort",
+      "description": "",
+      "x": 3,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_military_development"
+      ],
+      "mutuallyExclusive": [
+        "EGY_extra_mil_effort",
+        "EGY_extra_dockyard_effort"
+      ],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_extra_civ_effort_2",
+      "name": "Final Civilian Industry Effort",
+      "description": "",
+      "x": 3,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_extra_civ_effort"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_extra_mil_effort",
+      "name": "Additional Military Industrial Effort",
+      "description": "",
+      "x": 5,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_military_development"
+      ],
+      "mutuallyExclusive": [
+        "EGY_extra_civ_effort",
+        "EGY_extra_dockyard_effort"
+      ],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_extra_mil_effort_2",
+      "name": "Final Military Industrial Effort",
+      "description": "",
+      "x": 5,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_extra_mil_effort"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_extra_dockyard_effort",
+      "name": "Additional Shipbuilding Effort",
+      "description": "",
+      "x": 7,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_military_development"
+      ],
+      "mutuallyExclusive": [
+        "EGY_extra_mil_effort",
+        "EGY_extra_civ_effort"
+      ],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_extra_dockyard_effort_2",
+      "name": "Final Shipbuilding Effort",
+      "description": "",
+      "x": 7,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_extra_dockyard_effort"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_army_reorg",
+      "name": "Army Reorganisation",
+      "description": "",
+      "x": 12,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_Traditional_warfare",
+      "name": "Traditional Warfare",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_army_reorg"
+      ],
+      "mutuallyExclusive": [
+        "EGY_tank_path",
+        "EGY_inf_path"
+      ],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_Elite_Traditionalists",
+      "name": "Elite Traditionalists",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_Traditional_warfare"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_Militairy_Identity",
+      "name": "Militairy Identity",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_remove_debuff"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_inf_path",
+      "name": "Infantry Weapon Research",
+      "description": "",
+      "x": 10,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_army_reorg"
+      ],
+      "mutuallyExclusive": [
+        "EGY_tank_path",
+        "EGY_Traditional_warfare"
+      ],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_inf_path_2",
+      "name": "Infantry Specialisation",
+      "description": "",
+      "x": 10,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_inf_path"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_tank_path",
+      "name": "Tank Research",
+      "description": "",
+      "x": 12,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_army_reorg"
+      ],
+      "mutuallyExclusive": [
+        "EGY_inf_path",
+        "EGY_Traditional_warfare"
+      ],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_tank_path_2",
+      "name": "Tank Specialisation",
+      "description": "",
+      "x": 12,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_tank_path"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_remove_debuff",
+      "name": "Army Modernisation",
+      "description": "",
+      "x": 12,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_tank_path_2",
+        "EGY_inf_path_2",
+        "EGY_Elite_Traditionalists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_arty_bonus",
+      "name": "Artillery Research",
+      "description": "",
+      "x": 11,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_remove_debuff"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_doctrine_advance",
+      "name": "Doctrinal Advancements",
+      "description": "",
+      "x": 12,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_arty_bonus",
+        "EGY_Militairy_Identity"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_navy",
+      "name": "Basic Naval Technology",
+      "description": "",
+      "x": 16,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_navy_2",
+      "name": "Sinai Dockyard Expansion",
+      "description": "",
+      "x": 16,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_navy_3",
+      "name": "Expand Suez Shipyards",
+      "description": "",
+      "x": 16,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_navy_2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_air",
+      "name": "Air Base Expansion",
+      "description": "",
+      "x": 18,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_air_2",
+      "name": "Expand Military Base Construction",
+      "description": "",
+      "x": 18,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_air"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_suez_canal_administration",
+      "name": "Suez Canal Administration",
+      "description": "",
+      "x": 40,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_ease_congestion",
+      "name": "Ease Congestion",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_suez_canal_administration"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_increase_shipping_fees",
+      "name": "Increase Shipping Fees",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_suez_canal_administration"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_fortify_the_canal",
+      "name": "Fortify The Canal",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_suez_canal_administration"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_threats_from_above",
+      "name": "Threats From Above",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_suez_canal_administration"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_embargo_potential_threats",
+      "name": "Embargo Potential Threats",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_ease_congestion",
+        "EGY_increase_shipping_fees"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_sinai_defensive_logistics",
+      "name": "Sinai Defensive Logistics",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_threats_from_above",
+        "EGY_fortify_the_canal"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_connect_the_eastern_oil_fields",
+      "name": "Connect The Eastern Oil Fields",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_embargo_potential_threats"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_british_merchant_marine_trading_post",
+      "name": "Create British Merchant Marine Trading Posts",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_embargo_potential_threats"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_invest_in_our_neighbour",
+      "name": "Invest In Our Neighbours",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_british_merchant_marine_trading_post",
+        "EGY_connect_the_eastern_oil_fields"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_defend_the_holy_land",
+      "name": "Defend The Holy Land",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_sinai_defensive_logistics"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_the_damascus_line",
+      "name": "The Damascus Line",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_sinai_defensive_logistics"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_create_eastern_military_complexes",
+      "name": "Create Eastern Military Complexes",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_the_damascus_line",
+        "EGY_defend_the_holy_land"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "EGY_finalise_the_suez_project",
+      "name": "Finalise The Suez Project",
+      "description": "",
+      "x": 0,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "EGY_create_eastern_military_complexes",
+        "EGY_invest_in_our_neighbour"
+      ],
+      "mutuallyExclusive": [],
+      "source": "egypt.txt",
+      "shared": false
+    },
+    {
+      "id": "COM_together_for_britain",
+      "name": "Together for Britain",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "shared_reference",
+      "shared": true
+    }
+  ]
+}

@@ -1,0 +1,3282 @@
+{
+  "mod": "FUWG",
+  "tag": "AUS",
+  "country": "Austria",
+  "treeId": "austria_focus_tree",
+  "sourceFile": "austria.txt",
+  "focusCount": 220,
+  "focuses": [
+    {
+      "id": "AUS_repeal_the_may_constitution",
+      "name": "Repeal The May Constitution",
+      "description": "",
+      "x": 16,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "AUS_totalitarian_safety"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_release_imprisoned_leaders",
+      "name": "Release Imprisoned Leaders",
+      "description": "",
+      "x": -7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_repeal_the_may_constitution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_austria_against_fascism",
+      "name": "Austria Against Fascism",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_repeal_the_may_constitution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_austromarxism_focus",
+      "name": "Austromarxism Focus",
+      "description": "",
+      "x": -9,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_release_imprisoned_leaders",
+        "AUS_austria_against_fascism"
+      ],
+      "mutuallyExclusive": [
+        "AUS_hold_elections",
+        "AUS_reinstate_the_imperial_council"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_rally_the_people",
+      "name": "Rally The People",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_austromarxism_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_ban_dnsap",
+      "name": "Ban Dnsap",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_rally_the_people"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_renounce_the_treaties",
+      "name": "Renounce The Treaties",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_rally_the_people"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_schutzbund_support",
+      "name": "Schutzbund Support",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_rally_the_people",
+        "AUS_rebuild_democratic_systems",
+        "AUS_a_new_constitution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_emergency_measaures",
+      "name": "Emergency Measaures",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_ban_dnsap",
+        "AUS_renounce_the_treaties"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_intervention_in_spain",
+      "name": "Intervention In Spain",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_emergency_measaures",
+        "AUS_seek_support_from_guarantors"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_invite_spanish_exiles",
+      "name": "Invite Spanish Exiles",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_intervention_in_spain"
+      ],
+      "mutuallyExclusive": [
+        "AUS_celebrate_spanish_victory"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_celebrate_spanish_victory",
+      "name": "Celebrate Spanish Victory",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_intervention_in_spain"
+      ],
+      "mutuallyExclusive": [
+        "AUS_invite_spanish_exiles"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_revolution",
+      "name": "Revolution",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_emergency_measaures"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_seek_soviet_support",
+      "name": "Seek Soviet Support",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_revolution"
+      ],
+      "mutuallyExclusive": [
+        "AUS_raid_military_storages"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_politicized_general_staff",
+      "name": "Politicized General Staff",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_seek_soviet_support"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_promote_the_worthy",
+      "name": "Promote The Worthy",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_seek_soviet_support"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_raid_military_storages",
+      "name": "Raid Military Storages",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_revolution"
+      ],
+      "mutuallyExclusive": [
+        "AUS_seek_soviet_support"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_the_peoples_army",
+      "name": "The Peoples Army",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_raid_military_storages"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_properly_trained_militias",
+      "name": "Properly Trained Militias",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_raid_military_storages"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_a_new_beginning",
+      "name": "A New Beginning",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_seek_soviet_support",
+        "AUS_raid_military_storages"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_a_safe_harbor_for_dissidents",
+      "name": "A Safe Harbor For Dissidents",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_properly_trained_militias",
+        "AUS_the_peoples_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_universitat_wien",
+      "name": "Universitat Wien",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_a_new_beginning",
+        "AUS_join_the_allies",
+        "AUS_alpine_federation_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_womens_education_initiative",
+      "name": "Womens Education Initiative",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_universitat_wien"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_scientific_grants",
+      "name": "Scientific Grants",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_universitat_wien"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_danubian_socialist_communes",
+      "name": "Danubian Socialist Communes",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_a_new_beginning",
+        "AUS_a_safe_harbor_for_dissidents"
+      ],
+      "mutuallyExclusive": [
+        "AUS_join_comintern"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_establish_rote_hilfe",
+      "name": "Establish Rote Hilfe",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_a_safe_harbor_for_dissidents"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_cut_ties_with_the_church",
+      "name": "Cut Ties With The Church",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_a_new_beginning"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_centralize_the_industrial_sector",
+      "name": "Centralize The Industrial Sector",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_a_new_beginning",
+        "AUS_align_with_ussr"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_align_with_ussr",
+      "name": "Align With Ussr",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_promote_the_worthy",
+        "AUS_politicized_general_staff"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_join_comintern",
+      "name": "Join Comintern",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_align_with_ussr",
+        "AUS_a_new_beginning"
+      ],
+      "mutuallyExclusive": [
+        "AUS_danubian_socialist_communes"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_spur_the_communist_resistance",
+      "name": "Spur The Communist Resistance",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_cut_ties_with_the_church",
+        "AUS_centralize_the_industrial_sector"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_rapid_revolutions",
+      "name": "Rapid Revolutions",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_spur_the_communist_resistance"
+      ],
+      "mutuallyExclusive": [
+        "AUS_meticulous_preparations"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_meticulous_preparations",
+      "name": "Meticulous Preparations",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_spur_the_communist_resistance"
+      ],
+      "mutuallyExclusive": [
+        "AUS_rapid_revolutions"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_demand_liberation_of_workers",
+      "name": "Demand Liberation Of Workers",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_meticulous_preparations",
+        "AUS_rapid_revolutions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_union_of_danubian_socialist_republics",
+      "name": "Union Of Danubian Socialist Republics",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_demand_liberation_of_workers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_the_correct_communism",
+      "name": "The Correct Communism",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_union_of_danubian_socialist_republics"
+      ],
+      "mutuallyExclusive": [
+        "AUS_seize_galicia"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_seize_galicia",
+      "name": "Seize Galicia",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_union_of_danubian_socialist_republics"
+      ],
+      "mutuallyExclusive": [
+        "AUS_the_correct_communism"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_hold_elections",
+      "name": "Hold Elections",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_release_imprisoned_leaders",
+        "AUS_austria_against_fascism"
+      ],
+      "mutuallyExclusive": [
+        "AUS_austromarxism_focus",
+        "AUS_reinstate_the_imperial_council"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_rebuild_democratic_systems",
+      "name": "Rebuild Democratic Systems",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_hold_elections"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_a_new_constitution",
+      "name": "A New Constitution",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_hold_elections"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_seek_support_from_guarantors",
+      "name": "Seek Support From Guarantors",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_a_new_constitution",
+        "AUS_rebuild_democratic_systems"
+      ],
+      "mutuallyExclusive": [
+        "AUS_the_danubian_federation",
+        "AUS_legacy_of_the_empire"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_stabilize_the_political_climate",
+      "name": "Stabilize The Political Climate",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_seek_support_from_guarantors"
+      ],
+      "mutuallyExclusive": [
+        "AUS_outlaw_the_radicals"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_outlaw_the_radicals",
+      "name": "Outlaw The Radicals",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_seek_support_from_guarantors"
+      ],
+      "mutuallyExclusive": [
+        "AUS_stabilize_the_political_climate"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_strengthen_the_cabinet",
+      "name": "Strengthen The Cabinet",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_outlaw_the_radicals",
+        "AUS_stabilize_the_political_climate"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_join_the_allies",
+      "name": "Join The Allies",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_strengthen_the_cabinet"
+      ],
+      "mutuallyExclusive": [
+        "AUS_alpine_federation_focus"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_industrial_exchange",
+      "name": "Industrial Exchange",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_join_the_allies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_alpine_federation_focus",
+      "name": "Alpine Federation Focus",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_strengthen_the_cabinet"
+      ],
+      "mutuallyExclusive": [
+        "AUS_join_the_allies"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_invite_the_entente",
+      "name": "Invite The Entente",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_alpine_federation_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_offensive_on_the_fascists",
+      "name": "Offensive On The Fascists",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_invite_the_entente"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_pardon_political_exiles",
+      "name": "Pardon Political Exiles",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_join_the_allies",
+        "AUS_alpine_federation_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_the_right_to_rearm",
+      "name": "The Right To Rearm",
+      "description": "",
+      "x": 4,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_seek_support_from_guarantors",
+        "AUS_the_danubian_federation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_defence_of_the_homeland",
+      "name": "Defence Of The Homeland",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_the_right_to_rearm"
+      ],
+      "mutuallyExclusive": [
+        "AUS_austrian_aggression"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_the_political_front",
+      "name": "The Political Front",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_defence_of_the_homeland"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_austrian_aggression",
+      "name": "Austrian Aggression",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_the_right_to_rearm"
+      ],
+      "mutuallyExclusive": [
+        "AUS_defence_of_the_homeland"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_at_the_ready",
+      "name": "At The Ready",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_austrian_aggression"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_form_dsn",
+      "name": "Form Dsn",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_at_the_ready",
+        "AUS_the_political_front"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_lawmaking_leniency",
+      "name": "Lawmaking Leniency",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_invite_the_entente",
+        "AUS_industrial_exchange"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_empowering_the_chancellor",
+      "name": "Empowering The Chancellor",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_lawmaking_leniency"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_join_the_research_program",
+      "name": "Join The Research Program",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_lawmaking_leniency"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_the_right_to_self_determination",
+      "name": "The Right To Self Determination",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_join_the_research_program",
+        "AUS_empowering_the_chancellor"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_our_brothers_in_the_east",
+      "name": "Our Brothers In The East",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_the_right_to_self_determination"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_deal_with_the_german_threat",
+      "name": "Deal With The German Threat",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_union_of_danubian_socialist_republics",
+        "AUS_the_right_to_self_determination",
+        "AUS_protector_of_the_danube",
+        "AUS_via_danube_to_europe"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_end_european_fascism",
+      "name": "End European Fascism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_deal_with_the_german_threat"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_the_danubian_federation",
+      "name": "The Danubian Federation",
+      "description": "",
+      "x": 7,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_hold_elections",
+        "AUS_reinstate_the_imperial_council"
+      ],
+      "mutuallyExclusive": [
+        "AUS_seek_support_from_guarantors",
+        "AUS_legacy_of_the_empire"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_invite_danubian_countries",
+      "name": "Invite Danubian Countries",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_the_danubian_federation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_danubian_unity",
+      "name": "Danubian Unity",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_invite_danubian_countries"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_inviting_the_observers",
+      "name": "Inviting The Observers",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_danubian_unity"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_unexpected_alliances",
+      "name": "Unexpected Alliances",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_danubian_unity"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_diplomatic_effort",
+      "name": "Diplomatic Effort",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_unexpected_alliances",
+        "AUS_inviting_the_observers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_protector_of_the_danube",
+      "name": "Protector Of The Danube",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_diplomatic_effort"
+      ],
+      "mutuallyExclusive": [
+        "AUS_via_danube_to_europe"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_via_danube_to_europe",
+      "name": "Via Danube To Europe",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_diplomatic_effort"
+      ],
+      "mutuallyExclusive": [
+        "AUS_protector_of_the_danube"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_reinstate_the_imperial_council",
+      "name": "Reinstate The Imperial Council",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_austria_against_fascism"
+      ],
+      "mutuallyExclusive": [
+        "AUS_austromarxism_focus",
+        "AUS_hold_elections"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_legacy_of_the_empire",
+      "name": "Legacy Of The Empire",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_reinstate_the_imperial_council"
+      ],
+      "mutuallyExclusive": [
+        "AUS_the_danubian_federation",
+        "AUS_seek_support_from_guarantors"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_repeal_the_habsburgergesetz",
+      "name": "Repeal The Habsburgergesetz",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_legacy_of_the_empire"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_bring_back_the_habsburg_rule",
+      "name": "Bring Back The Habsburg Rule",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_legacy_of_the_empire"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_rebellious_rearmament",
+      "name": "Rebellious Rearmament",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_repeal_the_habsburgergesetz",
+        "AUS_bring_back_the_habsburg_rule"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_strengthen_legitimistische_corps",
+      "name": "Strengthen Legitimistische Corps",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_rebellious_rearmament"
+      ],
+      "mutuallyExclusive": [
+        "AUS_legitimistische_studentenverbindung"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_legitimistische_studentenverbindung",
+      "name": "Legitimistische Studentenverbindung",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_rebellious_rearmament"
+      ],
+      "mutuallyExclusive": [
+        "AUS_strengthen_legitimistische_corps"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_sturmscharen_support",
+      "name": "Sturmscharen Support",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_strengthen_legitimistische_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_eiserne_legion",
+      "name": "Eiserne Legion",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_sturmscharen_support"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_legitimistische_jugend",
+      "name": "Legitimistische Jugend",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_legitimistische_studentenverbindung"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_repeal_the_adelsaufhebungsgesetz",
+      "name": "Repeal The Adelsaufhebungsgesetz",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_legitimistische_studentenverbindung",
+        "AUS_strengthen_legitimistische_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_the_evidenzburo",
+      "name": "The Evidenzburo",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_repeal_the_adelsaufhebungsgesetz"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_the_royals_of_liechtenstein",
+      "name": "The Royals Of Liechtenstein",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_the_evidenzburo",
+        "AUS_legitimistische_jugend",
+        "AUS_sturmscharen_support"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_osterreichische_akademie",
+      "name": "Osterreichische Akademie",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_the_royals_of_liechtenstein"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_royal_scientific_grants",
+      "name": "Royal Scientific Grants",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_osterreichische_akademie"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_war_against_bolshevism",
+      "name": "War Against Bolshevism",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_the_royals_of_liechtenstein",
+        "AUS_protector_of_the_danube",
+        "AUS_for_a_better_future",
+        "AUS_via_danube_to_europe"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_crusade_on_communism",
+      "name": "Crusade On Communism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_war_against_bolshevism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_demand_hungarian_submission",
+      "name": "Demand Hungarian Submission",
+      "description": "",
+      "x": 8,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_rebellious_rearmament"
+      ],
+      "mutuallyExclusive": [
+        "AUS_bring_hungary_back_into_the_fold"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_join_the_axis",
+      "name": "Join The Axis",
+      "description": "",
+      "x": 4,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_demand_hungarian_submission",
+        "AUS_bring_hungary_back_into_the_fold"
+      ],
+      "mutuallyExclusive": [
+        "AUS_reforming_the_central_powers",
+        "AUS_a_royal_alliance"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_reforming_the_central_powers",
+      "name": "Reforming The Central Powers",
+      "description": "",
+      "x": -2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_demand_hungarian_submission",
+        "AUS_bring_hungary_back_into_the_fold"
+      ],
+      "mutuallyExclusive": [
+        "AUS_join_the_axis",
+        "AUS_a_royal_alliance"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_a_royal_alliance",
+      "name": "A Royal Alliance",
+      "description": "",
+      "x": -2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_demand_hungarian_submission",
+        "AUS_bring_hungary_back_into_the_fold"
+      ],
+      "mutuallyExclusive": [
+        "AUS_join_the_axis",
+        "AUS_reforming_the_central_powers"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_subjugate_lands_of_old",
+      "name": "Subjugate Lands Of Old",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_demand_hungarian_submission"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_the_silesian_question",
+      "name": "The Silesian Question",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_subjugate_lands_of_old"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_tighten_control_of_subjects",
+      "name": "Tighten Control Of Subjects",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_subjugate_lands_of_old"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_reclaim_habsburg",
+      "name": "Reclaim Habsburg",
+      "description": "",
+      "x": 3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_tighten_control_of_subjects",
+        "AUS_take_back_galicia",
+        "AUS_demand_romanian_lands"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_war_against_guarantors",
+      "name": "War Against Guarantors",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_tighten_control_of_subjects",
+        "AUS_take_back_galicia",
+        "AUS_demand_romanian_lands"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_renew_claims_in_italy",
+      "name": "Renew Claims In Italy",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_tighten_control_of_subjects"
+      ],
+      "mutuallyExclusive": [
+        "AUS_strike_deal_with_italy"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_extend_italian_claims",
+      "name": "Extend Italian Claims",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_renew_claims_in_italy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_strike_deal_with_italy",
+      "name": "Strike Deal With Italy",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_tighten_control_of_subjects"
+      ],
+      "mutuallyExclusive": [
+        "AUS_renew_claims_in_italy"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_for_a_better_future",
+      "name": "For A Better Future",
+      "description": "",
+      "x": 4,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_strike_deal_with_italy",
+        "AUS_renew_claims_in_italy",
+        "AUS_integrate_hungary",
+        "AUS_integrate_northwest"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_bring_hungary_back_into_the_fold",
+      "name": "Bring Hungary Back Into The Fold",
+      "description": "",
+      "x": 12,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_rebellious_rearmament",
+        "AUS_rapid_rearmament",
+        "AUS_heimwehr_support"
+      ],
+      "mutuallyExclusive": [
+        "AUS_demand_hungarian_submission"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_the_czechoslovakian_lands",
+      "name": "The Czechoslovakian Lands",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_bring_hungary_back_into_the_fold"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_reclaiming_yugoslavian_territories",
+      "name": "Reclaiming Yugoslavian Territories",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_bring_hungary_back_into_the_fold"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_take_albania",
+      "name": "Take Albania",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_reclaiming_yugoslavian_territories"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_take_back_galicia",
+      "name": "Take Back Galicia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_reclaiming_yugoslavian_territories",
+        "AUS_the_czechoslovakian_lands"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_demand_romanian_lands",
+      "name": "Demand Romanian Lands",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_reclaiming_yugoslavian_territories",
+        "AUS_the_czechoslovakian_lands"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_integrate_northwest",
+      "name": "Integrate Northwest",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_demand_romanian_lands",
+        "AUS_take_back_galicia"
+      ],
+      "mutuallyExclusive": [
+        "AUS_integrate_hungary"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_integrate_hungary",
+      "name": "Integrate Hungary",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_demand_romanian_lands",
+        "AUS_take_back_galicia"
+      ],
+      "mutuallyExclusive": [
+        "AUS_integrate_northwest"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_proclaim_austrian_empire",
+      "name": "Proclaim Austrian Empire",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_integrate_hungary",
+        "AUS_integrate_northwest",
+        "AUS_renew_claims_in_italy",
+        "AUS_strike_deal_with_italy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_beyond_our_old_lands",
+      "name": "Beyond Our Old Lands",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_proclaim_austrian_empire"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_totalitarian_safety",
+      "name": "Totalitarian Safety",
+      "description": "",
+      "x": 17,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "AUS_repeal_the_may_constitution"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_clamp_down_on_dnsap",
+      "name": "Clamp Down On Dnsap",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_totalitarian_safety"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_supporting_italy_in_ethiopia_focus",
+      "name": "Supporting Italy In Ethiopia Focus",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_clamp_down_on_dnsap"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_approach_democratic_guarantors",
+      "name": "Approach Democratic Guarantors",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_clamp_down_on_dnsap"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_reach_out_to_italy",
+      "name": "Reach Out To Italy",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_clamp_down_on_dnsap"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_refine_vaterlandische_front",
+      "name": "Refine Vaterlandische Front",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_reach_out_to_italy",
+        "AUS_approach_democratic_guarantors"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_seek_agreement_for_rearmament",
+      "name": "Seek Agreement For Rearmament",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_refine_vaterlandische_front"
+      ],
+      "mutuallyExclusive": [
+        "AUS_disregard_the_treaties"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_disregard_the_treaties",
+      "name": "Disregard The Treaties",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_refine_vaterlandische_front"
+      ],
+      "mutuallyExclusive": [
+        "AUS_seek_agreement_for_rearmament"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_rapid_rearmament",
+      "name": "Rapid Rearmament",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_disregard_the_treaties",
+        "AUS_seek_agreement_for_rearmament"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_integrate_dnsap_remnants",
+      "name": "Integrate Dnsap Remnants",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_refine_vaterlandische_front"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_heimwehr_support",
+      "name": "Heimwehr Support",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_integrate_dnsap_remnants"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_spanish_intervention",
+      "name": "Spanish Intervention",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_rapid_rearmament",
+        "AUS_heimwehr_support"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_demand_part_of_spanish_winnings",
+      "name": "Demand Part Of Spanish Winnings",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_spanish_intervention"
+      ],
+      "mutuallyExclusive": [
+        "AUS_invite_spanish_refugees"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_invite_spanish_refugees",
+      "name": "Invite Spanish Refugees",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_spanish_intervention"
+      ],
+      "mutuallyExclusive": [
+        "AUS_demand_part_of_spanish_winnings"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_frontmiliz_focus",
+      "name": "Frontmiliz Focus",
+      "description": "",
+      "x": 5,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_heimwehr_support",
+        "AUS_rapid_rearmament"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_fit_for_fight",
+      "name": "Fit For Fight",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_frontmiliz_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_form_nachrichtenabteilun",
+      "name": "Form Nachrichtenabteilun",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_fit_for_fight"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_wienfilm_propaganda_effort",
+      "name": "Wienfilm Propaganda Effort",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_fit_for_fight"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_consolidate_industries",
+      "name": "Consolidate Industries",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_fit_for_fight"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_universitat_graz",
+      "name": "Universitat Graz",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_consolidate_industries",
+        "AUS_wienfilm_propaganda_effort"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_recruiting_the_graduates",
+      "name": "Recruiting The Graduates",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_universitat_graz"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_heritage_of_an_empire",
+      "name": "Heritage Of An Empire",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_form_nachrichtenabteilun",
+        "AUS_wienfilm_propaganda_effort",
+        "AUS_consolidate_industries"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_second_brothers_war",
+      "name": "Second Brothers War",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_heritage_of_an_empire",
+        "AUS_for_a_better_future"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_an_improved_german_state",
+      "name": "An Improved German State",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_second_brothers_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_restoring_our_rightful_flag",
+      "name": "Restoring Our Rightful Flag",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_an_improved_german_state"
+      ],
+      "mutuallyExclusive": [
+        "AUS_seek_to_purchase_alaska"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_seek_to_purchase_alaska",
+      "name": "Seek To Purchase Alaska",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_an_improved_german_state"
+      ],
+      "mutuallyExclusive": [
+        "AUS_restoring_our_rightful_flag"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_regulate_austrian_finance_sector",
+      "name": "Regulate Austrian Finance Sector",
+      "description": "",
+      "x": 12,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_seek_papal_support",
+      "name": "Seek Papal Support",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_regulate_austrian_finance_sector"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_invest_in_erzberg_steel_mines",
+      "name": "Invest In Erzberg Steel Mines",
+      "description": "",
+      "x": -6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_regulate_austrian_finance_sector"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_courting_the_princess_of_industry",
+      "name": "Courting The Princess Of Industry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_invest_in_erzberg_steel_mines"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_expand_stpoltner_steelworks",
+      "name": "Expand Stpoltner Steelworks",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_courting_the_princess_of_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_invest_in_semperit_synthetics",
+      "name": "Invest In Semperit Synthetics",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_expand_stpoltner_steelworks"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_pulverfabrik_skodawerke",
+      "name": "Pulverfabrik Skodawerke",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_expand_stpoltner_steelworks"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_the_matzen_oil_fields",
+      "name": "The Matzen Oil Fields",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_pulverfabrik_skodawerke",
+        "AUS_invest_in_semperit_synthetics"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_architechtual_advancements",
+      "name": "Architechtual Advancements",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_regulate_austrian_finance_sector"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_autobahn_west",
+      "name": "Autobahn West",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_architechtual_advancements"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_autobahn_south",
+      "name": "Autobahn South",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_architechtual_advancements"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_autobahn_east",
+      "name": "Autobahn East",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_architechtual_advancements"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_bbo_focus",
+      "name": "Bbo Focus",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_autobahn_east",
+        "AUS_autobahn_west",
+        "AUS_autobahn_south"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_economic_resuscitation",
+      "name": "Economic Resuscitation",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_regulate_austrian_finance_sector"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_devalue_the_schilling",
+      "name": "Devalue The Schilling",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_economic_resuscitation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_bring_phonix_insurance_from_the_ashes",
+      "name": "Bring Phonix Insurance From The Ashes",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_devalue_the_schilling"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_great_austrian_economic_push",
+      "name": "Great Austrian Economic Push",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_devalue_the_schilling"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_volkschule",
+      "name": "Volkschule",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_great_austrian_economic_push",
+        "AUS_bring_phonix_insurance_from_the_ashes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_industrialization_effort",
+      "name": "Industrialization Effort",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_regulate_austrian_finance_sector"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_invest_in_alpen_elektrowerke",
+      "name": "Invest In Alpen Elektrowerke",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_industrialization_effort"
+      ],
+      "mutuallyExclusive": [
+        "AUS_invest_in_kapsch"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_invest_in_kapsch",
+      "name": "Invest In Kapsch",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_industrialization_effort"
+      ],
+      "mutuallyExclusive": [
+        "AUS_invest_in_alpen_elektrowerke"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_construction_guilds",
+      "name": "Construction Guilds",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_invest_in_kapsch",
+        "AUS_invest_in_alpen_elektrowerke"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_apprentice_programmes",
+      "name": "Apprentice Programmes",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_construction_guilds"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_osterreichische_luftstreitkrafte",
+      "name": "Osterreichische Luftstreitkrafte",
+      "description": "",
+      "x": 10,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_preparing_the_industry",
+      "name": "Preparing The Industry",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_osterreichische_luftstreitkrafte"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_purchase_foreign_designs",
+      "name": "Purchase Foreign Designs",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_preparing_the_industry"
+      ],
+      "mutuallyExclusive": [
+        "AUS_focus_on_domestic_production"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_focus_on_domestic_production",
+      "name": "Focus On Domestic Production",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_preparing_the_industry"
+      ],
+      "mutuallyExclusive": [
+        "AUS_purchase_foreign_designs"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_flight_schools",
+      "name": "Flight Schools",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_purchase_foreign_designs",
+        "AUS_focus_on_domestic_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_seek_international_partners",
+      "name": "Seek International Partners",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_purchase_foreign_designs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_air_research_boost",
+      "name": "Air Research Boost",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_seek_international_partners"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_revitalize_austrian_air_industry",
+      "name": "Revitalize Austrian Air Industry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_focus_on_domestic_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_light_specialization",
+      "name": "Light Specialization",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_revitalize_austrian_air_industry"
+      ],
+      "mutuallyExclusive": [
+        "AUS_medium_specialization",
+        "AUS_heavy_specialization"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_medium_specialization",
+      "name": "Medium Specialization",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_revitalize_austrian_air_industry"
+      ],
+      "mutuallyExclusive": [
+        "AUS_light_specialization",
+        "AUS_heavy_specialization"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_heavy_specialization",
+      "name": "Heavy Specialization",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_revitalize_austrian_air_industry"
+      ],
+      "mutuallyExclusive": [
+        "AUS_light_specialization",
+        "AUS_medium_specialization"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_air_base_intiative",
+      "name": "Air Base Intiative",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_light_specialization",
+        "AUS_medium_specialization",
+        "AUS_heavy_specialization",
+        "AUS_air_research_boost"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_wien_anti_air_effort",
+      "name": "Wien Anti Air Effort",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_light_specialization",
+        "AUS_medium_specialization",
+        "AUS_heavy_specialization",
+        "AUS_air_research_boost"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_radar_effort",
+      "name": "Radar Effort",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_light_specialization",
+        "AUS_medium_specialization",
+        "AUS_heavy_specialization",
+        "AUS_air_research_boost"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_neustadter_flugzeugwerke",
+      "name": "Neustadter Flugzeugwerke",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_air_base_intiative",
+        "AUS_wien_anti_air_effort",
+        "AUS_radar_effort"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_aerial_strategies",
+      "name": "Aerial Strategies",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_neustadter_flugzeugwerke"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_secret_rearmament",
+      "name": "Secret Rearmament",
+      "description": "",
+      "x": 10,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_militarization_effort",
+      "name": "Militarization Effort",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_secret_rearmament"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_osterreichische_bundesheer",
+      "name": "Osterreichische Bundesheer",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_militarization_effort"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_standardized_army_training",
+      "name": "Standardized Army Training",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_militarization_effort"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_osterreichische_fallschirmsjager",
+      "name": "Osterreichische Fallschirmsjager",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_osterreichische_bundesheer",
+        "AUS_preparing_the_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_osterreichische_gebirgsjager",
+      "name": "Osterreichische Gebirgsjager",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_standardized_army_training",
+        "AUS_osterreichische_bundesheer"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_osterreichische_seebataillon",
+      "name": "Osterreichische Seebataillon",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_standardized_army_training",
+        "AUS_rebuild_the_armada"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_steyr_arms_investment",
+      "name": "Steyr Arms Investment",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_osterreichische_bundesheer"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_supporting_the_troops",
+      "name": "Supporting The Troops",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_osterreichische_bundesheer"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_improve_army_logistics",
+      "name": "Improve Army Logistics",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_steyr_arms_investment",
+        "AUS_supporting_the_troops"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_reinforcing_the_supply_network",
+      "name": "Reinforcing The Supply Network",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_improve_army_logistics"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_follow_the_jansa_plan",
+      "name": "Follow The Jansa Plan",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_osterreichische_bundesheer",
+        "AUS_standardized_army_training"
+      ],
+      "mutuallyExclusive": [
+        "AUS_establish_bohme_plan"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_bring_generals_out_of_retirement",
+      "name": "Bring Generals Out Of Retirement",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_follow_the_jansa_plan",
+        "AUS_establish_bohme_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_the_homeland_front",
+      "name": "The Homeland Front",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_follow_the_jansa_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_fortify_the_traun_line",
+      "name": "Fortify The Traun Line",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_the_homeland_front"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_extend_the_traun_line",
+      "name": "Extend The Traun Line",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_fortify_the_traun_line"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_establish_bohme_plan",
+      "name": "Establish Bohme Plan",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_osterreichische_bundesheer",
+        "AUS_standardized_army_training"
+      ],
+      "mutuallyExclusive": [
+        "AUS_follow_the_jansa_plan"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_intensify_training_efforts",
+      "name": "Intensify Training Efforts",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_establish_bohme_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_heeding_the_call_of_duty",
+      "name": "Heeding The Call Of Duty",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_intensify_training_efforts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_strengthen_the_arms_industry",
+      "name": "Strengthen The Arms Industry",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_heeding_the_call_of_duty",
+        "AUS_the_homeland_front"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_improved_warfare_strategies",
+      "name": "Improved Warfare Strategies",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_strengthen_the_arms_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_hirtenberger_artillery",
+      "name": "Hirtenberger Artillery",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_standardized_army_training"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_saurerwerke",
+      "name": "Saurerwerke",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_hirtenberger_artillery"
+      ],
+      "mutuallyExclusive": [
+        "AUS_graf_und_stift_focus"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_graf_und_stift_focus",
+      "name": "Graf Und Stift Focus",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_hirtenberger_artillery"
+      ],
+      "mutuallyExclusive": [
+        "AUS_saurerwerke"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_invite_foreign_tank_designers",
+      "name": "Invite Foreign Tank Designers",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_graf_und_stift_focus",
+        "AUS_saurerwerke"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_basic_tanks",
+      "name": "Basic Tanks",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_invite_foreign_tank_designers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_reestablish_austrian_navy",
+      "name": "Reestablish Austrian Navy",
+      "description": "",
+      "x": 12,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_rebuild_the_armada",
+      "name": "Rebuild The Armada",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_reestablish_austrian_navy"
+      ],
+      "mutuallyExclusive": [
+        "AUS_defending_the_coast"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_revive_stt",
+      "name": "Revive Stt",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_rebuild_the_armada"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_streamline_production",
+      "name": "Streamline Production",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_rebuild_the_armada"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_continue_old_production",
+      "name": "Continue Old Production",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_streamline_production",
+        "AUS_revive_stt"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_reclaim_dockyards",
+      "name": "Reclaim Dockyards",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_rebuild_the_armada",
+        "AUS_defending_the_coast"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_promote_admirals",
+      "name": "Promote Admirals",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_reclaim_dockyards"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_defending_the_coast",
+      "name": "Defending The Coast",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_reestablish_austrian_navy"
+      ],
+      "mutuallyExclusive": [
+        "AUS_rebuild_the_armada"
+      ],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_elin",
+      "name": "Elin",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_defending_the_coast"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_light_ship_bonus",
+      "name": "Light Ship Bonus",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_defending_the_coast"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_coastal_defence_forts",
+      "name": "Coastal Defence Forts",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_light_ship_bonus",
+        "AUS_elin"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "AUS_naval_efficiency",
+      "name": "Naval Efficiency",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AUS_coastal_defence_forts",
+        "AUS_continue_old_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "austria.txt",
+      "shared": false
+    },
+    {
+      "id": "army_effort_fuwg",
+      "name": "Army Effort",
+      "description": "Despite the increasing possibilities of aerial and naval warfare, ground combat is still key in tomorrow's wars. With preparation, we can avoid reliving the hell of the trenches.",
+      "x": -2,
+      "y": 0,
+      "cost": 1,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "generic_shared.txt",
+      "shared": true
+    },
+    {
+      "id": "aviation_effort_fuwg",
+      "name": "Aviation Effort",
+      "description": "Nowhere is technological advances more rapid than in aerial warfare. Aviation is a field any modern nation must master.",
+      "x": 3,
+      "y": 0,
+      "cost": 1,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "generic_shared.txt",
+      "shared": true
+    },
+    {
+      "id": "naval_effort_fuwg",
+      "name": "Naval Effort",
+      "description": "The expansion of our navy should be our first priority. Assign all available resources to new Dockyards and research into light surface ships.",
+      "x": 8,
+      "y": 0,
+      "cost": 1,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "generic_shared.txt",
+      "shared": true
+    },
+    {
+      "id": "industrial_effort_fuwg",
+      "name": "Industrial Effort",
+      "description": "Focus all our political efforts on building up the civilian industry in a great leap forward.",
+      "x": 13,
+      "y": 0,
+      "cost": 1,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "generic_shared.txt",
+      "shared": true
+    },
+    {
+      "id": "political_effort_fuwg",
+      "name": "Political Effort",
+      "description": "To bring about change in the world, we need to be able to bring about change in our own country. Strengthening our political position should come first.",
+      "x": 19,
+      "y": 0,
+      "cost": 1,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "generic_shared.txt",
+      "shared": true
+    },
+    {
+      "id": "HABSBURG_part_of_something_bigger",
+      "name": "Habsburg Part Of Something Bigger",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "shared_reference",
+      "shared": true
+    }
+  ]
+}

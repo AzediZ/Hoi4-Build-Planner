@@ -1,0 +1,5917 @@
+{
+  "mod": "FUWG",
+  "tag": "RAJ",
+  "country": "India Goe",
+  "treeId": "indian_focus_goe",
+  "sourceFile": "india_goe.txt",
+  "focusCount": 413,
+  "focuses": [
+    {
+      "id": "RAJ_indianize_the_army",
+      "name": "Indianize The Army",
+      "description": "",
+      "x": -5,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "RAJ_keep_british_generals"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_great_depression_price_controls",
+      "name": "Great Depression Price Controls",
+      "description": "",
+      "x": -70,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "RAJ_provincial_autonomy",
+        "RAJ_his_majestys_loyal_government"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_look_to_the_past",
+      "name": "Look To The Past",
+      "description": "",
+      "x": -9,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_great_depression_price_controls"
+      ],
+      "mutuallyExclusive": [
+        "RAJ_look_to_the_future"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_look_to_the_future",
+      "name": "Look To The Future",
+      "description": "",
+      "x": 22,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_great_depression_price_controls"
+      ],
+      "mutuallyExclusive": [
+        "RAJ_look_to_the_past"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_lobby_parliment",
+      "name": "Lobby Parliment",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_look_to_the_future"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_secure_weapons",
+      "name": "Secure Weapons",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_look_to_the_past"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_stir_unrest_in_the_north",
+      "name": "Stir Unrest In The North",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_look_to_the_past"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_the_mughal_uprising",
+      "name": "The Mughal Uprising",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_stir_unrest_in_the_north",
+        "RAJ_secure_weapons"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_reform_the_agricultural_system",
+      "name": "Reform The Agricultural System",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_the_mughal_uprising"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_forging_the_mughal_arsenal",
+      "name": "Forging The Mughal Arsenal",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_the_mughal_uprising"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_the_legacy_of_babur",
+      "name": "The Legacy Of Babur",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_the_mughal_uprising"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_a_peacock_prince",
+      "name": "A Peacock Prince",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_the_legacy_of_babur"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_halls_of_knowledge",
+      "name": "Halls Of Knowledge",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_a_peacock_prince"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_halls_of_knowledge_2",
+      "name": "Halls Of Knowledge 2",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_halls_of_knowledge"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_halls_of_knowledge_3",
+      "name": "Halls Of Knowledge 3",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_halls_of_knowledge_2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_secret_weapons",
+      "name": "Secret Weapons",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_halls_of_knowledge_3",
+        "RAJ_thunder_elephants"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_sharpen_the_tulwar",
+      "name": "Sharpen The Tulwar",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_a_peacock_prince"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_reviving_the_workshop_of_the_world",
+      "name": "Reviving The Workshop Of The World",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_a_peacock_prince"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_rebuilding_the_empires_roads",
+      "name": "Rebuilding The Empires Roads",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_reviving_the_workshop_of_the_world"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_timurid_bureaucracy",
+      "name": "Timurid Bureaucracy",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_a_peacock_prince"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_revolt_of_the_princes",
+      "name": "Revolt Of The Princes",
+      "description": "",
+      "x": -6,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_a_peacock_prince"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_unite_the_subcontinent",
+      "name": "Unite The Subcontinent",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_revolt_of_the_princes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_secular_rule",
+      "name": "Secular Rule",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_unite_the_subcontinent"
+      ],
+      "mutuallyExclusive": [
+        "RAJ_theocratic_rule"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_theocratic_rule",
+      "name": "Theocratic Rule",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_unite_the_subcontinent"
+      ],
+      "mutuallyExclusive": [
+        "RAJ_secular_rule"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_mughal_court",
+      "name": "Mughal Court",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_secular_rule",
+        "RAJ_theocratic_rule"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_conquer_afghanistan",
+      "name": "Conquer Afghanistan",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_timurid_bureaucracy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_through_the_wakhan_corridor",
+      "name": "Through The Wakhan Corridor",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_conquer_afghanistan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_the_silk_road",
+      "name": "The Silk Road",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_through_the_wakhan_corridor",
+        "RAJ_legacy_of_timur"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_legacy_of_timur",
+      "name": "Legacy Of Timur",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_conquer_afghanistan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_peacock_throne_for_the_modern_age",
+      "name": "Peacock Throne For The Modern Age",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_mughal_court"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_the_crown_and_the_world",
+      "name": "The Crown And The World",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_peacock_throne_for_the_modern_age"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_revisiting_inquities",
+      "name": "Revisiting Inquities",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_peacock_throne_for_the_modern_age"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_across_the_himalayas",
+      "name": "Across The Himalayas",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_the_silk_road"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_conquerors_of_persia",
+      "name": "Conquerors Of Persia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_the_silk_road"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_conquerors_of_iraq",
+      "name": "Conquerors Of Iraq",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_conquerors_of_persia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_conquerors_of_turkey",
+      "name": "Conquerors Of Turkey",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_conquerors_of_persia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_the_true_mongols",
+      "name": "The True Mongols",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_the_silk_road"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_restore_the_timurid_empire",
+      "name": "Restore The Timurid Empire",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_conquerors_of_turkey",
+        "RAJ_conquerors_of_iraq"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_incorporation_of_the_east_india_company",
+      "name": "Incorporation Of The East India Company",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_lobby_parliment",
+        "RAJ_seek_intial_funding"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_appoint_a_c_suite",
+      "name": "Appoint A C Suite",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_incorporation_of_the_east_india_company"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_take_over_administrative_rights",
+      "name": "Take Over Administrative Rights",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_appoint_a_c_suite"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_seek_intial_funding",
+      "name": "Seek Intial Funding",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_look_to_the_future"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_princely_autonomy",
+      "name": "Princely Autonomy",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_take_over_administrative_rights"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_funnel_british_investments_into_princely_states",
+      "name": "Funnel British Investments Into Princely States",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_princely_autonomy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_form_a_police_force",
+      "name": "Form A Police Force",
+      "description": "",
+      "x": -7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_appoint_a_c_suite"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_headhunt_army_personell",
+      "name": "Headhunt Army Personell",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_form_a_police_force"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_a_private_military",
+      "name": "A Private Military",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_headhunt_army_personell"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_lobby_for_increased_policing_responsibilities",
+      "name": "Lobby For Increased Policing Responsibilities",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_a_private_military"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_privatized_tutelage",
+      "name": "Privatized Tutelage",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_take_over_administrative_rights"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_privatized_healthcare",
+      "name": "Privatized Healthcare",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_take_over_administrative_rights"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_company_bonuses",
+      "name": "Company Bonuses",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_appoint_a_c_suite"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_union_busting",
+      "name": "Union Busting",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_form_a_police_force"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_arrest_congress_leaders",
+      "name": "Arrest Congress Leaders",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_union_busting"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_circuvment_demobilization_restrictions",
+      "name": "Circuvment Demobilization Restrictions",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_lobby_for_increased_policing_responsibilities"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_bombay_trade_port",
+      "name": "Bombay Trade Port",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_lobby_for_increased_policing_responsibilities"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_take_in_british_naval_experts",
+      "name": "Take In British Naval Experts",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_bombay_trade_port"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_the_need_for_a_mercantile_navy",
+      "name": "The Need For A Mercantile Navy",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_bombay_trade_port"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_trade_protection",
+      "name": "Trade Protection",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_the_need_for_a_mercantile_navy",
+        "RAJ_take_in_british_naval_experts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_procure_the_guns",
+      "name": "Procure The Guns",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_trade_protection"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_procure_the_task_force",
+      "name": "Procure The Task Force",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_trade_protection"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_purchase_destroyers_and_subs",
+      "name": "Purchase Destroyers And Subs",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_bombay_trade_port"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_procure_the_armor",
+      "name": "Procure The Armor",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_trade_protection"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_the_varuna_class",
+      "name": "The Varuna Class",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_procure_the_guns",
+        "RAJ_procure_the_task_force",
+        "RAJ_procure_the_armor"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_purchase_cruisers_and_dreadnoughts",
+      "name": "Purchase Cruisers And Dreadnoughts",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_purchase_destroyers_and_subs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_manipulate_army_statistics",
+      "name": "Manipulate Army Statistics",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_lobby_for_increased_policing_responsibilities"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_open_up_new_markets",
+      "name": "Open Up New Markets",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_circuvment_demobilization_restrictions",
+        "RAJ_manipulate_army_statistics"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_acquire_new_resources",
+      "name": "Acquire New Resources",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_open_up_new_markets"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_mineral_exploitation_institute",
+      "name": "Mineral Exploitation Institute",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_acquire_new_resources"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_attract_scientists",
+      "name": "Attract Scientists",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_mineral_exploitation_institute"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_hostile_takeover",
+      "name": "Hostile Takeover",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_privatized_tutelage",
+        "RAJ_privatized_healthcare"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_vertical_integration",
+      "name": "Vertical Integration",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_hostile_takeover"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_expand_tax_loopholes",
+      "name": "Expand Tax Loopholes",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_vertical_integration"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_new_economic_policy",
+      "name": "New Economic Policy",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_vertical_integration"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_special_economic_zones",
+      "name": "Special Economic Zones",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_vertical_integration"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_phantom_armies",
+      "name": "Phantom Armies",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_expand_tax_loopholes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_debt_manipulation",
+      "name": "Debt Manipulation",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_phantom_armies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_corporate_domination",
+      "name": "Corporate Domination",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_phantom_armies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_restrictive_administration_budget",
+      "name": "Restrictive Administration Budget",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_special_economic_zones"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_institutional_money_laundering",
+      "name": "Institutional Money Laundering",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_restrictive_administration_budget",
+        "RAJ_shareholder_democracy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_deathknell_to_the_raj",
+      "name": "Deathknell To The Raj",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_institutional_money_laundering"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_just_good_business",
+      "name": "Just Good Business",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_deathknell_to_the_raj"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_crush_the_anathema",
+      "name": "Crush The Anathema",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_just_good_business"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_nothing_personal",
+      "name": "Nothing Personal",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_just_good_business"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_creative_accounting",
+      "name": "Creative Accounting",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_expand_tax_loopholes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_corporate_expansion",
+      "name": "Corporate Expansion",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_appoint_a_c_suite"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_legalize_the_opium_trade",
+      "name": "Legalize The Opium Trade",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_corporate_expansion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_force_china_to_accept_opium_trade",
+      "name": "Force China To Accept Opium Trade",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_legalize_the_opium_trade"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_shareholder_democracy",
+      "name": "Shareholder Democracy",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_new_economic_policy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_land_grab",
+      "name": "Land Grab",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_corporate_expansion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_deforestation",
+      "name": "Deforestation",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_land_grab"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_productivity_mandate",
+      "name": "Productivity Mandate",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_acquire_new_resources"
+      ],
+      "mutuallyExclusive": [
+        "RAJ_night_shifts"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_mass_production",
+      "name": "Mass Production",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_productivity_mandate",
+        "RAJ_night_shifts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_trade_federation_of_india",
+      "name": "Trade Federation Of India",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_crush_the_anathema",
+        "RAJ_nothing_personal"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_night_shifts",
+      "name": "Night Shifts",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_acquire_new_resources"
+      ],
+      "mutuallyExclusive": [
+        "RAJ_productivity_mandate"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_provincial_autonomy",
+      "name": "Provincial Autonomy",
+      "description": "",
+      "x": 57,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "RAJ_great_depression_price_controls",
+        "RAJ_his_majestys_loyal_government"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_princely_states_policy",
+      "name": "Princely States Policy",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_provincial_autonomy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_trade_port",
+      "name": "Trade Port",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_provincial_autonomy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_fortify_aden",
+      "name": "Fortify Aden",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_trade_port"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_purna_swaraj",
+      "name": "Purna Swaraj",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_provincial_autonomy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_mahatma",
+      "name": "Mahatma",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_purna_swaraj"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_league_against_gandhism",
+      "name": "League Against Gandhism",
+      "description": "",
+      "x": 15,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_purna_swaraj"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_uplifting_the_people_of_india",
+      "name": "Uplifting The People Of India",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_purna_swaraj"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_swadeshi_movement",
+      "name": "Swadeshi Movement",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_purna_swaraj"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_form_a_federal_court",
+      "name": "Form A Federal Court",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_uplifting_the_people_of_india"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_a_congress_resurgent",
+      "name": "A Congress Resurgent",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_mahatma"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_khadi_movement",
+      "name": "Khadi Movement",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_purna_swaraj"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_boycott_british_made_goods",
+      "name": "Boycott British Made Goods",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_swadeshi_movement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_litteracy_effort",
+      "name": "Litteracy Effort",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_form_a_federal_court"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_indo_centric_curriculum",
+      "name": "Indo Centric Curriculum",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_litteracy_effort"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_all_india_students_federation",
+      "name": "All India Students Federation",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_litteracy_effort"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_enrollment_of_dali_children",
+      "name": "Enrollment Of Dali Children",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_indo_centric_curriculum"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_expand_healthcare_facilities",
+      "name": "Expand Healthcare Facilities",
+      "description": "",
+      "x": 1,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_indo_centric_curriculum"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_local_resistance_to_land_taxes",
+      "name": "Local Resistance To Land Taxes",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_agricultural_cooperatives",
+        "RAJ_boycott_british_made_goods"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_tenancy_reforms",
+      "name": "Tenancy Reforms",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_uplifting_the_people_of_india"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_debt_relief",
+      "name": "Debt Relief",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_tenancy_reforms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_temple_entry_movements",
+      "name": "Temple Entry Movements",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_indo_centric_curriculum"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_freedom_of_the_press",
+      "name": "Freedom Of The Press",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_form_a_federal_court"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_all_india_kisan_sabha",
+      "name": "All India Kisan Sabha",
+      "description": "",
+      "x": 13,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_league_against_gandhism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_cottage_industries",
+      "name": "Cottage Industries",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_tenancy_reforms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_agricultural_cooperatives",
+      "name": "Agricultural Cooperatives",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_tenancy_reforms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_azad_hind_dlc_bank",
+      "name": "Azad Hind Dlc Bank",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_agricultural_cooperatives"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_tea_exports",
+      "name": "Tea Exports",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_agricultural_cooperatives"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_handloom_weaving",
+      "name": "Handloom Weaving",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_cottage_industries",
+        "RAJ_agricultural_cooperatives"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_sikh_religious_guarantees",
+      "name": "Sikh Religious Guarantees",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_temple_entry_movements",
+        "RAJ_enrollment_of_dali_children",
+        "RAJ_indo_centric_curriculum"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_punjab_autonomy",
+      "name": "Punjab Autonomy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_sikh_religious_guarantees"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_national_planning_committee",
+      "name": "National Planning Committee",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_tenancy_reforms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_forward_bloc",
+      "name": "Forward Bloc",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_league_against_gandhism"
+      ],
+      "mutuallyExclusive": [
+        "RAJ_red_in_the_shadows"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_promote_violence_against_the_british",
+      "name": "Promote Violence Against The British",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_forward_bloc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_india_united",
+      "name": "India United",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_mahatma"
+      ],
+      "mutuallyExclusive": [
+        "RAJ_two_nation_theory_dlc"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_two_nation_theory_dlc",
+      "name": "Two Nation Theory Dlc",
+      "description": "",
+      "x": -6,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_a_congress_resurgent"
+      ],
+      "mutuallyExclusive": [
+        "RAJ_india_united"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_red_in_the_shadows",
+      "name": "Red In The Shadows",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_all_india_kisan_sabha"
+      ],
+      "mutuallyExclusive": [
+        "RAJ_forward_bloc"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_rally_the_indian_left",
+      "name": "Rally The Indian Left",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_all_india_kisan_sabha"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_orchestrate_train_robberies",
+      "name": "Orchestrate Train Robberies",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_red_in_the_shadows"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_royal_indian_navy_mutiny",
+      "name": "Royal Indian Navy Mutiny",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_red_in_the_shadows"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_founding_of_the_peoples_republic",
+      "name": "Founding Of The Peoples Republic",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_royal_indian_navy_mutiny"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_purge_the_reactionaries",
+      "name": "Purge The Reactionaries",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_founding_of_the_peoples_republic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_agrarian_socialism",
+      "name": "Agrarian Socialism",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_purge_the_reactionaries",
+        "RAJ_constitution_for_the_masses"
+      ],
+      "mutuallyExclusive": [
+        "RAJ_urban_industrialism"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_land_of_the_tillers",
+      "name": "Land Of The Tillers",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_agrarian_socialism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_decentralize_the_party",
+      "name": "Decentralize The Party",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_agrarian_socialism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_five_year_plan",
+      "name": "Five Year Plan",
+      "description": "",
+      "x": 5,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_royal_indian_navy_mutiny"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_soviet_influence",
+      "name": "Soviet Influence",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_five_year_plan",
+        "RAJ_central_comittee_authority"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_bhoodan_movement",
+      "name": "Bhoodan Movement",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_land_of_the_tillers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_the_peoples_liberation_army",
+      "name": "The Peoples Liberation Army",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_soviet_influence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_the_revolutionary_army_marches",
+      "name": "The Revolutionary Army Marches",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_the_peoples_liberation_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_quality_training",
+      "name": "Quality Training",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_the_revolutionary_army_marches"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_iron_will_indoctrination",
+      "name": "Iron Will Indoctrination",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_quality_training"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_reorganize_the_five_year_plan_towards_heavy_industry",
+      "name": "Reorganize The Five Year Plan Towards Heavy Industry",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_soviet_influence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_invite_soviet_industrial_experts",
+      "name": "Invite Soviet Industrial Experts",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_reorganize_the_five_year_plan_towards_heavy_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_soviet_indian_industrial_cooperation",
+      "name": "Soviet Indian Industrial Cooperation",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_soviet_influence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_planned_economy2",
+      "name": "Planned Economy2",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_invite_soviet_industrial_experts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_focus_on_military_industry",
+      "name": "Focus On Military Industry",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_reorganize_the_five_year_plan_towards_heavy_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_nationalize_gun_carriage_agency",
+      "name": "Nationalize Gun Carriage Agency",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_focus_on_military_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_continue_the_five_year_plan",
+      "name": "Continue The Five Year Plan",
+      "description": "",
+      "x": -6,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_socialist_self_reliance",
+        "RAJ_nationalize_gun_carriage_agency",
+        "RAJ_planned_economy2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_urban_industrialism",
+      "name": "Urban Industrialism",
+      "description": "",
+      "x": 6,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_purge_the_reactionaries",
+        "RAJ_constitution_for_the_masses"
+      ],
+      "mutuallyExclusive": [
+        "RAJ_agrarian_socialism"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_focus_on_the_countryside",
+      "name": "Focus On The Countryside",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_agrarian_socialism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_indian_socialism",
+      "name": "Indian Socialism",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_five_year_plan",
+        "RAJ_decentralize_the_party"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_indian_national_highways",
+      "name": "Indian National Highways",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_indian_socialism",
+        "RAJ_soviet_influence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_expand_industry_in_hyderabad",
+      "name": "Expand Industry In Hyderabad",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_indian_socialism",
+        "RAJ_soviet_influence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_nationalize_tata_group",
+      "name": "Nationalize Tata Group",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_indian_national_highways",
+        "RAJ_expand_industry_in_hyderabad"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_break_the_zamindars",
+      "name": "Break The Zamindars",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_indian_socialism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_education_for_the_masses",
+      "name": "Education For The Masses",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_indian_socialism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_central_comittee_authority",
+      "name": "Central Comittee Authority",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_urban_industrialism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_planned_but_decentralized",
+      "name": "Planned But Decentralized",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_education_for_the_masses",
+        "RAJ_break_the_zamindars"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_comrades_of_the_city",
+      "name": "Comrades Of The City",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_urban_industrialism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_socialist_self_reliance",
+      "name": "Socialist Self Reliance",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_planned_but_decentralized"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_arm_the_peasantry",
+      "name": "Arm The Peasantry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_indian_socialism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_every_man_a_gun",
+      "name": "Every Man A Gun",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_arm_the_peasantry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_every_man_a_leader",
+      "name": "Every Man A Leader",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_every_man_a_gun"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_defenders_of_the_revolution",
+      "name": "Defenders Of The Revolution",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_every_man_a_leader"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_industrialize_the_ganges",
+      "name": "Industrialize The Ganges",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_urban_industrialism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_constitution_for_the_masses",
+      "name": "Constitution For The Masses",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_founding_of_the_peoples_republic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_the_red_curtain_falls_over_asia",
+      "name": "The Red Curtain Falls Over Asia",
+      "description": "",
+      "x": 10,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_royal_indian_navy_mutiny"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_jugantar",
+      "name": "Jugantar",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_the_red_curtain_falls_over_asia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_protest_against_the_howell_monument",
+      "name": "Protest Against The Howell Monument",
+      "description": "",
+      "x": -2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_forward_bloc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_indian_legion",
+      "name": "Indian Legion",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_protest_against_the_howell_monument"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_exile_princes",
+      "name": "Exile Princes",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_the_red_curtain_falls_over_asia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_integrate_the_princes",
+      "name": "Integrate The Princes",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_exile_princes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_infiltrate_aden",
+      "name": "Infiltrate Aden",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_indian_legion",
+        "RAJ_go_into_hiding"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_go_into_hiding",
+      "name": "Go Into Hiding",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_protest_against_the_howell_monument"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_seek_domestic_allies",
+      "name": "Seek Domestic Allies",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_go_into_hiding"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_give_me_blood_and_i_will_grant_you_freedom",
+      "name": "Give Me Blood And I Will Grant You Freedom",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_protest_against_the_howell_monument",
+        "RAJ_promote_violence_against_the_british"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_rani_of_jhansi_regiment",
+      "name": "Rani Of Jhansi Regiment",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_forward_bloc",
+        "RAJ_red_in_the_shadows"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_azad_hind_dlc",
+      "name": "Azad Hind Dlc",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_protest_against_the_howell_monument"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_seek_japanese_support",
+      "name": "Seek Japanese Support",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_azad_hind_dlc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_the_enemy_of_my_enemy",
+      "name": "The Enemy Of My Enemy",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_seek_japanese_support"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_join_the_co_prospherity_sphere",
+      "name": "Join The Co Prospherity Sphere",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_the_enemy_of_my_enemy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_shaheed_and_swaraj",
+      "name": "Shaheed And Swaraj",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_the_enemy_of_my_enemy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_azad_hind_dlc_radio",
+      "name": "Azad Hind Dlc Radio",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_azad_hind_dlc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_war_taxes",
+      "name": "War Taxes",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_azad_hind_dlc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_the_indian_national_army",
+      "name": "The Indian National Army",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_war_taxes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_education_efforts_2",
+      "name": "Education Efforts 2",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_azad_hind_dlc_bank"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_hindutva",
+      "name": "Hindutva",
+      "description": "",
+      "x": -2,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_give_me_blood_and_i_will_grant_you_freedom"
+      ],
+      "mutuallyExclusive": [
+        "RAJ_netaji"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_netaji",
+      "name": "Netaji",
+      "description": "",
+      "x": 4,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_give_me_blood_and_i_will_grant_you_freedom"
+      ],
+      "mutuallyExclusive": [
+        "RAJ_hindutva"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_the_second_duar_war",
+      "name": "The Second Duar War",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_netaji"
+      ],
+      "mutuallyExclusive": [
+        "RAJ_bhutanese_protectorate"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_coal_fire_and_steel",
+      "name": "Coal Fire And Steel",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_netaji",
+        "RAJ_hindutva"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_bhutanese_protectorate",
+      "name": "Bhutanese Protectorate",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_netaji"
+      ],
+      "mutuallyExclusive": [
+        "RAJ_the_second_duar_war"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_heavy_industries",
+      "name": "Heavy Industries",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_coal_fire_and_steel"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_extend_indian_security_zone",
+      "name": "Extend Indian Security Zone",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_netaji"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_guided_democracy",
+      "name": "Guided Democracy",
+      "description": "",
+      "x": 12,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_netaji"
+      ],
+      "mutuallyExclusive": [
+        "RAJ_authoritarianship"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_authoritarianship",
+      "name": "Authoritarianship",
+      "description": "",
+      "x": -4,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_netaji"
+      ],
+      "mutuallyExclusive": [
+        "RAJ_guided_democracy"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_demand_return_of_imperialist_colonies",
+      "name": "Demand Return Of Imperialist Colonies",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_authoritarianship",
+        "RAJ_guided_democracy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_strike_burma",
+      "name": "Strike Burma",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_demand_return_of_imperialist_colonies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_the_sun_sets",
+      "name": "The Sun Sets",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_strike_burma"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_cult_of_personality",
+      "name": "Cult Of Personality",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_netaji"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_seek_financial_aid_from_the_ussr",
+      "name": "Seek Financial Aid From The Ussr",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_extend_indian_security_zone"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_appoint_soviet_friendly_government",
+      "name": "Appoint Soviet Friendly Government",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_seek_financial_aid_from_the_ussr"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_appoint_german_friendly_government",
+      "name": "Appoint German Friendly Government",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_cult_of_personality"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_the_second_gorkha_war",
+      "name": "The Second Gorkha War",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_the_second_duar_war",
+        "RAJ_bhutanese_protectorate"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_planned_economy",
+      "name": "Planned Economy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_seek_financial_aid_from_the_ussr"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_high_altitude_training",
+      "name": "High Altitude Training",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_extend_indian_security_zone"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_integrate_the_princes2",
+      "name": "Integrate The Princes2",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_high_altitude_training"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_strike_against_china",
+      "name": "Strike Against China",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_extend_indian_security_zone"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_hindu_mahasabha",
+      "name": "Hindu Mahasabha",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_hindutva",
+        "RAJ_netaji"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_akhand_bharat",
+      "name": "Akhand Bharat",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_hindutva"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_sanatani",
+      "name": "Sanatani",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_hindutva"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_hindi_as_a_national_language",
+      "name": "Hindi As A National Language",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_sanatani"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_seven_shackles",
+      "name": "Seven Shackles",
+      "description": "",
+      "x": -2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_sanatani"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_burn_down_the_cellular_jail",
+      "name": "Burn Down The Cellular Jail",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_seven_shackles"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_the_sword_and_the_saffron",
+      "name": "The Sword And The Saffron",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_sanatani"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_rashtriya_swayamsevak_sangh",
+      "name": "Rashtriya Swayamsevak Sangh",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_the_sword_and_the_saffron"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_the_hindu_martial_tradition",
+      "name": "The Hindu Martial Tradition",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_hindi_as_a_national_language",
+        "RAJ_rashtriya_swayamsevak_sangh"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_cultural_reawekening",
+      "name": "Cultural Reawekening",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_seven_shackles",
+        "RAJ_hindi_as_a_national_language"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_the_pakistan_movement",
+      "name": "The Pakistan Movement",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_two_nation_theory_dlc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_cripps_mission_dlc",
+      "name": "Cripps Mission Dlc",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_tea_exports"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_haripura_session_of_the_indian_national_congress",
+      "name": "Haripura Session Of The Indian National Congress",
+      "description": "",
+      "x": -2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_local_resistance_to_land_taxes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_power_sharing_agreement",
+      "name": "Power Sharing Agreement",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_india_united"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_a_permanent_muslim_governmental_seat",
+      "name": "A Permanent Muslim Governmental Seat",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_power_sharing_agreement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_cabinet_mission_plan",
+      "name": "Cabinet Mission Plan",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_india_united"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_lahore_resolution",
+      "name": "Lahore Resolution",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_the_pakistan_movement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_united_bengal",
+      "name": "United Bengal",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_lahore_resolution"
+      ],
+      "mutuallyExclusive": [
+        "RAJ_eastern_pakistan"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_eastern_pakistan",
+      "name": "Eastern Pakistan",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_lahore_resolution"
+      ],
+      "mutuallyExclusive": [
+        "RAJ_united_bengal"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_inclusive_nationalism",
+      "name": "Inclusive Nationalism",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_power_sharing_agreement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_partition_preparation",
+      "name": "Partition Preparation",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_united_bengal",
+        "RAJ_eastern_pakistan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_hedgemony_of_the_subcontinent",
+      "name": "Hedgemony Of The Subcontinent",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_eastern_pakistan",
+        "RAJ_united_bengal"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_a_secular_state",
+      "name": "A Secular State",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_cabinet_mission_plan",
+        "RAJ_a_permanent_muslim_governmental_seat"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_indian_independence_act",
+      "name": "Indian Independence Act",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_tea_exports"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_tryst_with_destiny",
+      "name": "Tryst With Destiny",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_cabinet_mission_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_i_am_death",
+      "name": "I Am Death",
+      "description": "",
+      "x": -10,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_tryst_with_destiny"
+      ],
+      "mutuallyExclusive": [
+        "RAJ_sideline_the_conflict",
+        "RAJ_pledge_for_the_allies"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_sideline_the_conflict",
+      "name": "Sideline The Conflict",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_tryst_with_destiny"
+      ],
+      "mutuallyExclusive": [
+        "RAJ_i_am_death",
+        "RAJ_pledge_for_the_allies"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_kingmaker",
+      "name": "Kingmaker",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_sideline_the_conflict"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_pledge_for_the_allies",
+      "name": "Pledge For The Allies",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_tryst_with_destiny"
+      ],
+      "mutuallyExclusive": [
+        "RAJ_i_am_death",
+        "RAJ_sideline_the_conflict"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_destroyer_of_worlds",
+      "name": "Destroyer Of Worlds",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_i_am_death"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_preamble_to_the_constitution_of_india",
+      "name": "Preamble To The Constitution Of India",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_tryst_with_destiny"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_uranium_tipped_bullets",
+      "name": "Uranium Tipped Bullets",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_destroyer_of_worlds"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_rolling_nuke_barrages",
+      "name": "Rolling Nuke Barrages",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_destroyer_of_worlds"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_india_indivisible",
+      "name": "India Indivisible",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_preamble_to_the_constitution_of_india"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_defend_burma",
+      "name": "Defend Burma",
+      "description": "",
+      "x": 0,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_tryst_with_destiny"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_contamination_cleanup_crew",
+      "name": "Contamination Cleanup Crew",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_uranium_tipped_bullets"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_jaguar",
+      "name": "Jaguar",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_rolling_nuke_barrages"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_an_economy_unbound",
+      "name": "An Economy Unbound",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_tryst_with_destiny"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_annex_goa",
+      "name": "Annex Goa",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_pledge_for_the_allies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_suppress_paramilitary_organizations",
+      "name": "Suppress Paramilitary Organizations",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_tryst_with_destiny"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_bathe_in_hellfire",
+      "name": "Bathe In Hellfire",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_contamination_cleanup_crew",
+        "RAJ_jaguar"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_a_tiger_unchained",
+      "name": "A Tiger Unchained",
+      "description": "",
+      "x": -4,
+      "y": -1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_tryst_with_destiny"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_import_substitution_industrialisation",
+      "name": "Import Substitution Industrialisation",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_an_economy_unbound"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_fight_malnutrition",
+      "name": "Fight Malnutrition",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_an_economy_unbound"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_mixed_economy",
+      "name": "Mixed Economy",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_an_economy_unbound"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_land_reforms",
+      "name": "Land Reforms",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_an_economy_unbound"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_education_efforts",
+      "name": "Education Efforts",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_an_economy_unbound"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_to_shake_the_world",
+      "name": "To Shake The World",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_land_reforms",
+        "RAJ_fight_malnutrition",
+        "RAJ_education_efforts",
+        "RAJ_mixed_economy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_elephants_for_the_modern_age",
+      "name": "Elephants For The Modern Age",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_to_shake_the_world"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_thunder_elephants",
+      "name": "Thunder Elephants",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_elephants_for_the_modern_age"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_his_majestys_loyal_government",
+      "name": "His Majestys Loyal Government",
+      "description": "",
+      "x": 44,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "RAJ_great_depression_price_controls",
+        "RAJ_provincial_autonomy"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_the_government_of_india_act",
+      "name": "The Government Of India Act",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_his_majestys_loyal_government"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_work_with_local_leaders",
+      "name": "Work With Local Leaders",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_the_government_of_india_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_concessions_to_the_industrialists",
+      "name": "Concessions To The Industrialists",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_work_with_local_leaders"
+      ],
+      "mutuallyExclusive": [
+        "RAJ_empower_provincial_authorities"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_empower_provincial_authorities",
+      "name": "Empower Provincial Authorities",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_work_with_local_leaders"
+      ],
+      "mutuallyExclusive": [
+        "RAJ_concessions_to_the_industrialists"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_confer_with_the_congress",
+      "name": "Confer With The Congress",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_concessions_to_the_industrialists",
+        "RAJ_empower_provincial_authorities"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_favor_the_muslim_league",
+      "name": "Favor The Muslim League",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_confer_with_the_congress"
+      ],
+      "mutuallyExclusive": [
+        "RAJ_court_the_princes"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_the_indian_parliament",
+      "name": "The Indian Parliament",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_favor_the_muslim_league",
+        "RAJ_court_the_princes"
+      ],
+      "mutuallyExclusive": [
+        "RAJ_the_integrity_of_india_act"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_court_the_princes",
+      "name": "Court The Princes",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_confer_with_the_congress"
+      ],
+      "mutuallyExclusive": [
+        "RAJ_favor_the_muslim_league"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_the_integrity_of_india_act",
+      "name": "The Integrity Of India Act",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_court_the_princes",
+        "RAJ_favor_the_muslim_league"
+      ],
+      "mutuallyExclusive": [
+        "RAJ_the_indian_parliament"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_princely_state_donations_GOE",
+      "name": "Princely State Donations Goe",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_court_the_princes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_the_jewel_becomes_the_crown",
+      "name": "The Jewel Becomes The Crown",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_the_indian_parliament",
+        "RAJ_the_integrity_of_india_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_the_punjab_accord",
+      "name": "The Punjab Accord",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_the_indian_parliament",
+        "RAJ_the_integrity_of_india_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_the_dominion_of_india",
+      "name": "The Dominion Of India",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_the_punjab_accord"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_curtail_the_zamindars",
+      "name": "Curtail The Zamindars",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_work_with_local_leaders"
+      ],
+      "mutuallyExclusive": [
+        "RAJ_expand_the_zamindari_system"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_raise_import_duties",
+      "name": "Raise Import Duties",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_curtail_the_zamindars"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_imperial_industry_initiative",
+      "name": "Imperial Industry Initiative",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_raise_import_duties"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_rural_development_plan",
+      "name": "Rural Development Plan",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_raise_import_duties"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_the_great_recovery",
+      "name": "The Great Recovery",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_imperial_industry_initiative",
+        "RAJ_rural_development_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_reform_the_agricultural_sector",
+      "name": "Reform The Agricultural Sector",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_curtail_the_zamindars"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_expand_the_zamindari_system",
+      "name": "Expand The Zamindari System",
+      "description": "",
+      "x": 4,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_his_majestys_loyal_government"
+      ],
+      "mutuallyExclusive": [
+        "RAJ_curtail_the_zamindars"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_crown_commodities",
+      "name": "Crown Commodities",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_expand_the_zamindari_system"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_rural_mechanization_program",
+      "name": "Rural Mechanization Program",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_reform_the_agricultural_sector",
+        "RAJ_crown_commodities"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_the_riches_of_the_raj",
+      "name": "The Riches Of The Raj",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_expand_the_zamindari_system"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_strengthen_ties_with_british_investors_GOE",
+      "name": "Strengthen Ties With British Investors Goe",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_crown_commodities",
+        "RAJ_the_riches_of_the_raj"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_imperial_rail_renewal_act",
+      "name": "Imperial Rail Renewal Act",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_the_riches_of_the_raj"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_exploit_the_frontier",
+      "name": "Exploit The Frontier",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_imperial_rail_renewal_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_overlords_railway_investment",
+      "name": "Overlords Railway Investment",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_imperial_rail_renewal_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_territorial_development_scheme",
+      "name": "Territorial Development Scheme",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_rural_development_plan",
+        "RAJ_reform_the_agricultural_sector"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_the_empires_workshop",
+      "name": "The Empires Workshop",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_crown_commodities",
+        "RAJ_strengthen_ties_with_british_investors_GOE"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_institute_of_fundamental_research_GOE",
+      "name": "Institute Of Fundamental Research Goe",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_territorial_development_scheme",
+        "RAJ_the_empires_workshop"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_keep_calm_and_carry_on",
+      "name": "Keep Calm And Carry On",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_institute_of_fundamental_research_GOE"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_indian_gentleman_officers",
+      "name": "Indian Gentleman Officers",
+      "description": "",
+      "x": 25,
+      "y": null,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_the_aden_protectorate",
+      "name": "The Aden Protectorate",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_indian_gentleman_officers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_linlithgows_declaration_of_war",
+      "name": "Linlithgows Declaration Of War",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_indian_gentleman_officers"
+      ],
+      "mutuallyExclusive": [
+        "RAJ_consult_with_congress_leaders"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_consult_with_congress_leaders",
+      "name": "Consult With Congress Leaders",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_indian_gentleman_officers"
+      ],
+      "mutuallyExclusive": [
+        "RAJ_linlithgows_declaration_of_war"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_preemptive_invasion_of_iran",
+      "name": "Preemptive Invasion Of Iran",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_indian_gentleman_officers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_mobilization_of_the_indian_army",
+      "name": "Mobilization Of The Indian Army",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_consult_with_congress_leaders"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_south_east_asia_command",
+      "name": "South East Asia Command",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_mobilization_of_the_indian_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_desert_training",
+      "name": "Desert Training",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_south_east_asia_command"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_fortify_el_alamein",
+      "name": "Fortify El Alamein",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_desert_training"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_jungle_training_GOE",
+      "name": "Jungle Training Goe",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_south_east_asia_command"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_defense_of_malaya",
+      "name": "Defense Of Malaya",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_jungle_training_GOE"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_hill_training",
+      "name": "Hill Training",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_south_east_asia_command"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_defense_of_burma",
+      "name": "Defense Of Burma",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_jungle_training_GOE",
+        "RAJ_hill_training"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_holding_the_gates_of_india",
+      "name": "Holding The Gates Of India",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_defense_of_burma"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_free_abyssinia",
+      "name": "Free Abyssinia",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_hill_training"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_urban_training",
+      "name": "Urban Training",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_south_east_asia_command"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_the_defense_of_hong_kong",
+      "name": "The Defense Of Hong Kong",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_urban_training"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_keep_british_generals",
+      "name": "Keep British Generals",
+      "description": "",
+      "x": -4,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "RAJ_indianize_the_army"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_defense_of_india_act",
+      "name": "Defense Of India Act",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "RAJ_indianize_the_army",
+        "RAJ_keep_british_generals"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_learn_from_the_crown",
+      "name": "Learn From The Crown",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_keep_british_generals"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_join_the_shadow_scheme",
+      "name": "Join The Shadow Scheme",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_learn_from_the_crown"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_colonial_cadet_exchange",
+      "name": "Colonial Cadet Exchange",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_learn_from_the_crown"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_learn_from_the_secret_intelligence_service",
+      "name": "Learn From The Secret Intelligence Service",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_colonial_cadet_exchange"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_purchase_british_supply_equipment",
+      "name": "Purchase British Supply Equipment",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_colonial_cadet_exchange"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_automating_the_army",
+      "name": "Automating The Army",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_indianize_the_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_for_the_people_by_the_people",
+      "name": "For The People By The People",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_indianize_the_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_east_india_railways_dlc",
+      "name": "East India Railways Dlc",
+      "description": "",
+      "x": 20,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_Chinese_refugees",
+      "name": "Chinese Refugees",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_east_india_railways_dlc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_Prepare_for_the_inevitable",
+      "name": "Prepare For The Inevitable",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_the_burma_road",
+        "RAJ_Chinese_refugees"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_Singapore_defence",
+      "name": "Singapore Defence",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_Prepare_for_the_inevitable"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_Rangoon_Frontier",
+      "name": "Rangoon Frontier",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_Prepare_for_the_inevitable"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_Holding_Dacca",
+      "name": "Holding Dacca",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_Prepare_for_the_inevitable"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_the_calcutta_line",
+      "name": "The Calcutta Line",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_east_india_railways_dlc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_bombay_baroda_and_central_india_railway",
+      "name": "Bombay Baroda And Central India Railway",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_land_reforms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_great_indian_peninsula_railway_dlc",
+      "name": "Great Indian Peninsula Railway Dlc",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_east_india_railways_dlc",
+        "RAJ_bombay_baroda_and_central_india_railway"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_south_indian_railway_company",
+      "name": "South Indian Railway Company",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_great_indian_peninsula_railway_dlc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_supply_center_fortifications",
+      "name": "Supply Center Fortifications",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_great_indian_peninsula_railway_dlc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_north_western_state_railway",
+      "name": "North Western State Railway",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_great_indian_peninsula_railway_dlc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_prioritize_army_cargo",
+      "name": "Prioritize Army Cargo",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_great_indian_peninsula_railway_dlc"
+      ],
+      "mutuallyExclusive": [
+        "RAJ_prioritize_civilian_cargo"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_prioritize_civilian_cargo",
+      "name": "Prioritize Civilian Cargo",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_great_indian_peninsula_railway_dlc"
+      ],
+      "mutuallyExclusive": [
+        "RAJ_prioritize_army_cargo"
+      ],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_ammunition_factory_khadki",
+      "name": "Ammunition Factory Khadki",
+      "description": "",
+      "x": 28,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_royal_indian_artillery_dlc",
+      "name": "Royal Indian Artillery Dlc",
+      "description": "",
+      "x": 36,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_military_pensions",
+      "name": "Military Pensions",
+      "description": "",
+      "x": 20,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_local_recruitment_offices",
+      "name": "Local Recruitment Offices",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_specialized_dietary_requirement",
+      "name": "Specialized Dietary Requirement",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_royal_indian_artillery_dlc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_standardized_rations",
+      "name": "Standardized Rations",
+      "description": "",
+      "x": 1,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_royal_indian_artillery_dlc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_quinine",
+      "name": "Quinine",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_standardized_rations"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_armoured_corps_center_and_school",
+      "name": "Armoured Corps Center And School",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_royal_indian_artillery_dlc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_legacy_of_military_service",
+      "name": "Legacy Of Military Service",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_local_recruitment_offices"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_indian_states_force",
+      "name": "Indian States Force",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_military_pensions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_indian_army_corps_of_engineers",
+      "name": "Indian Army Corps Of Engineers",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_indian_states_force"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_relax_agrarian_society_criteria",
+      "name": "Relax Agrarian Society Criteria",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_legacy_of_military_service"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_mechanization_of_the_cavalry",
+      "name": "Mechanization Of The Cavalry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_armoured_corps_center_and_school"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_mountain_tanks",
+      "name": "Mountain Tanks",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_mechanization_of_the_cavalry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_siege_batteries",
+      "name": "Siege Batteries",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_indian_army_corps_of_engineers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_mountain_guns",
+      "name": "Mountain Guns",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_royal_indian_artillery_dlc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_regimental_loyalty",
+      "name": "Regimental Loyalty",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_legacy_of_military_service"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_the_burma_rifles",
+      "name": "The Burma Rifles",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_military_pensions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_gurkhas",
+      "name": "Gurkhas",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_the_burma_rifles"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_lions_of_the_great_war_dlc",
+      "name": "Lions Of The Great War Dlc",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_military_pensions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_womens_auxiliary_corps",
+      "name": "Womens Auxiliary Corps",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_lions_of_the_great_war_dlc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_abolish_agrarian_society_criteria",
+      "name": "Abolish Agrarian Society Criteria",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_relax_agrarian_society_criteria",
+        "RAJ_regimental_loyalty"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_military_engineer_services",
+      "name": "Military Engineer Services",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_siege_batteries"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_assam_oil_dlc",
+      "name": "Assam Oil Dlc",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_bombay_baroda_and_central_india_railway"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_tata_steel_dlc",
+      "name": "Tata Steel Dlc",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_bombay_baroda_and_central_india_railway"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_chindits_dlc",
+      "name": "Chindits Dlc",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_royal_indian_artillery_dlc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_re_establish_the_khyber_rifles",
+      "name": "Re Establish The Khyber Rifles",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_chindits_dlc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_viceroys_body_guard",
+      "name": "Viceroys Body Guard",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_womens_auxiliary_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_frontier_corps",
+      "name": "Frontier Corps",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_viceroys_body_guard"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_help_from_the_nagas",
+      "name": "Help From The Nagas",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_frontier_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_gun_and_shell_factory_cossipore",
+      "name": "Gun And Shell Factory Cossipore",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_ammunition_factory_khadki"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_ordnance_factory_khamaria_jabalpur",
+      "name": "Ordnance Factory Khamaria Jabalpur",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_gun_and_shell_factory_cossipore"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_engineering_revolution",
+      "name": "Engineering Revolution",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_ordnance_factory_khamaria_jabalpur",
+        "RAJ_cordite_factory_aruvankadu_tamil_nadu"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_rifle_factory_ishapore_west_bengal",
+      "name": "Rifle Factory Ishapore West Bengal",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_ammunition_factory_khadki"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_ordnance_factory_kanpur_uttar_pradesh",
+      "name": "Ordnance Factory Kanpur Uttar Pradesh",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_rifle_factory_ishapore_west_bengal"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_ordnance_factory_medak",
+      "name": "Ordnance Factory Medak",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_rifle_factory_ishapore_west_bengal"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_chariot_of_victory",
+      "name": "Chariot Of Victory",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_ordnance_factory_medak",
+        "RAJ_ordnance_factory_kanpur_uttar_pradesh"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_indian_air_force",
+      "name": "Indian Air Force",
+      "description": "",
+      "x": 6,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "old_RAJ_raf_funding",
+      "name": "Old Raj Raf Funding",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_cordite_factory_aruvankadu_tamil_nadu",
+      "name": "Cordite Factory Aruvankadu Tamil Nadu",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_gun_and_shell_factory_cossipore"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_the_burma_road",
+      "name": "The Burma Road",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_east_india_railways_dlc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_womens_auxiliary_air_force",
+      "name": "Womens Auxiliary Air Force",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_indian_air_force"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_trainer_planes",
+      "name": "Trainer Planes",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_indian_air_force"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_spitfire",
+      "name": "Spitfire",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_trainer_planes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_ground_pounder",
+      "name": "Ground Pounder",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_trainer_planes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_douglas_dakota",
+      "name": "Douglas Dakota",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_indian_air_force"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_vultee_vengeance",
+      "name": "Vultee Vengeance",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_ground_pounder"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_the_ledo_road",
+      "name": "The Ledo Road",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_the_burma_road"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_long_range_escorts",
+      "name": "Long Range Escorts",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_trainer_planes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_british_air_experts",
+      "name": "British Air Experts",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_spitfire",
+        "RAJ_long_range_escorts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_special_operations_executive",
+      "name": "Special Operations Executive",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_british_air_experts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_the_ordnance_factories_board",
+      "name": "The Ordnance Factories Board",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_cordite_factory_aruvankadu_tamil_nadu",
+        "RAJ_ordnance_factory_kanpur_uttar_pradesh"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_smiling_buddah",
+      "name": "Smiling Buddah",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_british_air_experts",
+        "RAJ_abolish_agrarian_society_criteria"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_royal_indian_air_force_dlc",
+      "name": "Royal Indian Air Force Dlc",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_british_air_experts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_royal_indian_navy_dlc",
+      "name": "Royal Indian Navy Dlc",
+      "description": "",
+      "x": 7,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_expand_mazagon_dock_dlc",
+      "name": "Expand Mazagon Dock Dlc",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_royal_indian_navy_dlc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_black_swan_sloops",
+      "name": "Black Swan Sloops",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_royal_indian_navy_dlc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_indian_marine_corps",
+      "name": "Indian Marine Corps",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_royal_indian_navy_dlc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_assume_eastern_naval_responsibilities",
+      "name": "Assume Eastern Naval Responsibilities",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_indian_marine_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_support_naval_invasions",
+      "name": "Support Naval Invasions",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_indian_marine_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_madras_ship_repair_factories",
+      "name": "Madras Ship Repair Factories",
+      "description": "",
+      "x": 4,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_indian_marine_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_found_scindia_shipyard_dlc",
+      "name": "Found Scindia Shipyard Dlc",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_black_swan_sloops",
+        "RAJ_expand_mazagon_dock_dlc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_dominate_the_bay_of_bengal",
+      "name": "Dominate The Bay Of Bengal",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_found_scindia_shipyard_dlc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_indian_cruiser_development",
+      "name": "Indian Cruiser Development",
+      "description": "",
+      "x": 3,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_found_scindia_shipyard_dlc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_womens_royal_indian_naval_service",
+      "name": "Womens Royal Indian Naval Service",
+      "description": "",
+      "x": 4,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_indian_cruiser_development"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_increase_funding_for_the_GRSE",
+      "name": "Increase Funding For The Grse",
+      "description": "",
+      "x": 1,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_dominate_the_bay_of_bengal",
+        "RAJ_indian_cruiser_development"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_obtain_british_naval_contracts",
+      "name": "Obtain British Naval Contracts",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_black_swan_sloops",
+        "RAJ_expand_mazagon_dock_dlc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_purchase_decomissioned_british_ships",
+      "name": "Purchase Decomissioned British Ships",
+      "description": "",
+      "x": -2,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_obtain_british_naval_contracts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_request_transfer_of_british_commanders",
+      "name": "Request Transfer Of British Commanders",
+      "description": "",
+      "x": -3,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_obtain_british_naval_contracts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_obtain_modern_ship_contracts",
+      "name": "Obtain Modern Ship Contracts",
+      "description": "",
+      "x": -1,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_purchase_decomissioned_british_ships"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_modernizing_navy_dlc",
+      "name": "Modernizing Navy Dlc",
+      "description": "",
+      "x": 0,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_obtain_modern_ship_contracts",
+        "RAJ_increase_funding_for_the_GRSE"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_red_punjab_operation",
+      "name": "Red Punjab Operation",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_the_red_curtain_falls_over_asia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_secure_rajahsthan",
+      "name": "Secure Rajahsthan",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_the_red_curtain_falls_over_asia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_strike_eastern_pakistan",
+      "name": "Strike Eastern Pakistan",
+      "description": "",
+      "x": 4,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_the_red_curtain_falls_over_asia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_deathblow_to_imperial_remnants",
+      "name": "Deathblow To Imperial Remnants",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_red_punjab_operation",
+        "RAJ_secure_rajahsthan",
+        "RAJ_strike_eastern_pakistan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_stopping_the_japanese_threat_into_central_asia",
+      "name": "Stopping The Japanese Threat Into Central Asia",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_deathblow_to_imperial_remnants"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "RAJ_nationalize_british_owned_factories",
+      "name": "Nationalize British Owned Factories",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "RAJ_deathblow_to_imperial_remnants"
+      ],
+      "mutuallyExclusive": [],
+      "source": "india_goe.txt",
+      "shared": false
+    },
+    {
+      "id": "COM_together_for_britain",
+      "name": "Together for Britain",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "shared_reference",
+      "shared": true
+    },
+    {
+      "id": "AFR_leader",
+      "name": "African Regional Commander",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "shared_reference",
+      "shared": true
+    }
+  ]
+}

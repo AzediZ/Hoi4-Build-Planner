@@ -1,0 +1,1322 @@
+{
+  "mod": "FUWG",
+  "tag": "HOL",
+  "country": "Netherlands",
+  "treeId": "netherlands_focus",
+  "sourceFile": "netherlands.txt",
+  "focusCount": 92,
+  "focuses": [
+    {
+      "id": "HOL_obtain_foreign_colonial_investments",
+      "name": "Obtain Foreign Colonial Investments",
+      "description": "",
+      "x": 3,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_the_western_possessions",
+      "name": "The Western Possessions",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_obtain_foreign_colonial_investments"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_wilhelminism",
+      "name": "Wilhelminism",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_open_second_paranam_bauxite_mine",
+      "name": "Open Second Paranam Bauxite Mine",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_the_western_possessions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_antilles_defenses",
+      "name": "Antilles Defenses",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_open_second_paranam_bauxite_mine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_the_crown_jewel_colony",
+      "name": "The Crown Jewel Colony",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_obtain_foreign_colonial_investments"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_java",
+      "name": "Java",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_the_crown_jewel_colony"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_reinforce_java",
+      "name": "Reinforce Java",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_java"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_the_foundations_of_defense",
+      "name": "The Foundations Of Defense",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_antilles_defenses",
+        "HOL_reinforce_java"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_sumatra",
+      "name": "Sumatra",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_java"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_borneo_and_the_grote_oost",
+      "name": "Borneo And The Grote Oost",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_java"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_curtail_colonial_autonomy",
+      "name": "Curtail Colonial Autonomy",
+      "description": "",
+      "x": 2,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_the_crown_jewel_colony"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_continue_the_war_in_batavia",
+      "name": "Continue The War In Batavia",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_sumatra",
+        "HOL_borneo_and_the_grote_oost",
+        "HOL_curtail_colonial_autonomy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_a_western_capital",
+      "name": "A Western Capital",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_continue_the_war_in_batavia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_expand_the_colonial_army",
+      "name": "Expand The Colonial Army",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_continue_the_war_in_batavia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_colonial_shipbuilding",
+      "name": "Colonial Shipbuilding",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_a_western_capital",
+        "HOL_the_foundations_of_defense"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_the_east_indies_war_machine",
+      "name": "The East Indies War Machine",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_a_western_capital",
+        "HOL_expand_the_colonial_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_prepare_for_our_return",
+      "name": "Prepare For Our Return",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_colonial_shipbuilding",
+        "HOL_the_east_indies_war_machine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_liberation",
+      "name": "Liberation",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_prepare_for_our_return"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_abandon_the_gold_standard",
+      "name": "Abandon The Gold Standard",
+      "description": "",
+      "x": 10,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_continue_the_public_works",
+      "name": "Continue The Public Works",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_abandon_the_gold_standard"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_finish_the_noordoostpolder",
+      "name": "Finish The Noordoostpolder",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_continue_the_public_works"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_the_maastunnel",
+      "name": "The Maastunnel",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_continue_the_public_works"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_expand_the_artillerieinrichtingen",
+      "name": "Expand The Artillerieinrichtingen",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_finish_the_noordoostpolder",
+        "HOL_the_maastunnel"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_philips_focus",
+      "name": "Philips Focus",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_expand_the_artillerieinrichtingen"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_expand_RD_facilities",
+      "name": "Expand Rd Facilities",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_philips_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_domestic_vehicle_designs",
+      "name": "Domestic Vehicle Designs",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_the_east_indies_war_machine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_domestic_innovation",
+      "name": "Domestic Innovation",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_domestic_vehicle_designs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_make_use_of_our_riches",
+      "name": "Make Use Of Our Riches",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_domestic_innovation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_the_ultimate_deterrent",
+      "name": "The Ultimate Deterrent",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_domestic_innovation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_overturn_military_budget_cuts",
+      "name": "Overturn Military Budget Cuts",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_abandon_the_gold_standard"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_prepare_the_inundation_lines",
+      "name": "Prepare The Inundation Lines",
+      "description": "",
+      "x": -6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_overturn_military_budget_cuts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_protect_against_britain",
+      "name": "Protect Against Britain",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_prepare_the_inundation_lines"
+      ],
+      "mutuallyExclusive": [
+        "HOL_germany_is_the_greater_threat"
+      ],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_further_reinforce_the_ports",
+      "name": "Further Reinforce The Ports",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "HOL_protect_against_britain"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_southward_defenses",
+      "name": "Southward Defenses",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "HOL_further_reinforce_the_ports"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_germany_is_the_greater_threat",
+      "name": "Germany Is The Greater Threat",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_prepare_the_inundation_lines"
+      ],
+      "mutuallyExclusive": [
+        "HOL_protect_against_britain"
+      ],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_fortress_holland",
+      "name": "Fortress Holland",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "HOL_germany_is_the_greater_threat"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_modernize_the_grebbeline",
+      "name": "Modernize The Grebbeline",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "HOL_fortress_holland"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_war_on_pacifism",
+      "name": "War On Pacifism",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_protect_against_britain",
+        "HOL_germany_is_the_greater_threat"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_appoint_new_supreme_commander",
+      "name": "Appoint New Supreme Commander",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_overturn_military_budget_cuts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_modernize_our_infantry_equipment",
+      "name": "Modernize Our Infantry Equipment",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_appoint_new_supreme_commander"
+      ],
+      "mutuallyExclusive": [
+        "HOL_production_under_license"
+      ],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_production_under_license",
+      "name": "Production Under License",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_appoint_new_supreme_commander"
+      ],
+      "mutuallyExclusive": [
+        "HOL_modernize_our_infantry_equipment"
+      ],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_light_tanks_for_the_colonies",
+      "name": "Light Tanks For The Colonies",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_modernize_our_infantry_equipment",
+        "HOL_production_under_license"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_secret_staff_talks",
+      "name": "Secret Staff Talks",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_modernize_our_infantry_equipment",
+        "HOL_production_under_license"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_anti_tank_guns_for_the_continent",
+      "name": "Anti Tank Guns For The Continent",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_modernize_our_infantry_equipment",
+        "HOL_production_under_license"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_lessons_from_the_last_war",
+      "name": "Lessons From The Last War",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_light_tanks_for_the_colonies",
+        "HOL_secret_staff_talks",
+        "HOL_anti_tank_guns_for_the_continent"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_expand_the_mld",
+      "name": "Expand The Mld",
+      "description": "",
+      "x": 4,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_overturn_military_budget_cuts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_protect_the_mainland",
+      "name": "Protect The Mainland",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_expand_the_mld"
+      ],
+      "mutuallyExclusive": [
+        "HOL_protect_the_colonies"
+      ],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_protect_the_colonies",
+      "name": "Protect The Colonies",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_expand_the_mld"
+      ],
+      "mutuallyExclusive": [
+        "HOL_protect_the_mainland"
+      ],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_modernize_the_air_fleet",
+      "name": "Modernize The Air Fleet",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_protect_the_mainland",
+        "HOL_protect_the_colonies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_strategic_bombing_defense",
+      "name": "Strategic Bombing Defense",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_modernize_the_air_fleet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_longer_range_models",
+      "name": "Longer Range Models",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_strategic_bombing_defense"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_unsinkable_aircraft_carriers",
+      "name": "Unsinkable Aircraft Carriers",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_strategic_bombing_defense"
+      ],
+      "mutuallyExclusive": [
+        "HOL_air_cover_for_the_new_fleet"
+      ],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_aviatic_aspirations",
+      "name": "Aviatic Aspirations",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_longer_range_models",
+        "HOL_unsinkable_aircraft_carriers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_prepare_naval_expansion",
+      "name": "Prepare Naval Expansion",
+      "description": "",
+      "x": 8,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_overturn_military_budget_cuts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_expand_the_amsterdam_petroleum_harbor",
+      "name": "Expand The Amsterdam Petroleum Harbor",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_prepare_naval_expansion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_cornerstone_of_colonial_defense",
+      "name": "Cornerstone Of Colonial Defense",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_prepare_naval_expansion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_rely_on_submarines",
+      "name": "Rely On Submarines",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_cornerstone_of_colonial_defense"
+      ],
+      "mutuallyExclusive": [
+        "HOL_modernize_the_cruiser_fleet"
+      ],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_modernize_the_cruiser_fleet",
+      "name": "Modernize The Cruiser Fleet",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_cornerstone_of_colonial_defense"
+      ],
+      "mutuallyExclusive": [
+        "HOL_rely_on_submarines"
+      ],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_the_battlecruiser_plan",
+      "name": "The Battlecruiser Plan",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_rely_on_submarines",
+        "HOL_modernize_the_cruiser_fleet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_air_cover_for_the_new_fleet",
+      "name": "Air Cover For The New Fleet",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_the_battlecruiser_plan"
+      ],
+      "mutuallyExclusive": [
+        "HOL_unsinkable_aircraft_carriers"
+      ],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_escorts_for_the_new_fleet",
+      "name": "Escorts For The New Fleet",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_the_battlecruiser_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_naval_heritage",
+      "name": "Naval Heritage",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_air_cover_for_the_new_fleet",
+        "HOL_escorts_for_the_new_fleet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_form_new_government",
+      "name": "Form New Government",
+      "description": "",
+      "x": 18,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_maintain_trade_neutrality",
+      "name": "Maintain Trade Neutrality",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_form_new_government"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_cave_to_the_germans",
+      "name": "Cave To The Germans",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_form_new_government"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_cave_to_the_british",
+      "name": "Cave To The British",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_form_new_government"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_form_the_benelux",
+      "name": "Form The Benelux",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_foundations_for_a_european_union",
+      "name": "Foundations For A European Union",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_join_the_french",
+      "name": "Join The French",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_placate_the_japanese",
+      "name": "Placate The Japanese",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_the_netherlands_first",
+      "name": "The Netherlands First",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_the_zuiderzee_works",
+      "name": "The Zuiderzee Works",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_oranje_boven",
+      "name": "Oranje Boven",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_maintain_trade_neutrality"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_symbol_of_resistance",
+      "name": "Symbol Of Resistance",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_oranje_boven"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_replace_the_defeatist_government",
+      "name": "Replace The Defeatist Government",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_oranje_boven"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_the_only_man_in_the_dutch_government",
+      "name": "The Only Man In The Dutch Government",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_symbol_of_resistance",
+        "HOL_replace_the_defeatist_government"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_de_vernieuwing",
+      "name": "De Vernieuwing",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_the_only_man_in_the_dutch_government"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_depillarization",
+      "name": "Depillarization",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_the_only_man_in_the_dutch_government"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_a_new_dutch_unity",
+      "name": "A New Dutch Unity",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_de_vernieuwing",
+        "HOL_depillarization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_revive_the_buffer_state_proposal",
+      "name": "Revive The Buffer State Proposal",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_a_new_dutch_unity",
+        "HOL_request_allied_favors"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_royal_arms_purchases",
+      "name": "Royal Arms Purchases",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_de_vernieuwing"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_go_with_britain",
+      "name": "Go With Britain",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_oranje_boven"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_de_vaarplicht",
+      "name": "De Vaarplicht",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_replace_the_defeatist_government",
+        "HOL_go_with_britain"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_request_allied_favors",
+      "name": "Request Allied Favors",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_de_vaarplicht"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_the_singapore_conferences",
+      "name": "The Singapore Conferences",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_go_with_britain"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_ship_a_day_sinking_quotas",
+      "name": "Ship A Day Sinking Quotas",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_de_vaarplicht",
+        "HOL_the_singapore_conferences"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_allied_technological_developments",
+      "name": "Allied Technological Developments",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_the_singapore_conferences"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_american_west_indies_protectorate",
+      "name": "American West Indies Protectorate",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_ship_a_day_sinking_quotas",
+        "HOL_allied_technological_developments"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_combined_chiefs_of_staff_representation",
+      "name": "Combined Chiefs Of Staff Representation",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_request_allied_favors",
+        "HOL_american_west_indies_protectorate"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_the_fourth_ally",
+      "name": "The Fourth Ally",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_combined_chiefs_of_staff_representation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    },
+    {
+      "id": "HOL_zandery_military_airport",
+      "name": "Zandery Military Airport",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "HOL_american_west_indies_protectorate"
+      ],
+      "mutuallyExclusive": [],
+      "source": "netherlands.txt",
+      "shared": false
+    }
+  ]
+}

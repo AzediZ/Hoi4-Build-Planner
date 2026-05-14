@@ -9,14 +9,14 @@ const tableDefinitions = {
   constructionTable: ["order", "what", "where", "when", "notes"],
   productionTable: ["order", "line", "factories", "when", "notes"],
   ppTable: ["order", "item", "pp", "timing", "notes"],
-  researchSlot1: ["order", "tech", "when", "notes"],
-  researchSlot2: ["order", "tech", "when", "notes"],
-  researchSlot3: ["order", "tech", "when", "notes"],
-  researchSlot4: ["order", "tech", "when", "notes"],
-  researchSlot5: ["order", "tech", "when", "notes"],
-  researchSlot6: ["order", "tech", "when", "notes"],
-  researchSlot7: ["order", "tech", "when", "notes"],
-  researchSlot8: ["order", "tech", "when", "notes"],
+  researchSlot1: ["order", "tech", "when", "notes", "techId"],
+  researchSlot2: ["order", "tech", "when", "notes", "techId"],
+  researchSlot3: ["order", "tech", "when", "notes", "techId"],
+  researchSlot4: ["order", "tech", "when", "notes", "techId"],
+  researchSlot5: ["order", "tech", "when", "notes", "techId"],
+  researchSlot6: ["order", "tech", "when", "notes", "techId"],
+  researchSlot7: ["order", "tech", "when", "notes", "techId"],
+  researchSlot8: ["order", "tech", "when", "notes", "techId"],
   templateTable: ["name", "role", "battalions", "support", "combatWidth", "timing", "notes"]
 };
 
@@ -50,6 +50,583 @@ function bindAutoGrow(textarea) {
 
 document.querySelectorAll(".auto-grow").forEach(bindAutoGrow);
 
+
+const researchState = {
+  techs: [],
+  techByName: new Map(),
+  techById: new Map(),
+  loadedMod: "",
+  startingTechsByCountry: {},
+  currentStartingTechIds: new Set()
+};
+
+async function loadStartingTechDataForMod(modName) {
+  researchState.startingTechsByCountry = {};
+  researchState.currentStartingTechIds = new Set();
+
+  if (modName !== "FUWG") return;
+
+  try {
+    const response = await fetch("./data/fuwg/starting_techs.json", { cache: "no-store" });
+    if (!response.ok) throw new Error(`Could not load data/fuwg/starting_techs.json (${response.status})`);
+    const data = await response.json();
+    researchState.startingTechsByCountry = data.countries || {};
+  } catch (error) {
+    console.warn("Could not load FUWG starting tech data:", error);
+  }
+}
+
+function setCurrentCountryStartingTechs(tag) {
+  const ids = researchState.startingTechsByCountry?.[tag] || [];
+  researchState.currentStartingTechIds = new Set(ids);
+  updateResearchStartingTechStatus(tag);
+  populateResearchOptions();
+  document.querySelectorAll('input.research-tech-input').forEach(updateResearchInputMatch);
+}
+
+function updateResearchStartingTechStatus(tag = "") {
+  const status = document.getElementById("researchDataStatus");
+  if (!status) return;
+
+  const count = researchState.currentStartingTechIds?.size || 0;
+  if (researchState.loadedMod === "FUWG") {
+    status.textContent = count
+      ? `Loaded ${researchState.techs.length} FUWG research options. ${tag} starts with ${count} researched tech(s). Autocomplete uses starting techs plus selected research in any slot. Search also reveals locked matches, which are highlighted if prerequisites are missing.`
+      : `Loaded ${researchState.techs.length} FUWG research options. No starting tech list loaded for ${tag || "this country"}.`;
+  }
+}
+
+function isResearchAlreadyKnown(techId) {
+  return !!techId && researchState.currentStartingTechIds?.has(techId);
+}
+
+async function loadResearchDataForMod(modName) {
+  await loadStartingTechDataForMod(modName);
+  const list = document.getElementById("researchOptionsList");
+  const status = document.getElementById("researchDataStatus");
+  if (list) list.innerHTML = "";
+
+  researchState.techs = [];
+  researchState.techByName = new Map();
+  researchState.techById = new Map();
+  researchState.loadedMod = "";
+  researchState.currentStartingTechIds = new Set();
+
+  if (modName !== "FUWG") {
+    if (status) status.textContent = "Research autocomplete is manual unless FUWG is selected.";
+    return;
+  }
+
+  try {
+    const response = await fetch("./data/fuwg/research.json", { cache: "no-store" });
+    if (!response.ok) throw new Error(`Could not load data/fuwg/research.json (${response.status})`);
+    const data = await response.json();
+
+    researchState.techs = data.techs || [];
+    researchState.loadedMod = "FUWG";
+
+    researchState.techs.forEach((tech) => {
+      researchState.techById.set(tech.id, tech);
+      researchState.techByName.set(String(tech.name || "").toLowerCase(), tech);
+    });
+
+    populateResearchOptions();
+
+    if (status) status.textContent = `Loaded ${researchState.techs.length} FUWG research options. Select a country to load starting techs.`;
+  } catch (error) {
+    if (status) status.textContent = `Could not load FUWG research data: ${error.message}`;
+  }
+}
+
+
+function getSelectedResearchTechIdsBeforeInput(targetInput = null) {
+  const known = new Set(researchState.currentStartingTechIds || []);
+
+  document.querySelectorAll('input.research-tech-input').forEach((input) => {
+    if (targetInput && input === targetInput) return;
+
+    const value = String(input.value || "").trim().toLowerCase();
+    const matched = researchState.techByName.get(value);
+    const id = input.dataset.techId || matched?.id || "";
+
+    if (id) known.add(id);
+  });
+
+  return known;
+}
+
+function areResearchPrereqsMet(tech, knownIds) {
+  const reqs = tech?.requires || [];
+  if (!reqs.length) return true;
+  return reqs.every((id) => knownIds.has(id));
+}
+
+function getAvailableResearchTechsForInput(targetInput = null) {
+  const knownIds = getSelectedResearchTechIdsBeforeInput(targetInput);
+
+  return researchState.techs.filter((tech) => {
+    if (knownIds.has(tech.id)) return false;
+    return areResearchPrereqsMet(tech, knownIds);
+  });
+}
+
+function populateResearchOptions(targetInput = null) {
+  const list = document.getElementById("researchOptionsList");
+  if (!list) return;
+
+  list.innerHTML = "";
+
+  const typed = String(targetInput?.value || "").trim().toLowerCase();
+  const available = getAvailableResearchTechsForInput(targetInput);
+  const availableIds = new Set(available.map((tech) => tech.id));
+
+  let options = available;
+
+  // If the user is actively searching, include matching locked techs too so techs do not look missing.
+  // Once selected, the field warning explains missing prerequisites.
+  if (typed.length >= 2) {
+    const matchingLocked = researchState.techs.filter((tech) => {
+      if (availableIds.has(tech.id)) return false;
+      return String(tech.name || "").toLowerCase().includes(typed) || String(tech.id || "").toLowerCase().includes(typed);
+    });
+
+    options = [...available, ...matchingLocked].sort((a, b) => String(a.name).localeCompare(String(b.name)));
+  }
+
+  options.forEach((tech) => {
+    const option = document.createElement("option");
+    option.value = tech.name;
+    list.appendChild(option);
+  });
+
+  document.querySelectorAll('input.research-tech-input').forEach(updateResearchInputMatch);
+}
+
+function updateResearchInputMatch(input) {
+  if (!input) return;
+
+  input.classList.remove("focus-known", "focus-unknown");
+
+  const value = String(input.value || "").trim().toLowerCase();
+  if (!value || !researchState.techs.length) {
+    input.dataset.techId = input.dataset.techId || "";
+    input.title = "";
+    return;
+  }
+
+  const tech = researchState.techByName.get(value);
+  if (tech) {
+    input.dataset.techId = tech.id;
+
+    const knownBefore = getSelectedResearchTechIdsBeforeInput(input);
+    const missing = (tech.requires || []).filter((id) => !knownBefore.has(id));
+    const missingNames = missing.map((id) => researchState.techById.get(id)?.name || id);
+
+    if (isResearchAlreadyKnown(tech.id)) {
+      input.title = `Already researched at game start${tech.category ? ` | Category: ${tech.category}` : ""}`;
+      input.classList.add("focus-unknown");
+    } else if (missing.length) {
+      input.title = `Missing prerequisite(s): ${missingNames.join(", ")}`;
+      input.classList.add("focus-unknown");
+    } else {
+      input.title = tech.category ? `Category: ${tech.category}` : "";
+      input.classList.add("focus-known");
+    }
+  } else {
+    input.dataset.techId = "";
+    input.title = "No exact match in loaded research data.";
+    input.classList.add("focus-unknown");
+  }
+}
+
+const smartFocusState = {
+  countries: [],
+  activeTree: null,
+  focusByName: new Map(),
+  focusById: new Map()
+};
+
+async function initialiseSmartFocusControls() {
+  const modSelect = document.getElementById("patchInput");
+  const countrySelect = document.getElementById("countrySelect");
+  const manualCountryInput = document.getElementById("countryInput");
+
+  if (!modSelect || !countrySelect || !manualCountryInput) return;
+
+  function showManualCountry() {
+    manualCountryInput.style.display = "";
+    manualCountryInput.disabled = false;
+    countrySelect.style.display = "none";
+    countrySelect.disabled = true;
+  }
+
+  function showFuwgCountry() {
+    manualCountryInput.style.display = "none";
+    manualCountryInput.disabled = true;
+    countrySelect.style.display = "";
+    countrySelect.disabled = false;
+  }
+
+  function resetCountrySelect(message = "Select country/tree...") {
+    countrySelect.innerHTML = `<option value="">${message}</option>`;
+  }
+
+  async function handleModChange() {
+    const selectedMod = String(modSelect.value || "").trim();
+    loadResearchDataForMod(selectedMod);
+
+    if (selectedMod === "FUWG") {
+      showFuwgCountry();
+      await loadSmartFocusCountries();
+      return;
+    }
+
+    showManualCountry();
+    resetCountrySelect("Select FUWG first");
+    clearSmartFocusData();
+    setFocusDataStatus(selectedMod === "Vanilla"
+      ? "Vanilla focus data is not added yet. Manual focus entry is active."
+      : "Manual focus entry is active.");
+  }
+
+  modSelect.addEventListener("change", handleModChange);
+
+  countrySelect.addEventListener("change", async () => {
+    if (String(modSelect.value || "").trim() !== "FUWG") return;
+
+    const tag = String(countrySelect.value || "").trim();
+    if (!tag) {
+      clearSmartFocusData();
+      setFocusDataStatus("Choose a FUWG country/tree to load focus data.");
+      return;
+    }
+
+    await loadSmartFocusTree(tag);
+  });
+
+  await handleModChange();
+}
+
+function setFocusDataStatus(message) {
+  const status = document.getElementById("focusDataStatus");
+  if (status) status.textContent = message;
+}
+
+function clearSmartFocusData() {
+  smartFocusState.activeTree = null;
+  smartFocusState.focusByName = new Map();
+  smartFocusState.focusById = new Map();
+  const list = document.getElementById("focusOptionsList");
+  if (list) list.innerHTML = "";
+  document.querySelectorAll('input[data-field="focus"]').forEach(updateFocusInputMatch);
+  updateAvailableFocusOptions();
+  validateFocusOrder();
+  validateFocusOrder();
+}
+
+async function loadSmartFocusCountries() {
+  const countrySelect = document.getElementById("countrySelect");
+  if (!countrySelect) return;
+
+  countrySelect.disabled = false;
+  countrySelect.innerHTML = '<option value="">Loading FUWG countries...</option>';
+  setFocusDataStatus("Loading FUWG country list...");
+
+  try {
+    const response = await fetch("./data/fuwg/countries.json", { cache: "no-store" });
+    if (!response.ok) throw new Error(`Could not load data/fuwg/countries.json (${response.status})`);
+
+    const data = await response.json();
+    smartFocusState.countries = data.countries || [];
+
+    countrySelect.innerHTML = '<option value="">Choose country/tree...</option>';
+
+    smartFocusState.countries.forEach((country) => {
+      const option = document.createElement("option");
+      option.value = country.tag;
+      option.textContent = `${country.name} (${country.tag})`;
+      countrySelect.appendChild(option);
+    });
+
+    countrySelect.disabled = false;
+
+    if (!smartFocusState.countries.length) {
+      countrySelect.innerHTML = '<option value="">No FUWG countries found</option>';
+      countrySelect.disabled = true;
+      setFocusDataStatus("FUWG data loaded, but no countries were found.");
+      return;
+    }
+
+    setFocusDataStatus(`Loaded ${smartFocusState.countries.length} FUWG country/tree entries. Choose a country/tree from the top Country dropdown.`);
+  } catch (error) {
+    countrySelect.innerHTML = '<option value="">Could not load FUWG data</option>';
+    countrySelect.disabled = true;
+    setFocusDataStatus(`Could not load FUWG countries: ${error.message}. Check that data/fuwg/countries.json exists next to index.html.`);
+  }
+}
+
+async function loadSmartFocusTree(tag) {
+  setFocusDataStatus(`Loading FUWG focus tree for ${tag}...`);
+
+  try {
+    const response = await fetch(`./data/fuwg/focus_trees/${encodeURIComponent(tag)}.json`, { cache: "no-store" });
+    if (!response.ok) throw new Error(`Could not load ${tag}.json (${response.status})`);
+
+    const tree = await response.json();
+    smartFocusState.activeTree = tree;
+    smartFocusState.focusByName = new Map();
+    smartFocusState.focusById = new Map();
+
+    const list = document.getElementById("focusOptionsList");
+    list.innerHTML = "";
+
+    (tree.focuses || []).forEach((focus) => {
+      smartFocusState.focusById.set(focus.id, focus);
+      smartFocusState.focusByName.set(focus.name.toLowerCase(), focus);
+      // Keep ID lookup internal only. Do not add IDs to the visible datalist.
+      smartFocusState.focusById.set(focus.id, focus);
+    });
+
+    updateAvailableFocusOptions();
+
+    setValue("patchInput", "FUWG");
+    setValue("countryInput", `${tree.country} (${tree.tag})`);
+    setCurrentCountryStartingTechs(tree.tag);
+
+    document.querySelectorAll('input[data-field="focus"]').forEach(updateFocusInputMatch);
+    validateFocusOrder();
+    setFocusDataStatus(`Loaded ${tree.country} (${tree.tag}) — ${tree.focusCount} focuses. Focus rows now show only currently available FUWG focus options.`);
+  } catch (error) {
+    setFocusDataStatus(`Could not load FUWG focus tree: ${error.message}`);
+  }
+}
+
+
+function getSelectedFocusIdsBeforeRow(targetInput = null) {
+  const selected = new Set();
+  const rows = [...document.querySelectorAll("#focusTable tbody tr")];
+
+  for (const row of rows) {
+    const input = row.querySelector('input[data-field="focus"]');
+    if (targetInput && input === targetInput) break;
+
+    const id = input?.dataset.focusId || "";
+    if (id) selected.add(id);
+  }
+
+  return selected;
+}
+
+function isFocusAvailable(focus, selectedIds) {
+  if (!focus) return false;
+  if (selectedIds.has(focus.id)) return false;
+
+  const prereqs = focus.prerequisites || [];
+  if (prereqs.some((focusId) => !selectedIds.has(focusId))) return false;
+
+  const exclusive = focus.mutuallyExclusive || [];
+  if (exclusive.some((focusId) => selectedIds.has(focusId))) return false;
+
+  return true;
+}
+
+function updateAvailableFocusOptions(targetInput = null) {
+  const list = document.getElementById("focusOptionsList");
+  if (!list) return;
+
+  list.innerHTML = "";
+
+  if (!smartFocusState.activeTree) return;
+
+  const selectedIds = getSelectedFocusIdsBeforeRow(targetInput);
+  const currentId = targetInput?.dataset.focusId || "";
+
+  const available = (smartFocusState.activeTree.focuses || [])
+    .filter((focus) => isFocusAvailable(focus, selectedIds) || focus.id === currentId)
+    .sort((a, b) => {
+      const ay = Number.isFinite(a.y) ? a.y : 9999;
+      const by = Number.isFinite(b.y) ? b.y : 9999;
+      const ax = Number.isFinite(a.x) ? a.x : 9999;
+      const bx = Number.isFinite(b.x) ? b.x : 9999;
+      return ay - by || ax - bx || a.name.localeCompare(b.name);
+    });
+
+  available.forEach((focus) => {
+    const option = document.createElement("option");
+    option.value = focus.name;
+    // Important: no label or textContent here, otherwise browsers may show the internal ID.
+    list.appendChild(option);
+  });
+
+  setFocusDataStatus(`Loaded ${smartFocusState.activeTree.country} (${smartFocusState.activeTree.tag}). Showing ${available.length} currently available focus option(s) for the selected row.`);
+}
+
+function updateFocusInputMatch(input) {
+  if (!input) return;
+
+  const value = String(input.value || "").trim().toLowerCase();
+  const focus = smartFocusState.focusByName.get(value);
+
+  input.classList.remove("focus-known", "focus-unknown");
+
+  if (!value || !smartFocusState.activeTree) {
+    input.dataset.focusId = input.dataset.focusId || "";
+    return;
+  }
+
+  if (focus) {
+    input.dataset.focusId = focus.id;
+    input.title = focus.prerequisites?.length
+      ? `Requires: ${focus.prerequisites.map(readableFocusName).join(", ")}`
+      : "";
+    input.classList.add("focus-known");
+  } else {
+    input.dataset.focusId = "";
+    input.title = "No exact match in loaded FUWG focus tree.";
+    input.classList.add("focus-unknown");
+  }
+}
+
+function readableFocusName(focusId) {
+  const focus = smartFocusState.focusById.get(focusId);
+  return focus?.name || focusId;
+}
+
+function getFocusRowsForValidation() {
+  return [...document.querySelectorAll("#focusTable tbody tr")].map((row, index) => {
+    const input = row.querySelector('input[data-field="focus"]');
+    const orderInput = row.querySelector('[data-field="order"]');
+    const name = input?.value?.trim() || "";
+    const id = input?.dataset.focusId || "";
+    const focus = id ? smartFocusState.focusById.get(id) : null;
+
+    return {
+      row,
+      index,
+      order: orderInput?.value?.trim() || String(index + 1),
+      name,
+      id,
+      focus
+    };
+  });
+}
+
+function setFocusValidationStatus(kind, label, messages) {
+  const badge = document.getElementById("focusValidationBadge");
+  const box = document.getElementById("focusValidationMessages");
+
+  if (badge) {
+    badge.className = `focus-validation-badge ${kind}`;
+    badge.textContent = label;
+  }
+
+  if (!box) return;
+
+  if (!messages.length) {
+    box.innerHTML = "";
+    return;
+  }
+
+  box.innerHTML = messages.map((message) => {
+    const cls = message.kind || kind;
+    return `<div class="focus-validation-message ${cls}">${message.text}</div>`;
+  }).join("");
+}
+
+function validateFocusOrder() {
+  const rows = getFocusRowsForValidation();
+
+  rows.forEach(({ row }) => {
+    row.classList.remove("focus-row-warning", "focus-row-ok");
+  });
+
+  if (!smartFocusState.activeTree) {
+    setFocusValidationStatus("neutral", "Manual / not checked", [
+      { kind: "neutral", text: "Load FUWG focus data to check prerequisites and mutually exclusive focuses." }
+    ]);
+    return;
+  }
+
+  const selectedById = new Map();
+  const selectedOrder = [];
+  const warnings = [];
+
+  for (const current of rows) {
+    if (!current.name) continue;
+
+    if (!current.id || !current.focus) {
+      current.row.classList.add("focus-row-warning");
+      warnings.push({
+        kind: "warn",
+        text: `Row ${current.order}: "${escapeHtml(current.name)}" does not exactly match a loaded FUWG focus.`
+      });
+      continue;
+    }
+
+    if (selectedById.has(current.id)) {
+      current.row.classList.add("focus-row-warning");
+      const previous = selectedById.get(current.id);
+      warnings.push({
+        kind: "warn",
+        text: `Row ${current.order}: "${escapeHtml(current.focus.name)}" is already selected earlier at row ${previous.order}.`
+      });
+    }
+
+    const missingPrereqs = (current.focus.prerequisites || []).filter((focusId) => !selectedById.has(focusId));
+    if (missingPrereqs.length) {
+      current.row.classList.add("focus-row-warning");
+      warnings.push({
+        kind: "warn",
+        text: `Row ${current.order}: "${escapeHtml(current.focus.name)}" may require earlier focus(es): ${missingPrereqs.map(readableFocusName).map(escapeHtml).join(", ")}.`
+      });
+    }
+
+    const exclusivePicked = (current.focus.mutuallyExclusive || []).filter((focusId) => selectedById.has(focusId));
+    if (exclusivePicked.length) {
+      current.row.classList.add("focus-row-warning");
+      warnings.push({
+        kind: "warn",
+        text: `Row ${current.order}: "${escapeHtml(current.focus.name)}" is mutually exclusive with already selected focus(es): ${exclusivePicked.map(readableFocusName).map(escapeHtml).join(", ")}.`
+      });
+    }
+
+    if (!current.row.classList.contains("focus-row-warning")) {
+      current.row.classList.add("focus-row-ok");
+    }
+
+    selectedById.set(current.id, current);
+    selectedOrder.push(current.id);
+  }
+
+  if (!selectedOrder.length) {
+    setFocusValidationStatus("neutral", "Ready", [
+      { kind: "neutral", text: `Loaded ${smartFocusState.activeTree.country} (${smartFocusState.activeTree.tag}). Add focuses to begin checking the order.` }
+    ]);
+    return;
+  }
+
+  if (!warnings.length) {
+    setFocusValidationStatus("ok", "No issues found", [
+      { kind: "ok", text: `Checked ${selectedOrder.length} selected focus(es). No missing prerequisites or mutually exclusive conflicts found.` }
+    ]);
+    return;
+  }
+
+  setFocusValidationStatus("warn", `${warnings.length} issue${warnings.length === 1 ? "" : "s"} found`, warnings);
+}
+
+function escapeHtml(value) {
+  return String(value || "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
+
+initialiseSmartFocusControls();
+
 document.querySelectorAll(".tab").forEach(button => {
   button.addEventListener("click", () => {
     document.querySelectorAll(".tab").forEach(b => b.classList.remove("active"));
@@ -73,6 +650,29 @@ function addRow(tableId, values = {}) {
 
   fields.forEach((field) => {
     const td = document.createElement("td");
+
+    if (tableId === "focusTable" && field === "focus") {
+      const input = document.createElement("input");
+      input.type = "text";
+      input.spellcheck = false;
+      input.className = "focus-search-input";
+      input.setAttribute("list", "focusOptionsList");
+      input.value = values[field] || "";
+      input.dataset.field = field;
+      input.dataset.focusId = values.focusId || "";
+      input.addEventListener("focus", () => updateAvailableFocusOptions(input));
+      input.addEventListener("click", () => updateAvailableFocusOptions(input));
+      input.addEventListener("input", () => {
+        updateFocusInputMatch(input);
+        updateAvailableFocusOptions(input);
+        validateFocusOrder();
+      });
+      td.appendChild(input);
+      tr.appendChild(td);
+      requestAnimationFrame(() => updateFocusInputMatch(input));
+      return;
+    }
+
     const textarea = document.createElement("textarea");
     textarea.rows = 1;
     textarea.spellcheck = false;
@@ -94,12 +694,14 @@ function addRow(tableId, values = {}) {
   deleteButton.addEventListener("click", () => {
     tr.remove();
     renumber(tableId);
+    if (tableId === "focusTable") { updateAvailableFocusOptions(); validateFocusOrder(); }
   });
   actionTd.appendChild(deleteButton);
   tr.appendChild(actionTd);
 
   tbody.appendChild(tr);
   requestAnimationFrame(() => tr.querySelectorAll("textarea").forEach(syncRowHeight));
+  if (tableId === "focusTable") { updateAvailableFocusOptions(); validateFocusOrder(); }
 }
 
 
@@ -140,7 +742,7 @@ function setResearchData(research) {
 function renumber(tableId) {
   const rows = document.querySelectorAll(`#${tableId} tbody tr`);
   rows.forEach((row, index) => {
-    const orderInput = row.querySelector('textarea[data-field="order"]');
+    const orderInput = row.querySelector('textarea[data-field="order"], input[data-field="order"]');
     if (orderInput) orderInput.value = String(index + 1);
     row.querySelectorAll("textarea").forEach(syncRowHeight);
   });
@@ -150,8 +752,17 @@ function tableToData(tableId) {
   const rows = [...document.querySelectorAll(`#${tableId} tbody tr`)];
   return rows.map(row => {
     const obj = {};
-    row.querySelectorAll("textarea").forEach(input => {
+    row.querySelectorAll("textarea, input").forEach(input => {
+      if (!input.dataset.field) return;
       obj[input.dataset.field] = input.value;
+      if (input.dataset.field === "tech") {
+        const matchedTech = researchState.techByName.get(String(input.value || "").trim().toLowerCase());
+        obj.techId = input.dataset.techId || matchedTech?.id || "";
+      }
+      if (tableId === "focusTable" && input.dataset.field === "focus") {
+        const matchedFocus = smartFocusState.focusByName.get(String(input.value || "").trim().toLowerCase());
+        obj.focusId = input.dataset.focusId || matchedFocus?.id || "";
+      }
     });
     return obj;
   });
@@ -170,8 +781,17 @@ function getValue(id) {
 
 function setValue(id, value) {
   const el = document.getElementById(id);
+  if (!el) return;
+
+  if (el.tagName === "SELECT") {
+    const wanted = value || "";
+    const hasOption = [...el.options].some((option) => option.value === wanted || option.text === wanted);
+    el.value = hasOption ? wanted : "";
+    return;
+  }
+
   el.value = value || "";
-  autoGrow(el);
+  if (typeof autoGrow === "function") autoGrow(el);
 }
 
 
@@ -304,10 +924,12 @@ function collectPlan() {
 
 function loadPlanIntoUI(plan) {
   setValue("countryInput", plan.meta?.country || "");
-  setValue("patchInput", plan.meta?.patch || "");
+  setValue("patchInput", plan.meta?.patch || "Manual Entry");
+  document.getElementById("patchInput")?.dispatchEvent(new Event("change"));
   setValue("buildInput", plan.meta?.buildName || "");
   setValue("createdDateInput", plan.meta?.createdDate || "");
   setTableData("focusTable", plan.focus || []);
+  document.querySelectorAll('input[data-field="focus"]').forEach(updateFocusInputMatch);
   setTableData("constructionTable", plan.construction || []);
   setTableData("productionTable", plan.production || []);
   setTableData("ppTable", plan.politicalPower || []);
@@ -478,7 +1100,7 @@ function unpackRows(rows, fields) {
 function packPlan(plan) {
   const researchSlots = [];
   for (let slot = 1; slot <= 8; slot++) {
-    researchSlots.push(packRows(plan.research?.[`slot${slot}`] || [], ["order", "tech", "when", "notes"]));
+    researchSlots.push(packRows(plan.research?.[`slot${slot}`] || [], ["order", "tech", "when", "notes", "techId"]));
   }
 
   return {
@@ -489,7 +1111,7 @@ function packPlan(plan) {
       plan.meta?.buildName || "",
       plan.meta?.createdDate || ""
     ],
-    f: packRows(plan.focus, ["order", "focus", "timing", "notes"]),
+    f: packRows(plan.focus, ["order", "focus", "timing", "notes", "focusId"]),
     c: packRows(plan.construction, ["order", "what", "where", "when", "notes"]),
     p: packRows(plan.production, ["order", "line", "factories", "when", "notes"]),
     pp: packRows(plan.politicalPower, ["order", "item", "pp", "timing", "notes"]),
@@ -513,7 +1135,7 @@ function packPlan(plan) {
 function unpackPlan(packed) {
   const research = {};
   for (let slot = 1; slot <= 8; slot++) {
-    research[`slot${slot}`] = unpackRows(packed.r?.[slot - 1] || [], ["order", "tech", "when", "notes"]);
+    research[`slot${slot}`] = unpackRows(packed.r?.[slot - 1] || [], ["order", "tech", "when", "notes", "techId"]);
   }
 
   return {
@@ -523,7 +1145,7 @@ function unpackPlan(packed) {
       buildName: packed.m?.[2] || "",
       createdDate: packed.m?.[3] || ""
     },
-    focus: unpackRows(packed.f || [], ["order", "focus", "timing", "notes"]),
+    focus: unpackRows(packed.f || [], ["order", "focus", "timing", "notes", "focusId"]),
     construction: unpackRows(packed.c || [], ["order", "what", "where", "when", "notes"]),
     production: unpackRows(packed.p || [], ["order", "line", "factories", "when", "notes"]),
     politicalPower: unpackRows(packed.pp || [], ["order", "item", "pp", "timing", "notes"]),
@@ -931,13 +1553,10 @@ document.getElementById("newPlanBtn").addEventListener("click", () => {
   });
   setDefaultCreatedDate();
 });
-
-addRow("focusTable", { focus: "Political Effort / Industrial Focus", timing: "Day 1", notes: "First focus of the build." });
 addRow("constructionTable", { what: "Civilian Factories", where: "High infrastructure core states", when: "1936 opener", notes: "Build economy before switching to military factories." });
 addRow("productionTable", { line: "Infantry Equipment", factories: "5-10", when: "Day 1", notes: "Keep rifles stocked before expanding artillery/tanks/air." });
 addRow("ppTable", { item: "Silent Workhorse / Economy Law", pp: "150", timing: "First 150 PP", notes: "Depends on country and build." });
-addResearchRow(1, { tech: "Basic Machine Tools", when: "Day 1", notes: "Standard industry opener." });
-addResearchRow(2, { tech: "Construction I", when: "Day 1", notes: "Early industry/construction scaling." });
+
 addRow("templateTable", { name: "Infantry 9/1", role: "Line infantry", battalions: "9 infantry, 1 artillery", support: "Engineers, support artillery", combatWidth: "21", timing: "After XP", notes: "General-purpose placeholder." });
 
 setDefaultCreatedDate();
@@ -948,3 +1567,303 @@ if (document.readyState === "loading") {
   bindLocalSaveUi();
 }
 
+
+
+/* Final FUWG top-country selector controller.
+   This intentionally sits at the end so it wins over older UI code. */
+async function forceCountrySelectorMode() {
+  const modSelect = document.getElementById("patchInput");
+  const manualCountryInput = document.getElementById("countryInput");
+  const countrySelect = document.getElementById("countrySelect");
+
+  if (!modSelect || !manualCountryInput || !countrySelect) return;
+
+  const selectedModForResearch = String(modSelect.value || "").trim();
+  loadResearchDataForMod(selectedModForResearch);
+  const isFuwg = selectedModForResearch === "FUWG";
+
+  document.body.classList.toggle("fuwg-country-mode", isFuwg);
+
+  if (isFuwg) {
+    manualCountryInput.style.display = "none";
+    manualCountryInput.disabled = true;
+    countrySelect.style.display = "block";
+    countrySelect.hidden = false;
+
+    if (!countrySelect.dataset.loaded) {
+      await loadSmartFocusCountries();
+      countrySelect.dataset.loaded = "1";
+    } else {
+      countrySelect.disabled = false;
+    }
+  } else {
+    manualCountryInput.style.display = "";
+    manualCountryInput.disabled = false;
+    countrySelect.style.display = "none";
+    countrySelect.disabled = true;
+    countrySelect.hidden = true;
+    clearSmartFocusData();
+  }
+}
+
+function bindFinalCountrySelectorMode() {
+  const modSelect = document.getElementById("patchInput");
+  const countrySelect = document.getElementById("countrySelect");
+  const manualCountryInput = document.getElementById("countryInput");
+
+  if (!modSelect || !countrySelect || !manualCountryInput) return;
+
+  modSelect.addEventListener("change", () => {
+    countrySelect.dataset.loaded = "";
+    forceCountrySelectorMode();
+  });
+
+  countrySelect.addEventListener("change", async () => {
+    if (String(modSelect.value || "").trim() !== "FUWG") return;
+    const tag = String(countrySelect.value || "").trim();
+
+    if (!tag) {
+      setValue("countryInput", "");
+      clearSmartFocusData();
+      setFocusDataStatus("Choose a FUWG country/tree to load focus data.");
+      return;
+    }
+
+    await loadSmartFocusTree(tag);
+  });
+
+  forceCountrySelectorMode();
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", bindFinalCountrySelectorMode);
+} else {
+  bindFinalCountrySelectorMode();
+}
+
+
+function bindResearchAutocompleteInputs() {
+  document.querySelectorAll('textarea[data-field="tech"]').forEach((textarea) => {
+    if (textarea.dataset.researchEnhanced === "1") return;
+
+    const input = document.createElement("input");
+    input.type = "text";
+    input.spellcheck = false;
+    input.className = "focus-search-input research-tech-input";
+    input.setAttribute("list", "researchOptionsList");
+    input.dataset.field = "tech";
+    input.dataset.techId = textarea.dataset.techId || "";
+    input.value = textarea.value || "";
+
+    input.addEventListener("focus", () => {
+      document.querySelectorAll('input.research-tech-input').forEach(updateResearchInputMatch);
+      populateResearchOptions(input);
+    });
+    input.addEventListener("click", () => {
+      document.querySelectorAll('input.research-tech-input').forEach(updateResearchInputMatch);
+      populateResearchOptions(input);
+    });
+    input.addEventListener("input", () => {
+      document.querySelectorAll('input.research-tech-input').forEach(updateResearchInputMatch);
+      populateResearchOptions(input);
+    });
+
+    textarea.replaceWith(input);
+    updateResearchInputMatch(input);
+  });
+}
+
+// Re-run after rows are added/rendered.
+const originalAddRowForResearchAutocomplete = typeof addRow === "function" ? addRow : null;
+if (originalAddRowForResearchAutocomplete) {
+  addRow = function(tableId, values = {}) {
+    originalAddRowForResearchAutocomplete(tableId, values);
+    if (String(tableId || "").startsWith("research")) {
+      bindResearchAutocompleteInputs();
+    }
+  };
+}
+
+const originalSetTableDataForResearchAutocomplete = typeof setTableData === "function" ? setTableData : null;
+if (originalSetTableDataForResearchAutocomplete) {
+  setTableData = function(tableId, rows = []) {
+    originalSetTableDataForResearchAutocomplete(tableId, rows);
+    if (String(tableId || "").startsWith("research")) {
+      bindResearchAutocompleteInputs();
+    }
+  };
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", () => {
+    bindResearchAutocompleteInputs();
+    const modValue = document.getElementById("patchInput")?.value || "";
+    loadResearchDataForMod(modValue);
+  });
+} else {
+  bindResearchAutocompleteInputs();
+  const modValue = document.getElementById("patchInput")?.value || "";
+  loadResearchDataForMod(modValue);
+}
+
+
+function removeDefaultResearchStarterRows() {
+  const defaultTechs = new Set(["Basic Machine Tools", "Construction I"]);
+  const defaultNotes = new Set(["Standard industry opener.", "Early industry/construction scaling."]);
+
+  document.querySelectorAll('.research-slot-table tbody tr').forEach((row) => {
+    const techInput = row.querySelector('[data-field="tech"]');
+    const notesInput = row.querySelector('[data-field="notes"]');
+    const tech = String(techInput?.value || "").trim();
+    const notes = String(notesInput?.value || "").trim();
+
+    if (defaultTechs.has(tech) || defaultNotes.has(notes)) {
+      row.remove();
+    }
+  });
+
+  if (typeof renumberTable === "function") {
+    for (let i = 1; i <= 8; i += 1) {
+      const table = document.getElementById(`researchSlot${i}`);
+      if (table) renumberTable(table);
+    }
+  }
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", () => {
+    removeDefaultResearchStarterRows();
+    setTimeout(removeDefaultResearchStarterRows, 0);
+    setTimeout(removeDefaultResearchStarterRows, 100);
+  });
+} else {
+  removeDefaultResearchStarterRows();
+  setTimeout(removeDefaultResearchStarterRows, 0);
+  setTimeout(removeDefaultResearchStarterRows, 100);
+}
+
+
+function clearAllResearchRowsHard() {
+  for (let i = 1; i <= 8; i += 1) {
+    const table = document.getElementById(`researchSlot${i}`);
+    const body = table?.querySelector("tbody");
+    if (body) body.innerHTML = "";
+    if (typeof renumberTable === "function" && table) renumberTable(table);
+  }
+}
+
+function isOnlyStarterResearchRowsPresent() {
+  const rows = Array.from(document.querySelectorAll('.research-slot-table tbody tr'));
+  if (!rows.length) return false;
+
+  const values = rows.map((row) => ({
+    tech: String(row.querySelector('[data-field="tech"]')?.value || "").trim(),
+    when: String(row.querySelector('[data-field="when"]')?.value || "").trim(),
+    notes: String(row.querySelector('[data-field="notes"]')?.value || "").trim()
+  }));
+
+  return values.every((row) => {
+    return (
+      row.tech === "Basic Machine Tools" ||
+      row.tech === "Construction I" ||
+      row.notes === "Standard industry opener." ||
+      row.notes === "Early industry/construction scaling."
+    );
+  });
+}
+
+function removeStarterResearchRowsHard() {
+  document.querySelectorAll('.research-slot-table tbody tr').forEach((row) => {
+    const tech = String(row.querySelector('[data-field="tech"]')?.value || "").trim();
+    const notes = String(row.querySelector('[data-field="notes"]')?.value || "").trim();
+
+    if (
+      tech === "Basic Machine Tools" ||
+      tech === "Construction I" ||
+      notes === "Standard industry opener." ||
+      notes === "Early industry/construction scaling."
+    ) {
+      row.remove();
+    }
+  });
+
+  for (let i = 1; i <= 8; i += 1) {
+    const table = document.getElementById(`researchSlot${i}`);
+    if (typeof renumberTable === "function" && table) renumberTable(table);
+  }
+}
+
+function scheduleRemoveStarterResearchRowsHard() {
+  // Run after the app's own startup/default loading has completed.
+  removeStarterResearchRowsHard();
+  setTimeout(removeStarterResearchRowsHard, 0);
+  setTimeout(removeStarterResearchRowsHard, 50);
+  setTimeout(removeStarterResearchRowsHard, 250);
+  setTimeout(removeStarterResearchRowsHard, 1000);
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", scheduleRemoveStarterResearchRowsHard);
+} else {
+  scheduleRemoveStarterResearchRowsHard();
+}
+
+
+function bindHardNewButtonResearchClear() {
+  const buttons = Array.from(document.querySelectorAll("button"));
+  const newButtons = buttons.filter((button) => {
+    const text = String(button.textContent || "").trim().toLowerCase();
+    return text === "new" || button.id?.toLowerCase?.().includes("new");
+  });
+
+  newButtons.forEach((button) => {
+    if (button.dataset.emptyResearchBound === "1") return;
+    button.dataset.emptyResearchBound = "1";
+    button.addEventListener("click", () => {
+      setTimeout(removeStarterResearchRowsHard, 0);
+      setTimeout(removeStarterResearchRowsHard, 100);
+    });
+  });
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", bindHardNewButtonResearchClear);
+} else {
+  bindHardNewButtonResearchClear();
+}
+
+
+function removeStarterResearchRowsRealFix() {
+  const starterTechs = new Set(["Basic Machine Tools", "Construction I"]);
+  const starterNotes = new Set(["Standard industry opener.", "Early industry/construction scaling."]);
+
+  document.querySelectorAll(".research-slot-table tbody tr").forEach((row) => {
+    const tech = String(row.querySelector('[data-field="tech"]')?.value || "").trim();
+    const notes = String(row.querySelector('[data-field="notes"]')?.value || "").trim();
+
+    if (starterTechs.has(tech) || starterNotes.has(notes)) {
+      row.remove();
+    }
+  });
+
+  for (let slot = 1; slot <= 8; slot += 1) {
+    const table = document.getElementById(`researchSlot${slot}`);
+    if (table && typeof renumber === "function") renumber(`researchSlot${slot}`);
+  }
+}
+
+function scheduleRemoveStarterResearchRowsRealFix() {
+  removeStarterResearchRowsRealFix();
+  requestAnimationFrame(removeStarterResearchRowsRealFix);
+  setTimeout(removeStarterResearchRowsRealFix, 0);
+  setTimeout(removeStarterResearchRowsRealFix, 50);
+  setTimeout(removeStarterResearchRowsRealFix, 250);
+  setTimeout(removeStarterResearchRowsRealFix, 1000);
+  setTimeout(removeStarterResearchRowsRealFix, 2000);
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", scheduleRemoveStarterResearchRowsRealFix);
+} else {
+  scheduleRemoveStarterResearchRowsRealFix();
+}

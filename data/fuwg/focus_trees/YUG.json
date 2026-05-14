@@ -1,0 +1,1773 @@
+{
+  "mod": "FUWG",
+  "tag": "YUG",
+  "country": "Yugoslavia",
+  "treeId": "yugoslavian_focus",
+  "sourceFile": "yugoslavia.txt",
+  "focusCount": 117,
+  "focuses": [
+    {
+      "id": "YUG_western_focus",
+      "name": "Western Focus",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 4,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "YUG_recognize_the_soviet_union"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_friendship_treaty_with_italy",
+      "name": "Friendship Treaty With Italy",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_western_focus"
+      ],
+      "mutuallyExclusive": [
+        "YUG_reinforce_old_alliances"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_reinforce_old_alliances",
+      "name": "Reinforce Old Alliances",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_western_focus"
+      ],
+      "mutuallyExclusive": [
+        "YUG_friendship_treaty_with_italy"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_attract_allied_capital",
+      "name": "Attract Allied Capital",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_friendship_treaty_with_italy",
+        "YUG_reinforce_old_alliances"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_attract_axis_capital",
+      "name": "Attract Axis Capital",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_friendship_treaty_with_italy",
+        "YUG_reinforce_old_alliances"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_local_militias",
+      "name": "Local Militias",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_reinforce_old_alliances",
+        "YUG_friendship_treaty_with_italy",
+        "YUG_form_peasant_councils"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_limited_self_government",
+      "name": "Limited Self Government",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_attract_allied_capital",
+        "YUG_attract_axis_capital"
+      ],
+      "mutuallyExclusive": [
+        "YUG_evolution"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_united_autonomous_croatia",
+      "name": "United Autonomous Croatia",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_limited_self_government"
+      ],
+      "mutuallyExclusive": [
+        "YUG_devolved_croatia"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_devolved_croatia",
+      "name": "Devolved Croatia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_limited_self_government"
+      ],
+      "mutuallyExclusive": [
+        "YUG_united_autonomous_croatia"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_safeguard_bosnia",
+      "name": "Safeguard Bosnia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_united_autonomous_croatia",
+        "YUG_devolved_croatia"
+      ],
+      "mutuallyExclusive": [
+        "YUG_divide_bosnia"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_divide_bosnia",
+      "name": "Divide Bosnia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_united_autonomous_croatia",
+        "YUG_devolved_croatia"
+      ],
+      "mutuallyExclusive": [
+        "YUG_safeguard_bosnia"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_dissolve_serbia",
+      "name": "Dissolve Serbia",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_limited_self_government"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_banat_for_support",
+      "name": "Banat For Support",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_dissolve_serbia",
+        "YUG_safeguard_bosnia",
+        "YUG_divide_bosnia"
+      ],
+      "mutuallyExclusive": [
+        "YUG_autonomous_transylvania",
+        "YUG_fortify_banat"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_autonomous_transylvania",
+      "name": "Autonomous Transylvania",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_dissolve_serbia",
+        "YUG_safeguard_bosnia",
+        "YUG_divide_bosnia"
+      ],
+      "mutuallyExclusive": [
+        "YUG_banat_for_support",
+        "YUG_fortify_banat"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_fortify_banat",
+      "name": "Fortify Banat",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_dissolve_serbia",
+        "YUG_safeguard_bosnia",
+        "YUG_divide_bosnia"
+      ],
+      "mutuallyExclusive": [
+        "YUG_autonomous_transylvania",
+        "YUG_banat_for_support"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_evolution",
+      "name": "Evolution",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_attract_allied_capital",
+        "YUG_attract_axis_capital"
+      ],
+      "mutuallyExclusive": [
+        "YUG_limited_self_government"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_crush_the_ustasa",
+      "name": "Crush The Ustasa",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_evolution"
+      ],
+      "mutuallyExclusive": [
+        "YUG_establish_the_banovina_of_croatia"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_establish_the_banovina_of_croatia",
+      "name": "Establish The Banovina Of Croatia",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_evolution"
+      ],
+      "mutuallyExclusive": [
+        "YUG_crush_the_ustasa"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_ban_slovene_nationalist_parties",
+      "name": "Ban Slovene Nationalist Parties",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_crush_the_ustasa",
+        "YUG_establish_the_banovina_of_croatia"
+      ],
+      "mutuallyExclusive": [
+        "YUG_slovenia_for_support"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_slovenia_for_support",
+      "name": "Slovenia For Support",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_crush_the_ustasa",
+        "YUG_establish_the_banovina_of_croatia"
+      ],
+      "mutuallyExclusive": [
+        "YUG_ban_slovene_nationalist_parties"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_concessions_for_macedonians",
+      "name": "Concessions For Macedonians",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_slovenia_for_support",
+        "YUG_ban_slovene_nationalist_parties"
+      ],
+      "mutuallyExclusive": [
+        "YUG_surrender_macedonia"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_surrender_macedonia",
+      "name": "Surrender Macedonia",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_slovenia_for_support",
+        "YUG_ban_slovene_nationalist_parties"
+      ],
+      "mutuallyExclusive": [
+        "YUG_concessions_for_macedonians"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_invite_german_military_mission",
+      "name": "Invite German Military Mission",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_concessions_for_macedonians",
+        "YUG_surrender_macedonia",
+        "YUG_banat_for_support",
+        "YUG_autonomous_transylvania",
+        "YUG_fortify_banat"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_join_axis",
+      "name": "Join Axis",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_concessions_for_macedonians",
+        "YUG_surrender_macedonia",
+        "YUG_banat_for_support",
+        "YUG_autonomous_transylvania",
+        "YUG_fortify_banat"
+      ],
+      "mutuallyExclusive": [
+        "YUG_end_the_regency"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_zara_for_axis",
+      "name": "Zara For Axis",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_join_axis"
+      ],
+      "mutuallyExclusive": [
+        "YUG_surrender_italian_claims"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_surrender_italian_claims",
+      "name": "Surrender Italian Claims",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_join_axis"
+      ],
+      "mutuallyExclusive": [
+        "YUG_zara_for_axis"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_claim_macedonia",
+      "name": "Claim Macedonia",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_zara_for_axis",
+        "YUG_surrender_italian_claims"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_greater_yugoslavia",
+      "name": "Greater Yugoslavia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_claim_macedonia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_invite_italian_naval_experts",
+      "name": "Invite Italian Naval Experts",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_zara_for_axis",
+        "YUG_surrender_italian_claims"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_all_yugoslavian_regiments",
+      "name": "All Yugoslavian Regiments",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_greater_yugoslavia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_end_the_regency",
+      "name": "End The Regency",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_concessions_for_macedonians",
+        "YUG_surrender_macedonia",
+        "YUG_banat_for_support",
+        "YUG_autonomous_transylvania",
+        "YUG_fortify_banat"
+      ],
+      "mutuallyExclusive": [
+        "YUG_join_axis"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_coronation",
+      "name": "Coronation",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_end_the_regency",
+        "YUG_join_axis"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_royal_wedding",
+      "name": "Royal Wedding",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_end_the_regency"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_join_allies",
+      "name": "Join Allies",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_royal_wedding",
+        "YUG_coronation"
+      ],
+      "mutuallyExclusive": [
+        "YUG_enforced_neutrality"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_allied_air_combat_school",
+      "name": "Allied Air Combat School",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_join_allies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_enforced_neutrality",
+      "name": "Enforced Neutrality",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_royal_wedding",
+        "YUG_coronation"
+      ],
+      "mutuallyExclusive": [
+        "YUG_join_allies"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_fortress_yugoslavia",
+      "name": "Fortress Yugoslavia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_enforced_neutrality"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_towards_independence",
+      "name": "Towards Independence",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_banat_for_support",
+        "YUG_autonomous_transylvania",
+        "YUG_fortify_banat"
+      ],
+      "mutuallyExclusive": [
+        "YUG_united_kingdom"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_defence_army_of_yugoslavia",
+      "name": "Defence Army Of Yugoslavia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_towards_independence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_defence_league",
+      "name": "Defence League",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_defence_army_of_yugoslavia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_united_kingdom",
+      "name": "United Kingdom",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_banat_for_support",
+        "YUG_autonomous_transylvania",
+        "YUG_fortify_banat"
+      ],
+      "mutuallyExclusive": [
+        "YUG_towards_independence"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_guarantee_religious_liberties",
+      "name": "Guarantee Religious Liberties",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_united_kingdom"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_reunite_the_kingdom",
+      "name": "Reunite The Kingdom",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_guarantee_religious_liberties"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_recognize_the_soviet_union",
+      "name": "Recognize The Soviet Union",
+      "description": "",
+      "x": 11,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "YUG_western_focus"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_form_peasant_councils",
+      "name": "Form Peasant Councils",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_recognize_the_soviet_union"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_mutual_economic_aid",
+      "name": "Mutual Economic Aid",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_recognize_the_soviet_union"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_abolish_the_monarchy",
+      "name": "Abolish The Monarchy",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_form_peasant_councils",
+        "YUG_mutual_economic_aid"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_join_comintern",
+      "name": "Join Comintern",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_abolish_the_monarchy"
+      ],
+      "mutuallyExclusive": [
+        "YUG_yugoslavian_path_to_communism"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_yugoslavian_path_to_communism",
+      "name": "Yugoslavian Path To Communism",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_abolish_the_monarchy"
+      ],
+      "mutuallyExclusive": [
+        "YUG_join_comintern"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_form_the_federal_republic",
+      "name": "Form The Federal Republic",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_yugoslavian_path_to_communism",
+        "YUG_join_comintern"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_pan_slavic_workers_congress",
+      "name": "Pan Slavic Workers Congress",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_yugoslavian_path_to_communism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_research_collaboration",
+      "name": "Research Collaboration",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_join_comintern"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_federal_defense_council",
+      "name": "Federal Defense Council",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_form_the_federal_republic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_invite_bulgaria",
+      "name": "Invite Bulgaria",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_pan_slavic_workers_congress"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_invite_albania",
+      "name": "Invite Albania",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_pan_slavic_workers_congress"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_pan_balkan_workers_congress",
+      "name": "Pan Balkan Workers Congress",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_invite_bulgaria",
+        "YUG_invite_albania",
+        "YUG_federal_defense_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_invite_romania",
+      "name": "Invite Romania",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_pan_balkan_workers_congress"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_invite_greece",
+      "name": "Invite Greece",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_pan_balkan_workers_congress"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_invite_hungary",
+      "name": "Invite Hungary",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_pan_balkan_workers_congress"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_invite_turkey",
+      "name": "Invite Turkey",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_invite_greece",
+        "YUG_invite_hungary",
+        "YUG_invite_romania"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_industrialization_program",
+      "name": "Industrialization Program",
+      "description": "",
+      "x": 20,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_expand_the_mining_industry",
+      "name": "Expand The Mining Industry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_industrialization_program"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_rare_minerals_exploitation",
+      "name": "Rare Minerals Exploitation",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_expand_the_mining_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_exploit_the_pannonian_deposits",
+      "name": "Exploit The Pannonian Deposits",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_rare_minerals_exploitation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_develop_civilian_industry",
+      "name": "Develop Civilian Industry",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_expand_the_mining_industry"
+      ],
+      "mutuallyExclusive": [
+        "YUG_develop_military_industry"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_expand_the_university_of_zagreb",
+      "name": "Expand The University Of Zagreb",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_develop_civilian_industry",
+        "YUG_develop_military_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_integrated_rail_network",
+      "name": "Integrated Rail Network",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_expand_the_university_of_zagreb"
+      ],
+      "mutuallyExclusive": [
+        "YUG_improve_serbian_rail_network"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_improve_light_industry",
+      "name": "Improve Light Industry",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_integrated_rail_network",
+        "YUG_improve_serbian_rail_network"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_develop_slovenian_industry",
+      "name": "Develop Slovenian Industry",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_integrated_rail_network"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_local_self_management",
+      "name": "Local Self Management",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_develop_slovenian_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_expand_the_university_of_ljubljana",
+      "name": "Expand The University Of Ljubljana",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_develop_slovenian_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_develop_military_industry",
+      "name": "Develop Military Industry",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_expand_the_mining_industry"
+      ],
+      "mutuallyExclusive": [
+        "YUG_develop_civilian_industry"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_improve_serbian_rail_network",
+      "name": "Improve Serbian Rail Network",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_expand_the_university_of_zagreb"
+      ],
+      "mutuallyExclusive": [
+        "YUG_integrated_rail_network"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_serbian_steel",
+      "name": "Serbian Steel",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_improve_serbian_rail_network"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_expand_the_university_of_belgrad",
+      "name": "Expand The University Of Belgrad",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_improve_serbian_rail_network"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_central_management",
+      "name": "Central Management",
+      "description": "",
+      "x": 0,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_expand_the_university_of_belgrad"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_expand_the_sarajevo_arsenals",
+      "name": "Expand The Sarajevo Arsenals",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_local_self_management",
+        "YUG_central_management"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_modernize_the_air_force",
+      "name": "Modernize The Air Force",
+      "description": "",
+      "x": 27,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_local_developers",
+      "name": "Local Developers",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_modernize_the_air_force"
+      ],
+      "mutuallyExclusive": [
+        "YUG_purchase_foreign"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_ikarus",
+      "name": "Ikarus",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_local_developers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_rogozarski",
+      "name": "Rogozarski",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_local_developers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_zmaj",
+      "name": "Zmaj",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_local_developers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_the_ik_3",
+      "name": "The Ik 3",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_ikarus",
+        "YUG_rogozarski",
+        "YUG_zmaj"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_heavy_fighter_project",
+      "name": "Heavy Fighter Project",
+      "description": "",
+      "x": -1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_the_ik_3"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_bomber_project",
+      "name": "Bomber Project",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_the_ik_3"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_purchase_foreign",
+      "name": "Purchase Foreign",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_modernize_the_air_force"
+      ],
+      "mutuallyExclusive": [
+        "YUG_local_developers"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_license_production",
+      "name": "License Production",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_purchase_foreign"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_fighter_license",
+      "name": "Fighter License",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_license_production"
+      ],
+      "mutuallyExclusive": [
+        "YUG_bomber_license"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_bomber_license",
+      "name": "Bomber License",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_license_production"
+      ],
+      "mutuallyExclusive": [
+        "YUG_fighter_license"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_army_modernization",
+      "name": "Army Modernization",
+      "description": "",
+      "x": 37,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_motorize_the_cavalry",
+      "name": "Motorize The Cavalry",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_army_modernization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_motorized_logistics",
+      "name": "Motorized Logistics",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_motorize_the_cavalry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_armored_cavalry",
+      "name": "Armored Cavalry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_motorize_the_cavalry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_tank_conversions",
+      "name": "Tank Conversions",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_armored_cavalry"
+      ],
+      "mutuallyExclusive": [
+        "YUG_modern_tanks"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_modern_tanks",
+      "name": "Modern Tanks",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_armored_cavalry"
+      ],
+      "mutuallyExclusive": [
+        "YUG_tank_conversions"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_tank_licenses",
+      "name": "Tank Licenses",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_modern_tanks"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_small_arms",
+      "name": "Small Arms",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_army_modernization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_domestic_artillery_production",
+      "name": "Domestic Artillery Production",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_small_arms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_anti_tank_defenses",
+      "name": "Anti Tank Defenses",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_domestic_artillery_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_mountain_brigades",
+      "name": "Mountain Brigades",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_army_modernization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_independent_engineer_regiments",
+      "name": "Independent Engineer Regiments",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_mountain_brigades"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_motorized_recon_companies",
+      "name": "Motorized Recon Companies",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_independent_engineer_regiments"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_form_parachute_battalions",
+      "name": "Form Parachute Battalions",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_motorized_recon_companies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_army_maneuvers",
+      "name": "Army Maneuvers",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_army_modernization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_supremacy_of_offense",
+      "name": "Supremacy Of Offense",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_army_maneuvers"
+      ],
+      "mutuallyExclusive": [
+        "YUG_supremacy_of_defense"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_supremacy_of_defense",
+      "name": "Supremacy Of Defense",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_army_maneuvers"
+      ],
+      "mutuallyExclusive": [
+        "YUG_supremacy_of_offense"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_artillery_regiments",
+      "name": "Artillery Regiments",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_supremacy_of_offense",
+        "YUG_supremacy_of_defense"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_expand_the_split_shipyards",
+      "name": "Expand The Split Shipyards",
+      "description": "",
+      "x": 45,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "YUG_expand_the_serbian_shipyards"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_contest_the_adriatic",
+      "name": "Contest The Adriatic",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_expand_the_split_shipyards"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_replace_the_dalmacija",
+      "name": "Replace The Dalmacija",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_contest_the_adriatic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_naval_bombers",
+      "name": "Naval Bombers",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_contest_the_adriatic",
+        "YUG_coastal_defense"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_heavy_cruiser_project",
+      "name": "Heavy Cruiser Project",
+      "description": "",
+      "x": -1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_replace_the_dalmacija"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_modern_destroyers",
+      "name": "Modern Destroyers",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_naval_bombers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_expand_the_serbian_shipyards",
+      "name": "Expand The Serbian Shipyards",
+      "description": "",
+      "x": 3,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "YUG_expand_the_split_shipyards"
+      ],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_coastal_defense",
+      "name": "Coastal Defense",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_expand_the_serbian_shipyards"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_expand_the_submarine_fleet",
+      "name": "Expand The Submarine Fleet",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "YUG_coastal_defense"
+      ],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    },
+    {
+      "id": "YUG_medal_for_extreme_bravery",
+      "name": "Medal For Extreme Bravery",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "yugoslavia.txt",
+      "shared": false
+    }
+  ]
+}

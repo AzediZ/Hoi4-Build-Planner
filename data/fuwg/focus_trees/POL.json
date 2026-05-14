@@ -1,0 +1,3967 @@
+{
+  "mod": "FUWG",
+  "tag": "POL",
+  "country": "Poland",
+  "treeId": "polish_focus",
+  "sourceFile": "poland.txt",
+  "focusCount": 268,
+  "focuses": [
+    {
+      "id": "POL_the_four_year_plan",
+      "name": "The Four Year Plan",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 1,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_additional_research_slot1",
+      "name": "Additional Research Slot1",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_the_four_year_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_central_region_strategy",
+      "name": "Central Region Strategy",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_the_four_year_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_expansion_of_new_towns",
+      "name": "Expansion Of New Towns",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_central_region_strategy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_start_central_industrial_region",
+      "name": "Start Central Industrial Region",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_expansion_of_new_towns"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_expand_central_industrial_region",
+      "name": "Expand Central Industrial Region",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_start_central_industrial_region"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_expand_katowice_mines",
+      "name": "Expand Katowice Mines",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_expansion_of_new_towns"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_additional_research_slot2",
+      "name": "Additional Research Slot2",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_expansion_of_new_towns"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_ideological_fanaticism",
+      "name": "Ideological Fanaticism",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_additional_research_slot2"
+      ],
+      "mutuallyExclusive": [
+        "POL_abolish_segregated_seating"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_abolish_segregated_seating",
+      "name": "Abolish Segregated Seating",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_additional_research_slot2"
+      ],
+      "mutuallyExclusive": [
+        "POL_ideological_fanaticism"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_fill_the_railways_gaps",
+      "name": "Fill The Railways Gaps",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_the_four_year_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_national_defence_fund",
+      "name": "National Defence Fund",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_fill_the_railways_gaps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_central_defence_of_poland",
+      "name": "Central Defence Of Poland",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_fill_the_railways_gaps",
+        "POL_central_region_strategy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_develop_upper_silesia",
+      "name": "Develop Upper Silesia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_central_defence_of_poland"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_agrarian_reform",
+      "name": "Agrarian Reform",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "POL_fill_the_railways_gaps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_invest_in_eastern_poland",
+      "name": "Invest In Eastern Poland",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "POL_agrarian_reform",
+        "POL_develop_upper_silesia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_invest_in_the_old_polish_region",
+      "name": "Invest In The Old Polish Region",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_central_region_strategy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_modernize_congressional_factories",
+      "name": "Modernize Congressional Factories",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_invest_in_the_old_polish_region"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_warsaw_main_railway_station",
+      "name": "Warsaw Main Railway Station",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_modernize_congressional_factories"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_prepare_for_the_next_war",
+      "name": "Prepare For The Next War",
+      "description": "",
+      "x": 23,
+      "y": 0,
+      "cost": 1,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_new_military_academy",
+      "name": "New Military Academy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_prepare_for_the_next_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_standardisation_of_equipment",
+      "name": "Standardisation Of Equipment",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "POL_new_military_academy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_army_modernisation",
+      "name": "Army Modernisation",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_standardisation_of_equipment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_modernising_the_cavalry",
+      "name": "Modernising The Cavalry",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_army_modernisation"
+      ],
+      "mutuallyExclusive": [
+        "POL_attract_foreign_motors"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_attract_foreign_motors",
+      "name": "Attract Foreign Motors",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_army_modernisation"
+      ],
+      "mutuallyExclusive": [
+        "POL_modernising_the_cavalry"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_study_foreign_tanks",
+      "name": "Study Foreign Tanks",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_modernising_the_cavalry",
+        "POL_attract_foreign_motors"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_cruiser_tank_experiments",
+      "name": "Cruiser Tank Experiments",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_study_foreign_tanks"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_artillery_modernisation",
+      "name": "Artillery Modernisation",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_army_modernisation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_anti_tank_guns",
+      "name": "Anti Tank Guns",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_army_modernisation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_anti_blitz_vehicles",
+      "name": "Anti Blitz Vehicles",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_study_foreign_tanks",
+        "POL_anti_tank_guns"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_adaptive_designs",
+      "name": "Adaptive Designs",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_attract_foreign_motors",
+        "POL_anti_tank_guns"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_air_base_expansion",
+      "name": "Air Base Expansion",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_standardisation_of_equipment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_fighter_modernisation",
+      "name": "Fighter Modernisation",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_air_base_expansion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_air_innovations",
+      "name": "Air Innovations",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_air_base_expansion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_heavy_fighter_concept",
+      "name": "Heavy Fighter Concept",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_air_innovations",
+        "POL_fighter_modernisation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_naval_bomber_experiments",
+      "name": "Naval Bomber Experiments",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_air_innovations"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_medium_bomber_focus",
+      "name": "Medium Bomber Focus",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_heavy_fighter_concept",
+        "POL_air_innovations"
+      ],
+      "mutuallyExclusive": [
+        "POL_light_bomber_focus"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_light_bomber_focus",
+      "name": "Light Bomber Focus",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_heavy_fighter_concept",
+        "POL_fighter_modernisation"
+      ],
+      "mutuallyExclusive": [
+        "POL_medium_bomber_focus"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_air_modernisations_programme",
+      "name": "Air Modernisations Programme",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_light_bomber_focus",
+        "POL_medium_bomber_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_rocket_development",
+      "name": "Rocket Development",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_air_modernisations_programme"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_complete_april_constitution",
+      "name": "Complete April Constitution",
+      "description": "",
+      "x": 49,
+      "y": 0,
+      "cost": 1,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "POL_organize_the_peasants_strike",
+        "POL_nationalist_constitution",
+        "POL_assemble_the_regency_council",
+        "POL_restore_the_sejm"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_polish_militarism",
+      "name": "Polish Militarism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_complete_april_constitution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_consolidate_sanation_government",
+      "name": "Consolidate Sanation Government",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_polish_militarism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_the_castle",
+      "name": "The Castle",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_consolidate_sanation_government"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_eliminate_socialist_parties",
+      "name": "Eliminate Socialist Parties",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_the_castle"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_dissolve_the_sejm",
+      "name": "Dissolve The Sejm",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_eliminate_socialist_parties"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_promote_chemical_industry",
+      "name": "Promote Chemical Industry",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_the_castle"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_camp_of_national_unity",
+      "name": "Camp Of National Unity",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 1,
+      "prerequisites": [
+        "POL_the_castle",
+        "POL_the_left_chairman",
+        "POL_second_man_of_the_state"
+      ],
+      "mutuallyExclusive": [
+        "POL_dissolve_the_bbwr",
+        "POL_ozon"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_the_sanation_left",
+      "name": "The Sanation Left",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_consolidate_sanation_government"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_modus_vivendi",
+      "name": "Modus Vivendi",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "POL_the_sanation_left"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_draft_a_new_constitution",
+      "name": "Draft A New Constitution",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_the_sanation_left"
+      ],
+      "mutuallyExclusive": [
+        "POL_codify_national_unity"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_legion_of_merit",
+      "name": "Legion Of Merit",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_the_sanation_left"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_the_left_chairman",
+      "name": "The Left Chairman",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "POL_the_sanation_left"
+      ],
+      "mutuallyExclusive": [
+        "POL_second_man_of_the_state"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_common_organization_of_society",
+      "name": "Common Organization Of Society",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_the_left_chairman"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_dissolve_the_bbwr",
+      "name": "Dissolve The Bbwr",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_common_organization_of_society"
+      ],
+      "mutuallyExclusive": [
+        "POL_ozon",
+        "POL_camp_of_national_unity"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_the_sanation_right",
+      "name": "The Sanation Right",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_consolidate_sanation_government"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_department_for_home_defence",
+      "name": "Department For Home Defence",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_the_sanation_right"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_support_right_paramilitaries",
+      "name": "Support Right Paramilitaries",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "POL_the_sanation_right"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_codify_national_unity",
+      "name": "Codify National Unity",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_the_sanation_right"
+      ],
+      "mutuallyExclusive": [
+        "POL_draft_a_new_constitution"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_second_man_of_the_state",
+      "name": "Second Man Of The State",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "POL_the_sanation_right"
+      ],
+      "mutuallyExclusive": [
+        "POL_the_left_chairman"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_ozon",
+      "name": "Ozon",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "POL_second_man_of_the_state"
+      ],
+      "mutuallyExclusive": [
+        "POL_dissolve_the_bbwr",
+        "POL_camp_of_national_unity"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_plan_west",
+      "name": "Plan West",
+      "description": "",
+      "x": -14,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_prepare_for_the_next_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_the_prusya_line",
+      "name": "The Prusya Line",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_plan_west"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_invest_anti_air",
+      "name": "Invest Anti Air",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_plan_west"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_the_prusya_army",
+      "name": "The Prusya Army",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_plan_west"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_expand_poznan_forts",
+      "name": "Expand Poznan Forts",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_plan_west"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_hel_fortified_area",
+      "name": "Hel Fortified Area",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_plan_west"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_local_western_plans",
+      "name": "Local Western Plans",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_plan_west"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_sudeten_mountaineers",
+      "name": "Sudeten Mountaineers",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "POL_plan_west"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_silesia_fortified_area",
+      "name": "Silesia Fortified Area",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_plan_west"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_complete_plan_west",
+      "name": "Complete Plan West",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 0,
+      "prerequisites": [
+        "POL_the_prusya_army",
+        "POL_silesia_fortified_area",
+        "POL_local_western_plans",
+        "POL_sudeten_mountaineers",
+        "POL_invest_anti_air",
+        "POL_the_prusya_line",
+        "POL_expand_poznan_forts",
+        "POL_hel_fortified_area"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_plan_east",
+      "name": "Plan East",
+      "description": "",
+      "x": -16,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_prepare_for_the_next_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_eastern_conscripts",
+      "name": "Eastern Conscripts",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_plan_east"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_belorussian_army",
+      "name": "Belorussian Army",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_plan_east"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_ruthenian_army",
+      "name": "Ruthenian Army",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_plan_east"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_fortification_of_belarus",
+      "name": "Fortification Of Belarus",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_plan_east"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_fortification_of_ukraine",
+      "name": "Fortification Of Ukraine",
+      "description": "",
+      "x": -6,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_plan_east"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_supply_the_rail_nexus",
+      "name": "Supply The Rail Nexus",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_plan_east"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_local_eastern_plans",
+      "name": "Local Eastern Plans",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_plan_east"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_complete_plan_east",
+      "name": "Complete Plan East",
+      "description": "",
+      "x": -3,
+      "y": 3,
+      "cost": 0,
+      "prerequisites": [
+        "POL_fortification_of_belarus",
+        "POL_fortification_of_ukraine",
+        "POL_supply_the_rail_nexus",
+        "POL_eastern_conscripts",
+        "POL_belorussian_army",
+        "POL_ruthenian_army",
+        "POL_local_eastern_plans"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_sabotage_polish_industry",
+      "name": "Sabotage Polish Industry",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "POL_plan_east",
+        "POL_plan_west"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_align_with_the_west",
+      "name": "Align With The West",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_camp_of_national_unity",
+        "POL_dissolve_the_bbwr",
+        "POL_ozon",
+        "POL_draw_closer_to_britain"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_join_allies",
+      "name": "Join Allies",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_align_with_the_west"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_restore_the_sejm",
+      "name": "Restore The Sejm",
+      "description": "",
+      "x": 10,
+      "y": 0,
+      "cost": 1,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "POL_complete_april_constitution"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_organize_the_peasants_strike",
+      "name": "Organize the Peasant’s Strike",
+      "description": "Poland is divided by the blood of peasants. All across the Polish countryside, the peasants are becoming radicalized by malicious governmental neglect. [POL.GetLeader] is inevitably going to drive the strikes to violence, so we must prepare the proletariat to rise against their oppressors.",
+      "x": 61,
+      "y": 0,
+      "cost": 1,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "POL_complete_april_constitution",
+        "POL_assemble_the_regency_council",
+        "POL_nationalist_constitution"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_woo_morges_staff",
+      "name": "Invite the Front Morges",
+      "description": "Our revolt will get nowhere without the support of at least some of the military. While most remain loyal to one of the three wings of the Sanation, the Front Morges are interested in restoring democracy to poland and may be amicable to collaboration with us to this end.",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_organize_the_peasants_strike"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_ease_sanationist_tensions",
+      "name": "Ease Sanationist Tensions",
+      "description": "Many members of the Front Morges hold high ranking military positions within the Sanation, and perhaps we may sway them to use their political capital to curb government crackdowns on the strike, buying us vital time to grow our movement within Poland.",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_woo_morges_staff"
+      ],
+      "mutuallyExclusive": [
+        "POL_arm_peasant_militia"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_arm_peasant_militia",
+      "name": "Arm Peasant Militia",
+      "description": "The Polish peasantry will liberate themselves from their oppressors through one way only and that way is by taking up arms and fighting the bourgeoisie. By using the political capital of the Front Morges to steal equipment from the Sanation, we will begin the war with fully trained and armed peasantry.",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_woo_morges_staff"
+      ],
+      "mutuallyExclusive": [
+        "POL_ease_sanationist_tensions"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_state_national_council",
+      "name": "State National Council",
+      "description": "The Sanationists have the April Constitution to codify their beliefs, and it is far past time that we do the same. The State National Council will be established to bring together socialist politicians from across Poland to rectify the reactionary laws of the Sanation.",
+      "x": 3,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_woo_morges_staff"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_communal_governance",
+      "name": "Communal Governance",
+      "description": "The Peasant’s War, though necessary, wreaked havoc and devastation on our countryside. Now is the time for rebuilding and establishing local communal governments in our rural communities will heal the scars of war.",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_state_national_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_a_leftist_sejm",
+      "name": "The Leftist Sejm",
+      "description": "While the Polish People’s Party is preferable to the Sanation, social democrats lack the backbone to do the radical reforms necessary to truly liberate the proletariat of Poland. It is only through the direct leadership of the Communist Party that the Polish people may break their chains for good.",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_state_national_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_raise_the_black_madonna",
+      "name": "Raise the Black Madonna",
+      "description": "The Black Madonna is a sacred portrait of the Blessed Virgin popular amongst Poland’s lower classes as the protectress of Poland and her lower classes. By adopting the Black Madonna as the symbol of our movement, our people will know that the Blessed Virgin is on our side, when the time comes.",
+      "x": -3,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_woo_morges_staff"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_reassemble_the_sejm",
+      "name": "Reassemble the Sejm",
+      "description": "With democratic practices reestablished in Poland, it is time we reinvited the Sejmiks who were cast out by the Sanation back to the government.",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_raise_the_black_madonna"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_empower_the_morges",
+      "name": "Empower the Morges",
+      "description": "The Front Morges have proven themselves to be an ally to democracy and nothing we have achieved until now would have been possible without their support. Perhaps these generals have earned the right to head their own branch of the military.",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_raise_the_black_madonna"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_KPP_focus",
+      "name": "Assemble a Leftist Cabinet",
+      "description": "The KPP is a party of revolutionaries ready to take the drastic action necessary to bring socialism to Poland. While some of those who were loyal to the Sanation have since changed their allegiances, we cannot trust them to fill our cabinet and they must be replaced with our revolutionary comrades.",
+      "x": -2,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "POL_state_national_council"
+      ],
+      "mutuallyExclusive": [
+        "POL_elect_a_PSL_leader"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_surrender_the_east",
+      "name": "Surrender the East",
+      "description": "The USSR sees Eastern Poland as rightful parts of Ukraine and Belarus, which the USSR claims to represent. Perhaps by ceding these territories to the Soviets, we may become allies.",
+      "x": 2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_KPP_focus"
+      ],
+      "mutuallyExclusive": [
+        "POL_polish_path_to_socialism"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_polish_peoples_republic",
+      "name": "The Polish Soviet Socialist Republic",
+      "description": "[GetSovietPolishPeoplesRepublicDesc]",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_surrender_the_east"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_soviet_industry",
+      "name": "[GetSovietIndustrialInvestmentTitle]",
+      "description": "[GetSovietIndustrialInvestmentDesc]",
+      "x": -2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_polish_peoples_republic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_pressure_for_the_west",
+      "name": "Pressure for the West",
+      "description": "The exact borders between Poland and Germany were a subject of debate in the decades following the Great War. In this debate, the Germans retained most of their industrial centers, leaving Poland with little resembling an industry. With the East surrendered to [SOV.GetNameDef], these territories must be replaced with Silesia and Pommerania.",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_polish_peoples_republic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_soviet_military_staff",
+      "name": "Soviet Military Staff",
+      "description": "With the establishment of the Second Polish Republic, many leftist Polish generals fled to the USSR to continue to fight for the world revolution. Now, with a Soviet-aligned government in power, these brave exiles may return home.",
+      "x": 2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_polish_peoples_republic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_com_independence",
+      "name": "Independence",
+      "description": "We have been exploited by [SOV.GetNameDef] for long enough! The time is ripe that Polish revolutionaries take up arms once again and fight for their right to rule themselves!",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_soviet_industry",
+        "POL_pressure_for_the_west",
+        "POL_soviet_military_staff"
+      ],
+      "mutuallyExclusive": [
+        "POL_greater_polish_SSR"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_greater_polish_SSR",
+      "name": "The Greater Polish SSR",
+      "description": "We have by now proven ourselves useful to the USSR and it would be prudent to request that control of Eastern Poland be returned to our nation, with some compensation for the great services we have provided for the revolution.",
+      "x": 3,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_soviet_industry",
+        "POL_pressure_for_the_west",
+        "POL_soviet_military_staff"
+      ],
+      "mutuallyExclusive": [
+        "POL_com_independence"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_polish_path_to_socialism",
+      "name": "The Polish Path to Socialism",
+      "description": "Since its foundation in 1918, the Polish Communist Party has been subject to Bolshevization, and by now many of its members are little more than Stalin’s lackeys. However, Maria Koszutska and a number of other prominent KPP members seek to remove Stalinist elements from the party and turn Poland against Moscow.",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_KPP_focus"
+      ],
+      "mutuallyExclusive": [
+        "POL_surrender_the_east"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_anti_imperialism",
+      "name": "Anti-Imperialism",
+      "description": "Opposing imperialistic war is a commendable principle to hold, but it is not enough to merely denounce imperial warfare, a world revolution necessitates the opposition of imperialism itself!",
+      "x": 0,
+      "y": 3,
+      "cost": 1,
+      "prerequisites": [
+        "POL_polish_path_to_socialism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_anti_capitalist_revolution",
+      "name": "The Anti-Capitalist Revolution",
+      "description": "Although there is a temptation to maintain Poland’s alignment with the West for the sake of diplomatic expediency, we cannot sell out our beliefs to foreign capitalists. The world revolution necessitates a struggle against the bourgeois, and we intend to do exactly that whether they call themselves “fascist” or “democratic”.",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_anti_imperialism"
+      ],
+      "mutuallyExclusive": [
+        "POL_preserve_bougoise_democracy",
+        "POL_morges_pact"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_morges_pact",
+      "name": "Morges Pact",
+      "description": "With democracy restored in Poland, the ambitions of the Front Morges are almost complete. All that remains is to strengthen our relationship with France and restore the Franco-Polish alliance.",
+      "x": -3,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_invest_in_the_peasantry"
+      ],
+      "mutuallyExclusive": [
+        "POL_anti_capitalist_revolution",
+        "POL_preserve_bougoise_democracy"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_morges_economic_union",
+      "name": "Franco-Polish Economic Pact",
+      "description": "With relations between France and Poland strengthened, we may ensure mutual economic aid in times of war.",
+      "x": 0,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "POL_morges_pact"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_purchase_madagascar",
+      "name": "Purchase Madagascar",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_morges_economic_union"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_invite_romania_to_morges",
+      "name": "Invite Romania to the Pact",
+      "description": "A Franco-Polish alliance alone is not enough to withstand the full force of the Axis powers. We must expand our alliance between the seas.",
+      "x": 0,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "POL_morges_economic_union",
+        "POL_preserve_baltic_independence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_preserve_bougoise_democracy",
+      "name": "Preserve Bourgeoisie Democracy",
+      "description": "While the goal of the KPP is ultimately to spread socialism worldwide, in these dark times, rising global fascism makes it imperative that we fight alongside capitalists to preserve bourgeois democracy. Only in a world free of fascism do the material conditions facilitate a global socialist revolution.",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_anti_imperialism",
+        "POL_com_independence",
+        "POL_invest_in_the_peasantry"
+      ],
+      "mutuallyExclusive": [
+        "POL_anti_capitalist_revolution",
+        "POL_morges_pact"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_baltic_socialism",
+      "name": "Enforce Baltic Socialism",
+      "description": "The will of the Baltic people is suppressed by dictators, capitalists, and fascists. If the workers are ever to free themselves, it must be done with direct Polish intervention.",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_anti_capitalist_revolution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_dismantle_capitalist_empires",
+      "name": "Dismantle Capitalist Empires",
+      "description": "Capitalism is the natural enemy of socialism and now that the revolution has triumphed in Poland, we must use our position as a means to dismantle capitalistic imperialism worldwide, starting with the utter dismantlement of all colonial empires.",
+      "x": 0,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "POL_baltic_socialism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_anti_fascist_military",
+      "name": "Anti Fascist Military",
+      "description": "Although a socialist government leaves Poles somewhat divided, our alignment with the West gives us a shared goal across the political spectrum, and that is our fierce opposition to fascism and German imperialism. With support and propaganda, our army will be strong and united in the face of rising global fascism.",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_preserve_bougoise_democracy",
+        "POL_morges_pact"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_preserve_baltic_independence",
+      "name": "Preserve Baltic Independence",
+      "description": "Although the Baltic governments are largely undemocratic and capitalistic, they face threats from East and West all the same as we do, and it is preferable that we maintain their bourgeois dictatorships than see them fall to the imperialistic ambitions of Germany and Russia.",
+      "x": 0,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "POL_anti_fascist_military"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_dismantle_fascist_empires",
+      "name": "Dismantle Fascist Empires",
+      "description": "Fascism is a blight on the world. They appropriate the language of class struggle to turn the proletariat against their comrades across the border. They are the sworn enemies of the KPP and must be swiftly disposed of.",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_dismantle_capitalist_empires",
+        "POL_preserve_baltic_independence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_dismantle_soviet_empire",
+      "name": "Dismantle the [SOV.GetAdjective] Empire",
+      "description": "[GetDismantleSovietEmpireDesc]",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_dismantle_fascist_empires"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_social_commonwealth",
+      "name": "Commonwealth of Socialist Republics",
+      "description": "Although any ambitions of restoring Poland-Lithuania would be antithetical to the goals of our revolution, it cannot be denied that Poland, Lithuania, and the many former member states of the Commonwealth have a shared history and shared enemies. In light of our mutual struggles, a new Commonwealth is necessary; one which prioritizes the safety and liberation of its workers under socialism.",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_preserve_baltic_independence",
+        "POL_dismantle_capitalist_empires"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_elect_a_PSL_leader",
+      "name": "Elect a PSL Leader",
+      "description": "Though the Communists are vying for power in our government, the military supports the PSL. If we solidify our leadership now, the KPP would be powerless to take control of the government.",
+      "x": 2,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "POL_raise_the_black_madonna"
+      ],
+      "mutuallyExclusive": [
+        "POL_KPP_focus"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_invest_in_the_peasantry",
+      "name": "Invest in Peasant Communities",
+      "description": "The peasants fought for us with the promise that we would improve life in the countryside, and we intend to fulfil that promise. Proper rail and infrastructure networks will ensure that no-one is left behind.",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_elect_a_PSL_leader"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_dabrowszczacy",
+      "name": "The Dąbrowszczacy",
+      "description": "There are international brigades of Polish volunteer forces fighting for socialist and democratic movements worldwide, and with a socialist government now in control of Poland, we are able to bring the support of the Polish state behind these brave volunteers.",
+      "x": -2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_polish_path_to_socialism",
+        "POL_surrender_the_east",
+        "POL_invest_in_the_peasantry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_leftist_economics",
+      "name": "Establish a Socialist Economy",
+      "description": "In a capitalist economy, capital exists to serve the elite. With socialists now in government, we must repurpose the economy to serve the needs of the peasants who bled for this revolution.",
+      "x": -5,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_polish_path_to_socialism",
+        "POL_surrender_the_east",
+        "POL_invest_in_the_peasantry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_committee_of_national_liberation",
+      "name": "The Committee of National Liberation",
+      "description": "We are in a precarious position trapped between Germany and Russia, subject to their imperialistic machinations. With the establishment of the Committee of National Liberation, all besieged Poles will have a central authority to organize resistance activities.",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_leftist_economics"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_non_discriminatory_recruitment",
+      "name": "Abolish Discriminatory Recruitment",
+      "description": "Polish Catholics are disproportionately overrepresented in our armed forces due to the policies of the Sanation. Moving forward, we shall give any patriot or socialist willing to turn his gun against fascism.",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_leftist_economics"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_armia_ludowa",
+      "name": "Armia Ludowa",
+      "description": "We cannot outgun foreign imperialists, but we can organize leftist militants who are willing to die in the struggle regardless. By establishing the Armia Ludowa as the military arm of our party, we will ensure to always have an army loyal to the ambitions of our socialist revolution!",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_committee_of_national_liberation",
+        "POL_non_discriminatory_recruitment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_lower_class_education",
+      "name": "Lower-Class Education",
+      "description": "For too long access to education has been gatekept by wealth and privilege, but under socialism, one’s personal possession of capital becomes irrelevant to the education system.",
+      "x": -2,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "POL_leftist_economics"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_press_for_liberia",
+      "name": "Press for Liberia",
+      "description": "In 1932, the Polish and Liberian governments agreed to place Liberia under Poland’s custody. The Americans see our presence in Liberia as an insult, but the nation is vulnerable and in dire need of Polish protection.",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_anti_capitalist_revolution",
+        "POL_preserve_bougoise_democracy",
+        "POL_morges_pact"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_support_colonial_workers_strikes",
+      "name": "Support Colonial Workers Strikes",
+      "description": "The workers in the European colonies suffer and struggle, chafing under the weight of their overlords to maintain an empire which gives them nothing. These workers lack the material conditions necessary to liberate themselves, and if we are to truly bring about a global revolution, we must arm the oppressed against their colonial elite.",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_press_for_liberia",
+        "POL_anti_capitalist_revolution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_reopen_the_maritime_and_colonial_league",
+      "name": "Reopen the Polish Colonial League",
+      "description": "Ambitions of intercontinental Polish presence ended with the failure of Poland to acquire Palestine, but with our new close connections with the West and a socialist government, we stand in a position to use our capital to liberate the workers of the colonies from European colonizers under new Polish administration.",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_press_for_liberia",
+        "POL_preserve_bougoise_democracy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_assemble_the_regency_council",
+      "name": "Assemble the Regency Council",
+      "description": "The Act of the 5th of November was a promise made by the Central Powers to release a free and independent Polish Kingdom out of the ashes of the Russian Empire. The resulting regency failed to find a monarch before surrendering all powers to Piłsudski, but with the Sanationists unable to form a stable government, perhaps it is time we reestablish the regency to find Poland her rightful King.",
+      "x": 77,
+      "y": 0,
+      "cost": 1,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "POL_complete_april_constitution",
+        "POL_organize_the_peasants_strike",
+        "POL_nationalist_constitution"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_fulfil_fifth_of_november",
+      "name": "Fulfil the 5th of November Act",
+      "description": "With the regency council reassembled, it is time to open the doors to any and all royal applicants seeking to claim the Polish throne.",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_assemble_the_regency_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_habsburg",
+      "name": "The Habsburg",
+      "description": "Karl Albrecht von Habsburg is a Polish patriot and fortunately happens to be a royal. Perhaps we should invite him to take up the throne he was groomed for since birth.",
+      "x": -8,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_fulfil_fifth_of_november"
+      ],
+      "mutuallyExclusive": [
+        "POL_hohenzollern",
+        "POL_cossack_king",
+        "POL_romanov"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_restore_the_diet_of_galicia",
+      "name": "Restore the Diet of Galicia",
+      "description": "The Diet of Galicia and Lodomeria represented Habsburg rule over Poland, and now that a Habsburg sits on our throne, it seems only right that the diet be restored as the Diet of Poland.",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_habsburg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_support_monarchy_in_CZE",
+      "name": "Support Monarchism in Czechoslovakia",
+      "description": "Habsburg rule over Czechoslovakia is quickly fading into a distant memory, but now with a Habsburg on our throne and the Polish identity standing strong, we are in a position to promote the West-Slavic identity and press the Habsburg claim on Bohemia.",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_restore_the_diet_of_galicia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_royal_hussars",
+      "name": "Institute Royal Hussars",
+      "description": "The winged hussars were among Poland’s most famous soldiers, and though the age of hussar combat is long since over, the practice of cavalry combat remains strong in Poland and needs only a little support to become the envy of the world.",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_restore_the_diet_of_galicia",
+        "POL_soldier_king"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_habsburg_monarchist_militants",
+      "name": "Arm Habsburg Militants",
+      "description": "There are those in Czechoslovakia who long for the return of absolute hereditary rule over the lives, and all we need do is give them arms and they will promote the Habsburg cause with force!",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_support_monarchy_in_CZE",
+        "POL_royal_hussars"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_king_of_bohemia",
+      "name": "The King of Bohemia",
+      "description": "Monarchist sentiment is high in Czechoslovakia; all we need do is press our claim on the Bohemian throne and the Czech government will no-doubt fold to our demands.",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_support_monarchy_in_CZE",
+        "POL_royal_hussars"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_unite_west_slavia",
+      "name": "Unite With Bohemia",
+      "description": "With our King on the throne of both Poland and Bohemia, all we need do is unite the internal administration of Poland and Bohemia and the dream of West Slavia will be achieved.",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_king_of_bohemia",
+        "POL_habsburg_monarchist_militants"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_soldier_king",
+      "name": "The Soldier King",
+      "description": "Our King longs to fight for his country on the front lines, but as our ruler we cannot allow him to be placed in such mortal danger. Perhaps by granting him a position as a field marshal, he may serve as a unifying symbol to our nation in crisis while satisfying his hunger for combat.",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_habsburg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_kings_guard",
+      "name": "The King’s Guard",
+      "description": "The King has ambitions of military leadership, and who better for him to lead than his own personal royal guard?",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_soldier_king"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_press_the_habsburg_claim",
+      "name": "Press the Habsburg Claim",
+      "description": "Hungary has been too long without a King, and the Archduke Otto von Habsburg remains without a throne to call his own. We must press our relative’s claim on the throne and secure Habsburg rule in Europe!",
+      "x": 2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_kings_guard"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_royal_officer_corps",
+      "name": "Royal Officer Corps",
+      "description": "As a King and a general, Karl Albrecht stands as a shining example of all that a Polish gentleman should be. Perhaps all of our officers should be trained in the art of war as our King has; in the trenches.",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_kings_guard"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_trust_in_the_west",
+      "name": "Trust in the West",
+      "description": "Though the Habsburgs of Austria fought against the western powers in the Great War, Poland is a friend to the West. We must trust that our allies overseas will continue to help us, as they have so many times in the past.",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_royal_officer_corps"
+      ],
+      "mutuallyExclusive": [
+        "POL_align_with_habsburgs"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_align_with_habsburgs",
+      "name": "A Habsburg Alliance",
+      "description": "Habsburgs sit on the thrones of Poland and Hungary, perhaps it is time we formalised our familial ties into an alliance.",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_royal_officer_corps"
+      ],
+      "mutuallyExclusive": [
+        "POL_trust_in_the_west"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_reclaim_west_slavia",
+      "name": "Reclaim West Slavia",
+      "description": "Kashubians, Polabians, and Sorbians too are West-Slavic people and yet so many of them remain outside of our borders and beyond our influence. If we are to be the protectors of the West Slavic people, we must protect all West Slavic People.",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_align_with_habsburgs",
+        "POL_trust_in_the_west",
+        "POL_unite_west_slavia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_join_CZE_rails",
+      "name": "Unite the Railways",
+      "description": "Passing supplies through the Sudeten mountains is a costly and inefficient affair. We must join key areas of our railways if we are to defend the entirety of our new nation.",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_unite_west_slavia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_join_CZE_industry",
+      "name": "Join Czech Industry",
+      "description": "The industries of Bohemia and Poland are disconnected and incohesive, we must work to rectify this to make the most out of our now united nations.",
+      "x": 0,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "POL_unite_west_slavia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_join_CZE_military",
+      "name": "Join the Czech Military",
+      "description": "Our military industries are separated and lack a united cause, we must assess and integrate the Czech industrial complex into the Polish armed forces.",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_join_CZE_industry",
+        "POL_join_CZE_rails"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_hohenzollern",
+      "name": "The Hohenzollern",
+      "description": "The Germans envisioned a Hohenzollern to rule the new Kingdom of Poland, and our close diplomatic ties to Romania makes the Romanian royal family the ideal candidates to be Poland’s king.",
+      "x": -2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_fulfil_fifth_of_november"
+      ],
+      "mutuallyExclusive": [
+        "POL_habsburg",
+        "POL_cossack_king",
+        "POL_romanov"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_cossack_king",
+      "name": "The Cossack-King",
+      "description": "In 1918, the Prince, Cossack, and Warlord Pavel Bermondt-Avalov was instructed to fight for the Whites in Russia, but instead turned the Bermontian armies against Lithuania and Latvia. Although unpopular and non-Catholic, Bermondt has the support of the Germans and the prospect of a White Russian army at his back.",
+      "x": 7,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_fulfil_fifth_of_november"
+      ],
+      "mutuallyExclusive": [
+        "POL_habsburg",
+        "POL_hohenzollern",
+        "POL_romanov"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_restore_bermontians",
+      "name": "Restore the Bermontians",
+      "description": "The West Russian Volunteer Army was a force headed by Pavel Bermondt Avalov who sought to restore monarchism and order in Russia’s westerly territories. Although Poland is now Pavel’s primary concern, the destruction of Russian communism is still the Bermontian mission and all White Russians should see it as their duty to fight for the Bermontian Army!",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_cossack_king"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_demand_LIT_pavel",
+      "name": "Demand Lithuania",
+      "description": "Last time, the Bermontians proved unable to annex Lithuania, but now with the Polish army at his back, Pavel stands in a position of such power he may well intimidate the Lithuanians into handing themselves over on a silver platter. A King does not grovel and beg for his Kingdom, he takes it as is his right.",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_restore_bermontians",
+        "POL_invite_exiled_nobility"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_demand_slovakia_pavel",
+      "name": "Demand Slovakia",
+      "description": "Czechoslovakia is weak and her territory the envy of her neighbours. If the Germans can take the Sudeten merely by asking, can we not take Slovakia all the same?",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_demand_LIT_pavel"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_governorate_livonia",
+      "name": "Governorate of Livonia",
+      "description": "When Pavel invaded Lithuania and Latvia all those years ago, he stood in a position to reclaim the Governorate of Livonia as his own personal fiefdom. Now, Latvia is weak and the might of Poland is at Pavel’s back, there is little stopping the restoration of the Livonian Governorate.",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_demand_LIT_pavel"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_seek_german_alignment",
+      "name": "Seek German Alignment",
+      "description": "An admirer of [GER.GetLeader] and a National Socialist, Pavel has made himself a known ally of the fascist powers of the world, and all that remains is to approach the fascists and see if they would welcome a Poland under Bermontian control into their Axis.",
+      "x": 1,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "POL_demand_slovakia_pavel",
+        "POL_governorate_livonia"
+      ],
+      "mutuallyExclusive": [
+        "POL_assert_western_claims",
+        "POL_claim_russia"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_assert_eastern_claims_pavel",
+      "name": "Assert Eastern Claims",
+      "description": "The Commonwealth includes many parts of the former Russian Empire, and no-doubt, Pavel would be seen as a traitor if he were to annex them. However, the Russian Empire is no more and it is Pavel’s duty as a White to secure former Russian territories from the Soviets.",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_seek_german_alignment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_assert_western_claims",
+      "name": "Assert Western Claims",
+      "description": "The borders of Poland seem to coincidentally leave out many of her former territories that have since become great industrial centers. It would be useful for the Bermontian cause if they were to be retaken into Polish control.",
+      "x": -1,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "POL_demand_slovakia_pavel",
+        "POL_governorate_livonia"
+      ],
+      "mutuallyExclusive": [
+        "POL_seek_german_alignment",
+        "POL_claim_russia"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_demand_pomerania",
+      "name": "Demand Pomerania",
+      "description": "Pomerania was once part of the Polish state and now it remains in German hands. Though few would believe we have a chance, we must cast the die and take what is ours.",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_assert_western_claims",
+        "POL_claim_russia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_complete_the_bermontian_mission",
+      "name": "Complete the Bermontian Mission",
+      "description": "Our mission to fight alongside the Whites and reclaim Russia for the Tsar were squashed by our failed invasion of Lithuania, but now we have a mighty Commonwealth of nations under our command. We must take to our mounts and burn the USSR to ashes!",
+      "x": 0,
+      "y": 4,
+      "cost": 1,
+      "prerequisites": [
+        "POL_demand_pomerania",
+        "POL_assert_eastern_claims_pavel"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_romanov",
+      "name": "The Romanov",
+      "description": "Though an unlikely candidate, the young lady calling herself Anastasia Romanov claims that the last monarch of Poland was Tsar Nicholas II and as such, her claim to Poland is mandated by God.",
+      "x": 6,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_fulfil_fifth_of_november"
+      ],
+      "mutuallyExclusive": [
+        "POL_habsburg",
+        "POL_hohenzollern",
+        "POL_cossack_king"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_invite_exiled_nobility",
+      "name": "Invite Exiled Nobility",
+      "description": "Though many Russian nobles refuse to acknowledge the rightful heritage of our King Anastasia, inviting them back with the promise of noble titles may entice them to change their position and acknowledge her as the one living true born daughter of Tsar Nicholas II.",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_romanov"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_pan_slavism",
+      "name": "Pan-Slavic Revanchism",
+      "description": "The Pan-Slavic movement thus far has been little more than a useful tool for the Russians to claim hegemony over all Slavs, but it has also been useful in uniting disparate Slavic peoples into united states like Yugoslavia and Czechoslovakia. Why then should Poland be any exception? Should Poland not also capitalise on this wave of Pan-Slavism?",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_invite_exiled_nobility"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_demand_yugoslav_subjugation",
+      "name": "Demand Yugoslav Subjugation",
+      "description": "If our desire for Pan-Slavic unification is ever to be realized, we must not neglect the South Slavs. Though national borders and great mountains stand between us, we are Slavs all the same.",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_pan_slavism",
+        "POL_demand_LIT_pavel"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_claim_russia",
+      "name": "Claim Russia",
+      "description": "King Anastasia Romanov is the last living heir of Tsar Nicholas II, and as such her claim to the Russian throne is not only legitimate, it is God’s will. With Russian nobles supporting her claim, Anastasia stands ready to reclaim her birthright as Empress of Russia.",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_governorate_livonia",
+        "POL_demand_slovakia_pavel",
+        "POL_demand_yugoslav_subjugation"
+      ],
+      "mutuallyExclusive": [
+        "POL_assert_western_claims",
+        "POL_seek_german_alignment"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_proclaim_slavic_unity",
+      "name": "Proclaim Slavic Unity",
+      "description": "With all Russian and Polish territory under our control, we stand to achieve what no Tsar has achieved before us. With the consent and approval of both Russians and Poles, we can proclaim the unification of the Slavic peoples.",
+      "x": 0,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "POL_claim_russia",
+        "POL_demand_pomerania"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_seek_an_alliance_with_kaiser",
+      "name": "Seek an Alliance with the Kaiser",
+      "description": "The Kingdom of Poland owes its existence to the Act of the 5th of November, a declaration made by the Kaiser of Germany, promising to carve out a new Polish kingdom from the Russian-occupied Congress Poland. It is unknown what the Kaiser’s plans for Poland are yet, but perhaps a gentle reminder of the German Empire’s declaration could plant the seeds for an unlikely alliance.",
+      "x": 2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_assemble_the_regency_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_nationalist_constitution",
+      "name": "A Nationalist Constitution",
+      "description": "The April Constitution has yet failed to solidify the Polish identity, but some members of the National Democrat Party and Falangist Party have offered their support in amending the constitution to place the identity of our nation above all else.",
+      "x": 91,
+      "y": 0,
+      "cost": 1,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "POL_complete_april_constitution",
+        "POL_organize_the_peasants_strike",
+        "POL_assemble_the_regency_council"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_integrate_the_falanga",
+      "name": "Integrate the Falanga",
+      "description": "ONR-Falanga is a violent and disruptive organization, but increasing nationalism within the government may entice the Falangists to unite with us for the future of Poland.",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_nationalist_constitution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_empower_falangist_militants",
+      "name": "Empower Falangist Militants",
+      "description": "Among the Falangists there are a number of paramilitary organizations arming themselves to fight the inevitable battle with the Communists. With government support, these enthusiasts would thrive into a formidable armed wing of the Falangist party.",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_integrate_the_falanga"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_integrate_the_endecja",
+      "name": "Integrate the Endecja",
+      "description": "While the Siódemki branch of the National-Democratic party are at the negotiating table for forming a coalition with the Sanacja, the majority of the party still remains opposed. By inviting key members of the Endecja into government, we may yet be able to form a government united under Polish Nationalism.",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_nationalist_constitution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_siodemki",
+      "name": "Consolidate the Constitutions",
+      "description": "The Sanacja support the April Constitution, while the Endecja wish to replace it with their own. With our parties now in collaboration, we cannot afford any more confusion and we must agree to consolidate these competing visions for the future of the Polish Republic.",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_integrate_the_endecja"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_sideline_the_sanacja",
+      "name": "Sideline the Sanacja",
+      "description": "Falanga and Endecja have grown influential enough in the Polish government that if the two were to collaborate more closely, the Sanationists may lose significant political capital and leave themselves vulnerable to a coup...",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_empower_falangist_militants",
+        "POL_siodemki"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_riot_of_37",
+      "name": "The Warsaw Riot",
+      "description": "The Sanacja will never agree to transfer power peacefully transfer power to the Falangists, but Falangist influence is growing far beyond the Sanacja’s control. One violent demonstration in Warsaw may be all it takes to place the Falanga in direct control of the nation.",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_sideline_the_sanacja",
+        "POL_empower_falangist_militants"
+      ],
+      "mutuallyExclusive": [
+        "POL_reopen_national_elections"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_reopen_national_elections",
+      "name": "Reopen National Elections",
+      "description": "It is the goal of the Endecja to restore democracy in Poland while simultaneously ensuring the government serves the interests of Polish nationalism. We must reopen elections, but in such a way where unpatriotic parties cannot be on the ballot.",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_sideline_the_sanacja",
+        "POL_siodemki"
+      ],
+      "mutuallyExclusive": [
+        "POL_riot_of_37"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_beck_ribbentrop",
+      "name": "The Beck-Ribbentrop Pact",
+      "description": "It’s no secret that the Germans thirst for the annexation of Gdansk and other former German territories, but perhaps this does not have to come through bloody conflict. Perhaps Józef Beck may be able to create a diplomatic solution to the contention on our border.",
+      "x": -2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_riot_of_37",
+        "POL_reopen_national_elections"
+      ],
+      "mutuallyExclusive": [
+        "POL_reassert_silesian_claims"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_divide_lit",
+      "name": "Divide Lithuania",
+      "description": "We seek Commonwealth restoration, the Germans seek Memel, perhaps we may be able to come to a mutual agreement and issue a joint-ultimatum to the Lithuanians.",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_beck_ribbentrop"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_german_training",
+      "name": "German Military Staff",
+      "description": "Our German “partners” are keeping their military secrets quite close to their chest, but perhaps by inviting them to manage some of our internal military affairs, they will be left with no choice but to leak some military secrets to us.",
+      "x": 87,
+      "y": 7,
+      "cost": 1,
+      "prerequisites": [
+        "POL_divide_lit",
+        "POL_seek_german_alignment"
+      ],
+      "mutuallyExclusive": [
+        "POL_konfederacja_narodu"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_konfederacja_narodu",
+      "name": "Konfederacja Narodu",
+      "description": "The Konfederacja Narodu is a small group of Polish nationalists who oppose any German efforts to occupy Poland. Perhaps by announcing our interests in opposing to the Germans, these militants may be aligned with our cause.",
+      "x": 89,
+      "y": 7,
+      "cost": 1,
+      "prerequisites": [
+        "POL_divide_lit",
+        "POL_seek_german_alignment",
+        "POL_support_global_falangism"
+      ],
+      "mutuallyExclusive": [
+        "POL_german_training"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_german_staff",
+      "name": "Volksdeutscher Selbstschutz",
+      "description": "Poland has a sizeable German minority, and though the Germans would seek to use these young men against us, our current state of collaboration with Germany may make German communities in Poland more amicable to our cause.",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_german_training",
+        "POL_konfederacja_narodu"
+      ],
+      "mutuallyExclusive": [
+        "POL_polish_shock_battallions"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_polish_shock_battallions",
+      "name": "Uderzeniowe Bataliony Kadrowe",
+      "description": "Specially trained shock battalions, the Uderzeniowe Bataliony Kadrowe are an armed wing of the Konfederacja Narodu ready to die to keep Warsaw out of enemy hands.",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_german_training",
+        "POL_konfederacja_narodu"
+      ],
+      "mutuallyExclusive": [
+        "POL_german_staff"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_request_autonomous_status",
+      "name": "Request Autonomous Status",
+      "description": "We are chafing under the weight of German influence, we must request greater industrial autonomy if we are to have any future at all.",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_german_staff",
+        "POL_polish_shock_battallions"
+      ],
+      "mutuallyExclusive": [
+        "POL_reach_out_to_underground_state"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_reach_out_to_underground_state",
+      "name": "Reach Out to the Underground State",
+      "description": "The Polish Underground State is operating in secrecy behind closed doors. By reaching out to them and granting them our support, we may one day hope to overrun our former masters.",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_german_staff",
+        "POL_polish_shock_battallions"
+      ],
+      "mutuallyExclusive": [
+        "POL_request_autonomous_status"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_assurance_of_loyalty",
+      "name": "Decide Post-War Borders",
+      "description": "The Germans have taken significant territories from us, and our efforts in supporting the war cannot be disputed. We have kowtowed long enough, it is time we demand some compensation for what we surrendered.",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_request_autonomous_status"
+      ],
+      "mutuallyExclusive": [
+        "POL_declare_independence"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_declare_independence",
+      "name": "Declare Independence",
+      "description": "The Germans have been a useful tool in ending the threat of [SOV.GetNameDef] but now is our time to turn on those who seek to see Poland in chains. The time has come to strike at the Reich.",
+      "x": 2,
+      "y": 0,
+      "cost": 1,
+      "prerequisites": [
+        "POL_request_autonomous_status",
+        "POL_reach_out_to_underground_state"
+      ],
+      "mutuallyExclusive": [
+        "POL_assurance_of_loyalty"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_reassert_silesian_claims",
+      "name": "Reassert Silesian Claims",
+      "description": "The fate of Silesia was a point of great contention during the early days of the Polish Republic, and the government at the time agreed to concede the majority of Silesia and settle for the relatively small Upper Silesia. A strong government would have made no such concession and our claim must be asserted.",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_riot_of_37",
+        "POL_reopen_national_elections"
+      ],
+      "mutuallyExclusive": [
+        "POL_beck_ribbentrop"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_force_polish_upper_class",
+      "name": "Promote a Polish Upper Class",
+      "description": "As a young nation recently freed, many Poles occupy only the lower economic strata of society. Our nation can not endure if we do not create an elite class that is trained almost from birth to administer the country.",
+      "x": 2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_divide_lit",
+        "POL_support_global_falangism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_privatize_education",
+      "name": "Seize Foreign Enterprise",
+      "description": "While foreign investors have been quite useful for us, the enterprises they established would be much better placed in Polish hands. This will upset the original owners, but this is a necessary act of patriotism.",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_force_polish_upper_class"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_support_global_falangism",
+      "name": "Support Global Falangism",
+      "description": "We are not alone in our struggle for bringing Falangism to our nation. There are volunteers across Poland who seek to support Falangist movements worldwide, and the state should support these individuals.",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_reassert_silesian_claims"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_state_catholicism",
+      "name": "State Catholicism",
+      "description": "The Catholic identity is intrinsic to Falangist ideology, and as such, Church and State must be one and the same.",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_support_global_falangism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_falangist_international",
+      "name": "Falangist International",
+      "description": "Standing against Naziism and Italian Fascism places us in a vulnerable position, but we must seek allies in our struggle against the Germans. Perhaps by presenting Falangism as an alternative, we may form an alliance of like-minded nations.",
+      "x": 4,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_support_global_falangism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_invite_the_lowlands",
+      "name": "Invite the Lowlands",
+      "description": "Though Falangism is on the political fringes in the Benelux, a moderate investment of time and resources could see them become mainstream enough to make an alliance with those countries feasible.",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_falangist_international"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_invite_the_baltics",
+      "name": "Invite the Baltics",
+      "description": "As majority Catholic nations at risk of Bolshevik invasion, the Baltics are natural allies to the Falangist cause and must be protected.",
+      "x": 0,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "POL_falangist_international",
+        "POL_anti_germans_abroad"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_support_falangists_in_the_americas",
+      "name": "Support American Falangists",
+      "description": "The Americas are full of Falangist movements, mainly across the Latin American countries. Expanding our alliance into the Americas is necessary not only to secure Falangist interests worldwide, but protect our fellows from American influence.",
+      "x": 3,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_falangist_international"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_demand_LIT",
+      "name": "Demand Lithuania",
+      "description": "The Lithuanian government is fractured, weak, and characterised by poor economic and military leadership. The Polish state is incomplete without its subjects, and perhaps by merely demanding it, the Lithuanians will agree to unification.",
+      "x": 0,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "POL_support_global_falangism"
+      ],
+      "mutuallyExclusive": [
+        "POL_anti_germans_abroad"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_the_national_commonwealth",
+      "name": "The National Commonwealth",
+      "description": "The old Commonwealth was an Empire of Poles presiding over great lands and peoples. With Lithuania in our hands, the Polish Empire is reborn once more!",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_demand_LIT"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_anti_germans_abroad",
+      "name": "Support Anti-Germans Abroad",
+      "description": "The Baltic States are our brothers in this struggle against Bolshevism and Naziism. Though they are scattered, pitiful, and weak, with a strong Polish government at their back, we may yet be able to whip these states into functional war machines.",
+      "x": 2,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "POL_support_global_falangism"
+      ],
+      "mutuallyExclusive": [
+        "POL_demand_LIT"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_prepare_german_line",
+      "name": "Prepare the German Line",
+      "description": "The border against Germany is the most vulnerable part of our nation. If we are to keep Warsaw out of German hands, we must meet them directly at the border and laugh as they attempt to break our will.",
+      "x": 1,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "POL_demand_LIT",
+        "POL_anti_germans_abroad"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_integrate_greater_kashubia",
+      "name": "Integrate Pomerania",
+      "description": "The Slavic Kashubian people see the entirety of Pomerania as the rightful borders of their nation, and many Poles too see it as rightful Polish territory. With the lands now in our hands, all we need do is integrate it within our government and Eastern Germany will become Western Poland.",
+      "x": 2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_demand_LIT",
+        "POL_anti_germans_abroad"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_assert_eastern_claims",
+      "name": "Assert Eastern Claims",
+      "description": "Poland in its current state is a shadow of the Empire it once was. Poland is not merely where Poles happen to live, Poland is the legacy of the Commonwealth and we must restore the old borders in the East.",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_beck_ribbentrop",
+        "POL_reassert_silesian_claims"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_internationalism",
+      "name": "Internationalism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_restore_the_sejm"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_authoritarianism",
+      "name": "Authoritarianism",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_internationalism"
+      ],
+      "mutuallyExclusive": [
+        "POL_liberalism_focus"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_paramilitarism",
+      "name": "Paramilitarism",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_authoritarianism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_go_right",
+      "name": "Go Right",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_authoritarianism"
+      ],
+      "mutuallyExclusive": [
+        "POL_go_left"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_military_youth",
+      "name": "Military Youth",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "POL_go_right"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_seek_accommodation_with_germany",
+      "name": "Seek Accommodation With Germany",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_go_right"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_go_left",
+      "name": "Go Left",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_authoritarianism"
+      ],
+      "mutuallyExclusive": [
+        "POL_go_right"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_political_commissars",
+      "name": "Political Commissars",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "POL_go_left"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_seek_accommodation_with_USSR",
+      "name": "Seek Accommodation With Ussr",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_go_left"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_liberalism_focus",
+      "name": "Liberalism Focus",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_internationalism"
+      ],
+      "mutuallyExclusive": [
+        "POL_authoritarianism"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_intervention_focus",
+      "name": "Intervention Focus",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_liberalism_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_draw_closer_to_britain",
+      "name": "Draw Closer To Britain",
+      "description": "",
+      "x": -2,
+      "y": 5,
+      "cost": 1,
+      "prerequisites": [
+        "POL_liberalism_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_volunteer_corps",
+      "name": "Volunteer Corps",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_intervention_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_prepare_for_the_inevitable",
+      "name": "Prepare For The Inevitable",
+      "description": "",
+      "x": 18,
+      "y": 0,
+      "cost": 1,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_foreign_air_support",
+      "name": "Foreign Air Support",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_prepare_for_the_inevitable"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_foreign_army_support",
+      "name": "Foreign Army Support",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_foreign_air_support"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_aces_in_exile",
+      "name": "Aces In Exile",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_foreign_air_support"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_foreign_naval_support",
+      "name": "Foreign Naval Support",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_prepare_for_the_inevitable"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_resistance_industries",
+      "name": "Resistance Industries",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_prepare_for_the_inevitable"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_exile_industries",
+      "name": "Exile Industries",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_resistance_industries"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_expand_polish_intelligence",
+      "name": "Expand Polish Intelligence",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_prepare_for_the_inevitable"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_niech_zyje_opor",
+      "name": "W imieniu Polski Podziemnej",
+      "description": "All throughout Poland there are whispers of rebellion and freedom. In our churches and in the underground, brave and patriotic Poles seek to restore an independent Polish state and with the right provocation and equipment, we may see Warsaw liberate herself!",
+      "x": -1,
+      "y": 5,
+      "cost": 1,
+      "prerequisites": [
+        "POL_expand_polish_intelligence",
+        "POL_Government_in_exile"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_refuse_submission",
+      "name": "Refuse Submission!",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_niech_zyje_opor"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_contacts_in_london",
+      "name": "Contacts In London",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_refuse_submission"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_old_traditions",
+      "name": "Old Traditions",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_refuse_submission"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_preparations_for_operation_tempest",
+      "name": "Preparations For Operation Tempest",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_refuse_submission"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_finalize_preparations_for_operation_tempest",
+      "name": "Finalize Preparations For Operation Tempest",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_preparations_for_operation_tempest"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_communist_guerillas",
+      "name": "Communist Guerillas",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_old_traditions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_Warszawo_walcz",
+      "name": "Warszawo Walcz",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_communist_guerillas",
+        "POL_finalize_preparations_for_operation_tempest"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_national_uprising",
+      "name": "National Uprising",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_Warszawo_walcz"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_polish_forces_of_the_interior2",
+      "name": "Polish Forces Of The Interior2",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_Warszawo_walcz"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_the_long_push_home",
+      "name": "The Long Push Home",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_expand_polish_intelligence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_the_bombe",
+      "name": "The Bombe",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_expand_polish_intelligence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_the_cyclometer",
+      "name": "The Cyclometer",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_expand_polish_intelligence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_Resettlement_of_the_polish_people",
+      "name": "Resettlement Of The Polish People",
+      "description": "",
+      "x": -7,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_prepare_for_the_inevitable"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_lessons_of_defeat",
+      "name": "Lessons Of Defeat",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_Resettlement_of_the_polish_people"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_Special_militairy_opperations",
+      "name": "Special Militairy Opperations",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_lessons_of_defeat"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_a_new_home",
+      "name": "A New Home",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_Resettlement_of_the_polish_people"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_Housing_act",
+      "name": "Housing Act",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_a_new_home"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_Government_in_exile",
+      "name": "Government In Exile",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "POL_Housing_act",
+        "POL_Recruit_volunteers",
+        "POL_Special_militairy_opperations"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_Attract_polish_from_abroad",
+      "name": "Attract Polish From Abroad",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_Resettlement_of_the_polish_people"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_Recruit_volunteers",
+      "name": "Recruit Volunteers",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_Attract_polish_from_abroad"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_Wanda_Gertz_home_army",
+      "name": "Wanda Gertz Home Army",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_Recruit_volunteers",
+        "POL_foreign_army_support"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_atomic_physics_institute",
+      "name": "Atomic Physics Institute",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_ideological_fanaticism",
+        "POL_abolish_segregated_seating"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_develop_polish_ship_building",
+      "name": "Develop Polish Ship Building",
+      "description": "",
+      "x": 14,
+      "y": 0,
+      "cost": 1,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "POL_clamp_down_on_danzig"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_clamp_down_on_danzig",
+      "name": "Clamp Down On Danzig",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 1,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "POL_develop_polish_ship_building"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_attract_poles_to_gdynia",
+      "name": "Attract Poles To Gdynia",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_develop_polish_ship_building"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_study_foreign_built_ships",
+      "name": "Study Foreign Built Ships",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_develop_polish_ship_building",
+        "POL_clamp_down_on_danzig"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_ban_the_nazi_party",
+      "name": "Ban The Nazi Party",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_clamp_down_on_danzig"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_develop_gdansk_ship_building",
+      "name": "Develop Gdansk Ship Building",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_ban_the_nazi_party"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_expand_gdynia_seaport",
+      "name": "Expand Gdynia Seaport",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_attract_poles_to_gdynia",
+        "POL_study_foreign_built_ships"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_integrate_gdansk_industries",
+      "name": "Integrate Gdansk Industries",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_ban_the_nazi_party"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_expand_northern_rail",
+      "name": "Expand Northern Rail",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_integrate_gdansk_industries",
+        "POL_expand_gdynia_seaport"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_the_twin_threats",
+      "name": "The Twin Threats",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_integrate_gdansk_industries",
+        "POL_expand_gdynia_seaport"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_a_cruiser_navy",
+      "name": "A Cruiser Navy",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_the_twin_threats"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_import_submarine_technology",
+      "name": "Import Submarine Technology",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_integrate_gdansk_industries",
+        "POL_expand_gdynia_seaport"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_commerce_attack",
+      "name": "Commerce Attack",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_import_submarine_technology"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_coastal_defense",
+      "name": "Coastal Defense",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_the_twin_threats",
+        "POL_import_submarine_technology"
+      ],
+      "mutuallyExclusive": [
+        "POL_strike_force"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_strike_force",
+      "name": "Strike Force",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_the_twin_threats",
+        "POL_import_submarine_technology"
+      ],
+      "mutuallyExclusive": [
+        "POL_coastal_defense"
+      ],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_baltic_navy",
+      "name": "Baltic Navy",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_strike_force",
+        "POL_coastal_defense"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_sabotage_of_german_radio_stations",
+      "name": "Sabotage Of German Radio Stations",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_prepare_for_the_next_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_execute_sabotage_of_german_radio_stations",
+      "name": "Execute Sabotage Of German Radio Stations",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "POL_prepare_for_the_next_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_the_between_the_seas_concept",
+      "name": "The Between The Seas Concept",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_sea_to_sea",
+      "name": "Sea To Sea",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_the_baltic_alliance",
+      "name": "The Baltic Alliance",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_coerce_czechoslovakia",
+      "name": "Coerce Czechoslovakia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_protect_czechozlovakia",
+      "name": "Protect Czechozlovakia",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_claiming_lithuania",
+      "name": "The Commonwealth Claimant",
+      "description": "There are a number of those who lay claim in equal part to Poland and Lithuania, and it would be tremendously helpful in every Pole’s ambition to restore the Commonwealth if we did so under the rulership of a King capable of claiming divine right over both.",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_support_monarchism_in_LIT",
+      "name": "Support Monarchism in Lithuania",
+      "description": "Just like Poland, Lithuania was meant to elect herself a new King. Unlike Poland however, the fair election was declared illegitimate by the Germans, but we can provide the Lithuanians with the strong ruler they were promised; someone who would defend Lithuania from German imperialism.",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    },
+    {
+      "id": "POL_internal_romanian_support",
+      "name": "Seek Internal Romanian Support",
+      "description": "The King of Romania is driving the country to the brink of destruction with his overspending and corruption. It is unfortunate, but King Michael may have no choice but to collaborate with his father’s detractors to secure Romania’s continued survival.",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "poland.txt",
+      "shared": false
+    }
+  ]
+}

@@ -1,0 +1,2060 @@
+{
+  "mod": "FUWG",
+  "tag": "SWE",
+  "country": "Sweden",
+  "treeId": "sweden_focus",
+  "sourceFile": "sweden.txt",
+  "focusCount": 141,
+  "focuses": [
+    {
+      "id": "SWE_defense_act",
+      "name": "Defense Act",
+      "description": "",
+      "x": 3,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_the_old_enemy_stirs",
+      "name": "The Old Enemy Stirs",
+      "description": "",
+      "x": 7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_defense_act"
+      ],
+      "mutuallyExclusive": [
+        "SWE_continue_the_second_industrial_revolution"
+      ],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_urbanization",
+      "name": "Urbanization",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_defense_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_hygenic_housing",
+      "name": "Hygenic Housing",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_urbanization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_work_projects_for_the_unemployed",
+      "name": "Work Projects For The Unemployed",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_urbanization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_individual_liberty_and_prosperity_for_all",
+      "name": "Individual Liberty And Prosperity For All",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_work_projects_for_the_unemployed",
+        "SWE_hygenic_housing"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_defense_above_all",
+      "name": "Defense Above All",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_work_projects_for_the_unemployed",
+        "SWE_hygenic_housing"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_government_weapons_contract",
+      "name": "Government Weapons Contract",
+      "description": "",
+      "x": -11,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_defense_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_standardize_equipment",
+      "name": "Standardize Equipment",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_government_weapons_contract"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_volvo",
+      "name": "Volvo",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_standardize_equipment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_aquire_modern_panzers",
+      "name": "Aquire Modern Panzers",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_volvo"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_ring_a_ding_ding",
+      "name": "Ring A Ding Ding",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_volvo"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_sieze_landsverk",
+      "name": "Sieze Landsverk",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_government_weapons_contract"
+      ],
+      "mutuallyExclusive": [
+        "SWE_allow_landsverk_to_operate"
+      ],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_allow_landsverk_to_operate",
+      "name": "Allow Landsverk To Operate",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_government_weapons_contract"
+      ],
+      "mutuallyExclusive": [
+        "SWE_sieze_landsverk"
+      ],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_as_the_barometer_falls",
+      "name": "As The Barometer Falls",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_sieze_landsverk",
+        "SWE_allow_landsverk_to_operate"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_lynx_winter_armored_cars",
+      "name": "Lynx Winter Armored Cars",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_aquire_modern_panzers",
+        "SWE_ring_a_ding_ding"
+      ],
+      "mutuallyExclusive": [
+        "SWE_kp_bill"
+      ],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_kp_bill",
+      "name": "Kp Bill",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_aquire_modern_panzers",
+        "SWE_ring_a_ding_ding"
+      ],
+      "mutuallyExclusive": [
+        "SWE_lynx_winter_armored_cars"
+      ],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_paid_holidays",
+      "name": "Paid Holidays",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_individual_liberty_and_prosperity_for_all",
+        "SWE_defense_above_all"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_privately_managed_holidays",
+      "name": "Privately Managed Holidays",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_individual_liberty_and_prosperity_for_all",
+        "SWE_defense_above_all"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_radiojanst",
+      "name": "Radiojanst",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_urbanization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_saltsjobaden_agreement",
+      "name": "Saltsjobaden Agreement",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_paid_holidays",
+        "SWE_privately_managed_holidays"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_education_reform",
+      "name": "Education Reform",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_saltsjobaden_agreement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_reject_saltsjobaden",
+      "name": "Reject Saltsjobaden",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_paid_holidays",
+        "SWE_privately_managed_holidays"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_continue_the_second_industrial_revolution",
+      "name": "Continue The Second Industrial Revolution",
+      "description": "",
+      "x": -8,
+      "y": 7,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_defense_act"
+      ],
+      "mutuallyExclusive": [
+        "SWE_the_old_enemy_stirs"
+      ],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_align_more_closely_with_the_landsorganisationen",
+      "name": "Align More Closely With The Landsorganisationen",
+      "description": "",
+      "x": -4,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_continue_the_second_industrial_revolution"
+      ],
+      "mutuallyExclusive": [
+        "SWE_coalition_war_cabinet"
+      ],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_sami_reconcilliation",
+      "name": "Sami Reconcilliation",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_align_more_closely_with_the_landsorganisationen",
+        "SWE_coalition_war_cabinet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_en_svensk_tiger",
+      "name": "En Svensk Tiger",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_align_more_closely_with_the_landsorganisationen",
+        "SWE_coalition_war_cabinet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_form_rfsu",
+      "name": "Form Rfsu",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_align_more_closely_with_the_landsorganisationen",
+        "SWE_coalition_war_cabinet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_affordable_housing",
+      "name": "Affordable Housing",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_individual_liberty_and_prosperity_for_all"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_research_slot_1",
+      "name": "Research Slot 1",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_saltsjobaden_agreement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_infrastructure",
+      "name": "Infrastructure",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_saltsjobaden_agreement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_deep_mining_complexes",
+      "name": "Deep Mining Complexes",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_defense_above_all"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_bofors_fly_swatter",
+      "name": "Bofors Fly Swatter",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_government_weapons_contract"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_husqvarna_vapenfabrik",
+      "name": "Husqvarna Vapenfabrik",
+      "description": "",
+      "x": -6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_government_weapons_contract"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_norma_projektilfabrik",
+      "name": "Norma Projektilfabrik",
+      "description": "",
+      "x": -8,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_government_weapons_contract"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_gotaverken",
+      "name": "Gotaverken",
+      "description": "",
+      "x": -17,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_government_weapons_contract"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_lindholmens_varv",
+      "name": "Lindholmens Varv",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_gotaverken"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_italian_destroyers",
+      "name": "Italian Destroyers",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_gotaverken"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_refit_gotaverken_for_rapid_repairs",
+      "name": "Refit Gotaverken For Rapid Repairs",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_gotaverken"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_kockums",
+      "name": "Kockums",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_gotaverken"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_retool_dockyards",
+      "name": "Retool Dockyards",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_gotaverken"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_rule_the_baltic",
+      "name": "Rule The Baltic",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_gotaverken"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_all_cards_on_deck",
+      "name": "All Cards On Deck",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_rule_the_baltic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_coastal_support",
+      "name": "Coastal Support",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_rule_the_baltic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_vasa_ii",
+      "name": "Vasa Ii",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_rule_the_baltic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_archapeligo_harrasment",
+      "name": "Archapeligo Harrasment",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_retool_dockyards"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_unrestricted_submarine_warfare",
+      "name": "Unrestricted Submarine Warfare",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_retool_dockyards"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_surface_raiders",
+      "name": "Surface Raiders",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_retool_dockyards"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_landverk_l_62",
+      "name": "Landverk L 62",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_bofors_fly_swatter"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_bofors_anti_tank_gun",
+      "name": "Bofors Anti Tank Gun",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_bofors_fly_swatter"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_form_saab",
+      "name": "Form Saab",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_bofors_fly_swatter"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_domestic_designs",
+      "name": "Domestic Designs",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_form_saab"
+      ],
+      "mutuallyExclusive": [
+        "SWE_foreign_designs"
+      ],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_foreign_designs",
+      "name": "Foreign Designs",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_form_saab"
+      ],
+      "mutuallyExclusive": [
+        "SWE_domestic_designs"
+      ],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_formation_flying",
+      "name": "Formation Flying",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_domestic_designs",
+        "SWE_foreign_designs"
+      ],
+      "mutuallyExclusive": [
+        "SWE_marauder_bombers"
+      ],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_marauder_bombers",
+      "name": "Marauder Bombers",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_domestic_designs",
+        "SWE_foreign_designs"
+      ],
+      "mutuallyExclusive": [
+        "SWE_formation_flying"
+      ],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_airforce_modernization",
+      "name": "Airforce Modernization",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_domestic_designs",
+        "SWE_foreign_designs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_the_barrel",
+      "name": "The Barrel",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_airforce_modernization"
+      ],
+      "mutuallyExclusive": [
+        "SWE_rockets"
+      ],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_rockets",
+      "name": "Rockets",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_airforce_modernization"
+      ],
+      "mutuallyExclusive": [
+        "SWE_the_barrel"
+      ],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_license_skf_ball_bearings",
+      "name": "License Skf Ball Bearings",
+      "description": "",
+      "x": -2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_paid_holidays"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_economic_deregulation",
+      "name": "Economic Deregulation",
+      "description": "",
+      "x": 0,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_privately_managed_holidays"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_swedes_not_sweden_to_finlands_aid",
+      "name": "Swedes Not Sweden To Finlands Aid",
+      "description": "",
+      "x": -6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_continue_the_second_industrial_revolution",
+        "SWE_the_old_enemy_stirs"
+      ],
+      "mutuallyExclusive": [
+        "SWE_finlands_cause_is_ours",
+        "SWE_the_aland_question"
+      ],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_the_aland_question",
+      "name": "The Aland Question",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_continue_the_second_industrial_revolution",
+        "SWE_the_old_enemy_stirs"
+      ],
+      "mutuallyExclusive": [
+        "SWE_finlands_cause_is_ours",
+        "SWE_swedes_not_sweden_to_finlands_aid"
+      ],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_coalition_war_cabinet",
+      "name": "Coalition War Cabinet",
+      "description": "",
+      "x": 5,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_continue_the_second_industrial_revolution"
+      ],
+      "mutuallyExclusive": [
+        "SWE_align_more_closely_with_the_landsorganisationen"
+      ],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_winter_drill",
+      "name": "Winter Drill",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_coalition_war_cabinet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_strike_the_capitalist_beast_down",
+      "name": "Strike The Capitalist Beast Down",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_align_more_closely_with_the_landsorganisationen"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_socialist_reforms",
+      "name": "Socialist Reforms",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_strike_the_capitalist_beast_down"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_refuge_from_war",
+      "name": "Refuge From War",
+      "description": "",
+      "x": -2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_strike_the_capitalist_beast_down"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_refuge_for_revolutionaries",
+      "name": "Refuge For Revolutionaries",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_refuge_from_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_liquidate_the_monarchy",
+      "name": "Liquidate The Monarchy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_socialist_reforms",
+        "SWE_refuge_from_war",
+        "SWE_police_reforms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_establish_politburo",
+      "name": "Establish Politburo",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_liquidate_the_monarchy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_five_year_plan",
+      "name": "Five Year Plan",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_establish_politburo"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_starve_the_fascists_of_iron",
+      "name": "Starve The Fascists Of Iron",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_five_year_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_peoples_commissar_for_defense",
+      "name": "Peoples Commissar For Defense",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_establish_politburo"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_support_danish_communists",
+      "name": "Support Danish Communists",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_peoples_commissar_for_defense"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_support_norwegian_communists",
+      "name": "Support Norwegian Communists",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_peoples_commissar_for_defense"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_finnish_buffer_state",
+      "name": "Finnish Buffer State",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_peoples_commissar_for_defense"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_universal_basic_income",
+      "name": "Universal Basic Income",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_support_norwegian_communists",
+        "SWE_support_danish_communists",
+        "SWE_finnish_buffer_state"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_police_reforms",
+      "name": "Police Reforms",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_strike_the_capitalist_beast_down"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_train_the_sheltered",
+      "name": "Train The Sheltered",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_winter_drill"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_the_narvik_solution",
+      "name": "The Narvik Solution",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_coalition_war_cabinet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_finlands_cause_is_ours",
+      "name": "Finlands Cause Is Ours",
+      "description": "",
+      "x": 4,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_continue_the_second_industrial_revolution",
+        "SWE_the_old_enemy_stirs"
+      ],
+      "mutuallyExclusive": [
+        "SWE_swedes_not_sweden_to_finlands_aid",
+        "SWE_the_aland_question"
+      ],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_the_nordic_defense_council",
+      "name": "The Nordic Defense Council",
+      "description": "",
+      "x": -5,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_the_old_enemy_stirs"
+      ],
+      "mutuallyExclusive": [
+        "SWE_prevent_a_red_dictatorship"
+      ],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_central_nordic_army_command",
+      "name": "Central Nordic Army Command",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_the_nordic_defense_council"
+      ],
+      "mutuallyExclusive": [
+        "SWE_decentralized_nordic_army_command"
+      ],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_nordic_defense_fleet",
+      "name": "Nordic Defense Fleet",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_central_nordic_army_command"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_nordljus",
+      "name": "Nordljus",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 20,
+      "prerequisites": [
+        "SWE_nordic_defense_fleet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_nordic_centralized_air_command",
+      "name": "Nordic Centralized Air Command",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_central_nordic_army_command"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_centralized_military_aid",
+      "name": "Centralized Military Aid",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_central_nordic_army_command"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_merge_army_complexes",
+      "name": "Merge Army Complexes",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_centralized_military_aid"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_cement_control_of_the_baltic",
+      "name": "Cement Control Of The Baltic",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_nordic_defense_fleet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_decentralized_nordic_army_command",
+      "name": "Decentralized Nordic Army Command",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_the_nordic_defense_council"
+      ],
+      "mutuallyExclusive": [
+        "SWE_central_nordic_army_command"
+      ],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_decentralized_industrial_aid",
+      "name": "Decentralized Industrial Aid",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_merge_army_complexes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_decentralized_nordic_volunteer_group",
+      "name": "Decentralized Nordic Volunteer Group",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_central_nordic_army_command"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_neither_death_nor_dishonor",
+      "name": "Neither Death Nor Dishonor",
+      "description": "",
+      "x": 1,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_decentralized_nordic_volunteer_group",
+        "SWE_nordic_centralized_air_command",
+        "SWE_nordic_defense_fleet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_varnplikt",
+      "name": "Varnplikt",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_winter_drill"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_rationing",
+      "name": "Rationing",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_varnplikt"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_per_albin_bus",
+      "name": "Per Albin Bus",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_varnplikt"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_land_air_warfare",
+      "name": "Land Air Warfare",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_as_the_barometer_falls"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_defense_in_depth",
+      "name": "Defense In Depth",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_as_the_barometer_falls"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_ga_pa_tactics",
+      "name": "Ga Pa Tactics",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_defense_in_depth",
+        "SWE_land_air_warfare"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_hedgehog_defense",
+      "name": "Hedgehog Defense",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_defense_in_depth"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_beneath_sticks_and_stones",
+      "name": "Beneath Sticks And Stones",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_hedgehog_defense"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_per_albin_line",
+      "name": "Per Albin Line",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_hedgehog_defense",
+        "SWE_rapid_response_force"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_rapid_response_force",
+      "name": "Rapid Response Force",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_land_air_warfare"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_tank_development",
+      "name": "Tank Development",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_rapid_response_force"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_end_the_fubkrieg",
+      "name": "End The Fubkrieg",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_beneath_sticks_and_stones",
+        "SWE_tank_development"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_mobilization_of_society",
+      "name": "Mobilization Of Society",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_beneath_sticks_and_stones"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_let_fly_all_guns",
+      "name": "Let Fly All Guns",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_tank_development"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_totalforsvar",
+      "name": "Totalforsvar",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_varnplikt"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_hemvarnet",
+      "name": "Hemvarnet",
+      "description": "",
+      "x": -8,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_totalforsvar"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_swedish_shooting_movement",
+      "name": "Swedish Shooting Movement",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_hemvarnet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_lottakaren",
+      "name": "Lottakaren",
+      "description": "",
+      "x": -6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_totalforsvar"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_rapid_mobilization",
+      "name": "Rapid Mobilization",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_totalforsvar"
+      ],
+      "mutuallyExclusive": [
+        "SWE_secret_mobilization"
+      ],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_operation_save_denmark",
+      "name": "Operation Save Denmark",
+      "description": "",
+      "x": -1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_totalforsvar"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_operation_save_norway",
+      "name": "Operation Save Norway",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_totalforsvar"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_secret_mobilization",
+      "name": "Secret Mobilization",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_totalforsvar"
+      ],
+      "mutuallyExclusive": [
+        "SWE_rapid_mobilization"
+      ],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_jagartrupper",
+      "name": "Jagartrupper",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_varnplikt"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_prevent_a_red_dictatorship",
+      "name": "Prevent A Red Dictatorship",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_the_old_enemy_stirs"
+      ],
+      "mutuallyExclusive": [
+        "SWE_the_nordic_defense_council"
+      ],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_revoke_anti_militia_laws",
+      "name": "Revoke Anti Militia Laws",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_prevent_a_red_dictatorship"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_appeal_for_support",
+      "name": "Appeal For Support",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_revoke_anti_militia_laws"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_unify_the_national_socialist_movement",
+      "name": "Unify The National Socialist Movement",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_appeal_for_support",
+        "SWE_revoke_anti_militia_laws"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_organize_a_putsch",
+      "name": "Organize A Putsch",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_unify_the_national_socialist_movement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_restoring_order",
+      "name": "Restoring Order",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_organize_a_putsch"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_greater_nordic_reich",
+      "name": "Greater Nordic Reich",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_restoring_order"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_the_cross_we_bear",
+      "name": "The Cross We Bear",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_operation_save_norway",
+        "SWE_operation_save_denmark",
+        "SWE_neither_death_nor_dishonor"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_scandinavian_defense_union",
+      "name": "Scandinavian Defense Union",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_universal_basic_income"
+      ],
+      "mutuallyExclusive": [
+        "SWE_the_threat_of_the_iron_curtain"
+      ],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_the_threat_of_the_iron_curtain",
+      "name": "The Threat Of The Iron Curtain",
+      "description": "",
+      "x": 4,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_universal_basic_income",
+        "SWE_the_cross_we_bear"
+      ],
+      "mutuallyExclusive": [
+        "SWE_scandinavian_defense_union"
+      ],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_special_forces",
+      "name": "Special Forces",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_the_threat_of_the_iron_curtain"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_acquire_ww2_tanks_and_wrecks",
+      "name": "Acquire Ww2 Tanks And Wrecks",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_scandinavian_defense_union"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_extend_the_time_of_preparedness",
+      "name": "Extend The Time Of Preparedness",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_scandinavian_defense_union",
+        "SWE_the_threat_of_the_iron_curtain"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_increase_intelligence_funding",
+      "name": "Increase Intelligence Funding",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_acquire_ww2_tanks_and_wrecks"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_karnvapenprogram",
+      "name": "Karnvapenprogram",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_extend_the_time_of_preparedness"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_specialized_equipment",
+      "name": "Specialized Equipment",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_special_forces"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_war_games",
+      "name": "War Games",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_increase_intelligence_funding",
+        "SWE_karnvapenprogram"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_the_lion_of_the_north_rises",
+      "name": "The Lion Of The North Rises",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_karnvapenprogram",
+        "SWE_specialized_equipment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_preemptive_strike",
+      "name": "Preemptive Strike",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_the_lion_of_the_north_rises",
+        "SWE_war_games"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_research_slot_2",
+      "name": "Research Slot 2",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SWE_end_the_fubkrieg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_join_allies_for_colonies",
+      "name": "Join Allies For Colonies",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_king_in_council",
+      "name": "King In Council",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_undermine_the_fascists",
+      "name": "Undermine The Fascists",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "SWE_mythologize_swedish_history",
+      "name": "Mythologize Swedish History",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "sweden.txt",
+      "shared": false
+    },
+    {
+      "id": "NORDIC_form_joint_alliance",
+      "name": "Nordic Form Joint Alliance",
+      "description": "",
+      "x": 40,
+      "y": 15,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "nordic_shared.txt",
+      "shared": true
+    }
+  ]
+}

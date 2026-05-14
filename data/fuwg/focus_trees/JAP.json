@@ -1,0 +1,6636 @@
+{
+  "mod": "FUWG",
+  "tag": "JAP",
+  "country": "Japan",
+  "treeId": "japan_wtt_focus",
+  "sourceFile": "japan.txt",
+  "focusCount": 453,
+  "focuses": [
+    {
+      "id": "JAP_the_unthinkable_option",
+      "name": "The Unthinkable Option",
+      "description": "",
+      "x": 12,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "JAP_support_the_kodoha_faction",
+        "JAP_strengthen_civilian_government",
+        "JAP_sea_purge_the_kodoha_faction"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_approach_the_young_officers",
+      "name": "Approach The Young Officers",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_unthinkable_option"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_exchange_the_exiles",
+      "name": "Exchange The Exiles",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_unthinkable_option"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_open_up_the_universities",
+      "name": "Open Up The Universities",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_exchange_the_exiles"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_cast_the_die",
+      "name": "Cast The Die",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_approach_the_young_officers",
+        "JAP_exchange_the_exiles"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_fate_of_the_imperial_family",
+      "name": "The Fate Of The Imperial Family",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_cast_the_die"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_rebuild_the_civil_service",
+      "name": "Rebuild The Civil Service",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_fate_of_the_imperial_family"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_reeducation_campaign",
+      "name": "Reeducation Campaign",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_fate_of_the_imperial_family"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_finish_the_fight",
+      "name": "Finish The Fight",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_rebuild_the_civil_service",
+        "JAP_reeducation_campaign"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_join_comintern",
+      "name": "Join Comintern",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_finish_the_fight",
+        "JAP_communist_volunteers"
+      ],
+      "mutuallyExclusive": [
+        "JAP_asian_communist_solidarity"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_red_brigades",
+      "name": "Red Brigades",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_cast_the_die"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_communist_volunteers",
+      "name": "Communist Volunteers",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_red_brigades"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_asian_communist_solidarity",
+      "name": "Asian Communist Solidarity",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_finish_the_fight",
+        "JAP_communist_volunteers"
+      ],
+      "mutuallyExclusive": [
+        "JAP_join_comintern"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_nationalize_the_zaibatsus",
+      "name": "Nationalize The Zaibatsus",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_cast_the_die"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_people_owned_mines",
+      "name": "People Owned Mines",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_nationalize_the_zaibatsus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_public_works",
+      "name": "Public Works",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_nationalize_the_zaibatsus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_tokyo_aluminum_plant",
+      "name": "Tokyo Aluminum Plant",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_people_owned_mines",
+        "JAP_public_works"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_strengthen_civilian_government",
+      "name": "Strengthen Civilian Government",
+      "description": "",
+      "x": 7,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "JAP_support_the_kodoha_faction",
+        "JAP_the_unthinkable_option",
+        "JAP_sea_purge_the_kodoha_faction"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_support_the_kodoha_faction",
+      "name": "Support The Kodoha Faction",
+      "description": "",
+      "x": 6,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "JAP_the_unthinkable_option",
+        "JAP_strengthen_civilian_government",
+        "JAP_sea_purge_the_kodoha_faction"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_challenge_the_zaibatsus",
+      "name": "Challenge The Zaibatsus",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_support_the_kodoha_faction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_national_mobilization_law",
+      "name": "National Mobilization Law",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_challenge_the_zaibatsus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_national_research_policy",
+      "name": "National Research Policy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_national_mobilization_law"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_imperial_arsenals",
+      "name": "Imperial Arsenals",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_national_mobilization_law",
+        "JAP_challenge_the_zaibatsus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_national_defense_state",
+      "name": "National Defense State",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_imperial_arsenals"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_spiritual_mobilization",
+      "name": "Spiritual Mobilization",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_national_defense_state"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_warrior_spirit",
+      "name": "Warrior Spirit",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_national_defense_state"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_strengthen_the_divine_wind",
+      "name": "Strengthen The Divine Wind",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_spiritual_mobilization",
+        "JAP_warrior_spirit"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_showa_restoration",
+      "name": "Showa Restoration",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_support_the_kodoha_faction"
+      ],
+      "mutuallyExclusive": [
+        "JAP_modern_shogunate"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_modern_shogunate",
+      "name": "Modern Shogunate",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_support_the_kodoha_faction"
+      ],
+      "mutuallyExclusive": [
+        "JAP_showa_restoration"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_prepare_for_war_with_the_soviet_union",
+      "name": "Prepare For War With The Soviet Union",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_modern_shogunate",
+        "JAP_showa_restoration"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_join_the_london_naval_treaty",
+      "name": "Join The London Naval Treaty",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_prepare_for_war_with_the_soviet_union"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_build_up_the_manchurian_army",
+      "name": "Build Up The Manchurian Army",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_prepare_for_war_with_the_soviet_union"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_create_a_manchurian_imperial_air_force",
+      "name": "Create A Manchurian Imperial Air Force",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_build_up_the_manchurian_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_non_aggression_pact_with_china",
+      "name": "Non Aggression Pact With China",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_join_the_london_naval_treaty"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_technological_exchange",
+      "name": "Technological Exchange",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_non_aggression_pact_with_china",
+        "JAP_create_a_manchurian_imperial_air_force"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_preemptive_war",
+      "name": "Preemptive War",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_technological_exchange"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_establish_the_northern_resource_area",
+      "name": "Establish The Northern Resource Area",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_preemptive_war",
+        "JAP_imperial_arsenals"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_german_rocketry",
+      "name": "German Rocketry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_preemptive_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_ally_with_the_zaibatsus",
+      "name": "Ally With The Zaibatsus",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_strengthen_civilian_government"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_research_spending",
+      "name": "Research Spending",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_strengthen_civilian_government"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_pre_emptive_coup",
+      "name": "Pre Emptive Coup",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_research_spending",
+        "JAP_ally_with_the_zaibatsus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_purge_the_militarists",
+      "name": "Purge The Militarists",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_research_spending",
+        "JAP_ally_with_the_zaibatsus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_showa_constitution",
+      "name": "The Showa Constitution",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_pre_emptive_coup",
+        "JAP_purge_the_militarists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_west_pacific_treaty_organization",
+      "name": "West Pacific Treaty Organization",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_showa_constitution"
+      ],
+      "mutuallyExclusive": [
+        "JAP_rekindle_the_old_alliance"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_rekindle_the_old_alliance",
+      "name": "Rekindle The Old Alliance",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_showa_constitution"
+      ],
+      "mutuallyExclusive": [
+        "JAP_west_pacific_treaty_organization"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_pacific_guardian",
+      "name": "Pacific Guardian",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_west_pacific_treaty_organization",
+        "JAP_rekindle_the_old_alliance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_anti_communist_bulwark",
+      "name": "Anti Communist Bulwark",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_pacific_guardian"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_anti_communist_volunteers",
+      "name": "Anti Communist Volunteers",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_anti_communist_bulwark"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_korean_question",
+      "name": "The Korean Question",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_pacific_guardian"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_liberate_manchuria",
+      "name": "Liberate Manchuria",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_korean_question"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_ultimate_deterrence",
+      "name": "Ultimate Deterrence",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_liberate_manchuria",
+        "JAP_anti_communist_volunteers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_full_sovereignty_for_the_philippines",
+      "name": "Full Sovereignty For The Philippines",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_liberate_manchuria"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_okadas_military_purge_speech",
+      "name": "Okadas Military Purge Speech",
+      "description": "",
+      "x": 27,
+      "y": 0,
+      "cost": 0,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "JAP_sea_purge_the_kodoha_faction",
+        "JAP_revere_the_emperor_destroy_the_traitors"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_revere_the_emperor_destroy_the_traitors",
+      "name": "Revere The Emperor Destroy The Traitors",
+      "description": "",
+      "x": 27,
+      "y": 0,
+      "cost": 0,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "JAP_sea_purge_the_kodoha_faction",
+        "JAP_okadas_military_purge_speech"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_establish_the_gunbatsu",
+      "name": "Establish The Gunbatsu",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_revere_the_emperor_destroy_the_traitors"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_authorize_aid_to_ethiopia",
+      "name": "Authorize Aid To Ethiopia",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_revere_the_emperor_destroy_the_traitors"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_grand_army_purge",
+      "name": "Grand Army Purge",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_establish_the_gunbatsu"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_remove_the_weeds_from_the_crop",
+      "name": "Remove The Weeds From The Crop",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_establish_the_gunbatsu"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_sea_the_showa_restoration",
+      "name": "Sea The Showa Restoration",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_remove_the_weeds_from_the_crop",
+        "JAP_grand_army_purge"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_an_ode_to_showa_restoration",
+      "name": "An Ode To Showa Restoration",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_the_showa_restoration"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_ikki_kitas_state_socialist_ideals",
+      "name": "Ikki Kitas State Socialist Ideals",
+      "description": "",
+      "x": -6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_the_showa_restoration"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_oppose_the_zaibatsus",
+      "name": "Oppose The Zaibatsus",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_ikki_kitas_state_socialist_ideals"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_give_it_your_all_for_the_emperor",
+      "name": "Give It Your All For The Emperor",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_oppose_the_zaibatsus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_revitalize_rural_areas",
+      "name": "Revitalize Rural Areas",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_oppose_the_zaibatsus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_nationalize_western_corporations",
+      "name": "Nationalize Western Corporations",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_oppose_the_zaibatsus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_ally_the_league_of_blood",
+      "name": "Ally The League Of Blood",
+      "description": "",
+      "x": -9,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_the_showa_restoration"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_integrate_the_kenkokutai",
+      "name": "Integrate The Kenkokutai",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_ally_the_league_of_blood"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_contact_the_masterless_samurai",
+      "name": "Contact The Masterless Samurai",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_ally_the_league_of_blood"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_contact_former_sakurakai_members",
+      "name": "Contact Former Sakurakai Members",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_ally_the_league_of_blood"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_great_spiritual_evil",
+      "name": "The Great Spiritual Evil",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_the_showa_restoration"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_strike_down_the_enemy_of_the_people",
+      "name": "Strike Down The Enemy Of The People",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_great_spiritual_evil"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_prepare_for_the_final_war",
+      "name": "Prepare For The Final War",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_great_spiritual_evil"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_indoctrination_in_the_military_academy",
+      "name": "Indoctrination In The Military Academy",
+      "description": "",
+      "x": 9,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_the_showa_restoration"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_sea_supremacy_of_will",
+      "name": "Sea Supremacy Of Will",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_indoctrination_in_the_military_academy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_tennoheika_banzai",
+      "name": "Tennoheika Banzai",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_supremacy_of_will"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_a_truly_righteous_army",
+      "name": "A Truly Righteous Army",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_supremacy_of_will"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_supremacy_of_the_kempeitai",
+      "name": "Supremacy Of The Kempeitai",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_a_truly_righteous_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_sonnou_joui",
+      "name": "Sonnou Joui",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_a_truly_righteous_army",
+        "JAP_tennoheika_banzai"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_subdue_the_kwantung_army",
+      "name": "Subdue The Kwantung Army",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_indoctrination_in_the_military_academy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_hasten_the_integration_of_taiwan",
+      "name": "Hasten The Integration Of Taiwan",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_subdue_the_kwantung_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_integrate_the_government_general",
+      "name": "Integrate The Government General",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_subdue_the_kwantung_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_align_the_concordia_association",
+      "name": "Align The Concordia Association",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_integrate_the_government_general",
+        "JAP_hasten_the_integration_of_taiwan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_integrate_the_great_empire_of_manchuria",
+      "name": "Integrate The Great Empire Of Manchuria",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_align_the_concordia_association"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_embrace_kokutai",
+      "name": "Embrace Kokutai",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_the_showa_restoration"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_empower_the_shogun",
+      "name": "Empower The Shogun",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_embrace_kokutai"
+      ],
+      "mutuallyExclusive": [
+        "JAP_empower_the_emperor"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_empower_the_emperor",
+      "name": "Empower The Emperor",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_embrace_kokutai"
+      ],
+      "mutuallyExclusive": [
+        "JAP_empower_the_shogun"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_a_worthy_succssor_of_meiji",
+      "name": "A Worthy Succssor Of Meiji",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_empower_the_emperor"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_art_of_warfare",
+      "name": "The Art Of Warfare",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_empower_the_shogun"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_imperial_colors",
+      "name": "The Imperial Colors",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_empower_the_shogun",
+        "JAP_empower_the_emperor"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_utilize_our_polish_friendship",
+      "name": "Utilize Our Polish Friendship",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_imperial_colors"
+      ],
+      "mutuallyExclusive": [
+        "JAP_the_enemy_of_our_enemy",
+        "JAP_return_to_sakoku_ron"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_return_to_sakoku_ron",
+      "name": "Return To Sakoku Ron",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_imperial_colors"
+      ],
+      "mutuallyExclusive": [
+        "JAP_the_enemy_of_our_enemy",
+        "JAP_utilize_our_polish_friendship"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_enemy_of_our_enemy",
+      "name": "The Enemy Of Our Enemy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_imperial_colors"
+      ],
+      "mutuallyExclusive": [
+        "JAP_return_to_sakoku_ron",
+        "JAP_utilize_our_polish_friendship"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_societal_bushido",
+      "name": "Societal Bushido",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_enemy_of_our_enemy",
+        "JAP_utilize_our_polish_friendship",
+        "JAP_return_to_sakoku_ron"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_politicize_the_education_system",
+      "name": "Politicize The Education System",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_societal_bushido"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_spirit_of_the_imperial_nation",
+      "name": "The Spirit Of The Imperial Nation",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_societal_bushido"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_propagandize_the_nihon_shoki",
+      "name": "Propagandize The Nihon Shoki",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_spirit_of_the_imperial_nation",
+        "JAP_politicize_the_education_system"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_yamato_spirit",
+      "name": "The Yamato Spirit",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_propagandize_the_nihon_shoki"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_children_of_the_sun",
+      "name": "Children Of The Sun",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_yamato_spirit"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_footsteps_of_jimmu",
+      "name": "The Footsteps Of Jimmu",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_yamato_spirit"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_yatagarasus_guidance",
+      "name": "Yatagarasus Guidance",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_footsteps_of_jimmu"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_jeweled_spear_has_struck",
+      "name": "The Jeweled Spear Has Struck",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_footsteps_of_jimmu",
+        "JAP_children_of_the_sun"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_hakko_ichiu",
+      "name": "Hakko Ichiu",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_jeweled_spear_has_struck"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_embodying_empress_jinguu",
+      "name": "Embodying Empress Jinguu",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_yamato_spirit"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_to_reach_princess_kaguya",
+      "name": "To Reach Princess Kaguya",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_embodying_empress_jinguu"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_to_rival_zheng_yi_sao",
+      "name": "To Rival Zheng Yi Sao",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_embodying_empress_jinguu"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_amaterasus_aramitama",
+      "name": "Amaterasus Aramitama",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_to_rival_zheng_yi_sao",
+        "JAP_to_reach_princess_kaguya"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_sea_purge_the_kodoha_faction",
+      "name": "Sea Purge The Kodoha Faction",
+      "description": "",
+      "x": 0,
+      "y": 0,
+      "cost": 0,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "JAP_the_unthinkable_option",
+        "JAP_support_the_kodoha_faction",
+        "JAP_strengthen_civilian_government",
+        "JAP_revere_the_emperor_destroy_the_traitors",
+        "JAP_okadas_military_purge_speech"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_promulgate_the_military_ministers_system",
+      "name": "Promulgate The Military Ministers System",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_purge_the_kodoha_faction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_east_asian_cooperative_society",
+      "name": "East Asian Cooperative Society",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_purge_the_kodoha_faction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_imperial_headquarters_liasion_conference",
+      "name": "Imperial Headquarters Liasion Conference",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_purge_the_kodoha_faction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_reprimand_hamada_kunimatsu",
+      "name": "Reprimand Hamada Kunimatsu",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "JAP_promulgate_the_military_ministers_system"
+      ],
+      "mutuallyExclusive": [
+        "JAP_the_harakiri_debate"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_harakiri_debate",
+      "name": "The Harakiri Debate",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "JAP_promulgate_the_military_ministers_system"
+      ],
+      "mutuallyExclusive": [
+        "JAP_reprimand_hamada_kunimatsu"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_konoes_first_cabinet",
+      "name": "Konoes First Cabinet",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_harakiri_debate"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_new_order_in_east_asia",
+      "name": "New Order In East Asia",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_konoes_first_cabinet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_reiterate_the_three_principles_of_hirota",
+      "name": "Reiterate The Three Principles Of Hirota",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_reprimand_hamada_kunimatsu"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_formalize_japan_china_manchukuo_alliance",
+      "name": "Formalize Japan China Manchukuo Alliance",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_reiterate_the_three_principles_of_hirota"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_sea_national_spiritual_mobliization_movement",
+      "name": "Sea National Spiritual Mobliization Movement",
+      "description": "",
+      "x": 2,
+      "y": -1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_promulgate_the_military_ministers_system"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_form_cabinet_intelligence_bureau",
+      "name": "Form Cabinet Intelligence Bureau",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_national_spiritual_mobliization_movement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_crackdown_on_foreign_agents",
+      "name": "Crackdown On Foreign Agents",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_form_cabinet_intelligence_bureau"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_found_the_great_japan_press_association",
+      "name": "Found The Great Japan Press Association",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_form_cabinet_intelligence_bureau"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_empower_the_thought_police",
+      "name": "Empower The Thought Police",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_national_spiritual_mobliization_movement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_form_the_central_economic_council",
+      "name": "Form The Central Economic Council",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_national_spiritual_mobliization_movement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_expand_the_showa_research_association",
+      "name": "Expand The Showa Research Association",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_form_the_central_economic_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_form_the_great_japan_industrial_patriotic_association",
+      "name": "Form The Great Japan Industrial Patriotic Association",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_form_the_central_economic_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_sea_guide_the_zaibatsus",
+      "name": "Sea Guide The Zaibatsus",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_national_spiritual_mobliization_movement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_sea_state_general_mobilization_law",
+      "name": "Sea State General Mobilization Law",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_national_spiritual_mobliization_movement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_issue_the_ten_commandments_for_marriage",
+      "name": "Issue The Ten Commandments For Marriage",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_national_spiritual_mobliization_movement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_enact_religious_organizations_law",
+      "name": "Enact Religious Organizations Law",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_issue_the_ten_commandments_for_marriage"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_new_order_movement",
+      "name": "New Order Movement",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_enact_religious_organizations_law"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_sea_tripartite_pact",
+      "name": "Sea Tripartite Pact",
+      "description": "",
+      "x": 4,
+      "y": 6,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_promote_pan_asianism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_sea_mil_tech_coop_with_germany",
+      "name": "Sea Mil Tech Coop With Germany",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_tripartite_pact"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_imperial_rule_assistance_association",
+      "name": "Imperial Rule Assistance Association",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_new_order_movement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_form_the_yokusan_sonendan",
+      "name": "Form The Yokusan Sonendan",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_imperial_rule_assistance_association"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_integrate_the_great_japan_youth_party",
+      "name": "Integrate The Great Japan Youth Party",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_form_the_yokusan_sonendan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_sea_national_defense_state",
+      "name": "Sea National Defense State",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_national_spiritual_mobliization_movement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_formalize_the_tonarigumi",
+      "name": "Formalize The Tonarigumi",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_imperial_rule_assistance_association"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_ichioku_isshin",
+      "name": "Ichioku Isshin",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_formalize_the_tonarigumi",
+        "JAP_sea_national_defense_state",
+        "JAP_form_the_yokusan_sonendan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_issue_the_senjinkun_military_code",
+      "name": "Issue The Senjinkun Military Code",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_imperial_rule_assistance_association"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_issue_the_shinmin_no_michi_manifesto",
+      "name": "Issue The Shinmin No Michi Manifesto",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_issue_the_senjinkun_military_code"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_sea_greater_east_asian_co_properity_sphere",
+      "name": "Sea Greater East Asian Co Properity Sphere",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_purge_the_kodoha_faction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_expand_japan_manchukuo_economic_bloc",
+      "name": "Expand Japan Manchukuo Economic Bloc",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_greater_east_asian_co_properity_sphere"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_develop_the_yen_bloc",
+      "name": "Develop The Yen Bloc",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_expand_japan_manchukuo_economic_bloc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_flying_geese",
+      "name": "The Flying Geese",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_greater_east_asian_co_properity_sphere"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_greater_east_asia_railroad",
+      "name": "Greater East Asia Railroad",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_flying_geese"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_east_asia_development_board",
+      "name": "East Asia Development Board",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_greater_east_asian_co_properity_sphere"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_ministry_of_greater_east_asia",
+      "name": "Ministry Of Greater East Asia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_east_asia_development_board"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_promote_pan_asianism",
+      "name": "Promote Pan Asianism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_greater_east_asian_co_properity_sphere"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_tojos_premiership",
+      "name": "Tojos Premiership",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_national_defense_state"
+      ],
+      "mutuallyExclusive": [
+        "JAP_yamamotos_premiership",
+        "JAP_the_crysanthemum_throne",
+        "JAP_solidify_tohokai_rule"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_yamamotos_premiership",
+      "name": "Yamamotos Premiership",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_ichioku_isshin"
+      ],
+      "mutuallyExclusive": [
+        "JAP_tojos_premiership",
+        "JAP_the_crysanthemum_throne",
+        "JAP_solidify_tohokai_rule"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_crysanthemum_throne",
+      "name": "The Crysanthemum Throne",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_ichioku_isshin"
+      ],
+      "mutuallyExclusive": [
+        "JAP_tojos_premiership",
+        "JAP_yamamotos_premiership",
+        "JAP_solidify_tohokai_rule"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_solidify_tohokai_rule",
+      "name": "Solidify Tohokai Rule",
+      "description": "",
+      "x": 4,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_ichioku_isshin"
+      ],
+      "mutuallyExclusive": [
+        "JAP_tojos_premiership",
+        "JAP_yamamotos_premiership",
+        "JAP_the_crysanthemum_throne"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_national_defense_brotherhood",
+      "name": "National Defense Brotherhood",
+      "description": "",
+      "x": -4,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_tojos_premiership"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_supreme_council_for_direction_of_war",
+      "name": "Supreme Council For Direction Of War",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_tojos_premiership",
+        "JAP_yamamotos_premiership",
+        "JAP_the_crysanthemum_throne",
+        "JAP_solidify_tohokai_rule"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_found_the_boeitai",
+      "name": "Found The Boeitai",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_tojos_premiership",
+        "JAP_yamamotos_premiership",
+        "JAP_the_crysanthemum_throne",
+        "JAP_solidify_tohokai_rule"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_advance_one_hundred_million_fireballs",
+      "name": "Advance One Hundred Million Fireballs",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_tojos_premiership"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_joshi_teishin_tai",
+      "name": "Joshi Teishin Tai",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_tojos_premiership",
+        "JAP_yamamotos_premiership",
+        "JAP_the_crysanthemum_throne",
+        "JAP_solidify_tohokai_rule"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_metal_collection_order",
+      "name": "The Metal Collection Order",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_tojos_premiership",
+        "JAP_yamamotos_premiership",
+        "JAP_the_crysanthemum_throne",
+        "JAP_solidify_tohokai_rule"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_form_the_dai_nippon_fujinkai",
+      "name": "Form The Dai Nippon Fujinkai",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_tojos_premiership",
+        "JAP_yamamotos_premiership",
+        "JAP_the_crysanthemum_throne",
+        "JAP_solidify_tohokai_rule"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_fund_propaganda_films",
+      "name": "Fund Propaganda Films",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_tojos_premiership",
+        "JAP_yamamotos_premiership",
+        "JAP_the_crysanthemum_throne",
+        "JAP_solidify_tohokai_rule"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_eternal_kingdom",
+      "name": "The Eternal Kingdom",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_tojos_premiership"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_found_the_air_defense_surveilance_corps",
+      "name": "Found The Air Defense Surveilance Corps",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_tojos_premiership",
+        "JAP_yamamotos_premiership",
+        "JAP_the_crysanthemum_throne",
+        "JAP_solidify_tohokai_rule"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_koiso_cabinet",
+      "name": "The Koiso Cabinet",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_war_has_not_necessarily_developed_focus",
+      "name": "The War Has Not Necessarily Developed Focus",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_koiso_cabinet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_japans_longest_day",
+      "name": "Japans Longest Day",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_war_has_not_necessarily_developed_focus"
+      ],
+      "mutuallyExclusive": [
+        "JAP_the_surrender_broadcast"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_surrender_broadcast",
+      "name": "The Surrender Broadcast",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_war_has_not_necessarily_developed_focus"
+      ],
+      "mutuallyExclusive": [
+        "JAP_japans_longest_day"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_revisit_the_thirteen_demands",
+      "name": "Revisit The Thirteen Demands",
+      "description": "",
+      "x": 7,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "JAP_sea_purge_the_kodoha_faction",
+        "JAP_revere_the_emperor_destroy_the_traitors"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_invest_in_senbu",
+      "name": "Invest In Senbu",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_revisit_the_thirteen_demands"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_establish_mongol_military_government",
+      "name": "Establish Mongol Military Government",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_revisit_the_thirteen_demands"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_launch_the_suiyuan_campaign",
+      "name": "Launch The Suiyuan Campaign",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_establish_mongol_military_government"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_reorganize_the_united_autonomous_government",
+      "name": "Reorganize The United Autonomous Government",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_establish_mongol_military_government"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_mengjiang_united_autonomous_government",
+      "name": "Mengjiang United Autonomous Government",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_reorganize_the_united_autonomous_government"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_mongol_autonomous_state",
+      "name": "Mongol Autonomous State",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_mengjiang_united_autonomous_government"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_reinforce_the_beijing_garrison",
+      "name": "Reinforce The Beijing Garrison",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_revisit_the_thirteen_demands"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_strategic_offensives",
+      "name": "Strategic Offensives",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_reinforce_the_beijing_garrison"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_intensify_anti_guerilla_operations",
+      "name": "Intensify Anti Guerilla Operations",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_strategic_offensives"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_reorganized_national_government",
+      "name": "Reorganized National Government",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_strategic_offensives"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_occupy_macau",
+      "name": "Occupy Macau",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 2,
+      "prerequisites": [
+        "JAP_reorganized_national_government"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "Jap_War_China",
+      "name": "Jap War China",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "JAP_reinforce_the_beijing_garrison"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_develop_the_chinese_resources",
+      "name": "Develop The Chinese Resources",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_reinforce_the_beijing_garrison"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_build_on_bones",
+      "name": "Build on Bones",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_develop_the_chinese_resources"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_forged_with_blood",
+      "name": "Forged with Blood",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_develop_the_chinese_resources"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_release_the_kraken",
+      "name": "Release the Kraken",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_develop_the_chinese_resources"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_form_the_jikyoku_iinkai",
+      "name": "Form The Jikyoku Iinkai",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_reinforce_the_beijing_garrison"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_an_expedition_to_tibet",
+      "name": "An Expedition To Tibet",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_reinforce_the_beijing_garrison"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_ally_the_dragon_king",
+      "name": "Ally The Dragon King",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_an_expedition_to_tibet"
+      ],
+      "mutuallyExclusive": [
+        "JAP_claim_the_raven_crown"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_claim_the_raven_crown",
+      "name": "Claim The Raven Crown",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_an_expedition_to_tibet"
+      ],
+      "mutuallyExclusive": [
+        "JAP_ally_the_dragon_king"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_ally_the_gorkhas",
+      "name": "Ally The Gorkhas",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_claim_the_raven_crown",
+        "JAP_ally_the_dragon_king"
+      ],
+      "mutuallyExclusive": [
+        "JAP_claim_the_scripech"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_claim_the_scripech",
+      "name": "Claim The Scripech",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_claim_the_raven_crown",
+        "JAP_ally_the_dragon_king"
+      ],
+      "mutuallyExclusive": [
+        "JAP_ally_the_gorkhas"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_ally_afghanistan",
+      "name": "Ally Afghanistan",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_claim_the_scripech",
+        "JAP_ally_the_gorkhas"
+      ],
+      "mutuallyExclusive": [
+        "JAP_best_the_graveyard"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_best_the_graveyard",
+      "name": "Best The Graveyard",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_claim_the_scripech",
+        "JAP_ally_the_gorkhas"
+      ],
+      "mutuallyExclusive": [
+        "JAP_ally_afghanistan"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_nanshin_ron",
+      "name": "Nanshin Ron",
+      "description": "",
+      "x": -8,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_purge_the_kodoha_faction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_soviet_japanese_neutrality_pact",
+      "name": "Soviet Japanese Neutrality Pact",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_purge_the_kodoha_faction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_unsinkable_aircraft_carriers",
+      "name": "Unsinkable Aircraft Carriers",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_nanshin_ron"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_isolate_oceania",
+      "name": "Isolate Oceania",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_soviet_japanese_neutrality_pact"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_battle_for_australia",
+      "name": "Battle For Australia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_isolate_oceania"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_operation_take_australia",
+      "name": "Operation Take Australia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_battle_for_australia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_sea_exploit_southern_resource_area",
+      "name": "Sea Exploit Southern Resource Area",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_nanshin_ron"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_demand_tonkinese_bases",
+      "name": "Demand Tonkinese Bases",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "JAP_nanshin_ron"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_occupy_indochina",
+      "name": "Occupy Indochina",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "JAP_nanshin_ron"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_sea_pressure_siam",
+      "name": "Sea Pressure Siam",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "JAP_demand_tonkinese_bases"
+      ],
+      "mutuallyExclusive": [
+        "JAP_occupy_siam"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_occupy_siam",
+      "name": "Occupy Siam",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "JAP_demand_tonkinese_bases"
+      ],
+      "mutuallyExclusive": [
+        "JAP_sea_pressure_siam"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_strike_the_southern_road",
+      "name": "Strike The Southern Road",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "JAP_occupy_indochina"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_occupy_east_timor",
+      "name": "Occupy East Timor",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "JAP_strike_the_southern_road"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_hokushin_ron",
+      "name": "Hokushin Ron",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_purge_the_kodoha_faction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_ensure_temporary_peace_with_china",
+      "name": "Ensure Temporary Peace With China",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_hokushin_ron"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_a_mongol_volunteer_army",
+      "name": "A Mongol Volunteer Army",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_ensure_temporary_peace_with_china"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_utilize_ainu_expertise",
+      "name": "Utilize Ainu Expertise",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_hokushin_ron"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_kantokuen",
+      "name": "Kantokuen",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_utilize_ainu_expertise"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_a_green_persimmon",
+      "name": "A Green Persimmon",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_kantokuen"
+      ],
+      "mutuallyExclusive": [
+        "JAP_the_persimmon_has_ripened"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_persimmon_has_ripened",
+      "name": "The Persimmon Has Ripened",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "JAP_utilize_ainu_expertise"
+      ],
+      "mutuallyExclusive": [
+        "JAP_a_green_persimmon"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_sea_establish_the_northern_resource_area",
+      "name": "Sea Establish The Northern Resource Area",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_persimmon_has_ripened"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_seek_yakuza_support",
+      "name": "Seek Yakuza Support",
+      "description": "",
+      "x": -7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_okadas_military_purge_speech"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_expand_the_metropolitan_police",
+      "name": "Expand The Metropolitan Police",
+      "description": "",
+      "x": 7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_okadas_military_purge_speech"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_secretly_rebuild_the_party",
+      "name": "Secretly Rebuild The Party",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_okadas_military_purge_speech"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_build_an_anti_army_coalition",
+      "name": "Build An Anti Army Coalition",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_okadas_military_purge_speech"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_ensure_cross_party_support",
+      "name": "Ensure Cross Party Support",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_build_an_anti_army_coalition"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_gather_royal_pacifists_support",
+      "name": "Gather Royal Pacifists Support",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_build_an_anti_army_coalition"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_limit_military_power",
+      "name": "Limit Military Power",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_gather_royal_pacifists_support",
+        "JAP_ensure_cross_party_support"
+      ],
+      "mutuallyExclusive": [
+        "JAP_sway_the_navy_moderates"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_sway_the_navy_moderates",
+      "name": "Sway The Navy Moderates",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_gather_royal_pacifists_support",
+        "JAP_ensure_cross_party_support"
+      ],
+      "mutuallyExclusive": [
+        "JAP_limit_military_power"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_divert_military_funds",
+      "name": "Divert Military Funds",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_limit_military_power",
+        "JAP_sway_the_navy_moderates"
+      ],
+      "mutuallyExclusive": [
+        "JAP_return_of_the_manchukuo_exiles"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_bribe_generals",
+      "name": "Bribe Generals",
+      "description": "",
+      "x": 6,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sway_the_navy_moderates",
+        "JAP_limit_military_power"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_appoint_new_generals",
+      "name": "Appoint New Generals",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_bribe_generals",
+        "JAP_divert_military_funds"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_implement_army_reforms",
+      "name": "Implement Army Reforms",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_bribe_generals",
+        "JAP_divert_military_funds"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_a_new_take_on_state_shintoism",
+      "name": "A New Take On State Shintoism",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_implement_army_reforms",
+        "JAP_appoint_new_generals"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_crush_the_spirit_of_gekokujo",
+      "name": "Crush The Spirit Of Gekokujo",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_a_new_take_on_state_shintoism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_anti_militarist_speeches_in_the_diet",
+      "name": "Anti Militarist Speeches In The Diet",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_secretly_rebuild_the_party"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_sway_disillusioned_young_officers",
+      "name": "Sway Disillusioned Young Officers",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_anti_militarist_speeches_in_the_diet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_organize_the_student_movements",
+      "name": "Organize The Student Movements",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_anti_militarist_speeches_in_the_diet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_raise_support_within_the_proletarian_class",
+      "name": "Raise Support Within The Proletarian Class",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_organize_the_student_movements"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_organize_underground_resistance",
+      "name": "Organize Underground Resistance",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_anti_militarist_speeches_in_the_diet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_mountain_village_operation_units",
+      "name": "Mountain Village Operation Units",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_organize_underground_resistance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_return_of_the_manchukuo_exiles",
+      "name": "Return Of The Manchukuo Exiles",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_mountain_village_operation_units",
+        "JAP_raise_support_within_the_proletarian_class"
+      ],
+      "mutuallyExclusive": [
+        "JAP_divert_military_funds"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_organize_the_fifth_column",
+      "name": "Organize The Fifth Column",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_return_of_the_manchukuo_exiles"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_revoke_the_peace_preservation_law",
+      "name": "Revoke The Peace Preservation Law",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_return_of_the_manchukuo_exiles",
+        "JAP_divert_military_funds"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_a_red_sun_rises_for_a_new_era",
+      "name": "A Red Sun Rises For A New Era",
+      "description": "",
+      "x": -9,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_revoke_the_peace_preservation_law"
+      ],
+      "mutuallyExclusive": [
+        "JAP_organize_a_general_election"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_lecture_group_ascendant",
+      "name": "The Lecture Group Ascendant",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_a_red_sun_rises_for_a_new_era"
+      ],
+      "mutuallyExclusive": [
+        "JAP_the_labor_farmer_faction_ascendant"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_labor_farmer_faction_ascendant",
+      "name": "The Labor Farmer Faction Ascendant",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_a_red_sun_rises_for_a_new_era"
+      ],
+      "mutuallyExclusive": [
+        "JAP_the_lecture_group_ascendant"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_sea_fate_of_the_imperial_family",
+      "name": "Sea Fate Of The Imperial Family",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_lecture_group_ascendant",
+        "JAP_the_labor_farmer_faction_ascendant"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_hold_a_peoples_tribunal",
+      "name": "Hold A Peoples Tribunal",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_fate_of_the_imperial_family"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_social_and_cultural_revolution",
+      "name": "Social And Cultural Revolution",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_fate_of_the_imperial_family"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_overhaul_the_education_system",
+      "name": "Overhaul The Education System",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_social_and_cultural_revolution",
+        "JAP_hold_a_peoples_tribunal"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_sea_nationalize_the_zaibatsus",
+      "name": "Sea Nationalize The Zaibatsus",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_overhaul_the_education_system"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_a_functionalist_housing_policy",
+      "name": "A Functionalist Housing Policy",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_overhaul_the_education_system"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_redistribute_land_and_wealth",
+      "name": "Redistribute Land And Wealth",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_overhaul_the_education_system"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_ganbarou",
+      "name": "Ganbarou",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_redistribute_land_and_wealth",
+        "JAP_a_functionalist_housing_policy",
+        "JAP_sea_nationalize_the_zaibatsus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_cooperate_with_anarchists",
+      "name": "Cooperate With Anarchists",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_fate_of_the_imperial_family",
+        "JAP_the_labor_farmer_faction_ascendant"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_ie_system_and_socialism",
+      "name": "The Ie System And Socialism",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_fate_of_the_imperial_family",
+        "JAP_the_lecture_group_ascendant"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_fukumotoism",
+      "name": "Fukumotoism",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_ie_system_and_socialism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_modern_ashigaru",
+      "name": "The Modern Ashigaru",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_ie_system_and_socialism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_learn_from_the_nkvd",
+      "name": "Learn From The Nkvd",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_modern_ashigaru"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_further_urban_investments",
+      "name": "Further Urban Investments",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_fukumotoism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_first_five_year_plan",
+      "name": "The First Five Year Plan",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_fukumotoism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_form_pioneer_organizations",
+      "name": "Form Pioneer Organizations",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_first_five_year_plan",
+        "JAP_further_urban_investments"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_war_communism",
+      "name": "War Communism",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_cooperate_with_anarchists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_uno_school_of_economics",
+      "name": "The Uno School Of Economics",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_cooperate_with_anarchists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_incorporate_buddhist_socialism",
+      "name": "Incorporate Buddhist Socialism",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_cooperate_with_anarchists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_spirit_of_the_ikko_ikki",
+      "name": "The Spirit Of The Ikko Ikki",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_incorporate_buddhist_socialism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_achieving_joubukkokudo",
+      "name": "Achieving Joubukkokudo",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_spirit_of_the_ikko_ikki"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_uplift_ainu_revolution_theory",
+      "name": "Uplift Ainu Revolution Theory",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_incorporate_buddhist_socialism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_kikues_new_model",
+      "name": "Kikues New Model",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_cooperate_with_anarchists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_women_in_industry",
+      "name": "Women In Industry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_kikues_new_model"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_form_national_cooperatives",
+      "name": "Form National Cooperatives",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_uno_school_of_economics"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_further_rural_investments",
+      "name": "Further Rural Investments",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_uno_school_of_economics"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_adopt_syndicalist_ideas",
+      "name": "Adopt Syndicalist Ideas",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_further_rural_investments",
+        "JAP_form_national_cooperatives"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_raise_the_red_flag_high",
+      "name": "Raise The Red Flag High",
+      "description": "",
+      "x": -5,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_adopt_syndicalist_ideas",
+        "JAP_form_pioneer_organizations"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_guide_the_lesser_states",
+      "name": "Guide The Lesser States",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_raise_the_red_flag_high",
+        "JAP_adopt_syndicalist_ideas"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_socialism_in_one_state",
+      "name": "Socialism In One State",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_raise_the_red_flag_high",
+        "JAP_form_pioneer_organizations"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_courage_to_defend_the_revolution",
+      "name": "The Courage To Defend The Revolution",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_guide_the_lesser_states"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_demand_submission_from_breawakay_states",
+      "name": "Demand Submission From Breawakay States",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_guide_the_lesser_states"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_ignite_the_korean_peninsula",
+      "name": "Ignite The Korean Peninsula",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_demand_submission_from_breawakay_states"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_protect_the_manchurians",
+      "name": "Protect The Manchurians",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_ignite_the_korean_peninsula"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_guide_the_chinese",
+      "name": "Guide The Chinese",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_ignite_the_korean_peninsula"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_guide_the_mongols",
+      "name": "Guide The Mongols",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_guide_the_chinese"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_spread_the_revolutuon_south",
+      "name": "Spread The Revolutuon South",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_guide_the_chinese",
+        "JAP_protect_the_manchurians"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_free_asians_from_soviet_opression",
+      "name": "Free Asians From Soviet Opression",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_spread_the_revolutuon_south"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_go_after_the_capitalists",
+      "name": "Go After The Capitalists",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_spread_the_revolutuon_south"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_a_free_asia_pacific",
+      "name": "A Free Asia Pacific",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_go_after_the_capitalists",
+        "JAP_free_asians_from_soviet_opression"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_pan_asian_revolutionary_front",
+      "name": "The Pan Asian Revolutionary Front",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_guide_the_lesser_states"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_educate_the_peasants",
+      "name": "Educate The Peasants",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_pan_asian_revolutionary_front"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_a_common_currency_for_all_of_asia",
+      "name": "A Common Currency For All Of Asia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_pan_asian_revolutionary_front"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_minitry_of_pan_asian_development",
+      "name": "The Minitry Of Pan Asian Development",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_pan_asian_revolutionary_front"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_development_for_the_undeveloped",
+      "name": "Development For The Undeveloped",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_minitry_of_pan_asian_development"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_a_pan_asian_diet",
+      "name": "A Pan Asian Diet",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_minitry_of_pan_asian_development",
+        "JAP_a_common_currency_for_all_of_asia",
+        "JAP_educate_the_peasants"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_extensive_navy_maneuvers",
+      "name": "Extensive Navy Maneuvers",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_socialism_in_one_state"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_extensive_army_maneuvers",
+      "name": "Extensive Army Maneuvers",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_socialism_in_one_state"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_reclaim_lost_territories",
+      "name": "Reclaim Lost Territories",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_socialism_in_one_state"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_conquer_the_army_remnants",
+      "name": "Conquer The Army Remnants",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_socialism_in_one_state"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_put_an_end_to_chinese_feudalism",
+      "name": "Put An End To Chinese Feudalism",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_conquer_the_army_remnants",
+        "JAP_reclaim_lost_territories"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_mobilize_the_proletariat",
+      "name": "Mobilize The Proletariat",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_put_an_end_to_chinese_feudalism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_long_march_to_victory",
+      "name": "The Long March To Victory",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_put_an_end_to_chinese_feudalism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_pacific_union_of_soviet_socialist_republics",
+      "name": "The Pacific Union Of Soviet Socialist Republics",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_put_an_end_to_chinese_feudalism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_indochinese_soviet",
+      "name": "The Indochinese Soviet",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_pacific_union_of_soviet_socialist_republics"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_transformation_of_nature",
+      "name": "Transformation Of Nature",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_indochinese_soviet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_south_pacific_soviet",
+      "name": "The South Pacific Soviet",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_pacific_union_of_soviet_socialist_republics"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_oceanian_soviet",
+      "name": "The Oceanian Soviet",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_south_pacific_soviet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_strike_down_the_great_pretender",
+      "name": "Strike Down The Great Pretender",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_pacific_union_of_soviet_socialist_republics"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_a_red_dawn_over_asia",
+      "name": "A Red Dawn Over Asia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_strike_down_the_great_pretender"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_to_rival_the_comintern",
+      "name": "To Rival The Comintern",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_pacific_union_of_soviet_socialist_republics"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_wrestle_mongolia_from_the_soviets",
+      "name": "Wrestle Mongolia From The Soviets",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_to_rival_the_comintern"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_wrestle_tuva_from_the_soviets",
+      "name": "Wrestle Tuva From The Soviets",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_wrestle_mongolia_from_the_soviets"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_spread_revolutionary_flames_to_south_asia",
+      "name": "Spread Revolutionary Flames To South Asia",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_to_rival_the_comintern"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_spread_revolutionary_flames_to_west_asia",
+      "name": "Spread Revolutionary Flames To West Asia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_spread_revolutionary_flames_to_south_asia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_trans_pacific_influence",
+      "name": "Trans Pacific Influence",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_to_rival_the_comintern"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_organize_a_general_election",
+      "name": "Organize A General Election",
+      "description": "",
+      "x": 9,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_revoke_the_peace_preservation_law"
+      ],
+      "mutuallyExclusive": [
+        "JAP_a_red_sun_rises_for_a_new_era"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_rikken_minseito_victory",
+      "name": "Rikken Minseito Victory",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 0,
+      "prerequisites": [
+        "JAP_organize_a_general_election"
+      ],
+      "mutuallyExclusive": [
+        "JAP_rikken_seiyukai_victory"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_rikken_seiyukai_victory",
+      "name": "Rikken Seiyukai Victory",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 0,
+      "prerequisites": [
+        "JAP_organize_a_general_election"
+      ],
+      "mutuallyExclusive": [
+        "JAP_rikken_minseito_victory"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_promote_meritocracy",
+      "name": "Promote Meritocracy",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_rikken_minseito_victory"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_experimental_housing_solutions",
+      "name": "Experimental Housing Solutions",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_rikken_minseito_victory"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_minshu_shugi",
+      "name": "Minshu Shugi",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_experimental_housing_solutions",
+        "JAP_promote_meritocracy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_embrace_amakudari",
+      "name": "Embrace Amakudari",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_rikken_seiyukai_victory"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_agricultural_protectionism",
+      "name": "Agricultural Protectionism",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_rikken_seiyukai_victory"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_minpon_shugi",
+      "name": "Minpon Shugi",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_agricultural_protectionism",
+        "JAP_embrace_amakudari"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_machida_chuuji_focus",
+      "name": "Machida Chuuji Focus",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_minshu_shugi"
+      ],
+      "mutuallyExclusive": [
+        "JAP_mitsumasa_yonai_focus",
+        "JAP_abe_isoo_focus",
+        "JAP_tokugawa_iesato_focus",
+        "JAP_ichiro_hatoyama_focus"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_abe_isoo_focus",
+      "name": "Abe Isoo Focus",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_minshu_shugi"
+      ],
+      "mutuallyExclusive": [
+        "JAP_mitsumasa_yonai_focus",
+        "JAP_machida_chuuji_focus",
+        "JAP_tokugawa_iesato_focus",
+        "JAP_ichiro_hatoyama_focus"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_uplift_labor_unions",
+      "name": "Uplift Labor Unions",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_abe_isoo_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_tokugawa_iesato_focus",
+      "name": "Tokugawa Iesato Focus",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_minpon_shugi",
+        "JAP_minshu_shugi"
+      ],
+      "mutuallyExclusive": [
+        "JAP_abe_isoo_focus",
+        "JAP_machida_chuuji_focus",
+        "JAP_ichiro_hatoyama_focus",
+        "JAP_mitsumasa_yonai_focus"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_ichiro_hatoyama_focus",
+      "name": "Ichiro Hatoyama Focus",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_minpon_shugi"
+      ],
+      "mutuallyExclusive": [
+        "JAP_abe_isoo_focus",
+        "JAP_machida_chuuji_focus",
+        "JAP_tokugawa_iesato_focus",
+        "JAP_mitsumasa_yonai_focus"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_form_the_ldp",
+      "name": "Form The Ldp",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_ichiro_hatoyama_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_mitsumasa_yonai_focus",
+      "name": "Mitsumasa Yonai Focus",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_minpon_shugi"
+      ],
+      "mutuallyExclusive": [
+        "JAP_abe_isoo_focus",
+        "JAP_machida_chuuji_focus",
+        "JAP_tokugawa_iesato_focus",
+        "JAP_ichiro_hatoyama_focus"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_draft_the_showa_constitution",
+      "name": "Draft The Showa Constitution",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_abe_isoo_focus",
+        "JAP_machida_chuuji_focus",
+        "JAP_tokugawa_iesato_focus",
+        "JAP_ichiro_hatoyama_focus",
+        "JAP_mitsumasa_yonai_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_limit_the_emperors_power",
+      "name": "Limit The Emperors Power",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_draft_the_showa_constitution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_ensure_civil_liberties",
+      "name": "Ensure Civil Liberties",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_draft_the_showa_constitution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_crush_the_internal_factions",
+      "name": "Crush The Internal Factions",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_limit_the_emperors_power",
+        "JAP_ensure_civil_liberties"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_democratic_war_with_manchukuo",
+      "name": "Democratic War With Manchukuo",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_crush_the_internal_factions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_democratic_war_with_china",
+      "name": "Democratic War With China",
+      "description": "",
+      "x": -6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_crush_the_internal_factions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_closer_ties_with_the_usa",
+      "name": "Closer Ties With The Usa",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_democratic_war_with_china"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_ally_the_philippines",
+      "name": "Ally The Philippines",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_closer_ties_with_the_usa"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_strike_the_soviets",
+      "name": "Strike The Soviets",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_democratic_war_with_china"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_free_colonized_asian_countries",
+      "name": "Free Colonized Asian Countries",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_democratic_war_with_china"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_fund_resistance_groups_in_asia",
+      "name": "Fund Resistance Groups In Asia",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_free_colonized_asian_countries"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_sea_rekindle_the_old_alliance",
+      "name": "Sea Rekindle The Old Alliance",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_crush_the_internal_factions"
+      ],
+      "mutuallyExclusive": [
+        "JAP_create_greater_east_asian_treaty_organization"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_guardian_of_the_pacific",
+      "name": "Guardian Of The Pacific",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_rekindle_the_old_alliance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_create_greater_east_asian_treaty_organization",
+      "name": "Create Greater East Asian Treaty Organization",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_democratic_war_with_china"
+      ],
+      "mutuallyExclusive": [
+        "JAP_sea_rekindle_the_old_alliance"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_form_greater_east_asian_customs_union",
+      "name": "Form Greater East Asian Customs Union",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_create_greater_east_asian_treaty_organization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_form_greater_east_asian_currency_union",
+      "name": "Form Greater East Asian Currency Union",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_create_greater_east_asian_treaty_organization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_an_integrated_union",
+      "name": "An Integrated Union",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_form_greater_east_asian_currency_union",
+        "JAP_form_greater_east_asian_customs_union"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_greater_east_asian_federation",
+      "name": "Greater East Asian Federation",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_an_integrated_union",
+        "JAP_guardian_of_the_pacific"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_democratic_womens_suffrage",
+      "name": "Democratic Womens Suffrage",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_crush_the_internal_factions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_launch_the_income_doubling_plan",
+      "name": "Launch The Income Doubling Plan",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_crush_the_internal_factions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_reform_the_education_system",
+      "name": "Reform The Education System",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_launch_the_income_doubling_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_democratic_women_in_the_workforce",
+      "name": "Democratic Women In The Workforce",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_reform_the_education_system",
+        "JAP_democratic_womens_suffrage"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_taiheyo_belt",
+      "name": "Taiheyo Belt",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_launch_the_income_doubling_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_shinkansen",
+      "name": "Shinkansen",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_launch_the_income_doubling_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_pursue_international_trade",
+      "name": "Pursue International Trade",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_launch_the_income_doubling_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_seek_foreign_investments",
+      "name": "Seek Foreign Investments",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_pursue_international_trade"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_invest_in_foreign_industries",
+      "name": "Invest In Foreign Industries",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_pursue_international_trade"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_democratic_foreign_exchange_allocation_policy",
+      "name": "Democratic Foreign Exchange Allocation Policy",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_invest_in_foreign_industries",
+        "JAP_seek_foreign_investments"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_democratic_research_slot",
+      "name": "Democratic Research Slot",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_taiheyo_belt",
+        "JAP_reform_the_education_system"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_offshore_coal",
+      "name": "Offshore Coal",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_taiheyo_belt",
+        "JAP_shinkansen"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_democratic_nationalize_zaibatsus",
+      "name": "Democratic Nationalize Zaibatsus",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_offshore_coal",
+        "JAP_democratic_research_slot"
+      ],
+      "mutuallyExclusive": [
+        "JAP_democratic_work_with_the_zaibatsus",
+        "JAP_split_uo_zaibatsu_monopolies"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_split_uo_zaibatsu_monopolies",
+      "name": "Split Uo Zaibatsu Monopolies",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_offshore_coal",
+        "JAP_democratic_research_slot"
+      ],
+      "mutuallyExclusive": [
+        "JAP_democratic_work_with_the_zaibatsus",
+        "JAP_democratic_nationalize_zaibatsus"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_democratic_work_with_the_zaibatsus",
+      "name": "Democratic Work With The Zaibatsus",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_offshore_coal",
+        "JAP_democratic_research_slot"
+      ],
+      "mutuallyExclusive": [
+        "JAP_split_uo_zaibatsu_monopolies",
+        "JAP_democratic_nationalize_zaibatsus"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_lifetime_employment",
+      "name": "Lifetime Employment",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_split_uo_zaibatsu_monopolies",
+        "JAP_democratic_work_with_the_zaibatsus",
+        "JAP_democratic_nationalize_zaibatsus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_modernize_agriculture",
+      "name": "Modernize Agriculture",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_split_uo_zaibatsu_monopolies",
+        "JAP_democratic_work_with_the_zaibatsus",
+        "JAP_democratic_nationalize_zaibatsus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_civilian_nuclear_reactor_investments",
+      "name": "Civilian Nuclear Reactor Investments",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_modernize_agriculture",
+        "JAP_lifetime_employment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_ministry_of_commerce_and_industry",
+      "name": "Ministry Of Commerce And Industry",
+      "description": "",
+      "x": 13,
+      "y": -1,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_continue_takahashi_korekiyos_policies",
+      "name": "Continue Takahashi Korekiyos Policies",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_ministry_of_commerce_and_industry"
+      ],
+      "mutuallyExclusive": [
+        "JAP_increase_armament_spending"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_increase_armament_spending",
+      "name": "Increase Armament Spending",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_ministry_of_commerce_and_industry"
+      ],
+      "mutuallyExclusive": [
+        "JAP_continue_takahashi_korekiyos_policies"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_approach_mitsui",
+      "name": "Approach Mitsui",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_continue_takahashi_korekiyos_policies",
+        "JAP_increase_armament_spending"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_approach_mitsubishi",
+      "name": "Approach Mitsubishi",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_continue_takahashi_korekiyos_policies",
+        "JAP_increase_armament_spending"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_approach_sumitomo",
+      "name": "Approach Sumitomo",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_continue_takahashi_korekiyos_policies",
+        "JAP_increase_armament_spending"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_approach_yasuda",
+      "name": "Approach Yasuda",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_continue_takahashi_korekiyos_policies",
+        "JAP_increase_armament_spending"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_fund_the_riken_institute",
+      "name": "Fund The Riken Institute",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_approach_yasuda",
+        "JAP_approach_mitsui",
+        "JAP_approach_sumitomo",
+        "JAP_approach_mitsubishi"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_build_the_nishotaki_and_miyanaka_dams",
+      "name": "Build The Nishotaki And Miyanaka Dams",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_fund_the_riken_institute"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_establish_synthetic_fuel_joint_venture",
+      "name": "Establish Synthetic Fuel Joint Venture",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_fund_the_riken_institute"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_establish_nippon_hassoden",
+      "name": "Establish Nippon Hassoden",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "JAP_fund_the_riken_institute"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_new_industrial_city_development_policy",
+      "name": "New Industrial City Development Policy",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_establish_nippon_hassoden",
+        "JAP_establish_synthetic_fuel_joint_venture",
+        "JAP_build_the_nishotaki_and_miyanaka_dams"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_ship_management_committee",
+      "name": "Ship Management Committee",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_new_industrial_city_development_policy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_establish_housing_corporation",
+      "name": "Establish Housing Corporation",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_establish_nippon_hassoden",
+        "JAP_establish_synthetic_fuel_joint_venture",
+        "JAP_build_the_nishotaki_and_miyanaka_dams"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_danganressha",
+      "name": "Danganressha",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_establish_housing_corporation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_central_agricultural_association",
+      "name": "Central Agricultural Association",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_establish_housing_corporation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_five_great_cities",
+      "name": "The Five Great Cities",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_new_industrial_city_development_policy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_resource_security",
+      "name": "Resource Security",
+      "description": "",
+      "x": 1,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_new_industrial_city_development_policy",
+        "JAP_establish_housing_corporation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_ministry_of_colonial_affairs",
+      "name": "Ministry Of Colonial Affairs",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_ministry_of_commerce_and_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_manchuria_five_year_plan",
+      "name": "Manchuria Five Year Plan",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_ministry_of_colonial_affairs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_strenghten_manchukuo_imperial_army",
+      "name": "Strenghten Manchukuo Imperial Army",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_hokushin_ron"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_strenghten_manchukuo_imperial_airforce",
+      "name": "Strenghten Manchukuo Imperial Airforce",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_strenghten_manchukuo_imperial_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_establish_manchuria_airplane_manufacturing_company",
+      "name": "Establish Manchuria Airplane Manufacturing Company",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_manchuria_five_year_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_eastern_road_and_steel_expansion",
+      "name": "Eastern Road And Steel Expansion",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_manchuria_five_year_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_sea_promote_japanese_settlement",
+      "name": "Sea Promote Japanese Settlement",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_eastern_road_and_steel_expansion",
+        "JAP_establish_manchuria_airplane_manufacturing_company"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_construct_the_sui_ho_dam",
+      "name": "Construct The Sui Ho Dam",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_eastern_road_and_steel_expansion",
+        "JAP_establish_manchuria_airplane_manufacturing_company"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_shuilikeng_power_plant",
+      "name": "The Shuilikeng Power Plant",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_ministry_of_colonial_affairs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_improve_agricultural_output",
+      "name": "Improve Agricultural Output",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_shuilikeng_power_plant"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_develop_the_south_seas_mandate",
+      "name": "Develop The South Seas Mandate",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_ministry_of_colonial_affairs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_increase_crop_yields",
+      "name": "Increase Crop Yields",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_develop_the_south_seas_mandate"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_upgrade_the_oriental_development_company",
+      "name": "Upgrade The Oriental Development Company",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_improve_agricultural_output",
+        "JAP_increase_crop_yields"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_build_up_korean_industries",
+      "name": "Build Up Korean Industries",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_ministry_of_colonial_affairs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_increase_agricultural_export",
+      "name": "Increase Agricultural Export",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_build_up_korean_industries"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_hydroelectric_dams_in_korea",
+      "name": "Hydroelectric Dams In Korea",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_build_up_korean_industries"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_prepare_for_peninsular_warfare",
+      "name": "Prepare For Peninsular Warfare",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_build_up_korean_industries"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_establish_the_japanese_korean_army",
+      "name": "Establish The Japanese Korean Army",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_prepare_for_peninsular_warfare"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_imperial_defense_plan",
+      "name": "The Imperial Defense Plan",
+      "description": "",
+      "x": 20,
+      "y": 0,
+      "cost": 3,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_expand_kawagoe_army_arsenal",
+      "name": "Expand Kawagoe Army Arsenal",
+      "description": "",
+      "x": -9,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_imperial_defense_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_reform_the_army",
+      "name": "Reform The Army",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_expand_kawagoe_army_arsenal"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_rethink_armor_doctrine",
+      "name": "Rethink Armor Doctrine",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_reform_the_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_foreign_tank_modernization_cooperation",
+      "name": "Foreign Tank Modernization Cooperation",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_rethink_armor_doctrine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_domestic_tank_modernization_program",
+      "name": "Domestic Tank Modernization Program",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_rethink_armor_doctrine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_ultimate_tank",
+      "name": "The Ultimate Tank",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_domestic_tank_modernization_program",
+        "JAP_foreign_tank_modernization_cooperation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_rely_on_supremacy_of_the_will",
+      "name": "Rely On Supremacy Of The Will",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_expand_kawagoe_army_arsenal"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_adopt_new_assault_doctrine",
+      "name": "Adopt New Assault Doctrine",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_rely_on_supremacy_of_the_will"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_develop_lethal_infantry_equipment",
+      "name": "Develop Lethal Infantry Equipment",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_adopt_new_assault_doctrine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_develop_sophisticated_artillery_equipment",
+      "name": "Develop Sophisticated Artillery Equipment",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_adopt_new_assault_doctrine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_expand_the_irago_proving_ground",
+      "name": "Expand The Irago Proving Ground",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_develop_sophisticated_artillery_equipment",
+        "JAP_develop_lethal_infantry_equipment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_prepare_the_northern_front",
+      "name": "Prepare The Northern Front",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_reform_the_army",
+        "JAP_rely_on_supremacy_of_the_will"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_enact_the_national_conscription_law",
+      "name": "Enact The National Conscription Law",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_reform_the_army",
+        "JAP_rely_on_supremacy_of_the_will"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_instill_the_spirit_of_bushido",
+      "name": "Instill The Spirit Of Bushido",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_enact_the_national_conscription_law"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_sea_mountaineers",
+      "name": "Sea Mountaineers",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_instill_the_spirit_of_bushido"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_jungle_adaptation",
+      "name": "Jungle Adaptation",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_instill_the_spirit_of_bushido"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_army_weapons_administration_headquarters",
+      "name": "Army Weapons Administration Headquarters",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_instill_the_spirit_of_bushido"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_divert_naval_guns_to_the_army",
+      "name": "Divert Naval Guns To The Army",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_army_weapons_administration_headquarters"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_pivot_towards_defensive_measures",
+      "name": "Pivot Towards Defensive Measures",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_army_weapons_administration_headquarters",
+        "JAP_jungle_adaptation",
+        "JAP_sea_mountaineers"
+      ],
+      "mutuallyExclusive": [
+        "JAP_strenghten_the_supply_lines"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_strenghten_the_supply_lines",
+      "name": "Strenghten The Supply Lines",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_army_weapons_administration_headquarters",
+        "JAP_jungle_adaptation",
+        "JAP_sea_mountaineers"
+      ],
+      "mutuallyExclusive": [
+        "JAP_pivot_towards_defensive_measures"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_ni_go_nuclear_project",
+      "name": "Ni Go Nuclear Project",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_strenghten_the_supply_lines",
+        "JAP_pivot_towards_defensive_measures"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_establish_showa_aircraft_idnsutry",
+      "name": "Establish Showa Aircraft Idnsutry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_imperial_defense_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_the_divine_wind",
+      "name": "The Divine Wind",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_establish_showa_aircraft_idnsutry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_develop_new_fighters",
+      "name": "Develop New Fighters",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_divine_wind"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_7075_aluminium_alloy",
+      "name": "7075 Aluminium Alloy",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_develop_new_fighters"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_modern_bombers",
+      "name": "Modern Bombers",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_divine_wind"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_improve_the_type_91_aerial_torpedo",
+      "name": "Improve The Type 91 Aerial Torpedo",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_modern_bombers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_escort_efficiency",
+      "name": "Escort Efficiency",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_develop_new_fighters",
+        "JAP_modern_bombers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_sea_sturdy_aircraft",
+      "name": "Sea Sturdy Aircraft",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_develop_new_fighters",
+        "JAP_modern_bombers"
+      ],
+      "mutuallyExclusive": [
+        "JAP_sea_long_operational_range"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_sea_long_operational_range",
+      "name": "Sea Long Operational Range",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_escort_efficiency"
+      ],
+      "mutuallyExclusive": [
+        "JAP_sea_sturdy_aircraft"
+      ],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_project_z_bomber_project",
+      "name": "Project Z Bomber Project",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_sturdy_aircraft"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_adopt_new_air_doctrine",
+      "name": "Adopt New Air Doctrine",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_long_operational_range",
+        "JAP_sea_sturdy_aircraft"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_sea_unify_the_air_forces",
+      "name": "Sea Unify The Air Forces",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_divine_wind"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_improved_radio_communications",
+      "name": "Improved Radio Communications",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_unify_the_air_forces"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_combined_arms",
+      "name": "Combined Arms",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_improved_radio_communications",
+        "JAP_strenghten_the_supply_lines",
+        "JAP_pivot_towards_defensive_measures"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_sea_jet_prototypes",
+      "name": "Sea Jet Prototypes",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_unify_the_air_forces"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_mass_produce_fighters",
+      "name": "Mass Produce Fighters",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_sturdy_aircraft"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_rockets_development",
+      "name": "Rockets Development",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_unify_the_air_forces"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_expand_hiratsuka_navy_arsenal",
+      "name": "Expand Hiratsuka Navy Arsenal",
+      "description": "",
+      "x": 7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_the_imperial_defense_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_expand_navy_technical_department",
+      "name": "Expand Navy Technical Department",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_expand_hiratsuka_navy_arsenal"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_focus_on_aircraft_carriers",
+      "name": "Focus On Aircraft Carriers",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_balanced_naval_approach"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_yokosuka_naval_air_technical_arsenal",
+      "name": "Yokosuka Naval Air Technical Arsenal",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_focus_on_aircraft_carriers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_establish_the_mine_warfare_force",
+      "name": "Establish The Mine Warfare Force",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_yokosuka_naval_air_technical_arsenal",
+        "JAP_improve_the_type_91_aerial_torpedo"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_balanced_naval_approach",
+      "name": "Balanced Naval Approach",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_expand_navy_technical_department"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_sea_battleship_initiative",
+      "name": "Sea Battleship Initiative",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_balanced_naval_approach"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_sea_bigger_better_yamato",
+      "name": "Sea Bigger Better Yamato",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_sea_battleship_initiative"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_akizuki_class_destroyers",
+      "name": "Akizuki Class Destroyers",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_focus_on_aircraft_carriers",
+        "JAP_balanced_naval_approach",
+        "JAP_sea_battleship_initiative"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_naval_armaments_program",
+      "name": "Naval Armaments Program",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_akizuki_class_destroyers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_radio_guided_missiles",
+      "name": "Radio Guided Missiles",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_rockets_development"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_nationalize_suzuka_naval_arsenal",
+      "name": "Nationalize Suzuka Naval Arsenal",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_expand_hiratsuka_navy_arsenal"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_sea_heavier_naval_guns",
+      "name": "Sea Heavier Naval Guns",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_nationalize_suzuka_naval_arsenal"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_assure_superior_naval_quality",
+      "name": "Assure Superior Naval Quality",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_nationalize_suzuka_naval_arsenal"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_form_the_kido_butai",
+      "name": "Form The Kido Butai",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_assure_superior_naval_quality"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_seek_strength_in_numbers",
+      "name": "Seek Strength In Numbers",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_nationalize_suzuka_naval_arsenal"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_prepare_the_southern_front",
+      "name": "Prepare The Southern Front",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_assure_superior_naval_quality"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_nationalize_fujinagata_shipyards",
+      "name": "Nationalize Fujinagata Shipyards",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_nationalize_suzuka_naval_arsenal"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_secure_the_sea_lanes",
+      "name": "Secure The Sea Lanes",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_naval_armaments_program",
+        "JAP_assure_superior_naval_quality",
+        "JAP_seek_strength_in_numbers",
+        "JAP_nationalize_suzuka_naval_arsenal"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_fix_flawed_naval_designs",
+      "name": "Fix Flawed Naval Designs",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_naval_armaments_program",
+        "JAP_assure_superior_naval_quality",
+        "JAP_seek_strength_in_numbers",
+        "JAP_nationalize_suzuka_naval_arsenal"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_f_go_nuclear_project",
+      "name": "F Go Nuclear Project",
+      "description": "",
+      "x": 0,
+      "y": 6,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_expand_hiratsuka_navy_arsenal"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_combined_nuclear_research_efforts",
+      "name": "Combined Nuclear Research Efforts",
+      "description": "",
+      "x": -9,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_f_go_nuclear_project",
+        "JAP_ni_go_nuclear_project"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    },
+    {
+      "id": "JAP_end_the_interservice_rivalry",
+      "name": "End The Interservice Rivalry",
+      "description": "",
+      "x": -3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "JAP_f_go_nuclear_project",
+        "JAP_ni_go_nuclear_project"
+      ],
+      "mutuallyExclusive": [],
+      "source": "japan.txt",
+      "shared": false
+    }
+  ]
+}

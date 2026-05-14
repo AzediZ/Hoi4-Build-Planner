@@ -1,0 +1,1580 @@
+{
+  "mod": "FUWG",
+  "tag": "ROM",
+  "country": "Romania",
+  "treeId": "romanian_focus",
+  "sourceFile": "romania.txt",
+  "focusCount": 109,
+  "focuses": [
+    {
+      "id": "ROM_preserve_greater_romania",
+      "name": "Preserve Greater Romania",
+      "description": "",
+      "x": 7,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "ROM_balkans_dominance"
+      ],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_a_deal_with_the_devil",
+      "name": "A Deal With The Devil",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ROM_preserve_greater_romania"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_basing_rights_for_soviet_union",
+      "name": "Basing Rights For Soviet Union",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "ROM_a_deal_with_the_devil"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_join_comintern",
+      "name": "Join Comintern",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 10,
+      "prerequisites": [
+        "ROM_basing_rights_for_soviet_union"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_trade_treaty_with_germany",
+      "name": "Trade Treaty With Germany",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_preserve_greater_romania"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_invite_german_advisors",
+      "name": "Invite German Advisors",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_trade_treaty_with_germany"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_german_support_for_bessarabia",
+      "name": "Request German Support for Bessarabia",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 4,
+      "prerequisites": [
+        "ROM_invite_german_advisors"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_license_german_equipment",
+      "name": "License German Equipment",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 10,
+      "prerequisites": [
+        "ROM_invite_german_advisors"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_join_axis",
+      "name": "Join Axis",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_invite_german_advisors"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_invite_german_officers",
+      "name": "Invite German Officers",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_join_axis"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_incorporate_german_tactics",
+      "name": "Incorporate German Tactics",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_invite_german_officers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_Strike_Fast",
+      "name": "Strike Fast",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_incorporate_german_tactics"
+      ],
+      "mutuallyExclusive": [
+        "ROM_with_no_mercy",
+        "ROM_leave_no_prisioners"
+      ],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_with_no_mercy",
+      "name": "With No Mercy",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_incorporate_german_tactics"
+      ],
+      "mutuallyExclusive": [
+        "ROM_Strike_Fast",
+        "ROM_leave_no_prisioners"
+      ],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_leave_no_prisioners",
+      "name": "Leave No Prisioners",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_incorporate_german_tactics"
+      ],
+      "mutuallyExclusive": [
+        "ROM_Strike_Fast",
+        "ROM_with_no_mercy"
+      ],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_royal_connections",
+      "name": "Royal Connections",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_invite_german_officers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_german_romanian_oil_exploitation_company",
+      "name": "German Romanian Oil Exploitation Company",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_join_axis"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_traiasca_romania",
+      "name": "Trăiască România",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_preserve_greater_romania"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_the_endless_column",
+      "name": "The Endless Column",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_traiasca_romania"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_demand_transnistria",
+      "name": "Demand Transnistria",
+      "description": "",
+      "x": 1,
+      "y": 5,
+      "cost": 10,
+      "prerequisites": [
+        "ROM_join_axis"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_renew_the_romanian_polish_alliance",
+      "name": "Renew The Romanian Polish Alliance",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ROM_preserve_greater_romania"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_the_cordon_sanitaire",
+      "name": "The Cordon Sanitaire",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ROM_renew_the_romanian_polish_alliance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_demand_a_western_guarantee",
+      "name": "Demand A Western Guarantee",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "ROM_renew_the_romanian_polish_alliance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_military_modernization",
+      "name": "Military Modernization",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 10,
+      "prerequisites": [
+        "ROM_demand_a_western_guarantee"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_join_allies",
+      "name": "Join Allies",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 10,
+      "prerequisites": [
+        "ROM_demand_a_western_guarantee"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_joint_allied_staff_college",
+      "name": "Joint Allied Staff College",
+      "description": "",
+      "x": 1,
+      "y": 5,
+      "cost": 10,
+      "prerequisites": [
+        "ROM_join_allies",
+        "ROM_military_modernization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_civil_works",
+      "name": "Civil Works",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_preserve_greater_romania"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_national_defense_industry",
+      "name": "National Defense Industry",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_preserve_greater_romania"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_agrarian_reform",
+      "name": "Agrarian Reform",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_civil_works",
+        "ROM_national_defense_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_factories_1",
+      "name": "Romanian Industry",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_agrarian_reform"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_bolster_mining_industry",
+      "name": "Bolster Mining Industry",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_factories_1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_refine_resources_for_our_allies",
+      "name": "Refine Resources For Our Allies",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_bolster_mining_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_italian_steel",
+      "name": "Italian Steel",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_refine_resources_for_our_allies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_a_deal_with_the_finnish",
+      "name": "A Deal With The Finnish",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_refine_resources_for_our_allies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_german_chromium",
+      "name": "German Chromium",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_refine_resources_for_our_allies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_danubian_transport_network",
+      "name": "Danubian Transport Network",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_agrarian_reform"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_malaxa",
+      "name": "Malaxa",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_danubian_transport_network",
+        "ROM_factories_1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_invite_foreign_motor_companies",
+      "name": "Invite Foreign Motor Companies",
+      "description": "",
+      "x": 2,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_danubian_transport_network",
+        "ROM_factories_1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_hunedoara_steel_works",
+      "name": "Hunedoara Steel Works",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_invite_foreign_motor_companies",
+        "ROM_malaxa"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_invest_in_the_iar",
+      "name": "Invest In The Iar",
+      "description": "",
+      "x": 2,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_invite_foreign_motor_companies",
+        "ROM_malaxa"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_expand_ploiesti_oil_production",
+      "name": "Expand Ploiesti Oil Production",
+      "description": "",
+      "x": 1,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_invest_in_the_iar",
+        "ROM_hunedoara_steel_works"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_expand_the_university_of_bucharest",
+      "name": "Expand The University Of Bucharest",
+      "description": "",
+      "x": 1,
+      "y": 6,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_expand_ploiesti_oil_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_exploit_the_baita_mines",
+      "name": "Exploit The Baita Mines",
+      "description": "",
+      "x": 1,
+      "y": 7,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_expand_the_university_of_bucharest"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_balkans_dominance",
+      "name": "Balkans Dominance",
+      "description": "",
+      "x": 15,
+      "y": 0,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "ROM_preserve_greater_romania"
+      ],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_puppet_bulgaria",
+      "name": "Puppet Bulgaria",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ROM_balkans_dominance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_align_hungary",
+      "name": "Align Hungary",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ROM_balkans_dominance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_secure_greece",
+      "name": "Secure Greece",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ROM_puppet_bulgaria"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_divide_yugoslavia",
+      "name": "Divide Yugoslavia",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ROM_puppet_bulgaria"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_split_czechoslovakia",
+      "name": "Split Czechoslovakia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ROM_align_hungary"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_secure_the_bosporus",
+      "name": "Secure The Bosporus",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "ROM_secure_greece"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_institute_royal_dictatorship",
+      "name": "Institute Royal Dictatorship",
+      "description": "",
+      "x": 16,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_fortify_the_borders",
+      "name": "Fortify The Borders",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ROM_institute_royal_dictatorship"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_his_majestys_loyal_government",
+      "name": "His Majestys Loyal Government",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ROM_fortify_the_borders",
+        "ROM_align_hungary",
+        "ROM_revise_the_constitution"
+      ],
+      "mutuallyExclusive": [
+        "ROM_flexible_foreign_policy"
+      ],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_militarize_the_sentinels",
+      "name": "Militarize The Sentinels",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ROM_his_majestys_loyal_government"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_all_parties_must_end",
+      "name": "All Parties Must End",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "ROM_militarize_the_sentinels"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_revise_the_constitution",
+      "name": "Revise The Constitution",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_institute_royal_dictatorship"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_the_royal_foundation",
+      "name": "The Royal Foundation",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_revise_the_constitution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_crack_down_on_extremism",
+      "name": "Crack Down On Extremism",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_institute_royal_dictatorship"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_flexible_foreign_policy",
+      "name": "Flexible Foreign Policy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_revise_the_constitution"
+      ],
+      "mutuallyExclusive": [
+        "ROM_his_majestys_loyal_government"
+      ],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_appoint_soviet_friendly_government",
+      "name": "Appoint Soviet Friendly Government",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ROM_flexible_foreign_policy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_securitate",
+      "name": "Securitate",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ROM_appoint_soviet_friendly_government"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_appoint_german_friendly_government",
+      "name": "Appoint German Friendly Government",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_flexible_foreign_policy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_iron_guard",
+      "name": "Iron Guard",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_appoint_german_friendly_government"
+      ],
+      "mutuallyExclusive": [
+        "ROM_national_christian_party"
+      ],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_national_christian_party",
+      "name": "National Christian Party",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ROM_appoint_german_friendly_government"
+      ],
+      "mutuallyExclusive": [
+        "ROM_iron_guard"
+      ],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_force_abdication",
+      "name": "Force Abdication",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_iron_guard",
+        "ROM_securitate",
+        "ROM_national_christian_party"
+      ],
+      "mutuallyExclusive": [
+        "ROM_handle_the_king"
+      ],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_king_michaels_coup",
+      "name": "King Michaels Coup",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_revise_the_constitution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_appoint_allied_friendly_government",
+      "name": "Appoint Allied Friendly Government",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ROM_flexible_foreign_policy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_constitutional_guarantees",
+      "name": "Constitutional Guarantees",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "ROM_appoint_allied_friendly_government"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_handle_the_king",
+      "name": "Handle The King",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "ROM_constitutional_guarantees"
+      ],
+      "mutuallyExclusive": [
+        "ROM_force_abdication"
+      ],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_expand_the_air_force",
+      "name": "Expand The Air Force",
+      "description": "",
+      "x": 25,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_white_squadron_focus",
+      "name": "White Squadron Focus",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_expand_the_air_force"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_acquire_licenses",
+      "name": "Acquire Licenses",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_expand_the_air_force"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_air_defense",
+      "name": "Air Defense",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_acquire_licenses"
+      ],
+      "mutuallyExclusive": [
+        "ROM_ground_support"
+      ],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_ground_support",
+      "name": "Ground Support",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_acquire_licenses"
+      ],
+      "mutuallyExclusive": [
+        "ROM_air_defense"
+      ],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_medium_bombers",
+      "name": "Medium Bombers",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_ground_support"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_acquire_fighters",
+      "name": "Acquire Fighters",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_air_defense"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_local_development",
+      "name": "Local Development",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_expand_the_air_force"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_air_superiority",
+      "name": "Air Superiority",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_local_development"
+      ],
+      "mutuallyExclusive": [
+        "ROM_strategic_bomber_force"
+      ],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_cas",
+      "name": "Cas",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_air_superiority"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_iar_80",
+      "name": "Iar 80",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_air_superiority"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_strategic_bomber_force",
+      "name": "Strategic Bomber Force",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_local_development"
+      ],
+      "mutuallyExclusive": [
+        "ROM_air_superiority"
+      ],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_heavy_bombers",
+      "name": "Heavy Bombers",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_strategic_bomber_force"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_nuclear_bomb_project",
+      "name": "Nuclear Bomb Project",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_strategic_bomber_force"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_army_maneuvers",
+      "name": "Army Maneuvers",
+      "description": "",
+      "x": 36,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_form_peasant_militias",
+      "name": "Form Peasant Militias",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_army_maneuvers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_romanian_volunteer_brigades",
+      "name": "Romanian Volunteer Brigades",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_form_peasant_militias"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_army_war_college",
+      "name": "Army War College",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_army_maneuvers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_the_zb_53",
+      "name": "The Zb 53",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_army_war_college"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_vanatori_de_munte",
+      "name": "Vanatori De Munte",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_the_zb_53"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_artillery_modernization",
+      "name": "Artillery Modernization",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_the_zb_53"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_modern_at_guns",
+      "name": "Modern At Guns",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_artillery_modernization"
+      ],
+      "mutuallyExclusive": [
+        "ROM_mobile_tank_destroyers"
+      ],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_mountain_artillery",
+      "name": "Mountain Artillery",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_artillery_modernization",
+        "ROM_vanatori_de_munte"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_royal_guards_divisions",
+      "name": "Royal Guards Divisions",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_army_maneuvers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_reserve_divisions",
+      "name": "Reserve Divisions",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_royal_guards_divisions"
+      ],
+      "mutuallyExclusive": [
+        "ROM_the_armored_division"
+      ],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_the_armored_division",
+      "name": "The Armored Division",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_royal_guards_divisions"
+      ],
+      "mutuallyExclusive": [
+        "ROM_reserve_divisions"
+      ],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_acquire_modern_tanks",
+      "name": "Acquire Modern Tanks",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_the_armored_division",
+        "ROM_reserve_divisions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_mobile_tank_destroyers",
+      "name": "Mobile Tank Destroyers",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_acquire_modern_tanks"
+      ],
+      "mutuallyExclusive": [
+        "ROM_modern_at_guns"
+      ],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_the_maresal",
+      "name": "The Maresal",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_mobile_tank_destroyers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_historically_acurate",
+      "name": "Historically Acurate",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_the_maresal",
+        "ROM_mountain_artillery"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_expand_the_galati_shipyards",
+      "name": "Expand The Galati Shipyards",
+      "description": "",
+      "x": 45,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_coastal_defense_navy",
+      "name": "Coastal Defense Navy",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_expand_the_galati_shipyards"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_coastal_defense_ships",
+      "name": "Coastal Defense Ships",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_coastal_defense_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_modern_destroyers",
+      "name": "Modern Destroyers",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_coastal_defense_navy",
+        "ROM_black_sea_dominance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_torpedo_boats",
+      "name": "Torpedo Boats",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_coastal_defense_ships"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_modern_submarines",
+      "name": "Modern Submarines",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_modern_destroyers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_black_sea_dominance",
+      "name": "Black Sea Dominance",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_expand_the_galati_shipyards"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_capital_ships",
+      "name": "Capital Ships",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_black_sea_dominance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_torpedo_bombers",
+      "name": "Torpedo Bombers",
+      "description": "",
+      "x": 3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_modern_destroyers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_expand_the_marine_regiment",
+      "name": "Expand The Marine Regiment",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_capital_ships"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    },
+    {
+      "id": "ROM_borrow_turkish_access",
+      "name": "Borrow the Key to the Turkish Strait",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ROM_expand_the_galati_shipyards"
+      ],
+      "mutuallyExclusive": [],
+      "source": "romania.txt",
+      "shared": false
+    }
+  ]
+}

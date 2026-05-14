@@ -1,0 +1,4115 @@
+{
+  "mod": "FUWG",
+  "tag": "SPR",
+  "country": "Spain",
+  "treeId": "spanish_focus",
+  "sourceFile": "spain.txt",
+  "focusCount": 285,
+  "focuses": [
+    {
+      "id": "SPA_a_great_spain",
+      "name": "A Great Spain",
+      "description": "",
+      "x": 10,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "SPR_the_popular_front"
+      ],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_hand_over_the_ceda_campaign_chest",
+      "name": "Hand Over The Ceda Campaign Chest",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_a_great_spain"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_negotiate_carlist_support",
+      "name": "Negotiate Carlist Support",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 4,
+      "prerequisites": [
+        "SPA_hand_over_the_ceda_campaign_chest"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_the_army_of_africa",
+      "name": "The Army Of Africa",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_hand_over_the_ceda_campaign_chest"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_secure_the_northern_garrisons",
+      "name": "Secure The Northern Garrisons",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_con_paquito"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_sin_paquito",
+      "name": "Sin Paquito",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 4,
+      "prerequisites": [
+        "SPA_the_army_of_africa"
+      ],
+      "mutuallyExclusive": [
+        "SPA_con_paquito"
+      ],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_con_paquito",
+      "name": "Con Paquito",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 4,
+      "prerequisites": [
+        "SPA_the_army_of_africa"
+      ],
+      "mutuallyExclusive": [
+        "SPA_sin_paquito"
+      ],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_the_popular_front",
+      "name": "The Popular Front",
+      "description": "",
+      "x": 33,
+      "y": 0,
+      "cost": 1,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "SPA_a_great_spain"
+      ],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_secure_the_guardia_de_asalto",
+      "name": "Secure The Guardia De Asalto",
+      "description": "",
+      "x": 13,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_the_popular_front"
+      ],
+      "mutuallyExclusive": [
+        "SPR_secure_the_guardia_civil"
+      ],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_secure_the_guardia_civil",
+      "name": "Secure The Guardia Civil",
+      "description": "",
+      "x": 15,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_the_popular_front"
+      ],
+      "mutuallyExclusive": [
+        "SPR_secure_the_guardia_de_asalto"
+      ],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_train_the_union_youth",
+      "name": "Train The Union Youth",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_secure_the_guardia_de_asalto",
+        "SPR_secure_the_guardia_civil"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_enlarge_the_weapon_caches",
+      "name": "Enlarge The Weapon Caches",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_train_the_union_youth"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_distribute_arms_to_the_people",
+      "name": "Distribute Arms To The People",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPR_enlarge_the_weapon_caches"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_disband_the_army",
+      "name": "Disband The Army",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_distribute_arms_to_the_people"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_the_phalanx_ascendant",
+      "name": "The Phalanx Ascendant",
+      "description": "",
+      "x": -10,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_sin_paquito"
+      ],
+      "mutuallyExclusive": [
+        "SPA_unify_the_nationalist_front",
+        "SPA_supremacy_of_the_communion"
+      ],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_bolster_offensive_infrastructure",
+      "name": "Bolster Offensive Infrastructure",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_the_phalanx_ascendant"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_the_fifth_column",
+      "name": "The Fifth Column",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_bolster_offensive_infrastructure"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_emergency_munitions_corporations",
+      "name": "Emergency Munitions Corporations",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_bolster_offensive_infrastructure",
+        "SPA_secure_the_national_defense_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_the_corpo_truppe_volontarie",
+      "name": "The Corpo Truppe Volontarie",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_con_paquito"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_the_condor_legion",
+      "name": "The Condor Legion",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_con_paquito"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_equipment_shipments",
+      "name": "Equipment Shipments",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "SPA_the_corpo_truppe_volontarie",
+        "SPA_the_condor_legion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_obtain_training_staff",
+      "name": "Obtain Training Staff",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_equipment_shipments"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_doctrinal_advancements",
+      "name": "Doctrinal Advancements",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_equipment_shipments"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_secure_the_national_defense_council",
+      "name": "Secure The National Defense Council",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_the_phalanx_ascendant"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_suspend_the_constitution",
+      "name": "Suspend The Constitution",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_secure_the_national_defense_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_primo_de_rivera_prisoner_exchange",
+      "name": "Primo De Rivera Prisoner Exchange",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_secure_the_national_defense_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_eliminate_the_carlists",
+      "name": "Eliminate The Carlists",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_suspend_the_constitution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_absorb_carlist_remnants",
+      "name": "Absorb Carlist Remnants",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_eliminate_the_carlists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_establish_the_directory",
+      "name": "Establish The Directory",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_suspend_the_constitution",
+        "SPA_primo_de_rivera_prisoner_exchange"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_a_one_party_state",
+      "name": "A One Party State",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_establish_the_directory",
+        "SPA_eliminate_the_carlists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_expand_conscription",
+      "name": "Expand Conscription",
+      "description": "",
+      "x": -6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_con_paquito"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_safeguard_the_freedom_of_worship",
+      "name": "Safeguard The Freedom Of Worship",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_con_paquito"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_prepare_the_pyrenees_defenses",
+      "name": "Prepare The Pyrenees Defenses",
+      "description": "",
+      "x": 4,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_con_paquito"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_develop_all_talent",
+      "name": "Develop All Talent",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_a_one_party_state"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_regional_agrarian_commissions",
+      "name": "Regional Agrarian Commissions",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_a_one_party_state"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_the_national_syndicalist_state",
+      "name": "The National Syndicalist State",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_a_one_party_state"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_syndicalize_production",
+      "name": "Syndicalize Production",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_the_national_syndicalist_state"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_strengthen_the_supreme_reality_of_spain",
+      "name": "Strengthen The Supreme Reality Of Spain",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_the_national_syndicalist_state"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_glory_and_wealth_on_the_sea_lanes",
+      "name": "Glory And Wealth On The Sea Lanes",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_strengthen_the_supreme_reality_of_spain"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_improve_domestic_naval_facilities",
+      "name": "Improve Domestic Naval Facilities",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_glory_and_wealth_on_the_sea_lanes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_a_great_maritime_power",
+      "name": "A Great Maritime Power",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_improve_domestic_naval_facilities"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_commerce_protection",
+      "name": "Commerce Protection",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_glory_and_wealth_on_the_sea_lanes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_exemplify_the_art_and_science_of_warfare",
+      "name": "Exemplify The Art And Science Of Warfare",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_strengthen_the_supreme_reality_of_spain"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_the_will_to_empire",
+      "name": "The Will To Empire",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_strengthen_the_supreme_reality_of_spain"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_unite_iberia",
+      "name": "Unite Iberia",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_the_will_to_empire"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_absorb_the_portuguese_empire",
+      "name": "Absorb The Portuguese Empire",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_claim_the_aragonese_possessions",
+      "name": "Claim The Aragonese Possessions",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_unite_iberia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_reclaim_spanish_africa",
+      "name": "Reclaim Spanish Africa",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_the_will_to_empire"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_reassert_american_dominance",
+      "name": "Reassert American Dominance",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_the_will_to_empire"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_retake_the_americas",
+      "name": "Retake The Americas",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_reassert_american_dominance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_embrace_pan_hispanism",
+      "name": "Embrace Pan Hispanism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_retake_the_americas"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_embrace_the_spanish_destiny",
+      "name": "Embrace The Spanish Destiny",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_the_will_to_empire"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_the_national_and_popular_army_of_spain",
+      "name": "The National And Popular Army Of Spain",
+      "description": "",
+      "x": -7,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_con_paquito"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_mandatory_pre_military_training",
+      "name": "Mandatory Pre Military Training",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_the_national_and_popular_army_of_spain"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_all_shall_serve",
+      "name": "All Shall Serve",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_mandatory_pre_military_training"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_the_army_of_africa_model",
+      "name": "The Army Of Africa Model",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_the_national_and_popular_army_of_spain"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_equipment_modernization",
+      "name": "Equipment Modernization",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_the_army_of_africa_model",
+        "SPA_the_national_and_popular_army_of_spain"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_artillery_modernization",
+      "name": "Artillery Modernization",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_equipment_modernization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_expand_the_air_branch",
+      "name": "Expand The Air Branch",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_equipment_modernization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_expand_the_special_forces",
+      "name": "Expand The Special Forces",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_equipment_modernization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_motorization",
+      "name": "Motorization",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_the_army_of_africa_model"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_an_armored_corps",
+      "name": "An Armored Corps",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_motorization",
+        "SPA_join_the_axis"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_join_the_axis",
+      "name": "Join The Axis",
+      "description": "",
+      "x": -5,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_con_paquito"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_fascist_economic_aid",
+      "name": "Fascist Economic Aid",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_national_recovery"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_facilitate_pyrenees_freight_transports",
+      "name": "Facilitate Pyrenees Freight Transports",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_fascist_economic_aid"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_improve_cross_country_railways",
+      "name": "Improve Cross Country Railways",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_fascist_economic_aid",
+        "SPA_spanish_austerity"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_support_the_war_industry",
+      "name": "Support The War Industry",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_facilitate_pyrenees_freight_transports"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_italian_shipbuilding_expertise",
+      "name": "Pay back the Italians",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_support_the_war_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_the_duty_to_work",
+      "name": "The Duty To Work",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_support_the_war_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_expand_the_war_industry",
+      "name": "Expand The War Industry",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_support_the_war_industry",
+        "SPA_expand_the_axis_gold_trade"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_national_recovery",
+      "name": "National Recovery",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_con_paquito"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_autarky",
+      "name": "Autarky",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_national_recovery",
+        "SPA_secure_the_northern_garrisons"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_spanish_austerity",
+      "name": "Spanish Austerity",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_autarky"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_reduce_reliance_on_foreign_resources",
+      "name": "Reduce Reliance On Foreign Resources",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_spanish_austerity"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_expand_the_axis_gold_trade",
+      "name": "Expand The Axis Gold Trade",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_spanish_austerity",
+        "SPA_facilitate_pyrenees_freight_transports"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_ensure_agricultural_self_sufficiency",
+      "name": "Ensure Agricultural Self Sufficiency",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_expand_the_axis_gold_trade"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_unify_the_nationalist_front",
+      "name": "Unify The Nationalist Front",
+      "description": "",
+      "x": 20,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "SPA_the_phalanx_ascendant",
+        "SPA_supremacy_of_the_communion"
+      ],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_save_the_alcazar",
+      "name": "Save The Alcazar",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_unify_the_nationalist_front"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_martyrdom_for_primo_de_rivera",
+      "name": "Martyrdom For Primo De Rivera",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_save_the_alcazar"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_caudillo_of_spain",
+      "name": "Caudillo Of Spain",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_save_the_alcazar"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_extol_the_martyrs_of_the_war",
+      "name": "Extol The Martyrs Of The War",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_martyrdom_for_primo_de_rivera",
+        "SPA_caudillo_of_spain"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_consolidate_the_north",
+      "name": "Consolidate The North",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_unify_the_nationalist_front"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_foment_a_carlist_split",
+      "name": "Foment A Carlist Split",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_consolidate_the_north"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_a_methodical_approach",
+      "name": "A Methodical Approach",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_unify_the_nationalist_front"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_expand_spanish_bases",
+      "name": "Expand Spanish Bases",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_unify_the_nationalist_front"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_tackle_the_vulnerable_fronts",
+      "name": "Tackle The Vulnerable Fronts",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_a_methodical_approach"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_integrate_the_requetes",
+      "name": "Integrate The Requetes",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_tackle_the_vulnerable_fronts",
+        "SPA_foment_a_carlist_split"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_portuguese_aid",
+      "name": "Portuguese Aid",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_con_paquito"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_the_iberian_pact",
+      "name": "The Iberian Pact",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_portuguese_aid"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_the_latin_bloc",
+      "name": "The Latin Bloc",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_con_paquito"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_utilize_the_intellectuals",
+      "name": "Utilize The Intellectuals",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_the_condor_legion",
+        "SPA_the_corpo_truppe_volontarie"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_banish_the_party_leaders",
+      "name": "Banish The Party Leaders",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_extol_the_martyrs_of_the_war",
+        "SPA_foment_a_carlist_split"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_fuse_the_parties",
+      "name": "Fuse The Parties",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_con_paquito"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_join_the_allies",
+      "name": "Join The Allies",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_con_paquito"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_the_stabilization_plan",
+      "name": "The Stabilization Plan",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_national_recovery",
+        "SPA_secure_the_northern_garrisons"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_capitalist_economic_aid",
+      "name": "Capitalist Economic Aid",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_encourage_local_mining",
+        "SPA_reduce_reliance_on_foreign_resources"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_improve_living_standards",
+      "name": "Improve Living Standards",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_capitalist_economic_aid"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_domestic_industrial_developments",
+      "name": "Domestic Industrial Developments",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_capitalist_economic_aid"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_the_spanish_miracle",
+      "name": "The Spanish Miracle",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_improve_living_standards",
+        "SPA_domestic_industrial_developments"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_adopt_the_26_points",
+      "name": "Adopt The 26 Points",
+      "description": "",
+      "x": 7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_con_paquito"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_direct_the_universities",
+      "name": "Direct The Universities",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_adopt_the_26_points"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_dictator_for_life",
+      "name": "Dictator For Life",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_adopt_the_26_points"
+      ],
+      "mutuallyExclusive": [
+        "SPA_restore_the_monarchy"
+      ],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_invest_in_naval_infrastructure",
+      "name": "Invest In Naval Infrastructure",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_dictator_for_life"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_expand_the_slipways",
+      "name": "Expand The Slipways",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_invest_in_naval_infrastructure"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_the_plan_imperial",
+      "name": "The Plan Imperial",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_expand_the_slipways"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_restart_small_scale_shipbuilding",
+      "name": "Restart Small Scale Shipbuilding",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_invest_in_naval_infrastructure"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_la_division_azul",
+      "name": "La Division Azul",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_dictator_for_life",
+        "SPA_restore_the_monarchy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_garrison_leningrad",
+      "name": "Garrison Leningrad",
+      "description": "The harsh Spanish winters are optimal preparation for the battle of Leningrad.",
+      "x": -1,
+      "y": 1,
+      "cost": null,
+      "prerequisites": [
+        "SPA_la_division_azul"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_the_tangiers_enclave",
+      "name": "The Tangiers Enclave",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_la_division_azul"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_demand_french_north_africa",
+      "name": "Garrison North Africa",
+      "description": "Spain will insure peace in Axis controlled North Africa.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_the_tangiers_enclave"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_restore_the_monarchy",
+      "name": "Restore The Monarchy",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_adopt_the_26_points",
+        "SPA_settle_the_succession_question"
+      ],
+      "mutuallyExclusive": [
+        "SPA_dictator_for_life"
+      ],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_stamp_out_the_maquis",
+      "name": "Stamp Out The Maquis",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_dictator_for_life",
+        "SPA_restore_the_monarchy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_defenses_against_strategic_bombing",
+      "name": "Crusade Against Democracy",
+      "description": "The spanish spirit stands behind the Axis war effort.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_demand_french_north_africa"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_defenses_against_invasion",
+      "name": "Withstand the Tide",
+      "description": "The victories in Africa invigorates our Volunteers in their fight against Democracy!",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_retake_gibraltar",
+        "SPA_defenses_against_strategic_bombing"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_retake_gibraltar",
+      "name": "Mediterranian War Economy",
+      "description": "Axis control of the Mediterranian opens new Opportunities for Spain.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_demand_french_north_africa"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_claim_west_africa",
+      "name": "Open the Sahara Corridor",
+      "description": "Allow the Axis to invade West Africa through Spanish territory.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_retake_gibraltar"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_supremacy_of_the_communion",
+      "name": "Supremacy Of The Communion",
+      "description": "",
+      "x": 9,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_negotiate_carlist_support"
+      ],
+      "mutuallyExclusive": [
+        "SPA_the_phalanx_ascendant",
+        "SPA_unify_the_nationalist_front"
+      ],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_prepare_the_carlist_insurrection",
+      "name": "Prepare The Carlist Insurrection",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_supremacy_of_the_communion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_contact_the_union_militar_espanola",
+      "name": "Contact The Union Militar Espanola",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_prepare_the_carlist_insurrection"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_head_the_junta_nacional",
+      "name": "Head The Junta Nacional",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_supremacy_of_the_communion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_unite_the_requetes",
+      "name": "Unite The Requetes",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_head_the_junta_nacional"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_the_war_in_the_north",
+      "name": "The War In The North",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_supremacy_of_the_communion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_revive_the_spirit_of_the_carlist_wars",
+      "name": "Revive The Spirit Of The Carlist Wars",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_the_war_in_the_north"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_arms_modernization",
+      "name": "Arms Modernization",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_revive_the_spirit_of_the_carlist_wars"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_no_compromise_on_carlist_ideals",
+      "name": "No Compromise On Carlist Ideals",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_contact_the_union_militar_espanola",
+        "SPA_unite_the_requetes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_the_crusade_against_democracy",
+      "name": "The Crusade Against Democracy",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_unite_the_requetes",
+        "SPA_revive_the_spirit_of_the_carlist_wars"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_expand_the_requetes",
+      "name": "Expand The Requetes",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_the_crusade_against_democracy",
+        "SPA_no_compromise_on_carlist_ideals"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_militarize_the_masses",
+      "name": "Militarize The Masses",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_expand_the_requetes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_defenders_of_catholicism",
+      "name": "Defenders Of Catholicism",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_the_crusade_against_democracy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_battle_rites",
+      "name": "Battle Rites",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_defenders_of_catholicism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_cultivate_fanaticism",
+      "name": "Cultivate Fanaticism",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_militarize_the_masses",
+        "SPA_battle_rites"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_the_third_dimension_of_warfare",
+      "name": "The Third Dimension Of Warfare",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_the_crusade_against_democracy",
+        "SPA_arms_modernization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_a_modern_fighter_fleet",
+      "name": "A Modern Fighter Fleet",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_the_third_dimension_of_warfare"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_confirm_the_fueros",
+      "name": "Confirm The Fueros",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_no_compromise_on_carlist_ideals"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_encourage_local_industrialization",
+      "name": "Encourage Local Industrialization",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_the_stabilization_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_encourage_local_mining",
+      "name": "Encourage Local Mining",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPA_encourage_local_industrialization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_settle_the_succession_question",
+      "name": "Settle The Succession Question",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_confirm_the_fueros"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_dios_patria_rey",
+      "name": "Dios Patria Rey",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_settle_the_succession_question"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_restore_the_empire",
+      "name": "Restore The Empire",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_dios_patria_rey"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_strengthen_the_empire",
+      "name": "Strengthen The Empire",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_restore_the_empire"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_prosperity_of_the_empire",
+      "name": "Prosperity Of The Empire",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_strengthen_the_empire"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_press_the_gibraltar_claim",
+      "name": "Press The Gibraltar Claim",
+      "description": "",
+      "x": -1,
+      "y": 3,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_restore_the_empire"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_claim_the_french_throne",
+      "name": "Claim The French Throne",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_restore_the_empire"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_retake_the_spanish_netherlands",
+      "name": "Retake The Spanish Netherlands",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_claim_the_french_throne"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_restore_the_iberian_union",
+      "name": "Restore The Iberian Union",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_restore_the_empire"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_the_war_of_vengeance",
+      "name": "The War Of Vengeance",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_press_the_gibraltar_claim",
+        "SPA_restore_the_iberian_union"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_found_the_academia_vazquez_de_mella",
+      "name": "Found The Academia Vazquez De Mella",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_dios_patria_rey"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_a_fleet_worthy_of_a_king",
+      "name": "A Fleet Worthy Of A King",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_restore_the_empire"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_rebuild_the_battlefleet",
+      "name": "Rebuild The Battlefleet",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_a_fleet_worthy_of_a_king"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPA_imperial_security",
+      "name": "Imperial Security",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPA_rebuild_the_battlefleet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_regional_defense_council_of_aragon",
+      "name": "Regional Defense Council Of Aragon",
+      "description": "",
+      "x": -11,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_disband_the_army"
+      ],
+      "mutuallyExclusive": [
+        "SPR_the_anti_fascist_workers_revolution",
+        "SPR_maintain_the_second_republic"
+      ],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_draft_the_anarchists",
+      "name": "Draft The Anarchists",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_regional_defense_council_of_aragon"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_appropriate_the_means_of_production",
+      "name": "Appropriate The Means Of Production",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_regional_defense_council_of_aragon"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_autogestion",
+      "name": "Autogestion",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_appropriate_the_means_of_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_collectivization_and_workers_control",
+      "name": "Collectivization And Workers Control",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_autogestion",
+        "SPR_seize_public_transport",
+        "SPR_agrarian_collectivization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_arm_the_people",
+      "name": "Arm The People",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_regional_defense_council_of_aragon"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_the_maximum_concession",
+      "name": "The Maximum Concession",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_appropriate_the_means_of_production",
+        "SPR_arm_the_people"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_seize_public_transport",
+      "name": "Seize Public Transport",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_the_maximum_concession"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_agrarian_collectivization",
+      "name": "Agrarian Collectivization",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_the_maximum_concession"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_mujeres_libres",
+      "name": "Mujeres Libres",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_seize_public_transport",
+        "SPR_agrarian_collectivization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_literacy_programs",
+      "name": "Literacy Programs",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_collectivization_and_workers_control",
+        "SPR_mujeres_libres"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_shared_burdens",
+      "name": "Shared Burdens",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_arm_the_people",
+        "SPR_appropriate_the_means_of_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_international_brigades",
+      "name": "International Brigades",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_arm_the_people",
+        "SPR_arm_the_workers_militias"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_seize_the_gold_reserves",
+      "name": "Seize The Gold Reserves",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_the_maximum_concession",
+        "SPR_hinder_nkvd_interference"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_foreign_arms_purchases",
+      "name": "Foreign Arms Purchases",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_seize_the_gold_reserves"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_masters_of_our_own_fate",
+      "name": "Masters Of Our Own Fate",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_seize_the_gold_reserves"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_all_must_bear_the_torch",
+      "name": "All Must Bear The Torch",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_mujeres_libres",
+        "SPR_masters_of_our_own_fate",
+        "SPR_collectivization_and_workers_control"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_the_threats_abound",
+      "name": "The Threats Abound",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_all_must_bear_the_torch"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_portuguese_anarchism",
+      "name": "Portuguese Anarchism",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_the_threats_abound"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_regional_defense_council_of_iberia",
+      "name": "Regional Defense Council Of Iberia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_portuguese_anarchism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_a_new_way_of_warfare",
+      "name": "A New Way Of Warfare",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_the_threats_abound"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_communal_military_strategies",
+      "name": "Communal Military Strategies",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_a_new_way_of_warfare"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_maintaining_the_fire",
+      "name": "Maintaining The Fire",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_all_must_bear_the_torch"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_freedom_of_thought",
+      "name": "Freedom Of Thought",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_maintaining_the_fire"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_torchbearers_of_tomorrow",
+      "name": "Torchbearers Of Tomorrow",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_a_new_way_of_warfare",
+        "SPR_collective_recovery_efforts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_the_inevitable_counterblow",
+      "name": "The Inevitable Counterblow",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_torchbearers_of_tomorrow"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_improve_military_infrastructure",
+      "name": "Improve Military Infrastructure",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_the_inevitable_counterblow"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_fortify_the_pyrenees",
+      "name": "Fortify The Pyrenees",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_improve_military_infrastructure"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_fortify_la_linea_de_la_concepcion",
+      "name": "Fortify La Linea De La Concepcion",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_fortify_the_pyrenees"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_fortify_the_coastlines",
+      "name": "Fortify The Coastlines",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_fortify_the_pyrenees"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_militarize_the_industry",
+      "name": "Militarize The Industry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_the_inevitable_counterblow"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_communal_autarky",
+      "name": "Communal Autarky",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_militarize_the_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_faith_in_the_cause",
+      "name": "Faith In The Cause",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_torchbearers_of_tomorrow"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_militarize_the_people",
+      "name": "Militarize The People",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_the_inevitable_counterblow",
+        "SPR_faith_in_the_cause"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_anarchism_knows_no_borders",
+      "name": "Anarchism Knows No Borders",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_militarize_the_people"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_plant_the_seeds_of_revolution",
+      "name": "Plant The Seeds Of Revolution",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_anarchism_knows_no_borders"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_global_defense_council",
+      "name": "Global Defense Council",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_anarchism_knows_no_borders"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_the_anti_fascist_workers_revolution",
+      "name": "The Anti Fascist Workers Revolution",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_disband_the_army"
+      ],
+      "mutuallyExclusive": [
+        "SPR_regional_defense_council_of_aragon",
+        "SPR_maintain_the_second_republic"
+      ],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_strengthen_the_euzko_gudarostea",
+      "name": "Strengthen The Euzko Gudarostea",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_the_anti_fascist_workers_revolution",
+        "SPR_maintain_the_second_republic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_fortify_the_iron_ring",
+      "name": "Fortify The Iron Ring",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_strengthen_the_euzko_gudarostea"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_arm_the_workers_militias",
+      "name": "Arm The Workers Militias",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_the_anti_fascist_workers_revolution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_hinder_nkvd_interference",
+      "name": "Hinder Nkvd Interference",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_arm_the_workers_militias",
+        "SPR_demand_ministerial_positions"
+      ],
+      "mutuallyExclusive": [
+        "SPR_the_stalinist_doctrine"
+      ],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_demand_ministerial_positions",
+      "name": "Demand Ministerial Positions",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_the_anti_fascist_workers_revolution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_the_stalinist_doctrine",
+      "name": "The Stalinist Doctrine",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_demand_ministerial_positions",
+        "SPR_arm_the_workers_militias"
+      ],
+      "mutuallyExclusive": [
+        "SPR_hinder_nkvd_interference"
+      ],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_subvert_the_stalinists",
+      "name": "Subvert The Stalinists",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_hinder_nkvd_interference"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_class_war",
+      "name": "Class War",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_subvert_the_stalinists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_secularize_the_new_state",
+      "name": "Secularize The New State",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_hinder_nkvd_interference",
+        "SPR_the_stalinist_doctrine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_appropriate_church_riches",
+      "name": "Appropriate Church Riches",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_secularize_the_new_state"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_an_army_of_all_classes",
+      "name": "An Army Of All Classes",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_the_stalinist_doctrine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_relocate_the_gold_reserves",
+      "name": "Relocate The Gold Reserves",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_the_stalinist_doctrine",
+        "SPR_the_future_of_the_republic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_reaffirm_the_popular_front_strategy",
+      "name": "Reaffirm The Popular Front Strategy",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_the_stalinist_doctrine",
+        "SPR_the_future_of_the_republic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_anti_fascist_unity",
+      "name": "Anti Fascist Unity",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_reaffirm_the_popular_front_strategy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_crush_the_revolution",
+      "name": "Crush The Revolution",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_reaffirm_the_popular_front_strategy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_united_under_socialism",
+      "name": "United Under Socialism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_class_war",
+        "SPR_masters_of_our_own_fate"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_wealth_redistribution",
+      "name": "Wealth Redistribution",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_united_under_socialism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_collective_recovery_efforts",
+      "name": "Collective Recovery Efforts",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_wealth_redistribution",
+        "SPR_maintaining_the_fire"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_repair_and_expand_the_dockyards",
+      "name": "Repair And Expand The Dockyards",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_collective_recovery_efforts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_the_peoples_fleet",
+      "name": "The Peoples Fleet",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_repair_and_expand_the_dockyards"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_land_redistribution",
+      "name": "Land Redistribution",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_united_under_socialism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_expand_the_means_of_production",
+      "name": "Expand The Means Of Production",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_land_redistribution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_invite_socialist_intellectuals",
+      "name": "Invite Socialist Intellectuals",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_class_war",
+        "SPR_an_army_of_all_classes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_solidify_government_control",
+      "name": "Solidify Government Control",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_an_army_of_all_classes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_reeducate_the_bourgeoisie",
+      "name": "Reeducate The Bourgeoisie",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_invite_socialist_intellectuals",
+        "SPR_solidify_government_control"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_the_spanish_red_army",
+      "name": "The Spanish Red Army",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_reeducate_the_bourgeoisie"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_expand_soviet_aid",
+      "name": "Expand Soviet Aid",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_relocate_the_gold_reserves",
+        "SPR_crush_the_revolution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_soviet_equipment_shipments",
+      "name": "Soviet Equipment Shipments",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_expand_soviet_aid"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_soviet_military_advisors",
+      "name": "Soviet Military Advisors",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_expand_soviet_aid"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_soviet_industrial_aid",
+      "name": "Soviet Industrial Aid",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_soviet_equipment_shipments",
+        "SPR_soviet_military_advisors"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_soviet_technological_advancements",
+      "name": "Soviet Technological Advancements",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_soviet_equipment_shipments",
+        "SPR_soviet_military_advisors"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_soviet_recovery_aid",
+      "name": "Soviet Recovery Aid",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_soviet_industrial_aid",
+        "SPR_soviet_technological_advancements"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_all_must_do_their_part",
+      "name": "All Must Do Their Part",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_collective_recovery_efforts",
+        "SPR_expand_the_means_of_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_the_red_tide",
+      "name": "The Red Tide",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_all_must_do_their_part"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_arm_the_tide",
+      "name": "Arm The Tide",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_the_red_tide"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_against_fascism",
+      "name": "Against Fascism",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_the_red_tide"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_doctrinal_advancements",
+      "name": "Doctrinal Advancements",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_the_red_tide",
+        "SPR_lessons_from_the_civil_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_lessons_from_the_civil_war",
+      "name": "Lessons From The Civil War",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_all_must_do_their_part"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_nationalize_the_industry",
+      "name": "Nationalize The Industry",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_land_redistribution",
+        "SPR_reeducate_the_bourgeoisie"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_beacon_of_socialism",
+      "name": "Beacon Of Socialism",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_nationalize_the_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_increase_arms_production",
+      "name": "Increase Arms Production",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_nationalize_the_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_exploit_spains_riches",
+      "name": "Exploit Spains Riches",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_beacon_of_socialism",
+        "SPR_increase_arms_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_unify_the_london_bureau",
+      "name": "Unify The London Bureau",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_lessons_from_the_civil_war",
+        "SPR_beacon_of_socialism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_against_trotskyism_and_stalinism",
+      "name": "Against Trotskyism And Stalinism",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_unify_the_london_bureau"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_red_bulwark_in_the_west",
+      "name": "Red Bulwark In The West",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_the_spanish_red_army",
+        "SPR_soviet_industrial_aid"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_appeal_for_increased_autonomy",
+      "name": "Appeal For Increased Autonomy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_red_bulwark_in_the_west",
+        "SPR_soviet_recovery_aid"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_modernize_the_armed_forces",
+      "name": "Modernize The Armed Forces",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "SPR_increase_arms_production",
+        "SPR_appeal_for_increased_autonomy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_a_red_iberia",
+      "name": "A Red Iberia",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_unify_the_london_bureau",
+        "SPR_modernize_the_armed_forces"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_support_french_communists",
+      "name": "Support French Communists",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_modernize_the_armed_forces"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_avenge_foreign_interference",
+      "name": "Avenge Foreign Interference",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_a_red_iberia",
+        "SPR_support_french_communists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_provide_for_the_people",
+      "name": "Provide For The People",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_soviet_recovery_aid"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_collectivize_industry",
+      "name": "Collectivize Industry",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_provide_for_the_people"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_connect_the_country",
+      "name": "Connect The Country",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_provide_for_the_people"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_transplant_soviet_industry",
+      "name": "Transplant Soviet Industry",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_collectivize_industry",
+        "SPR_connect_the_country"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_the_five_year_plan",
+      "name": "The Five Year Plan",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_transplant_soviet_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_slipway_enlargement",
+      "name": "Slipway Enlargement",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_collectivize_industry",
+        "SPR_connect_the_country"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_a_red_fleet",
+      "name": "A Red Fleet",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_slipway_enlargement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_maintain_the_second_republic",
+      "name": "Maintain The Second Republic",
+      "description": "",
+      "x": 11,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_disband_the_army"
+      ],
+      "mutuallyExclusive": [
+        "SPR_regional_defense_council_of_aragon",
+        "SPR_the_anti_fascist_workers_revolution"
+      ],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_draft_the_republicans",
+      "name": "Draft The Republicans",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_maintain_the_second_republic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_new_leadership",
+      "name": "New Leadership",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_maintain_the_second_republic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_the_future_of_the_republic",
+      "name": "The Future Of The Republic",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_new_leadership"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_petition_for_french_aid",
+      "name": "Petition For French Aid",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_the_future_of_the_republic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_ensure_loyalty",
+      "name": "Ensure Loyalty",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_maintain_the_second_republic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_enlist_the_carabineros",
+      "name": "Enlist The Carabineros",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_maintain_the_second_republic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_the_popular_army",
+      "name": "The Popular Army",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_ensure_loyalty",
+        "SPR_enlist_the_carabineros"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_take_the_initiative",
+      "name": "Take The Initiative",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_the_popular_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_no_pasaran",
+      "name": "No Pasaran",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_the_popular_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_a_frontline_suited_for_intellectuals",
+      "name": "A Frontline Suited For Intellectuals",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_no_pasaran"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_strengthen_the_anti_fascist_coalition",
+      "name": "Strengthen The Anti Fascist Coalition",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_crush_the_revolution",
+        "SPR_no_pasaran"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_oppose_the_communists",
+      "name": "Oppose The Communists",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_strengthen_the_anti_fascist_coalition"
+      ],
+      "mutuallyExclusive": [
+        "SPR_end_fascism_at_all_costs"
+      ],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_fortify_the_central_government",
+      "name": "Fortify The Central Government",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_oppose_the_communists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_secure_democratic_principles",
+      "name": "Secure Democratic Principles",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_fortify_the_central_government"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_subvert_soviet_control",
+      "name": "Subvert Soviet Control",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_soviet_recovery_aid",
+        "SPR_secure_democratic_principles"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_war_of_independence",
+      "name": "War Of Independence",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_subvert_soviet_control"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_those_who_would_not_help_us",
+      "name": "Those Who Would Not Help Us",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_war_of_independence"
+      ],
+      "mutuallyExclusive": [
+        "SPR_enemies_of_our_enemy"
+      ],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_ideological_allies",
+      "name": "Ideological Allies",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_those_who_would_not_help_us"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_enemies_of_our_enemy",
+      "name": "Enemies Of Our Enemy",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_war_of_independence"
+      ],
+      "mutuallyExclusive": [
+        "SPR_those_who_would_not_help_us",
+        "SPR_join_the_global_fight_against_fascism"
+      ],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_deal_with_the_devil",
+      "name": "Deal With The Devil",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_enemies_of_our_enemy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_foreign_industrial_aid",
+      "name": "Foreign Industrial Aid",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_those_who_would_not_help_us",
+        "SPR_enemies_of_our_enemy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_stabilize_the_nation",
+      "name": "Stabilize The Nation",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_fortify_the_central_government",
+        "SPR_communists_in_the_government"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_end_fascism_at_all_costs",
+      "name": "End Fascism At All Costs",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_strengthen_the_anti_fascist_coalition"
+      ],
+      "mutuallyExclusive": [
+        "SPR_oppose_the_communists"
+      ],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_communists_in_the_government",
+      "name": "Communists In The Government",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_end_fascism_at_all_costs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_restore_higher_education",
+      "name": "Restore Higher Education",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_fortify_the_central_government",
+        "SPR_communists_in_the_government"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_engineering_advances",
+      "name": "Engineering Advances",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_stabilize_the_nation",
+        "SPR_restore_higher_education"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_rebuild_the_nation",
+      "name": "Rebuild The Nation",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_engineering_advances"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_reprofessionalize_the_military",
+      "name": "Reprofessionalize The Military",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_strengthen_the_anti_fascist_coalition"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_experiences_from_the_civil_war",
+      "name": "Experiences From The Civil War",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_reprofessionalize_the_military"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_a_new_military_academy",
+      "name": "A New Military Academy",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_experiences_from_the_civil_war",
+        "SPR_restore_higher_education"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_revive_the_republican_navy",
+      "name": "Revive The Republican Navy",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_strengthen_the_anti_fascist_coalition"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_navy_modernization",
+      "name": "Navy Modernization",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_revive_the_republican_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_expand_the_naval_academy",
+      "name": "Expand The Naval Academy",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_navy_modernization",
+        "SPR_restore_higher_education"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_prepare_for_the_next_war",
+      "name": "Prepare For The Next War",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_a_new_military_academy",
+        "SPR_expand_the_naval_academy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_wartime_industry",
+      "name": "Wartime Industry",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_prepare_for_the_next_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_fuel_for_the_war_machine",
+      "name": "Fuel For The War Machine",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_wartime_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_join_the_global_fight_against_fascism",
+      "name": "Join The Global Fight Against Fascism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_prepare_for_the_next_war"
+      ],
+      "mutuallyExclusive": [
+        "SPR_enemies_of_our_enemy"
+      ],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SPR_the_anti_fascist_crusade",
+      "name": "The Anti Fascist Crusade",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "SPR_join_the_global_fight_against_fascism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "spain.txt",
+      "shared": false
+    },
+    {
+      "id": "SAM_the_yoke_of_monroe",
+      "name": "The Yoke Of Monroe",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "shared_reference",
+      "shared": true
+    }
+  ]
+}

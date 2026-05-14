@@ -1,0 +1,899 @@
+{
+  "mod": "FUWG",
+  "tag": "LAT",
+  "country": "Latvia",
+  "treeId": "latvia_tree",
+  "sourceFile": "latvia.txt",
+  "focusCount": 58,
+  "focuses": [
+    {
+      "id": "LAT_suspend_the_constitution",
+      "name": "Suspend the Constitution of Latvia",
+      "description": "The Constitution of Latvia was signed in 1922 to codify our democratic rights into law. However, with war on the horizon, it is clear that the constitution has outlived its usefulness and must be suspended if we are to survive this crisis.",
+      "x": 34,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "BALTIC_restore_workers_republic"
+      ],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_appease_democrats",
+      "name": "Appease the Democrats",
+      "description": "Though our methods are undemocratic, our motivations are to the republic. We must make the democratic opposition realize that we have only the best for Latvia in mind and perhaps reconvening the Saeimas may make them aware of our true intentions.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_suspend_the_constitution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_renew_kviesis_term",
+      "name": "Renew Kviesis' Term",
+      "description": "Alberts Kviesis has thus far proven to be a competent Prime Minister and although he is a relic of the old democratic government, he is as subservient and loyal to Ulmanis as anyone from his own cabinet. The democrats will likely be pleased to see us renew his term.",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_appease_democrats"
+      ],
+      "mutuallyExclusive": [
+        "LAT_martial_prime_minister"
+      ],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_martial_prime_minister",
+      "name": "A Martial Prime Minister",
+      "description": "Kviesis was useful during times of peace, but now war is on the horizon and we require a military man to govern the people. Jānis Balodis would be an ideal candidate for this role.",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_appease_democrats"
+      ],
+      "mutuallyExclusive": [
+        "LAT_renew_kviesis_term"
+      ],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_establish_chambers_of_professions",
+      "name": "Establish the Chambers of Professions",
+      "description": "The Saeima would divide people along the regional axis, but we know that this is not the only way in which people are divisible. By establishing the Chamber of Professions, the people will be represented not according to their locality, but according to their profession.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_martial_prime_minister",
+        "LAT_renew_kviesis_term"
+      ],
+      "mutuallyExclusive": [],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_restore_saeima",
+      "name": "Restore the Saeima",
+      "description": "The Saeima is the house of local representatives in Latvia and although it no longer runs our government, we may reopen the Saeima in a more advisory role to the dictatorship; allowing the people the illusion of democracy.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_renew_kviesis_term"
+      ],
+      "mutuallyExclusive": [],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_what_is_socialism",
+      "name": "Latvian Socialism",
+      "description": "The Social Democrat party of Latvia is currently the most popular in the Saeima by far, and Fricis Menders’ followers are many and vocal. Perhaps by enacting some of his reforms, the Latvian workers will be granted better and more productive work environments.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_restore_saeima"
+      ],
+      "mutuallyExclusive": [],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_renew_the_constitution",
+      "name": "Renew the Constitution of Latvia",
+      "description": "Kārlis Ulmanis brought to Latvia a strong government capable of weathering the oncoming storm of fascism and communism, but now that the civilian government has been filled with members of the Farmer’s Party, there is little reason not to reopen public elections.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_what_is_socialism",
+        "LAT_what_is_capitalism"
+      ],
+      "mutuallyExclusive": [
+        "LAT_integrate_farmers_party"
+      ],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_what_is_capitalism",
+      "name": "State Capitalism",
+      "description": "With the Chambers of Professions firmly established, it is time that we took direct control of the economy. Although our economy remains capitalist in nature, it is time that the dictatorship took control of key industries.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_renew_kviesis_term",
+        "LAT_establish_chambers_of_professions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_integrate_farmers_party",
+      "name": "Integrate the Farmer's Party",
+      "description": "This democratic charade has gone on long enough. It is time that we integrated the Farmer’s Party into the Dictatorship and remove all other parties from government.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_what_is_capitalism",
+        "LAT_what_is_socialism"
+      ],
+      "mutuallyExclusive": [
+        "LAT_renew_the_constitution"
+      ],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_nationalised_industry",
+      "name": "Nationalised Industry",
+      "description": "Capitalist economics have had their time, these are times of war and we must ensure that the government has a firm control over the economy.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_martial_prime_minister",
+        "LAT_establish_chambers_of_professions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_merge_presidential_titles",
+      "name": "Merge the Presidential Titles",
+      "description": "Boladis is growing dangerously influential in the government and perhaps his time as co-ruler is done. Only Ulmanis knows the way to secure the Latvian state.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_nationalised_industry"
+      ],
+      "mutuallyExclusive": [
+        "LAT_military_dictatorship"
+      ],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_improve_military_life",
+      "name": "Improve Military Life",
+      "description": "If we want men to fight and die for Latvia, we must give them a lifestyle worth fighting and dying for. This can be achieved with better rations, and the promise of a good life once the war is won.",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_martial_prime_minister"
+      ],
+      "mutuallyExclusive": [],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_military_diarchy",
+      "name": "A Military Diarchy",
+      "description": "Balodis’ influence in the government has grown so great that many believe the dictatorship to actually be a diarchy of the military and Ulmanis. It would be wise of us to actualize this misconception and grant Boladis greater control of the government.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_improve_military_life"
+      ],
+      "mutuallyExclusive": [],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_military_dictatorship",
+      "name": "A Military Dictatorship",
+      "description": "Ulmanis is a useful and popular figurehead, this much cannot be denied, but perhaps in these times of growing conflict it would be best if he became just that; a figurehead. Governing should be left to the military alone.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_military_diarchy"
+      ],
+      "mutuallyExclusive": [
+        "LAT_merge_presidential_titles"
+      ],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_beyond_the_baltic",
+      "name": "[Root.Get_Beyond_Baltic_Focus_Loc]",
+      "description": "[Root.Get_Beyond_Baltic_Focus_desc_Loc]",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_military_dictatorship",
+        "LAT_renew_the_constitution",
+        "LAT_integrate_farmers_party",
+        "LAT_merge_presidential_titles"
+      ],
+      "mutuallyExclusive": [
+        "LAT_formalize_baltic_entente"
+      ],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_join_the_allies",
+      "name": "[Root.Get_Join_Allies_Focus_Loc]",
+      "description": "[Root.Get_Join_Allies_Focus_desc_Loc]",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_beyond_the_baltic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_formalize_baltic_entente",
+      "name": "[Root.Get_Baltic_Entente_Focus_Loc]",
+      "description": "[Root.Get_Baltic_Entente_Focus_desc_Loc]",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_military_dictatorship",
+        "LAT_renew_the_constitution",
+        "LAT_integrate_farmers_party",
+        "LAT_merge_presidential_titles"
+      ],
+      "mutuallyExclusive": [
+        "LAT_beyond_the_baltic"
+      ],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_look_north",
+      "name": "[Root.Get_Look_North_Focus_Loc]",
+      "description": "[Root.Get_Look_North_Focus_desc_Loc]",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_formalize_baltic_entente"
+      ],
+      "mutuallyExclusive": [],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_threat_on_our_border",
+      "name": "[Root.Get_Threat_Border_Focus_Loc]",
+      "description": "[Root.Get_Threat_Border_Focus_desc_Loc]",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_military_dictatorship",
+        "LAT_renew_the_constitution",
+        "LAT_integrate_farmers_party",
+        "LAT_merge_presidential_titles",
+        "LAT_supply_forest_brothers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_empower_paramilitarists",
+      "name": "Empower the Paramilitarists",
+      "description": "The military of Latvia is useful and of course greater than any fringe paramilitary group, but we cannot continue to ignore these individuals who would risk their lives for Latvia with no promise of reward or recognition.",
+      "x": 6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_suspend_the_constitution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_the_sun_shines_equally",
+      "name": "The Sun Shines Equally",
+      "description": "Latvia's sun shines equally over everyone, this is the principal of the dictatorship. For years, Latvia’s social classes have been divided on cultural and ethnic grounds but this cannot be allowed to continue; we must strive for equal opportunities for all people, and we cannot support paramilitaries who oppose our ideals.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_empower_paramilitarists"
+      ],
+      "mutuallyExclusive": [
+        "LAT_latvia_for_latvians"
+      ],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_banish_clemens",
+      "name": "Banish Celmiņš",
+      "description": "Gustavs Celmiņš is a dangerous fascist who threatens the stability of the dictatorship and the safety of Latvian minorities across our great nation. He must be expelled from the country before his Pērkonkrusts can do any more damage to our nation.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_the_sun_shines_equally"
+      ],
+      "mutuallyExclusive": [],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_aizsargi",
+      "name": "Fund the Aizsargi",
+      "description": "Created by the provisional government in 1919, the Aizsargi is the government’s official paramilitary organization and their support of Ulmanis’ coup must be amply rewarded with support.",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_banish_clemens"
+      ],
+      "mutuallyExclusive": [],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_womens_aizsargi",
+      "name": "Expand the Women's Aizsargi",
+      "description": "Lesser nations would forbid women from military service, but in Latvia, any who are willing and able to hold a rifle are welcome in our service.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_aizsargi"
+      ],
+      "mutuallyExclusive": [],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_latvia_for_latvians",
+      "name": "Latvia for Latvians",
+      "description": "Our nation does not exist to appease Germans or Russians, our nation exists for Latvians and Latvians alone. Though some would consider the Pērkonkrusts to be ultranationalists, we know we must work with them if we are to secure Latvia’s survival.",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_empower_paramilitarists"
+      ],
+      "mutuallyExclusive": [
+        "LAT_the_sun_shines_equally"
+      ],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_lift_ban_on_perkonkrusts",
+      "name": "Lift the Ban on Pērkonkrusts",
+      "description": "Officially, the Pērkonkrusts group is outlawed, but their numbers still grow every day. By lifting the ban on the group, we will show the dictatorship to be amiable to their ideals.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_latvia_for_latvians"
+      ],
+      "mutuallyExclusive": [],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_fanatic_recruitment",
+      "name": "Recruit Fanatics",
+      "description": "In the past, we would be hesitant to allow radicals into our armed forces as their motives belong more to their ideology than to Latvia, but Celmiņš and his followers surely wish to preserve Latvia and her independence as much as anyone.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_latvia_for_latvians"
+      ],
+      "mutuallyExclusive": [],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_military_industrial_complex",
+      "name": "Latvian Military Complex",
+      "description": "To arm the Pērkonkrusts with all they need, Latvia must become more of an arms factory than a state.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_lift_ban_on_perkonkrusts",
+        "LAT_fanatic_recruitment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_the_old_ways",
+      "name": "The Old Ways",
+      "description": "The Pērkonkrusts do not pledge themselves to Christ and his teachings, but instead swear oaths to other gods, far older. Conservatives would call Celmiņš’ fascination with the ancient gods macabre and unnatural, but the Pērkonkrusts fight for a truer Latvia; free from the influences of foreign Gods.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_lift_ban_on_perkonkrusts",
+        "LAT_fanatic_recruitment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_anti_german_propaganda",
+      "name": "Anti-German Propaganda",
+      "description": "We must make it clear that although our nation entertains the ideals of fascism, we are not one of [GER.GetLeader]’s playthings and we have no intention to collaborate with the very men who oppressed our people for centuries.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_the_old_ways",
+        "LAT_military_industrial_complex"
+      ],
+      "mutuallyExclusive": [
+        "LAT_alignment_with_germany",
+        "LAT_the_thunder_strikes_alone"
+      ],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_alignment_with_germany",
+      "name": "Seek Alignment with Germany",
+      "description": "The Germans share our disdain for all things leftist and weak. Though they have made misguided attempts to subjugate Latvia in the past, we are certain they would not do such a thing again if our governments are aligned.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_the_old_ways",
+        "LAT_military_industrial_complex"
+      ],
+      "mutuallyExclusive": [
+        "LAT_anti_german_propaganda",
+        "LAT_the_thunder_strikes_alone"
+      ],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_the_thunder_strikes_alone",
+      "name": "The Thunder Roars Alone",
+      "description": "We have no need of assistance from foreigners. Latvia is more than capable of defending her independence, but only under the guidance of the Pērkonkrusts.",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_military_industrial_complex",
+        "LAT_the_old_ways"
+      ],
+      "mutuallyExclusive": [
+        "LAT_anti_german_propaganda",
+        "LAT_alignment_with_germany"
+      ],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_supply_forest_brothers",
+      "name": "[Root.Get_Forest_Focus_Loc]",
+      "description": "[Root.Get_Forest_Focus_desc_Loc]",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_anti_german_propaganda",
+        "LAT_aizsargi"
+      ],
+      "mutuallyExclusive": [],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_multicultural_latvia",
+      "name": "A Multicultural Latvia",
+      "description": "Our nation is made up of countless groups and individuals; Latvians, Baltic Germans, Jews, and countless others. We must give all of these groups a home worth fighting for and ensure the preservation of our diverse cultural landscape.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_supply_forest_brothers",
+        "LAT_womens_aizsargi"
+      ],
+      "mutuallyExclusive": [],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_free_the_ugonskrusts",
+      "name": "Free the Ugunskrusts",
+      "description": "Before we were the Pērkonkrusts, we were the Ugunskrusts, oppressed and subjugated by the previous Latvian regime. Now that we are free, we may free the countless political prisoners who merely wished for a stronger Latvian state.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_alignment_with_germany",
+        "LAT_the_thunder_strikes_alone"
+      ],
+      "mutuallyExclusive": [],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_lightning_strike",
+      "name": "The Lightning Strikes",
+      "description": "Our neighbours are weak and easily exploited. It would be prudent of us to bring Lithuania and Estonia into Latvian custody, for their own protection of course.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_free_the_ugonskrusts"
+      ],
+      "mutuallyExclusive": [
+        "LAT_support_baltic_fascists"
+      ],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_support_baltic_fascists",
+      "name": "Support Baltic Fascists",
+      "description": "The Baltics are brothers, and brothers must remain close. We are all three targets of foreign aggression and we cannot afford to have weak-willed governments ruling the Baltic people. By supporting far-right movements in Lithuania, Estonia and Poland, we stand to create a Baltic block united and ready to fight the world.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_free_the_ugonskrusts"
+      ],
+      "mutuallyExclusive": [
+        "LAT_lightning_strike"
+      ],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_consecrate_the_brotherhood",
+      "name": "Consecrate the Brotherhood",
+      "description": "Though unlike in many ways, the Baltics are brothers nonetheless. Our cultures are distinct, but we have shared the same enemies and the same problems for centuries. If we are to prevent subjugation, we must band the Brotherhood together into a united coalition.",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_support_baltic_fascists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_dievs_keepers",
+      "name": "Diev's Keepers",
+      "description": "Good Latvian pagans are beginning to grow more and more militant around our cause, seeing Celmiņš as something of a religious leader. The more conservative Catholics in our administration fear this fascination with Baltic paganism is beginning to transform into a cult, with Celmiņš as its charismatic leader, but we do stand to benefit from handing a rifle to these enthusiastic young men.",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_alignment_with_germany",
+        "LAT_the_thunder_strikes_alone"
+      ],
+      "mutuallyExclusive": [],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_state_paganism",
+      "name": "State Paganism",
+      "description": "The influence of the “Dievturība” in the army has almost totally eclipsed any other religious beliefs. Around Celmiņš are fanatics who claim they are ready to fight and die for the Old Gods, although in reality it is Celmiņš who is the subject of their fanaticism. By establishing Dievturība as the official state religion, we may begin to spread the ideology of the Pērkonkrusts in churches and temples throughout the nation.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_dievs_keepers",
+        "LAT_the_thunder_strikes_alone"
+      ],
+      "mutuallyExclusive": [],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_wrath_of_the_old_gods",
+      "name": "The Wrath of the Old Gods",
+      "description": "The Baltic is not the only place to have been tainted by foreign religion. Most of the world follows the teachings of Christ, and this must change. We must declare a crusade of our own; a crusade against Christendom!",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_state_paganism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_ostland",
+      "name": "Ostland",
+      "description": "The Germans have a design for a single united state of the Baltics and some regions of Eastern Poland. Although their vision of Ostland places Baltic Germans at the top of the hierarchy, there is no reason why we shouldn’t capitalize on this plan and create an Ostland of Latvian design.",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_lightning_strike",
+        "LAT_support_baltic_fascists"
+      ],
+      "mutuallyExclusive": [
+        "LAT_united_baltic_empire"
+      ],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_united_baltic_empire",
+      "name": "A United Baltic Empire",
+      "description": "Though the idea of a single united Baltic state is something of an outlandish concept, it cannot be denied that our brotherhood extends beyond mere borders. With Lithuania and Estonia under our control, we need only integrate their administration with ours and our ambition for Baltic hegemony will become a reality.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_lightning_strike",
+        "LAT_support_baltic_fascists"
+      ],
+      "mutuallyExclusive": [
+        "LAT_ostland"
+      ],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_reorganize_forest_brothers",
+      "name": "Reorganize the Forest Brothers",
+      "description": "The Forest Brothers are defenders of the Latvian identity and our right to self-determination, but what plagues them is their infatuation with also defending the independence of Lithuanians and Estonians. This cannot continue, the Forest Brothers of Latvia must pledge themselves to defend Latvia, Celmiņš, and the Pērkonkrusts Party!",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_the_thunder_strikes_alone",
+        "LAT_alignment_with_germany"
+      ],
+      "mutuallyExclusive": [],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_avenge_the_ancestors",
+      "name": "Avenge the Ancestors",
+      "description": "Latvia has not know the light of independence since the times of the Baltic tribes, and all that is due to endless subjugation by Germans, Swedes, and Russians. We cannot risk another millennia of brutality and suppression, we must bring all of those foreign imperialists to kneel before Latvia!",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_united_baltic_empire",
+        "LAT_state_paganism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_ready_the_resistance",
+      "name": "[Root.Get_Ready_Resistance_Focus_Loc]",
+      "description": "[Root.Get_Ready_Resistance_Focus_desc_Loc]",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_threat_on_our_border"
+      ],
+      "mutuallyExclusive": [
+        "LAT_cave_to_enemy_pressure"
+      ],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_prepare_underground_resistance",
+      "name": "[Root.Get_Underground_Resistance_Focus_Loc]",
+      "description": "[Root.Get_Underground_Resistance_Focus_desc_Loc]",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_ready_the_resistance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_prepare_covert_resistance",
+      "name": "[Root.Get_Covert_Resistance_Focus_Loc]",
+      "description": "[Root.Get_Covert_Resistance_Focus_desc_Loc]",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_ready_the_resistance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_cave_to_enemy_pressure",
+      "name": "[Root.Get_Enemy_Pressure_Focus_Loc]",
+      "description": "[Root.Get_Enemy_Pressure_Focus_desc_Loc]",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_threat_on_our_border"
+      ],
+      "mutuallyExclusive": [
+        "LAT_ready_the_resistance"
+      ],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_baltic_economic_union",
+      "name": "The Baltic Economic Union",
+      "description": "Now that liberal democracy has been returned to our nation and we are making close diplomatic ties to our neighbors, it makes sense to enter an economic union with our fellow Baltic States. Though our economies are small, together they may grow strong!",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_formalize_baltic_entente",
+        "LAT_renew_the_constitution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_baltic_defence_army",
+      "name": "Baltic Defense Army",
+      "description": "Our armed forces work together but are essentially separate entities. With ties between our nations growing stronger, we may be able to establish a United Baltic Armed Forces, a distinct entity which simultaneously is controlled by none of the Baltic States but is an ally to all of them.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_baltic_economic_union"
+      ],
+      "mutuallyExclusive": [],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_pan_baltic_bank",
+      "name": "The Pan-Baltic Bank",
+      "description": "With the economic union now in place, there is a possibility for us to establish a pan-Baltic bank and a common currency.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_baltic_economic_union"
+      ],
+      "mutuallyExclusive": [],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_propose_baltic_union",
+      "name": "Propose a Baltic Union",
+      "description": "With all of these different entities now interlocking between our nations, it seems that the establishment of an official Baltic Union is inevitable. The union will grant all member nations votes and veto rights within the union, and bring our nations ever closer together.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_pan_baltic_bank",
+        "LAT_baltic_defence_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_baltic_stronger_together",
+      "name": "United but Separate",
+      "description": "There has long been a sense of brotherhood and camaraderie between the Baltic States, but we’ve always been separated by borders and politics. We are bound together diplomatically by our willingness to preserve our independence, and so we must commit to fighting for our friends and expand the united Baltic armed forces!",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_propose_baltic_union"
+      ],
+      "mutuallyExclusive": [
+        "LAT_baltic_unification"
+      ],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "LAT_baltic_unification",
+      "name": "Baltic Unification",
+      "description": "There has long been a sense of brotherhood and camaraderie between the Baltic States, but we’ve always been separated by borders and politics. Though our independent identities are strong, our willingness to fight to preserve our existence binds us together. Perhaps it is time that the Baltic Union evolved into a nation in itself.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "LAT_propose_baltic_union"
+      ],
+      "mutuallyExclusive": [
+        "LAT_baltic_stronger_together"
+      ],
+      "source": "latvia.txt",
+      "shared": false
+    },
+    {
+      "id": "BALTIC_rejoin_the_railways",
+      "name": "Rejoin the Railways",
+      "description": "The Russians and the Germans who occupied us have seen us as nothing more than a rural backwater, but no more. [ROOT.GetNonIdeologyName] shall be industrialized to its maximum potential starting with an upgrade of our railways and infrastructure.",
+      "x": 10,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "baltic_shared.txt",
+      "shared": true
+    },
+    {
+      "id": "BALTIC_restore_workers_republic",
+      "name": "Restore the Worker’s Republic",
+      "description": "During our struggle for independence, the Soviets aided the creation of a [Root.GetAdjective] Worker’s Republic. Although the republic failed, its leaders remain alive in both [Root.GetNameDef] and [SOV.GetNameDef], hence hope for the worker’s republic remains!",
+      "x": 25,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "LIT_secure_a_loyal_cabinet",
+        "LAT_suspend_the_constitution",
+        "EST_era_of_silence",
+        "EST_rally_the_nation"
+      ],
+      "source": "baltic_shared.txt",
+      "shared": true
+    }
+  ]
+}

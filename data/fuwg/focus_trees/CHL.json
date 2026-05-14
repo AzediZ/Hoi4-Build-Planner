@@ -1,0 +1,3045 @@
+{
+  "mod": "FUWG",
+  "tag": "CHL",
+  "country": "Chile",
+  "treeId": "chilean_focus_tree",
+  "sourceFile": "chile.txt",
+  "focusCount": 209,
+  "focuses": [
+    {
+      "id": "CHL_look_to_tradition",
+      "name": "Look To Tradition",
+      "description": "",
+      "x": 10,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "CHL_endorse_the_constitution",
+        "CHL_denounce_the_anarchy"
+      ],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_endorse_the_constitution",
+      "name": "Endorse The Constitution",
+      "description": "",
+      "x": 0,
+      "y": 0,
+      "cost": 2,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "CHL_look_to_tradition",
+        "CHL_denounce_the_anarchy"
+      ],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_denounce_the_anarchy",
+      "name": "Denounce The Anarchy",
+      "description": "",
+      "x": 38,
+      "y": 0,
+      "cost": 2,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "CHL_look_to_tradition",
+        "CHL_endorse_the_constitution"
+      ],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_cooperation_with_the_falange",
+      "name": "Cooperation With The Falange",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHL_endorse_the_constitution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_policies_of_arturo_alessandri",
+      "name": "Policies Of Arturo Alessandri",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHL_endorse_the_constitution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_inflation_control_by_the_central_bank",
+      "name": "Inflation Control By The Central Bank",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 2,
+      "prerequisites": [
+        "CHL_policies_of_arturo_alessandri"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_1938_chilean_presidential_election",
+      "name": "1938 Chilean Presidential Election",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHL_inflation_control_by_the_central_bank"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_empower_the_preparation_department",
+      "name": "Empower The Preparation Department",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHL_denounce_the_anarchy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_sway_ariosto_hererra",
+      "name": "Sway Ariosto Hererra",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHL_empower_the_preparation_department"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_inflitrate_the_carabinieros",
+      "name": "Inflitrate The Carabinieros",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHL_empower_the_preparation_department"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_unify_the_fascist_movements",
+      "name": "Unify The Fascist Movements",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHL_empower_the_preparation_department"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_proliferate_national_populism",
+      "name": "Proliferate National Populism",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHL_unify_the_fascist_movements"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_more_funds_or_the_propaganda_department",
+      "name": "More Funds Or The Propaganda Department",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHL_unify_the_fascist_movements"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_request_foreign_support",
+      "name": "Request Foreign Support",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHL_proliferate_national_populism",
+        "CHL_more_funds_or_the_propaganda_department"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_the_popular_freedom_alliance",
+      "name": "The Popular Freedom Alliance",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHL_proliferate_national_populism",
+        "CHL_more_funds_or_the_propaganda_department"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_rally_the_people",
+      "name": "Rally The People",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHL_the_popular_freedom_alliance",
+        "CHL_request_foreign_support"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_commence_the_counter_revolution",
+      "name": "Commence The Counter Revolution",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_rally_the_people"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_ibanezs_coup",
+      "name": "Ibanezs Coup",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_look_to_tradition"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_address_the_mapuche_conflict",
+      "name": "Address The Mapuche Conflict",
+      "description": "",
+      "x": 9,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_ibanezs_coup"
+      ],
+      "mutuallyExclusive": [
+        "CHL_rule_by_decree"
+      ],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_rule_by_decree",
+      "name": "Rule By Decree",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_ibanezs_coup"
+      ],
+      "mutuallyExclusive": [
+        "CHL_address_the_mapuche_conflict"
+      ],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_strengthen_the_carabinieros",
+      "name": "Strengthen The Carabinieros",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_rule_by_decree"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_seek_foreign_investments",
+      "name": "Seek Foreign Investments",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_rule_by_decree"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_increase_spending_on_public_works",
+      "name": "Increase Spending On Public Works",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_rule_by_decree"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_alianza_popular_libertadora_as_a_vanguard",
+      "name": "Alianza Popular Libertadora As A Vanguard",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_rule_by_decree"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_utilize_national_populism",
+      "name": "Utilize National Populism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_increase_spending_on_public_works"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_outlaw_socialism",
+      "name": "Outlaw Socialism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_seek_foreign_investments"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_sell_arica_to_peru",
+      "name": "Sell Arica To Peru",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_rule_by_decree"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_crown_antoine_as_sovereign_king",
+      "name": "Crown Antoine As Sovereign King",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_sell_arica_to_peru",
+        "CHL_utilize_national_populism",
+        "CHL_outlaw_socialism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_undermine_the_carabineros_de_chile",
+      "name": "Undermine The Carabineros De Chile",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_address_the_mapuche_conflict"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_strike_a_deal_with_the_mapuche",
+      "name": "Strike A Deal With The Mapuche",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_crown_antoine_as_sovereign_king"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_request_assistance_in_the_war",
+      "name": "Request Assistance In The War",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_crown_antoine_as_sovereign_king"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_mobilize_the_veteran_legionaries",
+      "name": "Mobilize The Veteran Legionaries",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_crown_antoine_as_sovereign_king"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_establish_a_royal_guard",
+      "name": "Establish A Royal Guard",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_crown_antoine_as_sovereign_king"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_attract_additional_french_investments",
+      "name": "Attract Additional French Investments",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_crown_antoine_as_sovereign_king"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_invite_french_aristocracy",
+      "name": "Invite French Aristocracy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_attract_additional_french_investments"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_ibanez_as_prime_minister",
+      "name": "Ibanez As Prime Minister",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_strike_a_deal_with_the_mapuche"
+      ],
+      "mutuallyExclusive": [
+        "CHL_an_absolute_monarchy"
+      ],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_an_absolute_monarchy",
+      "name": "An Absolute Monarchy",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_strike_a_deal_with_the_mapuche"
+      ],
+      "mutuallyExclusive": [
+        "CHL_ibanez_as_prime_minister"
+      ],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_approach_the_moderates",
+      "name": "Approach The Moderates",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_ibanez_as_prime_minister"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_introduce_the_franc",
+      "name": "Introduce The Franc",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_ibanez_as_prime_minister",
+        "CHL_an_absolute_monarchy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_strengthen_control",
+      "name": "Strengthen Control",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_ibanez_as_prime_minister",
+        "CHL_an_absolute_monarchy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_invite_carlist_refugees",
+      "name": "Invite Carlist Refugees",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_ibanez_as_prime_minister",
+        "CHL_an_absolute_monarchy",
+        "CHL_invite_french_aristocracy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_expand_the_officer_corps",
+      "name": "Expand The Officer Corps",
+      "description": "",
+      "x": 3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_ibanez_as_prime_minister",
+        "CHL_an_absolute_monarchy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_the_scouts_monarchist_youth_organization",
+      "name": "The Scouts Monarchist Youth Organization",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_strengthen_control"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_state_catholicism",
+      "name": "State Catholicism",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_strengthen_control"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_invite_french_academia",
+      "name": "Invite French Academia",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_ibanez_as_prime_minister",
+        "CHL_an_absolute_monarchy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_a_new_araucanian_noble_class",
+      "name": "A New Araucanian Noble Class",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_invite_french_aristocracy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_establish_the_royal_mountaineers",
+      "name": "Establish The Royal Mountaineers",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_expand_the_officer_corps",
+        "CHL_a_new_araucanian_noble_class",
+        "CHL_state_catholicism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_an_imperial_capital",
+      "name": "An Imperial Capital",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_establish_the_royal_mountaineers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_la_corporacion_araucania",
+      "name": "La Corporacion Araucania",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_address_the_mapuche_conflict"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_la_federacion_araucania",
+      "name": "La Federacion Araucania",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_address_the_mapuche_conflict"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_sociedad_caupolican_defensora_de_la_araucania",
+      "name": "Sociedad Caupolican Defensora De La Araucania",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_address_the_mapuche_conflict"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_union_araucana",
+      "name": "Union Araucana",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_sociedad_caupolican_defensora_de_la_araucania",
+        "CHL_la_corporacion_araucania"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_la_moderna_araucania",
+      "name": "La Moderna Araucania",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_sociedad_caupolican_defensora_de_la_araucania",
+        "CHL_la_federacion_araucania"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_electing_a_toqui",
+      "name": "Electing A Toqui",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_la_moderna_araucania",
+        "CHL_union_araucana"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_convene_the_araucanian_congress",
+      "name": "Convene The Araucanian Congress",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_la_moderna_araucania",
+        "CHL_union_araucana"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_avenge_the_pacification_of_araucania",
+      "name": "Avenge The Pacification Of Araucania",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_electing_a_toqui",
+        "CHL_convene_the_araucanian_congress"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_revise_the_social_classes",
+      "name": "Revise The Social Classes",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_avenge_the_pacification_of_araucania"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_adopt_mapundungun",
+      "name": "Adopt Mapundungun",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_avenge_the_pacification_of_araucania"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_embrace_indigenous_corporatism",
+      "name": "Embrace Indigenous Corporatism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_revise_the_social_classes",
+        "CHL_adopt_mapundungun"
+      ],
+      "mutuallyExclusive": [
+        "CHL_expand_the_agricultural_field"
+      ],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_expand_the_agricultural_field",
+      "name": "Expand The Agricultural Field",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_revise_the_social_classes",
+        "CHL_adopt_mapundungun"
+      ],
+      "mutuallyExclusive": [
+        "CHL_embrace_indigenous_corporatism"
+      ],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_focus_on_cattle_and_wool",
+      "name": "Focus On Cattle And Wool",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_expand_the_agricultural_field"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_enlarge_the_textile_industries",
+      "name": "Enlarge The Textile Industries",
+      "description": "",
+      "x": 3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_embrace_indigenous_corporatism",
+        "CHL_invite_french_aristocracy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_silverworking",
+      "name": "Silverworking",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_embrace_indigenous_corporatism",
+        "CHL_expand_the_agricultural_field"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_incorporate_machi_into_the_army",
+      "name": "Incorporate Machi Into The Army",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_silverworking"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_the_patagonian_giants",
+      "name": "The Patagonian Giants",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_incorporate_machi_into_the_army",
+        "CHL_a_new_araucanian_noble_class"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_taking_back_patagonia",
+      "name": "Taking Back Patagonia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_the_patagonian_giants"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_satellite_kingdoms",
+      "name": "Satellite Kingdoms",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_an_imperial_capital",
+        "CHL_taking_back_patagonia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_secure_the_brazilian_border",
+      "name": "Secure The Brazilian Border",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_an_imperial_capital",
+        "CHL_taking_back_patagonia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_a_new_empire_of_brazil",
+      "name": "A New Empire Of Brazil",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_satellite_kingdoms",
+        "CHL_secure_the_brazilian_border"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_ruler_of_the_inca",
+      "name": "Ruler Of The Inca",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_a_new_empire_of_brazil"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_a_french_alliance",
+      "name": "A French Alliance",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_secure_the_brazilian_border"
+      ],
+      "mutuallyExclusive": [
+        "CHL_return_to_the_continent"
+      ],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_return_to_the_continent",
+      "name": "Return To The Continent",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_secure_the_brazilian_border"
+      ],
+      "mutuallyExclusive": [
+        "CHL_a_french_alliance"
+      ],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_joint_invasion_of_mexico",
+      "name": "Joint Invasion Of Mexico",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_a_french_alliance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_claim_the_mexican_throne",
+      "name": "Claim The Mexican Throne",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_return_to_the_continent"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_the_straight_line",
+      "name": "The Straight Line",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_joint_invasion_of_mexico",
+        "CHL_claim_the_mexican_throne"
+      ],
+      "mutuallyExclusive": [
+        "CHL_je_suis_le_deluge"
+      ],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_je_suis_le_deluge",
+      "name": "Je Suis Le Deluge",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_joint_invasion_of_mexico",
+        "CHL_claim_the_mexican_throne"
+      ],
+      "mutuallyExclusive": [
+        "CHL_the_straight_line"
+      ],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_a_grand_armada",
+      "name": "A Grand Armada",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_the_straight_line"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_reclaiming_quebec",
+      "name": "Reclaiming Quebec",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_je_suis_le_deluge"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_honor_the_legacy_of_caupolican",
+      "name": "Honor The Legacy Of Caupolican",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_silverworking"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_union_of_american_indigenous_peoples",
+      "name": "Union Of American Indigenous Peoples",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_honor_the_legacy_of_caupolican"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_crusade_against_imperialism",
+      "name": "Crusade Against Imperialism",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_union_of_american_indigenous_peoples",
+        "CHL_taking_back_patagonia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_unified_by_will",
+      "name": "Unified By Will",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_crusade_against_imperialism"
+      ],
+      "mutuallyExclusive": [
+        "CHL_unified_in_spirit"
+      ],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_unified_in_spirit",
+      "name": "Unified In Spirit",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_crusade_against_imperialism"
+      ],
+      "mutuallyExclusive": [
+        "CHL_unified_by_will"
+      ],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_suppress_the_nacistas",
+      "name": "Suppress The Nacistas",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHL_endorse_the_constitution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_reestablish_the_republican_guard",
+      "name": "Reestablish The Republican Guard",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHL_policies_of_arturo_alessandri"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_volunteers_to_the_republicans",
+      "name": "Volunteers To The Republicans",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHL_policies_of_arturo_alessandri"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_prop_up_gustavo_ross",
+      "name": "Prop Up Gustavo Ross",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHL_policies_of_arturo_alessandri"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_construct_the_estadio_nacional",
+      "name": "Construct The Estadio Nacional",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CHL_policies_of_arturo_alessandri"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_establish_corfo",
+      "name": "Establish Corfo",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_1938_chilean_presidential_election"
+      ],
+      "mutuallyExclusive": [
+        "CHL_work_towards_laissex_faire"
+      ],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_work_towards_laissex_faire",
+      "name": "Work Towards Laissex Faire",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_1938_chilean_presidential_election"
+      ],
+      "mutuallyExclusive": [
+        "CHL_establish_corfo"
+      ],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_low_cost_housing",
+      "name": "Low Cost Housing",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_establish_corfo",
+        "CHL_work_towards_laissex_faire"
+      ],
+      "mutuallyExclusive": [
+        "CHL_privatize_national_industries"
+      ],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_align_the_police",
+      "name": "Align The Police",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_commence_the_counter_revolution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_privatize_national_industries",
+      "name": "Privatize National Industries",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_establish_corfo",
+        "CHL_work_towards_laissex_faire"
+      ],
+      "mutuallyExclusive": [
+        "CHL_low_cost_housing"
+      ],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_strengthen_instituto_nacional",
+      "name": "Strengthen Instituto Nacional",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_low_cost_housing",
+        "CHL_privatize_national_industries"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_enact_universal_suffrage",
+      "name": "Enact Universal Suffrage",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_low_cost_housing",
+        "CHL_privatize_national_industries"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_host_spanish_refugees",
+      "name": "Host Spanish Refugees",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_low_cost_housing",
+        "CHL_privatize_national_industries"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_expand_the_investigations_police",
+      "name": "Expand The Investigations Police",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_privatize_national_industries",
+        "CHL_low_cost_housing"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_increase_presidential_powers",
+      "name": "Increase Presidential Powers",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_strengthen_instituto_nacional"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_reapproach_america",
+      "name": "Reapproach America",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_strengthen_instituto_nacional"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_return_to_the_parliamentary_era",
+      "name": "Return To The Parliamentary Era",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_strengthen_instituto_nacional"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_development_inwards",
+      "name": "Development Inwards",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_increase_presidential_powers",
+        "CHL_reapproach_america"
+      ],
+      "mutuallyExclusive": [
+        "CHL_kickstart_the_arsenal_of_democracy"
+      ],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_kickstart_the_arsenal_of_democracy",
+      "name": "Kickstart The Arsenal Of Democracy",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_return_to_the_parliamentary_era"
+      ],
+      "mutuallyExclusive": [
+        "CHL_development_inwards"
+      ],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_align_the_marxists",
+      "name": "Align The Marxists",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_development_inwards"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_chilean_anti_communist_action",
+      "name": "Chilean Anti Communist Action",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_commence_the_counter_revolution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_law_of_permanent_defense",
+      "name": "Law Of Permanent Defense",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_chilean_anti_communist_action"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_organize_patriotic_leagues",
+      "name": "Organize Patriotic Leagues",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_law_of_permanent_defense"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_preemtively_strike_foreign_revolutionaries",
+      "name": "Preemtively Strike Foreign Revolutionaries",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_organize_patriotic_leagues"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_enforce_stricter_secularism",
+      "name": "Enforce Stricter Secularism",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_kickstart_the_arsenal_of_democracy"
+      ],
+      "mutuallyExclusive": [
+        "CHL_repeal_the_separation_of_church_an_state"
+      ],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_repeal_the_separation_of_church_an_state",
+      "name": "Repeal The Separation Of Church An State",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_kickstart_the_arsenal_of_democracy"
+      ],
+      "mutuallyExclusive": [
+        "CHL_enforce_stricter_secularism"
+      ],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_chilean_anti_communist_action_dem_version",
+      "name": "Chilean Anti Communist Action Dem Version",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_repeal_the_separation_of_church_an_state",
+        "CHL_enforce_stricter_secularism"
+      ],
+      "mutuallyExclusive": [
+        "CHL_socialist_youth"
+      ],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_law_of_permanent_defense_of_democracy",
+      "name": "Law Of Permanent Defense Of Democracy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_chilean_anti_communist_action_dem_version"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_ban_liberalism",
+      "name": "Ban Liberalism",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_commence_the_counter_revolution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_recruit_young_officers",
+      "name": "Recruit Young Officers",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_commence_the_counter_revolution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_enforce_the_chilean_identity",
+      "name": "Enforce The Chilean Identity",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_recruit_young_officers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_promote_broad_anti_americansim",
+      "name": "Promote Broad Anti Americansim",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_enforce_the_chilean_identity"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_cooperate_with_operation_bolivar",
+      "name": "Cooperate With Operation Bolivar",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_enforce_the_chilean_identity"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_abide_by_the_francoist_model",
+      "name": "Abide By The Francoist Model",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_enforce_the_chilean_identity"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_host_german_intelligence",
+      "name": "Host German Intelligence",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_cooperate_with_operation_bolivar"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_militarize_the_state",
+      "name": "Militarize The State",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_host_german_intelligence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_the_spirit_of_the_war_of_the_pacific",
+      "name": "The Spirit Of The War Of The Pacific",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_militarize_the_state"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_syndicalize_the_production_sector",
+      "name": "Syndicalize The Production Sector",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_commence_the_counter_revolution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_expand_the_mountain_regiments",
+      "name": "Expand The Mountain Regiments",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_commence_the_counter_revolution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_departemento_de_las_tropas_nacistas_de_asalto",
+      "name": "Departemento De Las Tropas Nacistas De Asalto",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_syndicalize_the_production_sector"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_departamento_de_la_juventad_nacista",
+      "name": "Departamento De La Juventad Nacista",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_syndicalize_the_production_sector"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_expand_the_department_of_provinces",
+      "name": "Expand The Department Of Provinces",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_departamento_de_la_juventad_nacista",
+        "CHL_departemento_de_las_tropas_nacistas_de_asalto"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_revoke_the_treaty_of_lima",
+      "name": "Revoke The Treaty Of Lima",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_cooperate_with_operation_bolivar",
+        "CHL_abide_by_the_francoist_model"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_demand_the_fireland",
+      "name": "Demand The Fireland",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_revoke_the_treaty_of_lima"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_escalate_the_laguna_del_desierto_issue",
+      "name": "Escalate The Laguna Del Desierto Issue",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_revoke_the_treaty_of_lima"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_demand_demilitarization_of_patagonia",
+      "name": "Demand Demilitarization Of Patagonia",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_demand_the_fireland",
+        "CHL_escalate_the_laguna_del_desierto_issue"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_enter_patagonia",
+      "name": "Enter Patagonia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_demand_demilitarization_of_patagonia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_controlled_education",
+      "name": "Controlled Education",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_enter_patagonia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_promote_pan_hispanic_rhetoric",
+      "name": "Promote Pan Hispanic Rhetoric",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_abide_by_the_francoist_model"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_military_excercises",
+      "name": "Military Excercises",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_promote_pan_hispanic_rhetoric"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_cultivate_fanaticism",
+      "name": "Cultivate Fanaticism",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_military_excercises"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_the_path_to_conquest",
+      "name": "The Path To Conquest",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_military_excercises"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_the_hispanic_alliance",
+      "name": "The Hispanic Alliance",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_military_excercises"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_the_latin_american_alliance",
+      "name": "The Latin American Alliance",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_the_hispanic_alliance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_sponsor_anti_colonialist_rebellions",
+      "name": "Sponsor Anti Colonialist Rebellions",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_the_hispanic_alliance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_joint_development_and_research",
+      "name": "Joint Development And Research",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_the_hispanic_alliance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_push_past_the_darien_gap",
+      "name": "Push Past The Darien Gap",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_the_path_to_conquest"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_the_might_to_defend_our_homes",
+      "name": "The Might To Defend Our Homes",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_cultivate_fanaticism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_undo_colonialist_occupations",
+      "name": "Undo Colonialist Occupations",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_push_past_the_darien_gap"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_unite_hispanic_america",
+      "name": "Unite Hispanic America",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_the_might_to_defend_our_homes",
+        "CHL_undo_colonialist_occupations"
+      ],
+      "mutuallyExclusive": [
+        "CHL_restore_the_old_kingdom"
+      ],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_the_true_enemy",
+      "name": "The True Enemy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_unite_hispanic_america"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_demand_the_guayanas",
+      "name": "Demand The Guayanas",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_the_path_to_conquest"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_liberate_the_caribbean",
+      "name": "Liberate The Caribbean",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_demand_the_guayanas"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_press_our_demands",
+      "name": "Press Our Demands",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_demand_the_guayanas"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_defense_of_the_hemisphere",
+      "name": "Defense Of The Hemisphere",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_the_spirit_of_the_war_of_the_pacific"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_support_the_colonial_plan",
+      "name": "Support The Colonial Plan",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_the_spirit_of_the_war_of_the_pacific"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_unite_with_our_brothers_in_hispania",
+      "name": "Unite With Our Brothers In Hispania",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_support_the_colonial_plan",
+        "CHL_defense_of_the_hemisphere"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_restore_the_old_kingdom",
+      "name": "Restore The Old Kingdom",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_the_spirit_of_the_war_of_the_pacific",
+        "CHL_enter_patagonia"
+      ],
+      "mutuallyExclusive": [
+        "CHL_unite_hispanic_america"
+      ],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_an_empire_on_the_pacific",
+      "name": "An Empire On The Pacific",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_restore_the_old_kingdom"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_modern_conquistadors",
+      "name": "Modern Conquistadors",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_restore_the_old_kingdom"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_the_future_of_Chile",
+      "name": "The Future Of Chile",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_increase_presidential_powers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_socialist_youth",
+      "name": "Socialist Youth",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_enforce_stricter_secularism"
+      ],
+      "mutuallyExclusive": [
+        "CHL_chilean_anti_communist_action_dem_version"
+      ],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_counter_operation_bolivar",
+      "name": "Counter Operation Bolivar",
+      "description": "",
+      "x": 4,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_an_attempt_to_maintain_our_neutrality"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_support_for_the_international_revolution",
+      "name": "Support For The International Revolution",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_the_future_of_Chile"
+      ],
+      "mutuallyExclusive": [
+        "CHL_align_with_the_russian_soviet"
+      ],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_sponsor_american_revolutions",
+      "name": "Sponsor American Revolutions",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_support_for_the_international_revolution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_union_of_hispanic_republics",
+      "name": "Union Of Hispanic Republics",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_sponsor_american_revolutions",
+        "CHL_strike_down_south_american_fascism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_propose_closer_cooperation",
+      "name": "Propose Closer Cooperation",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_sponsor_american_revolutions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_nationalize_foreign_industries",
+      "name": "Nationalize Foreign Industries",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_the_future_of_Chile"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_align_with_the_russian_soviet",
+      "name": "Align With The Russian Soviet",
+      "description": "",
+      "x": 4,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_the_future_of_Chile"
+      ],
+      "mutuallyExclusive": [
+        "CHL_support_for_the_international_revolution"
+      ],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_strike_down_south_american_fascism",
+      "name": "Strike Down South American Fascism",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_align_with_the_russian_soviet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_hub_of_the_world_revolution",
+      "name": "Hub Of The World Revolution",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_joint_development_programs",
+      "name": "Joint Development Programs",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_the_future_of_Chile"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_joint_research_initiatives",
+      "name": "Joint Research Initiatives",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_joint_development_programs",
+        "CHL_nationalize_foreign_industries"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_an_attempt_to_maintain_our_neutrality",
+      "name": "An Attempt To Maintain Our Neutrality",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_kickstart_the_arsenal_of_democracy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_land_reforms",
+      "name": "Land Reforms",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_an_attempt_to_maintain_our_neutrality"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_support_the_democracies",
+      "name": "Support The Democracies",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_kickstart_the_arsenal_of_democracy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_mapuche_reconcilliation_campaigns",
+      "name": "Mapuche Reconcilliation Campaigns",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_land_reforms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_found_the_contraloria_general_de_la_republica",
+      "name": "Found The Contraloria General De La Republica",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_an_attempt_to_maintain_our_neutrality"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_embargo_strategies",
+      "name": "Embargo Strategies",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_support_the_democracies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_enact_stricter_labor_laws",
+      "name": "Enact Stricter Labor Laws",
+      "description": "",
+      "x": -1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_land_reforms"
+      ],
+      "mutuallyExclusive": [
+        "CHL_found_national_steelworks"
+      ],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_found_national_steelworks",
+      "name": "Found National Steelworks",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_land_reforms"
+      ],
+      "mutuallyExclusive": [
+        "CHL_enact_stricter_labor_laws"
+      ],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_a_joint_application_to_the_allies",
+      "name": "A Joint Application To The Allies",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_enact_stricter_labor_laws",
+        "CHL_found_national_steelworks"
+      ],
+      "mutuallyExclusive": [
+        "CHL_dispute_over_tierra_del_fuego"
+      ],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_dispute_over_tierra_del_fuego",
+      "name": "Dispute Over Tierra Del Fuego",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_enact_stricter_labor_laws",
+        "CHL_found_national_steelworks"
+      ],
+      "mutuallyExclusive": [
+        "CHL_a_joint_application_to_the_allies"
+      ],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_protect_the_easter_island",
+      "name": "Protect The Easter Island",
+      "description": "",
+      "x": 1,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_enact_stricter_labor_laws",
+        "CHL_found_national_steelworks"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_offer_to_protect_pitcairn",
+      "name": "Offer To Protect Pitcairn",
+      "description": "",
+      "x": -1,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_enact_stricter_labor_laws",
+        "CHL_found_national_steelworks"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_public_works",
+      "name": "Public Works",
+      "description": "",
+      "x": 20,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_dissolve_covensa",
+      "name": "Dissolve Covensa",
+      "description": "",
+      "x": 8,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_construct_new_hydroelectric_stations",
+      "name": "Construct New Hydroelectric Stations",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_dissolve_covensa",
+        "CHL_public_works"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_impose_new_taxes",
+      "name": "Impose New Taxes",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_dissolve_covensa",
+        "CHL_public_works"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_issue_bonds",
+      "name": "Issue Bonds",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_public_works",
+        "CHL_dissolve_covensa"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_contract_efe",
+      "name": "Contract Efe",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_public_works"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_work_on_the_pan_american_highway",
+      "name": "Work On The Pan American Highway",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_dissolve_covensa",
+        "CHL_public_works"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_expand_the_forestry",
+      "name": "Expand The Forestry",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_public_works"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_government_mandated_contracts",
+      "name": "Government Mandated Contracts",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_expand_the_forestry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_we_must_dig_deeper",
+      "name": "We Must Dig Deeper",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_dissolve_covensa"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_establish_trade_relationships",
+      "name": "Establish Trade Relationships",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_dissolve_covensa"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_international_loans",
+      "name": "International Loans",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_establish_trade_relationships"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_connect_the_northern_railways",
+      "name": "Connect The Northern Railways",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_contract_efe",
+        "CHL_we_must_dig_deeper"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_expand_southern_infrastructure",
+      "name": "Expand Southern Infrastructure",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_contract_efe",
+        "CHL_we_must_dig_deeper"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_devalue_the_peso",
+      "name": "Devalue The Peso",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_contract_efe",
+        "CHL_we_must_dig_deeper"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_promote_immigration_to_chile",
+      "name": "Promote Immigration To Chile",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_devalue_the_peso"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_establish_the_ministry_of_mining",
+      "name": "Establish The Ministry Of Mining",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_devalue_the_peso"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_the_nationalization_of_copper",
+      "name": "The Nationalization Of Copper",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_establish_the_ministry_of_mining"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_utlilize_famae",
+      "name": "Utlilize Famae",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_devalue_the_peso"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_domestic_production_of_the_willys_mb",
+      "name": "Domestic Production Of The Willys Mb",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_utlilize_famae"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_high_quality_nitrate",
+      "name": "High Quality Nitrate",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_devalue_the_peso"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_they_shall_not_pass",
+      "name": "They Shall Not Pass",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_high_quality_nitrate"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_strengthen_the_central_bank",
+      "name": "Strengthen The Central Bank",
+      "description": "",
+      "x": -6,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_devalue_the_peso"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_expand_the_naval_arsenal",
+      "name": "Expand The Naval Arsenal",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_devalue_the_peso"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_fortify_the_coastlines",
+      "name": "Fortify The Coastlines",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_expand_the_naval_arsenal"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_invest_in_shipping",
+      "name": "Invest In Shipping",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_expand_the_naval_arsenal"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "CHL_advancements_in_telecommunications",
+      "name": "Advancements In Telecommunications",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CHL_domestic_production_of_the_willys_mb",
+        "CHL_strengthen_the_central_bank",
+        "CHL_they_shall_not_pass",
+        "CHL_fortify_the_coastlines",
+        "CHL_invest_in_shipping"
+      ],
+      "mutuallyExclusive": [],
+      "source": "chile.txt",
+      "shared": false
+    },
+    {
+      "id": "SMB_army",
+      "name": "Army",
+      "description": "",
+      "x": 0,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "toa_shared_military_branch.txt",
+      "shared": true
+    },
+    {
+      "id": "SMB_air_force",
+      "name": "Air Force",
+      "description": "",
+      "x": 8,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "toa_shared_military_branch.txt",
+      "shared": true
+    },
+    {
+      "id": "SMB_navy",
+      "name": "Navy",
+      "description": "",
+      "x": 7,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "toa_shared_military_branch.txt",
+      "shared": true
+    },
+    {
+      "id": "SAM_the_yoke_of_monroe",
+      "name": "The Yoke Of Monroe",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "shared_reference",
+      "shared": true
+    }
+  ]
+}

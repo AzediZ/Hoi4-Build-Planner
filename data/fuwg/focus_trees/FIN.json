@@ -1,0 +1,2450 @@
+{
+  "mod": "FUWG",
+  "tag": "FIN",
+  "country": "Finland",
+  "treeId": "finnish_focus",
+  "sourceFile": "finland.txt",
+  "focusCount": 167,
+  "focuses": [
+    {
+      "id": "FIN_suomalainen_sosialismi",
+      "name": "Suomalainen Sosialismi",
+      "description": "",
+      "x": 7,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "FIN_finnish_neutrality",
+        "FIN_right_wing_policies"
+      ],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_towards_a_red_government",
+      "name": "Towards A Red Government",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_suomalainen_sosialismi"
+      ],
+      "mutuallyExclusive": [
+        "FIN_social_democracy"
+      ],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_the_second_finnish_civil_war",
+      "name": "The Second Finnish Civil War",
+      "description": "",
+      "x": -6,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_towards_a_red_government"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_the_peoples_democratic_league",
+      "name": "The Peoples Democratic League",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_the_second_finnish_civil_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_cooperate_with_social_democrats",
+      "name": "Cooperate With Social Democrats",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_the_second_finnish_civil_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_the_workers_state",
+      "name": "The Workers State",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_the_second_finnish_civil_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_the_red_watch",
+      "name": "The Red Watch",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_the_workers_state"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_approach_the_soviets",
+      "name": "Approach The Soviets",
+      "description": "",
+      "x": 4,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_towards_a_red_government",
+        "FIN_social_democracy"
+      ],
+      "mutuallyExclusive": [
+        "FIN_antagonize_the_soviets"
+      ],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_antagonize_the_soviets",
+      "name": "Antagonize The Soviets",
+      "description": "",
+      "x": 4,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_towards_a_red_government",
+        "FIN_social_democracy"
+      ],
+      "mutuallyExclusive": [
+        "FIN_approach_the_soviets"
+      ],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_finno_soviet_pact",
+      "name": "Finno Soviet Pact",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_approach_the_soviets"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_subsidized_national_industrialization",
+      "name": "Subsidized National Industrialization",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_finno_soviet_pact"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_finnish_learned_societies",
+      "name": "Finnish Learned Societies",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_approach_the_soviets",
+        "FIN_antagonize_the_soviets"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_finnish_federation_of_trade_unions",
+      "name": "Finnish Federation Of Trade Unions",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_antagonize_the_soviets",
+        "FIN_approach_the_soviets"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_defensive_preparations",
+      "name": "Defensive Preparations",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_antagonize_the_soviets"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_trade_agreements",
+      "name": "Trade Agreements",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_defensive_preparations"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_finno_estonian_union",
+      "name": "Finno Estonian Union",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_approach_the_soviets",
+        "FIN_antagonize_the_soviets"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_social_democracy",
+      "name": "Social Democracy",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_suomalainen_sosialismi"
+      ],
+      "mutuallyExclusive": [
+        "FIN_towards_a_red_government"
+      ],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_pragmatic_socialism",
+      "name": "Pragmatic Socialism",
+      "description": "",
+      "x": 4,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_social_democracy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_sosialistinen_eduskuntaryhma",
+      "name": "Sosialistinen Eduskuntaryhma",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_pragmatic_socialism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_social_democratic_womens_union",
+      "name": "Social Democratic Womens Union",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_pragmatic_socialism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_mineral_wealth",
+      "name": "Mineral Wealth",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_pragmatic_socialism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_funds_from_kalevala_koru_oy",
+      "name": "Funds From Kalevala Koru Oy",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_social_democratic_womens_union",
+        "FIN_mineral_wealth"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_join_the_comintern",
+      "name": "Join The Comintern",
+      "description": "",
+      "x": 2,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_the_second_finnish_civil_war",
+        "FIN_finno_soviet_pact"
+      ],
+      "mutuallyExclusive": [
+        "FIN_united_under_the_north_star",
+        "FIN_approach_major_democracies"
+      ],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_united_under_the_north_star",
+      "name": "United Under The North Star",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_finno_estonian_union"
+      ],
+      "mutuallyExclusive": [
+        "FIN_join_the_comintern",
+        "FIN_approach_major_democracies"
+      ],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_approach_major_democracies",
+      "name": "Approach Major Democracies",
+      "description": "",
+      "x": -1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_sosialistinen_eduskuntaryhma",
+        "FIN_defensive_preparations"
+      ],
+      "mutuallyExclusive": [
+        "FIN_join_the_comintern",
+        "FIN_united_under_the_north_star"
+      ],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_finnish_autonomy",
+      "name": "Finnish Autonomy",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_join_the_comintern"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_integrate_kola_and_karelia",
+      "name": "Integrate Kola And Karelia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_join_the_comintern"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_british_threat",
+      "name": "British Threat",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_integrate_kola_and_karelia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_keepers_of_the_baltic_countries",
+      "name": "Keepers Of The Baltic Countries",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_integrate_kola_and_karelia",
+        "FIN_finnish_influence_in_the_baltic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_red_finland",
+      "name": "Red Finland",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_keepers_of_the_baltic_countries"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_finnish_influence_in_the_baltic",
+      "name": "Finnish Influence In The Baltic",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_join_the_comintern",
+        "FIN_united_under_the_north_star"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_preserve_sapmi",
+      "name": "Preserve Sapmi",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_finnish_influence_in_the_baltic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_confederated_finno_russian_republics",
+      "name": "Confederated Finno Russian Republics",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_united_under_the_north_star"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_secure_the_baltic_sea",
+      "name": "Secure The Baltic Sea",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_united_under_the_north_star",
+        "FIN_approach_major_democracies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_german_threat",
+      "name": "German Threat",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_finnish_influence_in_the_baltic",
+        "FIN_secure_the_baltic_sea"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_socialist_wellfare",
+      "name": "Socialist Wellfare",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_secure_the_baltic_sea"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_aid_for_entrepreneurs",
+      "name": "Aid For Entrepreneurs",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_approach_major_democracies",
+        "FIN_united_under_the_north_star"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_soviet_threat",
+      "name": "Soviet Threat",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_secure_the_baltic_sea",
+        "FIN_aid_for_entrepreneurs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_proclaim_greater_finland",
+      "name": "Proclaim Greater Finland",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_control_the_flux_of_iron_ore",
+        "FIN_aid_for_entrepreneurs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_control_the_flux_of_iron_ore",
+      "name": "Control The Flux Of Iron Ore",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_approach_major_democracies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_finnish_neutrality",
+      "name": "Finnish Neutrality",
+      "description": "",
+      "x": 16,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "FIN_right_wing_policies",
+        "FIN_suomalainen_sosialismi"
+      ],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_political_unity",
+      "name": "Political Unity",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_finnish_neutrality"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_align_the_agrarian_league",
+      "name": "Align The Agrarian League",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_political_unity",
+        "FIN_social_democracy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_the_finnish_swedish_peoples_party",
+      "name": "The Finnish Swedish Peoples Party",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_social_democracy",
+        "FIN_political_unity"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_collaboration_with_the_left",
+      "name": "Collaboration With The Left",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_political_unity"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_railways_and_infrastructure",
+      "name": "Railways And Infrastructure",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_political_unity"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_repurpose_small_industries",
+      "name": "Repurpose Small Industries",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_railways_and_infrastructure"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_expand_state_military_factories",
+      "name": "Expand State Military Factories",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_repurpose_small_industries"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_a_new_course_for_kokoomus",
+      "name": "A New Course For Kokoomus",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_expand_state_military_factories"
+      ],
+      "mutuallyExclusive": [
+        "FIN_dreams_of_expansionism",
+        "FIN_strengthen_military_administration"
+      ],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_the_finnish_throne",
+      "name": "The Finnish Throne",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_a_new_course_for_kokoomus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_strengthen_military_administration",
+      "name": "Strengthen Military Administration",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_expand_state_military_factories"
+      ],
+      "mutuallyExclusive": [
+        "FIN_dreams_of_expansionism",
+        "FIN_a_new_course_for_kokoomus"
+      ],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_dreams_of_expansionism",
+      "name": "Dreams Of Expansionism",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_expand_state_military_factories"
+      ],
+      "mutuallyExclusive": [
+        "FIN_strengthen_military_administration",
+        "FIN_a_new_course_for_kokoomus"
+      ],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_reach_out_to_scandinavia",
+      "name": "Reach Out To Scandinavia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_finnish_neutrality"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_moderate_politics",
+      "name": "Moderate Politics",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_reach_out_to_scandinavia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_join_the_allies",
+      "name": "Join The Allies",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_moderate_politics"
+      ],
+      "mutuallyExclusive": [
+        "FIN_northern_defense_front",
+        "FIN_the_lone_wolf"
+      ],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_northern_defense_front",
+      "name": "Northern Defense Front",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_moderate_politics"
+      ],
+      "mutuallyExclusive": [
+        "FIN_join_the_allies",
+        "FIN_the_lone_wolf"
+      ],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_the_lone_wolf",
+      "name": "The Lone Wolf",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_moderate_politics"
+      ],
+      "mutuallyExclusive": [
+        "FIN_northern_defense_front",
+        "FIN_join_the_allies"
+      ],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_military_aid",
+      "name": "Military Aid",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_join_the_allies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_mineral_wealth_development",
+      "name": "Mineral Wealth Development",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_military_aid"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_industrialize_the_region",
+      "name": "Industrialize The Region",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_northern_defense_front"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_increase_military_investment",
+      "name": "Increase Military Investment",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_military_aid",
+        "FIN_industrialize_the_region"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_cooperation_with_germany",
+      "name": "Cooperation With Germany",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_the_lone_wolf"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_wartsila_engine_production",
+      "name": "Wartsila Engine Production",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_cooperation_with_germany"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_german_military_advisors",
+      "name": "German Military Advisors",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_cooperation_with_germany"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_finnish_march_of_conquest",
+      "name": "Finnish March Of Conquest",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_wartsila_engine_production",
+        "FIN_german_military_advisors"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_joint_scientific_program",
+      "name": "Joint Scientific Program",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_industrialize_the_region",
+        "FIN_cooperation_with_germany",
+        "FIN_military_aid"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_modernize_the_industry",
+      "name": "Modernize The Industry",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_joint_scientific_program"
+      ],
+      "mutuallyExclusive": [
+        "FIN_modernize_the_army"
+      ],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_modernize_the_army",
+      "name": "Modernize The Army",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_joint_scientific_program"
+      ],
+      "mutuallyExclusive": [
+        "FIN_modernize_the_industry"
+      ],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_right_wing_policies",
+      "name": "Right Wing Policies",
+      "description": "",
+      "x": 10,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "FIN_finnish_neutrality",
+        "FIN_suomalainen_sosialismi"
+      ],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_national_unity",
+      "name": "National Unity",
+      "description": "",
+      "x": -6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_right_wing_policies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_viron_kansa",
+      "name": "Viron Kansa",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "FIN_national_unity"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_ambitions_in_the_south",
+      "name": "Ambitions In The South",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_viron_kansa"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_arm_the_lotta_svard",
+      "name": "Arm The Lotta Svard",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_national_unity"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_union_of_finnish_brothers_in_arms",
+      "name": "Union Of Finnish Brothers In Arms",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_arm_the_lotta_svard"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_parmis_devil",
+      "name": "Parmis Devil",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_union_of_finnish_brothers_in_arms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_a_cry_for_help",
+      "name": "A Cry For Help",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_national_unity"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_weapon_caches",
+      "name": "Weapon Caches",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "FIN_right_wing_policies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_discredit_the_democratic_system",
+      "name": "Discredit The Democratic System",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_right_wing_policies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_prepare_a_military_coup",
+      "name": "Prepare A Military Coup",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_right_wing_policies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_a_fascist_regime",
+      "name": "A Fascist Regime",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_right_wing_policies",
+        "FIN_prepare_a_military_coup"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_seek_german_protection",
+      "name": "Seek German Protection",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_a_fascist_regime"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_join_axis",
+      "name": "Join Axis",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_a_fascist_regime"
+      ],
+      "mutuallyExclusive": [
+        "FIN_finnish_supremacy_in_the_north"
+      ],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_industrial_cooperation",
+      "name": "Industrial Cooperation",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_seek_german_protection"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_military_research",
+      "name": "Military Research",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_seek_german_protection"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_bring_foreign_armor_experts",
+      "name": "Bring Foreign Armor Experts",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_military_research",
+        "FIN_industrial_cooperation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_finnish_supremacy_in_the_north",
+      "name": "Finnish Supremacy In The North",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_a_fascist_regime"
+      ],
+      "mutuallyExclusive": [
+        "FIN_join_axis"
+      ],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_finnish_legion_of_honor",
+      "name": "Finnish Legion Of Honor",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_finnish_supremacy_in_the_north"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_tactical_wargaming_department",
+      "name": "Tactical Wargaming Department",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_finnish_supremacy_in_the_north"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_advanced_jaeger_training_program",
+      "name": "Advanced Jaeger Training Program",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_military_research",
+        "FIN_finnish_legion_of_honor"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_finnish_irredentism",
+      "name": "Finnish Irredentism",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_finnish_legion_of_honor",
+        "FIN_tactical_wargaming_department"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_keepers_of_the_north",
+      "name": "Keepers Of The North",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_finnish_irredentism",
+        "FIN_military_research",
+        "FIN_industrial_cooperation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_militarized_society",
+      "name": "Militarized Society",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_union_of_finnish_brothers_in_arms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_patriotic_peoples_movement",
+      "name": "Patriotic Peoples Movement",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_a_fascist_regime"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_greater_finland",
+      "name": "Greater Finland",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_finnish_march_of_conquest",
+        "FIN_militarized_society",
+        "FIN_keepers_of_the_north"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_mustapaidat",
+      "name": "Mustapaidat",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_patriotic_peoples_movement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_sotilaalliset_kappalaiset",
+      "name": "Sotilaalliset Kappalaiset",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_mustapaidat"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_national_fanatism",
+      "name": "National Fanatism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_sotilaalliset_kappalaiset"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_academic_karelian_society",
+      "name": "Academic Karelian Society",
+      "description": "",
+      "x": 8,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_a_fascist_regime"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_take_over_the_suojeluskunta",
+      "name": "Take Over The Suojeluskunta",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_patriotic_peoples_movement",
+        "FIN_academic_karelian_society"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_maan_turva",
+      "name": "Maan Turva",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_academic_karelian_society"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_military_promotions",
+      "name": "Military Promotions",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_take_over_the_suojeluskunta"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_indoctrinate_the_workers",
+      "name": "Indoctrinate The Workers",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_maan_turva"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_intellectual_elite",
+      "name": "Intellectual Elite",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_military_promotions",
+        "FIN_indoctrinate_the_workers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_enhance_southern_infrastructure",
+      "name": "Enhance Southern Infrastructure",
+      "description": "",
+      "x": 15,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_industrial_development",
+      "name": "Industrial Development",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_enhance_southern_infrastructure"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_bank_of_aland",
+      "name": "Bank Of Aland",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_industrial_development"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_suomen_akatemia",
+      "name": "Suomen Akatemia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_bank_of_aland"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_janiskoski_power_plant",
+      "name": "Janiskoski Power Plant",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_industrial_development"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_found_pohjolan_voima",
+      "name": "Found Pohjolan Voima",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_janiskoski_power_plant"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_expand_imatra_hydropower_plant",
+      "name": "Expand Imatra Hydropower Plant",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_janiskoski_power_plant"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_makola_mine",
+      "name": "Makola Mine",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_expand_imatra_hydropower_plant"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_power_from_the_dams",
+      "name": "Power From The Dams",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_expand_imatra_hydropower_plant"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_tire_factory_at_nokia",
+      "name": "Tire Factory At Nokia",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_industrial_development"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_vaisala_radiosonde_tests",
+      "name": "Vaisala Radiosonde Tests",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_industrial_development"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_contract_with_yhteissisu",
+      "name": "Contract With Yhteissisu",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_tire_factory_at_nokia",
+        "FIN_outokumpu_for_defence_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_industrial_upgrade_in_harjavalta",
+      "name": "Industrial Upgrade In Harjavalta",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_outokumpu_for_defence_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_expand_mining_prospection",
+      "name": "Expand Mining Prospection",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_expand_imatra_hydropower_plant",
+        "FIN_industrial_upgrade_in_harjavalta"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_elijarvi_mine",
+      "name": "Elijarvi Mine",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_expand_mining_prospection"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_tornio_steel_factory",
+      "name": "Tornio Steel Factory",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_elijarvi_mine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_outokumpu_for_defence_industry",
+      "name": "Outokumpu For Defence Industry",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_industrial_development"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_oy_alkoholiliike",
+      "name": "Oy Alkoholiliike",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_outokumpu_for_defence_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_integrate_oy_tikkakoski",
+      "name": "Integrate Oy Tikkakoski",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_outokumpu_for_defence_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_national_firepower",
+      "name": "National Firepower",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_integrate_oy_tikkakoski"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_increase_military_budget",
+      "name": "Increase Military Budget",
+      "description": "",
+      "x": 18,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_suomen_maavoimat",
+      "name": "Suomen Maavoimat",
+      "description": "",
+      "x": -6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_increase_military_budget"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_operation_kilpapurjehdus",
+      "name": "Operation Kilpapurjehdus",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_suomen_maavoimat"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_extra_refresher_exercises",
+      "name": "Extra Refresher Exercises",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_suomen_maavoimat"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_the_cold_front",
+      "name": "The Cold Front",
+      "description": "",
+      "x": -8,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_increase_military_budget"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_jaeger_movement",
+      "name": "Jaeger Movement",
+      "description": "",
+      "x": -6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_increase_military_budget"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_salvaged_and_retooled",
+      "name": "Salvaged And Retooled",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_increase_military_budget"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_winter_warfare",
+      "name": "Winter Warfare",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_the_cold_front"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_motti_tactics",
+      "name": "Motti Tactics",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_jaeger_movement",
+        "FIN_salvaged_and_retooled",
+        "FIN_the_cold_front"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_foreign_armor",
+      "name": "Foreign Armor",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_salvaged_and_retooled"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_utilize_the_sami",
+      "name": "Utilize The Sami",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_winter_warfare"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_long_range_patrols",
+      "name": "Long Range Patrols",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_winter_warfare",
+        "FIN_motti_tactics"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_finnish_radio_intelligence",
+      "name": "Finnish Radio Intelligence",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_motti_tactics"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_sissi",
+      "name": "Sissi",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_long_range_patrols",
+        "FIN_utilize_the_sami"
+      ],
+      "mutuallyExclusive": [
+        "FIN_national_armor_focus"
+      ],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_national_armor_focus",
+      "name": "National Armor Focus",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_salvaged_and_retooled",
+        "FIN_finnish_radio_intelligence"
+      ],
+      "mutuallyExclusive": [
+        "FIN_sissi"
+      ],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_innovative_designs",
+      "name": "Innovative Designs",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 35,
+      "prerequisites": [
+        "FIN_national_armor_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_underground_resistance_cells",
+      "name": "Underground Resistance Cells",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_suomen_maavoimat"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_mannerheim_line",
+      "name": "Mannerheim Line",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_suomen_maavoimat"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_defense_in_depth",
+      "name": "Defense In Depth",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_increase_military_budget"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_helsinki_air_defense",
+      "name": "Helsinki Air Defense",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_increase_military_budget"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_suomen_ilmavoimat",
+      "name": "Suomen Ilmavoimat",
+      "description": "",
+      "x": 7,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_increase_military_budget"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_expand_air_bases",
+      "name": "Expand Air Bases",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_suomen_ilmavoimat"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_foreign_aircraft",
+      "name": "Foreign Aircraft",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_increase_military_budget"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_pilot_training",
+      "name": "Pilot Training",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_suomen_ilmavoimat"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_expand_air_force_academy",
+      "name": "Expand Air Force Academy",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_increase_military_budget"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_naval_airforce",
+      "name": "Naval Airforce",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_expand_air_force_academy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_national_aircraft_production",
+      "name": "National Aircraft Production",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_foreign_aircraft",
+        "FIN_expand_air_force_academy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_support_for_ground_forces",
+      "name": "Support For Ground Forces",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_national_aircraft_production"
+      ],
+      "mutuallyExclusive": [
+        "FIN_dominate_the_skies"
+      ],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_dominate_the_skies",
+      "name": "Dominate The Skies",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_national_aircraft_production"
+      ],
+      "mutuallyExclusive": [
+        "FIN_support_for_ground_forces"
+      ],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_expand_production_lines",
+      "name": "Expand Production Lines",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_support_for_ground_forces",
+        "FIN_dominate_the_skies"
+      ],
+      "mutuallyExclusive": [
+        "FIN_modernize_production_lines"
+      ],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_modernize_production_lines",
+      "name": "Modernize Production Lines",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_dominate_the_skies",
+        "FIN_support_for_ground_forces",
+        "FIN_naval_airforce"
+      ],
+      "mutuallyExclusive": [
+        "FIN_expand_production_lines"
+      ],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_suomen_merivoimat",
+      "name": "Suomen Merivoimat",
+      "description": "",
+      "x": 6,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_increase_military_budget"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_the_merchant_fleet",
+      "name": "The Merchant Fleet",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_suomen_merivoimat"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_conversion_of_civilian_vessels",
+      "name": "Conversion Of Civilian Vessels",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_the_merchant_fleet",
+        "FIN_coastal_defense"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_coastal_defense",
+      "name": "Coastal Defense",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_suomen_merivoimat"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_marine_jaeger_divisions",
+      "name": "Marine Jaeger Divisions",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_coastal_defense"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_rapid_raiders",
+      "name": "Rapid Raiders",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_coastal_defense"
+      ],
+      "mutuallyExclusive": [
+        "FIN_deep_sea_raiders"
+      ],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_deep_sea_raiders",
+      "name": "Deep Sea Raiders",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_coastal_defense"
+      ],
+      "mutuallyExclusive": [
+        "FIN_rapid_raiders"
+      ],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_sea_mines_strategy",
+      "name": "Sea Mines Strategy",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_rapid_raiders",
+        "FIN_deep_sea_raiders"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_strengthen_the_naval_bases",
+      "name": "Strengthen The Naval Bases",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_suomen_merivoimat"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_acquire_andros_dockyards",
+      "name": "Acquire Andros Dockyards",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_suomen_merivoimat"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_expand_ship_building_industry",
+      "name": "Expand Ship Building Industry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_strengthen_the_naval_bases",
+        "FIN_acquire_andros_dockyards"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "FIN_expansion_towards_the_atlantic",
+      "name": "Expansion Towards The Atlantic",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FIN_sea_mines_strategy",
+        "FIN_expand_ship_building_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "finland.txt",
+      "shared": false
+    },
+    {
+      "id": "NORDIC_form_joint_alliance",
+      "name": "Nordic Form Joint Alliance",
+      "description": "",
+      "x": 40,
+      "y": 15,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "nordic_shared.txt",
+      "shared": true
+    }
+  ]
+}

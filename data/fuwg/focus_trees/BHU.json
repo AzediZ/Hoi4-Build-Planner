@@ -1,0 +1,22 @@
+{
+  "mod": "FUWG",
+  "tag": "BHU",
+  "country": "Bhutan",
+  "treeId": "bhutan_tree",
+  "sourceFile": "bhutan.txt",
+  "focusCount": 1,
+  "focuses": [
+    {
+      "id": "BHU_get_equipment",
+      "name": "Get Equipment",
+      "description": "",
+      "x": 0,
+      "y": 0,
+      "cost": 1,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "bhutan.txt",
+      "shared": false
+    }
+  ]
+}

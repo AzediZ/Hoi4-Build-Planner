@@ -1,0 +1,1400 @@
+{
+  "mod": "FUWG",
+  "tag": "IRE",
+  "country": "Ireland",
+  "treeId": "ire_focus",
+  "sourceFile": "ireland.txt",
+  "focusCount": 95,
+  "focuses": [
+    {
+      "id": "IRE_fianna_fial_continues_rule",
+      "name": "Fianna Fail Continues Rule",
+      "description": "Fianna Fail, the current largest political party in ireland, and the party that controls the entirety of the Oireachtas. They will maintain their agenda for the next year as planned.",
+      "x": 33,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_export_bounties",
+      "name": "Export Bounties",
+      "description": "Export Bounties, or a program of giving companies or citizens money for performing exports that are extremely important for the irish economy.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_fianna_fial_continues_rule"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_coal_and_cattle_pact",
+      "name": "Coal and Cattle Pact",
+      "description": "A simple but crucial deal for the Irish Economy, it allows us to import coal for exporting cattle to england, something that benefits us both.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_fianna_fial_continues_rule"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_soldify_independence",
+      "name": "Solidify Independence",
+      "description": "Our independence from Great Britain is being called into question, let us remedy this.",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_coal_and_cattle_pact",
+        "IRE_export_bounties"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_illegalize_IRA_activites",
+      "name": "Illegalize All IRA Activites",
+      "description": "The IRA is a plague on Ireland that needs to be exterminated once and for all, let us get rid of this pest.",
+      "x": -1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_soldify_independence"
+      ],
+      "mutuallyExclusive": [
+        "IRE_allow_paramilitary_organizations"
+      ],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_allow_paramilitary_organizations",
+      "name": "Allow the IRA",
+      "description": "The IRA still has some use for the Irish Cause, let us use them in our further efforts in Europe and further.",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_soldify_independence"
+      ],
+      "mutuallyExclusive": [
+        "IRE_illegalize_IRA_activites"
+      ],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_ratify_the_1937_consitution",
+      "name": "Ratify the 1937 Constitution",
+      "description": "The 1937 Constitution is a very important document that has yet to be ratified, it finalized the republic, reforms the senate and the governor general, and deminishes the power of the King.",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_allow_paramilitary_organizations",
+        "IRE_illegalize_IRA_activites"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_continue_job_creation",
+      "name": "Continue Job Creation",
+      "description": "Ireland currently needs more jobs in its current state, and we need to pick our plan for this.",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_fianna_fial_continues_rule"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_irish_farming_expanded",
+      "name": "Expand Irish Farming",
+      "description": "The Irish Agriculture Industry has never failed us, and we need to continue to invest into this path.",
+      "x": -5,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_continue_job_creation"
+      ],
+      "mutuallyExclusive": [
+        "IRE_irish_industry_expanded"
+      ],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_lease_unused_farmland",
+      "name": "Lease Unused Farmland",
+      "description": "Farmland in Ireland remains unused, lets get some very needed building space for the country.",
+      "x": -5,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_irish_farming_expanded"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_irish_industry_expanded",
+      "name": "Expand Irish Industry",
+      "description": "The Irish Industrial base has a lot of room to be expanded upon, lets get to this exact measure.",
+      "x": -3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_continue_job_creation"
+      ],
+      "mutuallyExclusive": [
+        "IRE_irish_farming_expanded"
+      ],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_give_industrial_grants",
+      "name": "Give Industrial Grants",
+      "description": "We can use some of the government budget to open up basic manufactories across the country, they will be very useful for the future of the economy of ireland.",
+      "x": -3,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_irish_industry_expanded"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_1937_elections",
+      "name": "The 1937 Elections",
+      "description": "The 2 Major Parties Face off once again, Fianna Fail, and Fine Gael. These 2 parties have radically different goals that they want to accomplish, and different ways of doing what they do.",
+      "x": 0,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_ratify_the_1937_consitution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_fianna_fail_wins",
+      "name": "Fianna Fail Wins the Election",
+      "description": "The expected result, the Irish people have chosen us once again, we shall carry out their will in ireland.",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_1937_elections"
+      ],
+      "mutuallyExclusive": [
+        "IRE_labour_wins",
+        "IRE_fine_gael_wins"
+      ],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_fine_gael_wins",
+      "name": "Fine Gael Wins the Election",
+      "description": "Fine Gael has the Irish people's best views at heart, and the Irish People's votes in this election. We shall carry out their will.",
+      "x": 8,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_1937_elections"
+      ],
+      "mutuallyExclusive": [
+        "IRE_labour_wins",
+        "IRE_fianna_fail_wins"
+      ],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_labour_wins",
+      "name": "Labour Wins the Election",
+      "description": "An unexpected upset, Labour has won the election from an extremely low point in the polls. We shall see what their government brings.",
+      "x": -8,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_1937_elections"
+      ],
+      "mutuallyExclusive": [
+        "IRE_fine_gael_wins",
+        "IRE_fianna_fail_wins"
+      ],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_go_back_to_our_roots",
+      "name": "Go Back to Irish Roots",
+      "description": "Our roots has what held ireland together for years and years, we shall beat the british back again and again.",
+      "x": 9,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_fine_gael_wins"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_blueshirts_youth_wing",
+      "name": "Blueshirts Youth Wing",
+      "description": "Blueshirts youth wing was a paramilitary youth organization organized by Fine Gael, we shall bring them back and recruit extra soilders from it.",
+      "x": 7,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_fine_gael_wins"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_stir_up_irish_nationalism",
+      "name": "Stir Up Irish Nationalism",
+      "description": "Irish nationalism is a useful tool that could be used to secure ireland against all threats, local and foreign.",
+      "x": 8,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_go_back_to_our_roots",
+        "IRE_blueshirts_youth_wing"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_root_out_loyalist_traitors",
+      "name": "Root out Loyalists",
+      "description": "Royalist traitors in northern ireland need to be rooted out so no one gets any funny ideas.",
+      "x": 10,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_go_back_to_our_roots"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_return_to_conservatism",
+      "name": "Return to Conservatism",
+      "description": "The party has strayed away from conservatism recently, and we need to change our approach for the future.",
+      "x": 9,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_stir_up_irish_nationalism",
+        "IRE_root_out_loyalist_traitors"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_catholic_communism",
+      "name": "Catholic Communism",
+      "description": "Catholic communism, a unique way of catholicism that has not been practiced nearly at all before, shall be tried here.",
+      "x": -8,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_labour_wins"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_root_out_fascism",
+      "name": "Root out Fascists",
+      "description": "Fascism is a big problem in Ireland, and fascists need to be killed.",
+      "x": -8,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_catholic_communism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_denouce_hitler_for_denouncing_the_pope",
+      "name": "Have the Pope Denouce Hitler",
+      "description": "Hitler has angered his holiness, and we need to petition the pope to denouce the warmonger.",
+      "x": -6,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_labour_wins"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_state_controlled_banking_system",
+      "name": "State Controlled Banking System",
+      "description": "Our banking system has been in the wrong hands for much too long, we need to relclaim the rights over our money as soon as possible.",
+      "x": -6,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_denouce_hitler_for_denouncing_the_pope"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_denouce_right_wing_parties",
+      "name": "Denouce Right Leaning Parties",
+      "description": "Right wing parties in ireland have been growing too strong recently, we need to denounce and prevent their further operations.",
+      "x": -7,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_state_controlled_banking_system",
+        "IRE_root_out_fascism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_proclaim_the_republic",
+      "name": "Proclaim the Irish Republic",
+      "description": "The Irish Republic is an idea that has been in the thoughts and minds of Irishmen for decades now, we must bring this dream to reality!",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_fianna_fail_wins"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_recognize_the_roman_catholic_church",
+      "name": "The Roman Catholic Church's Special Position",
+      "description": "The Church Within ireland is in a special position, we must give them more rights to boost the stability of our nation.",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_fianna_fail_wins"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_open_the_world_fair",
+      "name": "Open the World Fair",
+      "description": "The world fair is being hosted in ireland this year, lets get some good public attention and attention from the globe.",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_recognize_the_roman_catholic_church",
+        "IRE_proclaim_the_republic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_convert_to_the_irish_pound",
+      "name": "Convert to the Irish Pound",
+      "description": "Our old currency was unstable, and needs to be replaced with this updated one, tacked onto the British Pound.",
+      "x": 2,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_proclaim_the_republic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_stabilize_the_country",
+      "name": "Stabilize The Country",
+      "description": "The country is a bit unstable, we need to expand the welfare state to fix this.",
+      "x": -2,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_recognize_the_roman_catholic_church"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_establish_the_irish_tax_haven",
+      "name": "Establish the Irish Tax Haven",
+      "description": "The Irish Tax Haven has been an idea on Politicans minds for years now, we shall execute this policy and make Ireland a Corporate Tax Haven.",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_stabilize_the_country",
+        "IRE_open_the_world_fair",
+        "IRE_convert_to_the_irish_pound"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_1939_emergency_act",
+      "name": "The 1939 Emergency Act",
+      "description": "",
+      "x": 0,
+      "y": 6,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_denouce_right_wing_parties",
+        "IRE_establish_the_irish_tax_haven",
+        "IRE_return_to_conservatism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_Anglo_Irish_Trade_Treaty",
+      "name": "Anglo-Irish Trade Treaty",
+      "description": "After the many stop-gap acts, we will finally fix this problem that has been affecting us for many years.",
+      "x": -4,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_labour_wins",
+        "IRE_fianna_fail_wins",
+        "IRE_fine_gael_wins"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_mend_UK_IRE_relations",
+      "name": "Mend Anglo-Irish Relations",
+      "description": "Our relations with britain have not been great, with paying off the land indemities owned to them, we can get extremely preferential trade deals with the nation.",
+      "x": -4,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_Anglo_Irish_Trade_Treaty"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_the_ira_question",
+      "name": "The IRA Question",
+      "description": "The IRA has still been a thorn in our side, we need to finally deal with them.",
+      "x": 5,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_labour_wins",
+        "IRE_fianna_fail_wins",
+        "IRE_fine_gael_wins"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_crush_the_IRA",
+      "name": "Crush the IRA",
+      "description": "The IRA must be crushed once and for all, and their resistance needs to be squashed.",
+      "x": 4,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_the_ira_question"
+      ],
+      "mutuallyExclusive": [
+        "IRE_fully_legalize_the_IRA"
+      ],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_fully_legalize_the_IRA",
+      "name": "Fully Legalize the IRA",
+      "description": "The IRA is still very helpful to our causes, they need to be used to our advantage as much as possible.",
+      "x": 6,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_the_ira_question"
+      ],
+      "mutuallyExclusive": [
+        "IRE_crush_the_IRA"
+      ],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_irish_economical_base",
+      "name": "The Irish Economy",
+      "description": "The Irish economy has a lot of work needed, but we have the will to do it.",
+      "x": 14,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_subsidize_local_industrial_projects",
+      "name": "Subsidize Local Industrial Projects",
+      "description": "If we subsidize local industrial projects, we can obtain faster construction times from our workers.",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_irish_economical_base"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_build_1_infrastructure_so_the_uk_shuts_up",
+      "name": "UK infrastructure buildup",
+      "description": "The UK player is probably a yapper, just do this focus.",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_irish_economical_base"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_grants_for_small_buisnesses",
+      "name": "Grants for Small Buisnesses",
+      "description": "If we give grants to small buisnesses, they can expand easier than if they didn't have the grants.",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_irish_economical_base"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_raise_tariffs",
+      "name": "Raise Tariffs",
+      "description": "Raising tariffs will bring in some much needed tax income for the country.",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_grants_for_small_buisnesses"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_encourage_local_consumption",
+      "name": "Encourage Local Consumption",
+      "description": "Encouraging local consumption will increase profits from our own corporations, increasing tax income for our government.",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_subsidize_local_industrial_projects"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_start_attracting_investments",
+      "name": "Start Attracting Investments",
+      "description": "Foreign or local investments are heavily needed for the future of ireland, without these we would be without anything.",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_raise_tariffs",
+        "IRE_encourage_local_consumption"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_establish_protectionist_policies",
+      "name": "Establish Protectionist Policies",
+      "description": "We shall continue with the Fianna Fail policies of protectionism, and export less goods outside of ireland.",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_irish_economical_base"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_attract_foreign_investment",
+      "name": "Attract Foreign Investment",
+      "description": "Attracting foreign investment is the right call, our local industries can not give enough capital to sustain ireland.",
+      "x": 4,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_start_attracting_investments"
+      ],
+      "mutuallyExclusive": [
+        "IRE_bring_in_local_investment"
+      ],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_allied_investment",
+      "name": "Allied Investment",
+      "description": "Allied investment into Ireland will greatly benefit us, them having large reserves of capital available.",
+      "x": 1,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_attract_foreign_investment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_british_investment",
+      "name": "British Investment",
+      "description": "The british are our closest friend and enemy, we should attempt to cool down relations by asking for investment.",
+      "x": -1,
+      "y": 6,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_allied_investment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_american_investment",
+      "name": "American Investment",
+      "description": "America has always been close with ireland, we should ask for some capital to dump into our economy.",
+      "x": 1,
+      "y": 6,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_allied_investment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_french_investment",
+      "name": "French Investment",
+      "description": "France has been a good ally of ireland for a while now, we should ask for capital to help us.",
+      "x": 3,
+      "y": 6,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_allied_investment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_axis_investment",
+      "name": "Axis Investment",
+      "description": "Axis Investment inside ireland could be highly profitable for both sides, lets consider this course of action.",
+      "x": 7,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_attract_foreign_investment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_italian_investment",
+      "name": "Italian Investment",
+      "description": "Italian investment inside ireland could be lucurative, lets have them dump money into ireland for the good of the nation, and their finaces.",
+      "x": 5,
+      "y": 6,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_axis_investment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_german_investment",
+      "name": "German Investment",
+      "description": "Germany has helped us time and time again, lets ask them for a stimulus package to help our industrial efforts.",
+      "x": 7,
+      "y": 6,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_axis_investment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_japanese_investment",
+      "name": "Japanese Investment",
+      "description": "Japan is close with germany, maybe through them we could ask for some ship building expertise.",
+      "x": 9,
+      "y": 6,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_axis_investment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_foreign_factories",
+      "name": "Foreign Factories",
+      "description": "We have a rare chance to export factories overseas, without losing them. Lets use this chance.",
+      "x": 4,
+      "y": 7,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_italian_investment",
+        "IRE_german_investment",
+        "IRE_japanese_investment",
+        "IRE_american_investment",
+        "IRE_british_investment",
+        "IRE_french_investment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_bring_in_local_investment",
+      "name": "Bring in Local Investment",
+      "description": "Local investment is the correct choice, we can bring industrial outputs out more with our own companies.",
+      "x": -4,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_start_attracting_investments"
+      ],
+      "mutuallyExclusive": [
+        "IRE_attract_foreign_investment"
+      ],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_intensification_of_industry",
+      "name": "Intensification of Industry",
+      "description": "Intensification of Industry is a critical policy for making sure we can produce enough factories without having a massive amount of room to build with.",
+      "x": -5,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_bring_in_local_investment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_vertical_building",
+      "name": "Vertical Building",
+      "description": "Our factories need to be built vertically to make sure we have enough room for all of our needs.",
+      "x": -3,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_bring_in_local_investment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_supercharge_economical_activity",
+      "name": "Supercharge Economical Activity",
+      "description": "Supercharging our industrial sector shall come with many benefits, but could ruin the government budget for a while.",
+      "x": -4,
+      "y": 6,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_vertical_building",
+        "IRE_intensification_of_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_pour_funds_into_the_economy",
+      "name": "Pour Funds into the Economy",
+      "description": "Pouring more funds into the economy shall increase the output of our factories by more and more.",
+      "x": -4,
+      "y": 7,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_supercharge_economical_activity"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_the_irish_armed_forces",
+      "name": "The Irish Armed Forces",
+      "description": "",
+      "x": -3,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_irish_air_force",
+      "name": "The Irish Air Force",
+      "description": "",
+      "x": -7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_the_irish_armed_forces"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_irish_army_corps",
+      "name": "The Irish Army Corp",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_the_irish_armed_forces"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_irish_navy",
+      "name": "The Irish Navy",
+      "description": "",
+      "x": 7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_the_irish_armed_forces"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_further_training_measures",
+      "name": "Increase Training Standards",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_irish_army_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_build_equipment_testing_labs",
+      "name": "Build Equipment Testing Labs",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_irish_army_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_professionalize_the_irish_army",
+      "name": "Fully Professionalize the Irish Army",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_further_training_measures",
+        "IRE_build_equipment_testing_labs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_irish_marine_service",
+      "name": "Irish Marine Service",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_irish_army_corps",
+        "IRE_irish_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_the_irish_guards",
+      "name": "The Irish Guards Division",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_irish_army_corps",
+        "IRE_irish_air_force"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_establish_the_provisional_marine_battalion",
+      "name": "The Irish Provisional Marine Division",
+      "description": "",
+      "x": 4,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_irish_marine_service"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_the_16_regiments",
+      "name": "The 16 Regiments",
+      "description": "",
+      "x": -4,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_the_irish_guards"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_invest_into_motor_technology",
+      "name": "Invest into Motor Technology",
+      "description": "",
+      "x": -1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_professionalize_the_irish_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_counter_armor",
+      "name": "Counter Armor",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_professionalize_the_irish_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_hire_american_theorists",
+      "name": "Hire American Theorists",
+      "description": "",
+      "x": -3,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_professionalize_the_irish_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_hire_british_theorists",
+      "name": "Hire British Theorists",
+      "description": "",
+      "x": 3,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_professionalize_the_irish_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_dig_up_irish_civil_war_caches",
+      "name": "Dig up Irish Civil War Era Caches",
+      "description": "",
+      "x": 2,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_counter_armor"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_refurbish_old_trucks",
+      "name": "Refurbish Old Trucks",
+      "description": "",
+      "x": -2,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_invest_into_motor_technology"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_invest_into_armour",
+      "name": "Invest into Armor Technology",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_invest_into_motor_technology",
+        "IRE_counter_armor"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_38th_irish_regiment",
+      "name": "38th Irish Armor Regiment",
+      "description": "",
+      "x": 0,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_refurbish_old_trucks",
+        "IRE_dig_up_irish_civil_war_caches",
+        "IRE_invest_into_armour"
+      ],
+      "mutuallyExclusive": [
+        "IRE_101st_screaming_eagles",
+        "IRE_royal_marine_regiment"
+      ],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_101st_screaming_eagles",
+      "name": "101st Screaming Eagles Volunteers",
+      "description": "",
+      "x": -4,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_the_16_regiments",
+        "IRE_hire_american_theorists"
+      ],
+      "mutuallyExclusive": [
+        "IRE_38th_irish_regiment",
+        "IRE_royal_marine_regiment"
+      ],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_royal_marine_regiment",
+      "name": "Royal Marine Regiment Volunteers",
+      "description": "",
+      "x": 4,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_hire_british_theorists",
+        "IRE_establish_the_provisional_marine_battalion"
+      ],
+      "mutuallyExclusive": [
+        "IRE_38th_irish_regiment",
+        "IRE_101st_screaming_eagles"
+      ],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_sponsor_british_ship_building",
+      "name": "Sponsor British-Irish Ship Building",
+      "description": "",
+      "x": 6,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_irish_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_help_expand_refit_yards",
+      "name": "Expand British Repair Yards",
+      "description": "",
+      "x": 6,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_sponsor_british_ship_building"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_buy_british_naval_technology",
+      "name": "Buy British Naval Technology",
+      "description": "",
+      "x": 8,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_irish_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_expand_local_shipyards",
+      "name": "Expand Local Shipyards",
+      "description": "",
+      "x": 8,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_buy_british_naval_technology"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_irish_british_naval_excersizes",
+      "name": "Irish British Naval Excersizes",
+      "description": "",
+      "x": 7,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_help_expand_refit_yards",
+        "IRE_expand_local_shipyards"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_develop_naval_research_lab",
+      "name": "Develop Naval Research Lab",
+      "description": "",
+      "x": 7,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_irish_british_naval_excersizes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_focus_on_anti_submarine_warfare",
+      "name": "Focus On Anti-Submarine Warfare",
+      "description": "",
+      "x": 6,
+      "y": 6,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_irish_british_naval_excersizes"
+      ],
+      "mutuallyExclusive": [
+        "IRE_establish_the_grand_surface_fleet"
+      ],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_establish_the_grand_surface_fleet",
+      "name": "Establish the Irish Grand Surface Fleet",
+      "description": "",
+      "x": 8,
+      "y": 6,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_irish_british_naval_excersizes"
+      ],
+      "mutuallyExclusive": [
+        "IRE_focus_on_anti_submarine_warfare"
+      ],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_expand_air_bases",
+      "name": "Expand Air Bases",
+      "description": "",
+      "x": -6,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_irish_air_force"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_the_air_shield",
+      "name": "The Air Shield",
+      "description": "",
+      "x": -8,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_irish_air_force"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_further_airbase_expansion",
+      "name": "Further Airbase Expansion",
+      "description": "",
+      "x": -6,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_expand_air_bases"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "IRE_let_flak_fill_the_sky",
+      "name": "Let Flak Fill the Sky",
+      "description": "",
+      "x": -8,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "IRE_the_air_shield"
+      ],
+      "mutuallyExclusive": [],
+      "source": "ireland.txt",
+      "shared": false
+    },
+    {
+      "id": "COM_together_for_britain",
+      "name": "Together for Britain",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "shared_reference",
+      "shared": true
+    }
+  ]
+}

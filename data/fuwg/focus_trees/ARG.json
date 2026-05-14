@@ -1,0 +1,2255 @@
+{
+  "mod": "FUWG",
+  "tag": "ARG",
+  "country": "Argentina",
+  "treeId": "argentine_focus_tree",
+  "sourceFile": "argentina.txt",
+  "focusCount": 154,
+  "focuses": [
+    {
+      "id": "ARG_roberto_maria_ortiz",
+      "name": "Roberto Maria Ortiz",
+      "description": "",
+      "x": 5,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "ARG_a_call_to_reform",
+        "ARG_the_clean_election"
+      ],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_defense_and_democracy",
+      "name": "Defense And Democracy",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_roberto_maria_ortiz"
+      ],
+      "mutuallyExclusive": [
+        "ARG_work_with_the_nationalists"
+      ],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_work_with_the_nationalists",
+      "name": "Work With The Nationalists",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_roberto_maria_ortiz"
+      ],
+      "mutuallyExclusive": [
+        "ARG_defense_and_democracy"
+      ],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_crack_down_on_corruption",
+      "name": "Crack Down On Corruption",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_defense_and_democracy",
+        "ARG_work_with_the_nationalists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_british_cooperation",
+      "name": "British Cooperation",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_defense_and_democracy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_cut_ties_with_britain",
+      "name": "Cut Ties With Britain",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_work_with_the_nationalists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_the_castillo_cabinet",
+      "name": "The Castillo Cabinet",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_british_cooperation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_import_substitution",
+      "name": "Import Substitution",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_british_cooperation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_emphasis_on_public_works",
+      "name": "Emphasis On Public Works",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_import_substitution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_towards_a_greater_argentina",
+      "name": "Towards A Greater Argentina",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_emphasis_on_public_works"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_universidad_de_buenos_aires",
+      "name": "Universidad De Buenos Aires",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_towards_a_greater_argentina"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_consolidating_power",
+      "name": "Consolidating Power",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_the_castillo_cabinet"
+      ],
+      "mutuallyExclusive": [
+        "ARG_maintain_the_status_quo"
+      ],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_maintain_the_status_quo",
+      "name": "Maintain The Status Quo",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_the_castillo_cabinet"
+      ],
+      "mutuallyExclusive": [
+        "ARG_consolidating_power"
+      ],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_march_to_la_casa_rosada",
+      "name": "March To La Casa Rosada",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_consolidating_power"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_intervenciones_federales",
+      "name": "Intervenciones Federales",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_maintain_the_status_quo"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_balancing_act",
+      "name": "Balancing Act",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_march_to_la_casa_rosada"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_subdue_dissension",
+      "name": "Subdue Dissension",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_intervenciones_federales"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_the_american_push",
+      "name": "The American Push",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_balancing_act",
+        "ARG_subdue_dissension"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_juan_peron_elected",
+      "name": "Juan Peron Elected",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_balancing_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_peronism",
+      "name": "Peronism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_juan_peron_elected"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_maintain_neutrality",
+      "name": "Maintain Neutrality",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_the_american_push"
+      ],
+      "mutuallyExclusive": [
+        "ARG_join_the_allies"
+      ],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_support_radical_nationalism",
+      "name": "Support Radical Nationalism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_cut_ties_with_britain"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_corporatism",
+      "name": "Corporatism",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_cut_ties_with_britain"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_reestablish_ligas_patrioticas",
+      "name": "Reestablish Ligas Patrioticas",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_corporatism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_fascist_researchers",
+      "name": "Fascist Researchers",
+      "description": "",
+      "x": 0,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_corporatism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_hitler_1",
+      "name": "Hitler 1",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_hitler_2",
+      "name": "Hitler 2",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_hitler_1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_hitler_3",
+      "name": "Hitler 3",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_hitler_1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_hitler_4",
+      "name": "Hitler 4",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_hitler_1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_support_the_spanish_coup",
+      "name": "Support The Spanish Coup",
+      "description": "",
+      "x": 8,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_cut_ties_with_britain"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_demand_spanish_compensation",
+      "name": "Demand Spanish Compensation",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_support_the_spanish_coup"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_invite_spanish_nationalists",
+      "name": "Invite Spanish Nationalists",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_support_the_spanish_coup"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_encourage_german_investments",
+      "name": "Encourage German Investments",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_support_radical_nationalism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_encourage_italian_argentine_diplomacy",
+      "name": "Encourage Italian Argentine Diplomacy",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_support_radical_nationalism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_guardia_nacional",
+      "name": "Guardia Nacional",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_encourage_german_investments"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_union_nacional_fascista",
+      "name": "Union Nacional Fascista",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_encourage_italian_argentine_diplomacy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_rapid_militirization",
+      "name": "Rapid Militirization",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_guardia_nacional"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_argentine_nationalism",
+      "name": "Argentine Nationalism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_union_nacional_fascista"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_war_division",
+      "name": "War Division",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_rapid_militirization",
+        "ARG_argentine_nationalism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_argentina_first",
+      "name": "Argentina First",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_war_division"
+      ],
+      "mutuallyExclusive": [
+        "ARG_join_the_axis"
+      ],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_join_the_axis",
+      "name": "Join The Axis",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_war_division"
+      ],
+      "mutuallyExclusive": [
+        "ARG_argentina_first"
+      ],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_our_own_path",
+      "name": "Our Own Path",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_maintain_neutrality",
+        "ARG_argentina_first"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_dominate_the_south",
+      "name": "Dominate The South",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_argentina_first",
+        "ARG_join_the_axis",
+        "ARG_maintain_neutrality"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_preparations_for_war",
+      "name": "Preparations For War",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_dominate_the_south"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_conquer_paraguay",
+      "name": "Conquer Paraguay",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_dominate_the_south"
+      ],
+      "mutuallyExclusive": [
+        "ARG_paraguayan_ultimatum"
+      ],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_paraguayan_ultimatum",
+      "name": "Paraguayan Ultimatum",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_dominate_the_south"
+      ],
+      "mutuallyExclusive": [
+        "ARG_conquer_paraguay"
+      ],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_revive_the_colonial_plan",
+      "name": "Revive The Colonial Plan",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_cut_ties_with_britain"
+      ],
+      "mutuallyExclusive": [
+        "ARG_conquer_uruguay"
+      ],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_conquer_uruguay",
+      "name": "Conquer Uruguay",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_cut_ties_with_britain"
+      ],
+      "mutuallyExclusive": [
+        "ARG_revive_the_colonial_plan"
+      ],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_reach_out_to_chile",
+      "name": "Reach Out To Chile",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_conquer_paraguay",
+        "ARG_paraguayan_ultimatum"
+      ],
+      "mutuallyExclusive": [
+        "ARG_chilean_ultimatum"
+      ],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_chilean_ultimatum",
+      "name": "Chilean Ultimatum",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_conquer_paraguay",
+        "ARG_paraguayan_ultimatum"
+      ],
+      "mutuallyExclusive": [
+        "ARG_reach_out_to_chile"
+      ],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_the_old_enemy",
+      "name": "The Old Enemy",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_reach_out_to_chile",
+        "ARG_chilean_ultimatum"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_south_american_unity",
+      "name": "South American Unity",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_the_old_enemy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_integrate_operation_bolivar",
+      "name": "Integrate Operation Bolivar",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_dominate_the_south"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_release_hellmuth",
+      "name": "Release Hellmuth",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_integrate_operation_bolivar"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_anti_american_propaganda",
+      "name": "Anti American Propaganda",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_release_hellmuth"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_the_war_machine",
+      "name": "The War Machine",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_dominate_the_south"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_secure_the_borders",
+      "name": "Secure The Borders",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_the_war_machine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_argentine_island_sovereignty",
+      "name": "Argentine Island Sovereignty",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_secure_the_borders"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_the_clean_election",
+      "name": "The Clean Election",
+      "description": "",
+      "x": 0,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "ARG_a_call_to_reform",
+        "ARG_roberto_maria_ortiz"
+      ],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_in_memory_of_yrigoyen",
+      "name": "In Memory Of Yrigoyen",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_the_clean_election"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_anti_corruption_policies",
+      "name": "Anti Corruption Policies",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_in_memory_of_yrigoyen"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_promote_urbanization",
+      "name": "Promote Urbanization",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_in_memory_of_yrigoyen"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_a_true_democracy",
+      "name": "A True Democracy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_anti_corruption_policies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_secure_the_opposition",
+      "name": "Secure The Opposition",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_promote_urbanization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_argentina_for_all",
+      "name": "Argentina For All",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_a_true_democracy",
+        "ARG_secure_the_opposition"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_reinforce_the_education_system",
+      "name": "Reinforce The Education System",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_anti_corruption_policies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_university_reforms",
+      "name": "University Reforms",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_reinforce_the_education_system"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_regulated_national_salaries",
+      "name": "Regulated National Salaries",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_promote_urbanization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_social_welfare_fund",
+      "name": "Social Welfare Fund",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_regulated_national_salaries"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_internal_focus",
+      "name": "Internal Focus",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_argentina_for_all"
+      ],
+      "mutuallyExclusive": [
+        "ARG_seek_american_support",
+        "ARG_british_gaurantee"
+      ],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_alvears_democracy",
+      "name": "Alvears Democracy",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_internal_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_british_gaurantee",
+      "name": "British Gaurantee",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_argentina_for_all"
+      ],
+      "mutuallyExclusive": [
+        "ARG_seek_american_support",
+        "ARG_internal_focus"
+      ],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_seek_american_support",
+      "name": "Seek American Support",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_argentina_for_all"
+      ],
+      "mutuallyExclusive": [
+        "ARG_british_gaurantee",
+        "ARG_internal_focus"
+      ],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_royal_airforce_influence",
+      "name": "Royal Airforce Influence",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_british_gaurantee"
+      ],
+      "mutuallyExclusive": [
+        "ARG_royal_navy_influence"
+      ],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_royal_navy_influence",
+      "name": "Royal Navy Influence",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_british_gaurantee"
+      ],
+      "mutuallyExclusive": [
+        "ARG_royal_airforce_influence"
+      ],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_reinforced_alliance",
+      "name": "Reinforced Alliance",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_royal_navy_influence",
+        "ARG_royal_airforce_influence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_us_army_training",
+      "name": "Us Army Training",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_seek_american_support"
+      ],
+      "mutuallyExclusive": [
+        "ARG_american_defense_investments"
+      ],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_american_defense_investments",
+      "name": "American Defense Investments",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_seek_american_support"
+      ],
+      "mutuallyExclusive": [
+        "ARG_us_army_training"
+      ],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_joint_military_exercises",
+      "name": "Joint Military Exercises",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_us_army_training",
+        "ARG_american_defense_investments"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_join_the_allies",
+      "name": "Join The Allies",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_joint_military_exercises",
+        "ARG_reinforced_alliance",
+        "ARG_alvears_democracy",
+        "ARG_the_american_push"
+      ],
+      "mutuallyExclusive": [
+        "ARG_bastion_of_democracy",
+        "ARG_maintain_neutrality"
+      ],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_bastion_of_democracy",
+      "name": "Bastion Of Democracy",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_joint_military_exercises",
+        "ARG_reinforced_alliance",
+        "ARG_alvears_democracy"
+      ],
+      "mutuallyExclusive": [
+        "ARG_join_the_allies"
+      ],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_align_with_the_monroe_doctrine",
+      "name": "Align With The Monroe Doctrine",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_join_the_allies",
+        "ARG_bastion_of_democracy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_south_american_alliance",
+      "name": "South American Alliance",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_align_with_the_monroe_doctrine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_bolstering_the_army",
+      "name": "Bolstering The Army",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_south_american_alliance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_the_second_argentine_republic",
+      "name": "The Second Argentine Republic",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_bolstering_the_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_envoy_to_london",
+      "name": "Envoy To London",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_align_with_the_monroe_doctrine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_study_the_battle_of_the_river_plate",
+      "name": "Study The Battle Of The River Plate",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_envoy_to_london"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_islas_del_atlantico_sur",
+      "name": "Islas Del Atlantico Sur",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_envoy_to_london"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_improving_the_islands",
+      "name": "Improving The Islands",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_islas_del_atlantico_sur"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_firmes_volamos",
+      "name": "Firmes Volamos",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_study_the_battle_of_the_river_plate"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_extinguish_south_american_fascism",
+      "name": "Extinguish South American Fascism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_firmes_volamos",
+        "ARG_the_second_argentine_republic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_american_allyship",
+      "name": "American Allyship",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_align_with_the_monroe_doctrine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_us_marine_program",
+      "name": "Us Marine Program",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_american_allyship"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_counter_intelligence_program",
+      "name": "Counter Intelligence Program",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_american_allyship"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_end_operation_bolivar",
+      "name": "End Operation Bolivar",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_counter_intelligence_program"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_encourage_the_red_scare",
+      "name": "Encourage The Red Scare",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_us_marine_program"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_extinguish_south_american_communism",
+      "name": "Extinguish South American Communism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_encourage_the_red_scare",
+        "ARG_the_second_argentine_republic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_a_call_to_reform",
+      "name": "A Call To Reform",
+      "description": "",
+      "x": -12,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "ARG_roberto_maria_ortiz",
+        "ARG_the_clean_election"
+      ],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_invite_ghioldi_back_to_argentina",
+      "name": "Invite Ghioldi Back To Argentina",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_a_call_to_reform"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_support_the_spanish_republicans",
+      "name": "Support The Spanish Republicans",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_a_call_to_reform"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_legitimize_the_PCA",
+      "name": "Legitimize The Pca",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_invite_ghioldi_back_to_argentina"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_reach_out_to_the_soviet_union",
+      "name": "Reach Out To The Soviet Union",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_legitimize_the_PCA"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_unite_the_workers_of_argentina",
+      "name": "Unite The Workers Of Argentina",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_legitimize_the_PCA"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_viva_la_revolucion",
+      "name": "Viva La Revolucion",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_reach_out_to_the_soviet_union",
+        "ARG_unite_the_workers_of_argentina"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_forge_our_own_future",
+      "name": "Forge Our Own Future",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_viva_la_revolucion"
+      ],
+      "mutuallyExclusive": [
+        "ARG_align_with_the_soviets"
+      ],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_women_in_industry",
+      "name": "Women In Industry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_forge_our_own_future"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_support_the_farmers",
+      "name": "Support The Farmers",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_women_in_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_socialist_volunteers",
+      "name": "Socialist Volunteers",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_women_in_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_the_buenos_aires_conference",
+      "name": "The Buenos Aires Conference",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_support_the_farmers",
+        "ARG_socialist_volunteers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_align_with_the_soviets",
+      "name": "Align With The Soviets",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_viva_la_revolucion"
+      ],
+      "mutuallyExclusive": [
+        "ARG_forge_our_own_future"
+      ],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_soviet_industrial_model",
+      "name": "Soviet Industrial Model",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_align_with_the_soviets"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_committee_of_state_security",
+      "name": "Committee Of State Security",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_soviet_industrial_model"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_russian_manufacturers",
+      "name": "Russian Manufacturers",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_in_memory_of_yrigoyen"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_centralize_power",
+      "name": "Centralize Power",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_russian_manufacturers",
+        "ARG_committee_of_state_security"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_workers_rights",
+      "name": "Workers Rights",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_forge_our_own_future",
+        "ARG_align_with_the_soviets"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_reform_our_industry",
+      "name": "Reform Our Industry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_workers_rights"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_empower_the_fjc",
+      "name": "Empower The Fjc",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_reform_our_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_state_atheism",
+      "name": "State Atheism",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_empower_the_fjc"
+      ],
+      "mutuallyExclusive": [
+        "ARG_liberation_theology"
+      ],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_liberation_theology",
+      "name": "Liberation Theology",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_empower_the_fjc"
+      ],
+      "mutuallyExclusive": [
+        "ARG_state_atheism"
+      ],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_socialist_researchers",
+      "name": "Socialist Researchers",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_state_atheism",
+        "ARG_liberation_theology"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_conquer_south_america",
+      "name": "Conquer South America",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_centralize_power",
+        "ARG_the_buenos_aires_conference"
+      ],
+      "mutuallyExclusive": [
+        "ARG_unify_south_america"
+      ],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_integrate_the_motherland",
+      "name": "Integrate The Motherland",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_conquer_south_america"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_unify_south_america",
+      "name": "Unify South America",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_the_buenos_aires_conference"
+      ],
+      "mutuallyExclusive": [
+        "ARG_conquer_south_america"
+      ],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_a_red_south_america",
+      "name": "A Red South America",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_unify_south_america",
+        "ARG_conquer_south_america"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_improve_patagonia",
+      "name": "Improve Patagonia",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_the_buenos_aires_conference"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_establish_the_free_association",
+      "name": "Establish The Free Association",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_improve_patagonia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_no_gods_no_masters",
+      "name": "No Gods No Masters",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_establish_the_free_association"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_banco_central_de_la_republica_argentina",
+      "name": "Banco Central De La Republica Argentina",
+      "description": "",
+      "x": 22,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_reach_out_to_the_great_powers",
+      "name": "Reach Out To The Great Powers",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_banco_central_de_la_republica_argentina"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_industrial_expansion",
+      "name": "Industrial Expansion",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_banco_central_de_la_republica_argentina"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_production_initiative",
+      "name": "Production Initiative",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_banco_central_de_la_republica_argentina"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_economic_tax_reforms",
+      "name": "Economic Tax Reforms",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_banco_central_de_la_republica_argentina"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_economic_reactivation_act",
+      "name": "Economic Reactivation Act",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_banco_central_de_la_republica_argentina"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_immigration_wave",
+      "name": "Immigration Wave",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_economic_reactivation_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_develop_civilian_economy",
+      "name": "Develop Civilian Economy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_immigration_wave"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_the_argentinian_metropole",
+      "name": "The Argentinian Metropole",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_develop_civilian_economy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_invest_in_the_roads",
+      "name": "Invest In The Roads",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_economic_tax_reforms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_invest_in_the_railways",
+      "name": "Invest In The Railways",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_economic_tax_reforms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_expand_steel_extraction",
+      "name": "Expand Steel Extraction",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_invest_in_the_roads",
+        "ARG_invest_in_the_railways"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_expand_aluminum_extraction",
+      "name": "Expand Aluminum Extraction",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_invest_in_the_railways",
+        "ARG_invest_in_the_roads"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_yacimientos_petroliferos_fiscales",
+      "name": "Yacimientos Petroliferos Fiscales",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_expand_aluminum_extraction",
+        "ARG_expand_steel_extraction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_rapid_urbanization",
+      "name": "Rapid Urbanization",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_industrial_expansion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_agricultural_improvements",
+      "name": "Agricultural Improvements",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_industrial_expansion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_military_production_lines",
+      "name": "Military Production Lines",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_rapid_urbanization",
+        "ARG_agricultural_improvements"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_capitalize_the_beef_industry",
+      "name": "Capitalize The Beef Industry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_agricultural_improvements",
+        "ARG_rapid_urbanization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_revisit_the_roca_runciman_treaty",
+      "name": "Revisit The Roca Runciman Treaty",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_capitalize_the_beef_industry",
+        "ARG_military_production_lines"
+      ],
+      "mutuallyExclusive": [
+        "ARG_a_new_trading_partner"
+      ],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_a_new_trading_partner",
+      "name": "A New Trading Partner",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_capitalize_the_beef_industry",
+        "ARG_military_production_lines"
+      ],
+      "mutuallyExclusive": [
+        "ARG_revisit_the_roca_runciman_treaty"
+      ],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_develop_the_electricity_sector",
+      "name": "Develop The Electricity Sector",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_production_initiative"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_invest_in_construction_guilds",
+      "name": "Invest In Construction Guilds",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_develop_the_electricity_sector"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "ARG_technical_schools",
+      "name": "Technical Schools",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "ARG_invest_in_construction_guilds"
+      ],
+      "mutuallyExclusive": [],
+      "source": "argentina.txt",
+      "shared": false
+    },
+    {
+      "id": "SMB_army",
+      "name": "Army",
+      "description": "",
+      "x": 0,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "toa_shared_military_branch.txt",
+      "shared": true
+    },
+    {
+      "id": "SMB_air_force",
+      "name": "Air Force",
+      "description": "",
+      "x": 8,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "toa_shared_military_branch.txt",
+      "shared": true
+    },
+    {
+      "id": "SMB_navy",
+      "name": "Navy",
+      "description": "",
+      "x": 7,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "toa_shared_military_branch.txt",
+      "shared": true
+    },
+    {
+      "id": "SAM_the_yoke_of_monroe",
+      "name": "The Yoke Of Monroe",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "shared_reference",
+      "shared": true
+    }
+  ]
+}

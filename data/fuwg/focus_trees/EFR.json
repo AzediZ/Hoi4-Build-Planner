@@ -1,0 +1,2138 @@
+{
+  "mod": "FUWG",
+  "tag": "EFR",
+  "country": "Vichy France",
+  "treeId": "vichy_french_focus",
+  "sourceFile": "vichy_france.txt",
+  "focusCount": 143,
+  "focuses": [
+    {
+      "id": "EFR_establish_vichy_regime",
+      "name": "Establish Vichy Regime",
+      "description": "",
+      "x": 25,
+      "y": 0,
+      "cost": 1,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_blame_the_third_republic",
+      "name": "Blame the Third Republic",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "EFR_establish_vichy_regime"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_economic_cooperation_germany",
+      "name": "Economic Cooperation with Germany",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "EFR_blame_the_third_republic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_military_cooperation_germany",
+      "name": "Military Cooperation with Germany",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "EFR_economic_cooperation_germany"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_begin_rearmament",
+      "name": "Begin Rearmament",
+      "description": "",
+      "x": -27,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "EFR_military_cooperation_germany"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_prioritize_offense",
+      "name": "Prioritize Offensive Doctrine",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_begin_rearmament"
+      ],
+      "mutuallyExclusive": [
+        "EFR_prioritize_defense"
+      ],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_prioritize_defense",
+      "name": "Prioritize Defensive Doctrine",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_begin_rearmament"
+      ],
+      "mutuallyExclusive": [
+        "EFR_prioritize_offense"
+      ],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_focus_on_tanks",
+      "name": "Focus on Tank Development",
+      "description": "",
+      "x": 14,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_prioritize_defense",
+        "EFR_prioritize_offense"
+      ],
+      "mutuallyExclusive": [
+        "EFR_focus_on_infantry",
+        "EFR_focus_on_special_forces",
+        "EFR_focus_on_motorized_army"
+      ],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_reorganize_schneider_creusot",
+      "name": "Reorganize Schneider-Creusot",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_focus_on_tanks"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_modernize_schneider_creusot",
+      "name": "Modernize Schneider-Creusot",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_reorganize_schneider_creusot"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_begin_armored_car",
+      "name": "Develop Armored Cars",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_focus_on_tanks"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_import_german_pumas",
+      "name": "Import German Puma Armored Cars",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_begin_armored_car"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_license_production",
+      "name": "License Foreign Production",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_focus_on_tanks"
+      ],
+      "mutuallyExclusive": [
+        "EFR_local_production"
+      ],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_utilize_german_industrial_expertise",
+      "name": "Utilize German Industrial Expertise",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_license_production",
+        "EFR_local_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_local_production",
+      "name": "Focus on Domestic Production",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_focus_on_tanks"
+      ],
+      "mutuallyExclusive": [
+        "EFR_license_production"
+      ],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_advanced_tank_guns",
+      "name": "Develop Advanced Tank Guns",
+      "description": "",
+      "x": -2,
+      "y": 3,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_utilize_german_industrial_expertise",
+        "EFR_focus_on_motorized_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_advanced_howitzers",
+      "name": "Develop Advanced Howitzers",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_utilize_german_industrial_expertise",
+        "EFR_focus_on_motorized_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_focus_on_motorized_army",
+      "name": "Focus on Motorized Army",
+      "description": "",
+      "x": 9,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_prioritize_defense",
+        "EFR_prioritize_offense"
+      ],
+      "mutuallyExclusive": [
+        "EFR_focus_on_infantry",
+        "EFR_focus_on_special_forces",
+        "EFR_focus_on_tanks"
+      ],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_expand_motorized_divisions",
+      "name": "Expand Motorized Divisions",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_focus_on_motorized_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_develop_mech",
+      "name": "Develop Mechanized Divisions",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_focus_on_motorized_army",
+        "EFR_focus_on_tanks"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_motorize_the_army",
+      "name": "Motorize the Army",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_expand_motorized_divisions",
+        "EFR_develop_mech"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_quality_over_quantity",
+      "name": "Focus on Quality Over Quantity",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_motorize_the_army",
+        "EFR_mechanize_the_army"
+      ],
+      "mutuallyExclusive": [
+        "EFR_quantity_over_quality"
+      ],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_mechanize_the_army",
+      "name": "Mechanize the Army",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_develop_mech",
+        "EFR_expand_motorized_divisions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_quantity_over_quality",
+      "name": "Prioritize Quantity Over Quality",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_motorize_the_army",
+        "EFR_mechanize_the_army"
+      ],
+      "mutuallyExclusive": [
+        "EFR_quality_over_quantity"
+      ],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_mass_production",
+      "name": "Implement Mass Production",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_mechanize_the_army",
+        "EFR_motorize_the_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_focus_on_special_forces",
+      "name": "Focus on Special Forces",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_prioritize_defense",
+        "EFR_prioritize_offense"
+      ],
+      "mutuallyExclusive": [
+        "EFR_focus_on_infantry",
+        "EFR_focus_on_motorized_army",
+        "EFR_focus_on_tanks"
+      ],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_german_training",
+      "name": "Implement German Training",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_prioritize_defense",
+        "EFR_prioritize_offense"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_italian_training",
+      "name": "Implement Italian Training",
+      "description": "",
+      "x": 4,
+      "y": 2,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_prioritize_defense",
+        "EFR_prioritize_offense"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_purchase_guns",
+      "name": "Purchase Foreign Guns",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_focus_on_special_forces"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_when_they_least_expect_it",
+      "name": "Attack When They Least Expect It",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_focus_on_special_forces"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_where_they_least_expect_it",
+      "name": "Strike Where They Least Expect It",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_when_they_least_expect_it"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_expand_manufactures",
+      "name": "Expand Armaments Factories",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_purchase_guns",
+        "EFR_convert_old_equipment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_darmes_de_chatellerault",
+      "name": "Expand Manufacture d'Armes de Chatellerault",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_expand_manufactures"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_fallschirmjager",
+      "name": "Adopt German Paratrooper Tactics",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_purchase_guns"
+      ],
+      "mutuallyExclusive": [
+        "EFR_establish_naval_landing_forces",
+        "EFR_expand_the_alpine_corps"
+      ],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_purchase_transport_planes",
+      "name": "Purchase Transport Aircraft",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_fallschirmjager"
+      ],
+      "mutuallyExclusive": [
+        "EFR_develop_out_own_transport_planes"
+      ],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_develop_out_own_transport_planes",
+      "name": "Develop our own Transport Planes",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_fallschirmjager"
+      ],
+      "mutuallyExclusive": [
+        "EFR_purchase_transport_planes"
+      ],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_modernize_infantry_equipment",
+      "name": "Modernize Infantry Equipment",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_focus_on_special_forces"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_establish_naval_landing_forces",
+      "name": "Establish Naval Landing Forces",
+      "description": "",
+      "x": 6,
+      "y": 2,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_purchase_guns",
+        "EFR_focus_on_tanks",
+        "EFR_focus_on_motorized_army"
+      ],
+      "mutuallyExclusive": [
+        "EFR_fallschirmjager",
+        "EFR_expand_the_alpine_corps"
+      ],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_get_amphibs",
+      "name": "Acquire Amphibious Craft",
+      "description": "",
+      "x": 6,
+      "y": 5,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_establish_naval_landing_forces"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_expand_the_alpine_corps",
+      "name": "Expand the Alpine Corps",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_purchase_guns"
+      ],
+      "mutuallyExclusive": [
+        "EFR_fallschirmjager",
+        "EFR_establish_naval_landing_forces"
+      ],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_commando",
+      "name": "Establish Commando Forces",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_establish_naval_landing_forces",
+        "EFR_fallschirmjager",
+        "EFR_expand_the_alpine_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_soviet",
+      "name": "Purge the Communist Rot",
+      "description": "",
+      "x": -1,
+      "y": 5,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_commando",
+        "EFR_mass_production",
+        "EFR_organize_logistics",
+        "EFR_form_armored_corps"
+      ],
+      "mutuallyExclusive": [
+        "EFR_usa"
+      ],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_usa",
+      "name": "End American Liberalism",
+      "description": "",
+      "x": 1,
+      "y": 5,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_commando",
+        "EFR_mass_production",
+        "EFR_organize_logistics",
+        "EFR_form_armored_corps"
+      ],
+      "mutuallyExclusive": [
+        "EFR_soviet"
+      ],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_improve_supplies",
+      "name": "Improve Supplies",
+      "description": "",
+      "x": 4,
+      "y": 4,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_commando",
+        "EFR_mass_production",
+        "EFR_organize_logistics",
+        "EFR_form_armored_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_focus_on_infantry",
+      "name": "Modernize Infantry",
+      "description": "",
+      "x": -10,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_prioritize_defense",
+        "EFR_prioritize_offense"
+      ],
+      "mutuallyExclusive": [
+        "EFR_focus_on_special_forces",
+        "EFR_focus_on_motorized_army",
+        "EFR_focus_on_tanks"
+      ],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_form_armored_corps",
+      "name": "Form Armored Corps",
+      "description": "",
+      "x": 2,
+      "y": 3,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_utilize_german_industrial_expertise",
+        "EFR_modernize_schneider_creusot"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_promote_prominent_generals",
+      "name": "Recruit German Officers",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_form_armored_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_convert_old_equipment",
+      "name": "Convert Obsolete Equipment",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_focus_on_infantry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_deploy_garrisons",
+      "name": "Deploy Garrison Forces",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_focus_on_infantry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_modernize_artillery",
+      "name": "Modernize Artillery",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_convert_old_equipment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_learn_defense",
+      "name": "Learn Defensive Tactics",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_modernize_artillery",
+        "EFR_modernize_guns"
+      ],
+      "mutuallyExclusive": [
+        "EFR_learn_offense"
+      ],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_organize_logistics",
+      "name": "Improve Logistics Organization",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_convert_old_equipment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_equipment_mass_production",
+      "name": "Mass Production of Equipment",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_convert_old_equipment",
+        "EFR_convert_old_artillery"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_modernize_guns",
+      "name": "Modernize Small Arms",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_convert_old_artillery"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_learn_offense",
+      "name": "Learn Offensive Tactics",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_modernize_guns",
+        "EFR_modernize_artillery"
+      ],
+      "mutuallyExclusive": [
+        "EFR_learn_defense"
+      ],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_convert_old_artillery",
+      "name": "Convert Obsolete Artillery",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_focus_on_infantry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_mobilize_men",
+      "name": "Mobilize Manpower",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_focus_on_infantry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_establish_aircraft_industry",
+      "name": "Establish Aircraft Industry",
+      "description": "",
+      "x": 0,
+      "y": 10,
+      "cost": 3,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_flying_fortress",
+      "name": "Develop Heavy Bombers",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_establish_aircraft_industry"
+      ],
+      "mutuallyExclusive": [
+        "EFR_tactical_air_force"
+      ],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_tactical_air_force",
+      "name": "Expand Tactical Air Force",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_establish_aircraft_industry"
+      ],
+      "mutuallyExclusive": [
+        "EFR_flying_fortress"
+      ],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_nimble_air_force",
+      "name": "Develop Nimble Fighter Force",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_establish_aircraft_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_airforce_inovations",
+      "name": "Aircraft Innovations",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_establish_aircraft_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_strategic_bombing",
+      "name": "Focus on Strategic Bombing",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_flying_fortress"
+      ],
+      "mutuallyExclusive": [
+        "EFR_army_support",
+        "EFR_winning_the_air_war",
+        "EFR_naval_support"
+      ],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_army_support",
+      "name": "Strengthen Army Support",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_flying_fortress",
+        "EFR_tactical_air_force"
+      ],
+      "mutuallyExclusive": [
+        "EFR_strategic_bombing",
+        "EFR_winning_the_air_war",
+        "EFR_naval_support"
+      ],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_winning_the_air_war",
+      "name": "Achieve Air Superiority",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_tactical_air_force",
+        "EFR_nimble_air_force"
+      ],
+      "mutuallyExclusive": [
+        "EFR_army_support",
+        "EFR_naval_support",
+        "EFR_strategic_bombing"
+      ],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_naval_support",
+      "name": "Enhance Naval Air Support",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_nimble_air_force"
+      ],
+      "mutuallyExclusive": [
+        "EFR_winning_the_air_war",
+        "EFR_army_support",
+        "EFR_strategic_bombing"
+      ],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_air_doctrine",
+      "name": "Develop Air Doctrine",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_winning_the_air_war",
+        "EFR_naval_support",
+        "EFR_strategic_bombing",
+        "EFR_army_support"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_aircraft_carriers",
+      "name": "Acquire Aircraft Carriers",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_naval_support",
+        "EFR_build_carriers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_naval_rearmament",
+      "name": "Naval Rearmament",
+      "description": "",
+      "x": 10,
+      "y": 10,
+      "cost": 3,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_restart_production",
+      "name": "Restart Naval Production",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_naval_rearmament"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_radar_research",
+      "name": "Invest in Radar Technology",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_establish_aircraft_industry",
+        "EFR_naval_rearmament"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_repurpose_lighthouses",
+      "name": "Repurpose Lighthouses for Radar",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_radar_research"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_build_carriers",
+      "name": "Construct Aircraft Carriers",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_restart_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_build_submarines",
+      "name": "Build Submarines",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_restart_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_expand_toulon",
+      "name": "Expand Toulon Naval Base",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_restart_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_modernize_toulon",
+      "name": "Modernize Toulon Naval Base",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_expand_toulon"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_build_battleships",
+      "name": "Build Battleships",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_restart_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_build_screens",
+      "name": "Build Escort Ships",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_restart_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_build_destroyers",
+      "name": "Build Destroyers",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_build_screens"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_build_cruisers",
+      "name": "Build Cruisers",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_build_destroyers",
+        "EFR_build_battleships"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_improve_coastal_defenses",
+      "name": "Improve Coastal Defenses",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_build_battleships"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_refit_ships",
+      "name": "Refit Existing Ships",
+      "description": "",
+      "x": 6,
+      "y": 2,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_restart_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_funny_1",
+      "name": "Reich's Custodian in France",
+      "description": "",
+      "x": 25,
+      "y": 12,
+      "cost": 3,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "EFR_funny_2",
+        "EFR_funny_3"
+      ],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_remove_political_opponents",
+      "name": "Remove Political Opponents",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_funny_1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_vichy_ss_militias",
+      "name": "Establish Vichy SS Militias",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_remove_political_opponents"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_consolidate_german_control",
+      "name": "Consolidate German Control",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_vichy_ss_militias"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_expand_the_occupation_zone",
+      "name": "Expand The Occupation Zone",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_consolidate_german_control"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_funny_2",
+      "name": "Father of the Nation",
+      "description": "",
+      "x": 27,
+      "y": 12,
+      "cost": 3,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "EFR_funny_1",
+        "EFR_funny_3"
+      ],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_arrest_the_traitors",
+      "name": "Arrest the traitors",
+      "description": "",
+      "x": 27,
+      "y": 13,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_funny_2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_mountaineer_legion",
+      "name": "The Mountaineer Legion",
+      "description": "",
+      "x": 27,
+      "y": 14,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_arrest_the_traitors"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_restoration",
+      "name": "Restoration of France",
+      "description": "",
+      "x": 27,
+      "y": 15,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_mountaineer_legion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_path_to_national_renewal",
+      "name": "Path to National Renewal",
+      "description": "",
+      "x": 27,
+      "y": 16,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_restoration"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_funny_3",
+      "name": "Milice’s Reign",
+      "description": "",
+      "x": 29,
+      "y": 12,
+      "cost": 3,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "EFR_funny_1",
+        "EFR_funny_2"
+      ],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_approach_the_gestapo",
+      "name": "Approach the Gestapo",
+      "description": "We should take over the Gestapo and monitor our nation by ourselves. They will handover the unwilling workers.",
+      "x": 29,
+      "y": 13,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_funny_3"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_french_nationalist_support",
+      "name": "French Nationalist Support",
+      "description": "",
+      "x": 29,
+      "y": 14,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_approach_the_gestapo"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_revitalization",
+      "name": "Revitalization",
+      "description": "",
+      "x": 29,
+      "y": 15,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_french_nationalist_support"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_land_for_resources",
+      "name": "Land for Resource rights",
+      "description": "",
+      "x": 29,
+      "y": 16,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_revitalization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_montroe_interview",
+      "name": "Montroe Interview",
+      "description": "",
+      "x": 7,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_military_cooperation_germany"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_increase_collaboration",
+      "name": "Increase Collaboration with Germany",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_montroe_interview"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_Service_dOrdre_legionnaire",
+      "name": "Service d'Ordre Légionnaire",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_increase_collaboration"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_volunteer_labor_to_germany",
+      "name": "Volunteer Labor to Germany",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_increase_collaboration"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_trade_for_pows",
+      "name": "Trade Labor for POWs",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_volunteer_labor_to_germany"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_service_du_travail_obligatoire",
+      "name": "Service du Travail Obligatoire (Compulsory Work Service)",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_trade_for_pows"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_milice_francaise",
+      "name": "Milice Française",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_Service_dOrdre_legionnaire"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_strengthen_ties_with_germany",
+      "name": "Strengthen Ties with Germany",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_increase_collaboration"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_integrate_into_new_european_order",
+      "name": "Integrate into the New European Order",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_strengthen_ties_with_germany"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_request_greater_control_over_french_territories",
+      "name": "Request Greater Control Over French Territories",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_integrate_into_new_european_order"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_forced_labor_to_germany",
+      "name": "Forced Labor to Germany",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_integrate_into_new_european_order",
+        "EFR_service_du_travail_obligatoire"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_get_gustavs",
+      "name": "Obtain Gustavs from Germany",
+      "description": "Negotiate with Germany to obtain the Gustav artillery units, enhancing our military capabilities.",
+      "x": 0,
+      "y": 2,
+      "cost": 2,
+      "prerequisites": [
+        "EFR_military_cooperation_germany"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_deal_with_undesireables",
+      "name": "Deal With Undesirables",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_military_cooperation_germany"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_implement_german_law",
+      "name": "Implement German Laws",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_deal_with_undesireables"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_arrest_traitors",
+      "name": "Arrest Traitors",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_deal_with_undesireables"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_first_roundup",
+      "name": "Frist Roundup",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_implement_german_law"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_second_roundup",
+      "name": "Second Roundup",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_first_roundup"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_third_roundup",
+      "name": "Third Roundup",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_second_roundup"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_deploy_west_africa_garrisons",
+      "name": "Deploy West African Garrisons",
+      "description": "",
+      "x": -6,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "EFR_military_cooperation_germany"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_deploy_syria",
+      "name": "Deploy Forces to Syria",
+      "description": "",
+      "x": -8,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "EFR_military_cooperation_germany"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_defend_casablanca",
+      "name": "Defend Casablanca",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "EFR_deploy_west_africa_garrisons"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_integrate_algeria",
+      "name": "Integrate Algeria",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 1,
+      "prerequisites": [
+        "EFR_deploy_west_africa_garrisons"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_defend_syria",
+      "name": "Defend Syria",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 1,
+      "prerequisites": [
+        "EFR_deploy_syria"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_restore_african_colonies",
+      "name": "Restore African Colonies",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_defend_syria",
+        "EFR_defend_casablanca"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_roconstruction",
+      "name": "Reconstrucion",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "EFR_military_cooperation_germany"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_rebuild_civilian_sector",
+      "name": "Rebuild Civilian Sector",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "EFR_roconstruction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_rebuild_military_sector",
+      "name": "Rebuild Military Sector",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "EFR_roconstruction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_sectoral_committees",
+      "name": "Establish Sectoral Committees",
+      "description": "",
+      "x": -3,
+      "y": 3,
+      "cost": 2,
+      "prerequisites": [
+        "EFR_rebuild_civilian_sector",
+        "EFR_rebuild_military_sector"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_petain",
+      "name": "Philippe Pétain",
+      "description": "Reinforce Marshal Pétain's leadership to maintain order and stability in Vichy France.",
+      "x": -5,
+      "y": 4,
+      "cost": 3,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_give_full_powers",
+      "name": "Full Powers to Pétain",
+      "description": "Grant Marshal Philippe Pétain full powers to lead Vichy France, centralizing authority to face the ongoing crisis.",
+      "x": 0,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_petain"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_national_housing_program",
+      "name": "National Housing Program",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_give_full_powers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_encourage_larger_families",
+      "name": "Encourage Larger Families\" # Code de la Famille",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_give_full_powers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_join_anti_commintern",
+      "name": "Join the Anti-Comintern Pact",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_give_full_powers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_crush_political_dissent",
+      "name": "Crush Political Dissent",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_join_anti_commintern"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_limited_vote_for_women",
+      "name": "Limited Vote for Women",
+      "description": "Grant limited voting rights to women, a step towards greater social reform while balancing traditional values.",
+      "x": -1,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_encourage_larger_families"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_minimum_wage",
+      "name": "Set Minimum Wage",
+      "description": "Introduce a minimum wage policy to improve workers' conditions and stabilize the labor force.",
+      "x": 0,
+      "y": 2,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_encourage_larger_families",
+        "EFR_national_housing_program"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_aids_for_families",
+      "name": "Aids for Families",
+      "description": "Implement social policies that provide financial support to families, encouraging population growth and stability.",
+      "x": 1,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_national_housing_program"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_National_center_for_scientific_research",
+      "name": "National Center for Scientific Research",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_encourage_larger_families"
+      ],
+      "mutuallyExclusive": [
+        "EFR_engineering_progarms"
+      ],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_engineering_progarms",
+      "name": "Centre National de la Recherche Scientifique",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_national_housing_program"
+      ],
+      "mutuallyExclusive": [
+        "EFR_National_center_for_scientific_research"
+      ],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_national_des_combustibles_liquides",
+      "name": "National Office for Liquid Fuels\" # Office National des Combustibles Liquides",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_give_full_powers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_research_slot",
+      "name": "Research Slot",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_National_center_for_scientific_research",
+        "EFR_engineering_progarms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_begin_expropriation_of_undesirables",
+      "name": "Begin Expropriation of Undesirables",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "EFR_sectoral_committees",
+        "EFR_implement_german_law"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_moderate_expropriation",
+      "name": "Moderate Expropriation",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 2,
+      "prerequisites": [
+        "EFR_begin_expropriation_of_undesirables"
+      ],
+      "mutuallyExclusive": [
+        "EFR_minor_expropriation",
+        "EFR_major_expropriation"
+      ],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_minor_expropriation",
+      "name": "Minor Expropriation",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 2,
+      "prerequisites": [
+        "EFR_begin_expropriation_of_undesirables"
+      ],
+      "mutuallyExclusive": [
+        "EFR_moderate_expropriation",
+        "EFR_major_expropriation"
+      ],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_major_expropriation",
+      "name": "Major Expropriation",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 2,
+      "prerequisites": [
+        "EFR_begin_expropriation_of_undesirables"
+      ],
+      "mutuallyExclusive": [
+        "EFR_minor_expropriation",
+        "EFR_moderate_expropriation"
+      ],
+      "source": "vichy_france.txt",
+      "shared": false
+    },
+    {
+      "id": "EFR_transportation_modernization",
+      "name": "Modernize Transportation",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 3,
+      "prerequisites": [
+        "EFR_minor_expropriation",
+        "EFR_moderate_expropriation",
+        "EFR_major_expropriation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "vichy_france.txt",
+      "shared": false
+    }
+  ]
+}

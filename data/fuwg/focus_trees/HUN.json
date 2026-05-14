@@ -1,0 +1,3751 @@
+{
+  "mod": "FUWG",
+  "tag": "HUN",
+  "country": "Hungary Wuw",
+  "treeId": "wuw_hungarian_focus",
+  "sourceFile": "hungary_wuw.txt",
+  "focusCount": 258,
+  "focuses": [
+    {
+      "id": "wuw_HUN_end_the_regency",
+      "name": "Wuw Hun End The Regency",
+      "description": "",
+      "x": 17,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "wuw_HUN_continue_the_regency",
+        "wuw_HUN_end_the_white_terror"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_continue_the_regency",
+      "name": "Wuw Hun Continue The Regency",
+      "description": "",
+      "x": -16,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "wuw_HUN_end_the_regency",
+        "wuw_HUN_end_the_white_terror"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_end_the_white_terror",
+      "name": "Wuw Hun End The White Terror",
+      "description": "",
+      "x": 31,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "wuw_HUN_end_the_regency",
+        "wuw_HUN_continue_the_regency"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_crack_down_on_radicals",
+      "name": "Wuw Hun Crack Down On Radicals",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_end_the_regency"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_subvert_gombos_troops",
+      "name": "Wuw Hun Subvert Gombos Troops",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_end_the_regency"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_reach_out_to_candidates",
+      "name": "Wuw Hun Reach Out To Candidates",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_subvert_gombos_troops",
+        "wuw_HUN_crack_down_on_radicals"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_reinstate_the_pragmatic_sanction",
+      "name": "Wuw Hun Reinstate The Pragmatic Sanction",
+      "description": "",
+      "x": -6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_reach_out_to_candidates"
+      ],
+      "mutuallyExclusive": [
+        "wuw_HUN_abide_by_the_little_ententes_stipulations"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_abide_by_the_little_ententes_stipulations",
+      "name": "Wuw Hun Abide By The Little Ententes Stipulations",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_reach_out_to_candidates"
+      ],
+      "mutuallyExclusive": [
+        "wuw_HUN_reinstate_the_pragmatic_sanction"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_aid_the_carlist_struggle",
+      "name": "Wuw Hun Aid The Carlist Struggle",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_reinstate_the_pragmatic_sanction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_invite_otto_to_the_throne",
+      "name": "Wuw Hun Invite Otto To The Throne",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_reinstate_the_pragmatic_sanction"
+      ],
+      "mutuallyExclusive": [
+        "wuw_HUN_the_old_habsburg_king"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_the_old_habsburg_king",
+      "name": "Wuw Hun The Old Habsburg King",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_reinstate_the_pragmatic_sanction"
+      ],
+      "mutuallyExclusive": [
+        "wuw_HUN_invite_otto_to_the_throne"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_attempt_economic_independence",
+      "name": "Wuw Hun Attempt Economic Independence",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_the_old_habsburg_king",
+        "wuw_HUN_invite_otto_to_the_throne"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_secure_army_loyalty",
+      "name": "Wuw Hun Secure Army Loyalty",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_attempt_economic_independence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_the_lands_of_the_crown_of_saint_stephen",
+      "name": "Wuw Hun The Lands Of The Crown Of Saint Stephen",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_invite_otto_to_the_throne"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_demand_austrian_restoration",
+      "name": "Wuw Hun Demand Austrian Restoration",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_the_lands_of_the_crown_of_saint_stephen"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_protect_czechoslovakia",
+      "name": "Wuw Hun Protect Czechoslovakia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_demand_austrian_restoration"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_seek_an_alliance_with_the_kaiser",
+      "name": "Wuw Hun Seek An Alliance With The Kaiser",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_demand_austrian_restoration"
+      ],
+      "mutuallyExclusive": [
+        "wuw_HUN_a_grand_habsburg_alliance",
+        "wuw_HUN_the_old_grand_alliance"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_a_grand_habsburg_alliance",
+      "name": "Wuw Hun A Grand Habsburg Alliance",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_demand_austrian_restoration"
+      ],
+      "mutuallyExclusive": [
+        "wuw_HUN_seek_an_alliance_with_the_kaiser",
+        "wuw_HUN_the_old_grand_alliance"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_the_old_grand_alliance",
+      "name": "Wuw Hun The Old Grand Alliance",
+      "description": "",
+      "x": -7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_demand_austrian_restoration"
+      ],
+      "mutuallyExclusive": [
+        "wuw_HUN_seek_an_alliance_with_the_kaiser",
+        "wuw_HUN_a_grand_habsburg_alliance"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_demand_wiedist_restoration",
+      "name": "Wuw Hun Demand Wiedist Restoration",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_seek_an_alliance_with_the_kaiser",
+        "wuw_HUN_a_grand_habsburg_alliance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_habsburg_ascension_in_spain",
+      "name": "Wuw Hun Habsburg Ascension In Spain",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_a_grand_habsburg_alliance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_a_habsburg_poland",
+      "name": "Wuw Hun A Habsburg Poland",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_a_grand_habsburg_alliance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_press_maximilians_and_the_iturbides_claims",
+      "name": "Wuw Hun Press Maximilians And The Iturbides Claims",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_a_grand_habsburg_alliance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_reenlist_the_sich_riflemen",
+      "name": "Wuw Hun Reenlist The Sich Riflemen",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_a_grand_habsburg_alliance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_the_kingdom_of_ukraine",
+      "name": "Wuw Hun The Kingdom Of Ukraine",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_reenlist_the_sich_riflemen"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_restore_the_georgian_monarchy",
+      "name": "Wuw Hun Restore The Georgian Monarchy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_the_kingdom_of_ukraine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_reclaim_transylvania",
+      "name": "Wuw Hun Reclaim Transylvania",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_protect_czechoslovakia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_reintigrate_slovakia",
+      "name": "Wuw Hun Reintigrate Slovakia",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_protect_czechoslovakia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_restore_the_duchy_of_teschen",
+      "name": "Wuw Hun Restore The Duchy Of Teschen",
+      "description": "",
+      "x": 3,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_protect_czechoslovakia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_a_hungarian_galicia",
+      "name": "Wuw Hun A Hungarian Galicia",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_reclaim_transylvania"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_the_triple_kingdom",
+      "name": "Wuw Hun The Triple Kingdom",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_protect_czechoslovakia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_restore_the_lombardo_venetian_kingdom",
+      "name": "Wuw Hun Restore The Lombardo Venetian Kingdom",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_the_triple_kingdom"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_reverse_the_risorgimento",
+      "name": "Wuw Hun Reverse The Risorgimento",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_restore_the_lombardo_venetian_kingdom"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_reclaim_the_holy_city",
+      "name": "Wuw Hun Reclaim The Holy City",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_restore_the_lombardo_venetian_kingdom"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_a_holy_empire",
+      "name": "Wuw Hun A Holy Empire",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_reclaim_the_holy_city"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_integrate_bohemian_and_austrian_industries",
+      "name": "Wuw Hun Integrate Bohemian And Austrian Industries",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_a_hungarian_galicia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_a_multi_ethnic_empire",
+      "name": "Wuw Hun A Multi Ethnic Empire",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_reclaim_the_holy_city",
+        "wuw_HUN_a_hungarian_galicia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_renovato_imperii",
+      "name": "Wuw Hun Renovato Imperii",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_a_holy_empire",
+        "wuw_HUN_integrate_bohemian_and_austrian_industries",
+        "wuw_HUN_a_multi_ethnic_empire"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_the_bastion_of_catholicism",
+      "name": "Wuw Hun The Bastion Of Catholicism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_the_old_habsburg_king"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_enact_agrarian_reform",
+      "name": "Wuw Hun Enact Agrarian Reform",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_the_bastion_of_catholicism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_honor_the_great_war_veterans",
+      "name": "Wuw Hun Honor The Great War Veterans",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_the_old_habsburg_king"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_royal_hussars",
+      "name": "Wuw Hun Royal Hussars",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_secure_army_loyalty"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_purchase_burgenland",
+      "name": "Wuw Hun Purchase Burgenland",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_enact_agrarian_reform"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_the_legacy_of_the_isonzo_front",
+      "name": "Wuw Hun The Legacy Of The Isonzo Front",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_honor_the_great_war_veterans"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_revenge_for_the_brusilov_offensive",
+      "name": "Wuw Hun Revenge For The Brusilov Offensive",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_the_legacy_of_the_isonzo_front"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_the_legacy_of_arpad_andrew_and_matthias",
+      "name": "Wuw Hun The Legacy Of Arpad Andrew And Matthias",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_enact_agrarian_reform"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_establishing_a_new_dynasty",
+      "name": "Wuw Hun Establishing A New Dynasty",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_abide_by_the_little_ententes_stipulations"
+      ],
+      "mutuallyExclusive": [
+        "wuw_HUN_elect_a_democratic_king",
+        "wuw_HUN_elect_a_fascist_king"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_elect_a_democratic_king",
+      "name": "Wuw Hun Elect A Democratic King",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_abide_by_the_little_ententes_stipulations"
+      ],
+      "mutuallyExclusive": [
+        "wuw_HUN_establishing_a_new_dynasty",
+        "wuw_HUN_elect_a_fascist_king"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_increase_economic_cooperation",
+      "name": "Wuw Hun Increase Economic Cooperation",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_elect_a_democratic_king"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_elect_a_fascist_king",
+      "name": "Wuw Hun Elect A Fascist King",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_abide_by_the_little_ententes_stipulations"
+      ],
+      "mutuallyExclusive": [
+        "wuw_HUN_establishing_a_new_dynasty",
+        "wuw_HUN_elect_a_democratic_king"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_volksbund_der_deutschen_in_ungarn",
+      "name": "Wuw Hun Volksbund Der Deutschen In Ungarn",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_elect_a_fascist_king"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_cancel_the_german_trade_deal",
+      "name": "Wuw Hun Cancel The German Trade Deal",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_establishing_a_new_dynasty",
+        "wuw_HUN_elect_a_democratic_king"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_establishing_a_royal_guard",
+      "name": "Wuw Hun Establishing A Royal Guard",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_establishing_a_new_dynasty"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_dissolve_the_volksbund",
+      "name": "Wuw Hun Dissolve The Volksbund",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_establishing_a_royal_guard"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_magyar_cserkeszszovetseg",
+      "name": "Wuw Hun Magyar Cserkeszszovetseg",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_establishing_a_royal_guard"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_a_mobile_army",
+      "name": "Wuw Hun A Mobile Army",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_magyar_cserkeszszovetseg"
+      ],
+      "mutuallyExclusive": [
+        "wuw_HUN_an_airforce_to_be_reckoned_with"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_an_airforce_to_be_reckoned_with",
+      "name": "Wuw Hun An Airforce To Be Reckoned With",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_dissolve_the_volksbund"
+      ],
+      "mutuallyExclusive": [
+        "wuw_HUN_a_mobile_army"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_royalist_education_initiative",
+      "name": "Wuw Hun Royalist Education Initiative",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_an_airforce_to_be_reckoned_with",
+        "wuw_HUN_a_mobile_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_anglo_hungarian_alliance",
+      "name": "Wuw Hun Anglo Hungarian Alliance",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_royalist_education_initiative"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_a_unifying_heritage",
+      "name": "Wuw Hun A Unifying Heritage",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_royalist_education_initiative"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_stage_an_uprising_in_leitha",
+      "name": "Wuw Hun Stage An Uprising In Leitha",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_a_unifying_heritage"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_a_declaration_of_intentions",
+      "name": "Wuw Hun A Declaration Of Intentions",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_a_unifying_heritage",
+        "wuw_HUN_the_legacy_of_arpad_andrew_and_matthias"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_undoing_the_yugoslav_mistake",
+      "name": "Wuw Hun Undoing The Yugoslav Mistake",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_a_declaration_of_intentions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_reclaim_the_slovak_possessions",
+      "name": "Wuw Hun Reclaim The Slovak Possessions",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_a_declaration_of_intentions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_revenge_for_1919",
+      "name": "Wuw Hun Revenge For 1919",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_a_declaration_of_intentions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_on_a_high_horse",
+      "name": "Wuw Hun On A High Horse",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_revenge_for_1919",
+        "wuw_HUN_reclaim_the_slovak_possessions",
+        "wuw_HUN_undoing_the_yugoslav_mistake"
+      ],
+      "mutuallyExclusive": [
+        "wuw_HUN_a_bulwark_against_communism"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_a_bulwark_against_communism",
+      "name": "Wuw Hun A Bulwark Against Communism",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_revenge_for_1919",
+        "wuw_HUN_reclaim_the_slovak_possessions",
+        "wuw_HUN_undoing_the_yugoslav_mistake"
+      ],
+      "mutuallyExclusive": [
+        "wuw_HUN_on_a_high_horse"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_a_responsible_government",
+      "name": "Wuw Hun A Responsible Government",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_elect_a_democratic_king"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_guarantee_religious_liberties",
+      "name": "Wuw Hun Guarantee Religious Liberties",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_a_responsible_government"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_the_balkan_pact",
+      "name": "Wuw Hun The Balkan Pact",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_guarantee_religious_liberties"
+      ],
+      "mutuallyExclusive": [
+        "wuw_HUN_join_the_allies"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_join_the_allies",
+      "name": "Wuw Hun Join The Allies",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_guarantee_religious_liberties"
+      ],
+      "mutuallyExclusive": [
+        "wuw_HUN_the_balkan_pact"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_joint_oil_exploitation_company",
+      "name": "Wuw Hun Joint Oil Exploitation Company",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_join_the_allies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_hold_territorial_referendums",
+      "name": "Wuw Hun Hold Territorial Referendums",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_the_balkan_pact",
+        "wuw_HUN_join_the_allies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_strengthen_horthys_reign",
+      "name": "Wuw Hun Strengthen Horthys Reign",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_continue_the_regency"
+      ],
+      "mutuallyExclusive": [
+        "wuw_HUN_undermine_the_admiral"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_undermine_the_admiral",
+      "name": "Wuw Hun Undermine The Admiral",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_continue_the_regency"
+      ],
+      "mutuallyExclusive": [
+        "wuw_HUN_strengthen_horthys_reign"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_reestablish_the_rongyos_garda",
+      "name": "Wuw Hun Reestablish The Rongyos Garda",
+      "description": "",
+      "x": -2,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_spur_on_the_trianon_trauma",
+        "wuw_HUN_absolute_rule_of_the_national_unity_party"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_strenghten_the_order_of_vitez",
+      "name": "Wuw Hun Strenghten The Order Of Vitez",
+      "description": "",
+      "x": -2,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_reestablish_the_rongyos_garda"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_pass_statute_xix",
+      "name": "Wuw Hun Pass Statute Xix",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_strengthen_horthys_reign"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_restrict_voting_rights",
+      "name": "Wuw Hun Restrict Voting Rights",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_pass_statute_xix"
+      ],
+      "mutuallyExclusive": [
+        "wuw_HUN_outlaw_the_party_of_national_will"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_absolute_rule_of_the_national_unity_party",
+      "name": "Wuw Hun Absolute Rule Of The National Unity Party",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_restrict_voting_rights"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_outlaw_the_party_of_national_will",
+      "name": "Wuw Hun Outlaw The Party Of National Will",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_pass_statute_xix"
+      ],
+      "mutuallyExclusive": [
+        "wuw_HUN_restrict_voting_rights"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_spur_on_the_trianon_trauma",
+      "name": "Wuw Hun Spur On The Trianon Trauma",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_outlaw_the_party_of_national_will"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_renounce_the_treaty_of_trianon",
+      "name": "Wuw Hun Renounce The Treaty Of Trianon",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_spur_on_the_trianon_trauma",
+        "wuw_HUN_elect_a_fascist_king"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_the_hungarian_life_and_renewal_party",
+      "name": "Wuw Hun The Hungarian Life And Renewal Party",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_absolute_rule_of_the_national_unity_party",
+        "wuw_HUN_elect_a_fascist_king"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_act_of_defense",
+      "name": "Wuw Hun Act Of Defense",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_the_turul_association"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_renew_the_rome_protocols",
+      "name": "Wuw Hun Renew The Rome Protocols",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_act_of_defense"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_invite_german_investors",
+      "name": "Wuw Hun Invite German Investors",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_act_of_defense"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_integrate_the_volksbund",
+      "name": "Wuw Hun Integrate The Volksbund",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_undermine_the_admiral"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_empower_the_greenshirts",
+      "name": "Wuw Hun Empower The Greenshirts",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_undermine_the_admiral"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_the_march_on_budapest",
+      "name": "Wuw Hun The March On Budapest",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_empower_the_greenshirts",
+        "wuw_HUN_integrate_the_volksbund"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_government_of_national_unity",
+      "name": "Wuw Hun Government Of National Unity",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_the_march_on_budapest"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_the_turul_association",
+      "name": "Wuw Hun The Turul Association",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_absolute_rule_of_the_national_unity_party",
+        "wuw_HUN_spur_on_the_trianon_trauma"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_carrying_on_arpads_legacy",
+      "name": "Wuw Hun Carrying On Arpads Legacy",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_act_of_defense"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_institute_corporatism",
+      "name": "Wuw Hun Institute Corporatism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_government_of_national_unity"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_a_roman_catholic_state",
+      "name": "Wuw Hun A Roman Catholic State",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_government_of_national_unity"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_incorporate_the_hungarian_life_movement",
+      "name": "Wuw Hun Incorporate The Hungarian Life Movement",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_a_roman_catholic_state"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_heirs_of_the_huns",
+      "name": "Wuw Hun Heirs Of The Huns",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_institute_corporatism",
+        "wuw_HUN_the_turul_association"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_sway_the_count",
+      "name": "Wuw Hun Sway The Count",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_institute_corporatism",
+        "wuw_HUN_a_roman_catholic_state"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_wherever_the_cross_points",
+      "name": "Wuw Hun Wherever The Cross Points",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_heirs_of_the_huns",
+        "wuw_HUN_sway_the_count"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_the_war_on_atheism",
+      "name": "Wuw Hun The War On Atheism",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_a_roman_catholic_state"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_promote_hungarianism",
+      "name": "Wuw Hun Promote Hungarianism",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_carrying_on_arpads_legacy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_strengthen_the_turani_vadaszok",
+      "name": "Wuw Hun Strengthen The Turani Vadaszok",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_promote_hungarianism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_solidify_the_regents_position",
+      "name": "Wuw Hun Solidify The Regents Position",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_strengthen_the_turani_vadaszok"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_our_ancestral_lands",
+      "name": "Wuw Hun Our Ancestral Lands",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_strengthen_the_turani_vadaszok",
+        "wuw_HUN_wherever_the_cross_points"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_reaffirm_territorial_claims",
+      "name": "Wuw Hun Reaffirm Territorial Claims",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_promote_hungarianism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "HUN_czech_compensation",
+      "name": "Czech Compensation",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "wuw_HUN_reaffirm_territorial_claims"
+      ],
+      "mutuallyExclusive": [
+        "wuw_HUN_demand_southern_slovakia"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_demand_croatian_reintigration",
+      "name": "Wuw Hun Demand Croatian Reintigration",
+      "description": "",
+      "x": 3,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_reaffirm_territorial_claims",
+        "wuw_HUN_wherever_the_cross_points"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_demand_southern_slovakia",
+      "name": "Wuw Hun Demand Southern Slovakia",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_reaffirm_territorial_claims"
+      ],
+      "mutuallyExclusive": [
+        "HUN_czech_compensation"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_demand_carpathian_ruthenia",
+      "name": "Wuw Hun Demand Carpathian Ruthenia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_reaffirm_territorial_claims"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_demand_transylvania",
+      "name": "Wuw Hun Demand Transylvania",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_reaffirm_territorial_claims"
+      ],
+      "mutuallyExclusive": [
+        "wuw_HUN_condede_transylvania"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_condede_transylvania",
+      "name": "Wuw Hun Condede Transylvania",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_reaffirm_territorial_claims"
+      ],
+      "mutuallyExclusive": [
+        "wuw_HUN_demand_transylvania"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_demand_the_vojvodina",
+      "name": "Wuw Hun Demand The Vojvodina",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_demand_transylvania",
+        "wuw_HUN_condede_transylvania"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_demand_burgenland",
+      "name": "Wuw Hun Demand Burgenland",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_demand_transylvania",
+        "wuw_HUN_condede_transylvania"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_claim_overlordship_over_slovakia",
+      "name": "Wuw Hun Claim Overlordship Over Slovakia",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_demand_southern_slovakia"
+      ],
+      "mutuallyExclusive": [
+        "wuw_HUN_demand_the_return_of_slovakia"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_demand_the_return_of_slovakia",
+      "name": "Wuw Hun Demand The Return Of Slovakia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_demand_southern_slovakia"
+      ],
+      "mutuallyExclusive": [
+        "wuw_HUN_claim_overlordship_over_slovakia"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_proclaim_greater_hungary",
+      "name": "Wuw Hun Proclaim Greater Hungary",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_demand_carpathian_ruthenia",
+        "wuw_HUN_demand_the_vojvodina",
+        "wuw_HUN_demand_burgenland",
+        "wuw_HUN_demand_the_return_of_slovakia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_seek_german_contracts",
+      "name": "Wuw Hun Seek German Contracts",
+      "description": "",
+      "x": -2,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_join_the_axis"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_license_fiat_tankettes",
+      "name": "Wuw Hun License Fiat Tankettes",
+      "description": "",
+      "x": -4,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_join_the_axis"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_joint_aluminum_mining_company",
+      "name": "Wuw Hun Joint Aluminum Mining Company",
+      "description": "",
+      "x": -3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_join_the_axis"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_join_the_axis",
+      "name": "Wuw Hun Join The Axis",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_act_of_defense"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_protect_austria",
+      "name": "Wuw Hun Protect Austria",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_renew_the_rome_protocols"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_an_alliance_with_italy",
+      "name": "Wuw Hun An Alliance With Italy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_protect_austria"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_parade_istvan_bethlens_platform",
+      "name": "Wuw Hun Parade Istvan Bethlens Platform",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_end_the_white_terror"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_salami_slicing_tactics",
+      "name": "Wuw Hun Salami Slicing Tactics",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_parade_istvan_bethlens_platform"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_politicize_the_levente_associations",
+      "name": "Wuw Hun Politicize The Levente Associations",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_parade_istvan_bethlens_platform"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_undermine_the_volksbund",
+      "name": "Wuw Hun Undermine The Volksbund",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_parade_istvan_bethlens_platform"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_reviving_the_spirit_of_1848",
+      "name": "Wuw Hun Reviving The Spirit Of 1848",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_politicize_the_levente_associations",
+        "wuw_HUN_undermine_the_volksbund",
+        "wuw_HUN_salami_slicing_tactics"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_officialize_the_rakosi_battalion",
+      "name": "Wuw Hun Officialize The Rakosi Battalion",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_reviving_the_spirit_of_1848"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_elections_in_the_revolutionary_council",
+      "name": "Wuw Hun Elections In The Revolutionary Council",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_reviving_the_spirit_of_1848"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_join_the_comintern",
+      "name": "Wuw Hun Join The Comintern",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_elections_in_the_revolutionary_council"
+      ],
+      "mutuallyExclusive": [
+        "wuw_HUN_restore_the_socialist_federative_republic",
+        "wuw_HUN_establish_the_second_republic"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_restore_the_socialist_federative_republic",
+      "name": "Wuw Hun Restore The Socialist Federative Republic",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_elections_in_the_revolutionary_council"
+      ],
+      "mutuallyExclusive": [
+        "wuw_HUN_join_the_comintern",
+        "wuw_HUN_establish_the_second_republic"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_establish_the_second_republic",
+      "name": "Wuw Hun Establish The Second Republic",
+      "description": "",
+      "x": -6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_elections_in_the_revolutionary_council"
+      ],
+      "mutuallyExclusive": [
+        "wuw_HUN_join_the_comintern",
+        "wuw_HUN_restore_the_socialist_federative_republic"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_reverse_the_brain_drain",
+      "name": "Wuw Hun Reverse The Brain Drain",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_establish_the_second_republic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_the_spirit_of_the_aster_revolution",
+      "name": "Wuw Hun The Spirit Of The Aster Revolution",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_establish_the_second_republic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_uplift_the_dragon_movement",
+      "name": "Wuw Hun Uplift The Dragon Movement",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_the_spirit_of_the_aster_revolution",
+        "wuw_HUN_reverse_the_brain_drain"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_promote_entrepreneurship",
+      "name": "Wuw Hun Promote Entrepreneurship",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_reverse_the_brain_drain",
+        "wuw_HUN_the_spirit_of_the_aster_revolution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_a_danubian_federation",
+      "name": "Wuw Hun A Danubian Federation",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_promote_entrepreneurship"
+      ],
+      "mutuallyExclusive": [
+        "wuw_HUN_approach_the_diasporas"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_approach_the_diasporas",
+      "name": "Wuw Hun Approach The Diasporas",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_uplift_the_dragon_movement"
+      ],
+      "mutuallyExclusive": [
+        "wuw_HUN_a_danubian_federation"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_demand_szekely_autonomy",
+      "name": "Wuw Hun Demand Szekely Autonomy",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_a_danubian_federation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_ward_against_extremism",
+      "name": "Wuw Hun Ward Against Extremism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_a_danubian_federation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_reclaim_the_pannonian_steppe",
+      "name": "Wuw Hun Reclaim The Pannonian Steppe",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_approach_the_diasporas"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_revive_the_tribal_consolidation",
+      "name": "Wuw Hun Revive The Tribal Consolidation",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_approach_the_diasporas"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_the_cult_of_arpad",
+      "name": "Wuw Hun The Cult Of Arpad",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_ward_against_extremism",
+        "wuw_HUN_reclaim_the_pannonian_steppe"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_bringing_down_the_giants",
+      "name": "Wuw Hun Bringing Down The Giants",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_the_cult_of_arpad"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_restore_the_hungarian_red_army",
+      "name": "Wuw Hun Restore The Hungarian Red Army",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_join_the_comintern",
+        "wuw_HUN_restore_the_socialist_federative_republic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_goulash_communism",
+      "name": "Wuw Hun Goulash Communism",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_join_the_comintern"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_state_protection_authority",
+      "name": "Wuw Hun State Protection Authority",
+      "description": "",
+      "x": -6,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_goulash_communism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_joint_hungarian_soviet_research_effort",
+      "name": "Wuw Hun Joint Hungarian Soviet Research Effort",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_join_the_comintern"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_soviet_hungarian_war_indsutry",
+      "name": "Wuw Hun Soviet Hungarian War Indsutry",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_joint_hungarian_soviet_research_effort"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_a_cult_of_personality",
+      "name": "Wuw Hun A Cult Of Personality",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_soviet_hungarian_war_indsutry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_kadars_hussars",
+      "name": "Wuw Hun Kadars Hussars",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_restore_the_hungarian_red_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_soviet_hungarian_military_academy",
+      "name": "Wuw Hun Soviet Hungarian Military Academy",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_restore_the_hungarian_red_army",
+        "wuw_HUN_join_the_comintern"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_central_military_planning_committee",
+      "name": "Wuw Hun Central Military Planning Committee",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_soviet_hungarian_military_academy",
+        "wuw_HUN_state_protection_authority"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_intervene_in_czechoslovakia",
+      "name": "Wuw Hun Intervene In Czechoslovakia",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_central_military_planning_committee"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_pressure_romania",
+      "name": "Wuw Hun Pressure Romania",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_central_military_planning_committee"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_the_bulwark_against_the_west",
+      "name": "Wuw Hun The Bulwark Against The West",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_pressure_romania",
+        "wuw_HUN_intervene_in_czechoslovakia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_reinstate_the_lenin_boys",
+      "name": "Wuw Hun Reinstate The Lenin Boys",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_restore_the_hungarian_red_army",
+        "wuw_HUN_restore_the_socialist_federative_republic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_instate_a_socialist_economy",
+      "name": "Wuw Hun Instate A Socialist Economy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_restore_the_socialist_federative_republic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_nationalize_key_industries",
+      "name": "Wuw Hun Nationalize Key Industries",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_instate_a_socialist_economy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_invest_in_universal_education",
+      "name": "Wuw Hun Invest In Universal Education",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_nationalize_key_industries"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_promote_revanchist_sentiment",
+      "name": "Wuw Hun Promote Revanchist Sentiment",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_restore_the_socialist_federative_republic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_the_second_northern_campaign",
+      "name": "Wuw Hun The Second Northern Campaign",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_promote_revanchist_sentiment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_revenge_for_the_romanian_humiliations",
+      "name": "Wuw Hun Revenge For The Romanian Humiliations",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_promote_revanchist_sentiment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_march_south",
+      "name": "Wuw Hun March South",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_revenge_for_the_romanian_humiliations",
+        "wuw_HUN_the_second_northern_campaign"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_a_revolutionary_greater_hungary",
+      "name": "Wuw Hun A Revolutionary Greater Hungary",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_march_south"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "HUN_hero_of_the_revolution",
+      "name": "Hero Of The Revolution",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_a_revolutionary_greater_hungary"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "HUN_balkan_ambitions",
+      "name": "Balkan Ambitions",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_a_revolutionary_greater_hungary"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_denounce_marxism_leninism",
+      "name": "Wuw Hun Denounce Marxism Leninism",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_a_revolutionary_greater_hungary"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_avoid_interventionalist_destablilization",
+      "name": "Wuw Hun Avoid Interventionalist Destablilization",
+      "description": "",
+      "x": -11,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_economic_intervention",
+      "name": "Wuw Hun Economic Intervention",
+      "description": "",
+      "x": -9,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_secret_rearmament",
+      "name": "Wuw Hun Secret Rearmament",
+      "description": "",
+      "x": 0,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_forcefully_revitalize_the_industries",
+      "name": "Wuw Hun Forcefully Revitalize The Industries",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_economic_intervention"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_reintigrate_the_imperial_railroads",
+      "name": "Wuw Hun Reintigrate The Imperial Railroads",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_economic_intervention",
+        "wuw_HUN_avoid_interventionalist_destablilization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_promote_increased_urbanization",
+      "name": "Wuw Hun Promote Increased Urbanization",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_reintigrate_the_imperial_railroads"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_expand_the_ganz_muvek",
+      "name": "Wuw Hun Expand The Ganz Muvek",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_reintigrate_the_imperial_railroads"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_devalue_the_pengo",
+      "name": "Wuw Hun Devalue The Pengo",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_announce_the_gyor_program"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_announce_the_gyor_program",
+      "name": "Wuw Hun Announce The Gyor Program",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_expand_the_ganz_muvek",
+        "wuw_HUN_promote_increased_urbanization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_support_for_our_finnish_brothers",
+      "name": "Wuw Hun Support For Our Finnish Brothers",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "wuw_HUN_secret_rearmament"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_undercover_air_maneuvers",
+      "name": "Wuw Hun Undercover Air Maneuvers",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_secret_rearmament"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_hold_war_games",
+      "name": "Wuw Hun Hold War Games",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_secret_rearmament"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_negotiate_the_restrictions",
+      "name": "Wuw Hun Negotiate The Restrictions",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_undercover_air_maneuvers",
+        "wuw_HUN_hold_war_games"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_reinstate_the_navy",
+      "name": "Wuw Hun Reinstate The Navy",
+      "description": "",
+      "x": 16,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_secret_rearmament"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_enlarge_the_ganz_danubius_division",
+      "name": "Wuw Hun Enlarge The Ganz Danubius Division",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_reinstate_the_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_sailing_the_danube",
+      "name": "Wuw Hun Sailing The Danube",
+      "description": "",
+      "x": 14,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_secret_rearmament"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_make_the_magyar_legiero_known",
+      "name": "Wuw Hun Make The Magyar Legiero Known",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_negotiate_the_restrictions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_cooperation_with_the_luftwaffe",
+      "name": "Cooperation with the Luftwaffe",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_make_the_magyar_legiero_known"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_essintial_role_of_the_airforce",
+      "name": "Goulash Cannons",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_coventration",
+        "wuw_HUN_unleash_turul"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_coventration",
+      "name": "Coventration",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_cooperation_with_the_luftwaffe"
+      ],
+      "mutuallyExclusive": [
+        "wuw_HUN_unleash_turul"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_unleash_turul",
+      "name": "Unleash the Turul",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_cooperation_with_the_luftwaffe"
+      ],
+      "mutuallyExclusive": [
+        "wuw_HUN_coventration"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_indigenous_designs",
+      "name": "Indigenous Designs",
+      "description": "",
+      "x": -3,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_make_the_magyar_legiero_known"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_torpedo_bombers",
+      "name": "Wuw Hun Torpedo Bombers",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_indigenous_designs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_heavy_fighter_effort",
+      "name": "Heavy Fighter Effort",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_indigenous_designs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_light_fighter_effort",
+      "name": "Light Fighter Effort",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_indigenous_designs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_cas_focus",
+      "name": "Wuw Hun Cas Focus",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_indigenous_designs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_tac_focus",
+      "name": "Wuw Hun Tac Focus",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_indigenous_designs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_license_foreign_designs",
+      "name": "License Foreign Designs",
+      "description": "",
+      "x": 3,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_make_the_magyar_legiero_known"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_fighter_competition",
+      "name": "Fighter Competition",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_license_foreign_designs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_bomber_competition",
+      "name": "Bomber Competition",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_license_foreign_designs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_joint_air",
+      "name": "Joint Air Development",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_make_the_magyar_legiero_known"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_emergency_fuel_procurement",
+      "name": "Emergency Fuel Procurement",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_make_the_magyar_legiero_known"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_initiate_army_maneuvers",
+      "name": "Wuw Hun Initiate Army Maneuvers",
+      "description": "",
+      "x": 5,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_negotiate_the_restrictions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_invest_in_ludovica_academy",
+      "name": "Wuw Hun Invest In Ludovica Academy",
+      "description": "",
+      "x": 9,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_negotiate_the_restrictions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_expand_the_diosgyor_machinery_factory",
+      "name": "Wuw Hun Expand The Diosgyor Machinery Factory",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_announce_the_gyor_program"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_manred_weiss_steel_and_metal_works",
+      "name": "Wuw Hun Manred Weiss Steel And Metal Works",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_announce_the_gyor_program"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_expand_the_hungarian_academy_of_sciences",
+      "name": "Wuw Hun Expand The Hungarian Academy Of Sciences",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_devalue_the_pengo",
+        "wuw_HUN_expand_the_diosgyor_machinery_factory"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_expand_the_lignite_industry",
+      "name": "Wuw Hun Expand The Lignite Industry",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_invite_foreign_investors",
+        "wuw_HUN_expand_the_hungarian_academy_of_sciences"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_tap_newfound_oil_deposits",
+      "name": "Wuw Hun Tap Newfound Oil Deposits",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_expand_the_lignite_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_hungarian_autarky",
+      "name": "Wuw Hun Hungarian Autarky",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_tap_newfound_oil_deposits",
+        "wuw_HUN_hungarian_tradition"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_integrate_german_economic_principles",
+      "name": "Wuw Hun Integrate German Economic Principles",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_hungarian_autarky"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_invite_foreign_investors",
+      "name": "Wuw Hun Invite Foreign Investors",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_devalue_the_pengo",
+        "wuw_HUN_manred_weiss_steel_and_metal_works"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_hungarian_tradition",
+      "name": "Wuw Hun Hungarian Tradition",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_expand_the_lignite_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_magyar_allamvasutak",
+      "name": "Wuw Hun Magyar Allamvasutak",
+      "description": "",
+      "x": -2,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_expand_the_lignite_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_expand_the_aluminum_industry",
+      "name": "Wuw Hun Expand The Aluminum Industry",
+      "description": "",
+      "x": 2,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_expand_the_lignite_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_budapest_university_of_technology_and_economics",
+      "name": "Wuw Hun Budapest University Of Technology And Economics",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_expand_the_aluminum_industry",
+        "wuw_HUN_magyar_allamvasutak"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_the_matyasfold_fighter_factory",
+      "name": "Wuw Hun The Matyasfold Fighter Factory",
+      "description": "",
+      "x": -5,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_make_the_magyar_legiero_known"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_expand_on_the_weiss_wm_16",
+      "name": "Wuw Hun Expand On The Weiss Wm 16",
+      "description": "",
+      "x": -3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_make_the_magyar_legiero_known"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_develop_the_weiss_wm_21_solyom",
+      "name": "Wuw Hun Develop The Weiss Wm 21 Solyom",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_expand_on_the_weiss_wm_16",
+        "wuw_HUN_the_matyasfold_fighter_factory"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_weiss_manfred_wm_23_ezust_nyil",
+      "name": "Wuw Hun Weiss Manfred Wm 23 Ezust Nyil",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_expand_on_the_weiss_wm_16"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_establish_the_mavag_aircraft_factory",
+      "name": "Wuw Hun Establish The Mavag Aircraft Factory",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_make_the_magyar_legiero_known"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_the_mavag_heja",
+      "name": "Wuw Hun The Mavag Heja",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_establish_the_mavag_aircraft_factory"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_repulo_muszaki_intezet",
+      "name": "Wuw Hun Repulo Muszaki Intezet",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_make_the_magyar_legiero_known"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_develop_laszlo_vargas_design",
+      "name": "Wuw Hun Develop Laszlo Vargas Design",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_repulo_muszaki_intezet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_joint_air_development",
+      "name": "Wuw Hun Joint Air Development",
+      "description": "",
+      "x": 4,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_make_the_magyar_legiero_known"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_the_arado_ar_96",
+      "name": "Wuw Hun The Arado Ar 96",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_joint_air_development"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_extensive_licensing_programs",
+      "name": "Wuw Hun Extensive Licensing Programs",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_joint_air_development"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_allied_manufacturing_programs",
+      "name": "Wuw Hun Allied Manufacturing Programs",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_joint_air_development"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_danuvia_submachine_guns",
+      "name": "Wuw Hun Danuvia Submachine Guns",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_initiate_army_maneuvers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_form_the_gyorshadtest",
+      "name": "Wuw Hun Form The Gyorshadtest",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_initiate_army_maneuvers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_establish_the_mavag_army_division",
+      "name": "Wuw Hun Establish The Mavag Army Division",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_form_the_gyorshadtest"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_doctrinal_studies",
+      "name": "Wuw Hun Doctrinal Studies",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_invest_in_ludovica_academy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_award_military_promotions",
+      "name": "Wuw Hun Award Military Promotions",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_invest_in_ludovica_academy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_magyar_kiralyi_csendorseg",
+      "name": "Wuw Hun Magyar Kiralyi Csendorseg",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_invest_in_ludovica_academy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_legacy_of_the_black_legion",
+      "name": "Wuw Hun Legacy Of The Black Legion",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_magyar_kiralyi_csendorseg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_light_infantry_divisions_doctrine",
+      "name": "Wuw Hun Light Infantry Divisions Doctrine",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_magyar_kiralyi_csendorseg"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_szent_laszlo_infantry_division",
+      "name": "Wuw Hun Szent Laszlo Infantry Division",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_light_infantry_divisions_doctrine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_quantity_over_quality",
+      "name": "Wuw Hun Quantity Over Quality",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_doctrinal_studies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_expand_the_army",
+      "name": "Wuw Hun Expand The Army",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_doctrinal_studies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_the_botond",
+      "name": "Wuw Hun The Botond",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_quantity_over_quality"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_the_turan",
+      "name": "Wuw Hun The Turan",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_quantity_over_quality",
+        "wuw_HUN_establish_the_mavag_army_division"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_assault_gun_focus",
+      "name": "Wuw Hun Assault Gun Focus",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_establish_the_mavag_army_division"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_the_toldi",
+      "name": "Wuw Hun The Toldi",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_quantity_over_quality"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_invest_in_the_special_forces",
+      "name": "Wuw Hun Invest In The Special Forces",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_expand_the_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_construct_the_arpad_line",
+      "name": "Wuw Hun Construct The Arpad Line",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_expand_the_army",
+        "wuw_HUN_quantity_over_quality"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_transylvanian_mountaineers",
+      "name": "Wuw Hun Transylvanian Mountaineers",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_construct_the_arpad_line"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_expand_the_arpad_line",
+      "name": "Wuw Hun Expand The Arpad Line",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_construct_the_arpad_line"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_construct_the_szeretfalva_deda_railway_line",
+      "name": "Wuw Hun Construct The Szeretfalva Deda Railway Line",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_construct_the_arpad_line"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_the_szekel_command",
+      "name": "Wuw Hun The Szekel Command",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_transylvanian_mountaineers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_renew_the_shipping_industry",
+      "name": "Wuw Hun Renew The Shipping Industry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_reinstate_the_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_embrace_navy_traditions",
+      "name": "Wuw Hun Embrace Navy Traditions",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_reinstate_the_navy"
+      ],
+      "mutuallyExclusive": [
+        "wuw_HUN_a_reformed_navy"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_a_reformed_navy",
+      "name": "Wuw Hun A Reformed Navy",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_reinstate_the_navy"
+      ],
+      "mutuallyExclusive": [
+        "wuw_HUN_embrace_navy_traditions"
+      ],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_invest_in_destroyer_models",
+      "name": "Wuw Hun Invest In Destroyer Models",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_embrace_navy_traditions",
+        "wuw_HUN_a_reformed_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_cruiser_investments",
+      "name": "Wuw Hun Cruiser Investments",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_invest_in_destroyer_models"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_wolfs_of_the_sea",
+      "name": "Wuw Hun Wolfs Of The Sea",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_a_reformed_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_bringing_the_air_battle_to_the_seas",
+      "name": "Wuw Hun Bringing The Air Battle To The Seas",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_wolfs_of_the_sea"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_capital_ship_efforts",
+      "name": "Wuw Hun Capital Ship Efforts",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_embrace_navy_traditions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_a_new_pride_of_the_fleet",
+      "name": "Wuw Hun A New Pride Of The Fleet",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_capital_ship_efforts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "wuw_HUN_degauss_ship_hulls",
+      "name": "Wuw Hun Degauss Ship Hulls",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "wuw_HUN_a_new_pride_of_the_fleet",
+        "wuw_HUN_cruiser_investments",
+        "wuw_HUN_bringing_the_air_battle_to_the_seas"
+      ],
+      "mutuallyExclusive": [],
+      "source": "hungary_wuw.txt",
+      "shared": false
+    },
+    {
+      "id": "HABSBURG_part_of_something_bigger",
+      "name": "Habsburg Part Of Something Bigger",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "shared_reference",
+      "shared": true
+    }
+  ]
+}

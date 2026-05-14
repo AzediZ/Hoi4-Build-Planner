@@ -1,0 +1,335 @@
+{
+  "mod": "FUWG",
+  "tag": "FRA",
+  "country": "Free France",
+  "treeId": "free_french_focus",
+  "sourceFile": "free_france.txt",
+  "focusCount": 23,
+  "focuses": [
+    {
+      "id": "FRA_appeal_to_the_french_nation",
+      "name": "Appeal To The French Nation",
+      "description": "",
+      "x": 18,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "free_france.txt",
+      "shared": false
+    },
+    {
+      "id": "FRA_appeal_to_overseas_territories",
+      "name": "Appeal To Overseas Territories",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FRA_appeal_to_the_french_nation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "free_france.txt",
+      "shared": false
+    },
+    {
+      "id": "FRA_intervention_in_north_africa",
+      "name": "Intervention In North Africa",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FRA_appeal_to_overseas_territories"
+      ],
+      "mutuallyExclusive": [],
+      "source": "free_france.txt",
+      "shared": false
+    },
+    {
+      "id": "FRA_intervention_in_west_africa",
+      "name": "Intervention In West Africa",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FRA_appeal_to_overseas_territories"
+      ],
+      "mutuallyExclusive": [],
+      "source": "free_france.txt",
+      "shared": false
+    },
+    {
+      "id": "FRA_intervention_in_syria",
+      "name": "Intervention In Syria",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FRA_appeal_to_overseas_territories"
+      ],
+      "mutuallyExclusive": [],
+      "source": "free_france.txt",
+      "shared": false
+    },
+    {
+      "id": "FRA_intervention_in_indochina",
+      "name": "Intervention In Indochina",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FRA_appeal_to_overseas_territories"
+      ],
+      "mutuallyExclusive": [],
+      "source": "free_france.txt",
+      "shared": false
+    },
+    {
+      "id": "FRA_intervention_in_central_africa",
+      "name": "Intervention In Central Africa",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FRA_appeal_to_overseas_territories"
+      ],
+      "mutuallyExclusive": [],
+      "source": "free_france.txt",
+      "shared": false
+    },
+    {
+      "id": "FRA_intervention_in_madagascar",
+      "name": "Intervention In Madagascar",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FRA_appeal_to_overseas_territories"
+      ],
+      "mutuallyExclusive": [],
+      "source": "free_france.txt",
+      "shared": false
+    },
+    {
+      "id": "FRA_form_the_national_committee",
+      "name": "Form The National Committee",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "FRA_intervention_in_madagascar",
+        "FRA_intervention_in_syria",
+        "FRA_intervention_in_indochina",
+        "FRA_intervention_in_north_africa",
+        "FRA_intervention_in_west_africa",
+        "FRA_intervention_in_central_africa"
+      ],
+      "mutuallyExclusive": [],
+      "source": "free_france.txt",
+      "shared": false
+    },
+    {
+      "id": "FRA_form_the_provisional_government_of_the_republic",
+      "name": "Form The Provisional Government Of The Republic",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "FRA_form_the_national_committee"
+      ],
+      "mutuallyExclusive": [],
+      "source": "free_france.txt",
+      "shared": false
+    },
+    {
+      "id": "FRA_continue_the_fight",
+      "name": "Continue The Fight",
+      "description": "",
+      "x": 9,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "FRA_appeal_to_the_french_nation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "free_france.txt",
+      "shared": false
+    },
+    {
+      "id": "FRA_the_free_french_navy",
+      "name": "The Free French Navy",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "FRA_continue_the_fight"
+      ],
+      "mutuallyExclusive": [],
+      "source": "free_france.txt",
+      "shared": false
+    },
+    {
+      "id": "FRA_colonial_recruitment",
+      "name": "Colonial Recruitment",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "FRA_continue_the_fight"
+      ],
+      "mutuallyExclusive": [],
+      "source": "free_france.txt",
+      "shared": false
+    },
+    {
+      "id": "FRA_the_regiment_normandie",
+      "name": "The Regiment Normandie",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "FRA_continue_the_fight"
+      ],
+      "mutuallyExclusive": [],
+      "source": "free_france.txt",
+      "shared": false
+    },
+    {
+      "id": "FRA_refus_absurde",
+      "name": "Refus Absurde",
+      "description": "",
+      "x": 8,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "free_france.txt",
+      "shared": false
+    },
+    {
+      "id": "FRA_the_maquis",
+      "name": "The Maquis",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "FRA_refus_absurde"
+      ],
+      "mutuallyExclusive": [],
+      "source": "free_france.txt",
+      "shared": false
+    },
+    {
+      "id": "FRA_reach_out_to_trade_unions",
+      "name": "Reach Out To Trade Unions",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "FRA_refus_absurde"
+      ],
+      "mutuallyExclusive": [],
+      "source": "free_france.txt",
+      "shared": false
+    },
+    {
+      "id": "FRA_cooperation_with_the_communists",
+      "name": "Cooperation With The Communists",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "FRA_reach_out_to_trade_unions"
+      ],
+      "mutuallyExclusive": [],
+      "source": "free_france.txt",
+      "shared": false
+    },
+    {
+      "id": "FRA_connections_to_industrialists",
+      "name": "Connections To Industrialists",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "FRA_refus_absurde"
+      ],
+      "mutuallyExclusive": [],
+      "source": "free_france.txt",
+      "shared": false
+    },
+    {
+      "id": "FRA_the_civil_and_military_organization",
+      "name": "The Civil And Military Organization",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "FRA_connections_to_industrialists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "free_france.txt",
+      "shared": false
+    },
+    {
+      "id": "FRA_national_council_of_the_resistance",
+      "name": "National Council Of The Resistance",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "FRA_the_civil_and_military_organization",
+        "FRA_cooperation_with_the_communists",
+        "FRA_form_the_national_committee"
+      ],
+      "mutuallyExclusive": [],
+      "source": "free_france.txt",
+      "shared": false
+    },
+    {
+      "id": "FRA_national_uprising",
+      "name": "National Uprising",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "FRA_national_council_of_the_resistance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "free_france.txt",
+      "shared": false
+    },
+    {
+      "id": "FRA_french_forces_of_the_interior",
+      "name": "French Forces Of The Interior",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "FRA_national_council_of_the_resistance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "free_france.txt",
+      "shared": false
+    }
+  ]
+}

@@ -1,0 +1,3974 @@
+{
+  "mod": "FUWG",
+  "tag": "PER",
+  "country": "Persia",
+  "treeId": "persian_focus_tree",
+  "sourceFile": "persia.txt",
+  "focusCount": 271,
+  "focuses": [
+    {
+      "id": "PER_modernizing_iran",
+      "name": "Modernizing Iran",
+      "description": "",
+      "x": 15,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_adult_literacy",
+      "name": "Adult Literacy",
+      "description": "",
+      "x": -8,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_modernizing_iran"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_national_museum",
+      "name": "National Museum",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_adult_literacy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_university_of_isfahan",
+      "name": "University Of Isfahan",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_national_museum"
+      ],
+      "mutuallyExclusive": [
+        "PER_shiraz_university"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_shiraz_university",
+      "name": "Shiraz University",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_national_museum"
+      ],
+      "mutuallyExclusive": [
+        "PER_university_of_isfahan"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_educational_reforms",
+      "name": "Educational Reforms",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_university_of_isfahan",
+        "PER_shiraz_university"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_trans_iranian_railway",
+      "name": "Trans Iranian Railway",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_modernizing_iran"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_expand_tabriz_masshad",
+      "name": "Expand Tabriz Masshad",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_trans_iranian_railway"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_expand_tehran_emam",
+      "name": "Expand Tehran Emam",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_trans_iranian_railway"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_expand_tehran_abbas",
+      "name": "Expand Tehran Abbas",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_trans_iranian_railway"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_trains_from_germany",
+      "name": "Trains From Germany",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_expand_tabriz_masshad",
+        "PER_expand_tehran_emam",
+        "PER_expand_tehran_abbas"
+      ],
+      "mutuallyExclusive": [
+        "PER_trains_from_britain"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_trains_from_britain",
+      "name": "Trains From Britain",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_expand_tabriz_masshad",
+        "PER_expand_tehran_emam",
+        "PER_expand_tehran_abbas"
+      ],
+      "mutuallyExclusive": [
+        "PER_trains_from_germany"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_feat_of_engineering",
+      "name": "Feat Of Engineering",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_trains_from_britain",
+        "PER_trains_from_germany"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_white_revolution",
+      "name": "White Revolution",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_modernizing_iran"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_national_bank",
+      "name": "National Bank",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_white_revolution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_price_stabilization",
+      "name": "Price Stabilization",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_national_bank"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_abolish_feudalism",
+      "name": "Abolish Feudalism",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_national_bank"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_women_vote",
+      "name": "Women Vote",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_price_stabilization",
+        "PER_abolish_feudalism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_food_for_all",
+      "name": "Food For All",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_price_stabilization",
+        "PER_abolish_feudalism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_rapid_industrialization",
+      "name": "Rapid Industrialization",
+      "description": "",
+      "x": 7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_modernizing_iran"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_tehran_power_plant",
+      "name": "Tehran Power Plant",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_rapid_industrialization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_develop_cities",
+      "name": "Develop Cities",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_tehran_power_plant"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_metropolitan_iran",
+      "name": "Metropolitan Iran",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_develop_cities"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_develop_oil_fields",
+      "name": "Develop Oil Fields",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_rapid_industrialization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_form_oil_company",
+      "name": "Form Oil Company",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_develop_oil_fields"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_oil_baron",
+      "name": "Oil Baron",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_form_oil_company"
+      ],
+      "mutuallyExclusive": [
+        "PER_profit_from_war"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_profit_from_war",
+      "name": "Profit From War",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_form_oil_company"
+      ],
+      "mutuallyExclusive": [
+        "PER_oil_baron"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_restructure_army",
+      "name": "Restructure Army",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_swedish_artillery",
+      "name": "Swedish Artillery",
+      "description": "",
+      "x": 20,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_expand_imperial_guard",
+      "name": "Expand Imperial Guard",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_swedish_artillery"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_expand_military_facilities",
+      "name": "Expand Military Facilities",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_swedish_artillery"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_czech_tanks",
+      "name": "Czech Tanks",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_expand_military_facilities"
+      ],
+      "mutuallyExclusive": [
+        "PER_german_tanks"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_german_tanks",
+      "name": "German Tanks",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_expand_military_facilities"
+      ],
+      "mutuallyExclusive": [
+        "PER_czech_tanks"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_future_of_war",
+      "name": "Future Of War",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_german_tanks",
+        "PER_czech_tanks"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_reverse_engineer_tanks",
+      "name": "Reverse Engineer Tanks",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_german_tanks",
+        "PER_czech_tanks"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_establish_tehran_armor",
+      "name": "Establish Tehran Armor",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_reverse_engineer_tanks"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_expand_tehran_armor",
+      "name": "Expand Tehran Armor",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_establish_tehran_armor"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_train_tank_commanders",
+      "name": "Train Tank Commanders",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "PER_future_of_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_foreign_retraining",
+      "name": "Foreign Retraining",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_swedish_artillery"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_bolster_infantry",
+      "name": "Bolster Infantry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_foreign_retraining"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_establish_motor_arms",
+      "name": "Establish Motor Arms",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_bolster_infantry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_motorize_infantry",
+      "name": "Motorize Infantry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_establish_motor_arms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_swedish_artiller",
+      "name": "Swedish Artiller",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_foreign_retraining"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_increase_heavy_arms",
+      "name": "Increase Heavy Arms",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_bolster_infantry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_our_own_artillery",
+      "name": "Our Own Artillery",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_increase_heavy_arms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_develop_qorkhaneh",
+      "name": "Develop Qorkhaneh",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_bolster_infantry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_desert_training",
+      "name": "Desert Training",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "PER_develop_qorkhaneh"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_every_man_serves",
+      "name": "Every Man Serves",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_desert_training",
+        "PER_train_tank_commanders"
+      ],
+      "mutuallyExclusive": [
+        "PER_military_excellency"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_military_excellency",
+      "name": "Military Excellency",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_desert_training",
+        "PER_train_tank_commanders"
+      ],
+      "mutuallyExclusive": [
+        "PER_every_man_serves"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_special_units",
+      "name": "Special Units",
+      "description": "",
+      "x": 10,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_swedish_artillery"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_form_savak",
+      "name": "Form Savak",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_special_units"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_fund_state_intelligence",
+      "name": "Fund State Intelligence",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_form_savak"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_transfer_officers_to_intelligence",
+      "name": "Transfer Officers To Intelligence",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_form_savak"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_special_forces_program",
+      "name": "Special Forces Program",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_special_units"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_recruit_bakhtiari",
+      "name": "Recruit Bakhtiari",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_special_forces_program"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_expand_unique_unit",
+      "name": "Expand Unique Unit",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_special_forces_program"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_import_rocketry",
+      "name": "Import Rocketry",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "PER_special_units"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_cyrus_initiative",
+      "name": "Cyrus Initiative",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_import_rocketry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_negotiate_with_america",
+      "name": "Negotiate With America",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_import_rocketry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_establish_nuclear_program",
+      "name": "Establish Nuclear Program",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_negotiate_with_america"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_establish_airforce",
+      "name": "Establish Airforce",
+      "description": "",
+      "x": 20,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_pilot_training",
+      "name": "Pilot Training",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_establish_airforce"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_raf_planes",
+      "name": "Raf Planes",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_pilot_training"
+      ],
+      "mutuallyExclusive": [
+        "PER_luftwaffe_planes"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_luftwaffe_planes",
+      "name": "Luftwaffe Planes",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_pilot_training"
+      ],
+      "mutuallyExclusive": [
+        "PER_raf_planes"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_establish_air_academy",
+      "name": "Establish Air Academy",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_luftwaffe_planes",
+        "PER_raf_planes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_own_plane_designs",
+      "name": "Own Plane Designs",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_luftwaffe_planes",
+        "PER_raf_planes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_strategic_bombing",
+      "name": "Strategic Bombing",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_establish_air_academy"
+      ],
+      "mutuallyExclusive": [
+        "PER_battlefield_support",
+        "PER_air_superiority"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_legacy_of_gilani",
+      "name": "Legacy Of Gilani",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "PER_establish_air_academy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_construct_air_bases",
+      "name": "Construct Air Bases",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_establish_airforce"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_anti_air_development",
+      "name": "Anti Air Development",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "PER_anti_air_research"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_anti_air_research",
+      "name": "Anti Air Research",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_construct_air_bases"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_air_superiority",
+      "name": "Air Superiority",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "PER_establish_air_academy",
+        "PER_anti_air_development"
+      ],
+      "mutuallyExclusive": [
+        "PER_battlefield_support",
+        "PER_strategic_bombing"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_battlefield_support",
+      "name": "Battlefield Support",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "PER_establish_air_academy"
+      ],
+      "mutuallyExclusive": [
+        "PER_strategic_bombing",
+        "PER_air_superiority"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_perfect_iranian_airforce",
+      "name": "Perfect Iranian Airforce",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_air_superiority",
+        "PER_strategic_bombing",
+        "PER_battlefield_support"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_establish_the_navy",
+      "name": "Establish The Navy",
+      "description": "",
+      "x": 5,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_officers_to_italy",
+      "name": "Officers To Italy",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_establish_the_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_persian_gulf_fleet",
+      "name": "Persian Gulf Fleet",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_officers_to_italy",
+        "PER_construct_naval_bases"
+      ],
+      "mutuallyExclusive": [
+        "PER_bolster_the_caspian"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_construct_naval_bases",
+      "name": "Construct Naval Bases",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_establish_the_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_coastal_defense_initiative",
+      "name": "Coastal Defense Initiative",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_construct_naval_bases"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_bolster_the_caspian",
+      "name": "Bolster The Caspian",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_construct_naval_bases",
+        "PER_officers_to_italy"
+      ],
+      "mutuallyExclusive": [
+        "PER_persian_gulf_fleet"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_purchase_foreign_ships",
+      "name": "Purchase Foreign Ships",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_bolster_the_caspian",
+        "PER_persian_gulf_fleet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_found_iranian_shipyards",
+      "name": "Found Iranian Shipyards",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_purchase_foreign_ships"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_expand_dockyards",
+      "name": "Expand Dockyards",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_found_iranian_shipyards"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_merchant_navy",
+      "name": "Merchant Navy",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_expand_dockyards"
+      ],
+      "mutuallyExclusive": [
+        "PER_expert_raiders"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_expert_raiders",
+      "name": "Expert Raiders",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_expand_dockyards"
+      ],
+      "mutuallyExclusive": [
+        "PER_merchant_navy"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_the_pahlavi_imperium",
+      "name": "The Pahlavi Imperium",
+      "description": "",
+      "x": -35,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_stand_with_giants",
+      "name": "Stand With Giants",
+      "description": "",
+      "x": 0,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_forced_secularization",
+      "name": "Forced Secularization",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "PER_stand_with_giants",
+        "PER_legacy_of_greatness"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_increase_education_funding",
+      "name": "Increase Education Funding",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_stand_with_giants"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_open_abadan",
+      "name": "Open Abadan",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_increase_education_funding"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_trial_fifty_three",
+      "name": "Trial Fifty Three",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_stand_with_giants"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_persian_german_trade",
+      "name": "Persian German Trade",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_stand_with_giants"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_increase_military_funding",
+      "name": "Increase Military Funding",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_stand_with_giants"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_royal_visit_germany",
+      "name": "Royal Visit Germany",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_persian_german_trade"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_military_high_schools",
+      "name": "Military High Schools",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_increase_military_funding"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_wether_the_storm",
+      "name": "Wether The Storm",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "PER_royal_visit_germany",
+        "PER_military_high_schools"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_question_of_resources",
+      "name": "Question Of Resources",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_wether_the_storm"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_prepare_for_worst",
+      "name": "Prepare For Worst",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_question_of_resources"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_plant_resistance_cells",
+      "name": "Plant Resistance Cells",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_question_of_resources"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_preemptive_strike",
+      "name": "Preemptive Strike",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_plant_resistance_cells",
+        "PER_prepare_for_worst"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_establish_northern_buffer_states",
+      "name": "Establish Northern Buffer States",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_preemptive_strike"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_stand_our_ground",
+      "name": "Stand Our Ground",
+      "description": "",
+      "x": 0,
+      "y": -1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_military_high_schools"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_bolster_civilian_industry",
+      "name": "Bolster Civilian Industry",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_stand_our_ground"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_upscale_military_production",
+      "name": "Upscale Military Production",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_stand_our_ground"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_preparatory_mobilization",
+      "name": "Preparatory Mobilization",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_upscale_military_production",
+        "PER_bolster_civilian_industry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_we_will_survive",
+      "name": "We Will Survive",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_preparatory_mobilization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_fight_for_iran",
+      "name": "Fight For Iran",
+      "description": "",
+      "x": -5,
+      "y": 5,
+      "cost": 0,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_force_them_back",
+      "name": "Force Them Back",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_fight_for_iran"
+      ],
+      "mutuallyExclusive": [
+        "PER_dig_and_defend"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_dig_and_defend",
+      "name": "Dig And Defend",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_fight_for_iran"
+      ],
+      "mutuallyExclusive": [
+        "PER_force_them_back"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_push_to_deserts",
+      "name": "Push To Deserts",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_force_them_back"
+      ],
+      "mutuallyExclusive": [
+        "PER_push_to_mountains"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_push_to_mountains",
+      "name": "Push To Mountains",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_force_them_back"
+      ],
+      "mutuallyExclusive": [
+        "PER_push_to_deserts"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_capital_protect",
+      "name": "Capital Protect",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_dig_and_defend"
+      ],
+      "mutuallyExclusive": [
+        "PER_secure_coastline"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_secure_coastline",
+      "name": "Secure Coastline",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_dig_and_defend"
+      ],
+      "mutuallyExclusive": [
+        "PER_capital_protect"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_demand_war_reparations",
+      "name": "Demand War Reparations",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_push_to_deserts",
+        "PER_push_to_mountains"
+      ],
+      "mutuallyExclusive": [
+        "PER_force_white_peace"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_force_white_peace",
+      "name": "Force White Peace",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_push_to_deserts",
+        "PER_push_to_mountains"
+      ],
+      "mutuallyExclusive": [
+        "PER_demand_war_reparations"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_swear_fealty",
+      "name": "Swear Fealty",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_capital_protect",
+        "PER_secure_coastline"
+      ],
+      "mutuallyExclusive": [
+        "PER_push_negotiations"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_push_negotiations",
+      "name": "Push Negotiations",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_capital_protect",
+        "PER_secure_coastline"
+      ],
+      "mutuallyExclusive": [
+        "PER_swear_fealty"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_rebuilding_iran",
+      "name": "Rebuilding Iran",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_swear_fealty"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_declare_loyalty_to_britain",
+      "name": "Declare Loyalty To Britain",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_rebuilding_iran"
+      ],
+      "mutuallyExclusive": [
+        "PER_azadi"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_reinstate_qajars",
+      "name": "Reinstate Qajars",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "PER_declare_loyalty_to_britain"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_invite_british_investors",
+      "name": "Invite British Investors",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_declare_loyalty_to_britain"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_request_british_equipment",
+      "name": "Request British Equipment",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_declare_loyalty_to_britain"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_our_place_in_empire",
+      "name": "Our Place In Empire",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_request_british_equipment",
+        "PER_invite_british_investors"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_retake_north_iran",
+      "name": "Retake North Iran",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_our_place_in_empire",
+        "PER_iran_for_iranians"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_azadi",
+      "name": "Azadi",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_rebuilding_iran"
+      ],
+      "mutuallyExclusive": [
+        "PER_declare_loyalty_to_britain"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_reinforce_iranian_identity",
+      "name": "Reinforce Iranian Identity",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_azadi"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_rally_bakhtiari_and_qashqai",
+      "name": "Rally Bakhtiari And Qashqai",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_azadi"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_iran_for_iranians",
+      "name": "Iran For Iranians",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_rally_bakhtiari_and_qashqai",
+        "PER_reinforce_iranian_identity"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_consolidate_british_territory",
+      "name": "Consolidate British Territory",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_iran_for_iranians"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_legacy_of_greatness",
+      "name": "Legacy Of Greatness",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_the_pahlavi_imperium"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_assassinate_reza_shah",
+      "name": "Assassinate Reza Shah",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_legacy_of_greatness"
+      ],
+      "mutuallyExclusive": [
+        "PER_root_out_conspiracies"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_root_out_conspiracies",
+      "name": "Root Out Conspiracies",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_legacy_of_greatness"
+      ],
+      "mutuallyExclusive": [
+        "PER_assassinate_reza_shah"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_his_fathers_footsteps",
+      "name": "His Fathers Footsteps",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_assassinate_reza_shah"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_third_persian_empire",
+      "name": "Third Persian Empire",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_his_fathers_footsteps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_choose_a_shahbanu",
+      "name": "Choose A Shahbanu",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_third_persian_empire"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_embrace_opulence",
+      "name": "Embrace Opulence",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_choose_a_shahbanu"
+      ],
+      "mutuallyExclusive": [
+        "PER_emperor_for_people"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_emperor_for_people",
+      "name": "Emperor For People",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_choose_a_shahbanu"
+      ],
+      "mutuallyExclusive": [
+        "PER_embrace_opulence"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_fund_imperial_excellency",
+      "name": "Fund Imperial Excellency",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_embrace_opulence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_uphold_civil_rights",
+      "name": "Uphold Civil Rights",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_emperor_for_people"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_absolute_monarchy",
+      "name": "Absolute Monarchy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_root_out_conspiracies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_first_iranian_empire",
+      "name": "First Iranian Empire",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_absolute_monarchy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_take_regional_tour",
+      "name": "Take Regional Tour",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_first_iranian_empire"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_limit_foreign_influence",
+      "name": "Limit Foreign Influence",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_take_regional_tour"
+      ],
+      "mutuallyExclusive": [
+        "PER_embrace_industrial_powers"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_embrace_industrial_powers",
+      "name": "Embrace Industrial Powers",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_take_regional_tour"
+      ],
+      "mutuallyExclusive": [
+        "PER_limit_foreign_influence"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_subserviant_to_noone",
+      "name": "Subserviant To Noone",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_limit_foreign_influence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_modernize_iran_economy",
+      "name": "Modernize Iran Economy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_embrace_industrial_powers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_last_thousand_years",
+      "name": "Last Thousand Years",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "PER_subserviant_to_noone",
+        "PER_fund_imperial_excellency",
+        "PER_uphold_civil_rights",
+        "PER_modernize_iran_economy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_shahanshah",
+      "name": "Shahanshah",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_third_persian_empire",
+        "PER_first_iranian_empire"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_rally_ancient_history",
+      "name": "Rally Ancient History",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_shahanshah"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_rebuild_persepolis",
+      "name": "Rebuild Persepolis",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_rally_ancient_history"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_imperial_funded_universities",
+      "name": "Imperial Funded Universities",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_legacy_of_greatness"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_assessing_the_opposition",
+      "name": "Assessing The Opposition",
+      "description": "",
+      "x": 10,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_legacy_of_greatness"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_the_unification_initiative",
+      "name": "The Unification Initiative",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_assessing_the_opposition"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_clamp_kurdish_dissidence",
+      "name": "Clamp Kurdish Dissidence",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_the_unification_initiative"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_clamp_azerbaijani_dissidence",
+      "name": "Clamp Azerbaijani Dissidence",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_the_unification_initiative"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_state_atheism",
+      "name": "State Atheism",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_clamp_azerbaijani_dissidence",
+        "PER_clamp_kurdish_dissidence"
+      ],
+      "mutuallyExclusive": [
+        "PER_venerate_islam",
+        "PER_revive_old_ways"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_venerate_islam",
+      "name": "Venerate Islam",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_clamp_azerbaijani_dissidence",
+        "PER_clamp_kurdish_dissidence"
+      ],
+      "mutuallyExclusive": [
+        "PER_state_atheism",
+        "PER_revive_old_ways"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_revive_old_ways",
+      "name": "Revive Old Ways",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_clamp_azerbaijani_dissidence",
+        "PER_clamp_kurdish_dissidence"
+      ],
+      "mutuallyExclusive": [
+        "PER_state_atheism",
+        "PER_venerate_islam"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_imperial_expansionism",
+      "name": "Imperial Expansionism",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_assessing_the_opposition"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_tehran_moscow_pact",
+      "name": "Tehran Moscow Pact",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_imperial_expansionism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_establish_special_unit",
+      "name": "Establish Special Unit",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_imperial_expansionism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_demand_iraqi_territory",
+      "name": "Demand Iraqi Territory",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "PER_tehran_moscow_pact"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_demand_afghan_territory",
+      "name": "Demand Afghan Territory",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "PER_tehran_moscow_pact"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_war_plan_darius",
+      "name": "War Plan Darius",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_demand_iraqi_territory",
+        "PER_demand_afghan_territory"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_foothold_in_indus",
+      "name": "Foothold In Indus",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_war_plan_darius"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_usurp_afghanistan",
+      "name": "Usurp Afghanistan",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_war_plan_darius"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_invasion_of_india",
+      "name": "Invasion Of India",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_foothold_in_indus",
+        "PER_usurp_afghanistan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_glory_of_cyrus",
+      "name": "Glory Of Cyrus",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "PER_invasion_of_india",
+        "PER_reintegrate_anatolia",
+        "PER_march_to_nile"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_war_plan_xerxes",
+      "name": "War Plan Xerxes",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_demand_iraqi_territory",
+        "PER_demand_afghan_territory"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_reclaim_turkish_peninsula",
+      "name": "Reclaim Turkish Peninsula",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_war_plan_xerxes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_reintegrate_anatolia",
+      "name": "Reintegrate Anatolia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_reclaim_turkish_peninsula"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_clash_of_titans",
+      "name": "Clash Of Titans",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_reclaim_turkish_peninsula"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_absorb_byzantines",
+      "name": "Absorb Byzantines",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_clash_of_titans"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_war_plan_cambyses",
+      "name": "War Plan Cambyses",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_demand_iraqi_territory",
+        "PER_demand_afghan_territory"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_path_through_iraq",
+      "name": "Path Through Iraq",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_war_plan_cambyses"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_demand_west_asia",
+      "name": "Demand West Asia",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_war_plan_cambyses"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_march_to_nile",
+      "name": "March To Nile",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_path_through_iraq"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_the_memphis_initiative",
+      "name": "The Memphis Initiative",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_march_to_nile"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_stand_with_germany",
+      "name": "Stand With Germany",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_embrace_industrial_powers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_align_with_axis",
+      "name": "Align With Axis",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_stand_with_germany"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_spoils_of_war",
+      "name": "Spoils Of War",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_align_with_axis"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_donate_oil_fields",
+      "name": "Donate Oil Fields",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_align_with_axis"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_middle_east_protectorate",
+      "name": "Middle East Protectorate",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_spoils_of_war"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_rally_the_reformers",
+      "name": "Rally The Reformers",
+      "description": "",
+      "x": -15,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_stage_mass_protests",
+      "name": "Stage Mass Protests",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_rally_the_reformers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_propagate_political_literature",
+      "name": "Propagate Political Literature",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_rally_the_reformers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_rally_behind_mosaddegh",
+      "name": "Rally Behind Mosaddegh",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_stage_mass_protests",
+        "PER_propagate_political_literature"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_embrace_national_front",
+      "name": "Embrace National Front",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_rally_behind_mosaddegh"
+      ],
+      "mutuallyExclusive": [
+        "PER_constitutional_monarchy"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_constitutional_monarchy",
+      "name": "Constitutional Monarchy",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_rally_behind_mosaddegh"
+      ],
+      "mutuallyExclusive": [
+        "PER_embrace_national_front"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_strengthen_iranian_parliament",
+      "name": "Strengthen Iranian Parliament",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_constitutional_monarchy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_force_abdication",
+      "name": "Force Abdication",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_embrace_national_front"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_promise_clergy_power",
+      "name": "Promise Clergy Power",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_constitutional_monarchy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_free_elections",
+      "name": "Free Elections",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_force_abdication",
+        "PER_strengthen_iranian_parliament"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_continue_westernization",
+      "name": "Continue Westernization",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_free_elections"
+      ],
+      "mutuallyExclusive": [
+        "PER_islamic_restoration"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_islamic_restoration",
+      "name": "Islamic Restoration",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_free_elections",
+        "PER_promise_clergy_power"
+      ],
+      "mutuallyExclusive": [
+        "PER_continue_westernization"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_ally_bazaari",
+      "name": "Ally Bazaari",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_islamic_restoration"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_royal_college_funding",
+      "name": "Royal College Funding",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "PER_islamic_restoration",
+        "PER_continue_westernization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_entice_foreign_investment",
+      "name": "Entice Foreign Investment",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_continue_westernization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_increase_faculty_staffing_budget",
+      "name": "Increase Faculty Staffing Budget",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_royal_college_funding",
+        "PER_entice_foreign_investment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_invest_in_univerity_facilities",
+      "name": "Invest In Univerity Facilities",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "PER_royal_college_funding",
+        "PER_entice_foreign_investment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_expand_oil_production",
+      "name": "Expand Oil Production",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "PER_ally_bazaari",
+        "PER_entice_foreign_investment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_islamic_revolution",
+      "name": "Islamic Revolution",
+      "description": "",
+      "x": -3,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "PER_ally_bazaari"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_nationalize_oil_fields",
+      "name": "Nationalize Oil Fields",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_expand_oil_production"
+      ],
+      "mutuallyExclusive": [
+        "PER_increase_oil_sales"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_islamic_solidarity",
+      "name": "Islamic Solidarity",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_nationalize_oil_fields"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_increase_oil_sales",
+      "name": "Increase Oil Sales",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_expand_oil_production"
+      ],
+      "mutuallyExclusive": [
+        "PER_nationalize_oil_fields"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_request_membership_allies",
+      "name": "Request Membership Allies",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_increase_oil_sales"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_secure_iraq",
+      "name": "Secure Iraq",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_request_membership_allies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_secure_afghanistan",
+      "name": "Secure Afghanistan",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_request_membership_allies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_post_war_spoils",
+      "name": "Post War Spoils",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_secure_iraq",
+        "PER_secure_afghanistan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_united_progressive_parties",
+      "name": "United Progressive Parties",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "PER_stage_mass_protests",
+        "PER_propagate_political_literature"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_reach_to_seperatists",
+      "name": "Reach To Seperatists",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_united_progressive_parties"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_strengthen_the_tudeh",
+      "name": "Strengthen The Tudeh",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_reach_to_seperatists"
+      ],
+      "mutuallyExclusive": [
+        "PER_elevate_the_iran_party"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_iranian_socialist_revolution",
+      "name": "Iranian Socialist Revolution",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_strengthen_the_tudeh",
+        "PER_elevate_the_iran_party"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_soviet_alignment",
+      "name": "Soviet Alignment",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "PER_iranian_socialist_revolution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_industrial_aid",
+      "name": "Industrial Aid",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_iranian_socialist_revolution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_elevate_the_iran_party",
+      "name": "Elevate The Iran Party",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_reach_to_seperatists"
+      ],
+      "mutuallyExclusive": [
+        "PER_strengthen_the_tudeh"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_appease_the_seperatists",
+      "name": "Appease The Seperatists",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "PER_iranian_socialist_revolution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_communist_education_reform",
+      "name": "Communist Education Reform",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_iranian_industrialization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_the_new_economy",
+      "name": "The New Economy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_communist_education_reform",
+        "PER_communist_propaganda",
+        "PER_communist_industrialization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_oil_and_rubber_industry",
+      "name": "Oil And Rubber Industry",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_the_new_economy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_workers_army",
+      "name": "Workers Army",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_the_new_economy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_the_peoples_airforce",
+      "name": "The Peoples Airforce",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_workers_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_communist_air_defense",
+      "name": "Communist Air Defense",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_the_peoples_airforce"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_communist_basic_plane_design",
+      "name": "Communist Basic Plane Design",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_the_peoples_airforce"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_communist_naval_bomber_design",
+      "name": "Communist Naval Bomber Design",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_communist_basic_plane_design"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_challenge_the_royal_navy",
+      "name": "Challenge The Royal Navy",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_communist_basic_plane_design",
+        "PER_communist_naval_designs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_the_peoples_navy",
+      "name": "The Peoples Navy",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_workers_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_communist_shore_defense",
+      "name": "Communist Shore Defense",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_the_peoples_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_communist_naval_designs",
+      "name": "Communist Naval Designs",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_the_peoples_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_communist_submarine_design",
+      "name": "Communist Submarine Design",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_communist_naval_designs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_iranian_socialism",
+      "name": "Iranian Socialism",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "PER_iranian_socialist_revolution",
+        "PER_elevate_the_iran_party"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_iranian_industrialization",
+      "name": "Iranian Industrialization",
+      "description": "",
+      "x": 1,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "PER_iranian_socialist_revolution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_international_solidarity",
+      "name": "International Solidarity",
+      "description": "",
+      "x": 5,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "PER_the_new_economy",
+        "PER_nationalize_oil_fields"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_communist_afghanistan_intervention",
+      "name": "Communist Afghanistan Intervention",
+      "description": "",
+      "x": 3,
+      "y": 3,
+      "cost": 1,
+      "prerequisites": [
+        "PER_reject_foreign_dominance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_communist_liberate_pashtuns",
+      "name": "Communist Liberate Pashtuns",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_communist_afghanistan_intervention"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_communist_destabilize_iraq",
+      "name": "Communist Destabilize Iraq",
+      "description": "",
+      "x": -1,
+      "y": -1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_the_new_economy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_revolution_in_the_gulf",
+      "name": "Revolution In The Gulf",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_communist_destabilize_iraq",
+        "PER_communist_afghanistan_intervention"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_hormuz_crisis",
+      "name": "Hormuz Crisis",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_revolution_in_the_gulf"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_communist_gulf_hegemony",
+      "name": "Communist Gulf Hegemony",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "PER_reject_foreign_dominance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_communist_propaganda",
+      "name": "Communist Propaganda",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_iranian_industrialization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_communist_industrialization",
+      "name": "Communist Industrialization",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_iranian_industrialization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_reject_foreign_dominance",
+      "name": "Reject Foreign Dominance",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "PER_communist_industrialization",
+        "PER_iranian_industrialization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_iranian_revolutionary_vanguard",
+      "name": "Iranian Revolutionary Vanguard",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_elevate_the_iran_party"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_one_for_all_all_for_one",
+      "name": "One For All All For One",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_iranian_revolutionary_vanguard"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_land_reform",
+      "name": "Land Reform",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_industrial_aid"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_soviet_iranian_oil_collaboration",
+      "name": "Soviet Iranian Oil Collaboration",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_industrial_aid"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_comintern_research_collaboration",
+      "name": "Comintern Research Collaboration",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_soviet_iranian_oil_collaboration",
+        "PER_land_reform"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_iranian_nuclear_program",
+      "name": "Iranian Nuclear Program",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_comintern_research_collaboration"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_iranian_culture",
+      "name": "Iranian Culture",
+      "description": "",
+      "x": 10,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_stage_mass_protests",
+        "PER_propagate_political_literature"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_form_sumka",
+      "name": "Form Sumka",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_iranian_culture"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_ally_the_bazaari",
+      "name": "Ally The Bazaari",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "PER_form_sumka"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_brown_shirts",
+      "name": "Brown Shirts",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "PER_form_sumka"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_march_on_saadabad",
+      "name": "March On Saadabad",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_brown_shirts",
+        "PER_ally_the_bazaari"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_roll_back_reforms",
+      "name": "Roll Back Reforms",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_march_on_saadabad"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_finding_a_shah",
+      "name": "Finding A Shah",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_march_on_saadabad",
+        "PER_ally_the_bazaari"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_fascist_secularism",
+      "name": "Fascist Secularism",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_roll_back_reforms",
+        "PER_finding_a_shah"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_form_savama",
+      "name": "Form Savama",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_roll_back_reforms",
+        "PER_finding_a_shah"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_fascist_reach_out_to_germany",
+      "name": "Fascist Reach Out To Germany",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_form_savama",
+        "PER_pan_iranianism"
+      ],
+      "mutuallyExclusive": [
+        "PER_fascist_reach_out_to_japan",
+        "PER_iran_first"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_iran_first",
+      "name": "Iran First",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_form_savama",
+        "PER_pan_iranianism"
+      ],
+      "mutuallyExclusive": [
+        "PER_fascist_reach_out_to_germany",
+        "PER_fascist_reach_out_to_japan"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_fascist_reach_out_to_japan",
+      "name": "Fascist Reach Out To Japan",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_fascist_secularism",
+        "PER_pan_iranianism"
+      ],
+      "mutuallyExclusive": [
+        "PER_fascist_reach_out_to_germany",
+        "PER_iran_first"
+      ],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_pan_iranianism",
+      "name": "Pan Iranianism",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_roll_back_reforms",
+        "PER_finding_a_shah"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_intervene_in_central_asia",
+      "name": "Intervene In Central Asia",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "PER_iran_first",
+        "PER_fascist_reach_out_to_japan",
+        "PER_fascist_reach_out_to_germany"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_proclaim_greater_iran",
+      "name": "Proclaim Greater Iran",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_intervene_in_central_asia",
+        "PER_crush_saudi_arabia",
+        "PER_fascist_attack_afghanistan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_eastern_expansion",
+      "name": "Eastern Expansion",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_proclaim_greater_iran"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_curtail_pan_arabism",
+      "name": "Curtail Pan Arabism",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_proclaim_greater_iran"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_there_can_be_only_one",
+      "name": "There Can Be Only One",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "PER_proclaim_greater_iran"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_fascist_attack_turkey",
+      "name": "Fascist Attack Turkey",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_fascist_reach_out_to_germany",
+        "PER_fascist_reach_out_to_japan",
+        "PER_iran_first"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_intervention_in_iraq",
+      "name": "Intervention In Iraq",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_fascist_reach_out_to_germany",
+        "PER_fascist_reach_out_to_japan",
+        "PER_iran_first"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_crush_saudi_arabia",
+      "name": "Crush Saudi Arabia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_fascist_attack_turkey"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "PER_fascist_attack_afghanistan",
+      "name": "Fascist Attack Afghanistan",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "PER_intervention_in_iraq"
+      ],
+      "mutuallyExclusive": [],
+      "source": "persia.txt",
+      "shared": false
+    },
+    {
+      "id": "SSB_the_saadabad_pact",
+      "name": "The Saadabad Pact",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "shared_reference",
+      "shared": true
+    }
+  ]
+}

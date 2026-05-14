@@ -1,0 +1,4098 @@
+{
+  "mod": "FUWG",
+  "tag": "CZE",
+  "country": "Czechoslovakia Mu",
+  "treeId": "mu_czech_focus",
+  "sourceFile": "czechoslovakia_mu.txt",
+  "focusCount": 272,
+  "focuses": [
+    {
+      "id": "CZE_appeal_to_the_castle",
+      "name": "Appeal To The Castle",
+      "description": "",
+      "x": 65,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "CZE_coalition_building"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_coalition_building",
+      "name": "Coalition Building",
+      "description": "",
+      "x": 36,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "CZE_appeal_to_the_castle"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_petition_the_nobles",
+      "name": "Petition The Nobles",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_appeal_to_the_castle"
+      ],
+      "mutuallyExclusive": [
+        "CZE_unify_the_fascist_parties"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_align_nationalist_parties",
+      "name": "Align Nationalist Parties",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_petition_the_nobles",
+        "CZE_unify_the_fascist_parties"
+      ],
+      "mutuallyExclusive": [
+        "CZE_align_slovak_catholics"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_align_slovak_catholics",
+      "name": "Align Slovak Catholics",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_petition_the_nobles"
+      ],
+      "mutuallyExclusive": [
+        "CZE_align_nationalist_parties"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_align_catholic_parties",
+      "name": "Align Catholic Parties",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_petition_the_nobles"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_restore_the_monarchy",
+      "name": "Restore The Monarchy",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_align_catholic_parties",
+        "CZE_align_nationalist_parties",
+        "CZE_align_slovak_catholics"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_semi_constitutional_monarchy",
+      "name": "Semi Constitutional Monarchy",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_restore_the_monarchy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_restore_noble_titles",
+      "name": "Restore Noble Titles",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_semi_constitutional_monarchy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_catholic_focus",
+      "name": "Catholic Focus",
+      "description": "",
+      "x": 2,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_militarize_the_associations",
+        "CZE_semi_constitutional_monarchy"
+      ],
+      "mutuallyExclusive": [
+        "CZE_hussite_legacy"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_hussite_legacy",
+      "name": "Hussite Legacy",
+      "description": "",
+      "x": 3,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_militarize_the_associations",
+        "CZE_semi_constitutional_monarchy"
+      ],
+      "mutuallyExclusive": [
+        "CZE_catholic_focus"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_align_with_germany",
+      "name": "Align With Germany",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_restore_the_monarchy"
+      ],
+      "mutuallyExclusive": [
+        "CZE_rally_against_germany"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_claim_lands_of_the_bohemian_crown",
+      "name": "Claim Lands Of The Bohemian Crown",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_semi_constitutional_monarchy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_restore_the_austro_hungarian_customs_union",
+      "name": "Restore The Austro Hungarian Customs Union",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_semi_constitutional_monarchy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_fight_over_silesia",
+      "name": "Fight Over Silesia",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_claim_lands_of_the_bohemian_crown"
+      ],
+      "mutuallyExclusive": [
+        "CZE_divide_germany"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_divide_germany",
+      "name": "Divide Germany",
+      "description": "",
+      "x": -2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_claim_lands_of_the_bohemian_crown"
+      ],
+      "mutuallyExclusive": [
+        "CZE_fight_over_silesia"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_demand_katowice",
+      "name": "Demand Katowice",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_claim_lands_of_the_bohemian_crown"
+      ],
+      "mutuallyExclusive": [
+        "CZE_poland_alliance_monarchist"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_dismantle_poland",
+      "name": "Dismantle Poland",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_demand_katowice"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_proclaim_the_restoration_of_bohemia",
+      "name": "Proclaim The Restoration Of Bohemia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_fight_over_silesia",
+        "CZE_divide_germany",
+        "CZE_demand_katowice"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_integrate_lost_territories",
+      "name": "Integrate Lost Territories",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_proclaim_the_restoration_of_bohemia"
+      ],
+      "mutuallyExclusive": [
+        "CZE_deepen_ties_with_puppet_kingdoms"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_deepen_ties_with_puppet_kingdoms",
+      "name": "Deepen Ties With Puppet Kingdoms",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_dismantle_poland",
+        "CZE_proclaim_the_restoration_of_bohemia"
+      ],
+      "mutuallyExclusive": [
+        "CZE_integrate_lost_territories"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_unify_the_fascist_parties",
+      "name": "Unify The Fascist Parties",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_appeal_to_the_castle"
+      ],
+      "mutuallyExclusive": [
+        "CZE_petition_the_nobles"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_revive_the_december_bloc",
+      "name": "Revive The December Bloc",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_unify_the_fascist_parties"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_cooperate_with_the_sdp",
+      "name": "Cooperate With The Sdp",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_revive_the_december_bloc"
+      ],
+      "mutuallyExclusive": [
+        "CZE_integrate_sudeten_germans"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_integrate_sudeten_germans",
+      "name": "Integrate Sudeten Germans",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_revive_the_december_bloc",
+        "CZE_align_nationalist_parties",
+        "CZE_align_slovak_catholics"
+      ],
+      "mutuallyExclusive": [
+        "CZE_cooperate_with_the_sdp"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_rally_against_germany",
+      "name": "Rally Against Germany",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_integrate_sudeten_germans",
+        "CZE_cooperate_with_the_sdp"
+      ],
+      "mutuallyExclusive": [
+        "CZE_align_with_germany"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_pro_rearmament_propaganda",
+      "name": "Pro Rearmament Propaganda",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_petition_the_nobles",
+        "CZE_unify_the_fascist_parties"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_revert_1926_anti_military_laws",
+      "name": "Revert 1926 Anti Military Laws",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_unify_the_fascist_parties"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_power_to_the_military",
+      "name": "Power To The Military",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_revert_1926_anti_military_laws",
+        "CZE_revive_the_december_bloc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_militarize_the_associations",
+      "name": "Militarize The Associations",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_power_to_the_military"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_aggressive_foreign_policy",
+      "name": "Aggressive Foreign Policy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_militarize_the_associations"
+      ],
+      "mutuallyExclusive": [
+        "CZE_work_with_germany",
+        "CZE_complete_capitulation"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_feeding_the_alligator",
+      "name": "Feeding The Alligator",
+      "description": "",
+      "x": 63,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_contact_henlein",
+        "CZE_power_to_the_military"
+      ],
+      "mutuallyExclusive": [
+        "CZE_bastion_of_liberty"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_work_with_germany",
+      "name": "Work With Germany",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_militarize_the_associations",
+        "CZE_feeding_the_alligator"
+      ],
+      "mutuallyExclusive": [
+        "CZE_complete_capitulation",
+        "CZE_aggressive_foreign_policy"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_joint_equipment_designs",
+      "name": "Joint Equipment Designs",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_stabilize_the_protectorate",
+        "CZE_work_with_germany"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_negotiate_sphere_of_influence",
+      "name": "Negotiate Sphere Of Influence",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_work_with_germany"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_set_up_polish_puppet_state",
+      "name": "Set Up Polish Puppet State",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_negotiate_sphere_of_influence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_assist_austria",
+      "name": "Assist Austria",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_aggressive_foreign_policy",
+        "CZE_claim_lands_of_the_bohemian_crown"
+      ],
+      "mutuallyExclusive": [
+        "CZE_eliminate_austrian_defeatists"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_eliminate_austrian_defeatists",
+      "name": "Eliminate Austrian Defeatists",
+      "description": "",
+      "x": -4,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_claim_lands_of_the_bohemian_crown",
+        "CZE_aggressive_foreign_policy"
+      ],
+      "mutuallyExclusive": [
+        "CZE_assist_austria"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_the_legacy_of_ottokar",
+      "name": "The Legacy Of Ottokar",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_eliminate_austrian_defeatists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_demand_the_istrian_peninsula",
+      "name": "Demand The Istrian Peninsula",
+      "description": "",
+      "x": -1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_the_legacy_of_ottokar"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_demand_slovenia",
+      "name": "Demand Slovenia",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_the_legacy_of_ottokar"
+      ],
+      "mutuallyExclusive": [
+        "CZE_demand_overlordship_of_yugoslav_league"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_demand_overlordship_of_yugoslav_league",
+      "name": "Demand Overlordship Of Yugoslav League",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_eliminate_austrian_defeatists",
+        "CZE_assist_austria"
+      ],
+      "mutuallyExclusive": [
+        "CZE_demand_slovenia"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_poland_alliance_monarchist",
+      "name": "Poland Alliance Monarchist",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_claim_lands_of_the_bohemian_crown",
+        "CZE_aggressive_foreign_policy"
+      ],
+      "mutuallyExclusive": [
+        "CZE_demand_katowice"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_a_strong_poland",
+      "name": "A Strong Poland",
+      "description": "",
+      "x": null,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_poland_alliance_monarchist"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_facilitate_a_strong_hungary",
+      "name": "Facilitate A Strong Hungary",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_eliminate_austrian_defeatists",
+        "CZE_assist_austria"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_subjegate_serbia",
+      "name": "Subjegate Serbia",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_demand_slovenia",
+        "CZE_demand_overlordship_of_yugoslav_league",
+        "CZE_facilitate_a_strong_hungary"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_subjegate_romania",
+      "name": "Subjegate Romania",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_facilitate_a_strong_hungary"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_integrate_hungary",
+      "name": "Integrate Hungary",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_subjegate_romania",
+        "CZE_subjegate_serbia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_expand_the_rome_protocols",
+      "name": "Expand The Rome Protocols",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_assist_austria"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_return_to_democracy",
+      "name": "Return To Democracy",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_assist_austria"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_cooperate_with_the_allies",
+      "name": "Cooperate With The Allies",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_return_to_democracy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_central_european_faction",
+      "name": "Central European Faction",
+      "description": "",
+      "x": 12,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_claim_lands_of_the_bohemian_crown",
+        "CZE_aggressive_foreign_policy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_complete_capitulation",
+      "name": "Complete Capitulation",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_feeding_the_alligator"
+      ],
+      "mutuallyExclusive": [
+        "CZE_work_with_germany",
+        "CZE_aggressive_foreign_policy"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_stabilize_the_protectorate",
+      "name": "Stabilize The Protectorate",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_complete_capitulation"
+      ],
+      "mutuallyExclusive": [
+        "CZE_prepare_for_exile"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_full_faith_in_hacha",
+      "name": "Full Faith In Hacha",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_stabilize_the_protectorate"
+      ],
+      "mutuallyExclusive": [
+        "CZE_moravecs_bohemia"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_moravecs_bohemia",
+      "name": "Moravecs Bohemia",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_stabilize_the_protectorate"
+      ],
+      "mutuallyExclusive": [
+        "CZE_full_faith_in_hacha"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_form_the_government_army",
+      "name": "Form The Government Army",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_full_faith_in_hacha",
+        "CZE_moravecs_bohemia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_forced_administration_of_companies",
+      "name": "Forced Administration Of Companies",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_form_the_government_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_prepare_for_exile",
+      "name": "Prepare For Exile",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_complete_capitulation"
+      ],
+      "mutuallyExclusive": [
+        "CZE_stabilize_the_protectorate"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_infiltrate_collaborationist_organizations",
+      "name": "Infiltrate Collaborationist Organizations",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_prepare_for_exile"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_enter_exile",
+      "name": "Enter Exile",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CZE_infiltrate_collaborationist_organizations"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_contact_the_czech_and_slovak_legion",
+      "name": "Contact The Czech And Slovak Legion",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "CZE_enter_exile"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_placate_benes_faction",
+      "name": "Placate Benes Faction",
+      "description": "",
+      "x": -10,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_coalition_building"
+      ],
+      "mutuallyExclusive": [
+        "CZE_negotiations_with_the_autonomous_bloc",
+        "CZE_increase_funding_from_moscow"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_king_of_the_castle",
+      "name": "King Of The Castle",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_placate_benes_faction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_merge_the_paramilitaries",
+      "name": "Merge The Paramilitaries",
+      "description": "",
+      "x": 36,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_placate_benes_faction",
+        "CZE_unify_the_fascist_parties"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_integrated_paramilitaries",
+      "name": "Integrated Paramilitaries",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_merge_the_paramilitaries"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_leverage_sokol",
+      "name": "Leverage Sokol",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_negotiations_with_the_autonomous_bloc",
+        "CZE_placate_benes_faction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_negotiations_with_the_autonomous_bloc",
+      "name": "Negotiations With The Autonomous Bloc",
+      "description": "",
+      "x": 12,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_coalition_building"
+      ],
+      "mutuallyExclusive": [
+        "CZE_placate_benes_faction",
+        "CZE_increase_funding_from_moscow"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_slovakia_autonomy_agreement",
+      "name": "Slovakia Autonomy Agreement",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_negotiations_with_the_autonomous_bloc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_topple_the_king",
+      "name": "Topple The King",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_negotiations_with_the_autonomous_bloc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_comprise_with_the_carpathians",
+      "name": "Comprise With The Carpathians",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_slovakia_autonomy_agreement"
+      ],
+      "mutuallyExclusive": [
+        "CZE_cut_carpathia_loose"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_cut_carpathia_loose",
+      "name": "Cut Carpathia Loose",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_slovakia_autonomy_agreement"
+      ],
+      "mutuallyExclusive": [
+        "CZE_comprise_with_the_carpathians"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_apart_but_togather",
+      "name": "Apart But Togather",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_comprise_with_the_carpathians",
+        "CZE_cut_carpathia_loose"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_reorient_the_broad_coalition",
+      "name": "Reorient The Broad Coalition",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_placate_benes_faction",
+        "CZE_negotiations_with_the_autonomous_bloc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_compromise_with_the_veteran_agrarian",
+      "name": "Compromise With The Veteran Agrarian",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_reorient_the_broad_coalition"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_deepend_ties_with_the_trademans",
+      "name": "Deepend Ties With The Trademans",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_reorient_the_broad_coalition"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_truth_prevails",
+      "name": "Truth Prevails",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_compromise_with_the_veteran_agrarian",
+        "CZE_deepend_ties_with_the_trademans"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_reintegrate_cross_border_rail_connections",
+      "name": "Reintegrate Cross Border Rail Connections",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_deepend_ties_with_the_trademans",
+        "CZE_negotiations_with_the_autonomous_bloc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_free_tuka",
+      "name": "Free Tuka",
+      "description": "",
+      "x": 8,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_negotiations_with_the_autonomous_bloc",
+        "CZE_placate_benes_faction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_revisit_custom_union_talks",
+      "name": "Revisit Custom Union Talks",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_reintegrate_cross_border_rail_connections"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_form_a_federation",
+      "name": "Form A Federation",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_revisit_custom_union_talks"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_reassure_the_army",
+      "name": "Reassure The Army",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_truth_prevails"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_standing_against_the_storm",
+      "name": "Standing Against The Storm",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_reassure_the_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_outreach_to_the_western_powers",
+      "name": "Outreach To The Western Powers",
+      "description": "",
+      "x": 2,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_bastion_of_liberty",
+        "CZE_compromise_with_the_veteran_agrarian"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_grow_the_anglo_czechoslovak_prague_credit_bank",
+      "name": "Grow The Anglo Czechoslovak Prague Credit Bank",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_outreach_to_the_western_powers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_supply_fighters_for_allies",
+      "name": "Supply Fighters For Allies",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_outreach_to_the_western_powers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_demand_guarantees",
+      "name": "Demand Guarantees",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_supply_fighters_for_allies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_guardian_of_central_europe",
+      "name": "Guardian Of Central Europe",
+      "description": "",
+      "x": 1,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_demand_guarantees",
+        "CZE_form_a_federation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_strike_at_the_heart_of_bolshevism",
+      "name": "Strike At The Heart Of Bolshevism",
+      "description": "",
+      "x": -7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_guardian_of_central_europe",
+        "CZE_central_european_faction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_destroy_the_fascist_threats",
+      "name": "Destroy The Fascist Threats",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_guardian_of_central_europe",
+        "CZE_central_european_faction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_peace_on_our_time",
+      "name": "Peace On Our Time",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_guardian_of_central_europe",
+        "CZE_central_european_faction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_contact_henlein",
+      "name": "Contact Henlein",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_placate_benes_faction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_no_compromise_with_the_sdp",
+      "name": "No Compromise With The Sdp",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_placate_benes_faction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_closer_ties_with_the_moderate_germany_parties",
+      "name": "Closer Ties With The Moderate Germany Parties",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_no_compromise_with_the_sdp"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_complete_reconciliation",
+      "name": "Complete Reconciliation",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_closer_ties_with_the_moderate_germany_parties"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_bastion_of_liberty",
+      "name": "Bastion Of Liberty",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_no_compromise_with_the_sdp"
+      ],
+      "mutuallyExclusive": [
+        "CZE_feeding_the_alligator"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_increase_funding_from_moscow",
+      "name": "Increase Funding From Moscow",
+      "description": "",
+      "x": 13,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_coalition_building"
+      ],
+      "mutuallyExclusive": [
+        "CZE_placate_benes_faction",
+        "CZE_negotiations_with_the_autonomous_bloc"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_expand_the_communist_press",
+      "name": "Expand The Communist Press",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_increase_funding_from_moscow"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_form_workers_brigades",
+      "name": "Form Workers Brigades",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_expand_the_communist_press"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_anti_rearmament_propaganda",
+      "name": "Anti Rearmament Propaganda",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_expand_the_communist_press"
+      ],
+      "mutuallyExclusive": [
+        "CZE_anti_democratic_propaganda"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_anti_democratic_propaganda",
+      "name": "Anti Democratic Propaganda",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_expand_the_communist_press"
+      ],
+      "mutuallyExclusive": [
+        "CZE_anti_rearmament_propaganda"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_zapotocky_faction",
+      "name": "Zapotocky Faction",
+      "description": "",
+      "x": 5,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_anti_rearmament_propaganda",
+        "CZE_anti_democratic_propaganda"
+      ],
+      "mutuallyExclusive": [
+        "CZE_kohler_faction",
+        "CZE_gottwald_faction"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_ally_with_moderate_socialists",
+      "name": "Ally With Moderate Socialists",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_zapotocky_faction"
+      ],
+      "mutuallyExclusive": [
+        "CZE_cooperation_with_the_ussr"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_gottwald_faction",
+      "name": "Gottwald Faction",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_anti_rearmament_propaganda",
+        "CZE_anti_democratic_propaganda"
+      ],
+      "mutuallyExclusive": [
+        "CZE_kohler_faction",
+        "CZE_zapotocky_faction"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_kohler_faction",
+      "name": "Kohler Faction",
+      "description": "",
+      "x": -7,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_anti_democratic_propaganda",
+        "CZE_form_workers_brigades"
+      ],
+      "mutuallyExclusive": [
+        "CZE_gottwald_faction",
+        "CZE_zapotocky_faction"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_revolutionary_brigades",
+      "name": "Revolutionary Brigades",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_kohler_faction",
+        "CZE_agrarian_reform",
+        "CZE_rehabilitate_the_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_recruit_communist_exiles",
+      "name": "Recruit Communist Exiles",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_revolutionary_brigades"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_destabilize_potential_adversaries",
+      "name": "Destabilize Potential Adversaries",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_recruit_communist_exiles"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_nationalize_key_industries",
+      "name": "Nationalize Key Industries",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_zapotocky_faction",
+        "CZE_gottwald_faction",
+        "CZE_kohler_faction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_control_the_associations",
+      "name": "Control The Associations",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_zapotocky_faction",
+        "CZE_gottwald_faction",
+        "CZE_kohler_faction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_agrarian_reform",
+      "name": "Agrarian Reform",
+      "description": "",
+      "x": 3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_zapotocky_faction",
+        "CZE_gottwald_faction",
+        "CZE_kohler_faction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_realign_the_church",
+      "name": "Realign The Church",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_zapotocky_faction",
+        "CZE_gottwald_faction",
+        "CZE_kohler_faction"
+      ],
+      "mutuallyExclusive": [
+        "CZE_change_the_narrative"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_promote_urbanization",
+      "name": "Promote Urbanization",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_agrarian_reform"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_confiscate_church_lands",
+      "name": "Confiscate Church Lands",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_agrarian_reform",
+        "CZE_realign_the_church"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_create_a_secret_police_branch",
+      "name": "Create A Secret Police Branch",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_realign_the_church",
+        "CZE_change_the_narrative"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_change_the_narrative",
+      "name": "Change The Narrative",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_zapotocky_faction",
+        "CZE_gottwald_faction",
+        "CZE_kohler_faction"
+      ],
+      "mutuallyExclusive": [
+        "CZE_realign_the_church"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_cooperation_with_the_ussr",
+      "name": "Cooperation With The Ussr",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_gottwald_faction",
+        "CZE_kohler_faction",
+        "CZE_nationalize_key_industries"
+      ],
+      "mutuallyExclusive": [
+        "CZE_ally_with_moderate_socialists"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_rehabilitate_the_army",
+      "name": "Rehabilitate The Army",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_kohler_faction",
+        "CZE_gottwald_faction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_recruit_ideologically_aligned_generals",
+      "name": "Recruit Ideologically Aligned Generals",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_rehabilitate_the_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_limited_cooperation",
+      "name": "Limited Cooperation",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_ally_with_moderate_socialists"
+      ],
+      "mutuallyExclusive": [
+        "CZE_denounce_stalinism"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_denounce_stalinism",
+      "name": "Denounce Stalinism",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_ally_with_moderate_socialists"
+      ],
+      "mutuallyExclusive": [
+        "CZE_limited_cooperation"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_cooperate_with_tito",
+      "name": "Cooperate With Tito",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_zapotocky_faction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_czechoslovak_union",
+      "name": "Czechoslovak Union",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_ally_with_moderate_socialists",
+        "CZE_cooperation_with_the_ussr"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_balkan_union",
+      "name": "Balkan Union",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_czechoslovak_union",
+        "CZE_spread_the_revolution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_spread_the_revolution",
+      "name": "Spread The Revolution",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_ally_with_moderate_socialists",
+        "CZE_cooperation_with_the_ussr"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_exchange_military_expertise",
+      "name": "Exchange Military Expertise",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_cooperation_with_the_ussr"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_join_comintern_pfot",
+      "name": "Join Comintern Pfot",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_exchange_military_expertise"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_pressure_romania",
+      "name": "Pressure Romania",
+      "description": "",
+      "x": null,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_join_comintern_pfot"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_revive_the_czechoslovak_legion_dynamic",
+      "name": "Revive The Czechoslovak Legion Dynamic",
+      "description": "",
+      "x": 39,
+      "y": 0,
+      "cost": 2,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_state_sponsored_recruitment_for_spain",
+      "name": "State Sponsored Recruitment For Spain",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_revive_the_czechoslovak_legion_dynamic"
+      ],
+      "mutuallyExclusive": [
+        "CZE_profit_off_the_spanish_civil_war"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_profit_off_the_spanish_civil_war",
+      "name": "Profit Off The Spanish Civil War",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_revive_the_czechoslovak_legion_dynamic"
+      ],
+      "mutuallyExclusive": [
+        "CZE_state_sponsored_recruitment_for_spain"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_vonapo_20",
+      "name": "Vonapo 20",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_coalition_building"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_german_nonagressionpact",
+      "name": "German Nonagressionpact",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_vonapo_20"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_intervene_in_the_ussr",
+      "name": "Intervene In The Ussr",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_revive_the_czechoslovak_legion_dynamic"
+      ],
+      "mutuallyExclusive": [
+        "CZE_soviet_alliance"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_claim_ukraine",
+      "name": "Claim Ukraine",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_demand_corridor_to_ussr"
+      ],
+      "mutuallyExclusive": [
+        "CZE_integrate_western_ukrainians",
+        "CZE_ally_russia"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_ally_russia",
+      "name": "Ally Russia",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_intervene_in_the_ussr"
+      ],
+      "mutuallyExclusive": [
+        "CZE_claim_ukraine"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_forgive_trading_debts",
+      "name": "Forgive Trading Debts",
+      "description": "",
+      "x": 28,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_coalition_building"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_improve_balkan_trade_relations",
+      "name": "Improve Balkan Trade Relations",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_forgive_trading_debts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_strengthen_the_little_entente",
+      "name": "Strengthen The Little Entente",
+      "description": "",
+      "x": 7,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_forgive_trading_debts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_seek_french_leadership",
+      "name": "Seek French Leadership",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_strengthen_the_little_entente"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_ally_romania",
+      "name": "Ally Romania",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_improve_balkan_trade_relations",
+        "CZE_strengthen_the_little_entente"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_ally_hungary",
+      "name": "Ally Hungary",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_strengthen_the_little_entente",
+        "CZE_improve_balkan_trade_relations"
+      ],
+      "mutuallyExclusive": [
+        "CZE_neutralize_the_hungarian_threat"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_neutralize_the_hungarian_threat",
+      "name": "Neutralize The Hungarian Threat",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_strengthen_the_little_entente"
+      ],
+      "mutuallyExclusive": [
+        "CZE_ally_hungary"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_ally_austria",
+      "name": "Ally Austria",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_ally_hungary",
+        "CZE_neutralize_the_hungarian_threat"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_protect_neutrality",
+      "name": "Protect Neutrality",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_ally_austria"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_mutual_protection_agreement_with_switzerland",
+      "name": "Mutual Protection Agreement With Switzerland",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_protect_neutrality"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_ally_yugoslavia",
+      "name": "Ally Yugoslavia",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_improve_balkan_trade_relations",
+        "CZE_ally_hungary",
+        "CZE_neutralize_the_hungarian_threat",
+        "CZE_ally_romania"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_exchange_technology",
+      "name": "Exchange Technology",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_ally_austria",
+        "CZE_ally_yugoslavia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_increase_food_and_resource_imports",
+      "name": "Increase Food And Resource Imports",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_ally_austria",
+        "CZE_ally_yugoslavia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_double_down_on_heavy_industry",
+      "name": "Double Down On Heavy Industry",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_increase_food_and_resource_imports",
+        "CZE_exchange_technology"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_soviet_alliance",
+      "name": "Soviet Alliance",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_vonapo_20"
+      ],
+      "mutuallyExclusive": [
+        "CZE_intervene_in_the_ussr"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_airlift_soviet_support",
+      "name": "Airlift Soviet Support",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_soviet_alliance"
+      ],
+      "mutuallyExclusive": [
+        "CZE_ally_poland",
+        "CZE_demand_corridor_to_ussr"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_demand_corridor_to_ussr",
+      "name": "Demand Corridor To Ussr",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_soviet_alliance",
+        "CZE_intervene_in_the_ussr"
+      ],
+      "mutuallyExclusive": [
+        "CZE_ally_poland",
+        "CZE_airlift_soviet_support"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_integrate_western_ukrainians",
+      "name": "Integrate Western Ukrainians",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_demand_corridor_to_ussr"
+      ],
+      "mutuallyExclusive": [
+        "CZE_claim_ukraine"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_ally_poland",
+      "name": "Ally Poland",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_strengthen_the_little_entente"
+      ],
+      "mutuallyExclusive": [
+        "CZE_demand_corridor_to_ussr",
+        "CZE_airlift_soviet_support"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_realize_the_polish_czechoslovak_confederation",
+      "name": "Realize The Polish Czechoslovak Confederation",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_ally_poland"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_raise_more_industrial_funds",
+      "name": "Raise More Industrial Funds",
+      "description": "",
+      "x": 16,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_the_slovak_arrow",
+      "name": "The Slovak Arrow",
+      "description": "",
+      "x": -10,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_raise_more_industrial_funds"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_realize_motorway_proposals",
+      "name": "Realize Motorway Proposals",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_the_slovak_arrow"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_finish_double_tracking_efforts",
+      "name": "Finish Double Tracking Efforts",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_the_slovak_arrow"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_build_additional_rail_stations",
+      "name": "Build Additional Rail Stations",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_finish_double_tracking_efforts",
+        "CZE_realize_motorway_proposals"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_complete_the_power_grid",
+      "name": "Complete The Power Grid",
+      "description": "",
+      "x": -7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_raise_more_industrial_funds"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_build_the_slapy_reservoir",
+      "name": "Build The Slapy Reservoir",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_complete_the_power_grid"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_devaluate_the_koruna",
+      "name": "Devaluate The Koruna",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_raise_more_industrial_funds"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_joint_stock_schemes",
+      "name": "Joint Stock Schemes",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_raise_more_industrial_funds"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_continue_the_central_bohemia_plan",
+      "name": "Continue The Central Bohemia Plan",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_raise_more_industrial_funds"
+      ],
+      "mutuallyExclusive": [
+        "CZE_balance_industrial_invevestments"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_balance_industrial_invevestments",
+      "name": "Balance Industrial Invevestments",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_raise_more_industrial_funds"
+      ],
+      "mutuallyExclusive": [
+        "CZE_continue_the_central_bohemia_plan"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_expand_prf_science_facilities",
+      "name": "Expand Prf Science Facilities",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_continue_the_central_bohemia_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_shrink_educational_disparities",
+      "name": "Shrink Educational Disparities",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_balance_industrial_invevestments"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_grow_ckd_secondary_facilities",
+      "name": "Grow Ckd Secondary Facilities",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_continue_the_central_bohemia_plan",
+        "CZE_balance_industrial_invevestments"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_bolster_domestic_construction",
+      "name": "Bolster Domestic Construction",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_grow_ckd_secondary_facilities"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_expand_trinec_ironworks",
+      "name": "Expand Trinec Ironworks",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_bolster_domestic_construction",
+        "CZE_joint_stock_schemes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_expand_praga",
+      "name": "Expand Praga",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_bolster_domestic_construction",
+        "CZE_joint_stock_schemes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_grow_tatras_capabilities",
+      "name": "Grow Tatras Capabilities",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_expand_praga"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_merge_skodas_consumer_good_plants",
+      "name": "Merge Skodas Consumer Good Plants",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_grow_tatras_capabilities",
+        "CZE_bailout_moser"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_invest_in_vhht",
+      "name": "Invest In Vhht",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_bolster_domestic_construction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_expand_vitkovice_ironworks",
+      "name": "Expand Vitkovice Ironworks",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_invest_in_vhht"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_expand_central_bohemian_mines",
+      "name": "Expand Central Bohemian Mines",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_expand_vitkovice_ironworks"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_jachymov_uranium_mine",
+      "name": "Jachymov Uranium Mine",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_invest_in_vhht"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_diversify_refinery_processes",
+      "name": "Diversify Refinery Processes",
+      "description": "",
+      "x": -6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_bolster_domestic_construction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_enlarge_smaller_wells",
+      "name": "Enlarge Smaller Wells",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_bolster_domestic_construction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_merge_the_oil_companies",
+      "name": "Merge The Oil Companies",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_enlarge_smaller_wells",
+        "CZE_diversify_refinery_processes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_develop_sudetenland_resources",
+      "name": "Develop Sudetenland Resources",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_invest_in_vhht"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_increase_bauxite_imports",
+      "name": "Increase Bauxite Imports",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_develop_sudetenland_resources"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_consolidate_mining_operations",
+      "name": "Consolidate Mining Operations",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_expand_vitkovice_ironworks",
+        "CZE_develop_sudetenland_resources"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_diversify_bata",
+      "name": "Diversify Bata",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_joint_stock_schemes"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_bailout_moser",
+      "name": "Bailout Moser",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_diversify_bata"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_giant_of_central_europe_industry",
+      "name": "Giant Of Central Europe Industry",
+      "description": "",
+      "x": 0,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_merge_skodas_consumer_good_plants",
+        "CZE_consolidate_mining_operations",
+        "CZE_merge_the_oil_companies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_kickstart_rapid_rearmanent",
+      "name": "Kickstart Rapid Rearmanent",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_raise_more_industrial_funds"
+      ],
+      "mutuallyExclusive": [
+        "CZE_keep_focus_on_weapon_exports"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_keep_focus_on_weapon_exports",
+      "name": "Keep Focus On Weapon Exports",
+      "description": "",
+      "x": 7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_raise_more_industrial_funds"
+      ],
+      "mutuallyExclusive": [
+        "CZE_kickstart_rapid_rearmanent"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_force_the_industrialists_hand",
+      "name": "Force The Industrialists Hand",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_keep_focus_on_weapon_exports"
+      ],
+      "mutuallyExclusive": [
+        "CZE_embrace_corporatism"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_embrace_corporatism",
+      "name": "Embrace Corporatism",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_keep_focus_on_weapon_exports"
+      ],
+      "mutuallyExclusive": [
+        "CZE_force_the_industrialists_hand"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_continue_industrial_relocation_schemes",
+      "name": "Continue Industrial Relocation Schemes",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_kickstart_rapid_rearmanent",
+        "CZE_keep_focus_on_weapon_exports"
+      ],
+      "mutuallyExclusive": [
+        "CZE_expand_existing_armory_plants"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_expand_existing_armory_plants",
+      "name": "Expand Existing Armory Plants",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_kickstart_rapid_rearmanent",
+        "CZE_keep_focus_on_weapon_exports"
+      ],
+      "mutuallyExclusive": [
+        "CZE_continue_industrial_relocation_schemes"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_establish_a_armament_factory_in_uhersky_brod",
+      "name": "Establish A Armament Factory In Uhersky Brod",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_continue_industrial_relocation_schemes",
+        "CZE_expand_existing_armory_plants"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_expand_skoda_offices",
+      "name": "Expand Skoda Offices",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_establish_a_armament_factory_in_uhersky_brod",
+        "CZE_keep_focus_on_weapon_exports"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_skoda_internal_competition",
+      "name": "Skoda Internal Competition",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_expand_skoda_offices"
+      ],
+      "mutuallyExclusive": [
+        "CZE_skoda_increase_cooperation"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_skoda_increase_cooperation",
+      "name": "Skoda Increase Cooperation",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_expand_skoda_offices"
+      ],
+      "mutuallyExclusive": [
+        "CZE_skoda_internal_competition"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_master_of_armaments",
+      "name": "Master Of Armaments",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_skoda_internal_competition",
+        "CZE_skoda_increase_cooperation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_only_the_best_is_good_enough",
+      "name": "Only The Best Is Good Enough",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_master_of_armaments",
+        "CZE_merge_skodas_consumer_good_plants"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_an_industrial_legacy",
+      "name": "An Industrial Legacy",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_giant_of_central_europe_industry",
+        "CZE_only_the_best_is_good_enough"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_powerhouse_of_europe",
+      "name": "Powerhouse Of Europe",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_an_industrial_legacy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_redirect_the_fortification_councils_funds",
+      "name": "Redirect The Fortification Councils Funds",
+      "description": "",
+      "x": 13,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_raise_more_industrial_funds"
+      ],
+      "mutuallyExclusive": [
+        "CZE_the_second_fortification_program"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_skoda_priority_shortcut_finder",
+      "name": "Skoda Priority Shortcut Finder",
+      "description": "",
+      "x": 2,
+      "y": 8,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_continue_armed_force_reform",
+      "name": "Continue Armed Force Reform",
+      "description": "",
+      "x": 45,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_raise_more_industrial_funds"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_the_second_fortification_program",
+      "name": "The Second Fortification Program",
+      "description": "",
+      "x": 3,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_raise_more_industrial_funds"
+      ],
+      "mutuallyExclusive": [
+        "CZE_redirect_the_fortification_councils_funds"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_air_force_officer_recruitment",
+      "name": "Air Force Officer Recruitment",
+      "description": "",
+      "x": -13,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_continue_armed_force_reform"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_expand_airfield_capacity",
+      "name": "Expand Airfield Capacity",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_air_force_officer_recruitment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_trust_in_old_guard",
+      "name": "Trust In Old Guard",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_expand_airfield_capacity"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_expand_the_aero_clubs",
+      "name": "Expand The Aero Clubs",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_trust_in_old_guard"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_air_training_abroad",
+      "name": "Air Training Abroad",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_trust_in_old_guard"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_establish_air_defense_zones",
+      "name": "Establish Air Defense Zones",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_trust_in_old_guard"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_the_air_is_our_sea",
+      "name": "The Air Is Our Sea",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_air_training_abroad",
+        "CZE_establish_air_defense_zones",
+        "CZE_expand_the_aero_clubs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_national_defense_act",
+      "name": "National Defense Act",
+      "description": "",
+      "x": -7,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_continue_armed_force_reform"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_car_and_oil_rationing",
+      "name": "Car And Oil Rationing",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_national_defense_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_mobilize_the_reserves",
+      "name": "Mobilize The Reserves",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_national_defense_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_invest_in_the_smaller_air_plants",
+      "name": "Invest In The Smaller Air Plants",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_national_defense_act",
+        "CZE_air_force_officer_recruitment"
+      ],
+      "mutuallyExclusive": [
+        "CZE_continue_avia_expansion"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_continue_avia_expansion",
+      "name": "Continue Avia Expansion",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_national_defense_act",
+        "CZE_air_force_officer_recruitment"
+      ],
+      "mutuallyExclusive": [
+        "CZE_invest_in_the_smaller_air_plants"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_increase_military_aeronautical_institute_funding",
+      "name": "Increase Military Aeronautical Institute Funding",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_invest_in_the_smaller_air_plants",
+        "CZE_continue_avia_expansion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_bring_kramer_and_lobel_under_state_control",
+      "name": "Bring Kramer And Lobel Under State Control",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_increase_military_aeronautical_institute_funding"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_second_to_none",
+      "name": "Second To None",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_increase_military_aeronautical_institute_funding"
+      ],
+      "mutuallyExclusive": [
+        "CZE_diversify_airframe_production"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_diversify_airframe_production",
+      "name": "Diversify Airframe Production",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_increase_military_aeronautical_institute_funding"
+      ],
+      "mutuallyExclusive": [
+        "CZE_second_to_none"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_projekt_l_52",
+      "name": "Projekt L 52",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_second_to_none",
+        "CZE_diversify_airframe_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_fund_vladimir_mandl_research",
+      "name": "Fund Vladimir Mandl Research",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_second_to_none",
+        "CZE_diversify_airframe_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_form_the_state_defense_guard",
+      "name": "Form The State Defense Guard",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_continue_armed_force_reform"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_expand_the_horska_divisions",
+      "name": "Expand The Horska Divisions",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_form_the_state_defense_guard"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_develop_horska_artillery",
+      "name": "Develop Horska Artillery",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_expand_the_horska_divisions"
+      ],
+      "mutuallyExclusive": [
+        "CZE_diversify_our_specialists"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_diversify_our_specialists",
+      "name": "Diversify Our Specialists",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_expand_the_horska_divisions"
+      ],
+      "mutuallyExclusive": [
+        "CZE_develop_horska_artillery"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_bribery_investigations",
+      "name": "Bribery Investigations",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_form_the_state_defense_guard"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_expand_the_river_monitor_fleet",
+      "name": "Expand The River Monitor Fleet",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_continue_armed_force_reform"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_merge_the_financial_and_state_guard",
+      "name": "Merge The Financial And State Guard",
+      "description": "",
+      "x": 8,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_form_the_state_defense_guard"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_recon_in_force",
+      "name": "Recon In Force",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_merge_the_financial_and_state_guard"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_integrate_fortification_engineers",
+      "name": "Integrate Fortification Engineers",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_merge_the_financial_and_state_guard"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_logistics_beyond_the_sudetes",
+      "name": "Logistics Beyond The Sudetes",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_merge_the_financial_and_state_guard"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_opl_exercises",
+      "name": "Opl Exercises",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_form_the_state_defense_guard"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_rapid_response_divisions",
+      "name": "Rapid Response Divisions",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_opl_exercises"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_redouble_tank_development_efforts",
+      "name": "Redouble Tank Development Efforts",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_national_defense_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_rearmed_and_retooled",
+      "name": "Rearmed And Retooled",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_redouble_tank_development_efforts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_the_tvp_project",
+      "name": "The Tvp Project",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_redouble_tank_development_efforts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_expand_the_land_department_of_vtu",
+      "name": "Expand The Land Department Of Vtu",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_the_tvp_project",
+        "CZE_rearmed_and_retooled"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_three_kings",
+      "name": "Three Kings",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_continue_armed_force_reform"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_anti_tank_development",
+      "name": "Anti Tank Development",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_opl_exercises"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_establish_the_fall_backlines",
+      "name": "Establish The Fall Backlines",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_rapid_response_divisions",
+        "CZE_anti_tank_development"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_concealment_efforts",
+      "name": "Concealment Efforts",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_recon_in_force",
+        "CZE_integrate_fortification_engineers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_elevate_the_vsv",
+      "name": "Elevate The Vsv",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_bribery_investigations"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_continue_with_snejdareks_plan_dynamic",
+      "name": "Continue With Snejdareks Plan Dynamic",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_elevate_the_vsv"
+      ],
+      "mutuallyExclusive": [
+        "CZE_go_with_vojcechovskys_plan_dynamic"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_go_with_vojcechovskys_plan_dynamic",
+      "name": "Go With Vojcechovskys Plan Dynamic",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_elevate_the_vsv"
+      ],
+      "mutuallyExclusive": [
+        "CZE_continue_with_snejdareks_plan_dynamic"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_elevate_slovak_officers",
+      "name": "Elevate Slovak Officers",
+      "description": "",
+      "x": -1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_go_with_vojcechovskys_plan_dynamic",
+        "CZE_continue_with_snejdareks_plan_dynamic"
+      ],
+      "mutuallyExclusive": [
+        "CZE_improve_the_current_officer_pool"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_improve_the_current_officer_pool",
+      "name": "Improve The Current Officer Pool",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_go_with_vojcechovskys_plan_dynamic",
+        "CZE_continue_with_snejdareks_plan_dynamic"
+      ],
+      "mutuallyExclusive": [
+        "CZE_elevate_slovak_officers"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_lessons_of_war",
+      "name": "Lessons Of War",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_elevate_slovak_officers",
+        "CZE_improve_the_current_officer_pool"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_for_the_homeland",
+      "name": "For The Homeland",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_lessons_of_war",
+        "CZE_expand_the_land_department_of_vtu",
+        "CZE_establish_the_fall_backlines"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_the_lions_roar",
+      "name": "The Lions Roar",
+      "description": "",
+      "x": -6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_for_the_homeland",
+        "CZE_the_air_is_our_sea"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_promote_moravec_writings",
+      "name": "Promote Moravec Writings",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_elevate_the_vsv"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_department_two_expansion",
+      "name": "Department Two Expansion",
+      "description": "",
+      "x": 12,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_continue_armed_force_reform"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_military_intelligence",
+      "name": "Military Intelligence",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_department_two_expansion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_air_intelligence",
+      "name": "Air Intelligence",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_department_two_expansion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_within_the_eagles_nest",
+      "name": "Within The Eagles Nest",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_air_intelligence",
+        "CZE_military_intelligence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_restart_naval_gun_production",
+      "name": "Restart Naval Gun Production",
+      "description": "",
+      "x": 16,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_continue_armed_force_reform"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_reform_the_naval_detachment",
+      "name": "Reform The Naval Detachment",
+      "description": "",
+      "x": 18,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_continue_armed_force_reform"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_skoda_naval_yards",
+      "name": "Skoda Naval Yards",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_restart_naval_gun_production",
+        "CZE_reform_the_naval_detachment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_legacy_of_the_kriegsmarine",
+      "name": "Legacy Of The Kriegsmarine",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_skoda_naval_yards"
+      ],
+      "mutuallyExclusive": [
+        "CZE_leverage_gunboat_experience",
+        "CZE_wolfs_of_bohemia"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_build_off_old_ganz_danubius_designs",
+      "name": "Build Off Old Ganz Danubius Designs",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_legacy_of_the_kriegsmarine"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_modernize_trieste_designs",
+      "name": "Modernize Trieste Designs",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_legacy_of_the_kriegsmarine",
+        "CZE_leverage_gunboat_experience"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_leverage_gunboat_experience",
+      "name": "Leverage Gunboat Experience",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_skoda_naval_yards"
+      ],
+      "mutuallyExclusive": [
+        "CZE_legacy_of_the_kriegsmarine",
+        "CZE_wolfs_of_bohemia"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_revive_kraljevica_designs",
+      "name": "Revive Kraljevica Designs",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_leverage_gunboat_experience",
+        "CZE_wolfs_of_bohemia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_wolfs_of_bohemia",
+      "name": "Wolfs Of Bohemia",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_skoda_naval_yards"
+      ],
+      "mutuallyExclusive": [
+        "CZE_legacy_of_the_kriegsmarine",
+        "CZE_leverage_gunboat_experience"
+      ],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_raider_lineage",
+      "name": "Raider Lineage",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_wolfs_of_bohemia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_a_modern_navy",
+      "name": "A Modern Navy",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_build_off_old_ganz_danubius_designs",
+        "CZE_modernize_trieste_designs",
+        "CZE_revive_kraljevica_designs",
+        "CZE_raider_lineage"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_naval_aviation",
+      "name": "Naval Aviation",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_a_modern_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_across_the_atlantic",
+      "name": "Across The Atlantic",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "CZE_a_modern_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "CZE_AI",
+      "name": "Ai",
+      "description": "",
+      "x": 50,
+      "y": 0,
+      "cost": 1,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "czechoslovakia_mu.txt",
+      "shared": false
+    },
+    {
+      "id": "HABSBURG_part_of_something_bigger",
+      "name": "Habsburg Part Of Something Bigger",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "shared_reference",
+      "shared": true
+    }
+  ]
+}

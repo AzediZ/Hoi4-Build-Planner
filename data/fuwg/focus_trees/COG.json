@@ -1,0 +1,2265 @@
+{
+  "mod": "FUWG",
+  "tag": "COG",
+  "country": "Congo",
+  "treeId": "congo_focus",
+  "sourceFile": "congo.txt",
+  "focusCount": 156,
+  "focuses": [
+    {
+      "id": "COG_congolese_bussinessowners",
+      "name": "Congolese Bussinessowners",
+      "description": "",
+      "x": 20,
+      "y": 0,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_desgregate_the_universites",
+      "name": "Desgregate The Universites",
+      "description": "",
+      "x": 19,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_shatter_the_roof",
+      "name": "Shatter The Roof",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "COG_congolese_bussinessowners",
+        "COG_desgregate_the_universites"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_establish_the_anc",
+      "name": "Establish The Anc",
+      "description": "",
+      "x": 30,
+      "y": 9,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_marine_nationale",
+      "name": "Marine Nationale",
+      "description": "",
+      "x": -6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_establish_the_anc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_expand_shipping_industry",
+      "name": "Expand Shipping Industry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_marine_nationale"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_south_atlantic_navy",
+      "name": "South Atlantic Navy",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "COG_marine_nationale"
+      ],
+      "mutuallyExclusive": [
+        "COG_brown_water_navy"
+      ],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_brown_water_navy",
+      "name": "Brown Water Navy",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "COG_marine_nationale"
+      ],
+      "mutuallyExclusive": [
+        "COG_south_atlantic_navy"
+      ],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_coastal_defence_fleet",
+      "name": "Coastal Defence Fleet",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_south_atlantic_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_supply_line_disruption_tactics",
+      "name": "Supply Line Disruption Tactics",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "COG_south_atlantic_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_command_post_matadi",
+      "name": "Command Post Matadi",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_brown_water_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_command_post_albertville",
+      "name": "Command Post Albertville",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_brown_water_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_command_post_goma",
+      "name": "Command Post Goma",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "COG_brown_water_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_force_arienne_congolaise",
+      "name": "Force Arienne Congolaise",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_establish_the_anc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_procure_foreign_equipment",
+      "name": "Procure Foreign Equipment",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_force_arienne_congolaise"
+      ],
+      "mutuallyExclusive": [
+        "COG_aeronautical_research_department"
+      ],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_aeronautical_research_department",
+      "name": "Aeronautical Research Department",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_force_arienne_congolaise"
+      ],
+      "mutuallyExclusive": [
+        "COG_procure_foreign_equipment"
+      ],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_scouting_the_terrain",
+      "name": "Scouting The Terrain",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_aeronautical_research_department",
+        "COG_procure_foreign_equipment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_expand_production_facilities",
+      "name": "Expand Production Facilities",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_scouting_the_terrain"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_forces_terrestres",
+      "name": "Forces Terrestres",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_establish_the_anc"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_from_a_gendarmerie_to_a_fighting_force",
+      "name": "From A Gendarmerie To A Fighting Force",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_forces_terrestres"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_academie_militaire_de_kananga",
+      "name": "Academie Militaire De Kananga",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_from_a_gendarmerie_to_a_fighting_force"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_standardize_military_production",
+      "name": "Standardize Military Production",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_from_a_gendarmerie_to_a_fighting_force"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_societe_africaine_dexplosifs_congo",
+      "name": "Societe Africaine Dexplosifs Congo",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_standardize_military_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_triga_i_project",
+      "name": "Triga I Project",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_societe_africaine_dexplosifs_congo"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_military_service_for_citizenship",
+      "name": "Military Service For Citizenship",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_academie_militaire_de_kananga"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_guerilla_tactics_drills",
+      "name": "Guerilla Tactics Drills",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_military_service_for_citizenship"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_french_as_martial_language",
+      "name": "French As Martial Language",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_standardize_military_production",
+        "COG_academie_militaire_de_kananga"
+      ],
+      "mutuallyExclusive": [
+        "COG_adopt_lingala_and_swahili_as_martial_languages"
+      ],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_adopt_lingala_and_swahili_as_martial_languages",
+      "name": "Adopt Lingala And Swahili As Martial Languages",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_standardize_military_production",
+        "COG_academie_militaire_de_kananga"
+      ],
+      "mutuallyExclusive": [
+        "COG_french_as_martial_language"
+      ],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_31e_brigade_parachutiste",
+      "name": "31e Brigade Parachutiste",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_french_as_martial_language",
+        "COG_adopt_lingala_and_swahili_as_martial_languages"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_peacekeeping_forces",
+      "name": "Peacekeeping Forces",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_french_as_martial_language",
+        "COG_adopt_lingala_and_swahili_as_martial_languages"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_governor_general_pierre_ryckmans",
+      "name": "Governor General Pierre Ryckmans",
+      "description": "",
+      "x": 29,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_establish_new_sabena_air_routes",
+      "name": "Establish New Sabena Air Routes",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_governor_general_pierre_ryckmans"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_invest_in_urban_centers",
+      "name": "Invest In Urban Centers",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_governor_general_pierre_ryckmans"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_uplift_the_apostolic_vicar_of_leopoldville",
+      "name": "Uplift The Apostolic Vicar Of Leopoldville",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_invest_in_urban_centers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_promote_marcel_maquet_to_provincial_commisioner",
+      "name": "Promote Marcel Maquet To Provincial Commisioner",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_invest_in_urban_centers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_cooperate_with_the_comite_special_du_katanga",
+      "name": "Cooperate With The Comite Special Du Katanga",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "COG_invest_in_urban_centers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_lecho_du_katanga",
+      "name": "Lecho Du Katanga",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_cooperate_with_the_comite_special_du_katanga"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_strengthen_the_banque_du_congo_belge",
+      "name": "Strengthen The Banque Du Congo Belge",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_governor_general_pierre_ryckmans"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_contract_the_empain_group",
+      "name": "Contract The Empain Group",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_strengthen_the_banque_du_congo_belge"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_invest_in_geomines",
+      "name": "Invest In Geomines",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_contract_the_empain_group"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_central_bank_of_congo_ruanda_urundi",
+      "name": "Central Bank Of Congo Ruanda Urundi",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_invest_in_geomines"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_attempt_to_centralize_the_state",
+      "name": "Attempt To Centralize The State",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_governor_general_pierre_ryckmans"
+      ],
+      "mutuallyExclusive": [
+        "COG_allow_local_autonomy"
+      ],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_allow_local_autonomy",
+      "name": "Allow Local Autonomy",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_governor_general_pierre_ryckmans"
+      ],
+      "mutuallyExclusive": [
+        "COG_attempt_to_centralize_the_state"
+      ],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_closer_cooperation_with_eugene_jungers",
+      "name": "Closer Cooperation With Eugene Jungers",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_attempt_to_centralize_the_state",
+        "COG_allow_local_autonomy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_found_the_congolese_national_movement",
+      "name": "Found The Congolese National Movement",
+      "description": "",
+      "x": 12,
+      "y": 0,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "COG_national_committee_for_liberation"
+      ],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_national_committee_for_liberation",
+      "name": "National Committee For Liberation",
+      "description": "",
+      "x": 7,
+      "y": 0,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "COG_found_the_congolese_national_movement"
+      ],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_formally_recognize_the_kimbanguist_church",
+      "name": "Formally Recognize The Kimbanguist Church",
+      "description": "",
+      "x": 6,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "COG_governor_general_pierre_ryckmans",
+        "COG_found_the_congolese_national_movement",
+        "COG_national_committee_for_liberation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_found_the_parti_solidaire_africain",
+      "name": "Found The Parti Solidaire Africain",
+      "description": "",
+      "x": -3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "COG_found_the_congolese_national_movement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_progressive_congolese_students",
+      "name": "Progressive Congolese Students",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_found_the_parti_solidaire_africain"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_alliance_de_bakongo",
+      "name": "Alliance De Bakongo",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_found_the_congolese_national_movement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_manifeste_convience_africaine",
+      "name": "Manifeste Convience Africaine",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_alliance_de_bakongo"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_the_intore_lion_dancers",
+      "name": "The Intore Lion Dancers",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_found_the_congolese_national_movement",
+        "COG_governor_general_pierre_ryckmans",
+        "COG_national_committee_for_liberation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_improve_colonial_lawmaking",
+      "name": "Improve Colonial Lawmaking",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_closer_cooperation_with_eugene_jungers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_endorse_force_publique_mutinies",
+      "name": "Endorse Force Publique Mutinies",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "COG_found_the_congolese_national_movement",
+        "COG_national_committee_for_liberation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_encourage_unionism",
+      "name": "Encourage Unionism",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_found_the_congolese_national_movement",
+        "COG_national_committee_for_liberation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_make_contact_with_irving_brown",
+      "name": "Make Contact With Irving Brown",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_encourage_unionism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_invite_the_general_labour_federation_of_belgium",
+      "name": "Invite The General Labour Federation Of Belgium",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "COG_encourage_unionism"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_union_nationale_des_travailleurs_du_congo",
+      "name": "Union Nationale Des Travailleurs Du Congo",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_invite_the_general_labour_federation_of_belgium"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_the_simba_movement",
+      "name": "The Simba Movement",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_national_committee_for_liberation"
+      ],
+      "mutuallyExclusive": [
+        "COG_approach_the_disfavored_mwami"
+      ],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_approach_the_disfavored_mwami",
+      "name": "Approach The Disfavored Mwami",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_national_committee_for_liberation"
+      ],
+      "mutuallyExclusive": [
+        "COG_the_simba_movement"
+      ],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_attempt_to_sway_moise_thsombe",
+      "name": "Attempt To Sway Moise Thsombe",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_the_simba_movement",
+        "COG_approach_the_disfavored_mwami"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_secure_soviet_aid",
+      "name": "Secure Soviet Aid",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_attempt_to_sway_moise_thsombe"
+      ],
+      "mutuallyExclusive": [
+        "COG_secure_german_aid"
+      ],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_secure_german_aid",
+      "name": "Secure German Aid",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_attempt_to_sway_moise_thsombe"
+      ],
+      "mutuallyExclusive": [
+        "COG_secure_soviet_aid"
+      ],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_approach_the_barotse_litunga",
+      "name": "Approach The Barotse Litunga",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "COG_attempt_to_sway_moise_thsombe"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_slander_the_colonial_authorities",
+      "name": "Slander The Colonial Authorities",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_secure_german_aid",
+        "COG_secure_soviet_aid"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_strike_while_the_rion_is_hot",
+      "name": "Strike While The Rion Is Hot",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_slander_the_colonial_authorities"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_congo_and_the_war_in_europe",
+      "name": "Congo And The War In Europe",
+      "description": "",
+      "x": 2,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_emergency_powers_for_pierre_ryckmans",
+      "name": "Emergency Powers For Pierre Ryckmans",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_congo_and_the_war_in_europe"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_an_independent_colonial_cabinet",
+      "name": "An Independent Colonial Cabinet",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_emergency_powers_for_pierre_ryckmans"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_acquire_american_investments",
+      "name": "Acquire American Investments",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_emergency_powers_for_pierre_ryckmans"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_enter_the_sterling_area",
+      "name": "Enter The Sterling Area",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "COG_emergency_powers_for_pierre_ryckmans"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_make_use_of_the_british_proposal",
+      "name": "Make Use Of The British Proposal",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_congo_and_the_war_in_europe"
+      ],
+      "mutuallyExclusive": [
+        "COG_prepare_for_offensive_action"
+      ],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_prepare_for_offensive_action",
+      "name": "Prepare For Offensive Action",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_congo_and_the_war_in_europe"
+      ],
+      "mutuallyExclusive": [
+        "COG_make_use_of_the_british_proposal"
+      ],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_utilize_sabena_for_military_purposes",
+      "name": "Utilize Sabena For Military Purposes",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_prepare_for_offensive_action"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_raf_and_saaf_cooperation",
+      "name": "Raf And Saaf Cooperation",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_prepare_for_offensive_action",
+        "COG_make_use_of_the_british_proposal"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_safeguard_cabinda",
+      "name": "Safeguard Cabinda",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_congo_and_the_war_in_europe"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_kasa_vubus_first_cabinet",
+      "name": "Kasa Vubus First Cabinet",
+      "description": "",
+      "x": 0,
+      "y": 7,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "COG_the_lion_roars",
+        "COG_assemble_a_regency_council"
+      ],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_declaration_of_congolese_unity",
+      "name": "Declaration Of Congolese Unity",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_kasa_vubus_first_cabinet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_the_lion_roars",
+      "name": "The Lion Roars",
+      "description": "",
+      "x": 8,
+      "y": 7,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "COG_kasa_vubus_first_cabinet",
+        "COG_assemble_a_regency_council"
+      ],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_national_insitute_of_agronomic_study",
+      "name": "National Insitute Of Agronomic Study",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_kasa_vubus_first_cabinet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_the_ten_year_plan",
+      "name": "The Ten Year Plan",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_national_insitute_of_agronomic_study"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_expanded_peasantry_program",
+      "name": "Expanded Peasantry Program",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_the_ten_year_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_improve_the_civil_administration",
+      "name": "Improve The Civil Administration",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_kasa_vubus_first_cabinet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_mend_the_linguistic_divides",
+      "name": "Mend The Linguistic Divides",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_improve_the_civil_administration"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_women_in_the_military",
+      "name": "Women In The Military",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_mend_the_linguistic_divides",
+        "COG_declaration_of_congolese_unity"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_proclaim_the_peoples_republic",
+      "name": "Proclaim The Peoples Republic",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_the_lion_roars"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_the_arme_populaire_de_liberation",
+      "name": "The Arme Populaire De Liberation",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_the_lion_roars"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_nationalization_of_foreign_industrial_assets",
+      "name": "Nationalization Of Foreign Industrial Assets",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_the_lion_roars",
+        "COG_kasa_vubus_first_cabinet"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_form_the_gecamines",
+      "name": "Form The Gecamines",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_nationalization_of_foreign_industrial_assets"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_societe_nationale_chemins_du_congo",
+      "name": "Societe Nationale Chemins Du Congo",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_form_the_gecamines"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_cooperate_with_the_congolese_churches",
+      "name": "Cooperate With The Congolese Churches",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_proclaim_the_peoples_republic"
+      ],
+      "mutuallyExclusive": [
+        "COG_strict_anti_clericalism"
+      ],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_strict_anti_clericalism",
+      "name": "Strict Anti Clericalism",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_proclaim_the_peoples_republic"
+      ],
+      "mutuallyExclusive": [
+        "COG_cooperate_with_the_congolese_churches"
+      ],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_invite_kwame_to_the_capital",
+      "name": "Invite Kwame To The Capital",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_strict_anti_clericalism",
+        "COG_cooperate_with_the_congolese_churches"
+      ],
+      "mutuallyExclusive": [
+        "COG_liberation_by_force"
+      ],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_liberation_by_force",
+      "name": "Liberation By Force",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_strict_anti_clericalism",
+        "COG_cooperate_with_the_congolese_churches"
+      ],
+      "mutuallyExclusive": [
+        "COG_invite_kwame_to_the_capital"
+      ],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_hold_the_pan_african_congress",
+      "name": "Hold The Pan African Congress",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_invite_kwame_to_the_capital"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_establish_the_west_african_national_secretariat",
+      "name": "Establish The West African National Secretariat",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_hold_the_pan_african_congress"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_socialist_education_reforms",
+      "name": "Socialist Education Reforms",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 10,
+      "prerequisites": [
+        "COG_invite_kwame_to_the_capital"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_foster_a_personality_cult",
+      "name": "Foster A Personality Cult",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_invite_kwame_to_the_capital"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_join_the_comitern",
+      "name": "Join The Comitern",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_foster_a_personality_cult"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_african_research_and_development_department",
+      "name": "African Research And Development Department",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_liberation_by_force"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_organization_of_african_unity",
+      "name": "Organization Of African Unity",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_liberation_by_force"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_mutual_defense",
+      "name": "Mutual Defense",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_organization_of_african_unity"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_central_african_bank",
+      "name": "Central African Bank",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_organization_of_african_unity"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_the_executive_council",
+      "name": "The Executive Council",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_central_african_bank",
+        "COG_mutual_defense"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_the_african_union",
+      "name": "The African Union",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_the_executive_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_assemble_a_regency_council",
+      "name": "Assemble A Regency Council",
+      "description": "",
+      "x": 8,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "COG_kasa_vubus_first_cabinet",
+        "COG_the_lion_roars"
+      ],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_royal_university_of_higher_education",
+      "name": "Royal University Of Higher Education",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_assemble_a_regency_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_the_kingdom_of_kongo_focus",
+      "name": "The Kingdom Of Kongo Focus",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "COG_assemble_a_regency_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_the_nyim_of_kuba_focus",
+      "name": "The Nyim Of Kuba Focus",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "COG_assemble_a_regency_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_the_ma_loango_focus",
+      "name": "The Ma Loango Focus",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "COG_assemble_a_regency_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_the_mwami_of_burundi_focus",
+      "name": "The Mwami Of Burundi Focus",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "COG_assemble_a_regency_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_the_umwami_of_rwanda_focus",
+      "name": "The Umwami Of Rwanda Focus",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "COG_assemble_a_regency_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_the_pro_german_mwami_focus",
+      "name": "The Pro German Mwami Focus",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "COG_assemble_a_regency_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_uniao_dos_povos_do_norte_de_angola",
+      "name": "Uniao Dos Povos Do Norte De Angola",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_the_kingdom_of_kongo_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_bundu_dia_kongo",
+      "name": "Bundu Dia Kongo",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "COG_the_kingdom_of_kongo_focus"
+      ],
+      "mutuallyExclusive": [
+        "COG_devout_catholic_kingdom"
+      ],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_devout_catholic_kingdom",
+      "name": "Devout Catholic Kingdom",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "COG_the_kingdom_of_kongo_focus"
+      ],
+      "mutuallyExclusive": [
+        "COG_bundu_dia_kongo"
+      ],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_reestablish_the_royal_council",
+      "name": "Reestablish The Royal Council",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_devout_catholic_kingdom",
+        "COG_bundu_dia_kongo"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_bakongo_military_might",
+      "name": "Bakongo Military Might",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_reestablish_the_royal_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_invest_in_the_textile_industry",
+      "name": "Invest In The Textile Industry",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_the_nyim_of_kuba_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_traditional_masks_and_armor",
+      "name": "Traditional Masks And Armor",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_the_nyim_of_kuba_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_children_of_woot",
+      "name": "Children Of Woot",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "COG_the_nyim_of_kuba_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_spirit_of_loko_yima",
+      "name": "Spirit Of Loko Yima",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "COG_children_of_woot"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_a_society_of_trade",
+      "name": "A Society Of Trade",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_children_of_woot"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_a_multiethnic_conglomeration",
+      "name": "A Multiethnic Conglomeration",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_children_of_woot"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_reclaim_loango",
+      "name": "Reclaim Loango",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_the_ma_loango_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_the_kings_divine_power",
+      "name": "The Kings Divine Power",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_reclaim_loango"
+      ],
+      "mutuallyExclusive": [
+        "COG_appoint_a_royal_council"
+      ],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_appoint_a_royal_council",
+      "name": "Appoint A Royal Council",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_reclaim_loango"
+      ],
+      "mutuallyExclusive": [
+        "COG_the_kings_divine_power"
+      ],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_occupy_cabinda",
+      "name": "Occupy Cabinda",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "COG_reclaim_loango"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_reestablish_the_bouvandji",
+      "name": "Reestablish The Bouvandji",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "COG_reclaim_loango"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_invest_in_rubber_plantations",
+      "name": "Invest In Rubber Plantations",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_the_kings_divine_power",
+        "COG_appoint_a_royal_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_friendship_with_france",
+      "name": "Friendship With France",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_invest_in_rubber_plantations",
+        "COG_occupy_cabinda"
+      ],
+      "mutuallyExclusive": [
+        "COG_attempt_to_ally_the_portuguese"
+      ],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_attempt_to_ally_the_portuguese",
+      "name": "Attempt To Ally The Portuguese",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_invest_in_rubber_plantations",
+        "COG_reestablish_the_bouvandji"
+      ],
+      "mutuallyExclusive": [
+        "COG_friendship_with_france"
+      ],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_reclaim_bujumbura",
+      "name": "Reclaim Bujumbura",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_the_mwami_of_burundi_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_the_embodiment_of_god",
+      "name": "The Embodiment Of God",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_reclaim_bujumbura"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_claim_the_great_lakes",
+      "name": "Claim The Great Lakes",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_reclaim_bujumbura"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_new_empire_of_kitara",
+      "name": "New Empire Of Kitara",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_claim_the_great_lakes",
+        "COG_the_embodiment_of_god"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_south_to_lake_malawi",
+      "name": "South To Lake Malawi",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_new_empire_of_kitara"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_reclaim_kigali",
+      "name": "Reclaim Kigali",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "COG_the_umwami_of_rwanda_focus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_centralize_military_structure",
+      "name": "Centralize Military Structure",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_reclaim_kigali"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_an_expansionist_state",
+      "name": "An Expansionist State",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_reclaim_kigali"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_great_military_chiefs",
+      "name": "Great Military Chiefs",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_an_expansionist_state",
+        "COG_centralize_military_structure"
+      ],
+      "mutuallyExclusive": [
+        "COG_great_cattle_chiefs"
+      ],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_great_cattle_chiefs",
+      "name": "Great Cattle Chiefs",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_an_expansionist_state",
+        "COG_centralize_military_structure"
+      ],
+      "mutuallyExclusive": [
+        "COG_great_military_chiefs"
+      ],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_expand_banana_plantations",
+      "name": "Expand Banana Plantations",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_great_cattle_chiefs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_tutsi_warrior_training",
+      "name": "Tutsi Warrior Training",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_great_military_chiefs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_unify_east_africa",
+      "name": "Unify East Africa",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "COG_great_military_chiefs",
+        "COG_great_cattle_chiefs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_a_german_protectorate",
+      "name": "A German Protectorate",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 2,
+      "prerequisites": [
+        "COG_the_pro_german_mwami_focus"
+      ],
+      "mutuallyExclusive": [
+        "COG_invite_german_kasierist_exiles"
+      ],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_invite_german_kasierist_exiles",
+      "name": "Invite German Kasierist Exiles",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 12,
+      "prerequisites": [
+        "COG_the_pro_german_mwami_focus"
+      ],
+      "mutuallyExclusive": [
+        "COG_a_german_protectorate"
+      ],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_colonial_administration",
+      "name": "Colonial Administration",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_a_german_protectorate",
+        "COG_invite_german_kasierist_exiles"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_prussia_of_africa",
+      "name": "Prussia Of Africa",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_colonial_administration"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_german_west_africa",
+      "name": "German West Africa",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_prussia_of_africa"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_german_east_africa",
+      "name": "German East Africa",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "COG_prussia_of_africa"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "COG_german_south_west_africa",
+      "name": "German South West Africa",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "COG_prussia_of_africa"
+      ],
+      "mutuallyExclusive": [],
+      "source": "congo.txt",
+      "shared": false
+    },
+    {
+      "id": "CONGO_belgian_congo",
+      "name": "Congo Belgian Congo",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "shared_reference",
+      "shared": true
+    },
+    {
+      "id": "CONGO_congo_investments",
+      "name": "Congo Congo Investments",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "shared_reference",
+      "shared": true
+    },
+    {
+      "id": "CONGO_symbiotic_industrialization",
+      "name": "Congo Symbiotic Industrialization",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "shared_reference",
+      "shared": true
+    },
+    {
+      "id": "CONGO_fuel_for_belgium",
+      "name": "Congo Fuel For Belgium",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "shared_reference",
+      "shared": true
+    }
+  ]
+}

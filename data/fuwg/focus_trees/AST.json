@@ -1,0 +1,1599 @@
+{
+  "mod": "FUWG",
+  "tag": "AST",
+  "country": "Australia",
+  "treeId": "australian_focus",
+  "sourceFile": "australia.txt",
+  "focusCount": 110,
+  "focuses": [
+    {
+      "id": "AST_australian_armed_forces",
+      "name": "Australian Armed Forces",
+      "description": "",
+      "x": 8,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_additional_militia_training",
+      "name": "Additional Militia Training",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AST_australian_armed_forces"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_royal_australian_artillery",
+      "name": "Royal Australian Artillery",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AST_additional_militia_training"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_promote_reservists",
+      "name": "Promote Reservists",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AST_additional_militia_training"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_daimler_dingo",
+      "name": "Daimler Dingo",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AST_royal_australian_artillery",
+        "AST_promote_reservists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_hmas_assault",
+      "name": "Hmas Assault",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AST_royal_australian_artillery",
+        "AST_promote_reservists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_specialize_equipment",
+      "name": "Specialize Equipment",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AST_promote_reservists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_australian_womens_army_service",
+      "name": "Australian Womens Army Service",
+      "description": "",
+      "x": -1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "AST_hmas_assault"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_australian_army_catering_corps",
+      "name": "Australian Army Catering Corps",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "AST_hmas_assault"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_fund_owen_gun_research",
+      "name": "Fund Owen Gun Research",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "AST_hmas_assault"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_sentinel_tank_project",
+      "name": "Sentinel Tank Project",
+      "description": "",
+      "x": -2,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "AST_daimler_dingo"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_airborne_defence",
+      "name": "Airborne Defence",
+      "description": "",
+      "x": 2,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "AST_specialize_equipment",
+        "AST_volunteer_air_observers_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_introduce_unconventional_warfare",
+      "name": "Introduce Unconventional Warfare",
+      "description": "",
+      "x": 0,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "AST_sentinel_tank_project",
+        "AST_airborne_defence",
+        "AST_australian_army_catering_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_z_special_unit",
+      "name": "Z Special Unit",
+      "description": "",
+      "x": -2,
+      "y": 6,
+      "cost": 5,
+      "prerequisites": [
+        "AST_introduce_unconventional_warfare"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_central_bureau",
+      "name": "Central Bureau",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AST_introduce_unconventional_warfare"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_what_is_our_specialization",
+      "name": "What Is Our Specialization",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AST_z_special_unit",
+        "AST_central_bureau",
+        "AST_m_special_unit"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_tank_enhancement",
+      "name": "Tank Enhancement",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AST_what_is_our_specialization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_marine_enhancement",
+      "name": "Marine Enhancement",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AST_what_is_our_specialization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_infantry_enhancement",
+      "name": "Infantry Enhancement",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AST_what_is_our_specialization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_emu_time",
+      "name": "Emu Time",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AST_marine_enhancement",
+        "AST_tank_enhancement",
+        "AST_infantry_enhancement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_m_special_unit",
+      "name": "M Special Unit",
+      "description": "",
+      "x": 2,
+      "y": 6,
+      "cost": 5,
+      "prerequisites": [
+        "AST_introduce_unconventional_warfare"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_expand_the_raaf",
+      "name": "Expand The Raaf",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AST_australian_armed_forces"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_cac_boomerang",
+      "name": "Cac Boomerang",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AST_expand_the_raaf"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_expand_northern_presence",
+      "name": "Expand Northern Presence",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AST_expand_the_raaf"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_cac_woomera",
+      "name": "Cac Woomera",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AST_expand_the_raaf"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_volunteer_air_observers_corps",
+      "name": "Volunteer Air Observers Corps",
+      "description": "",
+      "x": -1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "AST_cac_boomerang",
+        "AST_expand_northern_presence"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_naval_bombers",
+      "name": "Naval Bombers",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "AST_cac_woomera"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_death_from_down_under",
+      "name": "Death From Down Under",
+      "description": "",
+      "x": -1,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "AST_volunteer_air_observers_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_womens_auxilliary_australian_air_force",
+      "name": "Womens Auxilliary Australian Air Force",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "AST_volunteer_air_observers_corps",
+        "AST_naval_bombers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_dominate_the_skies",
+      "name": "Dominate The Skies",
+      "description": "",
+      "x": 1,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "AST_womens_auxilliary_australian_air_force"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_expand_the_ran",
+      "name": "Expand The Ran",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AST_australian_armed_forces"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_cockatoo_island_shipyards",
+      "name": "Cockatoo Island Shipyards",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AST_expand_the_ran"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_kangaroo_point_shipyards",
+      "name": "Kangaroo Point Shipyards",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "AST_expand_the_ran"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_protect_overseas_commerce",
+      "name": "Protect Overseas Commerce",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AST_cockatoo_island_shipyards",
+        "AST_kangaroo_point_shipyards"
+      ],
+      "mutuallyExclusive": [
+        "AST_fly_the_jolly_roger"
+      ],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_fly_the_jolly_roger",
+      "name": "Fly The Jolly Roger",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AST_cockatoo_island_shipyards",
+        "AST_kangaroo_point_shipyards"
+      ],
+      "mutuallyExclusive": [
+        "AST_protect_overseas_commerce"
+      ],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_scrap_iron_flotilla",
+      "name": "Scrap Iron Flotilla",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AST_protect_overseas_commerce",
+        "AST_fly_the_jolly_roger"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_royal_australian_submarine_service",
+      "name": "Royal Australian Submarine Service",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AST_protect_overseas_commerce",
+        "AST_fly_the_jolly_roger"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_naval_auxiliary_patrol",
+      "name": "Naval Auxiliary Patrol",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "AST_royal_australian_submarine_service",
+        "AST_scrap_iron_flotilla"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_cruisers",
+      "name": "Cruisers",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "AST_naval_auxiliary_patrol"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_defender_of_pacific",
+      "name": "Defender Of Pacific",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AST_cruisers",
+        "AST_pacific_area_navy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_pacific_area_navy",
+      "name": "Pacific Area Navy",
+      "description": "",
+      "x": 2,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "AST_naval_auxiliary_patrol"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_standard_gauge_railway",
+      "name": "Standard Gauge Railway",
+      "description": "",
+      "x": 16,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_industries_assistance_corporation",
+      "name": "Industries Assistance Corporation",
+      "description": "",
+      "x": 2,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_western_australian_government_railways",
+      "name": "Western Australian Government Railways",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AST_standard_gauge_railway",
+        "AST_industries_assistance_corporation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_south_australian_housing_trust",
+      "name": "South Australian Housing Trust",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AST_western_australian_government_railways"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_department_of_supply_and_development",
+      "name": "Department Of Supply And Development",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AST_western_australian_government_railways"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_expand_lithgow_small_arms_factory",
+      "name": "Expand Lithgow Small Arms Factory",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "AST_south_australian_housing_trust"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_allied_works_council",
+      "name": "Allied Works Council",
+      "description": "",
+      "x": 2,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "AST_department_of_supply_and_development",
+        "AST_civil_construction_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_expand_the_northern_railway",
+      "name": "Expand The Northern Railway",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "AST_expand_lithgow_small_arms_factory"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_australian_arms_production",
+      "name": "Australian Arms Production",
+      "description": "",
+      "x": 2,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "AST_allied_works_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_uranium_mining",
+      "name": "Uranium Mining",
+      "description": "",
+      "x": 1,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "AST_expand_the_northern_railway",
+        "AST_australian_arms_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_establish_advisory_war_council",
+      "name": "Establish Advisory War Council",
+      "description": "",
+      "x": 24,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_national_security_act",
+      "name": "National Security Act",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AST_establish_advisory_war_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_volunteer_defence_corps",
+      "name": "Volunteer Defence Corps",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AST_establish_advisory_war_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_callintheemus",
+      "name": "Callintheemus",
+      "description": "",
+      "x": 30,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "AST_adopt_westminster",
+        "AST_citizen_military_forces"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_Oceanic_federation",
+      "name": "Oceanic Federation",
+      "description": "",
+      "x": 30,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "AST_callintheemus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_civil_construction_corps",
+      "name": "Civil Construction Corps",
+      "description": "",
+      "x": -4,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AST_national_security_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_army_inventions_directorate",
+      "name": "Army Inventions Directorate",
+      "description": "",
+      "x": -2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AST_national_security_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_invest_in_victory",
+      "name": "Invest In Victory",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AST_national_security_act"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_citizen_military_forces",
+      "name": "Citizen Military Forces",
+      "description": "",
+      "x": 2,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AST_volunteer_defence_corps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_rats_of_tobruk",
+      "name": "Rats Of Tobruk",
+      "description": "",
+      "x": 4,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "AST_citizen_military_forces",
+        "AST_adopt_westminster"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_fight_work_or_perish",
+      "name": "Fight Work Or Perish",
+      "description": "",
+      "x": -3,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "AST_civil_construction_corps",
+        "AST_squash_the_squanderbugs"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_research_collaboration",
+      "name": "Research Collaboration",
+      "description": "",
+      "x": -5,
+      "y": 5,
+      "cost": 5,
+      "prerequisites": [
+        "AST_fight_work_or_perish",
+        "AST_australian_arms_production"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_squash_the_squanderbugs",
+      "name": "Squash The Squanderbugs",
+      "description": "",
+      "x": -2,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "AST_invest_in_victory"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_rationing_and_recycling",
+      "name": "Rationing And Recycling",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "AST_invest_in_victory"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_classify_aliens",
+      "name": "Classify Aliens",
+      "description": "",
+      "x": 2,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "AST_citizen_military_forces"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_fund_australian_defense_research",
+      "name": "Fund Australian Defense Research",
+      "description": "",
+      "x": 1,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "AST_rationing_and_recycling",
+        "AST_classify_aliens"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_support_the_policy_of_appeasement",
+      "name": "Support The Policy Of Appeasement",
+      "description": "",
+      "x": 33,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "AST_never_another_gallipoli"
+      ],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_Washington_naval_treaty",
+      "name": "Washington Naval Treaty",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AST_support_the_policy_of_appeasement",
+        "AST_establish_advisory_war_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_Prepare_the_war_cabinet",
+      "name": "Prepare The War Cabinet",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AST_support_the_policy_of_appeasement",
+        "AST_establish_advisory_war_council"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_War_once_more",
+      "name": "War Once More",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AST_Prepare_the_war_cabinet",
+        "AST_Washington_naval_treaty"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_strengthen_ties_with_uk",
+      "name": "Strengthen Ties With Uk",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AST_support_the_policy_of_appeasement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_the_singapore_strategy",
+      "name": "The Singapore Strategy",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AST_support_the_policy_of_appeasement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_adopt_westminster",
+      "name": "Adopt Westminster",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AST_strengthen_ties_with_uk",
+        "AST_the_singapore_strategy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_CSIR",
+      "name": "Csir",
+      "description": "",
+      "x": -1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "AST_adopt_westminster"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_swpa_protector",
+      "name": "Swpa Protector",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "AST_adopt_westminster"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_empire_air_training_scheme",
+      "name": "Empire Air Training Scheme",
+      "description": "",
+      "x": -1,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "AST_CSIR",
+        "AST_swpa_protector"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_commonwealth_aircraft_corporation",
+      "name": "Commonwealth Aircraft Corporation",
+      "description": "",
+      "x": 1,
+      "y": 4,
+      "cost": 5,
+      "prerequisites": [
+        "AST_CSIR",
+        "AST_swpa_protector"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_expand_the_aluminium_mills",
+      "name": "Expand The Aluminium Mills",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AST_expand_the_northern_railway"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_never_another_gallipoli",
+      "name": "Never Another Gallipoli",
+      "description": "",
+      "x": 37,
+      "y": 0,
+      "cost": 10,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "AST_support_the_policy_of_appeasement"
+      ],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_protect_the_homeland",
+      "name": "Protect The Homeland",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "AST_never_another_gallipoli"
+      ],
+      "mutuallyExclusive": [
+        "AST_abandon_the_westminster_system"
+      ],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_the_swpa_menace",
+      "name": "The Swpa Menace",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AST_protect_the_homeland"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_sever_ties_with_uk",
+      "name": "Sever Ties With Uk",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "AST_protect_the_homeland"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_woo_usa",
+      "name": "Woo Usa",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "AST_the_swpa_menace",
+        "AST_sever_ties_with_uk"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_protect_the_dutch_colonies",
+      "name": "Protect The Dutch Colonies",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "AST_sever_ties_with_uk"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_the_south_west_pacific_initiative",
+      "name": "The South West Pacific Initiative",
+      "description": "",
+      "x": 0,
+      "y": 3,
+      "cost": 10,
+      "prerequisites": [
+        "AST_woo_usa",
+        "AST_protect_the_dutch_colonies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_research_cooperation",
+      "name": "Research Cooperation",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 10,
+      "prerequisites": [
+        "AST_the_south_west_pacific_initiative"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_preemptive_intervention",
+      "name": "Preemptive Intervention",
+      "description": "",
+      "x": 0,
+      "y": 5,
+      "cost": 10,
+      "prerequisites": [
+        "AST_research_cooperation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_abandon_the_westminster_system",
+      "name": "Abandon The Westminster System",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "AST_never_another_gallipoli"
+      ],
+      "mutuallyExclusive": [
+        "AST_protect_the_homeland"
+      ],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_support_the_centre_party",
+      "name": "Support The Centre Party",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "AST_abandon_the_westminster_system"
+      ],
+      "mutuallyExclusive": [
+        "AST_empower_the_workers"
+      ],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_supply_indonesian_nationalists",
+      "name": "Supply Indonesian Nationalists",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "AST_support_the_centre_party"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_support_indonesian_uprising",
+      "name": "Support Indonesian Uprising",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "AST_supply_indonesian_nationalists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_demand_new_zealand",
+      "name": "Demand New Zealand",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "AST_support_the_centre_party",
+        "AST_empower_the_workers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_protect_the_south_west_pacific",
+      "name": "Protect The South West Pacific",
+      "description": "",
+      "x": -1,
+      "y": 3,
+      "cost": 10,
+      "prerequisites": [
+        "AST_support_indonesian_uprising"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_a_deal_with_japan",
+      "name": "A Deal With Japan",
+      "description": "",
+      "x": -1,
+      "y": 4,
+      "cost": 10,
+      "prerequisites": [
+        "AST_protect_the_south_west_pacific"
+      ],
+      "mutuallyExclusive": [
+        "AST_our_own_empire"
+      ],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_our_own_empire",
+      "name": "Our Own Empire",
+      "description": "",
+      "x": 1,
+      "y": 4,
+      "cost": 10,
+      "prerequisites": [
+        "AST_protect_the_south_west_pacific",
+        "AST_demand_new_zealand"
+      ],
+      "mutuallyExclusive": [
+        "AST_a_deal_with_japan"
+      ],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_japan_tech_sharing",
+      "name": "Japan Tech Sharing",
+      "description": "",
+      "x": -1,
+      "y": 5,
+      "cost": 10,
+      "prerequisites": [
+        "AST_a_deal_with_japan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_war_on_japan",
+      "name": "War On Japan",
+      "description": "",
+      "x": 1,
+      "y": 5,
+      "cost": 10,
+      "prerequisites": [
+        "AST_our_own_empire"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_empower_the_workers",
+      "name": "Empower The Workers",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "AST_abandon_the_westminster_system"
+      ],
+      "mutuallyExclusive": [
+        "AST_support_the_centre_party"
+      ],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_delegation_to_china",
+      "name": "Delegation To China",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 10,
+      "prerequisites": [
+        "AST_empower_the_workers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_commitment_to_the_cause",
+      "name": "Commitment To The Cause",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 10,
+      "prerequisites": [
+        "AST_delegation_to_china"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_indirect_support",
+      "name": "Indirect Support",
+      "description": "",
+      "x": -1,
+      "y": 3,
+      "cost": 10,
+      "prerequisites": [
+        "AST_commitment_to_the_cause"
+      ],
+      "mutuallyExclusive": [
+        "AST_direct_support"
+      ],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_direct_support",
+      "name": "Direct Support",
+      "description": "",
+      "x": 1,
+      "y": 3,
+      "cost": 10,
+      "prerequisites": [
+        "AST_commitment_to_the_cause"
+      ],
+      "mutuallyExclusive": [
+        "AST_indirect_support"
+      ],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_join_comintern",
+      "name": "Join Comintern",
+      "description": "",
+      "x": 0,
+      "y": 4,
+      "cost": 10,
+      "prerequisites": [
+        "AST_indirect_support",
+        "AST_direct_support"
+      ],
+      "mutuallyExclusive": [
+        "AST_workers_paradise"
+      ],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_workers_paradise",
+      "name": "Workers Paradise",
+      "description": "",
+      "x": 2,
+      "y": 4,
+      "cost": 10,
+      "prerequisites": [
+        "AST_direct_support"
+      ],
+      "mutuallyExclusive": [
+        "AST_join_comintern"
+      ],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_research_city_excursions",
+      "name": "Research City Excursions",
+      "description": "",
+      "x": -1,
+      "y": 5,
+      "cost": 10,
+      "prerequisites": [
+        "AST_join_comintern"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_nz_puppet",
+      "name": "Nz Puppet",
+      "description": "",
+      "x": 1,
+      "y": 5,
+      "cost": 10,
+      "prerequisites": [
+        "AST_workers_paradise",
+        "AST_join_comintern"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "AST_the_threat_against_the_people",
+      "name": "The Threat Against The People",
+      "description": "",
+      "x": 3,
+      "y": 5,
+      "cost": 10,
+      "prerequisites": [
+        "AST_workers_paradise"
+      ],
+      "mutuallyExclusive": [],
+      "source": "australia.txt",
+      "shared": false
+    },
+    {
+      "id": "COM_together_for_britain",
+      "name": "Together for Britain",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "shared_reference",
+      "shared": true
+    },
+    {
+      "id": "AFR_leader",
+      "name": "African Regional Commander",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "shared_reference",
+      "shared": true
+    }
+  ]
+}

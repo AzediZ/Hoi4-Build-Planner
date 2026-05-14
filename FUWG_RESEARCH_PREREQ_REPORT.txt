@@ -1,0 +1,139 @@
+FUWG research prerequisite report
+
+Technology files parsed: 12
+Tech entries generated: 604
+Tech entries with parsed prerequisites: 325
+
+First 80 prerequisite entries:
+- Antiair1 (antiair1): antiair2
+- Antiair2 (antiair2): antiair3
+- Antiair3 (antiair3): antiair4
+- Antiair4 (antiair4): antiair5
+- Antiair5 (antiair5): antiair5a
+- Antitank1 (antitank1): antitank2
+- Antitank2 (antitank2): antitank3
+- Antitank3 (antitank3): antitank4
+- Antitank4 (antitank4): antitank5
+- Antitank5 (antitank5): antitank5a
+- Artillery1 (artillery1): artillery2
+- Artillery2 (artillery2): artillery3
+- Artillery3 (artillery3): artillery4
+- Artillery4 (artillery4): artillery5
+- Gw Artillery (gw_artillery): interwar_artillery
+- Interwar Antiair (interwar_antiair): antiair1
+- Interwar Antitank (interwar_antitank): antitank1
+- Interwar Artillery (interwar_artillery): artillery1
+- Rocket Artillery (rocket_artillery): rocket_artillery2
+- Rocket Artillery2 (rocket_artillery2): rocket_artillery3
+- Rocket Artillery3 (rocket_artillery3): rocket_artillery4
+- Sp Shock Hardening Techniques (sp_shock_hardening_techniques): sp_variable_time_fuze_shells
+- Aa Cannon 1 (aa_cannon_1): aa_cannon_2
+- Aa Lmg (aa_lmg): aa_hmg
+- Advanced Large Airframe (advanced_large_airframe): modern_large_airframe
+- Advanced Medium Airframe (advanced_medium_airframe): modern_medium_airframe
+- Advanced Small Airframe (advanced_small_airframe): modern_small_airframe
+- Air Torpedoe 1 (air_torpedoe_1): air_torpedoe_2
+- Air Torpedoe 2 (air_torpedoe_2): air_torpedoe_3
+- Basic Large Airframe (basic_large_airframe): improved_large_airframe
+- Basic Medium Airframe (basic_medium_airframe): improved_medium_airframe
+- Basic Small Airframe (basic_small_airframe): improved_small_airframe
+- Bba Early Transport Plane (bba_early_transport_plane): bba_improved_transport_plane
+- Bba Improved Transport Plane (bba_improved_transport_plane): bba_strategic_airlifter
+- Early Bombs (early_bombs): armor_piercing_bombs
+- Engines 1 (engines_1): engines_2
+- Engines 2 (engines_2): engines_3
+- Engines 3 (engines_3): engines_4
+- Engines 4 (engines_4): sp_centrifugal_jet_tech
+- Heavy Bombs (heavy_bombs): bunker_busters
+- Improved Large Airframe (improved_large_airframe): advanced_large_airframe
+- Improved Medium Airframe (improved_medium_airframe): advanced_medium_airframe
+- Improved Small Airframe (improved_small_airframe): advanced_small_airframe
+- Iw Large Airframe (iw_large_airframe): basic_large_airframe
+- Iw Medium Airframe (iw_medium_airframe): basic_medium_airframe
+- Iw Small Airframe (iw_small_airframe): basic_small_airframe
+- Miniature Fighters (miniature_fighters): aerial_hangars
+- Reinforced Wings Mothership (reinforced_wings_mothership): miniature_fighters
+- Advanced Computing Machine (advanced_computing_machine): advanced_encryption
+- Advanced Radio (advanced_radio): offensive_propaganda_3
+- Atomic (atomic_research): reactor_design
+- Basic Fortification (basic_fortification_tech): coastal_fort_tech_1
+- Cavity Magnatron (cavity_magnatron): centimetric_radar
+- Centimetric Radar (centimetric_radar): phased_array
+- Coastal Fort Tech 1 (coastal_fort_tech_1): coastal_fort_tech_2
+- Computing Machine (computing_machine): improved_computing_machine
+- Electronic Mechanical Engineering (electronic_mechanical_engineering): radio
+- Experimental Rockets (experimental_rockets): sp_rockets_improved_guidance
+- Improved Computing Machine (improved_computing_machine): advanced_computing_machine
+- Improved Radio (improved_radio): advanced_radio
+- Land Fort Tech 1 (land_fort_tech_1): land_fort_tech_2
+- Land Fort Tech 2 (land_fort_tech_2): reinforced_steel_concrete
+- Mechanical Computing (mechanical_computing): computing_machine
+- People's Receiver (defensive_propaganda): defensive_propaganda_2
+- Phased Array (phased_array): monopulse_radar
+- Propaganda Movies (defensive_propaganda_2): defensive_propaganda_3
+- Radio (radio): improved_radio
+- Radio Detection (radio_detection): cavity_magnatron
+- Sp Rockets Dual Chamber Rocket Engine 1 (sp_rockets_dual_chamber_rocket_engine_1): sp_rockets_dual_chamber_rocket_engine_2
+- Sp Rockets Rocket Bomber (sp_rockets_rocket_bomber): sp_rockets_improved_rocket_bomber
+- Advanced Machine Tools (advanced_machine_tools): assembly_line_production
+- Advanced Oil Processing (advanced_oil_processing): modern_oil_processing
+- Advanced Rubber Processing (advanced_rubber_processing): modern_rubber_processing
+- Assembly Line Production (assembly_line_production): advanced_resource_recycling
+- Basic Machine Tools (basic_machine_tools): improved_machine_tools
+- Concentrated Industry (concentrated_industry): concentrated_industry2
+- Concentrated Industry2 (concentrated_industry2): concentrated_industry3
+- Concentrated Industry3 (concentrated_industry3): concentrated_industry4
+- Concentrated Industry4 (concentrated_industry4): concentrated_industry5
+- Construction Acceleration (logi_builder_path): infra_builder_A
+- Construction1 (construction1): construction2
+- Construction2 (construction2): construction3
+- Construction3 (construction3): construction4
+- Construction4 (construction4): construction5
+- Construction5 (construction5): excavation5
+- Dispersed Industry (dispersed_industry): dispersed_industry2
+- Dispersed Industry2 (dispersed_industry2): dispersed_industry3
+- Dispersed Industry3 (dispersed_industry3): dispersed_industry4
+- Dispersed Industry4 (dispersed_industry4): dispersed_industry5
+- Efficient Fleet Logistics I (dockyard_right_A): dockyard_right_B
+- Efficient Fleet Logistics II (dockyard_right_B): dockyard_right_C
+- Efficient Fleet Logistics III (dockyard_right_C): dockyard_right_D
+- Efficient Fleet Logistics IV (dockyard_right_D): dockyard_right_E
+- Expanded Civil Works I (infra_builder_A): infra_builder_B
+- Expanded Civil Works II (infra_builder_B): infra_builder_C
+- Expanded Civil Works III (infra_builder_C): infra_builder_D
+- Expanded Civil Works IV (infra_builder_D): infra_builder_E
+- Fortification Program I (bunker_builder_A): bunker_builder_B
+- Fortification Program II (bunker_builder_B): bunker_builder_C
+- Fortification Program III (bunker_builder_C): bunker_builder_D
+- Fortification Program IV (bunker_builder_D): bunker_builder_E
+- Fuel Refining (fuel_refining): fuel_refining2
+- Fuel Refining2 (fuel_refining2): fuel_refining3
+- Fuel Refining3 (fuel_refining3): fuel_refining4
+- Fuel Refining4 (fuel_refining4): fuel_refining5
+- Fuel Silos (fuel_silos): synth_oil_experiments
+- Improved Machine Tools (improved_machine_tools): advanced_machine_tools
+- Improved Oil Processing (improved_oil_processing): advanced_oil_processing
+- Improved Rubber Processing (improved_rubber_processing): advanced_rubber_processing
+- Naval Production Quota I (dockyard_left_A): dockyard_left_B
+- Naval Production Quota II (dockyard_left_B): dockyard_left_C
+- Naval Production Quota III (dockyard_left_C): dockyard_left_D
+- Naval Production Quota IV (dockyard_left_D): dockyard_left_E
+- Oil Processing (oil_processing): improved_oil_processing
+- Rubber Processing (rubber_processing): improved_rubber_processing
+- Streamlined Shipways (dockyard_path): dockyard_left_A
+- Synth Oil Experiments (synth_oil_experiments): oil_processing
+- Advanced Desert & Jungle Clothing (jngdst_clothes_1941): jngdst_clothes_1944
+- Advanced Infantry Weapons (advanced_infantry_weapons): advanced_infantry_weapons2
+- Advanced Special Forces (advanced_special_forces): extreme_environment_training, improved_special_forces
+- Advanced Winter Clothing (winter_clothes_1941): winter_clothes_1944
+- Amphibious Mechanized Infantry (amphibious_mechanized_infantry): amphibious_mechanized_infantry_2
+- Armored Car1 (armored_car1): armored_car2
+- Armored Car2 (armored_car2): armored_car3
+- Basic Uniforms (camo): camo1942
+- Desert & Jungle Clothing (jngdst_clothes_gw): jngdst_clothes_1939
+- Extreme Environment Training (extreme_environment_training): elite_forces
+- Hairpin bend ambushes (tech_mountaineer_mountain): tech_mountaineer_snow
+- High-Speed Motorization (motorised_B): motorised_C
+- Improved Desert & Jungle Clothing (jngdst_clothes_1939): jngdst_clothes_1941
+- Improved Infantry Weapons (improved_infantry_weapons): improved_infantry_weapons_2
+- I

@@ -1,0 +1,2928 @@
+{
+  "mod": "FUWG",
+  "tag": "AFG",
+  "country": "Afghanistan",
+  "treeId": "afghanistan_tree",
+  "sourceFile": "afghanistan.txt",
+  "focusCount": 203,
+  "focuses": [
+    {
+      "id": "AFG_expand_telegraph_network",
+      "name": "Expand Telegraph Network",
+      "description": "",
+      "x": -21,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_sugar_processing",
+      "name": "Sugar Processing",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_expand_telegraph_network"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_fruit_packing",
+      "name": "Fruit Packing",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_expand_telegraph_network"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_clear_malarial_swamps",
+      "name": "Clear Malarial Swamps",
+      "description": "",
+      "x": -8,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_expand_telegraph_network"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_qargha_dam",
+      "name": "Qargha Dam",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_clear_malarial_swamps"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_kajaki_dam",
+      "name": "Kajaki Dam",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_qargha_dam"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_iron_mines",
+      "name": "Iron Mines",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_kajaki_dam"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_chromite_mines",
+      "name": "Chromite Mines",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_kajaki_dam"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_modern_economy",
+      "name": "Modern Economy",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_iron_mines",
+        "AFG_chromite_mines"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_infrastructure_construction",
+      "name": "Infrastructure Construction",
+      "description": "",
+      "x": -5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_expand_telegraph_network"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_ministry_of_supply",
+      "name": "Ministry Of Supply",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_expand_telegraph_network"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_implement_currency_controls",
+      "name": "Implement Currency Controls",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_ministry_of_supply"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_expand_karakul_lambskin_industry",
+      "name": "Expand Karakul Lambskin Industry",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_fruit_packing",
+        "AFG_sugar_processing"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_spinzar_cotton_factory",
+      "name": "Spinzar Cotton Factory",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_expand_telegraph_network"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_look_to_other_partners",
+      "name": "Look To Other Partners",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_fruit_packing"
+      ],
+      "mutuallyExclusive": [
+        "AFG_renew_soviet_trade_agreement"
+      ],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_renew_soviet_trade_agreement",
+      "name": "Renew Soviet Trade Agreement",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_sugar_processing"
+      ],
+      "mutuallyExclusive": [
+        "AFG_look_to_other_partners"
+      ],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_salang_pass",
+      "name": "Salang Pass",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_renew_soviet_trade_agreement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_truck_factory",
+      "name": "Truck Factory",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_renew_soviet_trade_agreement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_75_year_oil_concessions",
+      "name": "75 Year Oil Concessions",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_look_to_other_partners"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_electrification",
+      "name": "Electrification",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_infrastructure_construction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_establish_radio_networks",
+      "name": "Establish Radio Networks",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_electrification"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_connect_the_cities",
+      "name": "Connect The Cities",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_infrastructure_construction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_rail_construction",
+      "name": "Rail Construction",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_connect_the_cities"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_expand_kabul_university",
+      "name": "Expand Kabul University",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_establish_radio_networks",
+        "AFG_rail_construction"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_state_industries",
+      "name": "State Industries",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_expand_kabul_university"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_maintain_quami",
+      "name": "Maintain Quami",
+      "description": "",
+      "x": 25,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "AFG_adopt_nufus"
+      ],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_asymmetric_warfare",
+      "name": "Asymmetric Warfare",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_maintain_quami"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_expand_quami_template",
+      "name": "Expand Quami Template",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_asymmetric_warfare"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_khyber_pass_riflining",
+      "name": "Khyber Pass Riflining",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_asymmetric_warfare"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_scavenging",
+      "name": "Scavenging",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_khyber_pass_riflining"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_militia_cavalry",
+      "name": "Militia Cavalry",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_khyber_pass_riflining"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_encourage_jezail_production",
+      "name": "Encourage Jezail Production",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_scavenging"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_mountain_training",
+      "name": "Mountain Training",
+      "description": "",
+      "x": 8,
+      "y": 3,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_khyber_pass_riflining",
+        "AFG_expand_academy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_mountain_training_2",
+      "name": "Mountain Training 2",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_mountain_training"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_cross_border_ties",
+      "name": "Cross Border Ties",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_militia_cavalry"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_adopt_nufus",
+      "name": "Adopt Nufus",
+      "description": "",
+      "x": 12,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "AFG_maintain_quami"
+      ],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_expand_border_guards",
+      "name": "Expand Border Guards",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_maintain_quami",
+        "AFG_adopt_nufus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_approach_foreign_inteligence_services",
+      "name": "Approach Foreign Inteligence Services",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_expand_border_guards"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_utilize_cameleers",
+      "name": "Utilize Cameleers",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_maintain_quami",
+        "AFG_adopt_nufus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_establish_camelry_regiments",
+      "name": "Establish Camelry Regiments",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_utilize_cameleers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_new_army",
+      "name": "New Army",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_adopt_nufus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_officialize_the_turkish_afghan_defense_treaty",
+      "name": "Officialize The Turkish Afghan Defense Treaty",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_adopt_nufus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_establish_naval_bases",
+      "name": "Establish Naval Bases",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_adopt_nufus"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_expand_academy",
+      "name": "Expand Academy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_new_army"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_purchase_tanks",
+      "name": "Purchase Tanks",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_expand_academy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_purchase_aircraft",
+      "name": "Purchase Aircraft",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_expand_academy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_foreign_military_advisors",
+      "name": "Foreign Military Advisors",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_expand_academy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_expand_standing_army",
+      "name": "Expand Standing Army",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_foreign_military_advisors"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_expand_equipment_purchases",
+      "name": "Expand Equipment Purchases",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_purchase_tanks"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_increase_air_purchases",
+      "name": "Increase Air Purchases",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_purchase_aircraft"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_prussians_of_the_orient",
+      "name": "Prussians Of The Orient",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_expand_standing_army",
+        "AFG_increase_air_purchases",
+        "AFG_expand_equipment_purchases"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_naval_academy",
+      "name": "Naval Academy",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_establish_naval_bases"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_shipyards",
+      "name": "Shipyards",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_establish_naval_bases"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_research_bonus_1",
+      "name": "Research Bonus 1",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_shipyards",
+        "AFG_naval_academy"
+      ],
+      "mutuallyExclusive": [
+        "AFG_purchase_destroyers"
+      ],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_purchase_destroyers",
+      "name": "Purchase Destroyers",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_shipyards",
+        "AFG_naval_academy"
+      ],
+      "mutuallyExclusive": [
+        "AFG_research_bonus_1"
+      ],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_research_bonus_2",
+      "name": "Research Bonus 2",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_research_bonus_1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_purchase_capital_ships",
+      "name": "Purchase Capital Ships",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_purchase_destroyers"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_against_kabul",
+      "name": "Against Kabul",
+      "description": "",
+      "x": 6,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "AFG_support_king_zahir"
+      ],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_contact_amanullah_loyalists",
+      "name": "Contact Amanullah Loyalists",
+      "description": "",
+      "x": -6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_against_kabul"
+      ],
+      "mutuallyExclusive": [
+        "AFG_remember_the_khost_rebellion"
+      ],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_remember_the_khost_rebellion",
+      "name": "Remember The Khost Rebellion",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_against_kabul"
+      ],
+      "mutuallyExclusive": [
+        "AFG_contact_amanullah_loyalists"
+      ],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_secure_army_support",
+      "name": "Secure Army Support",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_contact_amanullah_loyalists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_contact_rural_loyalists",
+      "name": "Contact Rural Loyalists",
+      "description": "",
+      "x": 6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_contact_amanullah_loyalists",
+        "AFG_remember_the_khost_rebellion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_hold_a_loya_jirga",
+      "name": "Hold A Loya Jirga",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_contact_rural_loyalists"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_request_german_support",
+      "name": "Request German Support",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_contact_amanullah_loyalists",
+        "AFG_remember_the_khost_rebellion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_invite_waziristan_rebels",
+      "name": "Invite Waziristan Rebels",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_remember_the_khost_rebellion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_stir_unrest_in_the_east",
+      "name": "Stir Unrest In The East",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_remember_the_khost_rebellion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_the_faqirs_revolt",
+      "name": "The Faqirs Revolt",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_stir_unrest_in_the_east",
+        "AFG_invite_waziristan_rebels"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_request_japanese_support",
+      "name": "Request Japanese Support",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_remember_the_khost_rebellion"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_crown_the_golden_emir",
+      "name": "Crown The Golden Emir",
+      "description": "",
+      "x": -4,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_the_faqirs_revolt"
+      ],
+      "mutuallyExclusive": [
+        "AFG_crown_the_bukharan_emir",
+        "AFG_invite_the_mughal_prince"
+      ],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_crown_the_bukharan_emir",
+      "name": "Crown The Bukharan Emir",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_the_faqirs_revolt"
+      ],
+      "mutuallyExclusive": [
+        "AFG_crown_the_golden_emir",
+        "AFG_invite_the_mughal_prince"
+      ],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_invite_the_mughal_prince",
+      "name": "Invite The Mughal Prince",
+      "description": "",
+      "x": 4,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_the_faqirs_revolt"
+      ],
+      "mutuallyExclusive": [
+        "AFG_crown_the_golden_emir",
+        "AFG_crown_the_bukharan_emir"
+      ],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_unify_the_islamic_world",
+      "name": "Unify The Islamic World",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_the_faqirs_revolt"
+      ],
+      "mutuallyExclusive": [
+        "AFG_extend_a_hand_to_tokyo"
+      ],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_extend_a_hand_to_tokyo",
+      "name": "Extend A Hand To Tokyo",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_the_faqirs_revolt"
+      ],
+      "mutuallyExclusive": [
+        "AFG_unify_the_islamic_world"
+      ],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_expand_the_madrasas",
+      "name": "Expand The Madrasas",
+      "description": "",
+      "x": 9,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_the_faqirs_revolt"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_promote_muslim_work_ethic",
+      "name": "Promote Muslim Work Ethic",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_expand_the_madrasas"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_rehabilitate_the_saqqawists",
+      "name": "Rehabilitate The Saqqawists",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_expand_the_madrasas"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_ulugh_beg_academy",
+      "name": "Ulugh Beg Academy",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_rehabilitate_the_saqqawists",
+        "AFG_promote_muslim_work_ethic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_prepare_the_war_industries",
+      "name": "Prepare The War Industries",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_rehabilitate_the_saqqawists",
+        "AFG_promote_muslim_work_ethic"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_revive_the_workshop_of_the_world",
+      "name": "Revive The Workshop Of The World",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_prepare_the_war_industries",
+        "AFG_ulugh_beg_academy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_reorganize_the_royal_guard",
+      "name": "Reorganize The Royal Guard",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_expand_the_madrasas"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_reintroduce_heavy_cavalry",
+      "name": "Reintroduce Heavy Cavalry",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_reorganize_the_royal_guard"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_reintroduce_war_elephants",
+      "name": "Reintroduce War Elephants",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_reorganize_the_royal_guard"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_timurid_bureaucracy",
+      "name": "Timurid Bureaucracy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_invite_the_mughal_prince"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_hone_the_shamshir",
+      "name": "Hone The Shamshir",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_invite_the_mughal_prince",
+        "AFG_crown_the_bukharan_emir"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_restore_herat",
+      "name": "Restore Herat",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_crown_the_bukharan_emir"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_integrate_the_basmachi_movement",
+      "name": "Integrate The Basmachi Movement",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_restore_herat"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_proclaim_the_second_afghan_empire",
+      "name": "Proclaim The Second Afghan Empire",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_restore_herat",
+        "AFG_hone_the_shamshir"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_ally_the_brahui_khanate",
+      "name": "Ally The Brahui Khanate",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_integrate_the_basmachi_movement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_the_echoes_of_panipat",
+      "name": "The Echoes Of Panipat",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_proclaim_the_second_afghan_empire",
+        "AFG_integrate_the_basmachi_movement"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_the_amu_darya_plan",
+      "name": "The Amu Darya Plan",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_the_echoes_of_panipat"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_reclaim_the_emperors_lost_domain",
+      "name": "Reclaim The Emperors Lost Domain",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_the_amu_darya_plan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_return_to_delhi",
+      "name": "Return To Delhi",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_timurid_bureaucracy",
+        "AFG_hone_the_shamshir"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_reclaim_moghulistan",
+      "name": "Reclaim Moghulistan",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_invite_the_mughal_prince"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_ally_the_sikhs",
+      "name": "Ally The Sikhs",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_timurid_bureaucracy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_the_conquerors_of_persia",
+      "name": "The Conquerors Of Persia",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_proclaim_the_second_afghan_empire",
+        "AFG_return_to_delhi"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_reclaim_transoxiana",
+      "name": "Reclaim Transoxiana",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_return_to_delhi"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_rebuild_the_silk_road",
+      "name": "Rebuild The Silk Road",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_return_to_delhi"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_restore_the_timurid_empire",
+      "name": "Restore The Timurid Empire",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_rebuild_the_silk_road"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_the_crown_and_the_world",
+      "name": "The Crown And The World",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_restore_the_timurid_empire"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_enforce_the_pashtunwali",
+      "name": "Enforce The Pashtunwali",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_crown_the_golden_emir"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_form_the_khuddamul_furqan",
+      "name": "Form The Khuddamul Furqan",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_crown_the_golden_emir"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_instate_a_compulsory_jizya",
+      "name": "Instate A Compulsory Jizya",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_form_the_khuddamul_furqan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_raise_lashkar_regiments",
+      "name": "Raise Lashkar Regiments",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_crown_the_golden_emir"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_support_nort_west_frontier_rebels",
+      "name": "Support Nort West Frontier Rebels",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_form_the_khuddamul_furqan",
+        "AFG_enforce_the_pashtunwali"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_appraoch_anti_communist_theologians",
+      "name": "Appraoch Anti Communist Theologians",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_support_nort_west_frontier_rebels"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_unite_pashtunistan",
+      "name": "Unite Pashtunistan",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_appraoch_anti_communist_theologians"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_form_the_turkestan_legion",
+      "name": "Form The Turkestan Legion",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_appraoch_anti_communist_theologians"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_proclaim_a_new_caliphate",
+      "name": "Proclaim A New Caliphate",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_unite_pashtunistan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_return_of_the_emir",
+      "name": "Return Of The Emir",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_secure_army_support"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_revive_the_1923_constitution",
+      "name": "Revive The 1923 Constitution",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_return_of_the_emir"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_education_for_women_and_girls",
+      "name": "Education For Women And Girls",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_revive_the_1923_constitution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_enforce_western_attire",
+      "name": "Enforce Western Attire",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_revive_the_1923_constitution"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_expand_state_run_factories",
+      "name": "Expand State Run Factories",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_enforce_western_attire"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_reinforce_the_royal_guard",
+      "name": "Reinforce The Royal Guard",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_education_for_women_and_girls",
+        "AFG_enforce_western_attire"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_custail_pashtunwali_primacy",
+      "name": "Custail Pashtunwali Primacy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_reinforce_the_royal_guard"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_agreement_with_germany",
+      "name": "Agreement With Germany",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_custail_pashtunwali_primacy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_renounce_the_durand_line",
+      "name": "Renounce The Durand Line",
+      "description": "",
+      "x": 4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_custail_pashtunwali_primacy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_eyes_on_the_north",
+      "name": "Eyes On The North",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_custail_pashtunwali_primacy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_alliance_with_turkik_peoples",
+      "name": "Alliance With Turkik Peoples",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_eyes_on_the_north"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_red_threat",
+      "name": "Red Threat",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_alliance_with_turkik_peoples"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_fortify_pakistan",
+      "name": "Fortify Pakistan",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_renounce_the_durand_line"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_into_the_plains_of_india",
+      "name": "Into The Plains Of India",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_fortify_pakistan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_work_with_gestapo",
+      "name": "Work With Gestapo",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_agreement_with_germany"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_pashtun_empire",
+      "name": "Pashtun Empire",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_into_the_plains_of_india",
+        "AFG_red_threat"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_ally_basmachi_remnants",
+      "name": "Ally Basmachi Remnants",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_custail_pashtunwali_primacy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_from_the_ashes",
+      "name": "From The Ashes",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_custail_pashtunwali_primacy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_exploit_turko_persian_heritage",
+      "name": "Exploit Turko Persian Heritage",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_from_the_ashes"
+      ],
+      "mutuallyExclusive": [
+        "AFG_topple_iran"
+      ],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_topple_iran",
+      "name": "Topple Iran",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_from_the_ashes"
+      ],
+      "mutuallyExclusive": [
+        "AFG_exploit_turko_persian_heritage"
+      ],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_secure_baghdad",
+      "name": "Secure Baghdad",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_exploit_turko_persian_heritage",
+        "AFG_topple_iran"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_savior_of_the_holy_lands",
+      "name": "Savior Of The Holy Lands",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_secure_baghdad"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_increase_land_and_animal_taxes",
+      "name": "Increase Land And Animal Taxes",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_expand_state_run_factories"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_establish_darulaman",
+      "name": "Establish Darulaman",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_education_for_women_and_girls"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_darulaman_university",
+      "name": "Darulaman University",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_establish_darulaman"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_alternative_partnerships",
+      "name": "Alternative Partnerships",
+      "description": "",
+      "x": 27,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_officer_training",
+      "name": "Officer Training",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_alternative_partnerships"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_permit_axis_airbases",
+      "name": "Permit Axis Airbases",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_alternative_partnerships"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_join_axis",
+      "name": "Join Axis",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_permit_axis_airbases",
+        "AFG_officer_training"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_axis_airforce",
+      "name": "Axis Airforce",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_permit_axis_airbases"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_axis_equipment",
+      "name": "Axis Equipment",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_officer_training"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_kabul_conference",
+      "name": "Kabul Conference",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_join_axis"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_support_king_zahir",
+      "name": "Support King Zahir",
+      "description": "",
+      "x": -17,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [
+        "AFG_against_kabul"
+      ],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_biding_our_time",
+      "name": "Biding Our Time",
+      "description": "",
+      "x": 5,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_support_king_zahir"
+      ],
+      "mutuallyExclusive": [
+        "AFG_expand_the_kings_powerbase"
+      ],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_expand_the_kings_powerbase",
+      "name": "Expand The Kings Powerbase",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_support_king_zahir"
+      ],
+      "mutuallyExclusive": [
+        "AFG_biding_our_time"
+      ],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_forge_a_national_identity",
+      "name": "Forge A National Identity",
+      "description": "",
+      "x": -6,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_expand_the_kings_powerbase",
+        "AFG_biding_our_time"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_visit_foreign_capitals",
+      "name": "Visit Foreign Capitals",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_expand_the_kings_powerbase",
+        "AFG_biding_our_time"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_expand_royal_guard",
+      "name": "Expand Royal Guard",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_visit_foreign_capitals"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_retire_the_uncles",
+      "name": "Retire The Uncles",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_expand_the_kings_powerbase"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_introduce_national_service",
+      "name": "Introduce National Service",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_visit_foreign_capitals"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_placeholder_1",
+      "name": "Placeholder 1",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_biding_our_time"
+      ],
+      "mutuallyExclusive": [
+        "AFG_seek_british_investment"
+      ],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_seek_british_investment",
+      "name": "Seek British Investment",
+      "description": "",
+      "x": 1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_biding_our_time"
+      ],
+      "mutuallyExclusive": [
+        "AFG_placeholder_1"
+      ],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_reform_2",
+      "name": "Reform 2",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_placeholder_1",
+        "AFG_seek_british_investment"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_secure_dynasty",
+      "name": "Secure Dynasty",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_reform_2"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_maintain_neutrality",
+      "name": "Maintain Neutrality",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_secure_dynasty"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_expel_axis_nationals",
+      "name": "Expel Axis Nationals",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_maintain_neutrality"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_expel_allied_nationals",
+      "name": "Expel Allied Nationals",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_maintain_neutrality"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_pursue_our_own_agenda",
+      "name": "Pursue Our Own Agenda",
+      "description": "",
+      "x": -5,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_align_with_the_allies",
+      "name": "Align With The Allies",
+      "description": "",
+      "x": -5,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_anti_soviet_cooperation",
+      "name": "Anti Soviet Cooperation",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_pursue_our_own_agenda",
+        "AFG_align_with_the_allies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_protector_of_the_tajiks",
+      "name": "Protector Of The Tajiks",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_anti_soviet_cooperation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_propose_confederation_with_pakistan",
+      "name": "Propose Confederation With Pakistan",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_pursue_our_own_agenda"
+      ],
+      "mutuallyExclusive": [
+        "AFG_afghan_pakistan_cold_War"
+      ],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_afghan_pakistan_cold_War",
+      "name": "Afghan Pakistan Cold War",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_pursue_our_own_agenda"
+      ],
+      "mutuallyExclusive": [
+        "AFG_propose_confederation_with_pakistan"
+      ],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_graveyard_of_empires",
+      "name": "Graveyard Of Empires",
+      "description": "",
+      "x": 3,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_pursue_our_own_agenda",
+        "AFG_alternative_partnerships"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_hot_war_with_pakistan",
+      "name": "Hot War With Pakistan",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_afghan_pakistan_cold_War"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_accelerate_integration",
+      "name": "Accelerate Integration",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_propose_confederation_with_pakistan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_prepare_for_operation_countenance",
+      "name": "Prepare For Operation Countenance",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_align_with_the_allies"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_secure_iran",
+      "name": "Secure Iran",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_prepare_for_operation_countenance"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_repeal_the_durand_line",
+      "name": "Repeal The Durand Line",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_secure_iran"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_future_of_balochistan",
+      "name": "Future Of Balochistan",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_secure_iran"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_khorasan_buffer_state",
+      "name": "Khorasan Buffer State",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_secure_iran"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_linchpin_of_global_defense",
+      "name": "Linchpin Of Global Defense",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_repeal_the_durand_line",
+        "AFG_future_of_balochistan"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_promote_the_counter_elite",
+      "name": "Promote The Counter Elite",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_retire_the_uncles"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_gant_refuge_to_jadidists",
+      "name": "Gant Refuge To Jadidists",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_promote_the_counter_elite"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_ally_the_young_afghans",
+      "name": "Ally The Young Afghans",
+      "description": "",
+      "x": -4,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_promote_the_counter_elite"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_parliamentary_democracy",
+      "name": "Parliamentary Democracy",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_promote_the_counter_elite"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_gain_religious_support_for_reforms",
+      "name": "Gain Religious Support For Reforms",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_promote_the_counter_elite"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_reform_1",
+      "name": "Reform 1",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_parliamentary_democracy",
+        "AFG_gain_religious_support_for_reforms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_hold_elections",
+      "name": "Hold Elections",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_parliamentary_democracy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_reform_3",
+      "name": "Reform 3",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_reform_1",
+        "AFG_hold_elections"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_concessions_to_pashtuns",
+      "name": "Concessions To Pashtuns",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_reform_3"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_reform_4",
+      "name": "Reform 4",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_reform_1"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_recruit_foreign_experts",
+      "name": "Recruit Foreign Experts",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_reform_1",
+        "AFG_gain_religious_support_for_reforms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_seek_american_aid",
+      "name": "Seek American Aid",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_recruit_foreign_experts"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_rapprochement_with_non_pashtuns",
+      "name": "Rapprochement With Non Pashtuns",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_reform_4"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_defending_democracy",
+      "name": "Defending Democracy",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_rapprochement_with_non_pashtuns"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_follower_of_islam",
+      "name": "Follower Of Islam",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_defending_democracy",
+        "AFG_seek_american_aid"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_republic_of_afghanistan",
+      "name": "Republic Of Afghanistan",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_defending_democracy",
+        "AFG_concessions_to_pashtuns"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_sinkiang_intervention",
+      "name": "Sinkiang Intervention",
+      "description": "",
+      "x": 0,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_defending_democracy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_socialist_coup",
+      "name": "Socialist Coup",
+      "description": "",
+      "x": -9,
+      "y": 0,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_truck_factory",
+        "AFG_salang_pass",
+        "AFG_promote_the_counter_elite"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_occupation_of_peshawar",
+      "name": "Occupation Of Peshawar",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_socialist_coup"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_repay_the_raj",
+      "name": "Repay The Raj",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_occupation_of_peshawar"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_international_brigades",
+      "name": "International Brigades",
+      "description": "",
+      "x": 3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_socialist_coup",
+        "AFG_parliamentary_democracy"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_state_atheism",
+      "name": "State Atheism",
+      "description": "",
+      "x": -1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_socialist_coup"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_soviet_research_cooperation",
+      "name": "Soviet Research Cooperation",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_socialist_coup"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_communist_industrialization",
+      "name": "Communist Industrialization",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_state_atheism",
+        "AFG_soviet_research_cooperation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_communist_propaganda",
+      "name": "Communist Propaganda",
+      "description": "",
+      "x": 1,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_communist_industrialization"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_support_soviets_in_asia",
+      "name": "Support Soviets In Asia",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_state_atheism",
+        "AFG_soviet_research_cooperation"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_integrate_tajik_and_uzbek_republics",
+      "name": "Integrate Tajik And Uzbek Republics",
+      "description": "",
+      "x": -1,
+      "y": 2,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_communist_industrialization",
+        "AFG_support_soviets_in_asia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_sov_iran_war",
+      "name": "Sov Iran War",
+      "description": "",
+      "x": -3,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_support_soviets_in_asia"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_development_in_uzb",
+      "name": "Development In Uzb",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_integrate_tajik_and_uzbek_republics"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_development_in_taj",
+      "name": "Development In Taj",
+      "description": "",
+      "x": 2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_integrate_tajik_and_uzbek_republics"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_development_in_tms",
+      "name": "Development In Tms",
+      "description": "",
+      "x": 0,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_integrate_tajik_and_uzbek_republics"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "AFG_central_asian_unification",
+      "name": "Central Asian Unification",
+      "description": "",
+      "x": -2,
+      "y": 1,
+      "cost": 5,
+      "prerequisites": [
+        "AFG_development_in_taj",
+        "AFG_development_in_uzb",
+        "AFG_development_in_tms"
+      ],
+      "mutuallyExclusive": [],
+      "source": "afghanistan.txt",
+      "shared": false
+    },
+    {
+      "id": "SSB_the_saadabad_pact",
+      "name": "The Saadabad Pact",
+      "description": "",
+      "x": null,
+      "y": null,
+      "cost": null,
+      "prerequisites": [],
+      "mutuallyExclusive": [],
+      "source": "shared_reference",
+      "shared": true
+    }
+  ]
+}
