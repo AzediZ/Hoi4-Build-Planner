@@ -1715,3 +1715,93 @@ if (document.readyState === "loading") {
   setTimeout(removeDefaultResearchStarterRows, 0);
   setTimeout(removeDefaultResearchStarterRows, 100);
 }
+
+
+function clearAllResearchRowsHard() {
+  for (let i = 1; i <= 8; i += 1) {
+    const table = document.getElementById(`researchSlot${i}Table`);
+    const body = table?.querySelector("tbody");
+    if (body) body.innerHTML = "";
+    if (typeof renumberTable === "function" && table) renumberTable(table);
+  }
+}
+
+function isOnlyStarterResearchRowsPresent() {
+  const rows = Array.from(document.querySelectorAll('[id^="researchSlot"][id$="Table"] tbody tr'));
+  if (!rows.length) return false;
+
+  const values = rows.map((row) => ({
+    tech: String(row.querySelector('[data-field="tech"]')?.value || "").trim(),
+    when: String(row.querySelector('[data-field="when"]')?.value || "").trim(),
+    notes: String(row.querySelector('[data-field="notes"]')?.value || "").trim()
+  }));
+
+  return values.every((row) => {
+    return (
+      row.tech === "Basic Machine Tools" ||
+      row.tech === "Construction I" ||
+      row.notes === "Standard industry opener." ||
+      row.notes === "Early industry/construction scaling."
+    );
+  });
+}
+
+function removeStarterResearchRowsHard() {
+  document.querySelectorAll('[id^="researchSlot"][id$="Table"] tbody tr').forEach((row) => {
+    const tech = String(row.querySelector('[data-field="tech"]')?.value || "").trim();
+    const notes = String(row.querySelector('[data-field="notes"]')?.value || "").trim();
+
+    if (
+      tech === "Basic Machine Tools" ||
+      tech === "Construction I" ||
+      notes === "Standard industry opener." ||
+      notes === "Early industry/construction scaling."
+    ) {
+      row.remove();
+    }
+  });
+
+  for (let i = 1; i <= 8; i += 1) {
+    const table = document.getElementById(`researchSlot${i}Table`);
+    if (typeof renumberTable === "function" && table) renumberTable(table);
+  }
+}
+
+function scheduleRemoveStarterResearchRowsHard() {
+  // Run after the app's own startup/default loading has completed.
+  removeStarterResearchRowsHard();
+  setTimeout(removeStarterResearchRowsHard, 0);
+  setTimeout(removeStarterResearchRowsHard, 50);
+  setTimeout(removeStarterResearchRowsHard, 250);
+  setTimeout(removeStarterResearchRowsHard, 1000);
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", scheduleRemoveStarterResearchRowsHard);
+} else {
+  scheduleRemoveStarterResearchRowsHard();
+}
+
+
+function bindHardNewButtonResearchClear() {
+  const buttons = Array.from(document.querySelectorAll("button"));
+  const newButtons = buttons.filter((button) => {
+    const text = String(button.textContent || "").trim().toLowerCase();
+    return text === "new" || button.id?.toLowerCase?.().includes("new");
+  });
+
+  newButtons.forEach((button) => {
+    if (button.dataset.emptyResearchBound === "1") return;
+    button.dataset.emptyResearchBound = "1";
+    button.addEventListener("click", () => {
+      setTimeout(removeStarterResearchRowsHard, 0);
+      setTimeout(removeStarterResearchRowsHard, 100);
+    });
+  });
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", bindHardNewButtonResearchClear);
+} else {
+  bindHardNewButtonResearchClear();
+}

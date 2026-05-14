@@ -1,0 +1,9 @@
+Empty research hardfix report
+
+Patched files:
+- renderer.js
+
+Remaining JS references are expected only in cleanup/fallback code:
+- renderer.js: addResearchRow x1
+- renderer.js: Basic Machine Tools x3
+- renderer.js: Construction I x3
